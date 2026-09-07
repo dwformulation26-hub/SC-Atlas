@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T00:14:58+00:00",
+  "generated_at": "2026-09-07T00:15:41+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -159,7 +159,7 @@
           "relevance": "Medium",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": true
+          "new_in_digest": false
         },
         {
           "deal_id": "eisai_biogen_leqembiiqlik_launch_2026-08-24",
@@ -1322,7 +1322,7 @@
       "relevance": "Medium",
       "confidence": "Primary",
       "flagged": false,
-      "new_in_digest": true,
+      "new_in_digest": false,
       "technology_id": "eisai_biogen_leqembi_iqlik_sc",
       "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
     },

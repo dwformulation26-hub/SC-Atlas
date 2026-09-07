@@ -1,0 +1,536 @@
+{
+  "run_date": "2026-09-07",
+  "window": {
+    "from": "2026-09-04T09:13:11+09:00",
+    "to": "2026-09-07T09:09:31+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Post-gap Monday run. Previous run completed 2026-09-04T09:13:11+09:00 (Fri). No run occurred over the weekend, so per the Monday/post-gap rule this window is extended back to the last completed run (~72h) rather than capped at 24h, to cover Sat/Sun disclosures."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "XeriJect OR Microglassification OR Nanoform OR Crystalomics OR InventageLab OR IDC224 subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출 9월"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" deal OR patent OR license September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" technology biologics September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal September 2026 / hyaluronidase SC formulation deal 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration September 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Registry sweep: ClinicalTrials.gov / FDA.gov for tracked technologies (NCT07646548 dupilumab+berahyaluronidase alfa; Lunsumio VELO+Polivy sBLA)"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 9월"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 2026 / 특허청 히알루로니다제 고농도 제형 특허"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "supplemental sweep: WuXi Biologics WuXiHigh subcutaneous high concentration September 2026"
+    },
+    {
+      "tier": 0,
+      "lang": "zh",
+      "query": "supplemental sweep: 成都荣盛 天坦 微安 皮下注射 高浓度"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "supplemental sweep: Surf Bio SnapShot Halozyme subcutaneous September 2026"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "supplemental sweep: 지투지바이오 이노바이오램프 피하주사 고농도"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "supplemental sweep: 삼성바이오로직스 S-HiCon 피하주사"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "supplemental sweep: Genentech Roche unbranded subcutaneous reformulation high concentration September 2026"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "supplemental sweep: Sanofi Sarclisa Escena isatuximab subcutaneous September 2026"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "supplemental sweep: BRL Ipca high concentration subcutaneous platform 2026"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "supplemental sweep: Xeris XeriJect deal news September 2026"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "supplemental sweep: Lindy Biosciences Microglassification deal partnership September 2026"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "supplemental sweep: 아미코젠 피하주사 제형용 인간 히알루로니다제 특허 출원"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "supplemental sweep: 휴온스랩 하이디자임 생물의약품허가 신청"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "supplemental sweep: 피하주사 고농도 9월 5일/6일/7일 2026 (date-scoped)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "supplemental sweep: subcutaneous high concentration antibody news September 5 2026 (date-scoped)"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme Announces Global Collaboration and License Agreement with Incyte (ENHANZE/INCA033989)",
+      "published": "2026-07-XX",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Would serve the tracker's concentration/volume question via ENHANZE, but event is dated July 2026.",
+      "verdict": "reject",
+      "reject_reason": "Out of window (published ~July 2026); already logged as deal_id halozyme_incyte_2026-07 in existing DB.",
+      "event_key": "halozyme_incyte_2026-07",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme and Vertex sign deal for Hypercon technology",
+      "published": "2026-04-XX",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Directly on Hypercon's concentration-reduction claim, but out of window.",
+      "verdict": "reject",
+      "reject_reason": "Out of window (April 2026); already logged as deal_id halozyme_vertex_2026-04.",
+      "event_key": "halozyme_vertex_2026-04",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme to Report Q2 2026 Financial Results / Investor Conference participation (Wells Fargo Sept 9)",
+      "published": "2026-09-02",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "N/A - fails Gate B before alignment matters.",
+      "verdict": "reject",
+      "reject_reason": "Gate B: financial-results/investor-conference-attendance announcement, not a discrete platform/deal/regulatory event.",
+      "event_key": "halozyme_ir_conf_2026-09",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen Enters Option and License Agreement with Novartis for Hybrozyme-Enabled SC Products ($3.223B)",
+      "published": "2026-09-02",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Core to the tracker's question (Hybrozyme SC conversion economics), but dated Sept 2 - before this window opens.",
+      "verdict": "reject",
+      "reject_reason": "Out of window (Sept 2, found/logged Sept 3); already logged as deal_id alteogen_novartis_2026-09.",
+      "event_key": "alteogen_novartis_2026-09",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.koreabiomed.com/news/articleView.html?idxno=30102",
+        "https://www.contractpharma.com/breaking-news/alteogen-signs-3-2b-alt-b4-licensing-deal-with-novartis/"
+      ]
+    },
+    {
+      "raw_title": "InventageLab CEO interview: MTAs signed with domestic partners for IVL-BioFluidic verification",
+      "published": "2026-09-02",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "On-topic (IVL-BioFluidic SC conversion platform validation) but dated before window opens.",
+      "verdict": "reject",
+      "reject_reason": "Out of window (Sept 2, found/logged Sept 3); already logged as deal_id inventagelab_domestic-mta_2026-09-02.",
+      "event_key": "inventagelab_domestic-mta_2026-09-02",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Eisai/Biogen: China NMPA approves LEQEMBI IQLIK SC formulation",
+      "published": "2026-09-03",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Geographic expansion of an already-tracked concentration claim (200mg/mL SC vs 100mg/mL IV), but dated before window opens.",
+      "verdict": "reject",
+      "reject_reason": "Out of window (Sept 3); already logged as deal_id eisai_biogen_leqembiiqlik_china-approval_2026-09-03.",
+      "event_key": "eisai_biogen_leqembiiqlik_china-approval_2026-09-03",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Ionic-liquid high-concentration antibody formulation (Erdi et al., Advanced Materials)",
+      "published": "2026-02-04",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Would pass Gate A/B/C as academic formulation science on the tracker's core question, but publication predates window by ~7 months.",
+      "verdict": "context",
+      "reject_reason": "Out of window (e-pub Feb 4, 2026); no company/deal tie-in to a tracked technology; not currently a tracked academic entry.",
+      "event_key": "erdi_ionic_liquid_2026-02",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "MIT solvent-dehydration hydrogel microparticle antibody formulation follow-up coverage (Zheng et al., Advanced Materials)",
+      "published": "2025-11-XX",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Already the tracked academic_solvent_dehydration_hydrogel technology.",
+      "verdict": "reject",
+      "reject_reason": "Duplicate of existing technology id academic_solvent_dehydration_hydrogel (added 2026-07-13); no new dated event found this run.",
+      "event_key": "mit_solvent_dehydration_existing",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "JSKN016HC (Alphamab Oncology bispecific ADC) SC high-concentration liquid formulation, Ph1b China / Ph1 Australia",
+      "published": "2026 (ongoing, no new dated event)",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "On-topic (high-concentration liquid ADC for low-volume SC) but no new discrete dated event this window - trials described as 'ongoing'.",
+      "verdict": "reject",
+      "reject_reason": "Gate B: no new discrete dated event found in window; technology already tracked as alphamab_sc_hc_platform (deals alphamab_jskn033_cde-phase3_2026-08, alphamab_pathosai_jskn016_2026-08 both dated Aug 19).",
+      "event_key": "alphamab_jskn016hc_existing",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Corstasis Therapeutics: USPTO allows patent for SC bumetanide programs RSQ-786/RSQ-789",
+      "published": "2025-09-02",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "secondary",
+      "gate_d": "n/a",
+      "gate_e": "N/A - fails Gate A.",
+      "verdict": "reject",
+      "reject_reason": "Gate A: bumetanide is a small-molecule diuretic, not a biologic/antibody; device-only (multidose pen / smart infusion system) with no concentration or volume claim - standing device-only-conversion exclusion. Also out of window (Sept 2025).",
+      "event_key": "corstasis_rsq_bumetanide",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Roche/Genentech: FDA accepts sBLA for SC Lunsumio VELO + Polivy (mosunetuzumab) in R/R LBCL",
+      "published": "2026-06-17",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "N/A - fails Gate A.",
+      "verdict": "reject",
+      "reject_reason": "Gate A: device-only IV-to-SC conversion (on-body injector/VELO delivery), no concentration or injected-volume claim reported - standing device-only-conversion exclusion. Also out of window (June 2026).",
+      "event_key": "roche_lunsumio_velo_sbla",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Sanofi/Regeneron Phase 1 trial NCT07646548: SC dupilumab coformulated with berahyaluronidase alfa (ALT-B4) vs. dupilumab alone",
+      "published": "2026-07 (dosing completed Jul 23, 2026; status verified Jul 2026)",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "conflict",
+      "gate_e": "Directly on-point: ties Alteogen's ALT-B4 platform to the Dupixent benchmark for a co-formulated high-volume/high-concentration SC study.",
+      "verdict": "context",
+      "reject_reason": "Out of window (dosing completed July 23, 2026; ClinicalTrials.gov record verified/updated July 2026, before window opens). Underlying Alteogen-Sanofi-Dupixent relationship already tracked as deal_id alteogen_sanofi_2026-06 (June 2026) and technology sanofi_sarclisa_escena_sc/alt-b4_hybrozyme; this trial record deepens but does not contradict that entry - noted here for awareness, not logged as a correction since nothing on file is factually wrong.",
+      "event_key": "sanofi_dupilumab_altb4_trial",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Amicogen (아미코젠) neutral-pH recombinant human hyaluronidase variant patent for SC formulations (non-PH20)",
+      "published": "2024-2025 (multiple prior articles resurfaced)",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "On-point: a genuinely untracked Korean hyaluronidase-platform competitor to Halozyme/Alteogen, but all located coverage predates the window by 1-2 years.",
+      "verdict": "context",
+      "reject_reason": "Out of window (articles dated 2024-04 through 2025-04); no Sept 2026 dated event found for Amicogen this run. Flagged for future tracking if a dated 2026 event (deal, patent grant, clinical filing) surfaces.",
+      "event_key": "amicogen_hyaluronidase_patent",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Huons Lab: 하이디자임주 (HYDIZYME) rHuPH20 biosimilar-style enzyme BLA filing with MFDS",
+      "published": "2025-12-22 (filed); follow-up coverage through Feb/Jul 2026",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "On-point (independent rHuPH20 competitor to Halozyme) but filing predates window by many months.",
+      "verdict": "reject",
+      "reject_reason": "Out of window (BLA filed Dec 22, 2025); technology already tracked as huonslab_hydiffuze with most recent dated event (11-antibody SC composition patents) logged Aug 31, 2026 (date_found) - before this window opens, not duplicated here.",
+      "event_key": "huonslab_hydizyme_bla",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Biologics S-HiCon high-concentration formulation platform - general platform background",
+      "published": "2024-09 (BIO JAPAN launch)",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "N/A - no dated event this window.",
+      "verdict": "reject",
+      "reject_reason": "Gate B: no new discrete dated event found this run beyond the already-tracked platform launch/background.",
+      "event_key": "samsungbio_s-hicon_background",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "G2G Bio InnoBioLAMP - Celltrion collaboration background coverage",
+      "published": "2026-07-30 (existing collaboration)",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "On-point (ultra-high-concentration antibody SC platform) but this is the already-logged MOU.",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already logged as deal under technology_id g2gbio_innobiolamp (partner Celltrion, MOU/MTA); no new dated event this window.",
+      "event_key": "g2gbio_celltrion_existing",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Chengdu Rongsheng Tiantan Weian - 20% SC human immunoglobulin, China's first, NMPA approval",
+      "published": "2026-06-10",
+      "lang": "zh",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "On-point (20% high-concentration SC immunoglobulin) but approval predates window by ~3 months.",
+      "verdict": "reject",
+      "reject_reason": "Out of window (approved June 2026); already logged under technology_id chengdu_rongsheng_tiantan_weian.",
+      "event_key": "chengdu_rongsheng_existing",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Ipca Laboratories - Bhami's Research Laboratory (BRL) global licensing collaboration for HC SC biologics platform",
+      "published": "2026-06-12",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "On-point (HC SC biologics delivery platform licensing) but announced in June 2026.",
+      "verdict": "reject",
+      "reject_reason": "Out of window (announced June 12, 2026); already logged under technology_id brl_hc_sc_platform.",
+      "event_key": "ipca_brl_existing",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Sanofi Sarclisa Escena (isatuximab, on-body injector) - FDA approval",
+      "published": "2026-07-09",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "On-point (Escena on-body injector for high-volume SC delivery, already tracked benchmark-adjacent tech) but out of window.",
+      "verdict": "reject",
+      "reject_reason": "Out of window (approved July 9, 2026); already logged under technology_id sanofi_sarclisa_escena_sc.",
+      "event_key": "sanofi_sarclisa_escena_existing",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Xeris Biopharma / Regeneron XeriJect research evaluation + option agreement",
+      "published": "prior to 2026 (undated in current coverage)",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "On-point (XeriJect ultra-high-concentration SC platform) but this is the already-tracked Regeneron deal.",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already logged as a XeriJect deal (partner Regeneron) in existing DB; no new dated event this window.",
+      "event_key": "xeris_regeneron_existing",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Lindy Biosciences / Novartis Microglassification licensing deal",
+      "published": "2024-08-27",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "On-point (Microglassification HC SC platform) but announced August 2024.",
+      "verdict": "reject",
+      "reject_reason": "Out of window by ~2 years; background only, no new dated event this run.",
+      "event_key": "lindy_novartis_background",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "General framing articles: Celltrion/Samsung Bioepis SC formulation high-concentration competitive landscape (explainer pieces)",
+      "published": "undated / evergreen",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "N/A - fails Gate B.",
+      "verdict": "reject",
+      "reject_reason": "Gate B: undated trend/explainer articles on SC formulation competition, no discrete dated event.",
+      "event_key": "kr_sc_landscape_explainer",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Academic reviews: high-concentration/high-viscosity SC antibody formulation review articles (multiple journals)",
+      "published": "various 2025-2026, none in window",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "N/A - fails Gate B.",
+      "verdict": "reject",
+      "reject_reason": "Gate B: undated review/perspective articles summarizing the field, not discrete dated events; none published within window.",
+      "event_key": "academic_reviews_general",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "WuXi Biologics WuXiHigh 2.0 platform - service/marketing pages",
+      "published": "undated / evergreen marketing content",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "N/A - fails Gate B.",
+      "verdict": "reject",
+      "reject_reason": "Gate B: evergreen CDMO service-page marketing content, no discrete dated event; technology already tracked as wuxibio_wuxihigh2.",
+      "event_key": "wuxihigh2_marketing",
+      "canonical": true,
+      "corroborating_urls": []
+    }
+  ]
+}
