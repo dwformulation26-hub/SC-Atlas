@@ -1,0 +1,150 @@
+{
+  "run_date": "2026-09-08",
+  "window": {
+    "from": "2026-09-07T09:09:31+09:00",
+    "to": "2026-09-08T09:09:44+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday ~24h window. Previous run completed 2026-09-07T09:09:31+09:00 (Mon)."
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license September 2026"},
+    {"tier": 1, "lang": "en", "query": "XeriJect OR Microglassification OR Nanoform OR Crystalomics OR InventageLab OR IDC224 subcutaneous September 2026"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" deal OR patent OR license September 2026"},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\" 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\" biologics platform announcement"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal September 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 고농축 현탁 주사 기술"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration September 2026"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도"},
+    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 / 특허청 히알루로니다제 고농도 제형"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출"},
+    {"tier": 0, "lang": "en", "query": "Alteogen OR Celltrion OR Samsung Bioepis OR Samsung Biologics subcutaneous September 7 2026 (extra sweep)"},
+    {"tier": 0, "lang": "en", "query": "G2G Bio InnoBioLAMP OR Alphamab Oncology subcutaneous OR high concentration September 2026 (extra sweep)"},
+    {"tier": 0, "lang": "en", "query": "ClinicalTrials.gov subcutaneous high concentration hyaluronidase new trial September 2026 (extra sweep)"},
+    {"tier": 0, "lang": "en", "query": "Nanoform nanoforming subcutaneous news (extra sweep)"},
+    {"tier": 0, "lang": "en", "query": "Xeris Biopharma XeriJect news September 2026 (extra sweep)"},
+    {"tier": 0, "lang": "ko", "query": "인벤티지랩 IVL-BioFluidic 뉴스 (extra sweep)"},
+    {"tier": 0, "lang": "en", "query": "Halozyme Alteogen news today (extra sweep)"},
+    {"tier": 0, "lang": "en", "query": "Halozyme sues Merck Keytruda subcutaneous patent infringement (follow-up)"},
+    {"tier": 0, "lang": "en", "query": "Merck Keytruda subcutaneous FDA approval September 23 2026 PDUFA (follow-up)"},
+    {"tier": 0, "lang": "en", "query": "Shanghai Bao Pharmaceuticals KJ017 NMPA approval date 2026 (follow-up)"},
+    {"tier": 0, "lang": "en", "query": "Amicogen hyaluronidase patent subcutaneous 2026 (follow-up)"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "Alteogen Enters Option and License Agreement with Novartis for Hybrozyme-Enabled SC Products",
+      "published": "2026-09-02",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Directly answers the tracker question: values Alteogen's ALT-B4/Hybrozyme SC-enabling enzyme at up to $3.22B, a new major licensee.",
+      "verdict": "reject", "reject_reason": "Out of window (published 2026-09-02, window starts 2026-09-07); already logged as deal_id alteogen_novartis_2026-09 in a prior run.",
+      "event_key": "alteogen_novartis_2026-09", "canonical": false, "corroborating_urls": ["https://www.thebionews.net/news/articleView.html?idxno=27744", "https://www.fiercebiotech.com/biotech/novartis-inks-32b-subcutaneous-drug-delivery-deal-alteogen"]
+    },
+    {
+      "raw_title": "Prestige Biopharma IDC224 patent filing",
+      "published": "2026-04-01",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "N/A - already tracked",
+      "verdict": "reject", "reject_reason": "Out of window; already logged as deal_id prestige_idc224_patent_2026-04.",
+      "event_key": "prestige_idc224_patent_2026-04", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Altruist Biologics launches Altru-CON high-concentration formulation platform",
+      "published": "2026-03-04",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "A new, previously untracked high-concentration formulation platform (Innovent Biologics subsidiary) directly bears on the competitive landscape of who can concentrate biologics for SC delivery.",
+      "verdict": "context", "reject_reason": "Out of window (published 2026-03-04, ~6 months before window start). New untracked competitor - flagged for future consideration, not logged this run per window rule.",
+      "event_key": "altruist_biologics_altrucon_2026-03", "canonical": true, "corroborating_urls": ["https://www.prnewswire.com/news-releases/altruist-biologics-launches-altru-con-high-concentration-formulation-platform-to-accelerate-biologics-development-302702651.html"]
+    },
+    {
+      "raw_title": "Amicogen secures 2 domestic patents for next-generation human hyaluronidase for SC formulation",
+      "published": "2026-07-21",
+      "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "A new, non-PH20/non-ALT-B4 human hyaluronidase competitor to ENHANZE and Hybrozyme aimed squarely at the SC concentration-enabling enzyme market.",
+      "verdict": "context", "reject_reason": "Out of window (patent decision 2026-07-14, article 2026-07-21; ~7 weeks before window start). New untracked competitor - flagged for future consideration.",
+      "event_key": "amicogen_hyaluronidase_patents_2026-07", "canonical": true, "corroborating_urls": ["https://www.newspim.com/news/view/20260721000151", "https://www.hitnews.co.kr/news/articleView.html?idxno=53227"]
+    },
+    {
+      "raw_title": "Korea MFDS approves Keytruda SC (pembrolizumab + berahyaluronidase alfa/ALT-B4)",
+      "published": "2026-05-19",
+      "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "First Korea-market regulatory approval of an ALT-B4-enabled product, directly validating Alteogen's Hybrozyme platform commercially.",
+      "verdict": "context", "reject_reason": "Out of window (~3.5 months before window start). Not currently reflected as its own deal row under alt-b4_hybrozyme - worth a possible backfill in a future run, but out of scope for this window.",
+      "event_key": "msd_keytruda_sc_mfds_approval_2026-05", "canonical": true, "corroborating_urls": ["https://dailypharm.com/user/news/338674", "https://pharm.edaily.co.kr/news/read?newsId=04122966645450888"]
+    },
+    {
+      "raw_title": "Shanghai Bao Pharmaceuticals (Baopharma) wins NMPA approval for KJ017 recombinant human hyaluronidase",
+      "published": "2026-04-08",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "First and only recombinant human hyaluronidase approved for marketing in China - a new direct competitor to ENHANZE/rHuPH20 and ALT-B4/Hybrozyme for large-volume SC infusion.",
+      "verdict": "context", "reject_reason": "Out of window (NMPA approval 2026-03-31, announced 2026-04-08; ~5 months before window start). Significant new untracked competitor - recommend adding as a technology in a future run.",
+      "event_key": "baopharma_kj017_nmpa_2026-04", "canonical": true, "corroborating_urls": ["https://www.tipranks.com/news/company-announcements/shanghai-bao-pharma-wins-nmpa-nod-for-recombinant-human-hyaluronidase-injection", "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-04-16/doc-inhuskuk4064462.shtml"]
+    },
+    {
+      "raw_title": "Halozyme sues Merck over subcutaneous Keytruda (ALT-B4); FDA approves Keytruda Qlex",
+      "published": "2025-09-19",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "conflict", "gate_e": "Central IP conflict between the two leading SC-enabling hyaluronidase platforms tracked (ENHANZE vs ALT-B4/Hybrozyme) directly answers the competitive question.",
+      "verdict": "context", "reject_reason": "Out of window by over a year (FDA approval Sept 19 2025; German PI Dec 2025; US suit filed April 2025). Litigation status and Keytruda Qlex approval not currently reflected in alt-b4_hybrozyme or enhanze tech rows - flagged for a possible future correction/addition, out of scope this window.",
+      "event_key": "halozyme_v_merck_keytruda_litigation", "canonical": true, "corroborating_urls": ["https://www.fiercepharma.com/pharma/halozyme-sues-merck-over-subcutaneous-keytruda-licensing-talks-fall-through", "https://www.merck.com/news/fda-approves-mercks-keytruda-qlex-pembrolizumab-and-berahyaluronidase-alfa-pmph-injection-for-subcutaneous-use-in-adults-across-most-solid-tumor-indications-for-keytruda-pem/"]
+    },
+    {
+      "raw_title": "G2G Bio - Celltrion MOU for ultra-high concentration SC antibody platform (InnoBioLAMP)",
+      "published": "2026-07-30",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "N/A - already tracked",
+      "verdict": "reject", "reject_reason": "Out of window; already logged as deal_id g2gbio_celltrion_mou_2026-07-30.",
+      "event_key": "g2gbio_celltrion_mou_2026-07-30", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Huons Lab HyDIZYME biologics license application",
+      "published": "2026-02-27",
+      "lang": "ko",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "n/a",
+      "gate_d": "n/a", "gate_e": "N/A - fails scope gate",
+      "verdict": "reject", "reject_reason": "Gate A: described as a low-concentration standalone hyaluronidase formulation, distinct from Huons Lab's high-concentration HyDIFFUZE platform - no concentration/volume claim, out of scope.",
+      "event_key": "huonslab_hydizyme_2026-02", "canonical": true, "corroborating_urls": ["https://www.hankyung.com/article/202602279647i"]
+    },
+    {
+      "raw_title": "Samsung Biologics/Celltrion Pharm PFS manufacturing capacity expansion (North Chungcheong, 2 trillion won)",
+      "published": "2026-01",
+      "lang": "en",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "n/a",
+      "gate_d": "n/a", "gate_e": "N/A - fails scope gate",
+      "verdict": "reject", "reject_reason": "Gate A: manufacturing/device capacity investment (prefilled syringe/autoinjector lines) with no concentration or volume claim attached - out of scope per standing device-only ruling.",
+      "event_key": "samsungbio_celltrion_pfs_capacity_2026", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Xeris XP-8121 once-weekly SC levothyroxine program overview webinar (Sept 9, 2026)",
+      "published": "2026-09-08",
+      "lang": "en",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "n/a",
+      "gate_d": "n/a", "gate_e": "N/A - fails scope gate",
+      "verdict": "reject", "reject_reason": "Gate A: program/webinar announcement with no concentration or delivery-technology claim disclosed (unclear if XeriJect-based); investor-event scheduling, not a discrete technology/deal event.",
+      "event_key": "xeris_xp8121_webinar_2026-09", "canonical": true, "corroborating_urls": ["https://www.stocktitan.net/news/XERS/xeris-announces-details-for-xp-8121-program-overview-grmzbirenhyh.html"]
+    },
+    {
+      "raw_title": "Various market-size/analyst commentary on SC formulation trend, PTAB ruling recap, Samsung Bioepis strategy pieces",
+      "published": "various (2026-05 to 2026-08)",
+      "lang": "en/ko",
+      "gate_a": "n/a", "gate_b": "reject", "gate_c": "n/a",
+      "gate_d": "n/a", "gate_e": "N/A - fails substance gate",
+      "verdict": "reject", "reject_reason": "Gate B: market-size forecasts, undated review/explainer content, or recap/analyst commentary on already-tracked events with no new discrete dated event.",
+      "event_key": "misc_commentary_context", "canonical": false, "corroborating_urls": []
+    }
+  ],
+  "findings": []
+}
