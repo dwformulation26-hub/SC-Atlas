@@ -1,0 +1,354 @@
+{
+  "run_date": "2026-09-10",
+  "window": {
+    "from": "2026-09-09T09:10:00+09:00",
+    "to": "2026-09-10T09:09:00+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday ~24h window. Previous run completed 2026-09-09T09:10:00+09:00 (Tue->Wed overnight). Today is 2026-09-10 (Thu) -- not a Monday/post-gap window."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" biologics deal September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration September 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 (DART)"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 / 특허청 히알루로니다제 고농도 제형"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "supplementary: Halozyme Wells Fargo Healthcare Conference September 9 2026 transcript Hypercon 2027 clinical"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "supplementary: TG Therapeutics ublituximab BRIUMVI subcutaneous high concentration formulation 2026"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "supplementary: 인벤티지랩 IVL-BioFluidic 9월 2026"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "supplementary: G2G Bio InnoBioLAMP OR 지투지바이오 이노바이오램프 2026"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "supplementary: Alphamab Oncology envafolimab subcutaneous September 2026"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme presents at Wells Fargo 21st Annual Healthcare Conference: Hypercon clinical timeline disclosed",
+      "published": "2026-09-09T19:45:00Z",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Directly updates the development timeline of Halozyme's 500 mg/mL Hypercon platform, one of the most concentrated technologies tracked, moving it from vague 'preclinical' to a company-stated first clinical dosing date (H1 2027).",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "halozyme_wellsfargo-hypercon-timeline_2026-09-09",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://in.investing.com/news/stock-market-news/halozyme-at-wells-fargo-healthcare-conference-subq-push-gains-steam-93CH-5587380",
+        "https://za.investing.com/news/stock-market-news/halozyme-at-wells-fargo-healthcare-conference-subq-push-gains-steam-93CH-4459141",
+        "https://finance.yahoo.com/healthcare/articles/halozyme-investor-conferences-put-enhanze-144023049.html",
+        "https://seekingalpha.com/article/4944686-halozyme-therapeutics-inc-halo-presents-at-wells-fargo-21st-annual-healthcare-conference"
+      ]
+    },
+    {
+      "raw_title": "Alteogen-Novartis $3.22B ALT-B4/Hybrozyme option and license agreement",
+      "published": "2026-09-02",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a - out of window",
+      "verdict": "reject",
+      "reject_reason": "Outside window (published 2026-09-02, window starts 2026-09-09) and already logged as deal_id 'alteogen_novartis_2026-09'.",
+      "event_key": "alteogen_novartis_2026-09",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "아주경제: 알테오젠, 올해 ALT-B4 신규 계약 6조 돌파",
+      "published": "2026-09-03",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Outside window; also a cumulative/aggregate market-roundup of already-tracked deals rather than a new discrete event (fails Gate B as roundup commentary).",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "더바이오: 삼성바이오에피스, SC 제형 '자체 기술' 쌓는다…히알루로니다제 특허 2건",
+      "published": "2026-07-15 (approx, patents filed 'last month 2nd/16th' per article)",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Outside window and duplicate of already-tracked Samsung Bioepis PH20 patents WO2026/142299 / WO2026/142300 (technology id 'samsungbioepis_ph20_sc', last_reviewed 2026-07-28; see deal 'samsungbioepis_ph20_disclosure_2026-07-13').",
+      "event_key": "samsungbioepis_ph20_disclosure_2026-07-13",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen: Sanofi completes dosing in Phase 1 trial of ALT-B4-enabled subcutaneous Dupixent",
+      "published": "2026-07-23",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "conflict",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Outside window; corresponds to already-tracked program from deal 'alteogen_sanofi_2026-06' (Sanofi/Alteogen SC dupilumab confirmation, 2026-06-18). No new in-window development.",
+      "event_key": "alteogen_sanofi_2026-06",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "ClinicalTrials.gov NCT07646548 - PK/tolerability of SC dupilumab coformulated with berahyaluronidase alfa",
+      "published": "~2026-06/07 (status verified July 2026; study started June 11 2026)",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "conflict",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Trial registration predates window; same underlying Sanofi/Alteogen SC-dupilumab program already tracked under deal 'alteogen_sanofi_2026-06'. WebFetch to clinicaltrials.gov was blocked by network egress policy so the exact first-posted timestamp could not be directly confirmed; treated conservatively as out-of-window based on corroborating secondary coverage (study start June 2026).",
+      "event_key": "alteogen_sanofi_2026-06",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Kormedi: 키트루다 피하주사 국내 허가 (Keytruda SC Korea MFDS approval)",
+      "published": "2026-05-19",
+      "lang": "ko",
+      "gate_a": "reject",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Outside window. Also Keytruda SC/Keytruda Qlex is not itself a tracked platform technology in this tracker (it is Merck's product using Halozyme ENHANZE/rHuPH20, already tracked); this MFDS approval is a market/context data point, not a delivery-technology event.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "edaily: 김주희 인벤티지랩 대표 SC제형 플랫폼 MTA 실제 항체 검증",
+      "published": "2026-09-02",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "URL-level duplicate of already-logged deal 'inventagelab_domestic-mta_2026-09-02' (same source_url).",
+      "event_key": "inventagelab_domestic-mta_2026-09-02",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "TG Therapeutics: Positive Phase 1 results for high-concentration, low-volume SC formulation of BRIUMVI (ublituximab)",
+      "published": "2026-06-03",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Would serve the tracker's question directly (a genuinely new, previously untracked high-concentration/low-volume SC antibody platform, 400 mg/2 mL) if in-window.",
+      "verdict": "context",
+      "reject_reason": "Sole discrete dated event (Phase 1 readout) published 2026-06-03, well outside the current ~24h window; no in-window follow-up event found (Phase 3 topline still pending, expected late 2026/early 2027). Flagged as a newly-identified untracked competitor for future monitoring rather than logged now.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": [
+        "https://ir.tgtherapeutics.com/news-releases/news-release-details/tg-therapeutics-announces-positive-results-phase-1-trial",
+        "https://www.globenewswire.com/news-release/2026/06/03/3305943/8790/en/tg-therapeutics-announces-positive-results-from-phase-1-trial-evaluating-subcutaneous-briumvi-ublituximab-xiiy.html"
+      ]
+    },
+    {
+      "raw_title": "G2G Bio / Celltrion MOU on ultra-high-concentration antibody SC platform",
+      "published": "2026-07-30",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Outside window; already tracked as deal_id 'g2gbio_celltrion_mou_2026-07-30'.",
+      "event_key": "g2gbio_celltrion_mou_2026-07-30",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alphamab Oncology envafolimab / JSKN033 / JSKN016 SC platform coverage",
+      "published": "2026-08 (various)",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "No new in-window dated event found beyond already-tracked entries (technology 'alphamab_sc_hc_platform', last_reviewed 2026-08-19).",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Various PMC/ScienceDirect/PubMed review articles on high-concentration SC formulation science",
+      "published": "undated / review articles",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Undated review/explainer articles on the general SC high-concentration trend, not discrete dated events (Gate B reject).",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Old Korean patents (e.g. KR20110069054A, KR20110103961A, KR20110067067A) surfaced by generic Korean beat-term searches",
+      "published": "2011 (pre-window, legacy patents)",
+      "lang": "ko",
+      "gate_a": "reject",
+      "gate_b": "reject",
+      "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Legacy (2011-era) generic formulation patents with no connection to a currently tracked platform or company, and no discrete recent event.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "DART 전자공시시스템 direct company-filing search (알테오젠/셀트리온/삼성바이오에피스/삼성바이오로직스 기술이전 공시)",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Search tooling returned only DART's generic navigation/search pages, not a specific dated filing; no candidate document surfaced for this run. WebFetch to dart.fss.or.kr was not attempted directly due to broad network egress blocks observed on similar financial/news domains this run.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "Hypercon (ex-Elektrofi)",
+      "company": "Halozyme Therapeutics",
+      "event": "Company discloses first concrete Hypercon clinical timeline (H1 2027 first dosing; 2030-2031 potential launches) at Wells Fargo Healthcare Conference",
+      "date": "2026-09-09",
+      "source_name": "Investing.com (Wells Fargo Healthcare Conference coverage)",
+      "source_url": "https://in.investing.com/news/stock-market-news/halozyme-at-wells-fargo-healthcare-conference-subq-push-gains-steam-93CH-5587380",
+      "confidence": "Secondary",
+      "summary": "Halozyme CEO Helen Torley and CFO Darren Snellgrove said the company's first two Hypercon-based clinical programs are expected to begin dosing in H1 2027, with potential first commercial launches in 2030-2031; company now describes four SC delivery platforms (ENHANZE, an auto-injector platform, Hypercon, Surf Bio).",
+      "conflicts_with": null
+    }
+  ]
+}

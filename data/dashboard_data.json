@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-09T00:13:23+00:00",
+  "generated_at": "2026-09-10T00:15:34+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
   },
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-10",
   "stage_order": [
     "Research / Academic",
     "Preclinical",
@@ -57,7 +57,7 @@
     "tracked": 26,
     "comparable": 15,
     "commercial": 8,
-    "deals_tracked": 48,
+    "deals_tracked": 49,
     "flagged_deals": 5
   },
   "internal_targets": [
@@ -131,6 +131,115 @@
     }
   ],
   "technologies": [
+    {
+      "id": "hypercon",
+      "name": "Hypercon (ex-Elektrofi)",
+      "company": "Halozyme Therapeutics (via Elektrofi acquisition)",
+      "stage_raw": "Preclinical (company guidance, 2026-09-09: first two Hypercon clinical programs expected to start dosing H1 2027, potential first commercial launches 2030-2031)",
+      "stage_bucket": "Preclinical",
+      "type": "Suspension/particle",
+      "concentration_text": "Up to 500 mg/mL",
+      "concentration_numeric": 500.0,
+      "concentration_bucket": "450–600 mg/mL",
+      "needle_size": "Not disclosed",
+      "mechanism": "Water is extracted from antibody-solution droplets, precipitating the protein into smooth, dense microparticles which are then suspended in a non-aqueous carrier. Removing water from the particle core, rather than diluting the protein in more liquid, is what allows concentration well beyond what a liquid formulation can hold. Demonstrated injectable in ~20 seconds at <20 N glide force through standard SC needles.",
+      "date_added": "2026-07-12",
+      "last_reviewed": "2026-09-10",
+      "deals": [
+        {
+          "deal_id": "halozyme_wellsfargo-hypercon-timeline_2026-09-09",
+          "partner": "N/A (investor conference disclosure)",
+          "deal_type": "Company statement/guidance",
+          "date": "2026-09-09",
+          "date_sort_key": 20260909,
+          "summary": "At the Wells Fargo 21st Annual Healthcare Conference, Halozyme CEO Helen Torley and CFO Darren Snellgrove disclosed that the company now expects its first two Hypercon-based clinical programs to begin dosing in H1 2027, with potential first commercial launches in the 2030-2031 timeframe. Company also described now having four SC delivery platforms in its portfolio (ENHANZE, an auto-injector platform, Hypercon, and Surf Bio). First concrete clinical timeline disclosed for Hypercon since the Elektrofi acquisition closed.",
+          "molecule": "Undisclosed (two Hypercon programs)",
+          "source_name": "Investing.com (Wells Fargo Healthcare Conference coverage)",
+          "source_url": "https://in.investing.com/news/stock-market-news/halozyme-at-wells-fargo-healthcare-conference-subq-push-gains-steam-93CH-5587380",
+          "relevance": "Medium",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": true
+        },
+        {
+          "deal_id": "halozyme_oruka_2026-05",
+          "partner": "Oruka Therapeutics",
+          "deal_type": "Licensing/Collaboration",
+          "date": "2026-05-06",
+          "date_sort_key": 20260506,
+          "summary": "Global exclusive collaboration & license agreement granting Oruka rights to Halozyme's Hypercon microparticle technology for ORKA-001 (in development for psoriasis and related inflammatory disease) plus an option for one additional target. Oruka to pay an upfront fee and potential milestone payments; Halozyme eligible for mid-single-digit royalties on net sales. Specific financial terms not disclosed.",
+          "molecule": "ORKA-001 (undisclosed antibody target)",
+          "source_name": "PR Newswire / Contract Pharma",
+          "source_url": "https://www.prnewswire.com/news-releases/halozyme-and-oruka-announce-global-collaboration-and-license-agreement-to-develop-orka-001-with-hypercon-technology-302763746.html",
+          "relevance": "High",
+          "confidence": "Not assessed",
+          "flagged": false,
+          "new_in_digest": false
+        },
+        {
+          "deal_id": "halozyme_vertex_2026-04",
+          "partner": "Vertex Pharmaceuticals",
+          "deal_type": "Licensing/Collaboration",
+          "date": "2026-04-01",
+          "date_sort_key": 20260401,
+          "summary": "Global exclusive license, up to 3 drug targets. $15M upfront + milestones/royalties.",
+          "molecule": "Undisclosed (up to 3 targets)",
+          "source_name": "PR Newswire",
+          "source_url": "https://www.prnewswire.com/news-releases/halozyme-announces-global-collaboration-and-license-agreement-with-vertex-pharmaceuticals-for-hypercon-technology-302735490.html",
+          "relevance": "High",
+          "confidence": "Not assessed",
+          "flagged": false,
+          "new_in_digest": false
+        },
+        {
+          "deal_id": "halozyme_elektrofi_2026",
+          "partner": "Halozyme Therapeutics",
+          "deal_type": "Acquisition",
+          "date": "2025-11-18 (deal completion; originally announced 2025)",
+          "date_sort_key": 20251118,
+          "summary": "CORRECTED 2026-07-13: acquisition completed Nov 18, 2025. Confirmed structure: $750M upfront (subject to customary purchase price adjustments) + up to three $50M milestone payments tied to three separate product regulatory approvals = up to $900M total consideration at approvals. Underlying Elektrofi/Hypercon platform acquisition that the April 2026 Vertex license was built on top of.",
+          "molecule": "N/A (platform acquisition)",
+          "source_name": "PR Newswire (Halozyme) / Fierce Biotech / Contract Pharma",
+          "source_url": "https://www.prnewswire.com/news-releases/halozyme-completes-acquisition-of-elektrofi-expanding-breadth-of-offerings-in-drug-delivery-302618579.html",
+          "relevance": "High",
+          "confidence": "Not assessed",
+          "flagged": false,
+          "new_in_digest": false
+        },
+        {
+          "deal_id": "elektrofi_partners_detail_2026-07-15",
+          "partner": "Eli Lilly; Johnson & Johnson (Janssen); argenx (individually itemized, still not individually confirmed via primary source)",
+          "deal_type": "Unverified / Flagged",
+          "date": "2023-10 (Lilly deal); dates for J&J/argenx not confirmed - flagged",
+          "date_sort_key": 20231001,
+          "summary": "FLAGGED - additional secondary-source detail found but still not confirmed via a primary source naming each counterparty individually (same underlying ambiguity as elektrofi_partners_flagged_2026-07, logged 2026-07-13). Fierce Pharma / Pharmaceutical Technology trade coverage of Halozyme's $900M Elektrofi acquisition reports pre-acquisition Elektrofi had signed: (1) an Eli Lilly deal worth up to $470M (Oct 2023) for exclusive rights to 3 undisclosed targets; (2) a 5-program Johnson & Johnson (Janssen) licensing deal worth nearly $800M including milestones. argenx is also named as a Hypercon partner in this secondary coverage, without a specific deal-value breakdown. No Halozyme, Lilly, J&J, or argenx primary press release or SEC filing naming individual deal terms per counterparty has been found; this remains secondary trade-press aggregation, not primary confirmation. A primary source (company press release or SEC filing) naming each counterparty individually with terms would be needed to resolve this flag.",
+          "molecule": "Undisclosed (multiple targets per partner)",
+          "source_name": "Fierce Pharma / Pharmaceutical Technology",
+          "source_url": "https://www.fiercepharma.com/pharma/halozymes-900m-elektrofi-buyout-brings-two-big-pharma-partners-together",
+          "relevance": "Medium",
+          "confidence": "Not assessed",
+          "flagged": true,
+          "new_in_digest": false
+        },
+        {
+          "deal_id": "elektrofi_partners_flagged_2026-07",
+          "partner": "argenx, Eli Lilly, Johnson & Johnson (status unconfirmed)",
+          "deal_type": "Unverified / Flagged",
+          "date": "Date not confirmed - flagged",
+          "date_sort_key": -1,
+          "summary": "FLAGGED - sources conflict on deal status. One source (Yahoo Finance/Halozyme guidance commentary) states Elektrofi 'has signed licensing agreements' with argenx, Johnson & Johnson, and Eli Lilly. Another source (BioSpace) describes these three companies only as having shown 'interest' in Hypercon before Halozyme's acquisition, without confirming signed agreements for all three. Only the Vertex license (April 2026, already tracked separately) is confirmed via primary-source press release. Do not treat as 3 additional signed deals until a primary source (company press release or SEC filing) is found naming each counterparty individually.",
+          "molecule": "Undisclosed",
+          "source_name": "Yahoo Finance / BioSpace (secondary, conflicting)",
+          "source_url": "https://www.biospace.com/business/halozymes-900m-elektrofi-buyout-brings-two-big-pharma-partners-together",
+          "relevance": "Low",
+          "confidence": "Not assessed",
+          "flagged": true,
+          "new_in_digest": false
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false
+    },
     {
       "id": "eisai_biogen_leqembi_iqlik_sc",
       "name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)",
@@ -780,100 +889,6 @@
       "is_reference": false
     },
     {
-      "id": "hypercon",
-      "name": "Hypercon (ex-Elektrofi)",
-      "company": "Halozyme Therapeutics (via Elektrofi acquisition)",
-      "stage_raw": "Preclinical",
-      "stage_bucket": "Preclinical",
-      "type": "Suspension/particle",
-      "concentration_text": "Up to 500 mg/mL",
-      "concentration_numeric": 500.0,
-      "concentration_bucket": "450–600 mg/mL",
-      "needle_size": "Not disclosed",
-      "mechanism": "Water is extracted from antibody-solution droplets, precipitating the protein into smooth, dense microparticles which are then suspended in a non-aqueous carrier. Removing water from the particle core, rather than diluting the protein in more liquid, is what allows concentration well beyond what a liquid formulation can hold. Demonstrated injectable in ~20 seconds at <20 N glide force through standard SC needles.",
-      "date_added": "2026-07-12",
-      "last_reviewed": "2026-07-14",
-      "deals": [
-        {
-          "deal_id": "halozyme_oruka_2026-05",
-          "partner": "Oruka Therapeutics",
-          "deal_type": "Licensing/Collaboration",
-          "date": "2026-05-06",
-          "date_sort_key": 20260506,
-          "summary": "Global exclusive collaboration & license agreement granting Oruka rights to Halozyme's Hypercon microparticle technology for ORKA-001 (in development for psoriasis and related inflammatory disease) plus an option for one additional target. Oruka to pay an upfront fee and potential milestone payments; Halozyme eligible for mid-single-digit royalties on net sales. Specific financial terms not disclosed.",
-          "molecule": "ORKA-001 (undisclosed antibody target)",
-          "source_name": "PR Newswire / Contract Pharma",
-          "source_url": "https://www.prnewswire.com/news-releases/halozyme-and-oruka-announce-global-collaboration-and-license-agreement-to-develop-orka-001-with-hypercon-technology-302763746.html",
-          "relevance": "High",
-          "confidence": "Not assessed",
-          "flagged": false,
-          "new_in_digest": false
-        },
-        {
-          "deal_id": "halozyme_vertex_2026-04",
-          "partner": "Vertex Pharmaceuticals",
-          "deal_type": "Licensing/Collaboration",
-          "date": "2026-04-01",
-          "date_sort_key": 20260401,
-          "summary": "Global exclusive license, up to 3 drug targets. $15M upfront + milestones/royalties.",
-          "molecule": "Undisclosed (up to 3 targets)",
-          "source_name": "PR Newswire",
-          "source_url": "https://www.prnewswire.com/news-releases/halozyme-announces-global-collaboration-and-license-agreement-with-vertex-pharmaceuticals-for-hypercon-technology-302735490.html",
-          "relevance": "High",
-          "confidence": "Not assessed",
-          "flagged": false,
-          "new_in_digest": false
-        },
-        {
-          "deal_id": "halozyme_elektrofi_2026",
-          "partner": "Halozyme Therapeutics",
-          "deal_type": "Acquisition",
-          "date": "2025-11-18 (deal completion; originally announced 2025)",
-          "date_sort_key": 20251118,
-          "summary": "CORRECTED 2026-07-13: acquisition completed Nov 18, 2025. Confirmed structure: $750M upfront (subject to customary purchase price adjustments) + up to three $50M milestone payments tied to three separate product regulatory approvals = up to $900M total consideration at approvals. Underlying Elektrofi/Hypercon platform acquisition that the April 2026 Vertex license was built on top of.",
-          "molecule": "N/A (platform acquisition)",
-          "source_name": "PR Newswire (Halozyme) / Fierce Biotech / Contract Pharma",
-          "source_url": "https://www.prnewswire.com/news-releases/halozyme-completes-acquisition-of-elektrofi-expanding-breadth-of-offerings-in-drug-delivery-302618579.html",
-          "relevance": "High",
-          "confidence": "Not assessed",
-          "flagged": false,
-          "new_in_digest": false
-        },
-        {
-          "deal_id": "elektrofi_partners_detail_2026-07-15",
-          "partner": "Eli Lilly; Johnson & Johnson (Janssen); argenx (individually itemized, still not individually confirmed via primary source)",
-          "deal_type": "Unverified / Flagged",
-          "date": "2023-10 (Lilly deal); dates for J&J/argenx not confirmed - flagged",
-          "date_sort_key": 20231001,
-          "summary": "FLAGGED - additional secondary-source detail found but still not confirmed via a primary source naming each counterparty individually (same underlying ambiguity as elektrofi_partners_flagged_2026-07, logged 2026-07-13). Fierce Pharma / Pharmaceutical Technology trade coverage of Halozyme's $900M Elektrofi acquisition reports pre-acquisition Elektrofi had signed: (1) an Eli Lilly deal worth up to $470M (Oct 2023) for exclusive rights to 3 undisclosed targets; (2) a 5-program Johnson & Johnson (Janssen) licensing deal worth nearly $800M including milestones. argenx is also named as a Hypercon partner in this secondary coverage, without a specific deal-value breakdown. No Halozyme, Lilly, J&J, or argenx primary press release or SEC filing naming individual deal terms per counterparty has been found; this remains secondary trade-press aggregation, not primary confirmation. A primary source (company press release or SEC filing) naming each counterparty individually with terms would be needed to resolve this flag.",
-          "molecule": "Undisclosed (multiple targets per partner)",
-          "source_name": "Fierce Pharma / Pharmaceutical Technology",
-          "source_url": "https://www.fiercepharma.com/pharma/halozymes-900m-elektrofi-buyout-brings-two-big-pharma-partners-together",
-          "relevance": "Medium",
-          "confidence": "Not assessed",
-          "flagged": true,
-          "new_in_digest": false
-        },
-        {
-          "deal_id": "elektrofi_partners_flagged_2026-07",
-          "partner": "argenx, Eli Lilly, Johnson & Johnson (status unconfirmed)",
-          "deal_type": "Unverified / Flagged",
-          "date": "Date not confirmed - flagged",
-          "date_sort_key": -1,
-          "summary": "FLAGGED - sources conflict on deal status. One source (Yahoo Finance/Halozyme guidance commentary) states Elektrofi 'has signed licensing agreements' with argenx, Johnson & Johnson, and Eli Lilly. Another source (BioSpace) describes these three companies only as having shown 'interest' in Hypercon before Halozyme's acquisition, without confirming signed agreements for all three. Only the Vertex license (April 2026, already tracked separately) is confirmed via primary-source press release. Do not treat as 3 additional signed deals until a primary source (company press release or SEC filing) is found naming each counterparty individually.",
-          "molecule": "Undisclosed",
-          "source_name": "Yahoo Finance / BioSpace (secondary, conflicting)",
-          "source_url": "https://www.biospace.com/business/halozymes-900m-elektrofi-buyout-brings-two-big-pharma-partners-together",
-          "relevance": "Low",
-          "confidence": "Not assessed",
-          "flagged": true,
-          "new_in_digest": false
-        }
-      ],
-      "is_internal": false,
-      "is_reference": false
-    },
-    {
       "id": "genentech_unbranded_sc",
       "name": "Proprietary SC reformulations (unbranded)",
       "company": "Genentech / Roche",
@@ -1310,6 +1325,23 @@
   ],
   "recent_activity": [
     {
+      "deal_id": "halozyme_wellsfargo-hypercon-timeline_2026-09-09",
+      "partner": "N/A (investor conference disclosure)",
+      "deal_type": "Company statement/guidance",
+      "date": "2026-09-09",
+      "date_sort_key": 20260909,
+      "summary": "At the Wells Fargo 21st Annual Healthcare Conference, Halozyme CEO Helen Torley and CFO Darren Snellgrove disclosed that the company now expects its first two Hypercon-based clinical programs to begin dosing in H1 2027, with potential first commercial launches in the 2030-2031 timeframe. Company also described now having four SC delivery platforms in its portfolio (ENHANZE, an auto-injector platform, Hypercon, and Surf Bio). First concrete clinical timeline disclosed for Hypercon since the Elektrofi acquisition closed.",
+      "molecule": "Undisclosed (two Hypercon programs)",
+      "source_name": "Investing.com (Wells Fargo Healthcare Conference coverage)",
+      "source_url": "https://in.investing.com/news/stock-market-news/halozyme-at-wells-fargo-healthcare-conference-subq-push-gains-steam-93CH-5587380",
+      "relevance": "Medium",
+      "confidence": "Secondary",
+      "flagged": false,
+      "new_in_digest": true,
+      "technology_id": "hypercon",
+      "technology_name": "Hypercon (ex-Elektrofi)"
+    },
+    {
       "deal_id": "eisai_biogen_leqembiiqlik_china-approval_2026-09-03",
       "partner": "N/A (regulatory approval; Eisai/Biogen own product)",
       "deal_type": "Regulatory approval (geographic expansion)",
@@ -1546,23 +1578,6 @@
       "new_in_digest": false,
       "technology_id": "sanofi_sarclisa_escena_sc",
       "technology_name": "Sarclisa Escena (SC isatuximab, on-body injector)"
-    },
-    {
-      "deal_id": "samsungbio_astrazeneca_saphnelo_2026-07",
-      "partner": "AstraZeneca",
-      "deal_type": "Manufacturing/CDMO",
-      "date": "2026-07 (reported 2026-07-06)",
-      "date_sort_key": 20260706,
-      "summary": "Samsung Biologics selected to produce drug substance for AstraZeneca's Saphnelo (anifrolumab) subcutaneous injection for systemic lupus erythematosus. Second known SC-formulation CDMO win for Samsung Biologics after J&J's Rybrevant SC. Saphnelo SC formulation itself already FDA/EU approved (self-administration pre-filled pen/autoinjector); this deal covers drug-substance manufacturing via S-HiCon. Specific volume/terms not disclosed.",
-      "molecule": "Anifrolumab (Saphnelo)",
-      "source_name": "Seoul Economic Daily",
-      "source_url": "https://en.sedaily.com/finance/2026/07/06/samsung-biologics-wins-subcutaneous-drug-deals-eyes-new",
-      "relevance": "Medium",
-      "confidence": "Not assessed",
-      "flagged": false,
-      "new_in_digest": false,
-      "technology_id": "samsungbio_s-hicon",
-      "technology_name": "S-HiCon (CDMO high-concentration formulation development platform)"
     }
   ]
 }
