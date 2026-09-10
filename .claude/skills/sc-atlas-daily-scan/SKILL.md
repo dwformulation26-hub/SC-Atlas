@@ -31,12 +31,14 @@ gates and repo merge), **Dash** (publish), **Emilia** (digest email).
 ## Step 0 -- Environment
 
 In a scheduled cloud run the repo is already checked out and authenticated at
-`~/SC-Atlas` (confirm with `ls ~` if it isn't there). Use the ordinary `Bash`
-tool. There is no device bridge in a cloud run, and no token needs to be
-created -- push credentials come from the routine's git source.
+the absolute path `/home/user/SC-Atlas`. Do **not** use `~` or `$HOME`: the
+sandbox shell runs as root, so `~` resolves to `/root` and `cd ~/SC-Atlas`
+fails. Use the ordinary `Bash` tool. There is no device bridge in a cloud
+run, and no token needs to be created -- push credentials come from the
+routine's git source.
 
 ```bash
-cd ~/SC-Atlas && git log --oneline -3 && ls data/audit_log | tail -5
+cd /home/user/SC-Atlas && git log --oneline -3 && ls data/audit_log | tail -5
 ```
 
 Read `.claude/skills/sc-atlas-tracker-update/SKILL.md` for the data/app
@@ -376,16 +378,26 @@ and flag it in Step 9.
 
 ### Step 5.1 -- Post-push verification
 
-1. Fetch `https://dwformulation26-hub.github.io/SC-Atlas/data/dashboard_data.json`
-   with a cache-busting query param.
-2. Confirm it parses and that the technology/deal counts and `generated_at`
-   match what Step 4 just wrote.
-3. GitHub Pages can take a minute or two to redeploy -- note a mismatch in
-   Step 9 rather than treating it as failure outright; report a real failure
-   only if a retry a short while later still doesn't match.
-4. If Pages returns 404, Pages is not enabled on the repo yet. Report that
-   plainly in Step 9 and carry on -- the commit is the source of truth, and
-   the email should still go out.
+The sandbox's network egress proxy blocks `dwformulation26-hub.github.io`, so
+the published site cannot be fetched from inside a run. Both WebFetch and
+curl will fail there (EGRESS_BLOCKED, or curl exit status with an empty
+body). That is a sandbox limitation, not a broken deployment -- do not spend
+retries on it and do not report it as a data failure.
+
+Verify what was actually published instead:
+
+```bash
+git show HEAD:data/dashboard_data.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['generated_at'], d['counts'])"
+git status --short   # must be clean
+git log origin/main --oneline -1
+```
+
+Confirm the pushed commit's `generated_at` and `counts` match what Step 4
+wrote, and that `origin/main` points at the new commit. GitHub Pages
+republishes from that commit within a minute or two on its own. Note in Step
+9 that live-site verification was not possible from the sandbox, and carry
+on -- the pushed commit is the source of truth, and the email still goes
+out.
 
 ---
 

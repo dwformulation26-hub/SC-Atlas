@@ -57,14 +57,16 @@ user to ask: don't push it, and say so plainly in the run report.
 
 **In a scheduled cloud routine** the repo is already checked out and
 authenticated -- the routine declares `dwformulation26-hub/SC-Atlas` as its
-git source, so the clone lands in the sandbox home directory (e.g.
-`/home/user/SC-Atlas`) with a working `origin` and push credentials already
-configured. Use the ordinary `Bash` tool. Do not build a token by hand, do
-not clone over HTTPS with an embedded credential, and do not look for a
-device bridge -- there isn't one in a cloud run.
+git source, so the clone lands at the absolute path `/home/user/SC-Atlas`
+with a working `origin` and push credentials already configured. Do **not**
+use `~` or `$HOME` to reach it: the sandbox shell runs as root, so `~`
+resolves to `/root` and the path won't exist. Use the ordinary `Bash` tool.
+Do not build a token by hand, do not clone over HTTPS with an embedded
+credential, and do not look for a device bridge -- there isn't one in a
+cloud run.
 
 ```bash
-cd ~/SC-Atlas && git status && git log --oneline -3
+cd /home/user/SC-Atlas && git status && git log --oneline -3
 ```
 
 **In an interactive session on the user's own machine**, work in whatever
