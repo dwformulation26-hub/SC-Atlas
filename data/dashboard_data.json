@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T00:15:34+00:00",
+  "generated_at": "2026-09-10T08:55:06+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -55,9 +55,9 @@
   ],
   "counts": {
     "tracked": 26,
-    "comparable": 15,
+    "comparable": 16,
     "commercial": 8,
-    "deals_tracked": 49,
+    "deals_tracked": 50,
     "flagged_deals": 5
   },
   "internal_targets": [
@@ -159,7 +159,7 @@
           "relevance": "Medium",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": true
+          "new_in_digest": false
         },
         {
           "deal_id": "halozyme_oruka_2026-05",
@@ -234,6 +234,55 @@
           "relevance": "Low",
           "confidence": "Not assessed",
           "flagged": true,
+          "new_in_digest": false
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false
+    },
+    {
+      "id": "g2gbio_innobiolamp",
+      "name": "InnoBioLAMP",
+      "company": "G2G Bio (지투지바이오)",
+      "stage_raw": "Preclinical / Platform (first public disclosure; feasibility evaluation stage via MTA, no antibody applicability confirmed yet)",
+      "stage_bucket": "Platform / Feasibility",
+      "type": "Suspension/particle",
+      "concentration_text": "CORRECTED 2026-09-10: up to 750 mg/mL antibody microparticle suspension achieved using IgG, per company interview (published 2026-08-05); company positions this as exceeding Halozyme's Hypercon (500 mg/mL) and Lindy Biosciences' Microglassification (400 mg/mL). Feasibility also confirmed for semaglutide and bovine serum albumin microparticles. Secondary-sourced (trade press interview); no primary press release located. ORIGINAL: Not disclosed numerically; described qualitatively as an 'ultra-high-concentration' antibody microparticle platform.",
+      "concentration_numeric": 750.0,
+      "concentration_bucket": "600+ mg/mL",
+      "needle_size": "Not disclosed",
+      "mechanism": "Extension of G2G Bio's existing long-acting microsphere DDS platform (InnoLAMP) into biologics: a high-concentration microparticle platform intended to load antibodies at high concentration to enable conversion of IV antibody drugs to SC formulations. Company states applicability extends beyond mAbs to bispecifics, ADCs, and recombinant proteins; actual antibody applicability for any named molecule not yet confirmed (feasibility/MTA stage only, per Celltrion MOU announced 2026-07-30).",
+      "date_added": "2026-07-31",
+      "last_reviewed": "2026-09-10",
+      "deals": [
+        {
+          "deal_id": "g2gbio_innobiolamp_concentration-disclosure_2026-08-05",
+          "partner": "N/A (company interview disclosure)",
+          "deal_type": "Company statement/guidance",
+          "date": "2026-08-05",
+          "date_sort_key": 20260805,
+          "summary": "CORRECTION surfaced this run: in a published interview, G2G Bio disclosed that InnoBioLAMP has achieved an antibody microparticle suspension formulation up to 750 mg/mL using IgG, and confirmed microparticle feasibility for semaglutide, bovine serum albumin, and bevacizumab. The company positions this as exceeding Halozyme's Hypercon (500 mg/mL) and Lindy Biosciences' Microglassification (400 mg/mL). This is the first numeric concentration disclosed for InnoBioLAMP since its first public mention alongside the Celltrion MOU on 2026-07-30 (deal 'g2gbio_celltrion_mou_2026-07-30'), where no figure was given. Outside this run's research window (interview conducted 2026-07-31, published 2026-08-05) but logged now as a correction to the technology's previously 'not disclosed numerically' concentration field, per the tracker's out-of-window correction rule.",
+          "molecule": "IgG (platform feasibility only; no antibody drug program named)",
+          "source_name": "더바이오 (TheBioNews) interview; corroborated by BigGo Finance summary coverage",
+          "source_url": "https://www.thebionews.net/news/articleView.html?idxno=26970",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": true
+        },
+        {
+          "deal_id": "g2gbio_celltrion_mou_2026-07-30",
+          "partner": "Celltrion",
+          "deal_type": "MOU / Material Transfer Agreement (Collaboration)",
+          "date": "2026-07-30",
+          "date_sort_key": 20260730,
+          "summary": "G2G Bio and Celltrion signed an MOU including a Material Transfer Agreement (MTA) for 'ultra-high-concentration antibody SC formulation platform technology cooperation.' Under the MTA, Celltrion will transfer antibody substance(s) to G2G Bio so the companies can evaluate applicability to G2G Bio's high-concentration microparticle platform 'InnoBioLAMP' (an extension of G2G Bio's existing InnoLAMP long-acting microsphere DDS technology into biologics/antibodies), with a view to joint R&D and potential commercialization if feasibility is confirmed. This is G2G Bio's first public disclosure of InnoBioLAMP and marks its formal entry into antibody biologics. Specific target molecule(s), research schedule, and cost-sharing terms not disclosed; actual SC-formulation conversion feasibility still to be confirmed via non-clinical/clinical testing per company statement.",
+          "molecule": "Not disclosed",
+          "source_name": "Newspim (뉴스핌); corroborated by 이투데이 (eToday), 메디게이트뉴스 (Medigate News), 네이트뉴스, 서울경제 (Seoul Economic Daily), 더바이오 (TheBioNews), Daum",
+          "source_url": "https://www.newspim.com/news/view/20260730000944",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": false,
           "new_in_digest": false
         }
       ],
@@ -538,40 +587,6 @@
           "source_url": "https://www.pathos.com/pathos-ai-enters-global-licensing-agreement-with-alphamab-oncology-on-jskn016-a-first-in-class-trop2-her3-bispecific-adc",
           "relevance": "Medium",
           "confidence": "Primary",
-          "flagged": false,
-          "new_in_digest": false
-        }
-      ],
-      "is_internal": false,
-      "is_reference": false
-    },
-    {
-      "id": "g2gbio_innobiolamp",
-      "name": "InnoBioLAMP",
-      "company": "G2G Bio (지투지바이오)",
-      "stage_raw": "Preclinical / Platform (first public disclosure; feasibility evaluation stage via MTA, no antibody applicability confirmed yet)",
-      "stage_bucket": "Platform / Feasibility",
-      "type": "Suspension/particle",
-      "concentration_text": "Not disclosed numerically; described qualitatively as an 'ultra-high-concentration' antibody microparticle platform",
-      "concentration_numeric": null,
-      "concentration_bucket": "Not disclosed",
-      "needle_size": "Not disclosed",
-      "mechanism": "Extension of G2G Bio's existing long-acting microsphere DDS platform (InnoLAMP) into biologics: a high-concentration microparticle platform intended to load antibodies at high concentration to enable conversion of IV antibody drugs to SC formulations. Company states applicability extends beyond mAbs to bispecifics, ADCs, and recombinant proteins; actual antibody applicability for any named molecule not yet confirmed (feasibility/MTA stage only, per Celltrion MOU announced 2026-07-30).",
-      "date_added": "2026-07-31",
-      "last_reviewed": "2026-07-31",
-      "deals": [
-        {
-          "deal_id": "g2gbio_celltrion_mou_2026-07-30",
-          "partner": "Celltrion",
-          "deal_type": "MOU / Material Transfer Agreement (Collaboration)",
-          "date": "2026-07-30",
-          "date_sort_key": 20260730,
-          "summary": "G2G Bio and Celltrion signed an MOU including a Material Transfer Agreement (MTA) for 'ultra-high-concentration antibody SC formulation platform technology cooperation.' Under the MTA, Celltrion will transfer antibody substance(s) to G2G Bio so the companies can evaluate applicability to G2G Bio's high-concentration microparticle platform 'InnoBioLAMP' (an extension of G2G Bio's existing InnoLAMP long-acting microsphere DDS technology into biologics/antibodies), with a view to joint R&D and potential commercialization if feasibility is confirmed. This is G2G Bio's first public disclosure of InnoBioLAMP and marks its formal entry into antibody biologics. Specific target molecule(s), research schedule, and cost-sharing terms not disclosed; actual SC-formulation conversion feasibility still to be confirmed via non-clinical/clinical testing per company statement.",
-          "molecule": "Not disclosed",
-          "source_name": "Newspim (뉴스핌); corroborated by 이투데이 (eToday), 메디게이트뉴스 (Medigate News), 네이트뉴스, 서울경제 (Seoul Economic Daily), 더바이오 (TheBioNews), Daum",
-          "source_url": "https://www.newspim.com/news/view/20260730000944",
-          "relevance": "High",
-          "confidence": "Secondary",
           "flagged": false,
           "new_in_digest": false
         }
@@ -1337,7 +1352,7 @@
       "relevance": "Medium",
       "confidence": "Secondary",
       "flagged": false,
-      "new_in_digest": true,
+      "new_in_digest": false,
       "technology_id": "hypercon",
       "technology_name": "Hypercon (ex-Elektrofi)"
     },
@@ -1425,6 +1440,23 @@
       "new_in_digest": false,
       "technology_id": "eisai_biogen_leqembi_iqlik_sc",
       "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
+    },
+    {
+      "deal_id": "g2gbio_innobiolamp_concentration-disclosure_2026-08-05",
+      "partner": "N/A (company interview disclosure)",
+      "deal_type": "Company statement/guidance",
+      "date": "2026-08-05",
+      "date_sort_key": 20260805,
+      "summary": "CORRECTION surfaced this run: in a published interview, G2G Bio disclosed that InnoBioLAMP has achieved an antibody microparticle suspension formulation up to 750 mg/mL using IgG, and confirmed microparticle feasibility for semaglutide, bovine serum albumin, and bevacizumab. The company positions this as exceeding Halozyme's Hypercon (500 mg/mL) and Lindy Biosciences' Microglassification (400 mg/mL). This is the first numeric concentration disclosed for InnoBioLAMP since its first public mention alongside the Celltrion MOU on 2026-07-30 (deal 'g2gbio_celltrion_mou_2026-07-30'), where no figure was given. Outside this run's research window (interview conducted 2026-07-31, published 2026-08-05) but logged now as a correction to the technology's previously 'not disclosed numerically' concentration field, per the tracker's out-of-window correction rule.",
+      "molecule": "IgG (platform feasibility only; no antibody drug program named)",
+      "source_name": "더바이오 (TheBioNews) interview; corroborated by BigGo Finance summary coverage",
+      "source_url": "https://www.thebionews.net/news/articleView.html?idxno=26970",
+      "relevance": "High",
+      "confidence": "Secondary",
+      "flagged": false,
+      "new_in_digest": true,
+      "technology_id": "g2gbio_innobiolamp",
+      "technology_name": "InnoBioLAMP"
     },
     {
       "deal_id": "alteogen_undisclosed-pharma_2026-08",
@@ -1561,23 +1593,6 @@
       "new_in_digest": false,
       "technology_id": "samsungbioepis_ph20_sc",
       "technology_name": "Samsung Bioepis proprietary PH20-based SC conversion technology"
-    },
-    {
-      "deal_id": "sanofi_sarclisa-escena_fda_2026-07",
-      "partner": "Sanofi",
-      "deal_type": "Regulatory approval",
-      "date": "2026-07-09",
-      "date_sort_key": 20260709,
-      "summary": "FDA approved isatuximab-irfc (Sarclisa Escena) for subcutaneous injection, extending to all currently approved IV isatuximab indications in multiple myeloma. Administered manually or via an on-body injector. First anticancer agent approved via on-body injector.",
-      "molecule": "Isatuximab-irfc",
-      "source_name": "FDA / Targeted Oncology / ASCO Post",
-      "source_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-isatuximab-irfc-subcutaneous-injection-multiple-myeloma-indications",
-      "relevance": "High",
-      "confidence": "Not assessed",
-      "flagged": false,
-      "new_in_digest": false,
-      "technology_id": "sanofi_sarclisa_escena_sc",
-      "technology_name": "Sarclisa Escena (SC isatuximab, on-body injector)"
     }
   ]
 }
