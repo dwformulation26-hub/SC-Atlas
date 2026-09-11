@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T00:16:29+00:00",
+  "generated_at": "2026-09-11T08:45:20+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -62,8 +62,8 @@
   },
   "internal_targets": [
     {
-      "id": "hyperion",
-      "name": "Hyperion",
+      "id": "h-cure",
+      "name": "H-Cure",
       "company": "Our internal platform",
       "stage_raw": "Preclinical / Internal",
       "stage_bucket": "Preclinical",
@@ -89,7 +89,7 @@
       "concentration_numeric": 380,
       "concentration_bucket": "300–450 mg/mL",
       "needle_size": "Not disclosed",
-      "mechanism": "Second internal high-concentration reformulation target, tracked alongside Hyperion as a benchmark against external platforms.",
+      "mechanism": "Second internal high-concentration reformulation target, tracked alongside H-Cure as a benchmark against external platforms.",
       "source_label": "Internal",
       "notes": [
         {
@@ -98,7 +98,7 @@
           "deal_type": "Flag / Correction",
           "date": "2026-07-13",
           "date_sort_key": 20260713,
-          "summary": "CORRECTED: confirmed with tracker owner that 'Thermicra' is an internal target platform, tracked alongside Hyperion as our own benchmark - not an external company. Previously logged as an unverified external search result; that classification was wrong. Now shown only on the internal/public dashboard, not as a tracked competitor.",
+          "summary": "CORRECTED: confirmed with tracker owner that 'Thermicra' is an internal target platform, tracked alongside H-Cure as our own benchmark - not an external company. Previously logged as an unverified external search result; that classification was wrong. Now shown only on the internal/public dashboard, not as a tracked competitor.",
           "molecule": "N/A",
           "source_name": "Internal confirmation",
           "source_url": null,

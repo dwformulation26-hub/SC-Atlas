@@ -496,7 +496,7 @@ DEALS = [
         'partner': 'N/A (internal correction)',
         'deal_type': 'Flag / Correction',
         'date': '2026-07-13',
-        'summary': "CORRECTED: confirmed with tracker owner that 'Thermicra' is an internal target platform, tracked alongside Hyperion as our own benchmark - not an external company. Previously logged as an unverified external search result; that classification was wrong. Now shown only on the internal/public dashboard, not as a tracked competitor.",
+        'summary': "CORRECTED: confirmed with tracker owner that 'Thermicra' is an internal target platform, tracked alongside H-Cure as our own benchmark - not an external company. Previously logged as an unverified external search result; that classification was wrong. Now shown only on the internal/public dashboard, not as a tracked competitor.",
         'molecule': 'N/A',
         'source_name': 'Internal confirmation',
         'source_url': None,
