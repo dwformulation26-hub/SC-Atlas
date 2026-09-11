@@ -41,7 +41,7 @@ not the data):
   build script, every run.
 - `data/audit_log/<run-date>.json` -- the screening trail written by the daily
   scan skill.
-- `data/internal_targets.json` -- the hand-maintained Hyperion / Thermicra /
+- `data/internal_targets.json` -- the hand-maintained H-Cure / Thermicra /
   Dupixent benchmarks. This is data, but changes to it are rare -- only touch
   it if the user is specifically updating one of those three targets' own
   numbers, not as part of logging an external finding.

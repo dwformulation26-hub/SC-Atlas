@@ -7,16 +7,17 @@ description: Runs the SC Atlas daily competitive-intelligence pipeline for high-
 
 SC Atlas is a competitive-intelligence tracker for high-concentration and
 large-volume subcutaneous (SC) injection delivery technologies, benchmarked
-against our internal platforms **Hyperion** and **Thermicra** (our own
+against our internal platforms **H-Cure** and **Thermicra** (our own
 internal programs -- never external companies, never logged as tracked
 technologies or deals) and the marketed reference product **Dupixent**
-(Sanofi/Regeneron).
+(Sanofi/Regeneron). H-Cure was renamed from "Hyperion" on 2026-09-11 --
+treat the legacy name the same way, never as an external entity.
 
 - Repo: `github.com/dwformulation26-hub/SC-Atlas`
 - Public dashboard: `https://dwformulation26-hub.github.io/SC-Atlas/`
 
 **The question this tracker exists to answer:** who can put more antibody
-into less subcutaneous volume, and what does that mean for Hyperion,
+into less subcutaneous volume, and what does that mean for H-Cure,
 Thermicra and Dupixent? Every finding must serve that question (enforced by
 Gate E).
 
@@ -205,7 +206,7 @@ high-concentration and/or large-volume SC delivery of biologics?
   (LEQEMBI IQLIK itself is already tracked with an explicit concentration
   claim -- 200 mg/mL vs 100 mg/mL IV -- so it passes; this ruling is about
   *other* device-only conversions.)
-- REJECT: anything about Hyperion or Thermicra as an external entity -- these
+- REJECT: anything about H-Cure or Thermicra as an external entity -- these
   are internal platforms, never logged as Technologies or Deals rows.
 
 **Gate B -- Substance.** Does this report a discrete, dated event?
@@ -320,7 +321,7 @@ Read from the checkout:
 - Correcting a vague or wrong existing row: edit that same dict in place
   (locate by `id`/`deal_id`, replace just that block, never retype the whole
   file), prefixing the corrected field with `"CORRECTED <date>: ..."`.
-- Never add Hyperion or Thermicra as external entities -- internal only,
+- Never add H-Cure or Thermicra as external entities -- internal only,
   tracked solely via `data/internal_targets.json`.
 - Edit with `sed -i` or a short Python read-modify-write script, never by
   retyping a file's full contents from memory.
@@ -522,6 +523,6 @@ In the final output for the run, summarize:
   of doing it.
 - The public dashboard has no login or access control -- a known, accepted
   tradeoff. Don't put anything in the repo that shouldn't be public.
-- Hyperion and Thermicra are internal programs. They appear only through
+- H-Cure and Thermicra are internal programs. They appear only through
   `data/internal_targets.json`, never as tracked technologies, never as deal
   counterparties, and never in an email as external news.
