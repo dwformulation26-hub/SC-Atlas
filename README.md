@@ -6,7 +6,7 @@ A static, no-build dashboard tracking high-concentration subcutaneous (SC)
 injection technologies: who owns them, what stage they're at, what
 concentration they've demonstrated, how they work, and the deal/news
 activity behind each one -- benchmarked against our internal target
-platforms (Hyperion, Thermicra) and the marketed reference product
+platforms (H-Cure, Thermicra) and the marketed reference product
 (Dupixent).
 
 This repo merges two earlier prototypes: the clean data/app separation and
@@ -27,7 +27,7 @@ assets/icon.svg               brand mark / favicon
 
 data/technologies_db.py       EDIT THIS to add/update a technology
 data/deals_db.py              EDIT THIS to log a new deal or news finding
-data/internal_targets.json    hand-maintained: Hyperion, Thermicra, Dupixent
+data/internal_targets.json    hand-maintained: H-Cure, Thermicra, Dupixent
 data/dashboard_data.json      generated -- the only data file the dashboard reads
 data/archive/                 the original two source spreadsheets, kept for
                                provenance only -- nothing reads them anymore

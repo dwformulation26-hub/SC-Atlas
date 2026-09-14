@@ -1,0 +1,369 @@
+{
+  "run_date": "2026-09-11-run2",
+  "window": {
+    "from": "2026-09-10T17:55:00+09:00",
+    "to": "2026-09-11T09:13:00+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday (Thu evening -> Fri morning), ~15.3h. Previous run (2026-09-10-run2.json) completed 2026-09-10T17:55:00+09:00. Today is Friday 2026-09-11, not Monday and not a post-gap window -- not extended. This is a same-day re-run: on push, a second Claude session (Claude-Session session_017H45BKP323Q7BLdQ7CTgbJ) was found to have already independently run this same scheduled task minutes earlier and pushed commit ae363a9 ('No new findings for 2026-09-11 run; audit log only', data/audit_log/2026-09-11.json, run window 2026-09-10T17:55 -> 2026-09-11T09:09 KST) -- an apparent duplicate/concurrent firing of the schedule. That run independently reached the same conclusion (no in-window findings) over an overlapping window. This audit log is filed as -run2 per the existing same-day-rerun convention (see 2026-09-10-run2.json) rather than overwriting the other session's file. A short window with little/no in-window material is expected and was not stretched to manufacture findings."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous <this week>"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license <this week>"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous <this week>"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" <this week>"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" deal <current year>"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" biologics technology deal <this week>"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal <this week>"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 / 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration <this week>"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "FDA.gov / ClinicalTrials.gov high concentration subcutaneous formulation filing <this week>"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "특허청 히알루로니다제 고농도 제형"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": "added",
+      "lang": "en",
+      "query": "Alteogen Celltrion Samsung Biologics subcutaneous news <this week>"
+    },
+    {
+      "tier": "added",
+      "lang": "en",
+      "query": "Halozyme Alteogen Xeris news <this week>"
+    },
+    {
+      "tier": "added",
+      "lang": "en",
+      "query": "Nanoform WuXi Biologics Chengdu Rongsheng Prestige Biopharma InventageLab subcutaneous news <this week>"
+    },
+    {
+      "tier": "added",
+      "lang": "ko",
+      "query": "알테오젠 할로자임 셀트리온 삼성바이오에피스 SC 피하주사 <run date>"
+    },
+    {
+      "tier": "added",
+      "lang": "ko",
+      "query": "DART 알테오젠 공시 <run date -1>"
+    },
+    {
+      "tier": "added",
+      "lang": "ko",
+      "query": "삼성바이오에피스 히알루로니다제 특허 2건 SC 자체 기술 (date-verification)"
+    },
+    {
+      "tier": "added",
+      "lang": "ko",
+      "query": "다케다 엔티비오 SC 할로자임 인핸즈 독점 (date-verification)"
+    },
+    {
+      "tier": "added",
+      "lang": "ko",
+      "query": "할로자임 GSK ADC SC 파트너십 딜 첫계약 바이오스펙테이터 (date-verification)"
+    },
+    {
+      "tier": "added",
+      "lang": "ko",
+      "query": "알테오젠 할로자임 미국 제조방법 특허 IPR 기각 날짜 (date-verification)"
+    }
+  ],
+  "blocked_domains": [
+    {
+      "domain": "www.thebionews.net",
+      "note": "EGRESS_BLOCKED on WebFetch for two verification lookups (idxno=26363, idxno=21390). Worked around via WebSearch snippets and corroborating outlets (EBN, edaily, biospectator) to confirm dates/content instead of retrying the host."
+    },
+    {
+      "domain": "www.hkn24.com",
+      "note": "EGRESS_BLOCKED on WebFetch (idxno=344311). Worked around via WebSearch which surfaced the underlying English-language primary coverage (prnewswire/fiercepharma) to establish the true (out-of-window) date."
+    },
+    {
+      "domain": "www.prnewswire.com",
+      "note": "EGRESS_BLOCKED on WebFetch for one direct fetch attempt (date verification of the 2025 Halozyme v. Merck PR). Worked around via WebSearch snippets from secondary coverage (statnews, fiercepharma) that corroborated the mid-2025 filing date."
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme Announces Global Collaboration and License Agreement with Incyte to Support the Development of Subcutaneous Formulations of INCA033989 Using its ENHANZE Technology",
+      "published": "2026-07-20",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Directly serves the antibody-into-less-volume question -- an ENHANZE deal expands Halozyme's competitive footprint against Alteogen/Alt-B4 and internal Hyperion/Thermicra.",
+      "verdict": "reject",
+      "reject_reason": "Outside window (published 2026-07-20, window starts 2026-09-10T17:55 KST) AND already logged as deal halozyme_incyte_2026-07 (date_found 2026-07-21). Duplicate at event level, also out-of-window.",
+      "event_key": "halozyme_incyte_inca033989_2026-07",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen Enters Option and License Agreement with Novartis for Development and Commercialization of Hybrozyme-Enabled Subcutaneous Products",
+      "published": "2026-09-02",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Directly serves the tracker question -- a major pharma licensing Alteogen's Hybrozyme for SC conversion is core competitive signal against ENHANZE and internal platforms.",
+      "verdict": "reject",
+      "reject_reason": "Outside window (published 2026-09-02) AND already logged as deal alteogen_novartis_2026-09 (date_found 2026-09-03). Duplicate at event level and source URL.",
+      "event_key": "alteogen_novartis_altb4_2026-09",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.fiercebiotech.com/biotech/novartis-inks-32b-subcutaneous-drug-delivery-deal-alteogen",
+        "https://www.thebionews.net/news/articleView.html?idxno=27744"
+      ]
+    },
+    {
+      "raw_title": "Halozyme and Vertex sign deal for Hypercon technology ($15M upfront)",
+      "published": "2026-04-01",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Hypercon licensing activity is direct evidence of Halozyme's suspension-particle platform gaining commercial traction against internal Hyperion/Thermicra targets.",
+      "verdict": "reject",
+      "reject_reason": "Outside window (published 2026-04-01) AND already logged as deal halozyme_vertex_2026-04 (date_found 2026-07-12). Duplicate.",
+      "event_key": "halozyme_vertex_hypercon_2026-04",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme at Wells Fargo Healthcare Conference: subQ push gains steam (Hypercon timeline commentary, Sept 9 conference)",
+      "published": "2026-09-09",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Executive commentary on Hypercon commercialization timeline bears on the competitive landscape vs. internal platforms.",
+      "verdict": "reject",
+      "reject_reason": "Published 2026-09-09, before this run's window opens (2026-09-10T17:55 KST) -- it is exactly the item logged by yesterday's run2 (deal halozyme_wellsfargo-hypercon-timeline_2026-09-09, date_found 2026-09-10). Out of window and duplicate.",
+      "event_key": "halozyme_wellsfargo_hypercon_2026-09-09",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme Announces Global Collaboration and License Agreement with GSK (ENHANZE, ADC oncology targets -- Halozyme's first ADC deal)",
+      "published": "2026-05-07",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "First ENHANZE deal targeting ADCs broadens the enabling-technology competitive set the tracker exists to map.",
+      "verdict": "reject",
+      "reject_reason": "Outside window (published 2026-05-07/05-11) AND already logged as deal halozyme_gsk_2026-05 (date_found 2026-07-12). Duplicate.",
+      "event_key": "halozyme_gsk_adc_2026-05",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.biospectator.com/news/view/28681"
+      ]
+    },
+    {
+      "raw_title": "삼성바이오에피스, SC 제형 '자체 기술' 쌓는다...히알루로니다제 특허 2건 (WO2026/142299, WO2026/142300 PCT filings)",
+      "published": "2026-07-13/14",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Samsung Bioepis building in-house hyaluronidase purification IP is a direct data point on the Korea-domiciled competitive field.",
+      "verdict": "reject",
+      "reject_reason": "Outside window (patents filed/reported 2026-07-13/07-14) AND same underlying PCT filings already logged as deals samsungbioepis_ph20_disclosure_2026-07-13 and samsungbioepis_isr-novelty-rejection_2026-07-14. Duplicate.",
+      "event_key": "samsungbioepis_hyaluronidase_patents_2026-07",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.ebn.co.kr/news/articleView.html?idxno=1716541",
+        "https://pharm.edaily.co.kr/news/read?newsId=03873686645514520"
+      ]
+    },
+    {
+      "raw_title": "휴온스랩, 하이디퓨즈 적용 항체조성물 11종 특허 확보 (Huonslab HyDiffuse, 11 antibody-composition patents)",
+      "published": "2026-08-31",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "New Korean rHuPH20-based SC IP directly expands the tracked competitive field.",
+      "verdict": "reject",
+      "reject_reason": "Outside window (published 2026-08-31) AND already logged as deal huonslab_hydiffuze_11antibody-patent_2026-08-31 (date_found 2026-08-31). Duplicate.",
+      "event_key": "huonslab_hydiffuze_11patent_2026-08-31",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "다케다, '엔티비오 SC' 전략 강화...할로자임 '인핸즈' 기술 글로벌 독점 확보 (Takeda worldwide exclusive ENHANZE license for Entyvio SC)",
+      "published": "2025-12 (per source: 'signed in December' of the prior year)",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "A worldwide-exclusive ENHANZE license on a major IBD franchise is a real competitive data point for the ENHANZE platform's reach.",
+      "verdict": "context",
+      "reject_reason": "Outside window (Dec 2025) and not already tracked, but too old to log as a new finding under Step 1.1; kept as context only, not added as a deal row.",
+      "event_key": "takeda_entyvio_enhanze_2025-12",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme Sues Merck for Patent Infringement over Subcutaneous Keytruda Formulation (15 Mdase patents, D.N.J.)",
+      "published": "2025-06 (filed around Merck Q1 2025 earnings)",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Litigation over hyaluronidase IP underlying a competing SC conversion (Alteogen's ALT-B4, used by Merck) is material to the platform landscape, but it is well outside this run's window.",
+      "verdict": "reject",
+      "reject_reason": "Outside window by several months (filed mid-2025); a Korean recap article surfaced it but carries no new date. Not logged.",
+      "event_key": "halozyme_v_merck_keytruda_lawsuit_2025-06",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.hkn24.com/news/articleView.html?idxno=344311"
+      ]
+    },
+    {
+      "raw_title": "알테오젠, 할로자임 美제조방법 특허 IPR 개시 기각 (USPTO PTAB denies institution of Halozyme's IPR against Alteogen's US 12,221,638 manufacturing patent)",
+      "published": "2026-05-15 (US) / 2026-05-18 (KR coverage)",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "A PTAB ruling upholding Alteogen's manufacturing-patent moat against a Halozyme validity challenge is a direct IP-strength data point for the platform comparison.",
+      "verdict": "reject",
+      "reject_reason": "Outside window (decision dated 2026-05-15/05-18).",
+      "event_key": "alteogen_halozyme_ipr_denied_2026-05",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Prestige Biopharma IDC Files Patent for Next-Generation Antibody Delivery Platform 'IDC224'",
+      "published": "2026-04-23",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "New patent filing on an already-tracked platform (IDC224) is a direct data point on that technology's IP position.",
+      "verdict": "reject",
+      "reject_reason": "Outside window (published 2026-04-23), well before this run's window. Not re-logged.",
+      "event_key": "prestige_idc224_patent_2026-04-23",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Various review/explainer articles on high-concentration SC formulation science (ScienceDirect/PMC/PubMed reviews, Contract Pharma explainers, market-context pieces)",
+      "published": "undated / journal review articles, no single discrete event",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "Useful background on the field but not a discrete dated event.",
+      "verdict": "context",
+      "reject_reason": "Gate B reject -- undated review articles / general explainers, not a discrete dated event (deal, filing, approval, trial, publication with a clear date).",
+      "event_key": "general_hcf_review_literature",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "WuXi Biologics Chengdu microbial manufacturing site structural completion",
+      "published": "2026-04-24",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "Manufacturing-site construction milestone has no concentration/volume/formulation-technology angle.",
+      "verdict": "reject",
+      "reject_reason": "Gate A reject -- general manufacturing-capacity news with no SC concentration/volume/delivery-technology angle; also outside window.",
+      "event_key": "wuxibio_chengdu_microbial_site_2026-04",
+      "canonical": false,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [],
+  "summary_note": "Full 17-query fixed matrix (Tiers 1-4, EN+KO) run plus 9 supplementary targeted/date-verification queries. Every candidate surfaced this run was either (a) already logged as an existing deal row (event-level duplicate) or (b) published before the window opened (2026-09-10T17:55 KST). No candidate's publication timestamp fell inside the ~15.3h window. No Gate D conflicts/corrections against existing tracker rows were identified. No new findings added; data/deals_db.py changed only to flip new_in_digest to False on the previously-True g2gbio_innobiolamp row so tomorrow's digest does not re-surface it."
+}

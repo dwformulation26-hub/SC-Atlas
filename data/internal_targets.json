@@ -3,8 +3,8 @@
 
   "internal_targets": [
     {
-      "id": "hyperion",
-      "name": "Hyperion",
+      "id": "h-cure",
+      "name": "H-Cure",
       "company": "Our internal platform",
       "stage_raw": "Preclinical / Internal",
       "stage_bucket": "Preclinical",
@@ -28,7 +28,7 @@
       "concentration_numeric": 380,
       "concentration_bucket": "300–450 mg/mL",
       "needle_size": "Not disclosed",
-      "mechanism": "Second internal high-concentration reformulation target, tracked alongside Hyperion as a benchmark against external platforms.",
+      "mechanism": "Second internal high-concentration reformulation target, tracked alongside H-Cure as a benchmark against external platforms.",
       "source_label": "Internal",
       "deal_id_aliases": ["thermicra_unconfirmed"]
     }

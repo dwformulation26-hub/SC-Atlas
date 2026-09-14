@@ -7,16 +7,17 @@ description: Runs the SC Atlas daily competitive-intelligence pipeline for high-
 
 SC Atlas is a competitive-intelligence tracker for high-concentration and
 large-volume subcutaneous (SC) injection delivery technologies, benchmarked
-against our internal platforms **Hyperion** and **Thermicra** (our own
+against our internal platforms **H-Cure** and **Thermicra** (our own
 internal programs -- never external companies, never logged as tracked
 technologies or deals) and the marketed reference product **Dupixent**
-(Sanofi/Regeneron).
+(Sanofi/Regeneron). H-Cure was renamed from "Hyperion" on 2026-09-11 --
+treat the legacy name the same way, never as an external entity.
 
 - Repo: `github.com/dwformulation26-hub/SC-Atlas`
 - Public dashboard: `https://dwformulation26-hub.github.io/SC-Atlas/`
 
 **The question this tracker exists to answer:** who can put more antibody
-into less subcutaneous volume, and what does that mean for Hyperion,
+into less subcutaneous volume, and what does that mean for H-Cure,
 Thermicra and Dupixent? Every finding must serve that question (enforced by
 Gate E).
 
@@ -31,12 +32,14 @@ gates and repo merge), **Dash** (publish), **Emilia** (digest email).
 ## Step 0 -- Environment
 
 In a scheduled cloud run the repo is already checked out and authenticated at
-`~/SC-Atlas` (confirm with `ls ~` if it isn't there). Use the ordinary `Bash`
-tool. There is no device bridge in a cloud run, and no token needs to be
-created -- push credentials come from the routine's git source.
+the absolute path `/home/user/SC-Atlas`. Do **not** use `~` or `$HOME`: the
+sandbox shell runs as root, so `~` resolves to `/root` and `cd ~/SC-Atlas`
+fails. Use the ordinary `Bash` tool. There is no device bridge in a cloud
+run, and no token needs to be created -- push credentials come from the
+routine's git source.
 
 ```bash
-cd ~/SC-Atlas && git log --oneline -3 && ls data/audit_log | tail -5
+cd /home/user/SC-Atlas && git log --oneline -3 && ls data/audit_log | tail -5
 ```
 
 Read `.claude/skills/sc-atlas-tracker-update/SKILL.md` for the data/app
@@ -203,7 +206,7 @@ high-concentration and/or large-volume SC delivery of biologics?
   (LEQEMBI IQLIK itself is already tracked with an explicit concentration
   claim -- 200 mg/mL vs 100 mg/mL IV -- so it passes; this ruling is about
   *other* device-only conversions.)
-- REJECT: anything about Hyperion or Thermicra as an external entity -- these
+- REJECT: anything about H-Cure or Thermicra as an external entity -- these
   are internal platforms, never logged as Technologies or Deals rows.
 
 **Gate B -- Substance.** Does this report a discrete, dated event?
@@ -318,7 +321,7 @@ Read from the checkout:
 - Correcting a vague or wrong existing row: edit that same dict in place
   (locate by `id`/`deal_id`, replace just that block, never retype the whole
   file), prefixing the corrected field with `"CORRECTED <date>: ..."`.
-- Never add Hyperion or Thermicra as external entities -- internal only,
+- Never add H-Cure or Thermicra as external entities -- internal only,
   tracked solely via `data/internal_targets.json`.
 - Edit with `sed -i` or a short Python read-modify-write script, never by
   retyping a file's full contents from memory.
@@ -376,16 +379,26 @@ and flag it in Step 9.
 
 ### Step 5.1 -- Post-push verification
 
-1. Fetch `https://dwformulation26-hub.github.io/SC-Atlas/data/dashboard_data.json`
-   with a cache-busting query param.
-2. Confirm it parses and that the technology/deal counts and `generated_at`
-   match what Step 4 just wrote.
-3. GitHub Pages can take a minute or two to redeploy -- note a mismatch in
-   Step 9 rather than treating it as failure outright; report a real failure
-   only if a retry a short while later still doesn't match.
-4. If Pages returns 404, Pages is not enabled on the repo yet. Report that
-   plainly in Step 9 and carry on -- the commit is the source of truth, and
-   the email should still go out.
+The sandbox's network egress proxy blocks `dwformulation26-hub.github.io`, so
+the published site cannot be fetched from inside a run. Both WebFetch and
+curl will fail there (EGRESS_BLOCKED, or curl exit status with an empty
+body). That is a sandbox limitation, not a broken deployment -- do not spend
+retries on it and do not report it as a data failure.
+
+Verify what was actually published instead:
+
+```bash
+git show HEAD:data/dashboard_data.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['generated_at'], d['counts'])"
+git status --short   # must be clean
+git log origin/main --oneline -1
+```
+
+Confirm the pushed commit's `generated_at` and `counts` match what Step 4
+wrote, and that `origin/main` points at the new commit. GitHub Pages
+republishes from that commit within a minute or two on its own. Note in Step
+9 that live-site verification was not possible from the sandbox, and carry
+on -- the pushed commit is the source of truth, and the email still goes
+out.
 
 ---
 
@@ -510,6 +523,6 @@ In the final output for the run, summarize:
   of doing it.
 - The public dashboard has no login or access control -- a known, accepted
   tradeoff. Don't put anything in the repo that shouldn't be public.
-- Hyperion and Thermicra are internal programs. They appear only through
+- H-Cure and Thermicra are internal programs. They appear only through
   `data/internal_targets.json`, never as tracked technologies, never as deal
   counterparties, and never in an email as external news.

@@ -65,3 +65,22 @@
   from the intentionally-changed `generated_at`/`generated_from` fields).
   The original two xlsx files are kept under `data/archive/` for
   provenance only; nothing reads them anymore.
+- 2026-09-11: Renamed the internal platform "Hyperion" to "H-Cure"
+  throughout the live dashboard and database. Source of truth is
+  `data/internal_targets.json` (`id` `hyperion` -> `h-cure`, `name`
+  `Hyperion` -> `H-Cure`); the `id` had to change too because the
+  dashboard table renders it as a visible `.tech-id` label under the
+  name. Also updated the two places the old name appeared in prose: the
+  Thermicra `mechanism` blurb in the same file, and the
+  `thermicra_internal_2026-07` correction note in `data/deals_db.py`
+  (both render on the dashboard). Regenerated
+  `data/dashboard_data.json`; the only diff beyond the rename is
+  `generated_at`. `index.html`'s page subtitle hardcoded the old name,
+  so that was edited directly -- the one place this rename had to reach
+  outside the data pipeline. README structure notes and both
+  `.claude/skills/` SKILL.md files renamed to match, so a future daily
+  scan still classifies the program as internal; the daily-scan skill
+  also carries a line telling it to reject the legacy "Hyperion" name as
+  an external entity. `data/audit_log/*.json` was deliberately left
+  alone -- those are dated records of what past runs actually screened,
+  not live data.
