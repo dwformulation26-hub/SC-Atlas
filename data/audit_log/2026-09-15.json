@@ -1,0 +1,365 @@
+{
+  "run_date": "2026-09-15",
+  "window": {
+    "from": "2026-09-14T09:07:00+09:00",
+    "to": "2026-09-15T09:05:00+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday run. Previous run (data/audit_log/2026-09-14.json) completed 2026-09-14T09:07:00+09:00 (Monday morning). Today is Tuesday 2026-09-15 with no missed day in between, so the window is the standard ~24h span (~23.97 hours) -- not extended."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Xeris XeriJect OR Lindy Microglassification OR Nanoform OR Crystalomics OR InventageLab OR Prestige IDC224 subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" technology deal September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration September 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 특허청 히알루로니다제 고농도 제형"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": "supplementary",
+      "lang": "en",
+      "query": "Halozyme Incyte ENHANZE license agreement INCA033989 date announced"
+    },
+    {
+      "tier": "supplementary",
+      "lang": "en",
+      "query": "intelacia \"Subcutaneous Conversion Platforms\" patent battleground September 2026"
+    },
+    {
+      "tier": "supplementary",
+      "lang": "en",
+      "query": "Lawrence Evans healthcare news deals September 14 2026 subcutaneous"
+    },
+    {
+      "tier": "supplementary",
+      "lang": "en",
+      "query": "NCT07646548 dupilumab berahyaluronidase alfa first posted (registry re-check)"
+    },
+    {
+      "tier": "supplementary",
+      "lang": "en",
+      "query": "Alteogen OR Halozyme OR Celltrion OR Samsung Bioepis OR InventageLab subcutaneous news September 15 2026"
+    },
+    {
+      "tier": "supplementary",
+      "lang": "ko",
+      "query": "G2G Bio 지투지바이오 InnoBioLAMP news September 2026"
+    },
+    {
+      "tier": "supplementary",
+      "lang": "en",
+      "query": "site:fda.gov OR site:clinicaltrials.gov subcutaneous high concentration antibody approval September 2026"
+    },
+    {
+      "tier": "supplementary",
+      "lang": "ko",
+      "query": "알테오젠 테르가제 품목허가 날짜"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme and Vertex global collaboration/license agreement for Hypercon technology",
+      "published": "2026-04-01",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id halozyme_vertex_2026-04 (date 2026-04-01). Also well outside the 2026-09-14/15 window; resurfaced only because it remains prominent in current search results and Halozyme's Sept 9 Wells Fargo conference remarks (already tracked separately).",
+      "event_key": "halozyme_vertex_hypercon_2026-04",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.pharmaceutical-technology.com/news/halozyme-vertex-deal-hypercon-technology/",
+        "https://www.fiercepharma.com/pharma/vertex-taps-halozyme-and-its-recently-acquired-elektrofi-tech-15m-drug-delivery-deal"
+      ]
+    },
+    {
+      "raw_title": "Halozyme Announces Global Collaboration and License Agreement with Incyte to Support Development of Subcutaneous Formulations of INCA033989 Using ENHANZE",
+      "published": "2026-07-20",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id halozyme_incyte_2026-07 (date 2026-07-20). Outside window.",
+      "event_key": "halozyme_incyte_enhanze_2026-07",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.prnewswire.com/news-releases/halozyme-announces-global-collaboration-and-license-agreement-with-incyte-to-support-the-development-of-subcutaneous-formulations-of-inca033989-using-its-enhanze-technology-302829283.html"
+      ]
+    },
+    {
+      "raw_title": "Halozyme and Oruka global exclusive collaboration and license agreement for Hypercon technology (ORKA-001)",
+      "published": "2026-05-06",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id halozyme_oruka_2026-05. Outside window.",
+      "event_key": "halozyme_oruka_hypercon_2026-05",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.prnewswire.com/news-releases/halozyme-and-oruka-announce-global-collaboration-and-license-agreement-to-develop-orka-001-with-hypercon-technology-302763746.html"
+      ]
+    },
+    {
+      "raw_title": "Alteogen Enters Option and License Agreement with Novartis for Hybrozyme-Enabled Subcutaneous Products (up to $3.223B)",
+      "published": "2026-09-02",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id alteogen_novartis_2026-09 (date 2026-09-02). Resurfaced heavily in this run's results (incl. a Sept 11 Intelacia patent-landscape explainer that recaps it) but the underlying event itself is outside the 2026-09-14/15 window and already logged.",
+      "event_key": "alteogen_novartis_hybrozyme_2026-09",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.prnewswire.com/news-releases/alteogen-enters-option-and-license-agreement-with-novartis-for-development-and-commercialization-of-hybrozyme-enabled-subcutaneous-products-302867513.html",
+        "https://www.fiercebiotech.com/biotech/novartis-inks-32b-subcutaneous-drug-delivery-deal-alteogen"
+      ]
+    },
+    {
+      "raw_title": "Prestige Biopharma IDC Files Patent for Next-Generation Antibody Delivery Platform IDC224",
+      "published": "2026-04-21",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id prestige_idc224_patent_2026-04. Outside window.",
+      "event_key": "prestige_idc224_patent_2026-04",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://finance.yahoo.com/sectors/healthcare/articles/prestige-biopharma-idc-files-patent-223000544.html"
+      ]
+    },
+    {
+      "raw_title": "Subcutaneous Conversion Platforms: The New Patent Battleground Behind the Biologics Delivery Boom (Intelacia analyst explainer)",
+      "published": "2026-09-11",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B: analyst/explainer piece recapping already-known events (Alteogen-Novartis deal, Keytruda Qlex sales, hyaluronidase patent competition) with no new discrete dated event of its own. Also published 2026-09-11, before window start (2026-09-14T09:07 KST). WebFetch to intelacia.com returned EGRESS_BLOCKED; assessed via WebSearch snippet only.",
+      "event_key": "intelacia_sc-patent-battleground_2026-09-11",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Healthcare News, Deals, and Investments Update September 14th, 2026 (Lawrence, Evans & Co.)",
+      "published": "2026-09-14",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate A: lead and only substantive story in this roundup is Axogen's acquisition of BioCircuit Technologies (peripheral nerve repair devices, NerveTape/ConformaWrap) -- no subcutaneous high-concentration delivery angle. No other SC-relevant item found in this issue despite its Sept 14 publish date falling inside the window. WebFetch to lawrenceevans.com returned EGRESS_BLOCKED; assessed via WebSearch snippet only.",
+      "event_key": "lawrenceevans_roundup_2026-09-14",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "NCT07646548 - Pharmacokinetics and Tolerability of Subcutaneous Dupilumab Coformulated With Berahyaluronidase Alfa and Dupilumab Without Berahyaluronidase Alfa in Healthy Participants (Sanofi/Regeneron)",
+      "published": null,
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Directly on-question (Dupixent benchmark + hyaluronidase-enabled SC high-concentration path) when it does have a dated update, but not this run.",
+      "verdict": "context",
+      "reject_reason": "Gate B: registry record with no new-in-window registration/status-change event found; this is a recurring candidate re-checked across nearly every prior run (2026-08-31 through 2026-09-09) with the same outcome each time. clinicaltrials.gov remains EGRESS_BLOCKED from this sandbox on every run to date, so exact first-posted/last-update timestamps still cannot be independently confirmed via direct fetch; relied on WebSearch snippets only, which show no new status. Not re-logged as a fresh finding absent a confirmed in-window change.",
+      "event_key": "sanofi_dupixent_berahyaluronidase_nct07646548",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://clinicaltrials.gov/study/NCT07646548"
+      ]
+    },
+    {
+      "raw_title": "Merck's Investigational Subcutaneous Pembrolizumab With Berahyaluronidase Alfa Demonstrates Noninferior PK vs IV Keytruda (Pivotal 3475A-D77 Trial)",
+      "published": "2025-03-27",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate A: Keytruda Qlex (pembrolizumab + berahyaluronidase alfa) itself is not a tracked Technology entity -- the tracked technology is Alteogen's ALT-B4/Hybrozyme platform, already covered via its own deal rows. This specific trial-results item is also dated 2025-03-27, far outside the window, and resurfaced only as background in this run's registry sweep.",
+      "event_key": "merck_keytruda-qlex_3475a-d77_2025",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.merck.com/news/mercks-investigational-subcutaneous-pembrolizumab-with-berahyaluronidase-alfa-demonstrates-noninferior-pharmacokinetics-compared-to-intravenous-iv-keytruda-pembrolizumab-in-pivotal/"
+      ]
+    },
+    {
+      "raw_title": "G2G Bio and Celltrion MOU/MTA for ultra-high-concentration antibody SC formulation platform cooperation (InnoBioLAMP)",
+      "published": "2026-07-30",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id g2gbio_celltrion_mou_2026-07-30. Outside window.",
+      "event_key": "g2gbio_celltrion_mou_2026-07-30",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.asiae.co.kr/en/article/bio-health/2026073014453141023",
+        "https://www.pearceip.law/2026/07/30/celltrion-g2gbio-collaborate-on-high-concentration-sc-antibody-drug-development/"
+      ]
+    },
+    {
+      "raw_title": "알테오젠 '테르가제' 식약처 품목허가 (Alteogen standalone hyaluronidase MFDS approval)",
+      "published": "2024-07",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B/window: this is a 2024-07 approval (over two years old), resurfaced only via a recent trade-press retrospective on Teragase's commercial ramp (2026-08-20 mt.co.kr piece on sales targets). Not a discrete new-in-window event; no new numeric or regulatory detail beyond what's already reflected in tracked ALT-B4/Hybrozyme rows.",
+      "event_key": "alteogen_teragase_mfds_2024-07",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.biospectator.com/news/view/22442",
+        "https://www.mt.co.kr/thebio/2026/08/20/2026082009495835973"
+      ]
+    },
+    {
+      "raw_title": "General SC-formulation background pieces on Samsung Bioepis / Celltrion internal formulation strategy (no discrete dated event)",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B: company-strategy explainer articles (edaily.co.kr, celltrion.com stories page, bizwatch.co.kr) describing general SC-formulation competitive positioning, not a dated deal/filing/approval/trial event.",
+      "event_key": "samsungbioepis_celltrion_sc-strategy-explainers",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Academic/review literature on ultra-high-concentration formulation science (ionic liquids, particle design reviews, injectability studies)",
+      "published": null,
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B: undated or long-since-published review/methods articles (PMC/ScienceDirect/Wiley Advanced Materials), not discrete dated events attributable to a specific company or platform in-window.",
+      "event_key": "academic_uhc-formulation-reviews_2026-09",
+      "canonical": true,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [],
+  "blocked_domains": [
+    "www.lawrenceevans.com",
+    "finance.yahoo.com",
+    "www.intelacia.com",
+    "www.prnewswire.com",
+    "biopharmaapac.com",
+    "www.pharmaceutical-technology.com",
+    "clinicaltrials.gov"
+  ]
+}
