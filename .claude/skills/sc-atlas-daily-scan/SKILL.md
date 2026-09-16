@@ -110,7 +110,7 @@ Korean source pool to check directly:
 | Outlet | Note |
 |---|---|
 | 바이오스펙테이터 (biospectator.com) | Korea's dedicated biotech trade press -- deepest deal/pipeline-level reporting for this beat |
-| DART 전자공시시스템 (dart.fss.or.kr) | Mandatory corporate disclosure filings -- Korean-listed companies must disclose material licensing deals here, often before any press coverage. Search company name + 공시. |
+| DART 전자공시시스템 (dart.fss.or.kr) | Mandatory corporate disclosure filings -- Korean-listed companies must disclose material licensing deals here, often before any press coverage. Search company name + 공시. **`dart.fss.or.kr` is EGRESS_BLOCKED in the cloud sandbox -- do not fetch it directly; use the fallback ladder in 1.3.1.** |
 | 더바이오 (thebionews.net) | Deepest formulation/patent-level reporting |
 | 이데일리 팜 (edaily.co.kr) | Frequent exclusives; PCT/WIPO-level detail |
 | 머니투데이 더바이오 (mt.co.kr/thebio) | Deal and milestone coverage |
@@ -197,10 +197,44 @@ paragraph to stay current.
 Also use company investor-relations and press pages directly where a Tier
 1/2/4 result points to one.
 
+### 1.3.1 Egress blocks and the DART fallback ladder
+
 Some domains are blocked by the sandbox's network egress proxy
 (`EGRESS_BLOCKED`). That is not a failure of the run: note the blocked
 domain, find the same event through another source, and record the block in
 the audit log rather than retrying the same host repeatedly.
+
+**Confirmed blocked in the cloud sandbox** (observed 2026-09-10, 2026-09-11,
+2026-09-15, 2026-09-16): `dart.fss.or.kr`. Also intermittently blocked:
+`edaily.co.kr`, `pharm.edaily.co.kr`, `thebionews.net`, `sedaily.com`,
+`hankyung.com`, `biz.heraldcorp.com`, `mdtoday.co.kr`,
+`lifesciencedaily.news`. These are the tracker's most valuable Korean
+sources, so treat a block as a routing problem to solve, not a dead end.
+
+**Do not spend the run's budget re-fetching `dart.fss.or.kr`.** It is blocked.
+Walk this ladder instead, stopping at the first rung that yields the filing:
+
+1. **OpenDART API** -- `https://opendart.fss.or.kr/api/list.json?crtfc_key=<KEY>&corp_code=<CODE>&bgn_de=YYYYMMDD&end_de=YYYYMMDD&page_count=100`
+   Different hostname from the blocked `dart.fss.or.kr`, and returns JSON
+   rather than a rendered page, so it is both more likely to pass the proxy
+   and far more reliable to parse. Requires a free key registered at
+   `opendart.fss.or.kr`. **If no key is configured, skip this rung and note
+   "OpenDART key not configured" in the audit log** -- do not attempt to
+   register one, and do not invent a key.
+2. **KIND (KRX)** -- `kind.krx.co.kr`. The exchange's own disclosure portal;
+   carries the same material filings for KOSPI/KOSDAQ issuers.
+3. **Portal mirrors** -- Naver and Daum finance disclosure pages
+   (`finance.naver.com`, `finance.daum.net`) republish DART filings with the
+   filing date intact.
+4. **Company IR page** -- Alteogen, Celltrion, Samsung Bioepis and Samsung
+   Biologics all post material disclosures to their own IR sections.
+5. **Search-engine indirection** -- query the filing title plus 공시 and take
+   the date from trade-press coverage, marking confidence Secondary.
+
+Record in the audit log which rung produced the filing, or that every rung
+failed. A run that reached DART content through rung 3 is not the same
+quality of evidence as one that reached it through rung 1, and the audit
+trail must say which.
 
 ### 1.4 Verification screening gate (mandatory)
 
@@ -249,6 +283,11 @@ working URL? Assign a confidence tag:
   toward Unverified rather than inheriting the trade outlet's confidence.
 - Hard reject: SEO/stock-forecast content farms and AI-generated aggregator
   posts.
+- **Gate C is not passed until the date is verified per 1.5.1.** Record which
+  method confirmed it (`url`, `page`, `second_source`, or `unconfirmed`) in
+  the candidate's `date_source` field. A candidate whose only date evidence is
+  a WebSearch result summary has `date_source: "unconfirmed"` and cannot be
+  tagged `fresh`.
 
 **Gate D -- Conflict check.** Does this candidate contradict or qualify an
 existing tracker row?
@@ -276,6 +315,81 @@ nominate one canonical source (prefer: primary-document holder, then
 exclusive, then earliest timestamp) and list the others as corroborating
 URLs.
 
+#### 1.5.1 Date verification (mandatory -- the search tool's dates are not evidence)
+
+**A date reported in a WebSearch result summary is a claim, not a source.**
+It has been wrong in production: on 2026-09-16 the search tool dated an
+Alteogen CEO remark to 2026-09-15 when the underlying 청년의사 article was
+headlined `[JPM 2026]` -- the January 2026 JPMorgan Healthcare Conference,
+eight months earlier. That item was caught by luck. Confirm every date
+against at least one of these, in order of preference:
+
+1. **The URL itself.** Most Korean and wire outlets encode the publication
+   date in the path or article id, and this signal survives an egress block
+   because it requires no fetch. Known-good patterns:
+   - `/YYYY/MM/DD/` in the path -- sedaily.com, mt.co.kr, pearceip.law
+   - `YYYYMMDD` + sequence in the article id -- asiae.co.kr
+     (`2026051620002584686`), newspim.com (`20260520000991`),
+     fnnews.com (`202605131531355617`), v.daum.net (`20260516200200463`)
+   - `YYYYMMDD` in wire ids -- businesswire.com, globenewswire.com
+   Audited against the tracker's own 54 source URLs, every parseable URL date
+   was a plausible publication date. Treat it as authoritative over any
+   search-summary date that disagrees.
+2. **The article page's own timestamp**, via WebFetch -- when the host is not
+   blocked.
+3. **A second independent outlet** reporting the same event with a date.
+
+**Outlets that do not encode a date in the URL** (thebionews.net,
+docdocdoc.co.kr, hitnews, biospectator and others use an opaque `idxno=`)
+need rung 2 or 3. Do not promote a search-summary date to a logged date for
+these.
+
+**Sequential-id bracketing, for opaque `idxno=` outlets.** These CMS ids
+increase monotonically with publication, so an id can be bracketed against
+anchors of known date from the same outlet. This works even when the host is
+egress-blocked, because the id is in the search result. Anchors for
+`docdocdoc.co.kr` (청년의사):
+
+| `idxno` | Known date |
+|---|---|
+| 3025122 | JPM 2025 coverage, January 2025 |
+| 3034626 | late 2025 ("내년 JPM..." preview) |
+| 3035518, 3035621, 3035708 | JPM 2026 coverage, January 2026 |
+| 3039924 | mid-2026 |
+| 3042536 | later 2026 |
+
+An id near 3035xxx is January 2026, not September. Roughly 10,400 ids elapse
+per year at this outlet. Build the same anchor table for any other opaque-id
+outlet that produces a candidate, and record the anchors used in the audit
+log so the next run inherits them.
+
+**The 2026-09-16 failure, worked through.** The mis-dated item was
+`docdocdoc.co.kr/news/articleView.html?idxno=3035621`. Rung 1 fails -- no date
+in the URL. What catches it: the `[JPM 2026]` conference tag in the headline
+(red flag, below), and `idxno=3035621` bracketing to January 2026 against the
+anchors above. Either alone is sufficient. Apply both.
+
+**Red flags that force verification before logging:**
+- A conference tag in the headline -- `[JPM 2026]`, `[AACR 2026]`,
+  `[ASCO 2026]`, `[ESMO ...]`. These name *when the event happened*, and such
+  articles are frequently re-surfaced and re-dated by search tools. Find the
+  conference's actual dates and reconcile.
+- Any recap phrasing (지난, 앞서, "previously reported," "last year").
+- A date that would make the item suspiciously convenient -- i.e. landing
+  exactly inside the current window. Check those harder, not less.
+
+**Publication date is not event date.** Record the event date in the `date`
+field and say so in the summary when they differ. A PTAB decision issued
+2026-05-15 US time and reported in Korea on 2026-05-16 is a 2026-05-15 event.
+
+**If the date cannot be confirmed:** the item is still *eligible* -- age no
+longer gates ingestion, per 1.1 -- but log it with `flagged: True`,
+`confidence` downgraded to Secondary or Unverified, and state plainly in the
+summary what could not be confirmed and why. Never silently adopt an
+unverified date. If the date is unconfirmable, classify the finding's
+freshness tier as `backfill`, never `fresh`: an unverified date must not earn
+an item a place in the digest's lead block or a slot in the send decision.
+
 ### 1.6 Step 1 output contract
 
 Hand off a structured object, not prose:
@@ -289,6 +403,7 @@ Hand off a structured object, not prose:
       "gate_a": "pass"|"reject", "gate_b": "pass"|"reject",
       "gate_c": "primary"|"secondary"|"unverified",
       "gate_d": "new"|"conflict"|"correction", "gate_e": str,
+      "date_source": "url"|"page"|"second_source"|"unconfirmed",
       "dedupe": "new"|"dup_deal_id"|"dup_url"|"dup_event",
       "verdict": "log"|"context"|"reject", "reject_reason": str|null,
       "event_key": str, "canonical": bool, "corroborating_urls": [str]
@@ -547,7 +662,11 @@ In the final output for the run, summarize:
 - Commit hash, and whether the live dashboard JSON matched (Step 5.1).
 - Whether the digest was **sent** (recipients, subject) or **drafted**, and
   which rule decided that.
-- Any domains that were EGRESS_BLOCKED this run.
+- Any domains that were EGRESS_BLOCKED this run, and for any Korean
+  disclosure item, which rung of the 1.3.1 DART fallback ladder produced it
+  (or that all five rungs failed).
+- Date verification: how many logged findings had `date_source` of `url`,
+  `page`, `second_source` and `unconfirmed`. Name every `unconfirmed` one.
 - Anything that didn't complete cleanly -- stated plainly, not papered over.
 
 ---
