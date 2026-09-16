@@ -62,7 +62,7 @@ TECHNOLOGIES = [
         'needle_size': "Not disclosed (set by partner's final product)",
         'mechanism': 'Recombinant human hyaluronidase temporarily depolymerizes hyaluronan in the interstitial space, lowering the barrier to bulk fluid flow for large-volume/high-dose SC administration.',
         'date_added': '2026-07-12',
-        'last_reviewed': '2026-07-14',
+        'last_reviewed': '2026-09-16',
     },
     {
         'id': 'hypercon',
@@ -88,7 +88,7 @@ TECHNOLOGIES = [
         'needle_size': 'Not disclosed',
         'mechanism': 'Recombinant human hyaluronidase that temporarily hydrolyzes hyaluronan in the extracellular matrix, permitting large-volume IV-to-SC conversion of existing biologics.',
         'date_added': '2026-07-12',
-        'last_reviewed': '2026-09-03',
+        'last_reviewed': '2026-09-16',
     },
     {
         'id': 'genentech_unbranded_sc',
