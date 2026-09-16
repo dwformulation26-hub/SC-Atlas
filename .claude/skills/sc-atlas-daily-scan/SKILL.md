@@ -49,28 +49,48 @@ boundary rules before editing anything. They are binding on this run.
 
 ## Step 1 -- Research (Scott)
 
-### 1.1 Window (explicit weekend handling)
+### 1.1 Window and eligibility
 
-Window = from the previous run's completion timestamp to now, in KST
-(Asia/Seoul). Derive the previous run from the newest
-`data/audit_log/*.json`, or failing that the last commit timestamp on `main`.
+**These are two different things. Do not conflate them.** The window steers
+how the searches are phrased. Eligibility -- whether a candidate may be
+logged -- is decided by deduplication against the tracker, never by the
+item's age.
 
-On a normal weekday that's about 24 hours. **On Monday -- or after any gap
-where the task didn't run for a day or more (holiday, missed run) -- do NOT
-cap this at 24 hours.** Extend back to the last time the task actually
-completed; over a normal weekend that's Friday's run to Monday's, roughly 72
-hours. Truncating a Monday run to "the last 24 hours" silently drops all
-Saturday/Sunday coverage, which is often when Korean corporate disclosures
-and weekend wrap-ups land. If the previous run's timestamp is genuinely
-unavailable, use 72 hours if today is Monday, 24 hours otherwise.
+**Search window (recency bias for queries).** From the previous run's
+completion timestamp to now, in KST (Asia/Seoul), with a **floor of 72
+hours**. Derive the previous run from the newest `data/audit_log/*.json`, or
+failing that the last commit timestamp on `main`. On Monday, or after any gap
+where the task didn't run for a day or more (holiday, missed run), extend
+back to the last time the task actually completed -- over a normal weekend
+that's Friday's run to Monday's. Never shrink below 72 hours: truncating to
+"the last 24 hours" silently drops Saturday/Sunday coverage, which is often
+when Korean corporate disclosures and weekend wrap-ups land.
 
-- An item is loggable as new only if its publication timestamp falls inside
-  the window.
-- An item outside the window is context only -- it may inform a summary but
-  never becomes a logged finding.
-- One exception: an out-of-window source may be used if it corrects or
-  contradicts an existing tracker row -- log that as a CORRECTED or FLAGGED
-  item per Step 3, not a new finding.
+**Eligibility (dedupe-only -- this is the gate that decides).** A candidate
+is loggable if it is **not already in the tracker**, regardless of how old it
+is. Check for a duplicate in this order, and reject only on a hit:
+
+1. `deal_id` or `event_key` already present in `data/deals_db.py`
+2. `source_url` already present on any existing row
+3. Same underlying event already logged under a different URL -- same parties,
+   same event type, same date
+
+**Never reject a candidate for being old.** An item published eleven months
+ago that is not in the tracker is a finding; log it. Publication age
+determines only its freshness tier (below), never whether it gets in. Runs
+audited in September 2026 rejected 117 candidates on age, median age 48 days,
+and not one of them would have been caught by widening the window instead --
+they needed this rule.
+
+**Freshness tier (drives digest presentation only, per Step 6).** Tag every
+logged finding:
+
+- `fresh` -- published inside the search window.
+- `backfill` -- published before the window opened, new to the tracker.
+
+**Corrections.** A source of any age that corrects or contradicts an existing
+tracker row is still routed to Step 3's correction/conflict path as a
+CORRECTED or FLAGGED item, not logged as a new finding.
 
 ### 1.2 Languages and source pools (Korean strengthened)
 
@@ -269,11 +289,13 @@ Hand off a structured object, not prose:
       "gate_a": "pass"|"reject", "gate_b": "pass"|"reject",
       "gate_c": "primary"|"secondary"|"unverified",
       "gate_d": "new"|"conflict"|"correction", "gate_e": str,
+      "dedupe": "new"|"dup_deal_id"|"dup_url"|"dup_event",
       "verdict": "log"|"context"|"reject", "reject_reason": str|null,
       "event_key": str, "canonical": bool, "corroborating_urls": [str]
   } ],
   "findings": [ {
       "technology": str, "company": str, "event": str, "date": ISO8601,
+      "freshness": "fresh"|"backfill",
       "source_name": str, "source_url": str,
       "confidence": "Primary"|"Secondary"|"Unverified",
       "summary": str, "conflicts_with": deal_id|null
@@ -409,16 +431,33 @@ how the tracking works. **No "gates," "windows," "confidence tags,"
 "candidates," or any other pipeline or process language anywhere in the
 email.**
 
+**Freshness ordering is the whole point of the layout.** The digest must
+always lead with what is genuinely new in the field, so a reader can tell at
+a glance that the tracker ran today and the field moved today. Older items
+that are merely new *to the tracker* go below, clearly separated, and never
+in the lead block.
+
 Structure:
 - Short header: "SC Atlas" plus one line, e.g. "New this week."
-- One line stating how many updates: *"N updates since the last check."* If
-  zero: *"No new findings today."* -- one line, no further explanation.
-- If there's a clearly most-significant finding, lead with it as a short
-  highlighted block: a one-line headline plus 2-3 sentences on what happened
-  and why it matters for high-concentration SC delivery specifically (not
-  general company news).
-- Remaining findings as short paragraphs, one company/technology bolded per
-  item, 1-2 sentences each -- what happened, not how it was found or vetted.
+- One line stating how many updates: *"N updates since the last check."*
+  Count only `fresh` findings here. If zero `fresh` findings, do **not** stop
+  at a bare "No new findings today" -- state what was checked, in one plain
+  sentence with no pipeline jargon: *"No new developments in the last 24
+  hours across the 20 technologies we track."* A reader must never be left
+  unable to distinguish a quiet field from a broken tracker.
+- If there's a clearly most-significant `fresh` finding, lead with it as a
+  short highlighted block: a one-line headline plus 2-3 sentences on what
+  happened and why it matters for high-concentration SC delivery specifically
+  (not general company news).
+- Remaining `fresh` findings as short paragraphs, one company/technology
+  bolded per item, 1-2 sentences each -- what happened, not how it was found
+  or vetted.
+- **`backfill` findings go last, under their own small heading** -- "Also
+  added to the tracker" -- with the event's real date shown on each item, so
+  nothing older is ever presented as breaking news. One line each. If the
+  list runs past five items, show the five most significant and link the rest
+  to the dashboard. Never promote a `backfill` item into the lead block, and
+  never count it in the "N updates since the last check" line.
 - **Every finding carries its own source link** -- the article, press
   release, or filing it came from, linked on the finding's headline or on a
   short "Source: <outlet>" line directly under it. A reader must be able to
@@ -465,12 +504,15 @@ Subject: `SC Atlas — N new finding(s) — <YYYY-MM-DD>`, or
 
 **Which action to take:**
 
-- **New findings this run, and Step 5 pushed cleanly, and Step 6.5 verified
-  clean:** send the email to all four recipients (Gmail `send_message`).
-  This is the standing instruction from the tracker's owner; it is the only
-  case where sending is authorized.
-- **No new findings:** create an unsent Gmail draft instead (`create_draft`),
-  addressed the same way. Never send a no-findings email.
+- **At least one `fresh` finding this run, and Step 5 pushed cleanly, and
+  Step 6.5 verified clean:** send the email to all four recipients (Gmail
+  `send_message`). This is the standing instruction from the tracker's owner;
+  it is the only case where sending is authorized.
+- **`backfill` findings only, no `fresh` ones:** create an unsent draft. The
+  tracker gained rows, but nothing happened in the field in the last 72
+  hours, and a send would present old events as today's news.
+- **No new findings at all:** create an unsent Gmail draft instead
+  (`create_draft`), addressed the same way. Never send a no-findings email.
 - **Anything went wrong** -- the push failed, a claim in the email didn't
   trace back to committed data, or the run couldn't complete the merge:
   create a draft, do not send, and say why in Step 9. A run that couldn't

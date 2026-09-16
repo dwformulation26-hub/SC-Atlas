@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T00:05:52+00:00",
+  "generated_at": "2026-09-16T10:58:23+09:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -57,7 +57,7 @@
     "tracked": 26,
     "comparable": 16,
     "commercial": 8,
-    "deals_tracked": 50,
+    "deals_tracked": 54,
     "flagged_deals": 5
   },
   "internal_targets": [
@@ -395,6 +395,21 @@
           "source_url": "https://www.pearceip.law/2026/06/18/sanofi-alteogen-confirm-development-of-subcutaneous-dupilumab/",
           "relevance": "High",
           "confidence": "Not assessed",
+          "flagged": false,
+          "new_in_digest": false
+        },
+        {
+          "deal_id": "alteogen_ptab-ipr-defense_2026-05-15",
+          "partner": "Halozyme -- adversarial (PTAB inter partes review)",
+          "deal_type": "IP/Patent litigation",
+          "date": "2026-05-15",
+          "date_sort_key": 20260515,
+          "summary": "PTAB declined to institute Halozyme's inter partes review against Alteogen's US Pat. 12,221,638, 'Method for Manufacturing Recombinant Hyaluronidase' -- the core process patent behind ALT-B4, registered in the US in February 2026. Halozyme had argued Alteogen's temperature-shift culture method was already known in the prior art; the PTAB found Halozyme's prior art and invalidity theory insufficient to show a reasonable likelihood of prevailing, so no trial was instituted. Decision 2026-05-15 (US time), reported in Korea 2026-05-16. Read alongside the concurrent Merck PGR invalidations of Halozyme's own PH20 patents, this removes a significant overhang from ALT-B4's manufacturing IP and from Keytruda SC. BACKFILL: added 2026-09-16 during the 12-month backfill sweep; not previously tracked.",
+          "molecule": "ALT-B4 (berahyaluronidase alfa) -- manufacturing method patent",
+          "source_name": "Asia Business Daily / Seoul Economic Daily; corroborated by 더바이오 and 머니투데이 더바이오",
+          "source_url": "https://www.asiae.co.kr/en/article/2026051620002584686",
+          "relevance": "High",
+          "confidence": "Secondary",
           "flagged": false,
           "new_in_digest": false
         },
@@ -885,6 +900,21 @@
           "new_in_digest": false
         },
         {
+          "deal_id": "halozyme_merck_ptab-pgr-invalidations_2026-05",
+          "partner": "Merck (MSD) -- adversarial (PTAB post-grant review)",
+          "deal_type": "IP/Patent litigation",
+          "date": "2026-05-18",
+          "date_sort_key": 20260518,
+          "summary": "Three PTAB decisions in May 2026 materially weakened Halozyme's PH20/MDASE patent wall, all from Merck post-grant review petitions filed over Keytruda Qlex (SC pembrolizumab): (1) PGR2025-00003, US Pat. 11,952,600 -- claims 1-4 and 8-21 held UNPATENTABLE for lack of written description and enablement, decided 2026-05-12; (2) PGR2025-00087, US Pat. 12,371,685 -- institution DENIED, 2026-05-15; (3) PGR2025-00006, US Pat. 12,152,262 -- claims 1-4 and 8-13 held UNPATENTABLE on the same grounds, decided 2026-05-18. The PTAB reasoned that Halozyme demonstrated efficacy experimentally for only a single modified variant while claiming variants bearing multiple simultaneous modifications, exceeding the scope actually possessed by the inventor. These are the first invalidations among the MDASE-family patents Halozyme asserted against Merck in the District of New Jersey, and they indirectly benefit Alteogen, whose ALT-B4 enables Keytruda SC. BACKFILL: added 2026-09-16 during the 12-month backfill sweep; not previously tracked.",
+          "molecule": "Pembrolizumab SC (Keytruda Qlex) -- patents cover modified PH20 hyaluronidase polypeptides",
+          "source_name": "Venable's BiologicsHQ (PTAB decision summary); corroborated by Pearce IP and Asia Business Daily",
+          "source_url": "https://biologicshq.com/keytruda-qlex-updates-final-written-decisions-find-two-halozyme-ph20-patents-unpatentable-while-institution-is-denied-for-third-patent/",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": false
+        },
+        {
           "deal_id": "halozyme_gsk_2026-05",
           "partner": "GSK",
           "deal_type": "Licensing/Collaboration",
@@ -896,6 +926,36 @@
           "source_url": "https://www.stocktitan.net/news/HALO/halozyme-announces-global-collaboration-and-license-agreement-with-bs56otbp3obt.html",
           "relevance": "High",
           "confidence": "Not assessed",
+          "flagged": false,
+          "new_in_digest": false
+        },
+        {
+          "deal_id": "halozyme_takeda_vedolizumab_2026-01-08",
+          "partner": "Takeda",
+          "deal_type": "Licensing/Collaboration",
+          "date": "2026-01-08",
+          "date_sort_key": 20260108,
+          "summary": "Global collaboration & license applying ENHANZE (rHuPH20) to vedolizumab (ENTYVIO), Takeda's anti-integrin antibody for moderately-to-severely active ulcerative colitis and Crohn's disease. Takeda pays an upfront payment plus potential development and commercial milestones, with royalties on sales of ENHANZE-combined vedolizumab products. Extends Halozyme's 2026 ENHANZE run alongside GSK, Incyte, Vertex, Oruka and Skye. BACKFILL: added 2026-09-16 during the 12-month backfill sweep; not previously tracked.",
+          "molecule": "Vedolizumab (ENTYVIO)",
+          "source_name": "Takeda newsroom (company press release)",
+          "source_url": "https://www.takeda.com/newsroom/newsreleases/2026/collaboration-and-license/",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false
+        },
+        {
+          "deal_id": "halozyme_skye_enhanze_2026-01-05",
+          "partner": "Skye Bioscience",
+          "deal_type": "Licensing/Collaboration",
+          "date": "2026-01-05",
+          "date_sort_key": 20260105,
+          "summary": "Non-exclusive global collaboration & license applying ENHANZE (rHuPH20) to nimacimab, Skye's CB1-targeting negative allosteric modulating antibody for obesity. Explicitly framed as a large-volume play: the stated purpose is to support evaluation of HIGHER nimacimab subcutaneous doses by enabling delivery of LARGER injection volumes, with Skye's CEO citing the need for 'a practical way to deliver them subcutaneously.' Halozyme receives development and commercialization milestone payments plus mid-single-digit royalties on net sales for at least 10 years. Skye planned a Phase 2b trial in mid-2026 also assessing nimacimab combined with a GLP-1 receptor agonist. BACKFILL: added 2026-09-16 during the 12-month backfill sweep; not previously tracked.",
+          "molecule": "Nimacimab (anti-CB1 mAb)",
+          "source_name": "Skye Bioscience IR (company press release)",
+          "source_url": "https://ir.skyebioscience.com/news-releases/detail/249/halozyme-and-skye-bioscience-announce-global-collaboration-and-license-agreement-to-evaluate-nimacimab-co-formulated-with-enhanze-for-obesity",
+          "relevance": "High",
+          "confidence": "Primary",
           "flagged": false,
           "new_in_digest": false
         }

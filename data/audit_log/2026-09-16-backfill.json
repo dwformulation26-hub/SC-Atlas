@@ -1,0 +1,96 @@
+{
+  "run_date": "2026-09-16",
+  "run_type": "backfill",
+  "window": {
+    "from": "2025-09-16T00:00:00+09:00",
+    "to": "2026-09-16T23:59:00+09:00",
+    "tz": "Asia/Seoul",
+    "note": "ONE-OFF 12-MONTH BACKFILL, not a daily run. Authorized by the tracker owner on 2026-09-16 after an audit found 117 candidates rejected on publication age (median age 48 days) across the 18 runs from 2026-08-31 to 2026-09-16. Run under the revised Step 1.1 rule: eligibility is decided by deduplication against the tracker, never by the item's age."
+  },
+  "method": [
+    "Mined all 18 existing audit logs for candidates with a parseable publication date inside the last 12 months that were never logged (101 distinct).",
+    "Cross-referenced each against data/deals_db.py by deal_id, source_url and event identity.",
+    "Ran targeted EN/KO web sweeps over the tracked-entity list to surface events no prior run had seen at all.",
+    "Screened survivors through Gates A-E with the age criterion removed."
+  ],
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen Halozyme PTAB IPR patent challenge ALT-B4 hyaluronidase 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "high concentration subcutaneous antibody formulation platform license deal 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Merck PGR Halozyme MDASE patent invalidated PTAB Keytruda SC May 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Xeris XeriJect OR Lindy Biosciences Microglassification high concentration subcutaneous partnership 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE new collaboration license agreement 2026 subcutaneous partner"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 할로자임 특허 무효 PTAB 2026 고농도 피하주사"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license agreement 2026 new partner technology transfer"
+    }
+  ],
+  "findings": [
+    {
+      "deal_id": "halozyme_skye_enhanze_2026-01-05",
+      "freshness": "backfill",
+      "date": "2026-01-05",
+      "confidence": "Primary",
+      "gate_e": "ENHANZE licensed specifically to enable LARGER subcutaneous injection volumes for higher nimacimab dosing -- volume-per-dose is the tracker's core question."
+    },
+    {
+      "deal_id": "halozyme_takeda_vedolizumab_2026-01-08",
+      "freshness": "backfill",
+      "date": "2026-01-08",
+      "confidence": "Primary",
+      "gate_e": "Another ENHANZE IV-to-SC conversion on a major marketed biologic; extends the competitive benchmark for rHuPH20-enabled SC delivery."
+    },
+    {
+      "deal_id": "halozyme_merck_ptab-pgr-invalidations_2026-05",
+      "freshness": "backfill",
+      "date": "2026-05-18",
+      "confidence": "Secondary",
+      "gate_e": "Two of Halozyme's PH20 patents held unpatentable narrows the IP moat around the leading SC-conversion platform, changing who can operate in high-concentration SC delivery."
+    },
+    {
+      "deal_id": "alteogen_ptab-ipr-defense_2026-05-15",
+      "freshness": "backfill",
+      "date": "2026-05-15",
+      "confidence": "Secondary",
+      "gate_e": "ALT-B4's core manufacturing patent survived Halozyme's challenge, strengthening the main competitor to ENHANZE on SC conversion."
+    }
+  ],
+  "candidates_reviewed": 101,
+  "already_tracked": 97,
+  "notes": [
+    "Most age-rejected candidates turned out to be genuinely already tracked -- the tracker's dedupe layer is sound; it was the age filter that was discarding real finds.",
+    "The three Merck PGR outcomes (2026-05-12, -05-15, -05-18) were consolidated into one row per the skill's event-grouping rule: same petitioner, same patent family, same week.",
+    "The entire May 2026 PTAB cluster was invisible to the tracker. It had been surfaced and age-rejected at least twice (2026-09-02 and 2026-09-16 runs) before this backfill.",
+    "No digest email was sent for this run: every finding is freshness=backfill, and the revised Step 7 rule forbids sending when there are no fresh findings."
+  ],
+  "email": {
+    "sent": false,
+    "drafted": false,
+    "reason": "Backfill run; owner-directed data operation, not a daily digest cycle."
+  }
+}
