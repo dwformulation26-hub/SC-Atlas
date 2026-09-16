@@ -1,0 +1,222 @@
+{
+  "run_date": "2026-09-16",
+  "window": {
+    "from": "2026-09-15T09:05:00+09:00",
+    "to": "2026-09-16T09:04:26+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday run. Previous run (data/audit_log/2026-09-15.json) completed 2026-09-15T09:05:00+09:00 (Tuesday morning). Today is Wednesday 2026-09-16 with no missed day in between, so the window is the standard ~24h span (~23.99 hours) -- not extended."
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license September 2026"},
+    {"tier": 1, "lang": "en", "query": "Xeris XeriJect OR Lindy Microglassification OR Nanoform OR Crystalomics OR InventageLab OR Prestige IDC224 subcutaneous September 2026"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도 2026년 9월"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출 2026년 9월"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도 2026년 9월"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" September 2026"},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\" 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\" technology deal September 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal September 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 고농축 현탁 주사 기술 2026년 9월"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration September 2026"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도 2026년 9월"},
+    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 2026년 9월"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 2026년 9월"},
+    {"tier": 4, "lang": "ko", "query": "특허청 히알루로니다제 고농도 제형 2026"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출 2026년 9월"},
+    {"tier": "supplementary", "lang": "en", "query": "subcutaneous high concentration antibody news September 15 2026"},
+    {"tier": "supplementary", "lang": "en", "query": "Alteogen OR Halozyme OR Celltrion OR Samsung Bioepis OR InventageLab OR G2G Bio subcutaneous news September 16 2026"},
+    {"tier": "supplementary", "lang": "ko", "query": "알테오젠 할로자임 셀트리온 삼성바이오에피스 인벤티지랩 G2G바이오 9월15일 9월16일 2026"},
+    {"tier": "supplementary", "lang": "en", "query": "Halozyme Incyte Vertex Oruka news September 2026 update"},
+    {"tier": "supplementary", "lang": "en", "query": "site:fda.gov OR site:clinicaltrials.gov subcutaneous high concentration antibody approval September 2026"},
+    {"tier": "supplementary", "lang": "ko", "query": "휴온스랩 알테오젠 할로자임 고농도 SC 뉴스 9월 15일"},
+    {"tier": "supplementary", "lang": "ko", "query": "\"완승\" 알테오젠 할로자임 특허청 SC 제형 플랫폼 독점권"},
+    {"tier": "supplementary", "lang": "ko", "query": "알테오젠 할로자임 IPR 최종판결 2026년 9월"},
+    {"tier": "supplementary", "lang": "en", "query": "WuXi Biologics WuXiHigh subcutaneous news September 2026"},
+    {"tier": "supplementary", "lang": "en", "query": "Alphamab Oncology JSKN033 JSKN016 subcutaneous September 2026"},
+    {"tier": "supplementary", "lang": "en", "query": "Samsung Biologics S-HiCon high concentration formulation news September 2026"},
+    {"tier": "supplementary", "lang": "en", "query": "Surf Bio Halozyme SnapShot MoNi update September 2026"},
+    {"tier": "supplementary", "lang": "ko", "query": "휴온스랩 하이디퓨즈 히디자임 품목허가 9월 2026"},
+    {"tier": "supplementary", "lang": "ko", "query": "삼성바이오에피스 PH20 특허 2026년 9월"},
+    {"tier": "supplementary", "lang": "en", "query": "Nanoform Finland exclusivity agreement update September 2026"},
+    {"tier": "supplementary", "lang": "zh", "query": "Chengdu Rongsheng 天坛威安 皮下注射 免疫球蛋白 2026年9月"},
+    {"tier": "supplementary", "lang": "ko", "query": "DART 알테오젠 기술이전 공시 2026-09-15"},
+    {"tier": "supplementary", "lang": "en", "query": "Xeris Biopharma XeriJect news September 2026"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "Alteogen Enters Option and License Agreement with Novartis for Hybrozyme-Enabled Subcutaneous Products (up to $3.223B)",
+      "published": "2026-09-02",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id alteogen_novartis_2026-09. Resurfaced across nearly every tier-1/2/3 query this run because it remains the most prominent recent SC-platform story, but the underlying event (2026-09-02) is outside the 2026-09-15/16 window.",
+      "event_key": "alteogen_novartis_hybrozyme_2026-09", "canonical": true,
+      "corroborating_urls": ["https://www.manilatimes.net/2026/09/02/tmt-newswire/pr-newswire/alteogen-enters-option-and-license-agreement-with-novartis-for-development-and-commercialization-of-hybrozyme-enabled-subcutaneous-products/2416939", "https://www.fiercebiotech.com/biotech/novartis-inks-32b-subcutaneous-drug-delivery-deal-alteogen"]
+    },
+    {
+      "raw_title": "Halozyme Announces Global Collaboration and License Agreement with Incyte for INCA033989 (ENHANZE)",
+      "published": "2026-07-20", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id halozyme_incyte_2026-07. Outside window.",
+      "event_key": "halozyme_incyte_enhanze_2026-07", "canonical": true,
+      "corroborating_urls": ["https://www.nasdaq.com/press-release/halozyme-announces-global-collaboration-and-license-agreement-incyte-support"]
+    },
+    {
+      "raw_title": "Halozyme and Oruka global exclusive collaboration/license for Hypercon (ORKA-001)",
+      "published": "2026-05-06", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id halozyme_oruka_2026-05. Outside window.",
+      "event_key": "halozyme_oruka_hypercon_2026-05", "canonical": true,
+      "corroborating_urls": ["https://www.investing.com/news/company-news/halozyme-licenses-hypercon-technology-to-oruka-for-psoriasis-drug-93CH-4663048"]
+    },
+    {
+      "raw_title": "Prestige Biopharma IDC Files Patent for IDC224",
+      "published": "2026-04-21", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id prestige_idc224_patent_2026-04. Outside window.",
+      "event_key": "prestige_idc224_patent_2026-04", "canonical": true,
+      "corroborating_urls": ["https://finance.yahoo.com/sectors/healthcare/articles/prestige-biopharma-idc-files-patent-223000544.html"]
+    },
+    {
+      "raw_title": "G2G Bio and Celltrion MOU/MTA for InnoBioLAMP",
+      "published": "2026-07-30", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id g2gbio_celltrion_mou_2026-07-30. Outside window.",
+      "event_key": "g2gbio_celltrion_mou_2026-07-30", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Huons Lab HyDiffuse 11-antibody composition patent registration (Korea + PCT)",
+      "published": "2026-08-31", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id huonslab_hydiffuze_11antibody-patent_2026-08-31. Outside window.",
+      "event_key": "huonslab_hydiffuze_11antibody_2026-08-31", "canonical": true,
+      "corroborating_urls": ["https://view.asiae.co.kr/article/2026083108521521161"]
+    },
+    {
+      "raw_title": "Alteogen wins USPTO PTAB IPR dismissal against Halozyme (US Patent 12,221,638, ALT-B4 manufacturing method) + EPO ALT-B4 substance patent grant (Herald Corp recap: '완승...SC 제형 플랫폼 독점권 굳혔다')",
+      "published": "2026-05-15 (PTAB institution-denial decision); EPO grant reported 2026-06-09; Herald Corp recap article undated in fetch (blocked) but content confirmed via corroborating searches to recap the same May/June events, not a new decision",
+      "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new", "gate_e": "Directly on-question (Alteogen ALT-B4/Hybrozyme IP strength vs. Halozyme ENHANZE) when the underlying decision falls in-window, but this run's version is a recap of a 2026-05-15 PTAB institution-denial and a 2026-06-09 EPO grant, neither new.",
+      "verdict": "reject",
+      "reject_reason": "Gate B/window: WebFetch to biz.heraldcorp.com returned EGRESS_BLOCKED, so the article's own publish date could not be confirmed directly; cross-checked via 6 corroborating Korean-press search results (hankyung.com, wowtv.co.kr, ebn.co.kr, medicaltimes.com, dailymedi.com) which all date the underlying PTAB IPR-institution-denial decision to 2026-05-15 and the related EPO substance-patent grant to 2026-06-09. No indication of a new September 2026 ruling; this is background/legal-status context, already partially reflected in the alt-b4_hybrozyme technology row. Not logged as a new deal or correction since it does not contradict any existing tracker figure.",
+      "event_key": "alteogen_halozyme_ptab-ipr-denial_2026-05-15", "canonical": true,
+      "corroborating_urls": ["https://www.hankyung.com/article/202605182460i", "https://en.sedaily.com/finance/2026/05/18/alteogen-wins-patent-defense-as-us-rejects-halozymes", "https://en.sedaily.com/finance/2026/06/09/alteogen-wins-european-patent-approval-for-alt-b4"]
+    },
+    {
+      "raw_title": "WuXiHigh (WuXi Biologics) general platform capability description (\"up to 240 mg/mL\", \"180+ projects supported\")",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B: marketing/capability page content, not a discrete dated event; no new deal, filing, or numeric update beyond what is already tracked (wuxibio_wuxihigh2, 230 mg/mL primary-sourced figure).",
+      "event_key": "wuxibio_wuxihigh_general-capability_2026-09", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Biologics S-HiCon platform coverage",
+      "published": "2024-10-14 (original launch; resurfaced in search only)", "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B/window: search results returned only the original October 2024 platform-launch coverage, already tracked (samsungbio_launch_2024-10). No September 2026 update found.",
+      "event_key": "samsungbio_s-hicon_no-update_2026-09", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Surf Bio / Halozyme SnapShot-MoNi general recap (Halozyme financial-guidance commentary)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B: general recap of the already-tracked Dec 2025 Surf Bio acquisition and existing 2026 guidance figures (\"Surf Bio clinic-ready by end of 2027/early 2028\"); no new discrete dated event this window.",
+      "event_key": "surfbio_halozyme_no-update_2026-09", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Huons Lab HYDIZYME (standalone rHuPH20) MFDS review status (\"targeting approval within this year\")",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new", "gate_e": "Directly on-question when a decision lands (Huons Lab is a new in-house hyaluronidase-platform competitor already tracked), but no decision yet this window.",
+      "verdict": "context",
+      "reject_reason": "Gate B: ongoing MFDS review, no approval/rejection decision yet -- not a discrete new-in-window event. Company guidance (\"approval targeted within 2026\") already implicit in the tracked huonslab_hydiffuze technology row.",
+      "event_key": "huonslab_hydizyme_mfds-review_pending", "canonical": true,
+      "corroborating_urls": ["https://www.medifonews.com/news/article.html?no=215335"]
+    },
+    {
+      "raw_title": "Samsung Bioepis PH20 patent commentary recap (\"manufacturing-method patent, not a new substance\")",
+      "published": "2026-07-13 to 2026-07-14 (recapped in later coverage, e.g. kormedi.com)", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate/outside window: this is the same July 2026 WIPO disclosure + ISR novelty-rejection story already tracked (samsungbioepis_ph20_disclosure_2026-07-13, samsungbioepis_isr-novelty-rejection_2026-07-14), recapped by kormedi.com with no new fact added.",
+      "event_key": "samsungbioepis_ph20_recap_no-new-fact", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Nanoform exclusivity agreement for ultra-high-concentration SC delivery",
+      "published": "2026-05-12", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id nanoform_partner_2026. Outside window.",
+      "event_key": "nanoform_partner_2026-05-12", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "China's first 20% SCIG (Tiantan Weian) NMPA approval",
+      "published": "2026-06-10", "lang": "zh",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id chengdu_nmpa-approval_2026-06. Outside window.",
+      "event_key": "chengdu_tiantan-weian_nmpa_2026-06-10", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen CEO remarks that ALT-B4 technology-transfer negotiations are \"imminent\" -- disclosure-obligation controversy",
+      "published": "search-tool summary stated 2026-09-15, but the underlying source article (청년의사, docdocdoc.co.kr) is headlined '[JPM 2026]', i.e. the January 2026 JPMorgan Healthcare Conference, not a September event", "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": "Would be on-question if genuinely dated this window, since it foreshadows an ALT-B4 deal, but the date attribution is unreliable.",
+      "verdict": "reject",
+      "reject_reason": "Gate C/date-verification failure: the WebSearch tool's generated summary asserted a 2026-09-15 date, but the cited article's own headline tags it '[JPM 2026]' (the January 2026 JPMorgan Healthcare Conference), indicating the summarizer misattributed the date. Treated as a search-tool summarization error, not a genuine same-window event; the underlying prediction was in any case realized and already logged via the confirmed alteogen_novartis_2026-09 deal.",
+      "event_key": "alteogen_jpm-remarks_date-attribution-error", "canonical": true,
+      "corroborating_urls": ["http://www.docdocdoc.co.kr/news/articleView.html?idxno=3035621"]
+    },
+    {
+      "raw_title": "Xeris Biopharma XP-8121 program overview webinar (Sept 9, 2026)",
+      "published": "2026-09-09", "lang": "en",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate A: XP-8121 is a Xeris pipeline asset unrelated to the XeriJect SC concentration platform; webinar announcement carries no concentration/volume/delivery-technology angle. Also outside window (Sept 9).",
+      "event_key": "xeris_xp-8121_webinar_2026-09-09", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "NCT07646548 - Subcutaneous Dupilumab + Berahyaluronidase Alfa PK study (Sanofi/Regeneron)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Directly on-question (Dupixent benchmark + hyaluronidase-enabled high-concentration path) when it has a dated update, but not this run.",
+      "verdict": "context",
+      "reject_reason": "Gate B: recurring re-check (now 2026-08-31 through 2026-09-16 with the same outcome each time); clinicaltrials.gov remains EGRESS_BLOCKED from this sandbox (confirmed again this run via direct WebFetch attempt), so only WebSearch snippets were available, which show no new status change. Not re-logged absent a confirmed in-window change.",
+      "event_key": "sanofi_dupixent_berahyaluronidase_nct07646548", "canonical": true,
+      "corroborating_urls": ["https://clinicaltrials.gov/study/NCT07646548"]
+    },
+    {
+      "raw_title": "Halozyme investor-conference participation announcements (Morgan Stanley Sept 15, H.C. Wainwright Sept 16)",
+      "published": "2026-09-02 (announcement of participation dates)", "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B: routine investor-conference-participation notice, not a discrete substantive event; no new disclosed content found from the conferences themselves within the window. Already superseded in substance by the already-tracked 2026-09-09 Wells Fargo conference guidance row (halozyme_wellsfargo-hypercon-timeline_2026-09-09).",
+      "event_key": "halozyme_conference-participation_2026-09", "canonical": true,
+      "corroborating_urls": ["https://www.prnewswire.com/news-releases/halozyme-to-participate-at-upcoming-investor-conferences-302867162.html"]
+    }
+  ],
+  "findings": [],
+  "blocked_domains": [
+    "clinicaltrials.gov",
+    "www.prnewswire.com",
+    "biz.heraldcorp.com"
+  ]
+}
