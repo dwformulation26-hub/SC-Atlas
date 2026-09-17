@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-16T11:01:52+09:00",
+  "generated_at": "2026-09-17T00:13:13+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
   },
-  "last_updated": "2026-09-16",
+  "last_updated": "2026-09-17",
   "stage_order": [
     "Research / Academic",
     "Preclinical",
@@ -15,8 +15,8 @@
   ],
   "type_order": [
     "Suspension/particle",
-    "Other",
     "Enzyme-assisted",
+    "Other",
     "Co-formulation",
     "Crystalline"
   ],
@@ -26,6 +26,7 @@
     "Alphamab Oncology (Jiangsu/Suzhou Alphamab Biopharmaceuticals; 康宁杰瑞制药)",
     "Alteogen",
     "Althea Technologies (now part of Ajinomoto Bio-Pharma Services)",
+    "Amicogen (아미코젠)",
     "Bhami's Research Laboratory (licensed to Ipca Laboratories)",
     "Celltrion",
     "Chengdu Rongsheng Pharmaceutical (China National Pharmaceutical Group / Sinopharm)",
@@ -54,11 +55,11 @@
     "Not disclosed"
   ],
   "counts": {
-    "tracked": 26,
+    "tracked": 27,
     "comparable": 16,
     "commercial": 8,
-    "deals_tracked": 54,
-    "flagged_deals": 5
+    "deals_tracked": 58,
+    "flagged_deals": 6
   },
   "internal_targets": [
     {
@@ -144,7 +145,7 @@
       "needle_size": "Not disclosed (set by partner's final product)",
       "mechanism": "Recombinant human hyaluronidase temporarily depolymerizes hyaluronan in the interstitial space, lowering the barrier to bulk fluid flow for large-volume/high-dose SC administration.",
       "date_added": "2026-07-12",
-      "last_reviewed": "2026-09-16",
+      "last_reviewed": "2026-09-17",
       "deals": [
         {
           "deal_id": "halozyme_incyte_2026-07",
@@ -220,6 +221,134 @@
           "confidence": "Primary",
           "flagged": false,
           "new_in_digest": false
+        },
+        {
+          "deal_id": "halozyme_msd_hague-uk-setbacks_2026-07",
+          "partner": "Merck (MSD) -- adversarial (litigation)",
+          "deal_type": "IP/Patent litigation",
+          "date": "Early-to-mid July 2026 (exact date unconfirmed -- sources disagree on 3 July vs. 14 July)",
+          "date_sort_key": 20260101,
+          "summary": "FLAGGED -- date unconfirmed. Trade press (juve-patent.com, IAM, Pearce IP) reports the District Court of The Hague dismissed Halozyme's preliminary-injunction bid to stop MSD selling Keytruda SC in Denmark and Sweden pending Dutch main proceedings on EP 2,797,622 (oral hearing then scheduled 31 July 2026); the court found Halozyme had urgent interest but that MSD's pleaded launch statements were not binding undertakings. IAM headlines this alongside a separate UK Patents Court setback for Halozyme in the same MDASE/Keytruda SC dispute (Merck Sharp & Dohme (UK) Ltd v Halozyme Inc). Directly qualifies the risk picture around Halozyme's MDASE patent estate versus ALT-B4-enabled Keytruda SC, alongside the already-tracked May 2026 US PTAB invalidations and the Dec 2025 German injunction (see halozyme_merck_germany-injunction_2025-12-04). Two independent WebSearch retrievals of the same underlying reporting gave inconsistent decision dates (3 July vs. 14 July 2026); direct page fetch was not possible (EGRESS_BLOCKED for juve-patent.com). BACKFILL: not previously tracked.",
+          "molecule": "Pembrolizumab SC (Keytruda Qlex/SC) -- ALT-B4-enabled formulation",
+          "source_name": "juve-patent.com / IAM / Pearce IP (secondary, exact date unresolved)",
+          "source_url": "https://www.juve-patent.com/cases/the-hague-dismisses-halozymes-pi-bid-against-msd-over-keytruda/",
+          "relevance": "Medium",
+          "confidence": "Secondary",
+          "flagged": true,
+          "new_in_digest": true
+        },
+        {
+          "deal_id": "halozyme_merck_germany-injunction_2025-12-04",
+          "partner": "Merck (MSD) -- adversarial (litigation)",
+          "deal_type": "IP/Patent litigation",
+          "date": "2025-12-04",
+          "date_sort_key": 20251204,
+          "summary": "Munich Regional Court (7th Civil Division) granted Halozyme a preliminary injunction barring Merck/MSD from distributing or offering Keytruda SC (pembrolizumab + ALT-B4) in Germany, finding imminent infringement of Halozyme's European MDASE patent EP 2,797,622. Part of the broader Halozyme-Merck MDASE/PH20 patent fight over Keytruda SC that also produced the May 2026 US PTAB decisions already tracked here (see halozyme_merck_ptab-pgr-invalidations_2026-05); Merck separately filed nullity proceedings against EP 622 in the German Federal Patent Court (Aug 2025). BACKFILL: not previously tracked.",
+          "molecule": "Pembrolizumab SC (Keytruda Qlex/SC) -- ALT-B4-enabled formulation",
+          "source_name": "Pearce IP; corroborated by PR Newswire (Halozyme)",
+          "source_url": "https://www.pearceip.law/2025/12/04/halozyme-obtains-preliminary-injunction-preventing-sales-of-msds-keytruda-sc-in-germany/",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": true
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false
+    },
+    {
+      "id": "eisai_biogen_leqembi_iqlik_sc",
+      "name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)",
+      "company": "Eisai / Biogen",
+      "stage_raw": "Approved / Commercially available (SC maintenance dose approved Aug 2025; SC initiation dose approved US 2026-07-13; US autoinjector launch 2026-08-24; China NMPA approval of the SC/initiation formulation 2026-09-03; Japan approval 2026-09-16)",
+      "stage_bucket": "Approved / Marketed",
+      "type": "Other",
+      "concentration_text": "SC formulation 200 mg/mL (vs. 100 mg/mL for the IV formulation); 500 mg initiation dose given as two 250 mg/1.25 mL injections, each delivered in ~15 seconds; 360 mg/1.8 mL autoinjector used for maintenance dosing",
+      "concentration_numeric": 200.0,
+      "concentration_bucket": "< 300 mg/mL",
+      "needle_size": "29-gauge fixed 1/2-inch needle (single-dose prefilled autoinjector)",
+      "mechanism": "High-concentration (200 mg/mL) aqueous liquid formulation of lecanemab-irmb (anti-amyloid-beta protofibril monoclonal antibody) -- roughly double the concentration of the approved IV formulation (100 mg/mL) -- delivered via a single-dose prefilled autoinjector in approximately 15 seconds per injection. No hyaluronidase or particle/suspension technology involved: a straightforward high-concentration liquid reformulation paired with a fast, fixed-needle autoinjector device, enabling at-home SC initiation and maintenance dosing as an alternative to IV infusion. Included as an external cross-indication benchmark (Alzheimer's disease, not oncology/immunology) for a commercially-validated high-concentration mAb SC delivery technology. Now approved in both the US and China (NMPA, 2026-09-03) on the same 500 mg once-weekly / two 250 mg injection regimen.",
+      "date_added": "2026-08-27",
+      "last_reviewed": "2026-09-17",
+      "deals": [
+        {
+          "deal_id": "eisai_biogen_leqembiiqlik_japan-approval_2026-09-16",
+          "partner": "Japan PMDA (regulatory) / Eisai / Biogen",
+          "deal_type": "Regulatory approval",
+          "date": "2026-09-16",
+          "date_sort_key": 20260916,
+          "summary": "LEQEMBI Pen, the subcutaneous autoinjector formulation of lecanemab, approved in Japan for early Alzheimer's disease -- once-weekly self/care-partner administration, two 250 mg pens (500 mg total) per week, ~15 seconds per injection. Japan is the third market to approve the SC formulation after the US and China (both already tracked here), on the same once-weekly 500 mg regimen.",
+          "molecule": "Lecanemab-irmb",
+          "source_name": "Eisai / Biogen (GlobeNewswire)",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/16/3362836/0/en/leqembi-pen-subcutaneous-formulation-of-leqembi-approved-in-japan-for-the-treatment-of-early-alzheimer-s-disease.html",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": true
+        },
+        {
+          "deal_id": "eisai_biogen_leqembiiqlik_china-approval_2026-09-03",
+          "partner": "N/A (regulatory approval; Eisai/Biogen own product)",
+          "deal_type": "Regulatory approval (geographic expansion)",
+          "date": "2026-09-03",
+          "date_sort_key": 20260903,
+          "summary": "China's National Medical Products Administration (NMPA) approved the subcutaneous formulation of LEQEMBI (lecanemab) as an initiation treatment for mild cognitive impairment or mild dementia due to Alzheimer's disease, using the same 500 mg once-weekly regimen (two consecutive 250 mg injections) as the U.S. SC-AI/IQLIK launch logged 2026-08-24. The China BLA was accepted January 2026 and granted Priority Review; once-weekly SC administration demonstrated exposure equivalent to once-every-two-weeks IV dosing with similar clinical/biomarker benefits. Launch is planned within Eisai's FY2026 (ending March 31, 2027). This is a geographic-expansion event for the already-tracked technology, not a new concentration/formulation claim -- the 200 mg/mL SC vs. 100 mg/mL IV figure already on file is unchanged.",
+          "molecule": "Lecanemab-irmb (Leqembi)",
+          "source_name": "Eisai Co., Ltd. / Biogen Inc. (GlobeNewswire)",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/03/3355628/0/en/leqembi-lecanemab-subcutaneous-formulation-as-an-initiation-treatment-for-early-alzheimer-s-disease-approved-in-china.html",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false
+        },
+        {
+          "deal_id": "eisai_biogen_leqembiiqlik_launch_2026-08-24",
+          "partner": "N/A (commercial launch; Eisai/Biogen own product)",
+          "deal_type": "Commercial launch / Product availability announcement",
+          "date": "2026-08-24",
+          "date_sort_key": 20260824,
+          "summary": "Eisai and Biogen announced that LEQEMBI IQLIK (lecanemab-irmb) autoinjector is now commercially available in the U.S. for SC initiation therapy in early Alzheimer's disease: 500 mg given once weekly as two consecutive 250 mg/1.25 mL injections, each delivered in approximately 15 seconds. This follows FDA approval of the initiation-dose sBLA on 2026-07-13 (out-of-window for this run; context only) and is separate from the SC maintenance-dose formulation (360 mg/1.8 mL) approved in August 2025. SC formulation is 200 mg/mL vs. 100 mg/mL for the IV formulation. Patients may switch between IV and SC administration at any point in the treatment course. NEW ENTITY - first log of Eisai/Biogen lecanemab in this tracker; included as an external cross-indication (Alzheimer's, not oncology/immunology) benchmark for commercially-validated high-concentration mAb SC autoinjector delivery.",
+          "molecule": "Lecanemab-irmb (Leqembi)",
+          "source_name": "Biogen Inc. / Eisai Co. Ltd. (GlobeNewswire)",
+          "source_url": "https://www.globenewswire.com/news-release/2026/08/24/3349698/0/en/leqembi-iqlik-lecanemab-irmb-autoinjector-for-initiation-of-therapy-now-available-in-the-u-s-for-early-alzheimer-s-disease.html",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false
+    },
+    {
+      "id": "amicogen_hyaluronidase",
+      "name": "Next-generation human hyaluronidase (neutral-pH variant / skin-derived candidate)",
+      "company": "Amicogen (아미코젠)",
+      "stage_raw": "Preclinical (2 domestic composition/use patents granted 2026-07-14; next-gen skin-derived variant targeted for completion ~end 2027)",
+      "stage_bucket": "Preclinical",
+      "type": "Enzyme-assisted",
+      "concentration_text": "Not disclosed numerically; enzyme-assisted SC-conversion technology (same category as ENHANZE/ALT-B4/HyDiffuse), not itself a concentration-increasing formulation",
+      "concentration_numeric": null,
+      "concentration_bucket": "Not disclosed",
+      "needle_size": "Not disclosed",
+      "mechanism": "Improved human-derived hyaluronidase variant that the company positions outside Halozyme's ENHANZE (rHuPH20) and Alteogen's ALT-B4 (PH20) patent claims, claiming high activity at neutral pH. Amicogen has been developing SC-essential human hyaluronidase since ~2022 and holds Korean patents on the variant/use (applications 10-2025-0124247, a divisional of an original April 2025 filing, and 10-2026-0040959; both received patent-grant decisions 2026-07-14, 25 claims each). Separately pursuing a next-generation skin-derived (vs. testis-derived) hyaluronidase variant for further differentiation, targeted for completion around end-2027, with a view to eventual platform licensing -- a fifth hyaluronidase-based competitor alongside ENHANZE, ALT-B4/Hybrozyme, Samsung Bioepis' PH20 technology and Huons Lab's HyDiffuse.",
+      "date_added": "2026-09-17",
+      "last_reviewed": "2026-09-17",
+      "deals": [
+        {
+          "deal_id": "amicogen_hyaluronidase_patent-grant_2026-07-14",
+          "partner": "Korean Intellectual Property Office (KIPO)",
+          "deal_type": "Patent grant",
+          "date": "2026-07-14",
+          "date_sort_key": 20260714,
+          "summary": "Amicogen received Korean patent-grant decisions on two domestic applications (10-2025-0124247, a divisional of an original April 2025 filing, and 10-2026-0040959) covering 'variants of human hyaluronidase and their uses,' 25 claims each (50 total), strengthening IP around its human hyaluronidase platform for SC-formulation drug delivery, positioned as a differentiated alternative to Halozyme's ENHANZE (rHuPH20) and Alteogen's ALT-B4 (PH20) enzyme technologies. BACKFILL: not previously tracked; Amicogen was not yet a tracked competitor.",
+          "molecule": "N/A (platform/enzyme IP)",
+          "source_name": "Newspim (뉴스핌)",
+          "source_url": "https://www.newspim.com/news/view/20260721000151",
+          "relevance": "Medium",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": true
         }
       ],
       "is_internal": false,
@@ -500,55 +629,6 @@
           "source_url": "https://www.newspim.com/news/view/20260730000944",
           "relevance": "High",
           "confidence": "Secondary",
-          "flagged": false,
-          "new_in_digest": false
-        }
-      ],
-      "is_internal": false,
-      "is_reference": false
-    },
-    {
-      "id": "eisai_biogen_leqembi_iqlik_sc",
-      "name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)",
-      "company": "Eisai / Biogen",
-      "stage_raw": "Approved / Commercially available (SC maintenance dose approved Aug 2025; SC initiation dose approved US 2026-07-13; US autoinjector launch 2026-08-24; China NMPA approval of the SC/initiation formulation 2026-09-03)",
-      "stage_bucket": "Approved / Marketed",
-      "type": "Other",
-      "concentration_text": "SC formulation 200 mg/mL (vs. 100 mg/mL for the IV formulation); 500 mg initiation dose given as two 250 mg/1.25 mL injections, each delivered in ~15 seconds; 360 mg/1.8 mL autoinjector used for maintenance dosing",
-      "concentration_numeric": 200.0,
-      "concentration_bucket": "< 300 mg/mL",
-      "needle_size": "29-gauge fixed 1/2-inch needle (single-dose prefilled autoinjector)",
-      "mechanism": "High-concentration (200 mg/mL) aqueous liquid formulation of lecanemab-irmb (anti-amyloid-beta protofibril monoclonal antibody) -- roughly double the concentration of the approved IV formulation (100 mg/mL) -- delivered via a single-dose prefilled autoinjector in approximately 15 seconds per injection. No hyaluronidase or particle/suspension technology involved: a straightforward high-concentration liquid reformulation paired with a fast, fixed-needle autoinjector device, enabling at-home SC initiation and maintenance dosing as an alternative to IV infusion. Included as an external cross-indication benchmark (Alzheimer's disease, not oncology/immunology) for a commercially-validated high-concentration mAb SC delivery technology. Now approved in both the US and China (NMPA, 2026-09-03) on the same 500 mg once-weekly / two 250 mg injection regimen.",
-      "date_added": "2026-08-27",
-      "last_reviewed": "2026-09-04",
-      "deals": [
-        {
-          "deal_id": "eisai_biogen_leqembiiqlik_china-approval_2026-09-03",
-          "partner": "N/A (regulatory approval; Eisai/Biogen own product)",
-          "deal_type": "Regulatory approval (geographic expansion)",
-          "date": "2026-09-03",
-          "date_sort_key": 20260903,
-          "summary": "China's National Medical Products Administration (NMPA) approved the subcutaneous formulation of LEQEMBI (lecanemab) as an initiation treatment for mild cognitive impairment or mild dementia due to Alzheimer's disease, using the same 500 mg once-weekly regimen (two consecutive 250 mg injections) as the U.S. SC-AI/IQLIK launch logged 2026-08-24. The China BLA was accepted January 2026 and granted Priority Review; once-weekly SC administration demonstrated exposure equivalent to once-every-two-weeks IV dosing with similar clinical/biomarker benefits. Launch is planned within Eisai's FY2026 (ending March 31, 2027). This is a geographic-expansion event for the already-tracked technology, not a new concentration/formulation claim -- the 200 mg/mL SC vs. 100 mg/mL IV figure already on file is unchanged.",
-          "molecule": "Lecanemab-irmb (Leqembi)",
-          "source_name": "Eisai Co., Ltd. / Biogen Inc. (GlobeNewswire)",
-          "source_url": "https://www.globenewswire.com/news-release/2026/09/03/3355628/0/en/leqembi-lecanemab-subcutaneous-formulation-as-an-initiation-treatment-for-early-alzheimer-s-disease-approved-in-china.html",
-          "relevance": "Medium",
-          "confidence": "Primary",
-          "flagged": false,
-          "new_in_digest": false
-        },
-        {
-          "deal_id": "eisai_biogen_leqembiiqlik_launch_2026-08-24",
-          "partner": "N/A (commercial launch; Eisai/Biogen own product)",
-          "deal_type": "Commercial launch / Product availability announcement",
-          "date": "2026-08-24",
-          "date_sort_key": 20260824,
-          "summary": "Eisai and Biogen announced that LEQEMBI IQLIK (lecanemab-irmb) autoinjector is now commercially available in the U.S. for SC initiation therapy in early Alzheimer's disease: 500 mg given once weekly as two consecutive 250 mg/1.25 mL injections, each delivered in approximately 15 seconds. This follows FDA approval of the initiation-dose sBLA on 2026-07-13 (out-of-window for this run; context only) and is separate from the SC maintenance-dose formulation (360 mg/1.8 mL) approved in August 2025. SC formulation is 200 mg/mL vs. 100 mg/mL for the IV formulation. Patients may switch between IV and SC administration at any point in the treatment course. NEW ENTITY - first log of Eisai/Biogen lecanemab in this tracker; included as an external cross-indication (Alzheimer's, not oncology/immunology) benchmark for commercially-validated high-concentration mAb SC autoinjector delivery.",
-          "molecule": "Lecanemab-irmb (Leqembi)",
-          "source_name": "Biogen Inc. / Eisai Co. Ltd. (GlobeNewswire)",
-          "source_url": "https://www.globenewswire.com/news-release/2026/08/24/3349698/0/en/leqembi-iqlik-lecanemab-irmb-autoinjector-for-initiation-of-therapy-now-available-in-the-u-s-for-early-alzheimer-s-disease.html",
-          "relevance": "Medium",
-          "confidence": "Primary",
           "flagged": false,
           "new_in_digest": false
         }
@@ -1400,6 +1480,23 @@
   ],
   "recent_activity": [
     {
+      "deal_id": "eisai_biogen_leqembiiqlik_japan-approval_2026-09-16",
+      "partner": "Japan PMDA (regulatory) / Eisai / Biogen",
+      "deal_type": "Regulatory approval",
+      "date": "2026-09-16",
+      "date_sort_key": 20260916,
+      "summary": "LEQEMBI Pen, the subcutaneous autoinjector formulation of lecanemab, approved in Japan for early Alzheimer's disease -- once-weekly self/care-partner administration, two 250 mg pens (500 mg total) per week, ~15 seconds per injection. Japan is the third market to approve the SC formulation after the US and China (both already tracked here), on the same once-weekly 500 mg regimen.",
+      "molecule": "Lecanemab-irmb",
+      "source_name": "Eisai / Biogen (GlobeNewswire)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/09/16/3362836/0/en/leqembi-pen-subcutaneous-formulation-of-leqembi-approved-in-japan-for-the-treatment-of-early-alzheimer-s-disease.html",
+      "relevance": "Medium",
+      "confidence": "Primary",
+      "flagged": false,
+      "new_in_digest": true,
+      "technology_id": "eisai_biogen_leqembi_iqlik_sc",
+      "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
+    },
+    {
       "deal_id": "halozyme_wellsfargo-hypercon-timeline_2026-09-09",
       "partner": "N/A (investor conference disclosure)",
       "deal_type": "Company statement/guidance",
@@ -1604,6 +1701,23 @@
       "technology_name": "ENHANZE (rHuPH20)"
     },
     {
+      "deal_id": "amicogen_hyaluronidase_patent-grant_2026-07-14",
+      "partner": "Korean Intellectual Property Office (KIPO)",
+      "deal_type": "Patent grant",
+      "date": "2026-07-14",
+      "date_sort_key": 20260714,
+      "summary": "Amicogen received Korean patent-grant decisions on two domestic applications (10-2025-0124247, a divisional of an original April 2025 filing, and 10-2026-0040959) covering 'variants of human hyaluronidase and their uses,' 25 claims each (50 total), strengthening IP around its human hyaluronidase platform for SC-formulation drug delivery, positioned as a differentiated alternative to Halozyme's ENHANZE (rHuPH20) and Alteogen's ALT-B4 (PH20) enzyme technologies. BACKFILL: not previously tracked; Amicogen was not yet a tracked competitor.",
+      "molecule": "N/A (platform/enzyme IP)",
+      "source_name": "Newspim (뉴스핌)",
+      "source_url": "https://www.newspim.com/news/view/20260721000151",
+      "relevance": "Medium",
+      "confidence": "Secondary",
+      "flagged": false,
+      "new_in_digest": true,
+      "technology_id": "amicogen_hyaluronidase",
+      "technology_name": "Next-generation human hyaluronidase (neutral-pH variant / skin-derived candidate)"
+    },
+    {
       "deal_id": "samsungbioepis_celltrion_keytruda-market_2026-07-14",
       "partner": "Celltrion (competing biosimilar developer)",
       "deal_type": "Market analysis / Competitive context",
@@ -1615,40 +1729,6 @@
       "source_url": "https://en.sedaily.com/finance/2026/07/14/samsung-celltrion-bet-big-on-127-billion-keytruda-sc-market",
       "relevance": "Medium",
       "confidence": "Not assessed",
-      "flagged": false,
-      "new_in_digest": false,
-      "technology_id": "samsungbioepis_ph20_sc",
-      "technology_name": "Samsung Bioepis proprietary PH20-based SC conversion technology"
-    },
-    {
-      "deal_id": "samsungbioepis_isr-novelty-rejection_2026-07-14",
-      "partner": "N/A (patent examination finding)",
-      "deal_type": "Flag / Correction (patent prosecution development)",
-      "date": "2026-07-14",
-      "date_sort_key": 20260714,
-      "summary": "FLAGGED 2026-07-28 (out-of-window source used per Gate D correction exception; original reporting dated 2026-07-14, surfaced during this run's search, not previously logged): Per Pharm Edaily exclusive reporting citing the WIPO PCT international publication plus the Korean IPO's International Search Report (ISR) and Written Opinion of the International Searching Authority (ISA), the two Samsung Bioepis hyaluronidase-purification patents already tracked here (WO2026/142299, WO2026/142300; both filed 2025-12-23, internationally published 2026-07-02) received a preliminary negative opinion on novelty and inventive step. WO2026/142299 (removal of truncated hyaluronidase): claims 1-53, 56, 58-67 found to lack inventive step, with the ISA citing a prior Huons Lab patent as anticipating the core claims, and finding the multimodal-chromatography claims (5-7) obvious in view of Huons Lab + Alteogen prior art. WO2026/142300 (caprylic acid + depth filtration impurity removal): claims 1-51 found to lack inventive step, citing a 2012 US prior patent for the caprylic-acid/depth-filtration combination and Halozyme prior art for its hyaluronidase application; a composition-of-matter claim (hyaluronidase with HCP <100ppm) was found not novel either, since the ISA found the resulting substance indistinguishable from known hyaluronidase regardless of manufacturing process. Samsung Bioepis and industry sources characterize both patents as hyaluronidase manufacturing/purification (CMC) patents, not composition-of-matter or platform patents; Samsung Bioepis states it has no separate SC-platform commercialization plan and has not finalized a target product. This is a preliminary ISR/ISA opinion only, not a final rejection - claims can still be amended in national-phase prosecution. Directly qualifies the competitive-threat framing of the already-tracked WIPO-disclosure row (samsungbioepis_ph20_disclosure_2026-07-13) and market-analysis row (samsungbioepis_celltrion_keytruda-market_2026-07-14): the underlying IP, as currently claimed, appears weaker than the market reaction (Alteogen shares fell 2026-07-13/14) implied.",
-      "molecule": "Pembrolizimab biosimilar (Keytruda); Trastuzumab deruxtecan biosimilar (Enhertu)",
-      "source_name": "Pharm Edaily (이데일리)",
-      "source_url": "https://pharm.edaily.co.kr/news/read?newsId=03873686645514520",
-      "relevance": "High",
-      "confidence": "Secondary",
-      "flagged": true,
-      "new_in_digest": false,
-      "technology_id": "samsungbioepis_ph20_sc",
-      "technology_name": "Samsung Bioepis proprietary PH20-based SC conversion technology"
-    },
-    {
-      "deal_id": "samsungbioepis_ph20_disclosure_2026-07-13",
-      "partner": "N/A (internal R&D milestone / technology disclosure)",
-      "deal_type": "R&D milestone / Technology disclosure",
-      "date": "2026-07-13",
-      "date_sort_key": 20260713,
-      "summary": "CORRECTED 2026-07-15: firmed up with primary-source detail. WIPO published two international patent applications from Samsung Bioepis in early July 2026 covering hyaluronidase purification/manufacturing: WO2026/142299 (method for removing cleaved/truncated hyaluronidase) and WO2026/142300 (method for removing impurities via caprylic acid treatment and depth filtration). No specific target product named. Following public reporting of this on 2026-07-14, Alteogen issued a same-day rebuttal statement asserting its ALT-B4 is a materially different substance from any PH20-based enzyme and that products combining pembrolizimab with ALT-B4 (Keytruda Qlex) are protected until 2043, arguing biosimilar competitors could not lawfully substitute a different hyaluronidase. Alteogen shares fell intraday on 2026-07-13/14 on the news. Samsung Bioepis stated it has not finalized which product(s) the purification IP will be applied to and is not pursuing an external platform-licensing business.",
-      "molecule": "Pembrolizimab biosimilar (Keytruda); Trastuzumab deruxtecan biosimilar (Enhertu)",
-      "source_name": "Seoul Economic Daily / WIPO (PATENTSCOPE)",
-      "source_url": "https://en.sedaily.com/finance/2026/07/13/samsung-bioepis-cracks-high-dose-sc-tech-guarding-big",
-      "relevance": "High",
-      "confidence": "Secondary",
       "flagged": false,
       "new_in_digest": false,
       "technology_id": "samsungbioepis_ph20_sc",

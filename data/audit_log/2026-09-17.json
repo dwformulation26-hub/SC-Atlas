@@ -1,0 +1,262 @@
+{
+  "run_date": "2026-09-17",
+  "window": {
+    "from": "2026-09-16T09:04:26+09:00",
+    "to": "2026-09-17T09:02:25+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday run. Previous run (data/audit_log/2026-09-16.json) completed 2026-09-16T09:04:26+09:00 (Wednesday morning). Today is Thursday 2026-09-17 with no missed day in between, so the window is the standard ~24h span -- not extended. NOTE: at the start of this run, local git branch 'main' was stale (pointed at an old commit, 12 commits behind origin/main -- the session's checked-out HEAD was correctly detached at origin/main's tip). Fixed by fast-forwarding local main to origin/main before any edits; no data was lost or overwritten, and this is unrelated to the research/merge work below."
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license September 2026"},
+    {"tier": 1, "lang": "en", "query": "Xeris XeriJect OR Lindy Microglassification OR Nanoform OR Crystalomics OR InventageLab OR Prestige IDC224 subcutaneous September 2026"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도 2026년 9월"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출 2026년 9월"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도 2026년 9월"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" September 2026"},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\" 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\" technology deal September 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal September 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 고농축 현탁 주사 기술 2026년 9월"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration September 2026"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도 2026년 9월"},
+    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 2026년 9월"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 2026년 9월"},
+    {"tier": 4, "lang": "ko", "query": "특허청 히알루로니다제 고농도 제형 2026"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출 2026년 9월"},
+    {"tier": "supplementary", "lang": "en", "query": "WuXiHigh OR \"Surf Bio\" OR SnapShot OR Alphamab Oncology OR \"G2G Bio\" subcutaneous high concentration September 2026 news"},
+    {"tier": "supplementary", "lang": "en", "query": "LEQEMBI IQLIK OR Sarclisa Escena OR \"BRL\" Ipca subcutaneous update September 2026"},
+    {"tier": "supplementary", "lang": "ko", "query": "인벤티지랩 삼성바이오로직스 셀트리온 9월 16일 17일 SC 뉴스"},
+    {"tier": "supplementary", "lang": "ko", "query": "아미코젠 히알루로니다제 SC 피하주사 딜사이트"},
+    {"tier": "supplementary", "lang": "ko", "query": "\"SC 플랫폼 줌인\" 딜사이트 9월 2026"},
+    {"tier": "supplementary", "lang": "en", "query": "Halozyme sues Merck subcutaneous Keytruda licensing talks fall through"},
+    {"tier": "supplementary", "lang": "en", "query": "Merck Keytruda subcutaneous Halozyme lawsuit patent infringement September 2026"},
+    {"tier": "supplementary", "lang": "en", "query": "Hague EP 622 Halozyme MSD Keytruda main proceedings ruling August September 2026"},
+    {"tier": "supplementary", "lang": "en", "query": "Halozyme preliminary injunction Merck Keytruda SC Germany date announced"},
+    {"tier": "supplementary", "lang": "en", "query": "pearceip.law Halozyme Hague Denmark Sweden Keytruda 2026"},
+    {"tier": "supplementary", "lang": "en", "query": "Amicogen hyaluronidase subcutaneous patent SC formulation English"},
+    {"tier": "supplementary", "lang": "ko", "query": "아미코젠 히알루로니다제 특허 출원 2026 날짜"},
+    {"tier": "supplementary", "lang": "en", "query": "Alphamab JSKN027 subcutaneous high concentration formulation PD-L1 VEGFR2"},
+    {"tier": "supplementary", "lang": "en", "query": "LEQEMBI Pen subcutaneous Japan approval September 16 2026 lecanemab dose concentration"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "LEQEMBI Pen (subcutaneous formulation of lecanemab) approved in Japan for early Alzheimer's disease",
+      "published": "2026-09-16", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Third-market regulatory approval of an already-tracked commercially-validated high-concentration (200 mg/mL) mAb-adjacent SC autoinjector benchmark, directly bearing on the cross-indication SC-delivery landscape this tracker follows.",
+      "date_source": "url", "dedupe": "new",
+      "verdict": "log",
+      "event_key": "eisai_biogen_leqembiiqlik_japan-approval_2026-09-16", "canonical": true,
+      "corroborating_urls": ["https://www.biospace.com/press-releases/leqembi-pen-subcutaneous-formulation-of-leqembi-approved-in-japan-for-the-treatment-of-early-alzheimers-disease", "https://www.prnewswire.com/news-releases/leqembi-pen-subcutaneous-formulation-approved-in-japan-302880176.html", "https://jp.ibtimes.com/eisai-biogen-win-japan-approval-leqembi-250-mg-pen-104443"]
+    },
+    {
+      "raw_title": "Amicogen: two Korean patent-grant decisions on next-gen human hyaluronidase variant/use (10-2025-0124247, 10-2026-0040959)",
+      "published": "2026-07-14 (decision); reported 2026-07-21", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": "A fifth hyaluronidase-based SC-conversion competitor (alongside ENHANZE, ALT-B4/Hybrozyme, Samsung Bioepis PH20 tech, Huons Lab HyDiffuse), previously untracked; bears directly on how crowded/patent-encumbered the enzyme-assisted route to large-volume SC delivery is becoming.",
+      "date_source": "url", "dedupe": "new",
+      "verdict": "log",
+      "event_key": "amicogen_hyaluronidase_patent-grant_2026-07-14", "canonical": true,
+      "corroborating_urls": ["https://www.mdtoday.co.kr/news/view/1065578153803723", "https://pharm.edaily.co.kr/News/Read?newsId=03240646642296512", "https://www.edaily.co.kr/News/Read?newsId=03243926642296512&mediaCodeNo=257", "https://supple.kr/news/cmrtwudcv005tn9nkm9oxfv9v"]
+    },
+    {
+      "raw_title": "Halozyme wins Munich Regional Court preliminary injunction blocking Merck/MSD's Keytruda SC in Germany (EP 2,797,622)",
+      "published": "2025-12-04", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": "Direct IP-risk update on the Halozyme MDASE-vs-ALT-B4/Keytruda-SC dispute already partially tracked via the May 2026 US PTAB rows; changes the near-term commercial-access picture for ALT-B4-enabled Keytruda SC in a major EU market.",
+      "date_source": "url", "dedupe": "new",
+      "verdict": "log",
+      "event_key": "halozyme_merck_germany-injunction_2025-12-04", "canonical": true,
+      "corroborating_urls": ["https://www.prnewswire.com/news-releases/halozyme-wins-preliminary-injunction-against-mercks-keytruda-sc-in-germany-302633457.html", "https://pharmaphorum.com/news/setback-msd-german-court-blocks-keytruda-sc-launch"]
+    },
+    {
+      "raw_title": "Hague District Court dismisses Halozyme's PI bid vs. MSD over Keytruda SC in Denmark/Sweden; parallel UK Patents Court setback",
+      "published": "Early-to-mid July 2026 -- two independent WebSearch retrievals gave conflicting decision dates (3 July vs. 14 July 2026); direct page fetch not possible (EGRESS_BLOCKED)", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": "Same IP-risk thread as the Germany injunction and May 2026 US PTAB rows; a further data point on how the Halozyme-Merck MDASE dispute is resolving jurisdiction by jurisdiction.",
+      "date_source": "unconfirmed", "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "halozyme_msd_hague-uk-setbacks_2026-07", "canonical": true,
+      "corroborating_urls": ["https://www.iam-media.com/article/halozyme-suffers-us-uk-dutch-setbacks-in-merck-keytruda-sc-dispute", "https://www.pearceip.law/2026/07/28/pearce-ip-bioblast-for-the-week-ending-24-july-2026/", "https://en.sedaily.com/finance/2026/07/23/injunction-denied-again-alteogen-eases-patent-risk"]
+    },
+    {
+      "raw_title": "Alteogen Enters Option and License Agreement with Novartis for Hybrozyme-Enabled SC Products (up to $3.223B)",
+      "published": "2026-09-02", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: already tracked as deal_id alteogen_novartis_2026-09. Resurfaced across nearly every Tier 1-4 query this run as the most prominent recent SC-platform story; event (2026-09-02) is outside this run's window and not new to the tracker.",
+      "event_key": "alteogen_novartis_hybrozyme_2026-09", "canonical": true,
+      "corroborating_urls": ["https://www.manilatimes.net/2026/09/02/tmt-newswire/pr-newswire/alteogen-enters-option-and-license-agreement-with-novartis-for-development-and-commercialization-of-hybrozyme-enabled-subcutaneous-products/2416939", "https://www.pearceip.law/2026/09/02/novartis-enters-us3-2m-deal-with-alteogen-for-sc-formulation-development/"]
+    },
+    {
+      "raw_title": "Halozyme H.C. Wainwright 28th Annual Global Investment Conference presentation, Sept 16 2026",
+      "published": "2026-09-16", "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B: routine investor-conference appearance emphasizing already-known royalty growth / ENHANZE-Hypercon narrative; no new discrete disclosure beyond what's already tracked (same category of reject already established for the Sept 9/15 conference notices in the 2026-09-16 run).",
+      "event_key": "halozyme_hcwainwright-conference_2026-09-16", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Bioepis hyaluronidase internalization / SC platform patent commentary (dealsite.co.kr \"SC 플랫폼 줌인\" series)",
+      "published": "2026-07 to 2026-08 (series; resurfaced in search only)", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate/outside window: recap of the already-tracked July 2026 WIPO disclosure + ISR novelty-rejection story (samsungbioepis_ph20_disclosure_2026-07-13, samsungbioepis_isr-novelty-rejection_2026-07-14); dealsite.co.kr itself EGRESS_BLOCKED, dates and content confirmed via WebSearch synthesis of the series (published July-Aug 2026 per multiple independent query results), no new fact added.",
+      "event_key": "samsungbioepis_dealsite-series_no-new-fact", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion Herzuma SC / Huons Lab HyDiffuse coverage (same dealsite.co.kr series)",
+      "published": "2026-07 to 2026-08 (series; resurfaced in search only)", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Duplicate: Celltrion KR/EU filing status and Huons Lab production-process differentiation already tracked (celltrion_mfds-filing_2026-05, celltrion_ema-filing_2026-04, huonslab_hydiffuze_11antibody-patent_2026-08-31). No new fact.",
+      "event_key": "celltrion_huonslab_dealsite-series_no-new-fact", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "InventageLab IVL-BioFluidic MTA progress + BIO USA 2026 (Sept 22-25) partnering plans announced Sept 17",
+      "published": "2026-09-17", "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B: routine conference-attendance/partnering-intent announcement (BIO USA 2026, Sept 22-25), not a discrete new deal or technical disclosure; MTA-stage progress itself already tracked (inventagelab_domestic-mta_2026-09-02).",
+      "event_key": "inventagelab_bio-usa-2026_announcement", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Subcutaneous Conversion Platforms: The New Patent Battleground Behind the Biologics Delivery Boom (Intelacia)",
+      "published": "2026-09-11", "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B: analyst/trend recap piece, not a discrete dated event; every specific fact cited (Novartis-Alteogen 9/2 deal, Keytruda Qlex sales, Sept 2025 FDA approval) is already tracked.",
+      "event_key": "intelacia_patent-battleground-recap_2026-09-11", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Bibio (비보존) Eurasia patent for high-concentration Anafra (non-narcotic analgesic) injection",
+      "published": "2026-04 (approx.)", "lang": "ko",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate A: small-molecule non-narcotic analgesic formulation, not a biologic/antibody SC concentration or delivery technology.",
+      "event_key": "bibio_anafra_eurasia-patent_no-scope", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "NCT07646548 - Subcutaneous Dupilumab + Berahyaluronidase Alfa PK study (Sanofi/Regeneron)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Directly on-question (Dupixent benchmark + hyaluronidase-enabled high-concentration path) when it has a dated update, but not this run.",
+      "verdict": "context",
+      "reject_reason": "Gate B: recurring re-check (now confirmed unchanged through 2026-09-17); clinicaltrials.gov remains EGRESS_BLOCKED, only WebSearch snippets available, no status change found.",
+      "event_key": "sanofi_dupixent_berahyaluronidase_nct07646548", "canonical": true,
+      "corroborating_urls": ["https://clinicaltrials.gov/study/NCT07646548"]
+    },
+    {
+      "raw_title": "Alphamab Oncology JSKN027 (PD-L1/VEGFR2 bispecific ADC) first patient dosed",
+      "published": "2026-03-17", "lang": "en",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate A: no SC-administration or concentration/volume angle disclosed for JSKN027 specifically; company's 'high-concentration SC formulation platform' mentioned only generically in its technology-arsenal description, not tied to this asset.",
+      "event_key": "alphamab_jskn027_no-sc-angle", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "General high-concentration SC formulation review literature (PMC/ScienceDirect, Sept 2026 issue roundups)",
+      "published": "2026-09 (journal issue date)", "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B: general review/perspective articles, not discrete dated events tied to a specific tracked or new technology.",
+      "event_key": "general-review-literature_2026-09_no-event", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "DART/공시 sweep -- 알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new", "gate_e": "n/a",
+      "verdict": "reject",
+      "reject_reason": "No new disclosure found beyond already-tracked Alteogen-Novartis (Sept 2) deal. dart.fss.or.kr EGRESS_BLOCKED; OpenDART key not configured (rung 1 skipped); rung 3 (Naver/Daum finance mirrors) and rung 5 (search-engine indirection) both checked via WebSearch, no new filing surfaced.",
+      "event_key": "dart-sweep_2026-09-17_no-new-filing", "canonical": true,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)",
+      "company": "Eisai / Biogen",
+      "event": "LEQEMBI Pen (SC lecanemab autoinjector) approved in Japan for early Alzheimer's disease -- third market after US and China",
+      "date": "2026-09-16",
+      "freshness": "fresh",
+      "source_name": "Eisai / Biogen (GlobeNewswire)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/09/16/3362836/0/en/leqembi-pen-subcutaneous-formulation-of-leqembi-approved-in-japan-for-the-treatment-of-early-alzheimer-s-disease.html",
+      "confidence": "Primary",
+      "summary": "Japan's PMDA approved LEQEMBI Pen, the once-weekly SC autoinjector formulation of lecanemab, for early Alzheimer's disease -- two 250 mg pens (500 mg total) per week, ~15 seconds per injection -- making Japan the third market to approve the SC formulation.",
+      "conflicts_with": null
+    },
+    {
+      "technology": "Next-generation human hyaluronidase (Amicogen)",
+      "company": "Amicogen (아미코젠)",
+      "event": "Two Korean patent-grant decisions on a next-gen human hyaluronidase variant/use, positioned outside Halozyme/Alteogen claims",
+      "date": "2026-07-14",
+      "freshness": "backfill",
+      "source_name": "Newspim (뉴스핌)",
+      "source_url": "https://www.newspim.com/news/view/20260721000151",
+      "confidence": "Secondary",
+      "summary": "Amicogen, not previously tracked, received Korean patent-grant decisions on two hyaluronidase-variant applications (50 claims combined), adding a fifth hyaluronidase-based SC-conversion competitor to the landscape.",
+      "conflicts_with": null
+    },
+    {
+      "technology": "ENHANZE (rHuPH20)",
+      "company": "Halozyme Therapeutics",
+      "event": "Munich Regional Court granted Halozyme a preliminary injunction blocking Merck/MSD's Keytruda SC in Germany",
+      "date": "2025-12-04",
+      "freshness": "backfill",
+      "source_name": "Pearce IP; corroborated by PR Newswire (Halozyme)",
+      "source_url": "https://www.pearceip.law/2025/12/04/halozyme-obtains-preliminary-injunction-preventing-sales-of-msds-keytruda-sc-in-germany/",
+      "confidence": "Secondary",
+      "summary": "Not previously tracked: Germany's Munich Regional Court found imminent infringement of Halozyme's EP 2,797,622 and ordered Merck to halt Keytruda SC launch activity in Germany, part of the broader MDASE-vs-ALT-B4 dispute already partially tracked via the May 2026 US PTAB rows.",
+      "conflicts_with": null
+    },
+    {
+      "technology": "ENHANZE (rHuPH20)",
+      "company": "Halozyme Therapeutics",
+      "event": "Hague court dismissed Halozyme's PI bid over Keytruda SC in Denmark/Sweden; parallel UK setback reported (date unconfirmed)",
+      "date": "Early-to-mid July 2026 (unconfirmed)",
+      "freshness": "backfill",
+      "source_name": "juve-patent.com / IAM / Pearce IP",
+      "source_url": "https://www.juve-patent.com/cases/the-hague-dismisses-halozymes-pi-bid-against-msd-over-keytruda/",
+      "confidence": "Secondary",
+      "summary": "FLAGGED: not previously tracked; a further jurisdiction-by-jurisdiction data point in the Halozyme-Merck MDASE/Keytruda SC dispute, but the exact decision date could not be confirmed (conflicting search retrievals gave 3 July and 14 July 2026, and the source page could not be directly fetched).",
+      "conflicts_with": null
+    }
+  ],
+  "blocked_domains": [
+    "dealsite.co.kr",
+    "www.intelacia.com",
+    "www.pharmnews.com",
+    "www.etoday.co.kr",
+    "www.newspim.com",
+    "www.mdtoday.co.kr",
+    "kr.investing.com",
+    "www.hitnews.co.kr",
+    "www.monews.co.kr",
+    "supple.kr",
+    "news.mt.co.kr",
+    "www.pearceip.law",
+    "en.sedaily.com",
+    "finance.yahoo.com",
+    "www.indianpharmapost.com",
+    "en.wikipedia.org",
+    "www.juve-patent.com",
+    "clinicaltrials.gov",
+    "dart.fss.or.kr"
+  ],
+  "notes": [
+    "WebFetch (page-content retrieval) returned EGRESS_BLOCKED for every domain attempted this run, including a Wikipedia control fetch used to confirm this was a systemic proxy condition rather than a per-domain block list. This is broader than the domain-specific blocks noted in prior runs' audit logs. All source verification and content extraction this run relied on WebSearch's synthesized summaries plus URL-pattern date verification (per SKILL.md 1.5.1 rung 1); rung 2 (direct page timestamp) was unavailable for the entire run. Findings whose date could only be established via WebSearch summary (no URL pattern, no independent corroboration) were downgraded per 1.5.1: see halozyme_msd_hague-uk-setbacks_2026-07 (flagged, backfill, date unconfirmed).",
+    "At Step 0, the local 'main' git branch was found 12 commits behind origin/main (a stale local ref from an earlier session/checkout); the session's actual checked-out HEAD was already correctly at origin/main's tip. Verified local main was a clean ancestor of origin/main (no divergent commits) and fast-forwarded it before any edits. No data loss; noted here for transparency since it involved a git ref correction before the research/merge work began."
+  ]
+}
