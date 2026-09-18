@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T00:13:13+00:00",
+  "generated_at": "2026-09-18T00:09:41+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -58,7 +58,7 @@
     "tracked": 27,
     "comparable": 16,
     "commercial": 8,
-    "deals_tracked": 58,
+    "deals_tracked": 60,
     "flagged_deals": 6
   },
   "internal_targets": [
@@ -235,7 +235,7 @@
           "relevance": "Medium",
           "confidence": "Secondary",
           "flagged": true,
-          "new_in_digest": true
+          "new_in_digest": false
         },
         {
           "deal_id": "halozyme_merck_germany-injunction_2025-12-04",
@@ -250,7 +250,7 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": true
+          "new_in_digest": false
         }
       ],
       "is_internal": false,
@@ -284,7 +284,7 @@
           "relevance": "Medium",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": true
+          "new_in_digest": false
         },
         {
           "deal_id": "eisai_biogen_leqembiiqlik_china-approval_2026-09-03",
@@ -348,7 +348,7 @@
           "relevance": "Medium",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": true
+          "new_in_digest": false
         }
       ],
       "is_internal": false,
@@ -400,6 +400,21 @@
           "new_in_digest": false
         },
         {
+          "deal_id": "alteogen_sanofi_dupixent-p1-dosing_2026-07-23",
+          "partner": "Sanofi",
+          "deal_type": "Clinical trial milestone",
+          "date": "2026-07-23",
+          "date_sort_key": 20260723,
+          "summary": "Sanofi completed dosing of all 40 healthy-adult subjects in a Phase 1 trial evaluating subcutaneous dupilumab (Dupixent) coformulated with Alteogen's ALT-B4 (berahyaluronidase alfa) against dupilumab alone, assessing pharmacokinetics, safety and anti-drug antibodies. The trial began June 2026 with primary completion expected September 2026. This is the first concrete clinical-stage progress on the 2019 Sanofi-Alteogen non-exclusive ALT-B4 license for a high-dose SC Dupixent formulation, whose ongoing development was only reconfirmed as a public disclosure in June 2026 (see alteogen_sanofi_2026-06) -- directly relevant to the tracker's Dupixent benchmark, since a successful readout would be the first concentration-enabling reformulation of the reference product itself. Concentration/volume figures not yet disclosed pending trial results.",
+          "molecule": "Dupilumab (Dupixent) + berahyaluronidase alfa (ALT-B4)",
+          "source_name": "Asia Economy Daily (asiae.co.kr); corroborated by TheBioNews (KO/EN)",
+          "source_url": "https://www.asiae.co.kr/article/2026072315581796030",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": true
+        },
+        {
           "deal_id": "alteogen_sanofi_2026-06",
           "partner": "Sanofi",
           "deal_type": "Non-exclusive License (reconfirmed)",
@@ -413,6 +428,21 @@
           "confidence": "Not assessed",
           "flagged": false,
           "new_in_digest": false
+        },
+        {
+          "deal_id": "alteogen_msd_keytruda-sc-korea-approval_2026-05-19",
+          "partner": "MSD (Korea) / Merck",
+          "deal_type": "Regulatory approval",
+          "date": "2026-05-19",
+          "date_sort_key": 20260519,
+          "summary": "Korea's Ministry of Food and Drug Safety (MFDS) approved 'Keytruda SC' (pembrolizumab subcutaneous, ALT-B4-enabled) covering 18 cancer types across 35 indications -- the same ALT-B4/berahyaluronidase alfa formulation as the US-approved Keytruda Qlex, already tracked here via its patent-litigation history but not previously logged for this regional approval. Administration takes about 1 minute (every 3 weeks) or 2 minutes (every 6 weeks), versus roughly 30 minutes for the IV formulation. A Phase 2 crossover study found 65% of patients who experienced both routes preferred the SC formulation. Q4 2026 Korea launch planned.",
+          "molecule": "Pembrolizumab SC (Keytruda Qlex/SC) -- ALT-B4-enabled formulation",
+          "source_name": "Nate News (m.news.nate.com); corroborated by Kormedi, TheBioNews, Edaily Pharm, KPA News (6 independent outlets, same-day)",
+          "source_url": "https://m.news.nate.com/view/20260520n31537",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": true
         },
         {
           "deal_id": "alteogen_ptab-ipr-defense_2026-05-15",
@@ -1492,7 +1522,7 @@
       "relevance": "Medium",
       "confidence": "Primary",
       "flagged": false,
-      "new_in_digest": true,
+      "new_in_digest": false,
       "technology_id": "eisai_biogen_leqembi_iqlik_sc",
       "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
     },
@@ -1684,6 +1714,23 @@
       "technology_name": "InnoBioLAMP"
     },
     {
+      "deal_id": "alteogen_sanofi_dupixent-p1-dosing_2026-07-23",
+      "partner": "Sanofi",
+      "deal_type": "Clinical trial milestone",
+      "date": "2026-07-23",
+      "date_sort_key": 20260723,
+      "summary": "Sanofi completed dosing of all 40 healthy-adult subjects in a Phase 1 trial evaluating subcutaneous dupilumab (Dupixent) coformulated with Alteogen's ALT-B4 (berahyaluronidase alfa) against dupilumab alone, assessing pharmacokinetics, safety and anti-drug antibodies. The trial began June 2026 with primary completion expected September 2026. This is the first concrete clinical-stage progress on the 2019 Sanofi-Alteogen non-exclusive ALT-B4 license for a high-dose SC Dupixent formulation, whose ongoing development was only reconfirmed as a public disclosure in June 2026 (see alteogen_sanofi_2026-06) -- directly relevant to the tracker's Dupixent benchmark, since a successful readout would be the first concentration-enabling reformulation of the reference product itself. Concentration/volume figures not yet disclosed pending trial results.",
+      "molecule": "Dupilumab (Dupixent) + berahyaluronidase alfa (ALT-B4)",
+      "source_name": "Asia Economy Daily (asiae.co.kr); corroborated by TheBioNews (KO/EN)",
+      "source_url": "https://www.asiae.co.kr/article/2026072315581796030",
+      "relevance": "High",
+      "confidence": "Secondary",
+      "flagged": false,
+      "new_in_digest": true,
+      "technology_id": "alt-b4_hybrozyme",
+      "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
+    },
+    {
       "deal_id": "halozyme_incyte_2026-07",
       "partner": "Incyte",
       "deal_type": "Licensing/Collaboration",
@@ -1713,26 +1760,9 @@
       "relevance": "Medium",
       "confidence": "Secondary",
       "flagged": false,
-      "new_in_digest": true,
+      "new_in_digest": false,
       "technology_id": "amicogen_hyaluronidase",
       "technology_name": "Next-generation human hyaluronidase (neutral-pH variant / skin-derived candidate)"
-    },
-    {
-      "deal_id": "samsungbioepis_celltrion_keytruda-market_2026-07-14",
-      "partner": "Celltrion (competing biosimilar developer)",
-      "deal_type": "Market analysis / Competitive context",
-      "date": "2026-07-14",
-      "date_sort_key": 20260714,
-      "summary": "Trade press reports both Samsung Bioepis and Celltrion are pursuing SC-converted biosimilars of Keytruda (pembrolizimab), targeting an estimated $12.7B Keytruda SC market opportunity as the reference product's patent protections face expiry; Celltrion is pursuing this via its own in-house proprietary hyaluronidase SC platform (the same underlying technology used for Herzuma SC/CT-P6 SC, tracked separately under Technology ID celltrion_herzuma_sc).",
-      "molecule": "Pembrolizimab biosimilar (Keytruda)",
-      "source_name": "Seoul Economic Daily",
-      "source_url": "https://en.sedaily.com/finance/2026/07/14/samsung-celltrion-bet-big-on-127-billion-keytruda-sc-market",
-      "relevance": "Medium",
-      "confidence": "Not assessed",
-      "flagged": false,
-      "new_in_digest": false,
-      "technology_id": "samsungbioepis_ph20_sc",
-      "technology_name": "Samsung Bioepis proprietary PH20-based SC conversion technology"
     }
   ]
 }
