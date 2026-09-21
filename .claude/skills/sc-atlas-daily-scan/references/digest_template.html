@@ -1,0 +1,104 @@
+<!--
+  SC Atlas digest template -- locked design, approved by the tracker owner
+  2026-09-21. Do not redesign this. Fill the {{PLACEHOLDER}} tokens and
+  repeat the two marked blocks (FRESH CARD, BACKFILL ROW) once per finding,
+  most significant first. Every HTML comment in this file (including this
+  one) is a build instruction for Emilia -- strip all of them from the final
+  HTML handed to the Gmail tool. Never leave a literal {{...}} token in the
+  sent email; every token must be filled or its whole block removed.
+
+  BADGE MAPPING -- derive {{BADGE}} and {{BADGE_COLOR}} from the deal's
+  deal_type (first matching rule, case-insensitive substring):
+    contains "approval"/"approved"/"commercial launch"        -> APPROVED     #c1552e
+    contains "recommendation"/"chmp"/"positive opinion"        -> RECOMMENDED  #b8860b
+    contains "filing" (and not "patent")                       -> FILED        #a16207
+    contains "licens"/"collaboration"/"acquisition"/"option"/
+      "exclusiv"/"mou"/"material transfer"                     -> DEAL         #2b6cb0
+    contains "patent" or "ip/"                                 -> PATENT       #6b46c1
+    contains "clinical"/"trial"                                -> TRIAL        #0f766e
+    contains "research"/"publication"/"platform disclosure"    -> RESEARCH     #4b5563
+    anything else                                               -> UPDATE      #57606f
+
+  PLACEHOLDERS (outside the repeated blocks):
+    {{UPDATE_COUNT}}  count of `fresh` findings only (0, 1, 2, ...)
+    {{UPDATE_WORD}}   "update" if UPDATE_COUNT == 1, else "updates"
+    {{DATE_SHORT}}    run date as "Mon D" (e.g. "Sep 21") -- no year, no
+                      leading zero on the day
+    {{TECH_COUNT}}    len(technologies) from dashboard_data.json
+    {{DEAL_COUNT}}    counts.deals_tracked from dashboard_data.json
+    {{WINDOW_DESC}}   only used in the zero-fresh-findings line, e.g.
+                      "24 hours" or "72 hours" (match the window actually
+                      used, per Step 1.1)
+
+  STRUCTURE RULES:
+    - If UPDATE_COUNT > 0: repeat the FRESH CARD block once per fresh
+      finding inside the fresh-cards region, most significant first. Delete
+      the "no fresh findings" line entirely.
+    - If UPDATE_COUNT == 0: delete the fresh-cards region entirely and keep
+      only the "no fresh findings" line, filled in.
+    - If there are backfill findings: repeat the BACKFILL ROW block once
+      per item (max 5 shown; if more, show the 5 most significant and say
+      "N more on the dashboard" as a final line, no template change needed
+      for that -- just prose after the last row). If there are none, delete
+      the entire "Also added to the tracker" region (heading and all).
+-->
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; background:#ffffff;">
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td bgcolor="#1f3d3a" style="background-color:#1f3d3a; padding: 28px 28px 22px; border-radius: 8px 8px 0 0;">
+        <div style="font-size: 24px; font-weight: 800; color: #ffffff; line-height: 1.2;">SC Atlas</div>
+        <div style="font-size: 13px; color: #b9cbc8; margin-top: 4px;">High-concentration SC delivery &mdash; new this update</div>
+      </td>
+    </tr>
+  </table>
+
+  <div style="padding: 24px 28px 8px;">
+    <p style="font-size: 14px; color: #333; margin: 0 0 20px;">{{UPDATE_COUNT}} {{UPDATE_WORD}} worth a look, {{DATE_SHORT}}.</p>
+
+    <!-- === NO-FRESH-FINDINGS LINE (use only when UPDATE_COUNT == 0, delete otherwise) === -->
+    <p style="font-size: 14px; color: #555; margin: 0 0 20px;">No new developments in the last {{WINDOW_DESC}} across the {{TECH_COUNT}} technologies we track.</p>
+    <!-- === END NO-FRESH-FINDINGS LINE === -->
+
+    <!-- === FRESH CARD (repeat once per fresh finding, most significant first; delete region entirely if UPDATE_COUNT == 0) === -->
+    <div style="background:#faf1ea; border-left: 4px solid {{BADGE_COLOR}}; border-radius: 6px; padding: 18px 20px; margin-bottom: 18px;">
+      <span style="display:inline-block; background:{{BADGE_COLOR}}; color:#ffffff; font-size:11px; font-weight:700; letter-spacing:0.04em; text-transform:uppercase; padding:4px 10px; border-radius:4px;">{{BADGE}}</span>
+      <div style="font-size: 17px; font-weight: 700; color:#1a1a1a; margin: 10px 0 8px; line-height:1.35;">{{HEADLINE}}</div>
+      <p style="font-size: 14px; color:#444; line-height:1.5; margin: 0 0 10px;">{{BODY}}</p>
+      <a href="{{SOURCE_URL}}" style="font-size:13px; font-weight:600; color:#1f3d3a; text-decoration:none;">Read the source &rarr;</a>
+    </div>
+    <!-- === END FRESH CARD === -->
+
+    <!-- === "ALSO ADDED" REGION (delete entirely if there are no backfill findings) === -->
+    <h3 style="font-size:14px; color:#1a1a1a; border-bottom:1px solid #e5e5e5; padding-bottom:8px; margin: 28px 0 14px;">Also added to the tracker</h3>
+
+    <!-- === BACKFILL ROW (repeat once per backfill finding, up to 5) === -->
+    <div style="margin-bottom: 16px;">
+      <span style="display:inline-block; background:#eef0ef; color:#1f3d3a; font-size:10px; font-weight:700; letter-spacing:0.04em; text-transform:uppercase; padding:3px 8px; border-radius:4px;">{{BADGE}}</span>
+      <div style="font-size: 14px; font-weight:700; color:#1a1a1a; margin: 6px 0 3px;">{{HEADLINE}} <span style="font-weight:400; color:#777;">({{EVENT_DATE_SHORT}})</span></div>
+      <p style="font-size: 13px; color:#555; line-height:1.5; margin: 0 0 4px;">{{BODY}}</p>
+      <a href="{{SOURCE_URL}}" style="font-size:12px; font-weight:600; color:#1f3d3a; text-decoration:none;">Read the source &rarr;</a>
+    </div>
+    <!-- === END BACKFILL ROW === -->
+    <!-- === END "ALSO ADDED" REGION === -->
+
+  </div>
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 8px 0 28px;">
+    <tr><td align="center">
+      <table cellpadding="0" cellspacing="0" border="0"><tr>
+        <td bgcolor="#1f3d3a" style="background-color:#1f3d3a; border-radius:6px; mso-padding-alt:12px 28px;">
+          <a href="https://dwformulation26-hub.github.io/SC-Atlas/" target="_blank" rel="noopener"
+             style="display:inline-block; padding:12px 28px; font-family:inherit; font-size:14px; font-weight:700; color:#ffffff !important; text-decoration:none; border-radius:6px;">
+            View the full dashboard
+          </a>
+        </td>
+      </tr></table>
+    </td></tr>
+  </table>
+
+  <div style="padding: 0 28px 28px; text-align:center;">
+    <p style="font-size: 11px; color:#999; margin:0 0 4px;">SC Atlas tracks high-concentration and large-volume subcutaneous delivery technologies.</p>
+    <p style="font-size: 11px; color:#999; margin:0;">Sent on scheduled weekday updates &middot; {{TECH_COUNT}} technologies, {{DEAL_COUNT}} deals tracked</p>
+  </div>
+</div>

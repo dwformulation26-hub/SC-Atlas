@@ -29,6 +29,49 @@ gates and repo merge), **Dash** (publish), **Emilia** (digest email).
 
 ---
 
+## Incident log (read before Step 1 -- explains why Tier 5 exists)
+
+**2026-09-16 -> 2026-09-21: Japan Keytruda SC (Kiject) approval caught 5 days
+late, landed as `backfill` instead of `fresh`.** Japan's MHLW approved Kiject
+(Keytruda SC, ALT-B4-enabled) on 2026-09-16, in the same omnibus batch that
+included the LEQEMBI Pen Japan approval the routine matrix *did* catch that
+day. Japanese/Korean trade press naming the Keytruda/ALT-B4 angle specifically
+didn't appear until 2026-09-17/18 -- after that day's window had already
+closed -- so the routine 17-query matrix never surfaced it until a run five
+days later, by which point it could only be logged `backfill`. A
+user-requested same-day deep-search pass on 2026-09-21 then found a *second*,
+independent miss: an EU CHMP positive opinion for Keytruda SC (a different
+indication, perioperative bladder cancer) published 2026-09-18 -- the day the
+window opened -- that the routine matrix had missed entirely that morning.
+
+**Root cause.** The query matrix searches by company/technology *name*. A
+regulator's own decision (a CHMP opinion, an MHLW/PMDA batch approval, an FDA
+approval letter) is published before dedicated trade press writes the
+SC-specific angle. Name-search finds the trade-press writeup once it exists,
+not the regulator's own announcement on the day it's issued -- so by the time
+a name-search query would surface it, the item has often aged out of that
+day's `fresh` window.
+
+**Fix.** Tier 5 (below) queries the regulators' own decision channels
+directly -- not company names, not "subcutaneous" keywords -- every run, for
+every tracked molecule with an ALT-B4-, ENHANZE-, or HyDiffuse-enabled SC
+formulation. Check a regulator's own meeting-highlights or approvals-list page
+for tracked molecule names even when the page's own summary doesn't use the
+words "subcutaneous" or "high concentration" -- Kiject and the CHMP MIBC
+opinion were both found this way, not by keyword search.
+
+**Standing gap flagged, not yet backfilled.** The same 2026-09-21 deep search
+found that Opdivo Qvantig (BMS's commercialized ENHANZE product -- FDA-approved
+Dec 2024, EU-approved May 2025) has zero rows in `deals_db.py`, a pre-existing
+completeness gap rather than a freshness-lag case. Tier 5's FDA/EMA queries
+should catch this class of gap going forward for any other ENHANZE-family
+product (Ocrevus Zunovo, Vyvgart Hytrulo, Tecentriq Hybreza, Phesgo, Darzalex
+Faspro are candidates -- confirm which, if any, are still missing rather than
+trusting this list) -- worth a dedicated one-time backfill pass, separate from
+a routine run.
+
+---
+
 ## Step 0 -- Environment
 
 In a scheduled cloud run the repo is already checked out and authenticated at
@@ -145,10 +188,12 @@ Generic Korean beat terms: 고농도 제형, 고농축, 피하주사 제형, SC 
 대용량 피하주사, 제형 전환 기술, 자가투여, 공시, 기술이전, 라이선스아웃,
 기술수출.
 
-### 1.3 Query matrix (fixed at 17 queries, not open-ended)
+### 1.3 Query matrix (fixed at 22 queries, not open-ended)
 
 Run this fixed matrix every time, so runs are comparable and the search
-budget is bounded.
+budget is bounded. (Raised from 17 to 22 on 2026-09-21 -- see the Incident
+log above -- to add Tier 5, a direct regulatory-calendar sweep that doesn't
+depend on trade press or company names.)
 
 **Tier 1 -- tracked-entity sweep (6 queries, 3 EN / 3 KO):**
 1. EN: `Halozyme ENHANZE Hypercon subcutaneous <this week>`
@@ -194,8 +239,33 @@ paragraph to stay current.
 17. Native-phrasing broad sweep, deliberately *not* a translation of any
     English query: `국산 고농도 항체 제형 기술수출`
 
+**Tier 5 -- direct regulatory-calendar sweep (5 queries) -- added 2026-09-21,
+see the Incident log.** These search the regulator's *own* decision channel
+by molecule name, not by "subcutaneous"/company keywords -- the point is to
+catch an approval or opinion on the day it's issued, before trade press has
+written the SC-specific angle. Run all 5 every time; do not skip because
+"nothing's usually there" -- both Kiject and the CHMP MIBC opinion looked
+exactly that unremarkable in search results until directly checked.
+18. EMA: `CHMP meeting highlights <most recent CHMP meeting month/dates
+    2026>` -- scan the result for any of: Keytruda/pembrolizumab,
+    Opdivo/nivolumab, Dupixent/dupilumab, LEQEMBI/lecanemab,
+    Herzuma/trastuzumab, Sarclisa/isatuximab, Tecentriq/atezolizumab,
+    Phesgo, Darzalex/daratumumab, Vyvgart/efgartigimod -- even if the
+    meeting summary doesn't say "subcutaneous."
+19. Japan: `MHLW PMDA 新薬 一斉承認 <this month/year>` (batch approval
+    releases; these are the omnibus lists Kiject and LEQEMBI both came
+    from) -- scan for the same molecule list as query 18.
+20. US: `FDA.gov 2026 Biological Approvals` / `FDA Novel Drug Approvals
+    2026` -- scan the current list for the same molecule list, and for any
+    tracked technology (XeriJect, Hypercon, etc.) expecting a filing.
+21. Korea: `식약처 의약품 허가 목록 <this month>` (MFDS recent-approvals
+    list, as a list rather than a single-drug search) -- scan for the same
+    molecule list.
+22. China: `NMPA 药品批准 <this month>` / `NMPA approval list <this
+    month>` -- scan for the same molecule list.
+
 Also use company investor-relations and press pages directly where a Tier
-1/2/4 result points to one.
+1/2/4/5 result points to one.
 
 ### 1.3.1 Egress blocks and the DART fallback ladder
 
@@ -270,6 +340,13 @@ high-concentration and/or large-volume SC delivery of biologics?
 - REJECT to context only: market-size forecasts, analyst price targets,
   stock-movement commentary, "the SC trend is growing" explainers, undated
   review articles.
+- **Omnibus/batch regulatory releases pass Gate A/B for a named tracked
+  molecule inside them**, even when the release's own headline is a generic
+  "N drugs approved this month" and never says "subcutaneous" -- read the
+  individual line items, don't judge the batch by its headline. This is how
+  the 2026-09-16 Kiject approval was missed the first time (see Incident
+  log): it was in a batch release alongside LEQEMBI, and only the LEQEMBI
+  line got a name-search hit that day.
 
 **Gate C -- Provenance.** Can this be traced to a nameable source with a
 working URL? Assign a confidence tag:
@@ -397,7 +474,7 @@ Hand off a structured object, not prose:
 ```
 {
   "window": {"from": ISO8601, "to": ISO8601, "tz": "Asia/Seoul"},
-  "queries_run": [ {"tier": 1|2|3|4, "lang": "en"|"ko", "query": str} ],
+  "queries_run": [ {"tier": 1|2|3|4|5, "lang": "en"|"ko"|"ja"|"zh", "query": str} ],
   "candidates": [ {
       "raw_title": str, "published": ISO8601|null, "lang": "en"|"ko",
       "gate_a": "pass"|"reject", "gate_b": "pass"|"reject",
@@ -546,52 +623,43 @@ how the tracking works. **No "gates," "windows," "confidence tags,"
 "candidates," or any other pipeline or process language anywhere in the
 email.**
 
+**Use `references/digest_template.html` verbatim.** It is the tracker
+owner's approved design, locked 2026-09-21 -- do not redesign it, do not
+freelance a different layout, and do not fall back to a plainer format just
+because there's only one finding or zero fresh findings. Read that file
+first; its own header comment has the full placeholder list, the badge
+color-mapping table, and the block-repeat rules. Fill every `{{PLACEHOLDER}}`
+or delete the block it belongs to -- never leave a literal `{{...}}` token in
+the sent email -- and strip every HTML comment from the template before
+handing the HTML to the Gmail tool; the comments are build instructions for
+you, not content for the reader. If the template file is missing, stop and
+flag it in Step 9 rather than reconstructing the design from memory -- a
+hand-reconstructed version is exactly how the design drifts from what the
+owner approved.
+
 **Freshness ordering is the whole point of the layout.** The digest must
 always lead with what is genuinely new in the field, so a reader can tell at
 a glance that the tracker ran today and the field moved today. Older items
 that are merely new *to the tracker* go below, clearly separated, and never
-in the lead block.
-
-Structure:
-- Short header: "SC Atlas" plus one line, e.g. "New this week."
-- One line stating how many updates: *"N updates since the last check."*
-  Count only `fresh` findings here. If zero `fresh` findings, do **not** stop
-  at a bare "No new findings today" -- state what was checked, in one plain
-  sentence with no pipeline jargon: *"No new developments in the last 24
-  hours across the 20 technologies we track."* A reader must never be left
-  unable to distinguish a quiet field from a broken tracker.
-- If there's a clearly most-significant `fresh` finding, lead with it as a
-  short highlighted block: a one-line headline plus 2-3 sentences on what
-  happened and why it matters for high-concentration SC delivery specifically
-  (not general company news).
-- Remaining `fresh` findings as short paragraphs, one company/technology
-  bolded per item, 1-2 sentences each -- what happened, not how it was found
-  or vetted.
-- **`backfill` findings go last, under their own small heading** -- "Also
-  added to the tracker" -- with the event's real date shown on each item, so
-  nothing older is ever presented as breaking news. One line each. If the
-  list runs past five items, show the five most significant and link the rest
-  to the dashboard. Never promote a `backfill` item into the lead block, and
-  never count it in the "N updates since the last check" line.
-- **Every finding carries its own source link** -- the article, press
-  release, or filing it came from, linked on the finding's headline or on a
-  short "Source: <outlet>" line directly under it. A reader must be able to
-  click straight through to the primary article for any item, not just to the
-  dashboard.
-- One CTA button to the dashboard, using this bulletproof table-based pattern
-  (required -- a plain styled `<a>` background-color can render invisible in
-  Gmail/Outlook):
-  ```html
-  <table cellpadding="0" cellspacing="0" border="0"><tr>
-    <td bgcolor="#1f3d3a" style="background-color:#1f3d3a; border-radius:6px; mso-padding-alt:12px 28px;">
-      <a href="https://dwformulation26-hub.github.io/SC-Atlas/" target="_blank" rel="noopener"
-         style="display:inline-block; padding:12px 28px; font-family:inherit; font-size:14px; font-weight:700; color:#ffffff !important; text-decoration:none; border-radius:6px;">
-        View the full dashboard
-      </a>
-    </td>
-  </tr></table>
-  ```
-- Short footer, no jargon: what SC Atlas tracks, in one line.
+in the lead block. The template enforces this structurally (fresh cards
+first, `backfill` rows only under "Also added to the tracker"), so this is a
+content rule, not a layout choice you make each run:
+- Count only `fresh` findings in `{{UPDATE_COUNT}}`.
+- One card per `fresh` finding, most significant first. Each needs a badge
+  (derived from `deal_type`, per the template's mapping table), a one-line
+  plain-language headline, 2-3 sentences on what happened and why it matters
+  for high-concentration/volume SC delivery specifically (not general company
+  news), and its `source_url` on "Read the source ->".
+- `backfill` findings go last as rows under "Also added to the tracker," with
+  the event's *real* date shown next to each headline, so nothing older is
+  ever presented as breaking news. Max 5 rows; if more, show the 5 most
+  significant and add one closing line pointing to the dashboard for the
+  rest. Never promote a `backfill` item into a fresh card, and never count it
+  in `{{UPDATE_COUNT}}`.
+- If zero `fresh` findings: delete the fresh-card region and keep only the
+  template's no-fresh-findings line, filled in -- never a bare "No new
+  findings today." A reader must never be left unable to distinguish a quiet
+  field from a broken tracker.
 
 Pass the HTML to the Gmail tool raw. Do not HTML-escape it -- an escaped body
 arrives as visible markup instead of a rendered email.
@@ -614,8 +682,10 @@ Recipients, in this order, in the To: field:
 3. `shsong16@daewoong.co.kr`
 4. `amudra25@daewoong.co.kr`
 
-Subject: `SC Atlas — N new finding(s) — <YYYY-MM-DD>`, or
-`SC Atlas — no new findings — <YYYY-MM-DD>` when there are none.
+Subject: `SC Atlas — N new finding(s) — <Mon D>`, or
+`SC Atlas — no new findings — <Mon D>` when there are none. `<Mon D>` is the
+same short date format as the template's `{{DATE_SHORT}}` (e.g. `Sep 21`, no
+year, no leading zero) -- keep the subject and the body's date in sync.
 
 **Which action to take:**
 
@@ -646,8 +716,11 @@ addresses above.
 
 In the final output for the run, summarize:
 - The window actually used (flag explicitly if it's a Monday/post-gap ~72h
-  window rather than the usual ~24h) and query count (EN/KO split, 17 across
-  4 tiers, plus any added targeted queries).
+  window rather than the usual ~24h) and query count (EN/KO split, 22 across
+  5 tiers, plus any added targeted queries). Note explicitly whether Tier 5's
+  regulatory-calendar sweep (queries 18-22) surfaced anything a name-search
+  query missed -- that comparison is what tells us whether Tier 5 is earning
+  its cost.
 - The screening audit trail: candidates surfaced, how many passed all gates,
   how many were context-only, how many rejected -- naming rejects with their
   failing gate. Mandatory every run.
