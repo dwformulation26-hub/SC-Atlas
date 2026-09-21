@@ -1,6 +1,5 @@
 {
   "_comment": "Hand-maintained context that doesn't come from either spreadsheet: our own internal target platforms and the marketed reference product used as a benchmark. Edit this file directly when these change (e.g. a target concentration is revised) -- it feeds into dashboard_data.json the same way the two xlsx files do. 'deal_id_aliases' lets a deal row in Deals_News_Feed_source.xlsx (matched by its Technology ID) attach to an internal target instead of being treated as an external technology -- used here because 'thermicra_unconfirmed' was an early tracker entry later corrected to be internal-only.",
-
   "internal_targets": [
     {
       "id": "h-cure",
@@ -10,10 +9,13 @@
       "stage_bucket": "Preclinical",
       "type": "Suspension/particle",
       "concentration_text": "700+ mg/mL — internal program target concentration.",
+      "concentration_text_ko": "700+ mg/mL — 내부 프로그램 목표 농도.",
       "concentration_numeric": 700,
       "concentration_bucket": "600+ mg/mL",
       "needle_size": "Not disclosed",
+      "needle_size_ko": "비공개",
       "mechanism": "Internal high-concentration reformulation program. Shown here as our own benchmark target against the external competitive landscape, not a third-party licensable technology.",
+      "mechanism_ko": "내부 고농도 재제형 프로그램. 외부 경쟁 환경에 대비한 자사 벤치마크 목표로 표시한 것이며, 제3자에게 라이선스 가능한 기술이 아니다.",
       "source_label": "Internal",
       "deal_id_aliases": []
     },
@@ -25,15 +27,19 @@
       "stage_bucket": "Preclinical",
       "type": "Suspension/particle",
       "concentration_text": "~380 mg/mL — internal program target concentration (approximate).",
+      "concentration_text_ko": "약 380 mg/mL — 내부 프로그램 목표 농도(근사치).",
       "concentration_numeric": 380,
       "concentration_bucket": "300–450 mg/mL",
       "needle_size": "Not disclosed",
+      "needle_size_ko": "비공개",
       "mechanism": "Second internal high-concentration reformulation target, tracked alongside H-Cure as a benchmark against external platforms.",
+      "mechanism_ko": "두 번째 내부 고농도 재제형 목표로, 외부 플랫폼 대비 벤치마크로서 H-Cure와 함께 추적한다.",
       "source_label": "Internal",
-      "deal_id_aliases": ["thermicra_unconfirmed"]
+      "deal_id_aliases": [
+        "thermicra_unconfirmed"
+      ]
     }
   ],
-
   "reference_products": [
     {
       "id": "dupixent",
@@ -43,10 +49,13 @@
       "stage_bucket": "Approved / Marketed",
       "type": "Other",
       "concentration_text": "150 mg/mL (300 mg/2 mL prefilled syringe/pen, commercial presentation)",
+      "concentration_text_ko": "150 mg/mL (300 mg/2 mL 프리필드 시린지·펜, 상용 제품 형태)",
       "concentration_numeric": 150,
       "concentration_bucket": "< 300 mg/mL",
       "needle_size": "29 gauge (commercial autoinjector/pen)",
+      "needle_size_ko": "29 게이지 (상용 오토인젝터·펜)",
       "mechanism": "Current marketed dupilumab formulation — a conventional liquid + excipient formulation with no concentration-enabling delivery technology. Included as the benchmark comparator for this landscape.",
+      "mechanism_ko": "현재 시판 중인 두필루맙 제형 — 농도를 높이는 전달 기술 없이 통상적인 액상과 부형제로 구성된 제형이다. 본 경쟁 환경의 기준 비교 대상으로 포함했다.",
       "source_label": "Public prescribing information"
     }
   ]

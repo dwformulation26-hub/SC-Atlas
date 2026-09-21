@@ -61,7 +61,7 @@
 
 html, body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: system-ui, -apple-system, "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
   color: var(--text-primary);
   background: var(--page-plane);
   /* Guards against the table/chart's internal horizontal scroll containers
@@ -962,4 +962,96 @@ svg text {
   .filter-field {
     min-width: 0;
   }
+  /* The title and the actions (timestamp, language toggle, export) each get a
+     full-width row rather than competing for one. */
+  .page-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .page-header-actions {
+    flex-wrap: wrap;
+  }
+}
+
+/* ---------- language (EN/KR) ----------
+   The toggle keeps both labels visible and slides a thumb under the active
+   one, so the alternative is always readable rather than hidden behind a
+   single-state button. Raw values never change with the language -- see the
+   note at the top of assets/i18n.js. */
+
+.lang-toggle {
+  position: relative;
+  display: inline-flex;
+  flex-shrink: 0;
+  border: 1px solid var(--border-hairline);
+  border-radius: 99px;
+  background: var(--surface-1);
+}
+
+.lang-toggle button {
+  position: relative;
+  z-index: 1;
+  min-width: 38px;
+  padding: 5px 2px;
+  border: 0;
+  border-radius: 99px;
+  background: none;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: color 0.16s ease;
+}
+
+.lang-toggle:not(.is-ko) button[data-lang="en"],
+.lang-toggle.is-ko button[data-lang="ko"] {
+  color: #ffffff;
+}
+
+.lang-toggle-thumb {
+  position: absolute;
+  z-index: 0;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  width: calc(50% - 2px);
+  border-radius: 99px;
+  background: var(--series-1);
+  transition: transform 0.18s ease;
+}
+
+.lang-toggle.is-ko .lang-toggle-thumb {
+  transform: translateX(100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lang-toggle-thumb { transition: none; }
+}
+
+/* Marks prose still showing its English original because the record carries
+   no Korean copy yet. */
+.lang-fallback {
+  display: inline-block;
+  margin-left: 0.45em;
+  padding: 0 0.45em;
+  border: 1px solid currentColor;
+  border-radius: 99px;
+  font-size: 0.72em;
+  font-style: normal;
+  opacity: 0.65;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/* Korean wraps on word boundaries rather than mid-word. */
+html[lang="ko"] .subtitle,
+html[lang="ko"] .detail-text,
+html[lang="ko"] .deal-summary,
+html[lang="ko"] .stat-label,
+html[lang="ko"] .stat-sub,
+html[lang="ko"] .chart-caption,
+html[lang="ko"] .chart-caption-inline {
+  word-break: keep-all;
 }

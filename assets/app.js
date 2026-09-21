@@ -6,6 +6,13 @@
  * technology types. No build step: open index.html via any static file
  * server. This file has no knowledge of Excel or deal-sheet columns -- it
  * only reads the already-normalized JSON shape.
+ *
+ * Bilingual EN/KO, same method as the LAI Tracker: assets/i18n.js holds the
+ * string tables and the label maps, this file holds state.lang and re-renders
+ * on a switch. The invariant worth protecting is that the *raw* English
+ * values stay in state -- filters, colour maps and the CSV export all compare
+ * and emit what build_data.py wrote -- and translation happens only at the
+ * point a string is put on screen.
  */
 (function () {
   "use strict";
@@ -16,14 +23,28 @@
   var SERIES_VARS = ["--series-1", "--series-2", "--series-3", "--series-4", "--series-5"];
   var STAGE_VARS = ["--stage-1", "--stage-2", "--stage-3", "--stage-4", "--stage-5"];
 
+  var I18N = window.SCAtlasI18n;
+
   var state = {
     all: [],
+    lang: I18N.DEFAULT_LANG,
     typeColor: {},
     stageColor: {},
     filters: { q: "", company: "", type: "", stage: "", concentration: "" },
     expandedRows: new Set(),
     expandedDeals: new Set(),
   };
+
+  function T(key, vars) {
+    return I18N.t(state.lang, key, vars);
+  }
+
+  // Display-only translations of the controlled vocabulary in the payload.
+  function stageLabel(v) { return I18N.stageLabelText(v, state.lang); }
+  function typeLabel(v) { return I18N.typeLabelText(v, state.lang); }
+  function concentrationLabel(v) { return I18N.concentrationLabelText(v, state.lang); }
+  function dealTypeLabel(v) { return I18N.dealTypeLabelText(v, state.lang); }
+  function placeholder(v) { return I18N.placeholderText(v, state.lang); }
 
   function cssVar(name) {
     return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
@@ -46,7 +67,10 @@
   }
 
   function fetchData() {
-    return fetch(DATA_URL).then(function (res) {
+    // no-store, because the whole point of this request is to defeat a cached
+    // copy: a returning visitor must not be shown yesterday's build after the
+    // daily scan has pushed a new one.
+    return fetch(DATA_URL, { cache: "no-store" }).then(function (res) {
       if (!res.ok) throw new Error("Failed to load " + DATA_URL + " (" + res.status + ")");
       return res.json();
     });
@@ -70,15 +94,6 @@
     return state.typeColor[t.type] || cssVar("--text-muted");
   }
 
-  function populateSelect(selectEl, values) {
-    values.forEach(function (v) {
-      var opt = document.createElement("option");
-      opt.value = v;
-      opt.textContent = v;
-      selectEl.appendChild(opt);
-    });
-  }
-
   function applyFilters() {
     var q = state.filters.q;
     return state.all.filter(function (t) {
@@ -94,6 +109,79 @@
     });
   }
 
+  // ---------- language ----------
+
+  // Option values stay the raw English the payload uses as a filter key; only
+  // the visible label is translated, so switching language never changes which
+  // rows are selected.
+  function fillSelect(selectEl, values, labelFn) {
+    var previous = selectEl.value;
+    selectEl.innerHTML = "";
+    var all = document.createElement("option");
+    all.value = "";
+    all.textContent = T("filters.all");
+    selectEl.appendChild(all);
+    values.forEach(function (v) {
+      var opt = document.createElement("option");
+      opt.value = v;
+      opt.textContent = labelFn ? labelFn(v) : v;
+      selectEl.appendChild(opt);
+    });
+    selectEl.value = previous;
+  }
+
+  function refreshSelects(payload) {
+    fillSelect(document.getElementById("filter-company"), payload.company_order, null);
+    fillSelect(document.getElementById("filter-type"), payload.type_order, typeLabel);
+    fillSelect(document.getElementById("filter-stage"), payload.stage_order, stageLabel);
+    fillSelect(document.getElementById("filter-concentration"), payload.concentration_order, concentrationLabel);
+  }
+
+  function applyStaticStrings() {
+    Array.prototype.forEach.call(document.querySelectorAll("[data-i18n]"), function (node) {
+      node.textContent = T(node.dataset.i18n);
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-i18n-placeholder]"), function (node) {
+      node.placeholder = T(node.dataset.i18nPlaceholder);
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-i18n-aria-label]"), function (node) {
+      node.setAttribute("aria-label", T(node.dataset.i18nAriaLabel));
+    });
+    document.documentElement.lang = state.lang;
+    document.title = T("meta.title");
+  }
+
+  function updateLangToggle() {
+    Array.prototype.forEach.call(document.querySelectorAll(".lang-toggle"), function (toggle) {
+      toggle.classList.toggle("is-ko", state.lang === "ko");
+      Array.prototype.forEach.call(toggle.querySelectorAll("[data-lang]"), function (option) {
+        option.setAttribute("aria-pressed", String(option.dataset.lang === state.lang));
+      });
+    });
+  }
+
+  function bindLangToggle() {
+    Array.prototype.forEach.call(document.querySelectorAll(".lang-toggle"), function (toggle) {
+      toggle.addEventListener("click", function (evt) {
+        var option = evt.target.closest("[data-lang]");
+        if (option) setLang(option.dataset.lang);
+      });
+    });
+  }
+
+  function setLang(lang) {
+    if (lang === state.lang || I18N.LANGS.indexOf(lang) === -1) return;
+    state.lang = lang;
+    I18N.storeLang(lang);
+    applyStaticStrings();
+    updateLangToggle();
+    var payload = window.__DASHBOARD_PAYLOAD__;
+    if (payload) {
+      refreshSelects(payload);
+      renderAll(payload);
+    }
+  }
+
   // ---------- stat tiles ----------
 
   var ICONS = {
@@ -106,10 +194,10 @@
   function renderStats(payload) {
     var c = payload.counts;
     var tiles = [
-      { label: "Technologies tracked", value: c.tracked, sub: "External + internal targets", icon: "flask" },
-      { label: "With a comparable mg/mL", value: c.comparable, sub: "Numeric concentration disclosed", icon: "ruler" },
-      { label: "Already commercial", value: c.commercial, sub: "Approved / marketed", icon: "check" },
-      { label: "Deals & news tracked", value: c.deals_tracked, sub: c.flagged_deals + " flagged for review", icon: "news" },
+      { label: T("stats.tracked.label"), value: c.tracked, sub: T("stats.tracked.sub"), icon: "flask" },
+      { label: T("stats.comparable.label"), value: c.comparable, sub: T("stats.comparable.sub"), icon: "ruler" },
+      { label: T("stats.commercial.label"), value: c.commercial, sub: T("stats.commercial.sub"), icon: "check" },
+      { label: T("stats.deals.label"), value: c.deals_tracked, sub: T("stats.deals.sub", { count: c.flagged_deals }), icon: "news" },
     ];
     var row = document.getElementById("stat-row");
     row.innerHTML = "";
@@ -132,9 +220,9 @@
 
   function renderChart(payload) {
     document.getElementById("chart-legend").innerHTML =
-      '<span><i class="dot" style="background:' + cssVar("--internal") + '"></i>Internal target</span>' +
+      '<span><i class="dot" style="background:' + cssVar("--internal") + '"></i>' + escapeHtml(T("chart.internalTarget")) + "</span>" +
       payload.type_order.map(function (t) {
-        return '<span><i class="dot" style="background:' + state.typeColor[t] + '"></i>' + escapeHtml(t) + "</span>";
+        return '<span><i class="dot" style="background:' + state.typeColor[t] + '"></i>' + escapeHtml(typeLabel(t)) + "</span>";
       }).join("");
 
     var stages = payload.stage_order;
@@ -153,7 +241,7 @@
     }
     function yForConc(c) { return padT + plotH - (plotH * c / maxConc); }
 
-    var svg = '<svg viewBox="0 0 ' + width + " " + height + '" width="100%" style="min-width:' + width + 'px;" role="img" aria-label="Scatter chart of concentration by development stage">';
+    var svg = '<svg viewBox="0 0 ' + width + " " + height + '" width="100%" style="min-width:' + width + 'px;" role="img" aria-label="' + escapeHtml(T("chart.aria")) + '">';
     var step = maxConc > 900 ? 200 : 100;
     for (var v = 0; v <= maxConc; v += step) {
       var y = yForConc(v);
@@ -162,7 +250,7 @@
     }
     stages.forEach(function (s) {
       var x = xForStage(s);
-      svg += '<text x="' + x + '" y="' + (height - padB + 16) + '" font-size="9.5" fill="' + cssVar("--text-muted") + '" text-anchor="middle">' + escapeHtml(s) + "</text>";
+      svg += '<text x="' + x + '" y="' + (height - padB + 16) + '" font-size="9.5" fill="' + cssVar("--text-muted") + '" text-anchor="middle">' + escapeHtml(stageLabel(s)) + "</text>";
     });
 
     var seen = {};
@@ -174,7 +262,7 @@
       var cy = yForConc(p.concentration_numeric);
       var color = colorForRecord(p);
       svg += '<circle cx="' + cx + '" cy="' + cy + '" r="6" fill="' + color + '" fill-opacity="0.88" stroke="#fff" stroke-width="1"><title>' +
-        escapeHtml(p.name) + ": " + p.concentration_numeric + " mg/mL</title></circle>";
+        escapeHtml(T("chart.pointTitle", { name: p.name, value: p.concentration_numeric })) + "</title></circle>";
     });
     svg += "</svg>";
     document.getElementById("chart-wrap").innerHTML = svg;
@@ -195,37 +283,45 @@
     return d.deal_id || ("idx-" + fallbackIndex);
   }
 
+  // A prose field that has no Korean copy is shown in English behind a visible
+  // marker rather than silently passing as a translation.
+  function fallbackMarkup(isFallback) {
+    return isFallback ? '<span class="lang-fallback">' + escapeHtml(T("content.englishOriginal")) + "</span>" : "";
+  }
+
   function renderDealItem(d, opts) {
     opts = opts || {};
     var key = dealKey(d, opts.fallbackIndex || 0);
     var isExpanded = state.expandedDeals.has(key);
-    var t = truncate(d.summary, SUMMARY_TRUNCATE_CHARS);
+    var summary = I18N.localized(d, "summary", state.lang);
+    var t = truncate(summary.text, SUMMARY_TRUNCATE_CHARS);
 
     var badges = "";
-    if (d.flagged) badges += '<span class="pill flagged">FLAGGED</span>';
-    if (d.new_in_digest) badges += '<span class="pill new">NEW</span>';
+    if (d.flagged) badges += '<span class="pill flagged">' + escapeHtml(T("deal.flagged")) + "</span>";
+    if (d.new_in_digest) badges += '<span class="pill new">' + escapeHtml(T("deal.new")) + "</span>";
 
     var techLabel = opts.showTechName ? '<span class="deal-tech-name">' + escapeHtml(d.technology_name) + "</span> — " : "";
     var sourceHtml = d.source_url
-      ? '<a class="deal-link" href="' + escapeHtml(d.source_url) + '" target="_blank" rel="noopener">' + escapeHtml(d.source_name || "source") + " ↗</a>"
+      ? '<a class="deal-link" href="' + escapeHtml(d.source_url) + '" target="_blank" rel="noopener">' + escapeHtml(d.source_name || T("deal.source")) + " ↗</a>"
       : (d.source_name ? '<span class="deal-meta">' + escapeHtml(d.source_name) + "</span>" : "");
 
     var summaryHtml = t.isLong
-      ? '<span class="short">' + escapeHtml(t.short) + '</span><span class="full">' + escapeHtml(d.summary) + "</span>"
-      : escapeHtml(d.summary);
+      ? '<span class="short">' + escapeHtml(t.short) + '</span><span class="full">' + escapeHtml(summary.text) + "</span>"
+      : escapeHtml(summary.text);
 
     var readMoreBtn = t.isLong
-      ? '<button type="button" class="deal-read-more" data-deal-key="' + escapeHtml(key) + '">' + (isExpanded ? "Show less" : "Read more") + "</button>"
+      ? '<button type="button" class="deal-read-more" data-deal-key="' + escapeHtml(key) + '">' +
+        escapeHtml(isExpanded ? T("deal.showLess") : T("deal.readMore")) + "</button>"
       : "";
 
     var li = el("li", "deal-item" + (isExpanded ? " is-expanded" : ""));
     li.dataset.dealKey = key;
     li.innerHTML =
-      '<div class="deal-item-head"><span class="deal-date">' + escapeHtml(d.date) + "</span>" +
+      '<div class="deal-item-head"><span class="deal-date">' + escapeHtml(placeholder(d.date)) + "</span>" +
       techLabel +
-      '<span class="deal-meta">' + escapeHtml(d.partner) + " — " + escapeHtml(d.deal_type) + "</span>" +
+      '<span class="deal-meta">' + escapeHtml(placeholder(d.partner)) + " — " + escapeHtml(dealTypeLabel(d.deal_type)) + "</span>" +
       '<span class="deal-badges">' + badges + "</span></div>" +
-      (d.summary ? '<p class="deal-summary">' + summaryHtml + "</p>" : "") +
+      (summary.text ? '<p class="deal-summary">' + summaryHtml + fallbackMarkup(summary.fallback) + "</p>" : "") +
       readMoreBtn + sourceHtml;
     return li;
   }
@@ -259,13 +355,13 @@
     tbody.innerHTML = "";
 
     document.getElementById("table-count").textContent =
-      "Showing " + rows.length + " of " + state.all.length + " technologies";
+      T("table.count", { shown: rows.length, total: state.all.length });
 
     if (rows.length === 0) {
       var emptyRow = el("tr", "empty-row");
       var emptyCell = document.createElement("td");
       emptyCell.colSpan = 7;
-      emptyCell.textContent = "No technologies match the current filters.";
+      emptyCell.textContent = T("table.empty");
       emptyRow.appendChild(emptyCell);
       tbody.appendChild(emptyRow);
       return;
@@ -279,14 +375,14 @@
       var nameTd = document.createElement("td");
       var nameRow = el("div", "tech-name-row");
       nameRow.appendChild(el("span", "tech-name", t.name || t.id));
-      if (t.is_internal) nameRow.appendChild(el("span", "row-tag internal", "Internal"));
-      if (t.is_reference) nameRow.appendChild(el("span", "row-tag reference", "Reference"));
+      if (t.is_internal) nameRow.appendChild(el("span", "row-tag internal", T("tag.internal")));
+      if (t.is_reference) nameRow.appendChild(el("span", "row-tag reference", T("tag.reference")));
       nameTd.appendChild(nameRow);
       nameTd.appendChild(el("span", "tech-id", t.id));
       tr.appendChild(nameTd);
 
       var companyTd = document.createElement("td");
-      companyTd.textContent = t.company || "—";
+      companyTd.textContent = t.company || T("value.none");
       tr.appendChild(companyTd);
 
       var typeTd = document.createElement("td");
@@ -294,31 +390,31 @@
       var dot = el("span", "type-dot");
       dot.style.background = colorForRecord(t);
       typeCell.appendChild(dot);
-      typeCell.appendChild(document.createTextNode(breakable(t.type) || "—"));
+      typeCell.appendChild(document.createTextNode(breakable(typeLabel(t.type)) || T("value.none")));
       typeTd.appendChild(typeCell);
       tr.appendChild(typeTd);
 
       var concTd = document.createElement("td");
       var concValue = formatConcentration(t);
       if (concValue) concTd.appendChild(el("span", "concentration-value", concValue));
-      else concTd.appendChild(el("span", "concentration-muted", "Not disclosed"));
+      else concTd.appendChild(el("span", "concentration-muted", T("value.notDisclosed")));
       tr.appendChild(concTd);
 
       var stageTd = document.createElement("td");
-      var badge = el("span", "stage-badge", t.stage_bucket || "—");
+      var badge = el("span", "stage-badge", t.stage_bucket ? stageLabel(t.stage_bucket) : T("value.none"));
       badge.style.background = state.stageColor[t.stage_bucket] || cssVar("--stage-other");
       badge.style.color = isDarkStage(t.stage_bucket) ? "#ffffff" : "#0b0b0b";
       stageTd.appendChild(badge);
       tr.appendChild(stageTd);
 
       var reviewedTd = document.createElement("td");
-      reviewedTd.textContent = t.last_reviewed || "—";
+      reviewedTd.textContent = t.last_reviewed || T("value.none");
       tr.appendChild(reviewedTd);
 
       var toggleTd = document.createElement("td");
       var toggleBtn = el("button", "row-toggle");
       toggleBtn.type = "button";
-      toggleBtn.setAttribute("aria-label", "Toggle details for " + (t.name || t.id));
+      toggleBtn.setAttribute("aria-label", T("table.toggleAria", { name: t.name || t.id }));
       toggleBtn.innerHTML = '<svg viewBox="0 0 20 20"><path d="M7 4l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
       toggleTd.appendChild(toggleBtn);
       tr.appendChild(toggleTd);
@@ -334,21 +430,44 @@
     return bucket === "Platform / Feasibility" || bucket === "Pre-registration / Late-stage" || bucket === "Approved / Marketed";
   }
 
+  // Fills one of the template's prose slots, appending the English-original
+  // marker when Korean mode had to fall back.
+  function fillDetailText(node, source, field) {
+    var value = I18N.localized(source, field, state.lang);
+    if (!value.text) {
+      node.textContent = T("value.notDisclosedSentence");
+      return;
+    }
+    node.textContent = value.text;
+    if (value.fallback) {
+      var marker = el("span", "lang-fallback", T("content.englishOriginal"));
+      node.appendChild(marker);
+    }
+  }
+
   function buildDetailRow(template, t) {
     var node = template.content.cloneNode(true);
     var tr = node.querySelector(".tech-row-detail");
-    node.querySelector(".detail-concentration").textContent = t.concentration_text || "Not disclosed.";
-    node.querySelector(".detail-needle").textContent = t.needle_size || "Not disclosed.";
-    node.querySelector(".detail-mechanism-text").textContent = t.mechanism || "No mechanism summary on file.";
+
+    node.querySelector(".detail-concentration-label").textContent = T("detail.concentration");
+    node.querySelector(".detail-needle-label").textContent = T("detail.needle");
+    node.querySelector(".detail-mechanism-label").textContent = T("detail.mechanism");
+
+    fillDetailText(node.querySelector(".detail-concentration"), t, "concentration_text");
+    fillDetailText(node.querySelector(".detail-needle"), t, "needle_size");
+
+    var mechanismNode = node.querySelector(".detail-mechanism-text");
+    if (t.mechanism) fillDetailText(mechanismNode, t, "mechanism");
+    else mechanismNode.textContent = T("detail.noMechanism");
 
     var dealsList = node.querySelector(".detail-deals-list");
     var dealsLabel = node.querySelector(".detail-deals-label");
     var items = t.deals || t.notes || [];
     if (items.length) {
-      dealsLabel.textContent = t.deals ? "Deal / news activity (newest first)" : "Notes";
+      dealsLabel.textContent = t.deals ? T("detail.deals") : T("detail.notes");
       items.forEach(function (d, i) { dealsList.appendChild(renderDealItem(d, { fallbackIndex: i })); });
     } else if (t.source_label) {
-      dealsLabel.textContent = "Source";
+      dealsLabel.textContent = T("detail.source");
       var li = el("li", "deal-empty", t.source_label);
       dealsList.appendChild(li);
     }
@@ -378,12 +497,12 @@
       dot.style.background = colorForRecord(t);
       var body = document.createElement("div");
       body.appendChild(el("p", "update-title", t.name || t.id));
-      body.appendChild(el("p", "update-meta", t.company + " · " + t.last_reviewed));
+      body.appendChild(el("p", "update-meta", T("recent.meta", { company: t.company, date: t.last_reviewed })));
       li.appendChild(dot);
       li.appendChild(body);
       list.appendChild(li);
     });
-    if (recent.length === 0) list.appendChild(el("li", "update-meta", "No review dates on file."));
+    if (recent.length === 0) list.appendChild(el("li", "update-meta", T("recent.empty")));
   }
 
   // ---------- recent deal & news activity ----------
@@ -393,7 +512,7 @@
     list.innerHTML = "";
     var items = (payload.recent_activity || []).slice(0, 8);
     if (!items.length) {
-      list.appendChild(el("li", "deal-empty", "No deal or news activity tracked yet."));
+      list.appendChild(el("li", "deal-empty", T("activity.empty")));
       return;
     }
     items.forEach(function (d, i) { list.appendChild(renderDealItem(d, { showTechName: true, fallbackIndex: i })); });
@@ -426,7 +545,7 @@
       p.setAttribute("fill", state.typeColor[type]);
       p.setAttribute("opacity", !state.filters.type || state.filters.type === type ? "1" : "0.35");
       var title = document.createElementNS("http://www.w3.org/2000/svg", "title");
-      title.textContent = type + ": " + value + " (" + Math.round(fraction * 100) + "%)";
+      title.textContent = T("donut.segmentTitle", { type: typeLabel(type), count: value, pct: Math.round(fraction * 100) });
       p.appendChild(title);
       p.addEventListener("click", function () { toggleTypeFilter(type); });
       svg.appendChild(p);
@@ -442,8 +561,8 @@
       var swatch = el("span", "legend-swatch");
       swatch.style.background = state.typeColor[type];
       li.appendChild(swatch);
-      li.appendChild(el("span", "legend-label", type));
-      li.appendChild(el("span", "legend-value", value + " (" + pct + "%)"));
+      li.appendChild(el("span", "legend-label", typeLabel(type)));
+      li.appendChild(el("span", "legend-value", T("donut.legendValue", { count: value, pct: pct })));
       li.addEventListener("click", function () { toggleTypeFilter(type); });
       legend.appendChild(li);
     });
@@ -476,6 +595,8 @@
 
   // ---------- CSV export ----------
 
+  // Deliberately English in both languages: the export is a data interchange
+  // file keyed by the same raw values the database uses, not a view of the UI.
   function exportCsv() {
     var rows = applyFilters();
     var header = ["Technology", "Company", "Type", "Concentration (mg/mL)", "Stage", "Last reviewed", "Internal", "Reference"];
@@ -509,6 +630,26 @@
 
   // ---------- wiring ----------
 
+  function renderHeader(payload) {
+    document.getElementById("last-updated").textContent =
+      T("page.lastUpdated", { date: payload.last_updated || T("value.none") });
+    document.getElementById("sidebar-footer").textContent = T("sidebar.source", {
+      tech: payload.generated_from.technologies,
+      deals: payload.generated_from.deals,
+      generated: payload.generated_at || T("value.none"),
+    });
+  }
+
+  function renderAll(payload) {
+    renderHeader(payload);
+    renderStats(payload);
+    renderChart(payload);
+    renderTable();
+    renderRecent(payload);
+    renderRecentActivity(payload);
+    renderDonut(payload);
+  }
+
   function wireFilters(payload) {
     var searchInput = document.getElementById("filter-search");
     var companySel = document.getElementById("filter-company");
@@ -516,10 +657,7 @@
     var stageSel = document.getElementById("filter-stage");
     var concSel = document.getElementById("filter-concentration");
 
-    populateSelect(companySel, payload.company_order);
-    populateSelect(typeSel, payload.type_order);
-    populateSelect(stageSel, payload.stage_order);
-    populateSelect(concSel, payload.concentration_order);
+    refreshSelects(payload);
 
     function onChange() {
       state.filters.q = searchInput.value.trim().toLowerCase();
@@ -547,32 +685,26 @@
   }
 
   function init() {
+    state.lang = I18N.getStoredLang();
+    applyStaticStrings();
+    updateLangToggle();
+    bindLangToggle();
+
     fetchData()
       .then(function (payload) {
         window.__DASHBOARD_PAYLOAD__ = payload;
         state.all = payload.technologies.concat(payload.internal_targets, payload.reference_products);
         buildColorMaps(payload);
 
-        document.getElementById("last-updated").textContent = "Last updated: " + (payload.last_updated || "—");
-        document.getElementById("sidebar-footer").textContent =
-          "Source: " + payload.generated_from.technologies + " + " + payload.generated_from.deals +
-          ". Generated " + (payload.generated_at || "—") + ".";
-
-        renderStats(payload);
-        renderChart(payload);
         wireFilters(payload);
-        renderTable();
-        renderRecent(payload);
-        renderRecentActivity(payload);
-        renderDonut(payload);
+        renderAll(payload);
 
         wireDealReadMore(document.getElementById("recent-activity-list"));
         wireDealReadMore(document.getElementById("tech-table-body"));
       })
       .catch(function (err) {
         var main = document.querySelector(".main");
-        var notice = el("div", "panel-card", "Could not load dashboard data: " + err.message +
-          ". If you opened this file directly, serve it over a local HTTP server instead -- see README.md.");
+        var notice = el("div", "panel-card", T("app.loadError", { message: err.message }));
         main.prepend(notice);
         console.error(err);
       });

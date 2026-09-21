@@ -23,6 +23,7 @@ without hiding anything.
 index.html                    the dashboard page (no build step, no framework)
 assets/styles.css             all styling
 assets/app.js                 fetches data/dashboard_data.json and renders everything
+assets/i18n.js                EN/KO string tables + label maps for the language toggle
 assets/icon.svg               brand mark / favicon
 
 data/technologies_db.py       EDIT THIS to add/update a technology
@@ -35,15 +36,67 @@ data/archive/                 the original two source spreadsheets, kept for
 scripts/build_data.py         regenerates dashboard_data.json from the *_db.py
                                files + internal_targets.json. Stdlib only, no
                                pip install needed.
+scripts/ko_check.py           checks every English prose field against its
+                               Korean mirror. Run it before build_data.py.
 ```
 
 **The app and the database are two completely separate things.**
 `assets/app.js` never touches technology/deal data directly -- it only
 fetches and renders `data/dashboard_data.json`. Adding a finding never
-means editing `index.html`, `assets/app.js`, or `assets/styles.css`; it
-means editing `data/technologies_db.py` or `data/deals_db.py` (plain
-Python, safe for Claude or a human to edit with a text editor) and running
-one script.
+means editing `index.html`, `assets/app.js`, `assets/i18n.js`, or
+`assets/styles.css`; it means editing `data/technologies_db.py` or
+`data/deals_db.py` (plain Python, safe for Claude or a human to edit with
+a text editor) and running one script.
+
+## Languages (EN / KR)
+
+The header carries an EN/KR toggle; the choice is remembered per browser in
+`localStorage` under `sc-atlas-lang`. All of the interface copy lives in
+`assets/i18n.js`, along with label maps for the controlled vocabulary the
+build script emits -- stage buckets, technology types, concentration
+buckets and the recurring `deal_type` phrasings.
+
+Interface copy is translated from the string table. Record prose --
+`mechanism`, `concentration_text`, `needle_size` and each deal `summary` --
+is translated in the database itself, under the same field name plus a `_ko`
+suffix:
+
+```python
+'mechanism':    'Recombinant human hyaluronidase temporarily depolymerizes ...',
+'mechanism_ko': '재조합 인간 히알루로니다제가 간질 공간의 히알루로난을 ...',
+```
+
+Three things are deliberate:
+
+- **Raw English values stay the identity of a record.** Filters, the donut,
+  the colour maps and the CSV export all compare and emit exactly what
+  `build_data.py` wrote; only the visible label is translated. Switching
+  language never changes which rows are selected.
+- **English is the working language and the field of record.** Findings are
+  researched, verified and summarised in English; the `_ko` mirror is a
+  translation of that finished English string, never a second summary written
+  from the sources. Two independently written texts drift, and the drift is
+  invisible to a reader who only reads one of them. Both scan routines
+  enforce this (`.claude/skills/sc-atlas-*/SKILL.md`), and
+  `.claude/skills/sc-atlas-daily-scan/references/ko-glossary.md` holds the
+  standing vocabulary so terms stay consistent across runs.
+- **A missing mirror degrades, it doesn't break.** The dashboard falls back
+  to the English behind a small "영문 원문" badge rather than passing it off as
+  Korean copy. Every field currently has a mirror, so the badge should not
+  appear -- if it does, something was added without one.
+
+`build_data.py` copies the `_ko` fields through verbatim and never generates
+them. `ko_check.py` is what guards them:
+
+```bash
+python scripts/ko_check.py
+```
+
+It fails on a missing mirror, on an identifier or number that did not survive
+the translation (`750 mg/mL` quietly becoming `600 mg/mL`, a dropped patent
+number), and on an English string pasted into a `_ko` field. That is the one
+class of error a reviewer reading only one of the two languages cannot catch.
+Fix the Korean to match the English, never the reverse.
 
 ## Viewing it locally
 

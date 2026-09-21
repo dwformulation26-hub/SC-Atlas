@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T00:35:10+00:00",
+  "generated_at": "2026-09-21T14:11:23+09:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -71,10 +71,13 @@
       "stage_bucket": "Preclinical",
       "type": "Suspension/particle",
       "concentration_text": "700+ mg/mL — internal program target concentration.",
+      "concentration_text_ko": "700+ mg/mL — 내부 프로그램 목표 농도.",
       "concentration_numeric": 700,
       "concentration_bucket": "600+ mg/mL",
       "needle_size": "Not disclosed",
+      "needle_size_ko": "비공개",
       "mechanism": "Internal high-concentration reformulation program. Shown here as our own benchmark target against the external competitive landscape, not a third-party licensable technology.",
+      "mechanism_ko": "내부 고농도 재제형 프로그램. 외부 경쟁 환경에 대비한 자사 벤치마크 목표로 표시한 것이며, 제3자에게 라이선스 가능한 기술이 아니다.",
       "source_label": "Internal",
       "notes": [],
       "is_internal": true,
@@ -88,10 +91,13 @@
       "stage_bucket": "Preclinical",
       "type": "Suspension/particle",
       "concentration_text": "~380 mg/mL — internal program target concentration (approximate).",
+      "concentration_text_ko": "약 380 mg/mL — 내부 프로그램 목표 농도(근사치).",
       "concentration_numeric": 380,
       "concentration_bucket": "300–450 mg/mL",
       "needle_size": "Not disclosed",
+      "needle_size_ko": "비공개",
       "mechanism": "Second internal high-concentration reformulation target, tracked alongside H-Cure as a benchmark against external platforms.",
+      "mechanism_ko": "두 번째 내부 고농도 재제형 목표로, 외부 플랫폼 대비 벤치마크로서 H-Cure와 함께 추적한다.",
       "source_label": "Internal",
       "notes": [
         {
@@ -107,7 +113,8 @@
           "relevance": "N/A",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "정정: 트래커 소유자 확인 결과 'Thermicra'는 외부 기업이 아니라 내부 목표 플랫폼이며, H-Cure와 함께 자사 벤치마크로 추적한다. 기존에는 미검증 외부 검색 결과로 기록되어 있었으나 그 분류는 잘못된 것이었다. 이제는 추적 대상 경쟁사가 아니라 내부·공개 대시보드에만 표시한다."
         }
       ],
       "is_internal": true,
@@ -123,10 +130,13 @@
       "stage_bucket": "Approved / Marketed",
       "type": "Other",
       "concentration_text": "150 mg/mL (300 mg/2 mL prefilled syringe/pen, commercial presentation)",
+      "concentration_text_ko": "150 mg/mL (300 mg/2 mL 프리필드 시린지·펜, 상용 제품 형태)",
       "concentration_numeric": 150,
       "concentration_bucket": "< 300 mg/mL",
       "needle_size": "29 gauge (commercial autoinjector/pen)",
+      "needle_size_ko": "29 게이지 (상용 오토인젝터·펜)",
       "mechanism": "Current marketed dupilumab formulation — a conventional liquid + excipient formulation with no concentration-enabling delivery technology. Included as the benchmark comparator for this landscape.",
+      "mechanism_ko": "현재 시판 중인 두필루맙 제형 — 농도를 높이는 전달 기술 없이 통상적인 액상과 부형제로 구성된 제형이다. 본 경쟁 환경의 기준 비교 대상으로 포함했다.",
       "source_label": "Public prescribing information",
       "is_internal": false,
       "is_reference": true
@@ -161,11 +171,15 @@
           "relevance": "Low",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": true
+          "new_in_digest": true,
+          "summary_ko": "백필: 이번 실행의 검색 기간보다 수개월 앞선 논문으로, 정규 Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다. 콜린-트립토판 이온성 액체(CHAT) 부형제가 점도를 낮추는 동시에 조직 흡수를 높여, 히알루로니다제 기반 기전 없이 90-230 mg/mL로 농축한 항체 제형의 피하 주사를 가능하게 함을 보인 동료심사 논문(Erdi, Ramesh, Chandran Suja, Zhang, Mitragotri, Singh - Harvard/Mitragotri Lab), Advanced Materials 게재. 이미 추적 중인 분무건조 현탁액(academic_spray_dried), 용매 탈수 하이드로젤(academic_solvent_dehydration_hydrogel) 접근법과 구별되는 새로운 학술 기술 항목이다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "항체 농도 90-230 mg/mL 입증",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "콜린-트립토판 이온성 액체(CHAT)를 다기능 부형제로 사용해 용액 점도를 낮추는 동시에 조직 흡수를 높임으로써, 히알루로니다제 기반 기전 없이 200 mg/mL을 넘는 항체 제형의 피하 주사를 가능하게 한다. 이미 추적 중인 효소 보조(ENHANZE/ALT-B4/HyDiffuse), 입자·현탁(XeriJect/Microglassification/Hypercon), 하이드로젤(MIT 용매 탈수) 범주와 구별되는 별개의 화학적 접근법이다."
     },
     {
       "id": "enhanze",
@@ -195,7 +209,8 @@
           "relevance": "High",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "골수증식종양(MPN)을 적응증으로 하는 Incyte의 계열 최초 항변이칼레티쿨린(mutCALR) 단클론항체 INCA033989의 피하 제형에 ENHANZE(rHuPH20)를 적용하는 글로벌 공동연구·라이선스 계약이다. Incyte는 ENHANZE 표적을 최대 2건 추가로 지정할 수 있는 옵션도 확보했다. Halozyme은 선급금(금액 비공개)과 개발·허가 마일스톤, 상업화된 ENHANZE 적용 의약품 순매출에 대한 로열티를 받는다."
         },
         {
           "deal_id": "halozyme_merck_ptab-pgr-invalidations_2026-05",
@@ -210,7 +225,8 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "2026년 5월 PTAB 결정 3건이 Halozyme의 PH20/MDASE 특허 장벽을 실질적으로 약화시켰으며, 모두 키트루다 Qlex(피하 펨브롤리주맙)를 둘러싸고 머크가 제기한 등록후재심사 청구에서 비롯되었다: (1) PGR2025-00003, 미국 특허 11,952,600 - 청구항 1-4 및 8-21이 기재요건과 실시가능요건 결여로 특허성 없음 판단, 2026-05-12 결정; (2) PGR2025-00087, 미국 특허 12,371,685 - 개시 거부, 2026-05-15; (3) PGR2025-00006, 미국 특허 12,152,262 - 청구항 1-4 및 8-13이 동일한 이유로 특허성 없음 판단, 2026-05-18 결정. PTAB은 Halozyme이 변형 변이체 1종에 대해서만 실험적으로 유효성을 입증하면서 여러 변형을 동시에 가진 변이체들까지 청구해 발명자가 실제로 보유한 범위를 넘어섰다고 판단했다. 이는 Halozyme이 뉴저지 연방지방법원에서 머크를 상대로 주장한 MDASE 계열 특허 가운데 처음 무효화된 사례이며, 키트루다 SC를 가능하게 하는 ALT-B4를 보유한 알테오젠에 간접적으로 유리하게 작용한다. 백필: 12개월 백필 스윕 과정에서 2026-09-16 추가했으며, 이전에는 추적되지 않았다."
         },
         {
           "deal_id": "halozyme_gsk_2026-05",
@@ -225,7 +241,8 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "항체-약물 접합체(ADC)를 포함한 다수 종양학 표적의 피하 전달에 대한 글로벌 공동연구 및 라이선스 계약. 첫 임상시험은 2026년으로 예상된다."
         },
         {
           "deal_id": "halozyme_takeda_vedolizumab_2026-01-08",
@@ -240,7 +257,8 @@
           "relevance": "High",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "중등도-중증 활동성 궤양성 대장염과 크론병 치료제인 다케다의 항인테그린 항체 베돌리주맙(ENTYVIO)에 ENHANZE(rHuPH20)를 적용하는 글로벌 공동연구·라이선스 계약이다. 다케다가 선급금과 조건부 개발·상업화 마일스톤을 지급하고, ENHANZE 결합 베돌리주맙 제품 매출에 대한 로열티를 지급한다. GSK, Incyte, Vertex, Oruka, Skye와 함께 Halozyme의 2026년 ENHANZE 계약 흐름을 이어가는 건이다. 백필: 12개월 백필 스윕 과정에서 2026-09-16 추가했으며, 이전에는 추적되지 않았다."
         },
         {
           "deal_id": "halozyme_skye_enhanze_2026-01-05",
@@ -255,7 +273,8 @@
           "relevance": "High",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "비만 치료를 겨냥한 Skye의 CB1 표적 음성 알로스테릭 조절 항체 니마시맙에 ENHANZE(rHuPH20)를 적용하는 비독점 글로벌 공동연구·라이선스 계약이다. 대용량 투여를 명시적으로 겨냥한 계약으로, 더 큰 주사 용량 전달을 가능하게 해 니마시맙의 더 높은 피하 용량 평가를 뒷받침하는 것이 목적이라고 밝히고 있으며, Skye 대표는 '이를 피하로 전달할 현실적인 방법'이 필요하다고 언급했다. Halozyme은 개발·상업화 마일스톤과 함께 최소 10년간 순매출의 중간 한 자릿수 로열티를 받는다. Skye는 2026년 중반 니마시맙과 GLP-1 수용체 작용제 병용을 함께 평가하는 2b상 시험을 계획했다. 백필: 12개월 백필 스윕 과정에서 2026-09-16 추가했으며, 이전에는 추적되지 않았다."
         },
         {
           "deal_id": "halozyme_msd_hague-uk-setbacks_2026-07",
@@ -270,7 +289,8 @@
           "relevance": "Medium",
           "confidence": "Secondary",
           "flagged": true,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "검토 필요 -- 날짜 미확인. 업계 매체(juve-patent.com, IAM, Pearce IP)는 헤이그 지방법원이 EP 2,797,622에 관한 네덜란드 본안 소송(당시 구두 심리는 2026년 7월 31일로 예정)이 진행되는 동안 MSD의 덴마크·스웨덴 키트루다 SC 판매를 막아 달라는 Halozyme의 가처분 신청을 기각했다고 보도했다. 법원은 Halozyme에 긴급한 이익이 있다고 보면서도 MSD가 변론에서 밝힌 출시 관련 진술은 구속력 있는 확약이 아니라고 판단했다. IAM은 같은 MDASE·키트루다 SC 분쟁에서 Halozyme이 영국 특허법원에서 겪은 별개의 패소(Merck Sharp & Dohme (UK) Ltd 대 Halozyme Inc)와 함께 이를 전했다. 이미 추적 중인 2026년 5월 미국 PTAB 무효 결정, 2025년 12월 독일 가처분(halozyme_merck_germany-injunction_2025-12-04 참조)과 더불어 ALT-B4 기반 키트루다 SC에 대한 Halozyme MDASE 특허 자산의 위험 구도를 직접 제한하는 내용이다. 동일한 보도에 대한 두 차례의 독립적 WebSearch 결과가 서로 다른 결정일(2026년 7월 3일 대 7월 14일)을 제시했고, juve-patent.com은 EGRESS_BLOCKED로 직접 페이지 조회가 불가능했다. 백필: 이전에는 추적되지 않았다."
         },
         {
           "deal_id": "halozyme_merck_germany-injunction_2025-12-04",
@@ -285,11 +305,15 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "뮌헨 지방법원(제7민사부)이 Halozyme의 유럽 MDASE 특허 EP 2,797,622의 침해가 임박했다고 보아, 머크/MSD가 독일에서 키트루다 SC(펨브롤리주맙 + ALT-B4)를 유통하거나 공급하는 것을 금지하는 가처분을 인용했다. 키트루다 SC를 둘러싼 Halozyme과 머크의 광범위한 MDASE/PH20 특허 분쟁의 일부이며, 이 분쟁에서 이미 여기에 추적 중인 2026년 5월 미국 PTAB 결정도 나왔다(halozyme_merck_ptab-pgr-invalidations_2026-05 참조). 머크는 별도로 2025년 8월 독일 연방특허법원에 EP 622에 대한 무효심판을 제기했다. 백필: 이전에는 추적되지 않았다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "해당 없음 - 농도 자체를 높이는 기술이 아니라, 기존 제형 농도 그대로 2 mL를 초과하는 피하 투여량을 가능하게 하는 기술이다",
+      "needle_size_ko": "비공개 (파트너사의 최종 제품에서 결정됨)",
+      "mechanism_ko": "재조합 인간 히알루로니다제가 간질 공간의 히알루로난을 일시적으로 분해하여 대용량·고용량 피하 투여 시 체액 흐름을 가로막는 장벽을 낮춘다."
     },
     {
       "id": "eisai_biogen_leqembi_iqlik_sc",
@@ -319,7 +343,8 @@
           "relevance": "Medium",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "레카네맙의 피하 오토인젝터 제형인 LEQEMBI Pen이 초기 알츠하이머병을 적응증으로 일본에서 승인되었다. 주 1회 환자 본인 또는 돌봄 제공자가 250 mg 펜 2개(총 500 mg)를 투여하며 주사당 약 15초가 걸린다. 일본은 미국과 중국(둘 다 이미 여기에 추적 중)에 이어 동일한 주 1회 500 mg 요법으로 피하 제형을 승인한 세 번째 시장이다."
         },
         {
           "deal_id": "eisai_biogen_leqembiiqlik_china-approval_2026-09-03",
@@ -334,7 +359,8 @@
           "relevance": "Medium",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "중국 국가약품감독관리국(NMPA)이 알츠하이머병으로 인한 경도인지장애 또는 경도 치매의 도입 치료제로 LEQEMBI(레카네맙) 피하 제형을 승인했으며, 2026-08-24 기록한 미국 SC-AI/IQLIK 출시와 동일하게 주 1회 500 mg(250 mg 주사 2회 연속) 요법을 적용한다. 중국 BLA는 2026년 1월 접수되어 우선심사를 받았고, 주 1회 피하 투여가 2주 1회 정맥 투여와 동등한 노출을 보이며 임상·바이오마커 측면에서도 유사한 이익을 입증했다. 출시는 에자이의 2026 회계연도(2027년 3월 31일 종료) 내로 계획되어 있다. 이미 추적 중인 기술의 지역 확대 사안이며 새로운 농도·제형 주장이 아니다. 기록된 피하 200 mg/mL 대 정맥 100 mg/mL 수치는 변동이 없다."
         },
         {
           "deal_id": "eisai_biogen_leqembiiqlik_launch_2026-08-24",
@@ -349,11 +375,15 @@
           "relevance": "Medium",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "에자이와 바이오젠은 LEQEMBI IQLIK(레카네맙-irmb) 오토인젝터가 초기 알츠하이머병의 피하 도입 요법용으로 미국에서 상업 판매를 시작했다고 발표했다. 주 1회 500 mg을 250 mg/1.25 mL 주사 2회 연속으로 투여하며 각 주사는 약 15초가 걸린다. 2026-07-13 도입 용량 sBLA의 FDA 승인(이번 실행의 조사 기간 밖, 맥락 제공용)에 뒤이은 것이며, 2025년 8월 승인된 피하 유지 용량 제형(360 mg/1.8 mL)과는 별개다. 피하 제형은 200 mg/mL로 정맥주사 제형 100 mg/mL 대비 2배 농도다. 환자는 치료 과정 중 언제든 정맥주사와 피하주사를 전환할 수 있다. 신규 항목 - 본 트래커에 에자이·바이오젠 레카네맙을 처음 기록한 건이며, 상업적으로 검증된 고농도 단클론항체 피하 오토인젝터 전달의 외부 교차 적응증(종양학·면역질환이 아닌 알츠하이머병) 벤치마크로 포함했다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "피하 제형 200 mg/mL (정맥주사 제형 100 mg/mL 대비); 초기 용량 500 mg은 250 mg/1.25 mL 주사 2회로 투여하며 각 주사는 약 15초 소요; 유지 용량에는 360 mg/1.8 mL 오토인젝터 사용",
+      "needle_size_ko": "29 게이지 고정형 1/2인치 니들 (1회용 프리필드 오토인젝터)",
+      "mechanism_ko": "레카네맙-irmb(항아밀로이드베타 프로토피브릴 단클론항체)의 고농도(200 mg/mL) 수성 액상 제형으로, 승인된 정맥주사 제형(100 mg/mL)의 약 2배 농도이며 1회용 프리필드 오토인젝터로 주사당 약 15초에 전달된다. 히알루로니다제나 입자·현탁 기술은 사용하지 않으며, 고농도 액상 재제형에 빠른 고정형 니들 오토인젝터를 결합한 단순한 방식으로 정맥 주입을 대체하는 가정 내 피하 초기·유지 투여를 가능하게 한다. 종양학·면역질환이 아닌 알츠하이머병 영역이지만, 상업적으로 검증된 고농도 단클론항체 피하 전달 기술의 외부 교차 적응증 벤치마크로 포함했다. 현재 미국과 중국(NMPA, 2026-09-03) 모두에서 동일한 주 1회 500 mg / 250 mg 2회 주사 요법으로 승인되었다."
     },
     {
       "id": "amicogen_hyaluronidase",
@@ -383,11 +413,15 @@
           "relevance": "Medium",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "아미코젠이 '인간 히알루로니다제 변이체 및 그 용도'에 관한 국내 출원 2건(10-2025-0124247은 2025년 4월 원출원의 분할출원, 그리고 10-2026-0040959)에 대해 각각 청구항 25개(총 50개)로 특허결정을 받아, 피하 제형 약물전달용 인간 히알루로니다제 플랫폼을 둘러싼 지식재산을 강화했다. Halozyme의 ENHANZE(rHuPH20)와 알테오젠의 ALT-B4(PH20) 효소 기술에 대한 차별화된 대안으로 포지셔닝하고 있다. 백필: 이전에는 추적되지 않았으며, 아미코젠은 그때까지 추적 대상 경쟁사가 아니었다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "수치는 비공개이며, 그 자체로 농도를 높이는 제형이 아니라 효소 보조 방식의 피하 전환 기술이다(ENHANZE/ALT-B4/HyDiffuse와 같은 범주).",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "회사가 Halozyme의 ENHANZE(rHuPH20)와 알테오젠의 ALT-B4(PH20) 특허 청구범위 밖에 있다고 주장하는 개량형 인간 유래 히알루로니다제 변이체로, 중성 pH에서 높은 활성을 보인다고 밝히고 있다. 아미코젠은 2022년경부터 피하 제형에 필수적인 인간 히알루로니다제를 개발해 왔으며, 해당 변이체와 용도에 관한 국내 특허를 보유하고 있다(출원 10-2025-0124247은 2025년 4월 원출원의 분할출원이며, 10-2026-0040959와 함께 2026-07-14 특허결정을 받았고 각각 청구항 25개다). 별도로 추가 차별화를 위해 고환 유래가 아닌 피부 유래 차세대 히알루로니다제 변이체를 2027년 말경 완료를 목표로 개발 중이며, 궁극적으로 플랫폼 라이선스를 염두에 두고 있다. ENHANZE, ALT-B4/Hybrozyme, 삼성바이오에피스의 PH20 기술, 휴온스랩의 HyDiffuse에 이은 다섯 번째 히알루로니다제 기반 경쟁자다."
     },
     {
       "id": "alt-b4_hybrozyme",
@@ -417,7 +451,8 @@
           "relevance": "High",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": true
+          "new_in_digest": true,
+          "summary_ko": "EU CHMP가 절제 가능한 근육침윤성 방광암(MIBC)의 수술 전후(선행 후 보조) 치료로 KEYTRUDA(펨브롤리주맙)와 Padcev(엔포투맙 베도틴-ejfv) 병용요법의 승인을 권고하는 긍정 의견을 채택했으며, 이 권고는 ALT-B4를 적용한 피하 펨브롤리주맙 제형(키트루다 SC, 미국의 키트루다 Qlex)을 명시적으로 포함한다. 이미 추적 중인 ALT-B4/Hybrozyme 피하 제형의 EU 내 새로운 적응증 확대이며 이전에는 기록되지 않았다. EC 최종 결정은 EU와 아이슬란드, 리히텐슈타인, 노르웨이를 대상으로 2026년 4분기에 예상된다."
         },
         {
           "deal_id": "alteogen_msd_keytruda-sc-japan-approval_2026-09-16",
@@ -432,7 +467,8 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": true
+          "new_in_digest": true,
+          "summary_ko": "백필: 이번 실행의 검색 기간(2026-09-18T09:02 KST 시작) 이전에 발생한 사안으로, 정규 Tier-1/Tier-4 스윕에서 확인되었고 이전에는 추적되지 않았다. 일본 후생노동성(MHLW)이 펨브롤리주맙(키트루다)을 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 '키젝트 배합 피하주사'(395 mg 및 790 mg)의 제조판매 승인을 부여했다. 일본에서 승인된 최초의 피하 면역관문억제제다. 3상 MK-3475A-D77 시험을 근거로 투여 시간을 정맥주사 약 30분에서 피하주사 약 1-2분으로 단축한다. 미국, EU/캐나다, 한국에 이어 ALT-B4 기반 키트루다 SC의 네 번째 주요 시장 승인이며(한국 승인은 alteogen_msd_keytruda-sc-korea-approval_2026-05-19로 별도 추적 중), 일본 건은 기록되지 않았었다. 같은 날 이루어진 LEQEMBI Pen 피하 제형의 일본 승인(물질과 기술이 무관한 별개 사안)은 별도로 추적 중이다(eisai_biogen_leqembiiqlik_japan-approval_2026-09-16 참조)."
         },
         {
           "deal_id": "alteogen_novartis_2026-09",
@@ -447,7 +483,8 @@
           "relevance": "High",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "알테오젠이 노바티스에 Hybrozyme(TM) 플랫폼 기반 ALT-B4(베라히알루로니다제 알파)를 이용해 노바티스의 복수 바이오의약품 피하 제형을 개발·상업화할 독점 권리를 확보할 수 있는 다수의 옵션을 부여하는 옵션·라이선스 계약을 체결했다. 옵션 행사료와 개발·허가·상업화 마일스톤, 순매출 로열티를 합쳐 총 규모는 최대 $3.223B(약 KRW 4.4165 trillion, 4조 4,165억 원)이며, 규제 승인과 임상·상업적 성공을 전제로 한 조건부 계약이다. 2026년 공개된 알테오젠의 네 번째 라이선스 계약(앞서 GSK/Tesaro, 바이오젠, 8월의 미공개 제약사)이자 Hybrozyme 플랫폼 기준 통산 10번째 계약으로, 공개된 최대 규모 기준으로는 AstraZeneca 계약에 이은 창사 이래 두 번째로 큰 건이다. 같은 날 DART(금융감독원 전자공시시스템)를 통해 공시되었다."
         },
         {
           "deal_id": "alteogen_undisclosed-pharma_2026-08",
@@ -462,7 +499,8 @@
           "relevance": "High",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "미공개 글로벌 제약사가 ALT-B4(베라히알루로니다제 알파)를 이용해 Hybrozyme(TM) 기반 바이오의약품 피하 제형을 개발·상업화할 수 있는 전 세계 독점 라이선스다. 총 계약 규모는 최대 $365M(약 KRW 521.9B, 5,219억 원)로 선급금(금액 비공개)과 개발·허가·판매 마일스톤, 상업화 이후 순매출 로열티로 구성되며, 한국 언론은 선급금이 계약 후 30일 이내 지급된다고 보도했다. 2026년 공개된 알테오젠의 세 번째 ALT-B4/Hybrozyme 라이선스 계약이며(앞서 AstraZeneca와 GSK/Tesaro, 모두 추적 중), 한국 언론은 알테오젠의 누적 기술수출 규모가 KRW 12 trillion, 즉 12조 원을 넘어섰다고 전했다."
         },
         {
           "deal_id": "alteogen_sanofi_dupixent-p1-dosing_2026-07-23",
@@ -477,7 +515,8 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "사노피가 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 피하 두필루맙(Dupixent)을 두필루맙 단독과 비교해 약동학, 안전성, 항약물항체를 평가하는 1상 시험에서 건강한 성인 피험자 40명 전원에 대한 투약을 완료했다. 시험은 2026년 6월 시작되었고 1차 완료 시점은 2026년 9월로 예상된다. 고용량 피하 Dupixent 제형에 대한 2019년 사노피-알테오젠 비독점 ALT-B4 라이선스에서 나온 첫 구체적 임상 단계 진전으로, 해당 계약의 개발 진행 여부는 2026년 6월에야 공개적으로 재확인되었다(alteogen_sanofi_2026-06 참조). 성공적인 결과가 나오면 기준 제품 자체의 첫 농도 개선 재제형이 되므로 본 트래커의 Dupixent 벤치마크와 직접 관련이 있다. 농도와 용량 수치는 시험 결과 발표 전까지 아직 공개되지 않았다."
         },
         {
           "deal_id": "alteogen_sanofi_2026-06",
@@ -492,7 +531,8 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "두필루맙(Dupixent) 고용량 피하 제형에 대한 비독점 라이선스(최초 체결 2019년)로, 개발이 계속 진행 중임이 재확인되었다."
         },
         {
           "deal_id": "alteogen_msd_keytruda-sc-korea-approval_2026-05-19",
@@ -507,7 +547,8 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "식품의약품안전처(MFDS)가 암종 18종, 적응증 35건을 포괄하는 '키트루다 SC'(피하 펨브롤리주맙, ALT-B4 적용)를 승인했다. 미국에서 승인된 키트루다 Qlex와 동일한 ALT-B4/베라히알루로니다제 알파 제형으로, 특허 소송 이력을 통해 이미 여기에 추적 중이었으나 이 지역 승인은 기록되지 않았다. 투여 시간은 3주 1회 요법에서 약 1분, 6주 1회 요법에서 약 2분으로 정맥주사 제형의 약 30분과 대비된다. 두 경로를 모두 경험한 환자의 65%가 피하 제형을 선호한다는 결과가 2상 교차 시험에서 확인되었다. 한국 출시는 2026년 4분기로 계획되어 있다."
         },
         {
           "deal_id": "alteogen_ptab-ipr-defense_2026-05-15",
@@ -522,7 +563,8 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "PTAB이 알테오젠의 미국 특허 12,221,638 '재조합 히알루로니다제 제조 방법'에 대한 Halozyme의 당사자계 재심사 청구를 개시하지 않기로 결정했다. 이 특허는 ALT-B4의 핵심 공정 특허로 2026년 2월 미국에 등록되었다. Halozyme은 알테오젠의 온도 변화 배양 방법이 선행기술에 이미 알려져 있다고 주장했으나, PTAB은 Halozyme이 제시한 선행기술과 무효 논리가 승소 가능성을 인정할 만큼 충분하지 않다고 보아 심리를 개시하지 않았다. 결정은 2026-05-15(미국 시간), 한국 보도는 2026-05-16이다. 같은 시기 머크가 Halozyme의 PH20 특허를 상대로 얻어낸 등록후재심사 무효 결정과 함께 보면, ALT-B4의 제조 지식재산과 키트루다 SC를 둘러싼 상당한 불확실성이 해소된 것이다. 백필: 12개월 백필 스윕 과정에서 2026-09-16 추가했으며, 이전에는 추적되지 않았다."
         },
         {
           "deal_id": "alteogen_biogen_2026-03",
@@ -537,7 +579,8 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "2026-07-12 갱신: ALT-B4를 활용한 미공개 바이오의약품 2종에 대한 라이선스 계약. 총 계약 규모 약 $579M: 선급금 $20M(두 번째 제품 선택 시 $10M 추가) + 임상·허가·상업화 마일스톤 최대 $549M(원화 약 KRW 800 billion, 8,000억 원 규모). 수치는 한국 경제지를 통해 확인했다."
         },
         {
           "deal_id": "alteogen_gsk-tesaro_2026-01",
@@ -552,7 +595,8 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "도스탈리맙 피하 제형에 대한 독점 라이선스. 선급금 $20M + 마일스톤 최대 $265M(총 $285M, 한국 언론 보도로 확인)."
         },
         {
           "deal_id": "alteogen_astrazeneca_2026",
@@ -567,11 +611,15 @@
           "relevance": "High",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "2026-07-22 정정: 1차 출처(AstraZeneca 보도자료, 2025년 3월 17일 게재)가 계약일을 2025-03-17로 확정했다. 기존에는 '2026'이라는 미확인 임시 날짜로 기록되어 있었다. FiercePharma의 당일 보도(2025-03-17, 아래 인용된 동일 URL)도 이를 뒷받침한다: 계약 2건, 합산 규모 약 $1.35B, 합산 선급금 $45M(알테오젠의 KRX 공시를 FiercePharma가 옮긴 내용 기준으로 한 건은 선급금 $25M·마일스톤 최대 $725M, 다른 한 건은 선급금 $20M·마일스톤 최대 $580M). AstraZeneca의 자체 보도자료는 '복수의 종양학 자산' 피하 제형의 개발·상업화 권리로만 기술하며, '3개 자산'이라는 수치나 재무 조건은 직접 확인해 주지 않는다. 해당 수치는 알테오젠의 KRX 공시를 전한 FiercePharma 보도에서 나온 것이다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "2026년 파트너 프로그램 전체에 대해 비공개",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "세포외기질의 히알루로난을 일시적으로 가수분해하는 재조합 인간 히알루로니다제로, 기존 바이오의약품의 대용량 정맥주사(IV)-피하주사(SC) 전환을 가능하게 한다."
     },
     {
       "id": "hypercon",
@@ -601,7 +649,8 @@
           "relevance": "Medium",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "Wells Fargo 제21회 연례 헬스케어 콘퍼런스에서 Halozyme의 Helen Torley 대표와 Darren Snellgrove 최고재무책임자는 Hypercon 기반 첫 임상 프로그램 2건이 2027년 상반기(H1 2027)에 투약을 시작할 것으로 예상하며, 첫 상업 출시는 2030-2031년 시점이 될 수 있다고 밝혔다. 회사는 현재 포트폴리오에 피하 전달 플랫폼 4종(ENHANZE, 오토인젝터 플랫폼, Hypercon, Surf Bio)을 보유하고 있다고도 설명했다. Elektrofi 인수 종결 이후 Hypercon에 대해 처음으로 구체적인 임상 일정이 공개된 것이다."
         },
         {
           "deal_id": "halozyme_oruka_2026-05",
@@ -616,7 +665,8 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "ORKA-001(건선 및 관련 염증질환 대상 개발 중)에 Halozyme의 Hypercon 미립자 기술을 적용할 권리와 추가 표적 1건에 대한 옵션을 Oruka에 부여하는 글로벌 독점 공동연구·라이선스 계약이다. Oruka는 선급금과 조건부 마일스톤을 지급하며, Halozyme은 순매출에 대해 중간 한 자릿수 로열티를 받을 수 있다. 구체적 재무 조건은 비공개다."
         },
         {
           "deal_id": "halozyme_vertex_2026-04",
@@ -631,7 +681,8 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "최대 3개 약물 표적에 대한 글로벌 독점 라이선스. 선급금 $15M + 마일스톤·로열티."
         },
         {
           "deal_id": "halozyme_elektrofi_2026",
@@ -646,7 +697,8 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "2026-07-13 정정: 인수는 2025년 11월 18일 완료되었다. 확인된 구조는 선급금 $750M(통상적인 인수가격 조정 조건 적용) + 서로 다른 제품 3건의 허가와 연계된 $50M 마일스톤 3회 = 허가 시점 기준 총 최대 $900M 규모다. 2026년 4월 Vertex 라이선스가 그 위에 얹힌 기반, 즉 Elektrofi/Hypercon 플랫폼 인수 건이다."
         },
         {
           "deal_id": "elektrofi_partners_detail_2026-07-15",
@@ -661,7 +713,8 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": true,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "검토 필요 - 2차 출처의 추가 세부 내용이 확인되었으나, 각 상대방을 개별적으로 명시한 1차 출처로는 여전히 확인되지 않았다(2026-07-13 기록한 elektrofi_partners_flagged_2026-07와 동일한 모호성이다). Halozyme의 $900M 규모 Elektrofi 인수에 관한 Fierce Pharma/Pharmaceutical Technology 업계 보도에 따르면, 인수 이전 Elektrofi는 (1) 미공개 표적 3건의 독점 권리에 대해 최대 $470M 규모의 Eli Lilly 계약(2023년 10월), (2) 마일스톤 포함 $800M에 육박하는 5개 프로그램 규모의 Johnson & Johnson(얀센) 라이선스 계약을 체결한 상태였다. argenx 역시 이 2차 보도에서 Hypercon 파트너로 언급되나 구체적 계약 규모는 제시되지 않았다. 상대방별 개별 조건을 명시한 Halozyme, Lilly, J&J, argenx의 1차 보도자료나 SEC 공시는 확인되지 않았으며, 현 단계는 2차 업계지 취합일 뿐 1차 확인이 아니다. 이 플래그를 해소하려면 각 상대방과 조건을 개별적으로 명시한 1차 출처(기업 보도자료 또는 SEC 공시)가 필요하다."
         },
         {
           "deal_id": "elektrofi_partners_flagged_2026-07",
@@ -676,11 +729,15 @@
           "relevance": "Low",
           "confidence": "Not assessed",
           "flagged": true,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "검토 필요 - 출처마다 계약 상태가 엇갈린다. 한 출처(Yahoo Finance의 Halozyme 가이던스 관련 보도)는 Elektrofi가 argenx, Johnson & Johnson, Eli Lilly와 '라이선스 계약을 체결했다'고 기술한다. 다른 출처(BioSpace)는 이 세 회사를 Halozyme 인수 이전에 Hypercon에 '관심을 보인' 곳으로만 설명하며 세 건 모두에 대한 계약 체결을 확인해 주지 않는다. 1차 출처 보도자료로 확인된 것은 Vertex 라이선스(2026년 4월, 별도 추적 중)뿐이다. 각 상대방을 개별적으로 명시한 1차 출처(기업 보도자료 또는 SEC 공시)가 확보되기 전까지 체결된 추가 계약 3건으로 간주해서는 안 된다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "최대 500 mg/mL",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "항체 용액 액적에서 수분을 제거해 단백질을 매끄럽고 치밀한 미립자로 석출시킨 뒤 비수성 담체에 현탁한다. 단백질을 더 많은 액체에 희석하는 대신 입자 내부의 물을 빼내는 방식이어서, 액상 제형이 담을 수 있는 한계를 훨씬 넘는 농도가 가능하다. 표준 피하 주사침으로 20 N 미만의 활주력에서 약 20초 만에 주입 가능함을 입증했다."
     },
     {
       "id": "g2gbio_innobiolamp",
@@ -710,7 +767,8 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "이번 실행에서 확인된 정정 사안: 지투지바이오(G2G Bio)는 공개 인터뷰에서 InnoBioLAMP가 IgG를 사용해 최대 750 mg/mL 항체 미립자 현탁 제형을 구현했으며 세마글루타이드, 소 혈청 알부민, 베바시주맙에 대해서도 미립자 구현 가능성을 확인했다고 밝혔다. 회사는 이를 Halozyme의 Hypercon(500 mg/mL)과 Lindy Biosciences의 Microglassification(400 mg/mL)을 상회하는 수준으로 제시한다. 2026-07-30 셀트리온 MOU(딜 'g2gbio_celltrion_mou_2026-07-30')와 함께 InnoBioLAMP가 처음 언급된 이후 수치가 제시된 첫 사례로, 당시에는 수치가 공개되지 않았다. 이번 실행의 조사 기간 밖이지만(인터뷰 2026-07-31 진행, 2026-08-05 게재) 트래커의 기간 밖 정정 원칙에 따라 해당 기술의 기존 '수치 비공개' 농도 항목에 대한 정정으로 지금 기록한다."
         },
         {
           "deal_id": "g2gbio_celltrion_mou_2026-07-30",
@@ -725,11 +783,15 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "지투지바이오(G2G Bio)와 셀트리온이 '초고농도 항체 피하 제형 플랫폼 기술 협력'을 위한 물질이전계약(MTA)을 포함한 MOU를 체결했다. MTA에 따라 셀트리온이 항체 물질을 지투지바이오에 이전하고, 양사는 지투지바이오의 고농도 미립자 플랫폼 'InnoBioLAMP'(기존 서방형 마이크로스피어 약물전달 기술 InnoLAMP를 바이오의약품·항체로 확장한 것)에 대한 적용 가능성을 평가하며, 타당성이 확인되면 공동 연구개발과 사업화로 이어갈 계획이다. 지투지바이오가 InnoBioLAMP를 공개한 첫 사례이자 항체 바이오의약품 분야 공식 진출을 알리는 건이다. 구체적 대상 물질, 연구 일정, 비용 분담 조건은 비공개이며, 회사 발표에 따르면 실제 피하 제형 전환 가능성은 비임상·임상 시험으로 확인해야 한다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "2026-09-10 정정: 회사 인터뷰(2026-08-05 게재)에 따르면 IgG를 사용해 최대 750 mg/mL 항체 미립자 현탁액을 구현했으며, 회사는 이를 Halozyme의 Hypercon(500 mg/mL)과 Lindy Biosciences의 Microglassification(400 mg/mL)을 상회하는 수준으로 제시한다. 세마글루타이드와 소 혈청 알부민 미립자에 대해서도 구현 가능성이 확인되었다. 2차 출처(업계지 인터뷰)이며 1차 보도자료는 확인되지 않았다. 기존 내용: 수치는 비공개이며, '초고농도' 항체 미립자 플랫폼으로 정성적으로만 설명되었다.",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "G2G Bio의 기존 서방형 마이크로스피어 약물전달 플랫폼(InnoLAMP)을 바이오의약품으로 확장한 것으로, 항체를 고농도로 담아 정맥주사 항체 의약품을 피하 제형으로 전환하는 것을 목표로 하는 고농도 미립자 플랫폼이다. 회사는 단클론항체를 넘어 이중특이항체, ADC, 재조합 단백질까지 적용 가능하다고 밝혔으나, 특정 물질에 대한 실제 항체 적용성은 아직 확인되지 않았다(2026-07-30 발표된 셀트리온 MOU 기준 타당성 검증·MTA 단계)."
     },
     {
       "id": "inventagelab_ivl_biofluidic",
@@ -759,7 +821,8 @@
           "relevance": "Medium",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "인벤티지랩 김주희 대표는 공개 인터뷰에서 자사 IVL-BioFluidic 피하 전환 플랫폼에 대해 복수의 국내 기업과 물질이전계약을 체결했으며, 해당 파트너들로부터 받은 실제 개발 단계 물질로 항체 검증 작업에 착수했다고 밝혔다. 이로써 플랫폼이 공개 단계(2026년 1월 JP모건 헬스케어 콘퍼런스, 2026년 6월 BIO USA)를 넘어 실제 후보 물질을 대상으로 한 기술 검증 단계로 진입했다. 이번 검증의 파트너 신원과 목표 농도는 공개되지 않았다."
         },
         {
           "deal_id": "inventagelab_bio-usa_2026-06",
@@ -774,7 +837,8 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "BIO USA 2026에서 IVL-BioFluidic 플랫폼을 처음 공개했다. 회사는 히알루로니다제 없이 1-2분 주입으로 750 mg/mL 구현이 가능하다고 밝혔다."
         },
         {
           "deal_id": "inventagelab_funding_2026-03",
@@ -789,11 +853,15 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "인벤티지랩이 985억 원(KRW 98.5 billion, 약 $69M)을 조달해 목표였던 800억 원(KRW 80B)을 23% 초과 달성했으며, 기존 메자닌·프리IPO 투자자들의 재참여가 두드러졌다. 김주희 대표는 조달 자금을 IVL-BioFluidic을 포함한 자사 약물전달 플랫폼 고도화와 GMP 생산 인프라 구축에 투입하겠다고 밝혔다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "750 mg/mL 입증, 1-2분 내 주입",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "미세유체 기반 마이크로스피어·미립자 약물전달 플랫폼으로, 히알루로니다제 효소를 함께 제형화하지 않고도 초고농도 피하 투여를 가능하게 한다. 단클론항체, 항체-약물 접합체(ADC), 이중특이·융합 단백질을 목표로 한다."
     },
     {
       "id": "huonslab_hydiffuze",
@@ -823,11 +891,15 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "휴온스랩이 자사 독자 HyDiffuse rHuPH20 플랫폼과 함께 제형화한 항체 의약품 11종(펨브롤리주맙, 베바시주맙, 오비누투주맙, 라무시루맙, 도나네맙, 이사툭시맙, 더발루맙, 도스탈리맙, 세툭시맙, 리산키주맙, 두필루맙)의 피하 제형을 포괄하는 국내(한국) 및 국제(PCT) 조성물 특허를 등록했다. 비임상 약동학 연구에서 HyDiffuse 복합 제형은 항체 단독 대비 Cmax가 약 113-170%, AUC가 약 117-162% 높게 보고되었다. 회사는 이어서 국가별 출원을 진행할 계획이다. 휴온스랩의 첫 트래커 등재 건으로, Halozyme ENHANZE, 알테오젠 ALT-B4/Hybrozyme, 삼성바이오에피스 PH20 기술에 대응하는 새로운 자체 히알루로니다제 플랫폼 경쟁자로 자리매김하며, 두필루맙 조성물 청구항을 통해 Dupixent 벤치마크에 직접 겹치는 경쟁 구도를 형성한다. 추가 검색에도 이 사안에 대한 기업 1차 보도자료는 확인되지 않았다(휴온스랩은 2026년 앞선 HyDiffuse 성과에 대해 BusinessWire·BioSpace 보도자료를 낸 바 있다). 같은 날 일관된 세부 내용을 보도한 한국 업계지 7곳의 독립적 교차 확인을 근거로 2차 출처로 기록한다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "mg/mL 수치로는 비공개이나, 비임상 약동학 데이터에서 HyDiffuse 복합 제형은 연구된 항체 11종 전반에 걸쳐 항체 단독 대비 Cmax를 약 113-170%, AUC를 약 117-162% 증가시켰다",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "독자 재조합 인간 히알루로니다제(rHuPH20) 기반 플랫폼으로, Halozyme의 ENHANZE, 알테오젠의 ALT-B4/Hybrozyme, 삼성바이오에피스의 PH20 기반 기술에 대한 독자 개발 경쟁 기술로 포지셔닝되어 있다. 피하 조직의 히알루론산을 일시적으로 분해해 함께 투여되는 항체의 확산·흡수를 도와 정맥주사-피하주사 전환을 가능하게 한다. 국내 및 국제(PCT) 조성물 특허가 등록되어 펨브롤리주맙, 베바시주맙, 오비누투주맙, 라무시루맙, 도나네맙, 이사툭시맙, 더발루맙, 도스탈리맙, 세툭시맙, 리산키주맙, 두필루맙 등 명시된 항체 11종과의 피하 복합 제형을 포함하며, 이 가운데 두필루맙은 본 트래커의 Dupixent 벤치마크와 직접 겹친다. 별도로 휴온스랩의 단독 rHuPH20 효소 제품 HYDIZYME은 식약처(MFDS) 품목허가 심사 중이다."
     },
     {
       "id": "alphamab_sc_hc_platform",
@@ -857,7 +929,8 @@
           "relevance": "High",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "중국 국가약품감독관리국 약품심사평가센터(CDE)가 JSKN033의 3상 임상시험(JSKN033-301) 개시를 승인했다. Alphamab Oncology는 JSKN033을 HER2 이중특이 ADC(JSKN003, DAR4, 토포아이소머라제 I 억제제의 부위특이적 글리칸 접합)와 엔바폴리맙(PD-L1 억제제)을 결합한 계열 최초의 고농도 피하 복합 제형으로 설명한다. 시험 설계는 백금 기반 항암화학요법·면역치료 이후 재발성·전이성 자궁경부암 환자를 대상으로 HER2 발현 여부와 무관하게 JSKN033 단독요법과 의사 선택 항암화학요법을 비교하는 공개 라벨, 무작위 배정, 대조, 다기관 연구다. 회사는 이 복합 제형이 '수십 초 내' 투여되며 히알루로니다제에 의존하지 않는다고 밝혔다. 공개된 자료에는 mg/mL 수치가 제시되지 않았다."
         },
         {
           "deal_id": "alphamab_pathosai_jskn016_2026-08",
@@ -872,11 +945,15 @@
           "relevance": "Medium",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "Pathos AI가 Alphamab Oncology로부터 계열 최초 TROP2/HER3 이중특이 ADC인 JSKN016을 도입해 중화권을 제외한 지역의 독점 개발·상업화 권리를 확보했다(중국 내 권리는 Alphamab이 보유). 조건은 반환 불가 선급금 $125M + 개발·상업화 마일스톤 최대 $2,093M + 순매출의 높은 한 자릿수에서 낮은 두 자릿수 구간별 로열티다. JSKN016의 정맥주사 제형과 피하 제형이 모두 포함되며, 피하 제형은 이미 1b상(중국)과 1상(호주)이 진행 중이다. 유의 사항(soul-file의 '추측 금지' 원칙에 따름): 1차 출처는 Alphamab의 독자 고농도 피하 플랫폼 지식재산 자체가 이 계약으로 이전되는지, 아니면 JSKN016 물질과 기존 피하 제형 임상 물질에 대한 권리만 이전되는지 명시하지 않으며, 추정하지 않고 이 모호성을 표시한 채 기록한다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "수치는 비공개이며, 히알루로니다제 없이 '고농도' 복합 제형을 가능하게 하고 '수십 초 내' 투여된다고 정성적으로 설명됨",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "히알루로니다제 효소를 함께 제형화하지 않고도 거대분자 바이오의약품(단클론항체, 이중특이 ADC)의 피하 주사를 가능하게 하는 독자 고농도 피하 복합 제형 플랫폼이다. 대표 검증 사례는 엔바폴리맙(KN035)으로, 회사는 이를 세계 최초의 피하주사 PD-L1 억제제로 소개하며 2021년 승인되었다. 플랫폼은 JSKN033(HER2 이중특이 ADC인 JSKN003[DAR4, 토포아이소머라제 I 억제제의 부위특이적 글리칸 접합]과 PD-L1 엔바폴리맙의 복합 제형)으로 확장되었고, 재발성·전이성 자궁경부암 3상(JSKN033-301)에 대해 CDE 승인을 받았다(2026-08-03 발표). 또한 JSKN016(TROP2/HER3 이중특이 ADC)의 기반이 되며, 해당 물질은 피하 제형 1b상(중국)/1상(호주)이 진행 중이고 2026-08-03/04 발표된 계약으로 중화권을 제외한 글로벌 권리가 Pathos AI에 라이선스되었다."
     },
     {
       "id": "samsungbioepis_ph20_sc",
@@ -906,7 +983,8 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "업계 매체들은 삼성바이오에피스와 셀트리온이 모두 키트루다(펨브롤리주맙)의 피하 전환 바이오시밀러를 추진하고 있으며, 오리지네이터의 특허 보호 만료를 앞두고 추정 $12.7B 규모의 키트루다 피하 시장 기회를 겨냥하고 있다고 보도했다. 셀트리온은 자체 보유 독자 히알루로니다제 피하 플랫폼으로 이를 추진하고 있으며, 이는 허쥬마 SC/CT-P6 SC에 쓰인 것과 동일한 기반 기술이다(기술 ID celltrion_herzuma_sc로 별도 추적 중)."
         },
         {
           "deal_id": "samsungbioepis_isr-novelty-rejection_2026-07-14",
@@ -921,7 +999,8 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": true,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "2026-07-28 검토 필요 표시(Gate D 정정 예외에 따라 조사 기간 밖 출처를 사용했다. 원 보도는 2026-07-14자이며 이번 실행의 검색에서 확인되었고 이전에는 기록되지 않았다): 팜이데일리 단독 보도가 WIPO PCT 국제공개와 한국 특허청의 국제조사보고서(ISR)·국제조사기관 견해서(ISA)를 인용한 바에 따르면, 이미 여기에 추적 중인 삼성바이오에피스의 히알루로니다제 정제 특허 2건(WO2026/142299, WO2026/142300, 모두 2025-12-23 출원, 2026-07-02 국제공개)이 신규성과 진보성에 관해 예비 부정 견해를 받았다. WO2026/142299(절단형 히알루로니다제 제거)는 청구항 1-53, 56, 58-67이 진보성 결여로 판단되었고, ISA는 휴온스랩의 선행 특허가 핵심 청구항을 이미 개시한다고 보았으며 다중모드 크로마토그래피 청구항(5-7)은 휴온스랩과 알테오젠 선행기술에 비추어 자명하다고 보았다. WO2026/142300(카프릴산 + 심층여과 불순물 제거)은 청구항 1-51이 진보성 결여로 판단되었고, 카프릴산·심층여과 조합에 대해서는 2012년 미국 선행 특허를, 히알루로니다제 적용에 대해서는 Halozyme 선행기술을 인용했다. 물질 청구항(HCP 100ppm 미만 히알루로니다제)도 신규성이 없다고 보았는데, ISA는 제조 공정과 무관하게 결과물이 알려진 히알루로니다제와 구별되지 않는다고 판단했다. 삼성바이오에피스와 업계 자료는 두 특허 모두 물질 특허나 플랫폼 특허가 아니라 히알루로니다제 제조·정제(CMC) 특허로 규정하며, 회사는 별도의 피하 플랫폼 사업화 계획이 없고 목표 제품도 확정하지 않았다고 밝혔다. 이는 예비 ISR/ISA 견해일 뿐 최종 거절이 아니며, 국내단계 심사에서 청구항 보정이 가능하다. 이미 추적 중인 WIPO 공개 항목(samsungbioepis_ph20_disclosure_2026-07-13)과 시장 분석 항목(samsungbioepis_celltrion_keytruda-market_2026-07-14)의 경쟁 위협 해석을 직접 제한하는 내용으로, 현재 청구된 상태의 기반 지식재산은 시장 반응(2026-07-13/14 알테오젠 주가 하락)이 시사한 것보다 약해 보인다."
         },
         {
           "deal_id": "samsungbioepis_ph20_disclosure_2026-07-13",
@@ -936,11 +1015,15 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "2026-07-15 정정: 1차 출처의 세부 내용으로 보강했다. WIPO는 2026년 7월 초 삼성바이오에피스의 히알루로니다제 정제·제조 관련 국제특허출원 2건을 공개했다. WO2026/142299(절단된 히알루로니다제 제거 방법)와 WO2026/142300(카프릴산 처리와 심층여과를 통한 불순물 제거 방법)이며, 특정 목표 제품은 명시되지 않았다. 2026-07-14 이 내용이 보도된 뒤 알테오젠은 같은 날 반박 입장을 내어 자사 ALT-B4가 PH20 기반 효소와는 실질적으로 다른 물질이고 펨브롤리주맙과 ALT-B4를 결합한 제품(키트루다 Qlex)은 2043년까지 보호되므로 바이오시밀러 경쟁사가 다른 히알루로니다제로 적법하게 대체할 수 없다고 주장했다. 이 소식에 2026-07-13/14 알테오젠 주가는 장중 하락했다. 삼성바이오에피스는 해당 정제 지식재산을 어떤 제품에 적용할지 확정하지 않았으며 외부 플랫폼 라이선스 사업은 추진하지 않는다고 밝혔다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "수치는 비공개이며, 고용량 항체 의약품의 정맥주사-피하주사 전환을 가능하게 한다(기존에는 농도 조정만으로 저용량 피하 전환만 가능했다)",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "2026-07-28 정정: WIPO/KIPO의 국제조사보고서(ISR)와 국제조사기관 견해서(ISA)는 기반 특허 2건(WO2026/142299, WO2026/142300) 모두에 대해 신규성과 진보성에 관한 예비 부정 견해를 제시했으며, 선행기술로 Huons Lab, 알테오젠, Halozyme의 기술과 2012년 미국 특허를 들어 청구항이 신규성을 상실했거나 진보성이 없다고 보았다. 삼성바이오에피스와 업계 자료는 두 건 모두 물질 특허나 피하주사 플랫폼 특허가 아니라 히알루로니다제 제조·정제(CMC) 특허로 규정하며, 회사는 별도의 플랫폼 사업화 계획이 없고 목표 제품도 확정되지 않았다고 밝혔다. 예비 견해일 뿐이며 국내단계에서 청구항 보정 여지는 남아 있다. 상세 내용은 Deals_News_Feed의 samsungbioepis_isr-novelty-rejection_2026-07-14 항목을 참조. 기존 요약 유지: 자체 개발한 독자 재조합 인간 히알루로니다제(PH20 기반, 자체 히알루로니다제·배양·정제 공정)로, Halozyme의 rHuPH20(ENHANZE) 및 알테오젠의 ALT-B4(Hybrozyme)와 구별된다. 피하 조직의 물리적 장벽을 일시적으로 분해해 고용량 항체 의약품의 피하 전환을 가능하게 한다. 삼성바이오에피스의 기존 피하 전환 사례(베네팔리 SC/엔브렐 바이오시밀러, 임랄디 SC/휴미라 바이오시밀러)는 저용량이어서 농도 조정만으로 충분했으나, 이 히알루로니다제 기반 기술은 고용량 블록버스터를 겨냥한다. 자사 키트루다(펨브롤리주맙) 바이오시밀러와 엔허투(트라스투주맙 데룩스테칸 ADC) 바이오시밀러 프로그램에 적용하는 방향으로 준비되고 있다. 히알루로니다제 정제를 다루는 WIPO 특허공개 2건(WO2026/142299, WO2026/142300)이 2026-07-14 확인되어 이 기술의 1차 지식재산 기반이 구체화되었다(Deals_News_Feed 참조)."
     },
     {
       "id": "samsungbio_s-hicon",
@@ -970,7 +1053,8 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "삼성바이오로직스가 전신홍반루푸스 치료제인 AstraZeneca의 Saphnelo(아니프롤루맙) 피하 주사제의 원료의약품 생산사로 선정되었다. J&J의 Rybrevant SC에 이어 삼성바이오로직스가 확보한 두 번째 피하 제형 CDMO 수주로 알려져 있다. Saphnelo 피하 제형 자체는 이미 FDA·EU 승인을 받았다(자가 투여용 프리필드 펜·오토인젝터). 이번 계약은 S-HiCon을 통한 원료의약품 생산에 해당한다. 구체적 물량과 조건은 비공개다."
         },
         {
           "deal_id": "samsungbio_launch_2024-10",
@@ -985,11 +1069,15 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "삼성바이오로직스가 고농도(200 mg/mL 초과) 바이오의약품을 위한 CDMO 제형 개발 플랫폼 S-HiCon을 출시했다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "피하 투여용으로 200 mg/mL을 넘는 안정적인 액상 제형을 지원",
+      "needle_size_ko": "해당 없음 (의약품 기술이 아니라 제형 개발 서비스)",
+      "mechanism_ko": "pH·완충액·부형제 최적화에 자체 'Concentration Gate Check' 스크리닝 공정을 결합해 고농도 바이오의약품 액상 제형의 점도를 낮추고 안정성을 높이는 CDMO 제형 개발 플랫폼이다. 특정 의약품 자산이 아니라 삼성바이오로직스의 제약사 고객에게 제공되는 서비스다."
     },
     {
       "id": "wuxibio_wuxihigh2",
@@ -1019,11 +1107,15 @@
           "relevance": "Low",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "2026-07-23 정정: 1차 출처(WuXi Biologics/PRNewswire 보도자료, 2025-06-30 게재)가 플랫폼 출시일을 2025-06-30으로 확정했다. 기존에는 '2026'이라는 미확인 임시 날짜로 기록되어 있었다. 이 1차 자료는 단백질 농도 최대 230 mg/mL 도달과 점도 최대 약 90% 감소를 확인해 준다. 최초 2차 출처(ByDrug/PharmCube, 중국 업계지, 2026년 보도)에서 나온 '24종 독자 부형제 조합'이라는 세부 내용은 1차 자료가 확인해 주지 않았으나 반박하지도 않았으므로 미확인 상태로 유지한다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "1차 출처(WuXi Biologics 보도자료, 2025-06-30)를 통해 최대 230 mg/mL 단백질 농도 확인, 점도 약 90% 감소(동일 1차 자료에서 함께 확인). '24종 독자 부형제 조합'이라는 세부 내용은 2차 출처(ByDrug/PharmCube, 2026년 보도)에서 비롯된 것으로, 1차 보도자료가 확인해 주지도 반박하지도 않는다.",
+      "needle_size_ko": "해당 없음 (제형 개발 서비스)",
+      "mechanism_ko": "고농도 제형의 점도를 최대 약 90%까지 낮추면서 단백질 응집을 억제하는 독자 부형제 툴킷(24종 조합)으로, 더 높은 농도의 피하 투여용 액상 제형을 가능하게 한다. 특정 의약품 자산이 아니라 CDMO 서비스 플랫폼이다."
     },
     {
       "id": "xeriject",
@@ -1053,7 +1145,8 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "Regeneron이 개발한 미공개 단클론항체 2종에 대한 연구 평가 공동연구 및 옵션 계약."
         },
         {
           "deal_id": "xeriject_horizon-amgen_2022-11",
@@ -1068,7 +1161,8 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "테프로투무맙(Tepezza) 피하 재제형에 대한 연구 협력 및 옵션 계약으로, 이후 전 세계 독점 라이선스로 전환되었다. 개발·허가 마일스톤 최대 $75M + 매출 마일스톤 + 로열티."
         },
         {
           "deal_id": "xeriject_merck_2021-10",
@@ -1083,11 +1177,15 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "미공개 단클론항체를 대상으로 한 초고농도 즉시 사용형 제형에 대한 옵션·공동연구 계약. 조건은 비공개다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "432 mg/mL 입증 (트라스투주맙 바이오시밀러); 플랫폼 구현 범위 약 400-450+ mg/mL",
+      "needle_size_ko": "20-31 게이지, 0.5-2 인치, 내경 133-604 마이크론 (제형에 따라 상이)",
+      "mechanism_ko": "분무 공정으로 제조한 항체 입자를 비수성 점탄성 현탁액으로 만든 즉시 사용형 제형으로, 주사 압력이 가해지면 전단박화(shear-thinning)되어 흐름성이 생긴다. 표준 프리필드 시린지와 호환된다."
     },
     {
       "id": "microglassification",
@@ -1117,7 +1215,8 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "마이크로글라스화 제형의 상업 규모 생산 확대를 위한 CDMO·공정개발 파트너로 선정되었다."
         },
         {
           "deal_id": "lindy_novartis_2024-08",
@@ -1132,11 +1231,15 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "글로벌 독점 라이선스 및 공동연구 계약. 선급금 $20M + 마일스톤 최대 $934M(총 계약 규모 최대 약 $954M) + 매출 구간별 한 자릿수 로열티. 자가 투여용 다중 표적 바이오의약품이 대상이다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": ">400 mg/mL (회사 자료 기준 플랫폼 주장치)",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "용매를 이용한 신속 탈수(유리화, glassification)로 치료용 단백질을 치밀하고 구형인 안정한 마이크로비드로 만든 뒤 현탁하여 피하 주사한다. Duke University에서 출발한 기술이다."
     },
     {
       "id": "genentech_unbranded_sc",
@@ -1166,7 +1269,8 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "재발성·불응성 거대B세포림프종을 대상으로 한 Lunsumio VELO(피하 모수네투주맙)와 Polivy 병용요법의 sBLA가 접수되었다. FDA 결정은 2027년 2월경으로 예상된다."
         },
         {
           "deal_id": "genentech_enspryng_2026-06",
@@ -1181,11 +1285,15 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "갑상선안병증에 대한 Enspryng(피하 사트랄리주맙)이 우선심사 대상으로 지정되었다. FDA 결정은 2026년 10월경으로 예상된다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "현재 공개된 보도자료에는 비공개",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "기존 정맥주사 바이오의약품을 고농도 액상 피하 제형으로 전환한 일반적인 방식으로, 별도의 브랜드화된 전달 기술은 공개되지 않았다."
     },
     {
       "id": "academic_spray_dried",
@@ -1215,11 +1323,15 @@
           "relevance": "Low",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "피하 전달용 분무건조 단클론항체 현탁액에 관한 AAPS Open 관점 논문이며, 기업 사안이나 딜 항목은 아니다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "'200 mg/mL을 훨씬 상회하는' 단백질 농도가 보고됨",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "단클론항체 용액을 분무건조해 분말화한 뒤 비수성 비히클에 현탁하여 점도를 낮추는 방식이다. XeriJect와 같은 범주의 접근법이나, 특정 상용 플랫폼이 아니라 독립적인 학술 문헌에서 나온 것이다."
     },
     {
       "id": "celltrion_herzuma_sc",
@@ -1249,7 +1361,8 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "셀트리온이 허쥬마 SC/CT-P6 SC의 품목허가를 식품의약품안전처에 신청했으며, 허셉틴 SC의 모든 적응증(조기 유방암, 전이성 유방암, 전이성 위암)을 포함한다. 2026년 4월 30일 EMA 신청(별도 추적 중)에 뒤이은 것이다. 셀트리온은 현재 시판 중인 트라스투주맙 바이오시밀러 피하 제형이 없다며 선점 효과를 기대한다고 밝혔고, 다른 주요 시장에도 추가 허가 신청을 계획하고 있다."
         },
         {
           "deal_id": "celltrion_ema-filing_2026-04",
@@ -1264,7 +1377,8 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "허쥬마 SC 제형 추가를 위한 EMA 허가 신청(Type II variation)을 완료했다."
         },
         {
           "deal_id": "celltrion_pivotal-trial_2026-02",
@@ -1279,11 +1393,15 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "허쥬마 SC와 정맥주사 허셉틴(오리지네이터)을 비교하는 핵심 약동학 동등성 임상시험을 완료했으며, 약동학 동등성과 이에 준하는 안전성·면역원성을 입증했다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "비공개 (구체적 mg/mL 미공표); 트라스투주맙 바이오시밀러의 피하주사 전환",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "라이선스가 아닌 자체 보유 히알루로니다제 기반 피하주사 전환 기술이다. 피하 조직의 히알루론산을 일시적으로 분해해 약물 확산을 돕고, 히알루론산은 시간이 지나면 자연 재생된다. 투여 시간을 정맥주사 30-90분에서 피하주사 5분 미만으로 단축한다. 현재 승인된 피하주사 트라스투주맙 바이오시밀러가 없어, 승인될 경우 해당 시장 최초 제품이 된다."
     },
     {
       "id": "prestige_biopharma_idc224",
@@ -1313,11 +1431,15 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "IDC224 인시츄 온도감응성 젤 피하 플랫폼에 대한 국내(한국) 특허를 출원했다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "수치는 비공개이며, 고농도 항체를 균일하게 담을 수 있는 기술로 설명됨",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "액상으로 주사된 뒤 체온에 의해 체내에서 젤화되어 서방형 데포를 형성함으로써 작용 지속시간을 늘리고 투여 빈도를 줄인다. 생분해성 소재를 사용한다. 히알루로니다제 기반 접근법과 구별되는 차세대 피하주사 플랫폼으로 포지셔닝하고 있다."
     },
     {
       "id": "chengdu_rongsheng_tiantan_weian",
@@ -1347,11 +1469,15 @@
           "relevance": "Low",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "중국 최초의 20% 피하 면역글로불린(SCIG) 제품이 NMPA 승인을 받았다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "20% 농도 (200 mg/mL) - 해당 범주에서 중국 최초 승인 제품",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "단클론항체가 아닌 혈장 유래 다클론 면역글로불린을 20% 농도로 제형화해 가정 내 피하 투여가 가능하도록 한 제품이다. 인접 제품군으로서 경쟁·시장 맥락 파악 목적으로만 포함했으며, 단클론항체 원료의약품은 아니다."
     },
     {
       "id": "snapshot_surfbio",
@@ -1381,7 +1507,8 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": true,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "Halozyme에 인수되었으며 규모는 최대 약 $400M(선급금 $300M + 마일스톤 최대 $100M)이다. Halozyme의 인수 후 공식 발표(2026년 1월 28일, pharmaphorum 보도)는 이 플랫폼을 '최대 500 mg/mL'을 구현하는 기술로 설명하는데, 이는 Surf Bio가 인수 전 자체 마케팅에서 주장한 600+ mg/mL보다 낮은 수치다."
         },
         {
           "deal_id": "surfbio_stm-publication_2025-08",
@@ -1396,11 +1523,15 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": true,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "Stanford 주도의 동료심사 연구가 Science Translational Medicine에 게재되어, 분무건조 미립자 단클론항체 현탁액이 500 mg/mL을 넘어서면서도 임상적으로 의미 있는 힘으로 표준 27 게이지 니들을 통해 전달 가능함을 입증했다. 이 독립적인 동료심사 수치(500+)는 Surf Bio 자체 마케팅 주장인 600+ mg/mL보다 뚜렷하게 낮으며, Halozyme의 인수 후 공식 발표와 일치한다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "600+ mg/mL - 표준 오토인젝터 1회 주사로 1,000 mg 이상 투여 (Surf Bio 자체 주장). 상충: Halozyme의 인수 후 공식 발표(2026년 1월)와 독립적인 동료심사 논문 Sci. Transl. Med. 데이터는 모두 최대 500 mg/mL 수준으로 제시한다.",
+      "needle_size_ko": "표준 27 게이지 (Stanford STM 연구 기준); 상용 오토인젝터와 호환",
+      "mechanism_ko": "Tween 같은 상용 계면활성제는 분무건조된 단백질 미립자의 유리전이온도를 낮춰 표면을 무르고 끈적하게 만들며, 그 결과 입자가 서로 달라붙어 주사가 막힌다. Surf Bio의 MoNi 계면활성제는 건조 과정에서 입자 표면에 농축되어 실온 이상에서도 표면을 유리질 상태로 유지시키고, 그 결과 흐름성이 좋고 주사 가능한 초고농도 현탁액이 만들어진다. 동일한 기반 과학이 Stanford Appel 연구실에서 발표되었으며(bioRxiv 2024, Science Translational Medicine 동료심사 2025년 8월), SnapShot은 그 플랫폼의 상용화 형태다."
     },
     {
       "id": "nanoform_nanoforming",
@@ -1430,11 +1561,15 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "2026-07-15 정정: Nanoform의 내부정보 공시 보도자료를 근거로 정확한 날짜가 2026년 5월 12일로 확인되었다(기존에는 연도 미확인으로 표시). Nanoform의 바이오의약품 나노입자 기술에 대한 사상 첫 독점 계약으로, 임상·상업적으로 검증된 표적 수용체 1건을 대상으로 한다. 1년 독점에 대해 반환 불가 수수료 $1M이며, 1년 추가 연장이 가능하다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "500 mg/mL을 넘는 현탁액 보고; 400 mg/mL 초과에서 정맥주사-피하주사 전환 가능; 입자 크기는 50 nm까지 구현",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "바이오의약품(단클론항체, 펩타이드, 기타 거대분자)을 크기 조절이 가능한 고안정성 입자로 제어 형성('nanoforming')하여, 피하 또는 흡입 전달용 초고농도 현탁액을 가능하게 한다."
     },
     {
       "id": "crystalomics_althea",
@@ -1464,11 +1599,15 @@
           "relevance": "Low",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "Crystalomics 플랫폼을 설명하는 기술 백서로, 결정형 인플릭시맙에서 250 mg/mL(정맥주사 10 mg/mL 대비 부피 약 96% 감소)을 입증했다. 이 플랫폼과 연계된 최근(2025-2026년) 딜 활동은 확인되지 않았다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "결정화 인플릭시맙으로 250 mg/mL 입증 (정맥주사 용액 10 mg/mL 대비), 부피 약 96% 감소. 관련 결정형 항체-하이드로젤 변형 제형은 최대 315 mg/mL, 봉입 효율 89-97%를 보고한다.",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "단클론항체를 결정화해 안정적인 결정형 현탁액으로 만든다(인플릭시맙/레미케이드에서 입증). 일부 제형 변형은 결정형 단백질의 안정성에 연질 하이드로젤 입자 봉입을 결합한다. 레거시 플랫폼으로, 최근(2025-2026년) 딜 활동은 확인되지 않았다."
     },
     {
       "id": "academic_solvent_dehydration_hydrogel",
@@ -1498,11 +1637,15 @@
           "relevance": "Low",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "연속식 용매 탈수 공정으로 360 mg/mL 항체 담지 하이드로젤 미립자를 구현했음을 보인 동료심사 논문(Zheng, Attia, Teng, Doyle - MIT), Advanced Materials 게재."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "연속식 용매 탈수 공정으로 360 mg/mL 항체 담지 하이드로젤 미립자 현탁액 구현",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "미세유체 연속 합성으로 하이드로젤 미립자를 만들면서 항체 석출과 용매 탈수를 동시에 일으켜, 항체를 고농도로 봉입한 피하 현탁 제형을 만든다. Hypercon이나 Microglassification 같은 상용 플랫폼과 기전상 관련은 있으나 구별되는 학술적 접근법이다(MIT, 2025년 11월 발표)."
     },
     {
       "id": "sanofi_sarclisa_escena_sc",
@@ -1532,11 +1675,15 @@
           "relevance": "High",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "FDA가 이사툭시맙-irfc(Sarclisa Escena)의 피하 주사 제형을 승인해, 다발골수종에서 현재 승인된 모든 정맥주사 이사툭시맙 적응증으로 확대되었다. 수동 또는 온바디 인젝터로 투여한다. 온바디 인젝터로 승인된 최초의 항암제다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "비공개; 농도를 높이는 제형 기술이 아니라 온바디 인젝터로 전달된다",
+      "needle_size_ko": "비공개 (온바디 인젝터 / 패치 펌프 장치)",
+      "mechanism_ko": "기존에 정맥주사 전용이던 이사툭시맙의 FDA 승인 피하 제형으로, 다발골수종의 승인된 모든 정맥주사 적응증에서 수동 또는 온바디 인젝터로 투여된다. 온바디 인젝터로 승인된 최초의 항암제이며, 히알루로니다제·입자·결정형 기술은 공개되지 않았다. 제형이 아니라 디바이스로 구현한 사례다."
     },
     {
       "id": "brl_hc_sc_platform",
@@ -1566,11 +1713,15 @@
           "relevance": "Medium",
           "confidence": "Not assessed",
           "flagged": false,
-          "new_in_digest": false
+          "new_in_digest": false,
+          "summary_ko": "종양학 및 염증질환 단클론항체 제품을 대상으로 Ipca에 BRL의 독자 고농도 피하 바이오의약품 전달 플랫폼 접근권을 부여하는 글로벌 라이선스 협력 계약이다."
         }
       ],
       "is_internal": false,
-      "is_reference": false
+      "is_reference": false,
+      "concentration_text_ko": "비공개",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "인도 Mangalore 소재 Bhami's Research Laboratory의 독자 단백질·펩타이드 고농도 피하 전달 플랫폼으로, 종양학 및 염증질환 단클론항체 제품에 대해 Ipca Laboratories에 글로벌 라이선스되었다. 공개된 보도 범위에서는 아직 기전이 공개되지 않았다."
     }
   ],
   "recent_activity": [
@@ -1588,6 +1739,7 @@
       "confidence": "Primary",
       "flagged": false,
       "new_in_digest": true,
+      "summary_ko": "EU CHMP가 절제 가능한 근육침윤성 방광암(MIBC)의 수술 전후(선행 후 보조) 치료로 KEYTRUDA(펨브롤리주맙)와 Padcev(엔포투맙 베도틴-ejfv) 병용요법의 승인을 권고하는 긍정 의견을 채택했으며, 이 권고는 ALT-B4를 적용한 피하 펨브롤리주맙 제형(키트루다 SC, 미국의 키트루다 Qlex)을 명시적으로 포함한다. 이미 추적 중인 ALT-B4/Hybrozyme 피하 제형의 EU 내 새로운 적응증 확대이며 이전에는 기록되지 않았다. EC 최종 결정은 EU와 아이슬란드, 리히텐슈타인, 노르웨이를 대상으로 2026년 4분기에 예상된다.",
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
     },
@@ -1605,6 +1757,7 @@
       "confidence": "Primary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "레카네맙의 피하 오토인젝터 제형인 LEQEMBI Pen이 초기 알츠하이머병을 적응증으로 일본에서 승인되었다. 주 1회 환자 본인 또는 돌봄 제공자가 250 mg 펜 2개(총 500 mg)를 투여하며 주사당 약 15초가 걸린다. 일본은 미국과 중국(둘 다 이미 여기에 추적 중)에 이어 동일한 주 1회 500 mg 요법으로 피하 제형을 승인한 세 번째 시장이다.",
       "technology_id": "eisai_biogen_leqembi_iqlik_sc",
       "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
     },
@@ -1622,6 +1775,7 @@
       "confidence": "Secondary",
       "flagged": false,
       "new_in_digest": true,
+      "summary_ko": "백필: 이번 실행의 검색 기간(2026-09-18T09:02 KST 시작) 이전에 발생한 사안으로, 정규 Tier-1/Tier-4 스윕에서 확인되었고 이전에는 추적되지 않았다. 일본 후생노동성(MHLW)이 펨브롤리주맙(키트루다)을 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 '키젝트 배합 피하주사'(395 mg 및 790 mg)의 제조판매 승인을 부여했다. 일본에서 승인된 최초의 피하 면역관문억제제다. 3상 MK-3475A-D77 시험을 근거로 투여 시간을 정맥주사 약 30분에서 피하주사 약 1-2분으로 단축한다. 미국, EU/캐나다, 한국에 이어 ALT-B4 기반 키트루다 SC의 네 번째 주요 시장 승인이며(한국 승인은 alteogen_msd_keytruda-sc-korea-approval_2026-05-19로 별도 추적 중), 일본 건은 기록되지 않았었다. 같은 날 이루어진 LEQEMBI Pen 피하 제형의 일본 승인(물질과 기술이 무관한 별개 사안)은 별도로 추적 중이다(eisai_biogen_leqembiiqlik_japan-approval_2026-09-16 참조).",
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
     },
@@ -1639,6 +1793,7 @@
       "confidence": "Secondary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "Wells Fargo 제21회 연례 헬스케어 콘퍼런스에서 Halozyme의 Helen Torley 대표와 Darren Snellgrove 최고재무책임자는 Hypercon 기반 첫 임상 프로그램 2건이 2027년 상반기(H1 2027)에 투약을 시작할 것으로 예상하며, 첫 상업 출시는 2030-2031년 시점이 될 수 있다고 밝혔다. 회사는 현재 포트폴리오에 피하 전달 플랫폼 4종(ENHANZE, 오토인젝터 플랫폼, Hypercon, Surf Bio)을 보유하고 있다고도 설명했다. Elektrofi 인수 종결 이후 Hypercon에 대해 처음으로 구체적인 임상 일정이 공개된 것이다.",
       "technology_id": "hypercon",
       "technology_name": "Hypercon (ex-Elektrofi)"
     },
@@ -1656,6 +1811,7 @@
       "confidence": "Primary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "중국 국가약품감독관리국(NMPA)이 알츠하이머병으로 인한 경도인지장애 또는 경도 치매의 도입 치료제로 LEQEMBI(레카네맙) 피하 제형을 승인했으며, 2026-08-24 기록한 미국 SC-AI/IQLIK 출시와 동일하게 주 1회 500 mg(250 mg 주사 2회 연속) 요법을 적용한다. 중국 BLA는 2026년 1월 접수되어 우선심사를 받았고, 주 1회 피하 투여가 2주 1회 정맥 투여와 동등한 노출을 보이며 임상·바이오마커 측면에서도 유사한 이익을 입증했다. 출시는 에자이의 2026 회계연도(2027년 3월 31일 종료) 내로 계획되어 있다. 이미 추적 중인 기술의 지역 확대 사안이며 새로운 농도·제형 주장이 아니다. 기록된 피하 200 mg/mL 대 정맥 100 mg/mL 수치는 변동이 없다.",
       "technology_id": "eisai_biogen_leqembi_iqlik_sc",
       "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
     },
@@ -1673,6 +1829,7 @@
       "confidence": "Primary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "알테오젠이 노바티스에 Hybrozyme(TM) 플랫폼 기반 ALT-B4(베라히알루로니다제 알파)를 이용해 노바티스의 복수 바이오의약품 피하 제형을 개발·상업화할 독점 권리를 확보할 수 있는 다수의 옵션을 부여하는 옵션·라이선스 계약을 체결했다. 옵션 행사료와 개발·허가·상업화 마일스톤, 순매출 로열티를 합쳐 총 규모는 최대 $3.223B(약 KRW 4.4165 trillion, 4조 4,165억 원)이며, 규제 승인과 임상·상업적 성공을 전제로 한 조건부 계약이다. 2026년 공개된 알테오젠의 네 번째 라이선스 계약(앞서 GSK/Tesaro, 바이오젠, 8월의 미공개 제약사)이자 Hybrozyme 플랫폼 기준 통산 10번째 계약으로, 공개된 최대 규모 기준으로는 AstraZeneca 계약에 이은 창사 이래 두 번째로 큰 건이다. 같은 날 DART(금융감독원 전자공시시스템)를 통해 공시되었다.",
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
     },
@@ -1690,6 +1847,7 @@
       "confidence": "Secondary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "인벤티지랩 김주희 대표는 공개 인터뷰에서 자사 IVL-BioFluidic 피하 전환 플랫폼에 대해 복수의 국내 기업과 물질이전계약을 체결했으며, 해당 파트너들로부터 받은 실제 개발 단계 물질로 항체 검증 작업에 착수했다고 밝혔다. 이로써 플랫폼이 공개 단계(2026년 1월 JP모건 헬스케어 콘퍼런스, 2026년 6월 BIO USA)를 넘어 실제 후보 물질을 대상으로 한 기술 검증 단계로 진입했다. 이번 검증의 파트너 신원과 목표 농도는 공개되지 않았다.",
       "technology_id": "inventagelab_ivl_biofluidic",
       "technology_name": "IVL-BioFluidic (microfluidic/microsphere-based SC platform)"
     },
@@ -1707,6 +1865,7 @@
       "confidence": "Secondary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "휴온스랩이 자사 독자 HyDiffuse rHuPH20 플랫폼과 함께 제형화한 항체 의약품 11종(펨브롤리주맙, 베바시주맙, 오비누투주맙, 라무시루맙, 도나네맙, 이사툭시맙, 더발루맙, 도스탈리맙, 세툭시맙, 리산키주맙, 두필루맙)의 피하 제형을 포괄하는 국내(한국) 및 국제(PCT) 조성물 특허를 등록했다. 비임상 약동학 연구에서 HyDiffuse 복합 제형은 항체 단독 대비 Cmax가 약 113-170%, AUC가 약 117-162% 높게 보고되었다. 회사는 이어서 국가별 출원을 진행할 계획이다. 휴온스랩의 첫 트래커 등재 건으로, Halozyme ENHANZE, 알테오젠 ALT-B4/Hybrozyme, 삼성바이오에피스 PH20 기술에 대응하는 새로운 자체 히알루로니다제 플랫폼 경쟁자로 자리매김하며, 두필루맙 조성물 청구항을 통해 Dupixent 벤치마크에 직접 겹치는 경쟁 구도를 형성한다. 추가 검색에도 이 사안에 대한 기업 1차 보도자료는 확인되지 않았다(휴온스랩은 2026년 앞선 HyDiffuse 성과에 대해 BusinessWire·BioSpace 보도자료를 낸 바 있다). 같은 날 일관된 세부 내용을 보도한 한국 업계지 7곳의 독립적 교차 확인을 근거로 2차 출처로 기록한다.",
       "technology_id": "huonslab_hydiffuze",
       "technology_name": "HyDiffuse (rHuPH20-based SC delivery platform)"
     },
@@ -1724,6 +1883,7 @@
       "confidence": "Primary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "에자이와 바이오젠은 LEQEMBI IQLIK(레카네맙-irmb) 오토인젝터가 초기 알츠하이머병의 피하 도입 요법용으로 미국에서 상업 판매를 시작했다고 발표했다. 주 1회 500 mg을 250 mg/1.25 mL 주사 2회 연속으로 투여하며 각 주사는 약 15초가 걸린다. 2026-07-13 도입 용량 sBLA의 FDA 승인(이번 실행의 조사 기간 밖, 맥락 제공용)에 뒤이은 것이며, 2025년 8월 승인된 피하 유지 용량 제형(360 mg/1.8 mL)과는 별개다. 피하 제형은 200 mg/mL로 정맥주사 제형 100 mg/mL 대비 2배 농도다. 환자는 치료 과정 중 언제든 정맥주사와 피하주사를 전환할 수 있다. 신규 항목 - 본 트래커에 에자이·바이오젠 레카네맙을 처음 기록한 건이며, 상업적으로 검증된 고농도 단클론항체 피하 오토인젝터 전달의 외부 교차 적응증(종양학·면역질환이 아닌 알츠하이머병) 벤치마크로 포함했다.",
       "technology_id": "eisai_biogen_leqembi_iqlik_sc",
       "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
     },
@@ -1741,6 +1901,7 @@
       "confidence": "Primary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "미공개 글로벌 제약사가 ALT-B4(베라히알루로니다제 알파)를 이용해 Hybrozyme(TM) 기반 바이오의약품 피하 제형을 개발·상업화할 수 있는 전 세계 독점 라이선스다. 총 계약 규모는 최대 $365M(약 KRW 521.9B, 5,219억 원)로 선급금(금액 비공개)과 개발·허가·판매 마일스톤, 상업화 이후 순매출 로열티로 구성되며, 한국 언론은 선급금이 계약 후 30일 이내 지급된다고 보도했다. 2026년 공개된 알테오젠의 세 번째 ALT-B4/Hybrozyme 라이선스 계약이며(앞서 AstraZeneca와 GSK/Tesaro, 모두 추적 중), 한국 언론은 알테오젠의 누적 기술수출 규모가 KRW 12 trillion, 즉 12조 원을 넘어섰다고 전했다.",
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
     },
@@ -1758,6 +1919,7 @@
       "confidence": "Secondary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "이번 실행에서 확인된 정정 사안: 지투지바이오(G2G Bio)는 공개 인터뷰에서 InnoBioLAMP가 IgG를 사용해 최대 750 mg/mL 항체 미립자 현탁 제형을 구현했으며 세마글루타이드, 소 혈청 알부민, 베바시주맙에 대해서도 미립자 구현 가능성을 확인했다고 밝혔다. 회사는 이를 Halozyme의 Hypercon(500 mg/mL)과 Lindy Biosciences의 Microglassification(400 mg/mL)을 상회하는 수준으로 제시한다. 2026-07-30 셀트리온 MOU(딜 'g2gbio_celltrion_mou_2026-07-30')와 함께 InnoBioLAMP가 처음 언급된 이후 수치가 제시된 첫 사례로, 당시에는 수치가 공개되지 않았다. 이번 실행의 조사 기간 밖이지만(인터뷰 2026-07-31 진행, 2026-08-05 게재) 트래커의 기간 밖 정정 원칙에 따라 해당 기술의 기존 '수치 비공개' 농도 항목에 대한 정정으로 지금 기록한다.",
       "technology_id": "g2gbio_innobiolamp",
       "technology_name": "InnoBioLAMP"
     },
@@ -1775,6 +1937,7 @@
       "confidence": "Primary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "중국 국가약품감독관리국 약품심사평가센터(CDE)가 JSKN033의 3상 임상시험(JSKN033-301) 개시를 승인했다. Alphamab Oncology는 JSKN033을 HER2 이중특이 ADC(JSKN003, DAR4, 토포아이소머라제 I 억제제의 부위특이적 글리칸 접합)와 엔바폴리맙(PD-L1 억제제)을 결합한 계열 최초의 고농도 피하 복합 제형으로 설명한다. 시험 설계는 백금 기반 항암화학요법·면역치료 이후 재발성·전이성 자궁경부암 환자를 대상으로 HER2 발현 여부와 무관하게 JSKN033 단독요법과 의사 선택 항암화학요법을 비교하는 공개 라벨, 무작위 배정, 대조, 다기관 연구다. 회사는 이 복합 제형이 '수십 초 내' 투여되며 히알루로니다제에 의존하지 않는다고 밝혔다. 공개된 자료에는 mg/mL 수치가 제시되지 않았다.",
       "technology_id": "alphamab_sc_hc_platform",
       "technology_name": "Subcutaneous High-Concentration Co-formulation Platform"
     },
@@ -1792,6 +1955,7 @@
       "confidence": "Primary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "Pathos AI가 Alphamab Oncology로부터 계열 최초 TROP2/HER3 이중특이 ADC인 JSKN016을 도입해 중화권을 제외한 지역의 독점 개발·상업화 권리를 확보했다(중국 내 권리는 Alphamab이 보유). 조건은 반환 불가 선급금 $125M + 개발·상업화 마일스톤 최대 $2,093M + 순매출의 높은 한 자릿수에서 낮은 두 자릿수 구간별 로열티다. JSKN016의 정맥주사 제형과 피하 제형이 모두 포함되며, 피하 제형은 이미 1b상(중국)과 1상(호주)이 진행 중이다. 유의 사항(soul-file의 '추측 금지' 원칙에 따름): 1차 출처는 Alphamab의 독자 고농도 피하 플랫폼 지식재산 자체가 이 계약으로 이전되는지, 아니면 JSKN016 물질과 기존 피하 제형 임상 물질에 대한 권리만 이전되는지 명시하지 않으며, 추정하지 않고 이 모호성을 표시한 채 기록한다.",
       "technology_id": "alphamab_sc_hc_platform",
       "technology_name": "Subcutaneous High-Concentration Co-formulation Platform"
     },
@@ -1809,6 +1973,7 @@
       "confidence": "Secondary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "지투지바이오(G2G Bio)와 셀트리온이 '초고농도 항체 피하 제형 플랫폼 기술 협력'을 위한 물질이전계약(MTA)을 포함한 MOU를 체결했다. MTA에 따라 셀트리온이 항체 물질을 지투지바이오에 이전하고, 양사는 지투지바이오의 고농도 미립자 플랫폼 'InnoBioLAMP'(기존 서방형 마이크로스피어 약물전달 기술 InnoLAMP를 바이오의약품·항체로 확장한 것)에 대한 적용 가능성을 평가하며, 타당성이 확인되면 공동 연구개발과 사업화로 이어갈 계획이다. 지투지바이오가 InnoBioLAMP를 공개한 첫 사례이자 항체 바이오의약품 분야 공식 진출을 알리는 건이다. 구체적 대상 물질, 연구 일정, 비용 분담 조건은 비공개이며, 회사 발표에 따르면 실제 피하 제형 전환 가능성은 비임상·임상 시험으로 확인해야 한다.",
       "technology_id": "g2gbio_innobiolamp",
       "technology_name": "InnoBioLAMP"
     },
@@ -1826,6 +1991,7 @@
       "confidence": "Secondary",
       "flagged": false,
       "new_in_digest": false,
+      "summary_ko": "사노피가 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 피하 두필루맙(Dupixent)을 두필루맙 단독과 비교해 약동학, 안전성, 항약물항체를 평가하는 1상 시험에서 건강한 성인 피험자 40명 전원에 대한 투약을 완료했다. 시험은 2026년 6월 시작되었고 1차 완료 시점은 2026년 9월로 예상된다. 고용량 피하 Dupixent 제형에 대한 2019년 사노피-알테오젠 비독점 ALT-B4 라이선스에서 나온 첫 구체적 임상 단계 진전으로, 해당 계약의 개발 진행 여부는 2026년 6월에야 공개적으로 재확인되었다(alteogen_sanofi_2026-06 참조). 성공적인 결과가 나오면 기준 제품 자체의 첫 농도 개선 재제형이 되므로 본 트래커의 Dupixent 벤치마크와 직접 관련이 있다. 농도와 용량 수치는 시험 결과 발표 전까지 아직 공개되지 않았다.",
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
     }

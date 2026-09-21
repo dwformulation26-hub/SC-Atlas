@@ -21,9 +21,17 @@ Routine update workflow (this is the whole thing):
   4. Commit the regenerated data/dashboard_data.json along with whichever
      db file(s) changed.
 
-Nothing in index.html, assets/app.js, or assets/styles.css should ever need
-to change for a normal data update -- they only ever read
+Nothing in index.html, assets/app.js, assets/i18n.js, or assets/styles.css
+should ever need to change for a normal data update -- they only ever read
 dashboard_data.json.
+
+Bilingual prose: English is the working language and the field of record.
+Every English prose field may carry a Korean mirror under the same name
+with a "_ko" suffix (mechanism / mechanism_ko, summary / summary_ko, ...).
+This script copies those through untouched; it never generates, edits or
+validates them. Run `python scripts/ko_check.py` for that -- it fails on a
+missing mirror or on identifiers and numbers that did not survive the
+translation.
 """
 import json
 import re
@@ -80,6 +88,24 @@ CONCENTRATION_NOT_DISCLOSED = "Not disclosed"
 
 DATE_RE = re.compile(r"\d{4}(-\d{2}(-\d{2})?)?")
 
+# Prose fields that may carry a Korean mirror. The dashboard reads
+# "<field>_ko" when the language is Korean and falls back to the English
+# behind a visible marker when the mirror is absent (assets/i18n.js), so a
+# missing one degrades rather than breaks.
+KO_PROSE_FIELDS = {
+    "technology": ["concentration_text", "needle_size", "mechanism"],
+    "deal": ["summary"],
+}
+
+
+def copy_ko(target, source, fields):
+    """Copy any present "<field>_ko" from source onto target, verbatim."""
+    for field in fields:
+        korean = source.get(f"{field}_ko")
+        if korean:
+            target[f"{field}_ko"] = korean
+    return target
+
 
 def classify_stage(raw):
     if not raw:
@@ -124,7 +150,7 @@ def date_sort_key(value):
 
 
 def build_deal(d):
-    return {
+    return copy_ko({
         "deal_id": d.get("deal_id"),
         "partner": d.get("partner") or "N/A",
         "deal_type": d.get("deal_type") or "N/A",
@@ -138,7 +164,7 @@ def build_deal(d):
         "confidence": d.get("confidence"),
         "flagged": bool(d.get("flagged")),
         "new_in_digest": bool(d.get("new_in_digest")),
-    }
+    }, d, KO_PROSE_FIELDS["deal"])
 
 
 def main():
@@ -175,7 +201,7 @@ def main():
         own_deals = [build_deal(x) for x in deals_by_tid.get(tid, [])]
         own_deals.sort(key=lambda x: x["date_sort_key"], reverse=True)
 
-        technologies.append({
+        technologies.append(copy_ko({
             "id": tid,
             "name": d.get("name"),
             "company": d.get("company"),
@@ -192,7 +218,7 @@ def main():
             "deals": own_deals,
             "is_internal": False,
             "is_reference": False,
-        })
+        }, d, KO_PROSE_FIELDS["technology"]))
 
     # Newest-reviewed first, so the dashboard table and the daily digest
     # agree on what's "new" without either one re-deriving order on its own.

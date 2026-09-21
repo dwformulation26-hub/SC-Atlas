@@ -1,6 +1,6 @@
 ---
 name: sc-atlas-tracker-update
-description: Adds new technologies, deals, or news findings to the SC Atlas Tracker dashboard (github.com/dwformulation26-hub/SC-Atlas) and pushes the update live. Use this whenever the user wants to update, refresh, or add findings to "SC Atlas," the "SC Atlas Tracker," the "high-concentration SC tracker/dashboard," or asks to log a new technology, deal, licensing agreement, or news item onto that dashboard -- even if they just paste a headline or a company name and say "add this" or "did you see this deal." Also use it when the user asks what does or doesn't count as a routine data update on that repo, or reports that the dashboard looks broken/stale after an update attempt. Do not use this for general GitHub repo work unrelated to SC Atlas, and do not use it to redesign the dashboard's look or behavior -- editing index.html/app.js/styles.css/build_data.py is explicitly out of scope for the routine workflow this skill covers (flag it to the user instead of just doing it).
+description: Adds new technologies, deals, or news findings to the SC Atlas Tracker dashboard (github.com/dwformulation26-hub/SC-Atlas) and pushes the update live. Use this whenever the user wants to update, refresh, or add findings to "SC Atlas," the "SC Atlas Tracker," the "high-concentration SC tracker/dashboard," or asks to log a new technology, deal, licensing agreement, or news item onto that dashboard -- even if they just paste a headline or a company name and say "add this" or "did you see this deal." Also use it when the user asks what does or doesn't count as a routine data update on that repo, or reports that the dashboard looks broken/stale after an update attempt. Do not use this for general GitHub repo work unrelated to SC Atlas, and do not use it to redesign the dashboard's look or behavior -- editing index.html/app.js/i18n.js/styles.css/build_data.py/ko_check.py is explicitly out of scope for the routine workflow this skill covers (flag it to the user instead of just doing it).
 ---
 
 # SC Atlas Tracker Update
@@ -25,9 +25,13 @@ risky rewrite of working frontend code.
 
 **Never edit these for a routine update** (this is the dashboard *application*,
 not the data):
-- `index.html`, `assets/app.js`, `assets/styles.css`, `assets/icon.svg`
+- `index.html`, `assets/app.js`, `assets/i18n.js`, `assets/styles.css`,
+  `assets/icon.svg`
+- `scripts/ko_check.py` -- the Korean copy checker. If it reports a false
+  positive, fixing it is a deliberate, visible code change to raise with the
+  user, never something to route around by bending the copy.
 - `scripts/build_data.py` -- the build logic itself. The one exception: if it
-  prints a `WARNING` about a stage description it can't classify (see Step 3),
+  prints a `WARNING` about a stage description it can't classify (see Step 4),
   that's a real signal the script needs a new rule -- but that's a deliberate,
   visible code change, not something to route around silently.
 - `README.md`, `CHANGELOG.md`, `.gitignore`, `data/archive/*.xlsx` (old
@@ -86,7 +90,9 @@ For a new technology, add a dict to `TECHNOLOGIES` in
 `data/technologies_db.py`. Give it a unique `id` (lowercase,
 underscore-separated -- this is what deals join against). Copy the shape of
 an existing entry; the file's own docstring documents each field (`type` is
-open-ended, `concentration_numeric` is `None` if undisclosed, etc).
+open-ended, `concentration_numeric` is `None` if undisclosed, etc). It also
+needs `concentration_text_ko`, `needle_size_ko` and `mechanism_ko` -- see
+**Both languages, every time** below.
 
 For a new deal or news item, add a dict to `DEALS` in `data/deals_db.py`.
 Its `technology_id` must match either a `TECHNOLOGIES` id or a
@@ -96,9 +102,47 @@ conflict rather than silently picking one version -- that's what drives the
 FLAGGED badge on the dashboard. Set `new_in_digest: True` if this is meant to
 be highlighted as new since the last update, and set `new_in_digest: False`
 on every previously-`True` row first, so only today's items surface in the
-email.
+email. It also needs `summary_ko` alongside `summary`.
 
-### 3. Rebuild the derived data
+#### Both languages, every time
+
+The dashboard is bilingual, and every prose field it renders has a Korean
+mirror under the same name plus `_ko`: `summary_ko` in `data/deals_db.py`,
+and `concentration_text_ko` / `needle_size_ko` / `mechanism_ko` in
+`data/technologies_db.py` and `data/internal_targets.json`.
+
+**Write the English first and treat it as the field of record.** The Korean
+is a translation of that finished English string, not a second summary
+written from the sources. Every number, date, percentage, patent number and
+molecule code in the English appears unchanged in the Korean (`ALT-B4`,
+`WO2026/142299`, `750 mg/mL`, `$365M`), and hedges (`not disclosed`,
+`FLAGGED`, `CORRECTED <date>`, `company claims`) are translated rather than
+dropped. `.claude/skills/sc-atlas-daily-scan/references/ko-glossary.md` holds
+the standing vocabulary -- use it so a term is not rendered three different
+ways across three updates.
+
+If the user hands you a finding already written in Korean, write the English
+summary from it first, then write `summary_ko` from that English. Skipping
+the round trip is how the two languages start disagreeing.
+
+A correction edits both sides in the same pass: never leave a `CORRECTED`
+prefix on the English with a stale Korean mirror underneath it.
+
+### 3. Check the Korean mirrors
+
+```bash
+python3 scripts/ko_check.py
+```
+
+Compares every English prose field against its `_ko` mirror and fails on a
+missing mirror, on a number or identifier that did not survive translation,
+or on an English string pasted into a `_ko` field. This is the one check a
+reviewer reading only one of the two languages cannot do for themselves.
+
+A non-zero exit blocks the update. Fix the Korean to match the English --
+never the English to match the Korean, and never by deleting the mirror.
+
+### 4. Rebuild the derived data
 
 From inside the repo folder:
 
@@ -116,14 +160,16 @@ counts. A `WARNING` line means one of two things:
   will silently not appear anywhere on the dashboard if you let this pass.
   Fix the id rather than pushing anyway.
 
-### 4. Verify before pushing
+### 5. Verify before pushing
 
 Don't trust "no warnings" as proof the edit landed correctly. Read back
 `data/dashboard_data.json` (or grep for the new id/deal_id) and confirm the
-fields you intended to set are actually there with the right values. This
+fields you intended to set are actually there with the right values --
+including the `_ko` mirrors, which `build_data.py` copies through verbatim
+and never generates. This
 catches typos in an `id` that would otherwise ship silently broken.
 
-### 5. Commit and push
+### 6. Commit and push
 
 ```bash
 git add data/technologies_db.py data/deals_db.py data/dashboard_data.json
@@ -133,12 +179,13 @@ git push
 ```
 
 Before pushing, glance at `git diff --stat` (or the staged file list) and
-confirm `index.html`, `assets/app.js`, `assets/styles.css`, and
-`scripts/build_data.py` are *not* in it. If one of them is, that's the
+confirm `index.html`, `assets/app.js`, `assets/i18n.js`,
+`assets/styles.css`, `scripts/build_data.py` and `scripts/ko_check.py` are
+*not* in it. If one of them is, that's the
 "routine update" boundary being crossed -- pause and confirm with the user
 this is intentional before pushing.
 
-### 6. Report back
+### 7. Report back
 
 Tell the user plainly what was added or changed (technology names, deal
 partners/dates) and confirm the push succeeded, ideally with the commit hash
