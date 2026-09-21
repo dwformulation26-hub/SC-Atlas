@@ -1,0 +1,95 @@
+{
+  "run_date": "2026-09-21",
+  "run_type": "supplementary deep-search (user-requested incident response, not the scheduled routine)",
+  "trigger": "User flagged the 2026-09-16 Japan Keytruda SC (Kiject) approval landing as a 'backfill' finding today as an incident, and asked for a deeper same-day sweep specifically to catch news that is fresh right now but at risk of only being fully covered by trade press a few days later (the same lag pattern that produced the Kiject miss: a regulator issues a batch/omnibus decision, and outlet coverage naming the specific SC/high-concentration angle trails by 1-3 days).",
+  "window": {
+    "from": "2026-09-18T09:02:21+09:00",
+    "to": "2026-09-21T09:35:00+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Same window as the scheduled 2026-09-21 run -- this is a deeper pass over the same window, not a new window."
+  },
+  "queries_run": [
+    {"tier": 0, "lang": "en", "query": "FDA approval subcutaneous biologic September 19 20 21 2026"},
+    {"tier": 0, "lang": "en", "query": "EMA CHMP opinion subcutaneous formulation September 2026"},
+    {"tier": 0, "lang": "ko", "query": "식약처 허가 9월 19일 20일 2026 피하주사"},
+    {"tier": 0, "lang": "en", "query": "NMPA China approval subcutaneous biologic September 2026"},
+    {"tier": 0, "lang": "en", "query": "Halozyme press release September 2026"},
+    {"tier": 0, "lang": "ko", "query": "알테오젠 공시 9월 19일 20일 2026"},
+    {"tier": 0, "lang": "en", "query": "CHMP positive opinion pembrolizumab subcutaneous perioperative bladder cancer September 2026 date"},
+    {"tier": 0, "lang": "en", "query": "Merck.com Positive EU CHMP Opinion KEYTRUDA Padcev perioperative MIBC pembrolizumab SC press release date (verify candidate, primary source)"},
+    {"tier": 0, "lang": "en", "query": "Opdivo nivolumab subcutaneous CHMP positive opinion September 2026 ENHANZE Halozyme date"}
+  ],
+  "methodology_change_from_routine_run": "Instead of the fixed 17-query company/technology-name matrix, this pass queried regulatory bodies and their recent decision batches directly (FDA, EMA/CHMP, Korea MFDS, China NMPA) plus company newsroom pages for tracked companies, on the theory that a near-miss like Kiject happens at the regulator-decision layer before trade press picks up the SC-specific angle. This is a slower, more expensive search pattern than the routine matrix and is not proposed as a wholesale replacement for it -- see recommendation below.",
+  "candidates": [
+    {
+      "raw_title": "EU CHMP positive opinion: KEYTRUDA (pembrolizumab) + Padcev (enfortumab vedotin) perioperative MIBC, explicitly covering pembrolizumab SC (Keytruda SC/Qlex, ALT-B4-enabled)",
+      "published": "2026-09-18", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "A CHMP positive opinion recommending EU approval of ALT-B4-enabled Keytruda SC in a new indication (perioperative MIBC) directly expands the addressable footprint of one of the two most commercially advanced hyaluronidase-based SC-conversion platforms this tracker benchmarks.",
+      "date_source": "url", "dedupe": "new",
+      "verdict": "log", "reject_reason": null,
+      "event_key": "eu_chmp_keytruda_sc_mibc_2026-09-18", "canonical": true,
+      "corroborating_urls": [
+        "https://www.biospace.com/press-releases/merck-receives-positive-eu-chmp-opinion-for-keytruda-pembrolizumab-plus-padcev-enfortumab-vedotin-ejfv-as-perioperative-treatment-for-adults-with-resectable-muscle-invasive-bladder-cancer-mibc",
+        "https://www.cancernetwork.com/view/pembrolizumab-enfortumab-vedotin-earns-positive-chmp-opinion-in-mibc",
+        "https://www.onclive.com/view/chmp-backs-perioperative-pembrolizumab-plus-enfortumab-vedotin-for-resectable-mibc",
+        "https://www.urologytimes.com/view/chmp-recommends-perioperative-enfortumab-vedotin-plus-pembrolizumab-for-mibc",
+        "https://stockhouse.com/news/press-releases/2026/09/18/merck-receives-positive-eu-chmp-opinion-for-keytruda-xae-pembrolizumab-plus",
+        "https://www.rttnews.com/3692227/merck-gets-positive-eu-chmp-opinion-for-keytruda-plus-padcev-to-treat-resectable-mibc.aspx",
+        "https://www.stocktitan.net/news/MRK/merck-receives-positive-eu-chmp-opinion-for-keytruda-pembrolizumab-xvd5i63la3mc.html",
+        "https://investingnews.com/merck-receives-positive-eu-chmp-opinion-for-keytruda-r-plus-padcev-r-as-perioperative-treatment-for-adults-with-resectable-muscle-invasive-bladder-cancer/"
+      ]
+    },
+    {
+      "raw_title": "FDA approval UX111 (Ultragenyx AAV9 gene therapy, Sanfilippo syndrome A), Sept 19 2026",
+      "published": "2026-09-19", "lang": "en",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "n/a",
+      "date_source": "unconfirmed", "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Gate A: gene therapy, not a subcutaneous high-concentration/volume delivery technology; unrelated modality.",
+      "event_key": "n/a", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "China NMPA LEQEMBI SC approval",
+      "published": "early September 2026", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Already tracked as eisai_biogen_leqembiiqlik_china-approval_2026-09-03.",
+      "event_key": "leqembi_sc_china_approval", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "BMS Opdivo (nivolumab) SC co-formulated with Halozyme's ENHANZE -- FDA approval (Opdivo Qvantig, Dec 2024), EU CHMP positive opinion (Mar 2025) and EC approval (May 2025)",
+      "published": "2024-12 / 2025-03 / 2025-05", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Opdivo Qvantig is a major already-commercialized ENHANZE product (Halozyme's flagship licensed technology, already tracked) with zero deal rows in the tracker -- a pre-existing gap, not a fresh event.",
+      "date_source": "url", "dedupe": "new",
+      "verdict": "context", "reject_reason": "Out of scope for this incident-response pass: this is a >1-year-old gap in ENHANZE coverage, not a same-day-freshness risk of the kind this deep search was launched to catch. Flagged to the user as a separate, pre-existing backfill opportunity rather than merged here, to keep this pass's diff scoped to the actual finding.",
+      "event_key": "bms_opdivo_qvantig_enhanze_gap", "canonical": true,
+      "corroborating_urls": [
+        "https://www.prnewswire.com/news-releases/halozyme-announces-bristol-myers-squibb-received-positive-chmp-opinion-for-the-subcutaneous-formulation-of-opdivo-nivolumab-with-enhanze-across-multiple-solid-tumor-indications-302415538.html",
+        "https://www.aimatmelanoma.org/halozyme-announces-bristol-myers-squibb-received-european-commission-approval-for-subcutaneous-opdivo-nivolumab-co-formulated-with-enhanze-across-multiple-solid-tumor-indications/",
+        "https://www.outsourcedpharma.com/doc/halozyme-announces-fda-approval-bristol-myers-squibb-s-solid-tumor-opdivo-nivolumab-indications-0001"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "technology": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)",
+      "company": "Alteogen / Merck (MSD)",
+      "event": "EU CHMP positive opinion recommending Keytruda + Padcev perioperative MIBC, explicitly covering the ALT-B4-enabled Keytruda SC formulation",
+      "date": "2026-09-18",
+      "freshness": "fresh",
+      "source_name": "Merck.com",
+      "source_url": "https://www.merck.com/news/merck-receives-positive-eu-chmp-opinion-for-keytruda-pembrolizumab-plus-padcev-enfortumab-vedotin-ejfv-as-perioperative-treatment-for-adults-with-cisplatin-ineligible-resectable-muscle/",
+      "confidence": "Primary",
+      "summary": "Published inside this run's search window (window opened 2026-09-18T09:02 KST; this is a same-day US press release, hours after window open) -- this is the genuinely fresh finding this deep-search pass was launched to catch before it could lag into a future backfill entry the way the 2026-09-16 Kiject item did.",
+      "conflicts_with": null
+    }
+  ],
+  "recommendation": "This confirms the incident's root cause is structural, not a one-off miss: the routine 17-query matrix is built around company/technology-name text search, which is exactly the layer where a regulator's own decision (CHMP opinion, PMDA/MHLW batch approval) precedes dedicated SC-angle trade-press coverage by 1-3 days. A durable fix is to add a standing regulatory-calendar check to the routine matrix -- e.g. an EMA CHMP meeting-highlights check and a Japan MHLW/PMDA batch-approval check -- for the tracked hyaluronidase-enabled products (Keytruda SC, Opdivo SC/Qvantig, LEQEMBI SC) each run, rather than relying on company-name text search to surface a regulatory body's own announcement. This is a SKILL.md change (adding to the Tier-3/Tier-4 query set), not a data change, and is flagged to the user for a decision rather than made unilaterally in this run.",
+  "blocked_domains": ["www.ema.europa.eu (WebFetch blocked; relied on trade-press corroboration and URL-dated mirrors instead)"],
+  "notes": "One finding merged (fresh, published within window, not previously tracked): EU CHMP opinion for Keytruda SC in perioperative MIBC, 2026-09-18. One additional gap identified but deliberately not merged this pass (Opdivo Qvantig/ENHANZE has no deal rows in the tracker at all) -- flagged to the user as a separate pre-existing backfill candidate for a future dedicated pass, not folded into this incident-response diff."
+}

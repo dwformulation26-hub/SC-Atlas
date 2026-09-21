@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T00:07:47+00:00",
+  "generated_at": "2026-09-21T00:35:10+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -59,7 +59,7 @@
     "tracked": 28,
     "comparable": 17,
     "commercial": 8,
-    "deals_tracked": 62,
+    "deals_tracked": 63,
     "flagged_deals": 6
   },
   "internal_targets": [
@@ -404,6 +404,21 @@
       "date_added": "2026-07-12",
       "last_reviewed": "2026-09-16",
       "deals": [
+        {
+          "deal_id": "alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18",
+          "partner": "Merck (MSD) / EMA CHMP",
+          "deal_type": "Regulatory recommendation",
+          "date": "2026-09-18",
+          "date_sort_key": 20260918,
+          "summary": "EU CHMP adopted a positive opinion recommending approval of KEYTRUDA (pembrolizumab) plus Padcev (enfortumab vedotin-ejfv) as perioperative (neoadjuvant then adjuvant) treatment for resectable muscle-invasive bladder cancer (MIBC) -- and the recommendation explicitly covers the subcutaneous formulation, pembrolizumab SC (Keytruda SC / Keytruda Qlex in the US), ALT-B4-enabled. This is a new indication extension for the already-tracked ALT-B4/Hybrozyme SC formulation in the EU, not previously logged. EC final decision expected Q4 2026 for the EU, Iceland, Liechtenstein and Norway.",
+          "molecule": "Pembrolizumab SC (Keytruda SC/Qlex) + enfortumab vedotin-ejfv (Padcev) -- ALT-B4-enabled formulation",
+          "source_name": "Merck.com (primary); corroborated by BioSpace, CancerNetwork, OncLive, Urology Times, RTTNews, StockTitan, InvestingNews, Stockhouse (9 independent outlets, same-day)",
+          "source_url": "https://www.merck.com/news/merck-receives-positive-eu-chmp-opinion-for-keytruda-pembrolizumab-plus-padcev-enfortumab-vedotin-ejfv-as-perioperative-treatment-for-adults-with-cisplatin-ineligible-resectable-muscle/",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": true
+        },
         {
           "deal_id": "alteogen_msd_keytruda-sc-japan-approval_2026-09-16",
           "partner": "MSD K.K. (Merck & Co. Japan affiliate) / Japan Ministry of Health, Labour and Welfare (MHLW)",
@@ -1560,6 +1575,23 @@
   ],
   "recent_activity": [
     {
+      "deal_id": "alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18",
+      "partner": "Merck (MSD) / EMA CHMP",
+      "deal_type": "Regulatory recommendation",
+      "date": "2026-09-18",
+      "date_sort_key": 20260918,
+      "summary": "EU CHMP adopted a positive opinion recommending approval of KEYTRUDA (pembrolizumab) plus Padcev (enfortumab vedotin-ejfv) as perioperative (neoadjuvant then adjuvant) treatment for resectable muscle-invasive bladder cancer (MIBC) -- and the recommendation explicitly covers the subcutaneous formulation, pembrolizumab SC (Keytruda SC / Keytruda Qlex in the US), ALT-B4-enabled. This is a new indication extension for the already-tracked ALT-B4/Hybrozyme SC formulation in the EU, not previously logged. EC final decision expected Q4 2026 for the EU, Iceland, Liechtenstein and Norway.",
+      "molecule": "Pembrolizumab SC (Keytruda SC/Qlex) + enfortumab vedotin-ejfv (Padcev) -- ALT-B4-enabled formulation",
+      "source_name": "Merck.com (primary); corroborated by BioSpace, CancerNetwork, OncLive, Urology Times, RTTNews, StockTitan, InvestingNews, Stockhouse (9 independent outlets, same-day)",
+      "source_url": "https://www.merck.com/news/merck-receives-positive-eu-chmp-opinion-for-keytruda-pembrolizumab-plus-padcev-enfortumab-vedotin-ejfv-as-perioperative-treatment-for-adults-with-cisplatin-ineligible-resectable-muscle/",
+      "relevance": "High",
+      "confidence": "Primary",
+      "flagged": false,
+      "new_in_digest": true,
+      "technology_id": "alt-b4_hybrozyme",
+      "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
+    },
+    {
       "deal_id": "eisai_biogen_leqembiiqlik_japan-approval_2026-09-16",
       "partner": "Japan PMDA (regulatory) / Eisai / Biogen",
       "deal_type": "Regulatory approval",
@@ -1796,23 +1828,6 @@
       "new_in_digest": false,
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
-    },
-    {
-      "deal_id": "halozyme_incyte_2026-07",
-      "partner": "Incyte",
-      "deal_type": "Licensing/Collaboration",
-      "date": "2026-07-20",
-      "date_sort_key": 20260720,
-      "summary": "Global collaboration & license agreement applying ENHANZE (rHuPH20) to subcutaneous formulations of INCA033989, Incyte's first-in-class anti-mutant-calreticulin (mutCALR) monoclonal antibody for myeloproliferative neoplasms (MPNs). Incyte also receives an option to nominate up to two additional ENHANZE targets. Halozyme to receive an upfront payment (amount undisclosed) plus development/regulatory milestone payments and royalties on net sales of any commercialized ENHANZE-enabled medicines.",
-      "molecule": "INCA033989",
-      "source_name": "PR Newswire (Halozyme)",
-      "source_url": "https://www.prnewswire.com/news-releases/halozyme-announces-global-collaboration-and-license-agreement-with-incyte-to-support-the-development-of-subcutaneous-formulations-of-inca033989-using-its-enhanze-technology-302829283.html",
-      "relevance": "High",
-      "confidence": "Primary",
-      "flagged": false,
-      "new_in_digest": false,
-      "technology_id": "enhanze",
-      "technology_name": "ENHANZE (rHuPH20)"
     }
   ]
 }
