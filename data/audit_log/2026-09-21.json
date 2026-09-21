@@ -1,0 +1,276 @@
+{
+  "run_date": "2026-09-21",
+  "window": {
+    "from": "2026-09-18T09:02:21+09:00",
+    "to": "2026-09-21T09:05:00+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Monday run after weekend gap. Previous run (data/audit_log/2026-09-18.json) completed 2026-09-18T09:02:21+09:00 (Friday morning). Per the skill's Monday/gap rule, window extended back to that last actual completion rather than truncated to 24h -- Friday's run to Monday's, ~72h span, so Saturday/Sunday Korean disclosures are covered."
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license September 2026"},
+    {"tier": 1, "lang": "en", "query": "Xeris XeriJect Lindy Microglassification Nanoform InventageLab Prestige IDC224 subcutaneous September 2026"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" September 2026"},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\" 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\" technology deal September 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal September 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 고농축 현탁 주사 기술"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration September 2026"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도"},
+    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 9월"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가"},
+    {"tier": 4, "lang": "ko", "query": "특허청 히알루로니다제 고농도 제형"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출"},
+    {"tier": 0, "lang": "en", "query": "Alteogen news September 19 20 2026 (added: targeted freshness check)"},
+    {"tier": 0, "lang": "en", "query": "Halozyme news September 19 20 2026 (added: targeted freshness check)"},
+    {"tier": 0, "lang": "ko", "query": "셀트리온 SC 허쥬마 9월 2026 (added: targeted freshness check)"},
+    {"tier": 0, "lang": "ko", "query": "삼성바이오에피스 9월 2026 SC 피하주사 (added: targeted freshness check)"},
+    {"tier": 0, "lang": "ko", "query": "Dupixent 고농도 알테오젠 바이오젠 하이브로자임 9월 (added: targeted freshness check)"},
+    {"tier": 0, "lang": "en", "query": "subcutaneous injection biologics news this week September 2026 (added: freshness check)"},
+    {"tier": 0, "lang": "en", "query": "Keytruda subcutaneous Japan approval MSD pembrolizumab September 2026 (added: verify candidate)"},
+    {"tier": 0, "lang": "ko", "query": "키트루다 피하주사 일본 승인 9월 2026 (added: verify candidate)"},
+    {"tier": 0, "lang": "ja", "query": "\"キイトルーダ\" OR \"Kiject\" 皮下注射 承認 9月16日 2026 (added: verify candidate, primary-language source)"},
+    {"tier": 0, "lang": "en", "query": "Merck Kiject pembrolizumab subcutaneous Japan approval press release (added: verify candidate)"},
+    {"tier": 0, "lang": "ko", "query": "휴온스랩 하이디자임 HYDIZYME 품목허가 9월 (added: targeted tracked-tech sweep)"},
+    {"tier": 0, "lang": "ko", "query": "지투지바이오 이노바이오램프 9월 2026 (added: targeted tracked-tech sweep)"},
+    {"tier": 0, "lang": "ko", "query": "프레스티지바이오파마 IDC224 9월 2026 (added: targeted tracked-tech sweep)"},
+    {"tier": 0, "lang": "en", "query": "Elektrofi Hypercon Janssen argenx Oruka partner dates September 2026 (added: chase flagged-row resolution)"},
+    {"tier": 0, "lang": "ko", "query": "이희용 지투지바이오 대표 항체 SC 제형 두 번째 도약 (added: targeted tracked-tech sweep)"},
+    {"tier": 0, "lang": "en", "query": "Alphamab Oncology JSKN033 subcutaneous September 2026 (added: targeted tracked-tech sweep)"},
+    {"tier": 0, "lang": "ko", "query": "아미코젠 히알루로니다제 9월 2026 (added: targeted tracked-tech sweep)"},
+    {"tier": 0, "lang": "en", "query": "Erdi \"Thermostable Ionic Liquids\" antibody formulation Advanced Materials publication date 2026 (added: verify candidate)"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme-Incyte ENHANZE collaboration for INCA033989",
+      "published": "2026-07-20", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a - not applicable, rejected at dedupe",
+      "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Already tracked as halozyme_incyte_2026-07",
+      "event_key": "halozyme_incyte_enhanze_inca033989", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme-Vertex Hypercon license ($15M upfront)",
+      "published": "2026-04-01", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Already tracked as halozyme_vertex_2026-04",
+      "event_key": "halozyme_vertex_hypercon", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen-Novartis Hybrozyme option/license agreement, up to $3.223B",
+      "published": "2026-09-02", "lang": "en/ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Already tracked as alteogen_novartis_2026-09",
+      "event_key": "alteogen_novartis_hybrozyme_option", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen 2026 ALT-B4 licensing tally (GSK/Tesaro Jan, Biogen Mar, undisclosed pharma Aug, Novartis Sep -- 4 deals, ~KRW6T cumulative)",
+      "published": "2026-09-03", "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject",
+      "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "Roll-up/summary article of four already-tracked individual deals (alteogen_gsk-tesaro_2026-01, alteogen_biogen_2026-03, alteogen_undisclosed-pharma_2026-08, alteogen_novartis_2026-09); no new discrete event beyond those four rows.",
+      "event_key": "alteogen_2026_alt-b4_tally", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Prestige Biopharma IDC224 patent filing",
+      "published": "2026-04-21", "lang": "en/ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Already tracked as prestige_idc224_patent_2026-04",
+      "event_key": "prestige_idc224_patent", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Bioepis hyaluronidase purification patents / Keytruda-market positioning commentary",
+      "published": "2026-07-13/14", "lang": "en/ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "Already tracked (samsungbioepis_ph20_disclosure_2026-07-13, samsungbioepis_celltrion_keytruda-market_2026-07-14, samsungbioepis_isr-novelty-rejection_2026-07-14); no new development found in-window.",
+      "event_key": "samsungbioepis_ph20_patents", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion Herzuma SC (CT-P6 SC) regulatory timeline recap",
+      "published": "recap, various 2026", "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject",
+      "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "date_source": "unconfirmed", "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "Recap/explainer of already-tracked EU filing and MFDS filing (celltrion_ema-filing_2026-04, celltrion_mfds-filing_2026-05); no new in-window event.",
+      "event_key": "celltrion_herzuma_sc_recap", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Academic review articles on high-concentration SC formulation strategy (PubMed/ScienceDirect, multiple)",
+      "published": "undated reviews, 2026", "lang": "en",
+      "gate_a": "pass", "gate_b": "reject",
+      "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "date_source": "unconfirmed", "dedupe": "new",
+      "verdict": "context", "reject_reason": "Gate B: undated review/perspective articles, not a discrete dated event.",
+      "event_key": "n/a", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "\"Subcutaneous Conversion Platforms: The New Patent Battleground\" (intelacia.com trend piece)",
+      "published": "2026-09-11", "lang": "en",
+      "gate_a": "pass", "gate_b": "reject",
+      "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "new",
+      "verdict": "context", "reject_reason": "Gate B: landscape/trend explainer aggregating already-known deals and litigation, not a discrete new event.",
+      "event_key": "n/a", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme $1.3B Rule 144A convertible senior notes offering (Sep 19, 2026)",
+      "published": "2026-09-19", "lang": "en",
+      "gate_a": "reject", "gate_b": "n/a",
+      "gate_c": "primary", "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Gate A: corporate financing/balance-sheet event with no delivery-technology, concentration, or volume angle.",
+      "event_key": "n/a", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme H.C. Wainwright investor conference presentation (Sep 16, 2026)",
+      "published": "2026-09-16", "lang": "en",
+      "gate_a": "pass", "gate_b": "reject",
+      "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Gate B: investor-conference appearance restating existing portfolio/guidance, no discrete new event or figure disclosed beyond what's already tracked (halozyme_wellsfargo-hypercon-timeline_2026-09-09).",
+      "event_key": "n/a", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Bioepis SB27 (Keytruda biosimilar) MFDS filing + internal SC-technology commentary",
+      "published": "2026-08-10 / 2026-08-11", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "Restates already-tracked internal-use-only PH20 SC positioning (samsungbioepis_ph20_disclosure_2026-07-13 and related rows); SB27 filing itself is a biosimilar approval event with no independent SC-concentration angle beyond what's tracked.",
+      "event_key": "samsungbioepis_sb27_sc_context", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "G2G Bio - Celltrion ultra-high-concentration antibody SC platform MTA/MOU + CEO interview detail (750 mg/mL suspension injectability shown in-house)",
+      "published": "2026-07-30", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Already tracked as g2gbio_celltrion_mou_2026-07-30 (and concentration figure under g2gbio_innobiolamp_concentration-disclosure_2026-08-05); CEO interview found this run adds color but no new dated event.",
+      "event_key": "g2gbio_celltrion_sc_mou", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Huons Lab HYDIZYME (standalone rHuPH20) MFDS BLA review status update",
+      "published": "various 2025-12 to 2026-02", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "Already covered by the tracked huonslab_hydiffuze technology entry's stage_raw (BLA review at MFDS, targeted year-end 2026 decision); no new in-window development, no approval decision yet.",
+      "event_key": "huonslab_hydizyme_bla", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alphamab Oncology JSKN033 Phase II progress commentary (Aug 2026)",
+      "published": "2026-08", "lang": "en",
+      "gate_a": "pass", "gate_b": "reject",
+      "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "date_source": "unconfirmed", "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "General pipeline-progress restatement of already-tracked CDE Phase III approval (alphamab_jskn033_cde-phase3_2026-08); no new discrete milestone in-window.",
+      "event_key": "alphamab_jskn033_progress", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Amicogen next-gen skin-derived hyaluronidase development-timeline restatement",
+      "published": "2026-07 (patent grant already tracked)", "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject",
+      "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a",
+      "date_source": "url", "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "Already fully covered by amicogen_hyaluronidase technology entry and amicogen_hyaluronidase_patent-grant_2026-07-14 deal; sources found this run are restatements/investor-analysis pieces, not a new event.",
+      "event_key": "amicogen_hyaluronidase_restated", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Elektrofi/Hypercon partner (Janssen/argenx/Lilly) option target-return decision deadline said to be extended from Sep 2026 to Feb 2027 per later SEC filing",
+      "published": "unclear -- surfaced only as a WebSearch summary clause, no article isolated", "lang": "en",
+      "gate_a": "pass", "gate_b": "reject",
+      "gate_c": "unverified", "gate_d": "new", "gate_e": "n/a",
+      "date_source": "unconfirmed", "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Gate C: could not isolate a specific, nameable primary source (which SEC filing, which partner) behind the search-summary clause; insufficiently specific to log even as flagged. Does not resolve the standing elektrofi_partners_flagged_2026-07 / elektrofi_partners_detail_2026-07-15 ambiguity either. One extra query spent trying to locate the underlying filing; not found within budget.",
+      "event_key": "n/a", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "MSD K.K. Japan MHLW approval of Kiject Combination Subcutaneous Injection (395mg/790mg) -- pembrolizumab + ALT-B4",
+      "published": "2026-09-17 (Iyaku Tsushinsha); event 2026-09-16", "lang": "ja/ko/en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "Directly serves the tracker's core question: a fourth major-market regulatory approval for the ALT-B4/Hybrozyme mechanism converting a high-volume IV oncology biologic to a 1-2 minute SC injection.",
+      "date_source": "url", "dedupe": "new",
+      "verdict": "log", "reject_reason": null,
+      "event_key": "msd_kiject_japan_approval_2026-09-16", "canonical": true,
+      "corroborating_urls": [
+        "https://www.koreabiomed.com/news/articleView.html?idxno=33229",
+        "https://jp.ibtimes.com/msd-wins-japan-approval-kiject-first-subcutaneous-checkpoint-inhibitor-104444",
+        "https://www.ebn.co.kr/news/articleView.html?idxno=1724848",
+        "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202609180326",
+        "https://www.g-enews.com/article/Bio-Pharma/2026/09/202609181714492261b065b72042_1",
+        "https://view.asiae.co.kr/article/2026091809363615049",
+        "https://www.businesspost.co.kr/BP?command=article_view&num=447537",
+        "https://www.financialpost.co.kr/news/articleView.html?idxno=276382",
+        "https://www.alphabiz.co.kr/news/articleView.html?idxno=188205"
+      ]
+    },
+    {
+      "raw_title": "Erdi et al., \"High Concentration Antibody Formulations Enabled via Thermostable Ionic Liquids\" (Advanced Materials, Harvard/Mitragotri Lab)",
+      "published": "2026-02-04 (epub); 2026-03 print", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Distinct non-enzymatic chemical mechanism (ionic-liquid excipient) demonstrating 90-230 mg/mL SC-injectable antibody formulations, directly on-topic for the volume/concentration question and not overlapping any tracked academic entry.",
+      "date_source": "page", "dedupe": "new",
+      "verdict": "log", "reject_reason": null,
+      "event_key": "harvard_mitragotri_chat_ionic_liquid_advmat", "canonical": true,
+      "corroborating_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/41639998/",
+        "https://acs.digitellinc.com/p/s/ultra-high-concentration-antibody-formulations-enabled-via-thermostable-ionic-liquids-658019"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "technology": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)",
+      "company": "Alteogen / MSD",
+      "event": "Japan MHLW approval of Kiject Combination Subcutaneous Injection (pembrolizumab + ALT-B4), first subcutaneous checkpoint inhibitor approved in Japan",
+      "date": "2026-09-16",
+      "freshness": "backfill",
+      "source_name": "Iyaku Tsushinsha",
+      "source_url": "https://iyakutsushinsha.com/2026/09/17/%E6%8A%97pd-1%E6%8A%97%E4%BD%93%E3%80%8C%E3%82%AD%E3%82%A4%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%80%8D%E3%80%80%E8%A3%BD%E9%80%A0%E8%B2%A9%E5%A3%B2%E6%89%BF%E8%AA%8D%E5%8F%96%E5%BE%97%E3%80%80msd/",
+      "confidence": "Secondary",
+      "summary": "Japan becomes the fourth major market (after US, EU/Canada, Korea) to approve ALT-B4-enabled Keytruda SC, cutting a ~30-minute IV infusion to a 1-2 minute subcutaneous injection.",
+      "conflicts_with": null
+    },
+    {
+      "technology": "Thermostable Ionic Liquid Excipient (CHAT)",
+      "company": "Academic (Harvard - Mitragotri Lab)",
+      "event": "Peer-reviewed publication demonstrating ionic-liquid-enabled 90-230 mg/mL SC antibody formulations",
+      "date": "2026-02-04",
+      "freshness": "backfill",
+      "source_name": "Advanced Materials (Wiley)",
+      "source_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202511918",
+      "confidence": "Primary",
+      "summary": "New academic technology, added to the tracker as a fifth distinct SC-concentration mechanism category alongside enzyme-assisted, particle/suspension, and hydrogel approaches.",
+      "conflicts_with": null
+    }
+  ],
+  "tracked_technologies_with_no_in_window_items": [
+    "xeriject", "microglassification", "enhanze", "hypercon", "alt-b4_hybrozyme (new item found is backfill, not in-window)",
+    "genentech_unbranded_sc", "academic_spray_dried", "celltrion_herzuma_sc", "prestige_biopharma_idc224",
+    "inventagelab_ivl_biofluidic", "samsungbio_s-hicon", "wuxibio_wuxihigh2", "chengdu_rongsheng_tiantan_weian",
+    "snapshot_surfbio", "nanoform_nanoforming", "crystalomics_althea", "academic_solvent_dehydration_hydrogel",
+    "sanofi_sarclisa_escena_sc", "brl_hc_sc_platform", "samsungbioepis_ph20_sc", "g2gbio_innobiolamp",
+    "alphamab_sc_hc_platform", "eisai_biogen_leqembi_iqlik_sc", "huonslab_hydiffuze", "amicogen_hyaluronidase"
+  ],
+  "new_untracked_competitors_identified": [],
+  "blocked_domains": [
+    "www.koreabiomed.com (WebFetch attempt blocked; used as corroborating URL only, content confirmed via search-result summary and cross-checked against 8 independent outlets plus URL-encoded dates)",
+    "jp.ibtimes.com (WebFetch attempt blocked; used as corroborating URL only)"
+  ],
+  "dart_fallback_ladder_used": "Not needed this run -- no DART-specific filing search required; Tier 4 query 15 (알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시) returned only already-tracked or non-substantive results, so the DART fallback ladder was not invoked.",
+  "notes": "Extended 72h weekend window used per Monday rule. 17-query fixed matrix run in full, plus 18 targeted follow-up queries to verify candidates, chase flagged-row resolution, and confirm dates. Two new findings logged, both backfill tier (published/event date before window open). No fresh (in-window) findings this run."
+}

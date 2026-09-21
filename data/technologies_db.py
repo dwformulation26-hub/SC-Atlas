@@ -350,4 +350,17 @@ TECHNOLOGIES = [
         'date_added': '2026-09-17',
         'last_reviewed': '2026-09-17',
     },
+    {
+        'id': 'academic_ionic_liquid_chat',
+        'name': 'Thermostable Ionic Liquid Excipient (CHAT)',
+        'company': 'Academic (Harvard University - Mitragotri Lab)',
+        'stage_raw': 'Preclinical / Research',
+        'type': 'Other',
+        'concentration_text': '90-230 mg/mL demonstrated antibody concentrations',
+        'concentration_numeric': 230.0,
+        'needle_size': 'Not disclosed',
+        'mechanism': "Choline-tryptophan ionic liquid (CHAT) used as a multifunctional excipient that simultaneously reduces solution viscosity and enhances tissue absorption, enabling subcutaneous injection of antibody formulations above 200 mg/mL without a hyaluronidase-based mechanism -- a distinct chemical approach from the enzyme-assisted (ENHANZE/ALT-B4/HyDiffuse), particle/suspension (XeriJect/Microglassification/Hypercon), and hydrogel (MIT solvent-dehydration) categories already tracked.",
+        'date_added': '2026-09-21',
+        'last_reviewed': '2026-09-21',
+    },
 ]
