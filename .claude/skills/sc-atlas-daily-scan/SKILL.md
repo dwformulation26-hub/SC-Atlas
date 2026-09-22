@@ -60,15 +60,28 @@ for tracked molecule names even when the page's own summary doesn't use the
 words "subcutaneous" or "high concentration" -- Kiject and the CHMP MIBC
 opinion were both found this way, not by keyword search.
 
-**Standing gap flagged, not yet backfilled.** The same 2026-09-21 deep search
-found that Opdivo Qvantig (BMS's commercialized ENHANZE product -- FDA-approved
-Dec 2024, EU-approved May 2025) has zero rows in `deals_db.py`, a pre-existing
-completeness gap rather than a freshness-lag case. Tier 5's FDA/EMA queries
-should catch this class of gap going forward for any other ENHANZE-family
-product (Ocrevus Zunovo, Vyvgart Hytrulo, Tecentriq Hybreza, Phesgo, Darzalex
-Faspro are candidates -- confirm which, if any, are still missing rather than
-trusting this list) -- worth a dedicated one-time backfill pass, separate from
-a routine run.
+**2026-09-22: the installed-base gap, now closed.** The standing gap the
+2026-09-21 deep search flagged -- Opdivo Qvantig having zero rows in
+`deals_db.py` -- turned out to be wider than the five candidate products
+named at the time. Halozyme's own partnered-products page lists **ten**
+marketed ENHANZE molecule families, and the `enhanze` row carried none of
+them: 7 deals, all 2025-2026 licensing and litigation. Meanwhile
+`alt-b4_hybrozyme` carried 11 deals with per-country Keytruda SC approvals
+itemised. Presented to a reader, that asymmetry said *Alteogen leads
+Halozyme*, which the market does not support. All ten were backfilled on
+2026-09-22; `enhanze` now carries 17 deals.
+
+**Root cause -- distinct from the Kiject case.** This was not a freshness
+lag. The matrix searches by *platform* name, but a product approval is
+announced under the *product's* name: "FDA approves Rybrevant Faspro" names
+neither Halozyme nor ENHANZE. A platform's marketed products were never a
+tracked object, so no query could have found them.
+
+**Fix.** `references/platform-product-base.md` maps every tracked platform to
+its marketed products; Tier 5's molecule list is drawn from it, and Step
+1.5.2 governs how such an event is dated and whether it reaches the digest.
+Treating a platform's installed base as part of the tracked object -- not
+just its new licensing deals -- is now standing practice.
 
 ---
 
@@ -247,11 +260,24 @@ written the SC-specific angle. Run all 5 every time; do not skip because
 "nothing's usually there" -- both Kiject and the CHMP MIBC opinion looked
 exactly that unremarkable in search results until directly checked.
 18. EMA: `CHMP meeting highlights <most recent CHMP meeting month/dates
-    2026>` -- scan the result for any of: Keytruda/pembrolizumab,
-    Opdivo/nivolumab, Dupixent/dupilumab, LEQEMBI/lecanemab,
-    Herzuma/trastuzumab, Sarclisa/isatuximab, Tecentriq/atezolizumab,
-    Phesgo, Darzalex/daratumumab, Vyvgart/efgartigimod -- even if the
-    meeting summary doesn't say "subcutaneous."
+    2026>` -- scan the result for every molecule on the **Tier 5 molecule
+    list** below, even if the meeting summary doesn't say "subcutaneous."
+
+**The Tier 5 molecule list.** Read it from
+`references/platform-product-base.md`, which maps each tracked platform to
+the marketed products built on it -- that file is the list's source, so a
+product added there is picked up here without editing this paragraph. As of
+2026-09-22 it covers: pembrolizumab (Keytruda SC / Kiject),
+nivolumab (Opdivo Qvantig), atezolizumab (Tecentriq Hybreza / Tecentriq SC),
+ocrelizumab (Ocrevus Zunovo / Ocrevus SC), daratumumab (Darzalex Faspro /
+Darzalex SC / Darzquro), amivantamab (Rybrevant Faspro / Rybrevant SC /
+Rybrofaz), efgartigimod alfa (Vyvgart Hytrulo / Vyvgart SC / Vyvdura),
+pertuzumab+trastuzumab (Phesgo), trastuzumab (Herceptin Hylecta / Herceptin
+SC / Herzuma SC), rituximab (Rituxan Hycela / MabThera SC), immune globulin
+10% (HYQVIA), plus dupilumab (Dupixent), lecanemab (LEQEMBI) and isatuximab
+(Sarclisa). Scan for the **brand names**, not just the generics -- a
+regulator's list prints "Rybrevant Faspro," and a query built only from
+"amivantamab" can miss it.
 19. Japan: `MHLW PMDA 新薬 一斉承認 <this month/year>` (batch approval
     releases; these are the omnibus lists Kiject and LEQEMBI both came
     from) -- scan for the same molecule list as query 18.
@@ -466,6 +492,38 @@ summary what could not be confirmed and why. Never silently adopt an
 unverified date. If the date is unconfirmable, classify the finding's
 freshness tier as `backfill`, never `fresh`: an unverified date must not earn
 an item a place in the digest's lead block or a slot in the send decision.
+
+#### 1.5.2 Installed-base events (a platform's marketed products)
+
+A tracked platform's approved products are part of the tracked object, not a
+separate universe. `references/platform-product-base.md` holds the mapping.
+Two cases, dated differently -- confusing them is what makes a tracker look
+broken:
+
+**A newly issued approval or label expansion** on a product in that file is
+ordinary fresh news. Date it to the regulator's decision date, verify it
+through 1.5.1 like anything else, attribute it to the platform row (not a new
+technology row), and set `new_in_digest: True` if it falls in the window.
+
+**A historical product added to complete the base** is a backfill, not news.
+Date it to the *actual* approval date -- never to the day you found it -- and:
+
+- prefix the English summary `BACKFILL:` (Korean `백필:`, per the glossary),
+- state in the summary that it is competitive context rather than new news,
+- set **`new_in_digest: False`**, always, with no exceptions.
+
+The third rule is the load-bearing one. `build_data.py` builds
+`recent_activity` as a blind date-sorted top-15 over every deal, and the
+digest draws on the `new_in_digest` flags. A 2014-dated row flagged as new
+reaches the owner as a tracker that has started reporting decade-old events
+as today's findings -- which reads as broken, and costs more trust than the
+missing row ever did. **Completeness is a property of the database;
+freshness is a property of the presentation. Adding to one must not disturb
+the other.**
+
+After any backfill pass, re-read `recent_activity` in the rebuilt
+`dashboard_data.json` and confirm none of the backfilled `deal_id`s appear
+in it before pushing.
 
 ### 1.6 Step 1 output contract
 
