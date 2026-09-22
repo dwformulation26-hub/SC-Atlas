@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-22T11:26:57+09:00",
+  "generated_at": "2026-09-22T11:40:59+09:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
   },
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-22",
   "stage_order": [
     "Research / Academic",
     "Preclinical",
@@ -14,8 +14,8 @@
     "Varies by Program"
   ],
   "type_order": [
-    "Suspension/particle",
     "Other",
+    "Suspension/particle",
     "Enzyme-assisted",
     "Co-formulation",
     "Crystalline"
@@ -28,11 +28,13 @@
     "Alteogen",
     "Althea Technologies (now part of Ajinomoto Bio-Pharma Services)",
     "Amicogen (아미코젠)",
+    "Arecor Therapeutics",
     "Bhami's Research Laboratory (licensed to Ipca Laboratories)",
     "Celltrion",
     "Chengdu Rongsheng Pharmaceutical (China National Pharmaceutical Group / Sinopharm)",
     "Eisai / Biogen",
     "G2G Bio (지투지바이오)",
+    "GC Biopharma / Green Cross Holdings",
     "Genentech / Roche",
     "Halozyme Therapeutics",
     "Halozyme Therapeutics (via Elektrofi acquisition)",
@@ -56,10 +58,10 @@
     "Not disclosed"
   ],
   "counts": {
-    "tracked": 28,
+    "tracked": 30,
     "comparable": 17,
     "commercial": 8,
-    "deals_tracked": 75,
+    "deals_tracked": 78,
     "flagged_deals": 6
   },
   "internal_targets": [
@@ -143,6 +145,98 @@
     }
   ],
   "technologies": [
+    {
+      "id": "arecor_arestat",
+      "name": "Arestat",
+      "company": "Arecor Therapeutics",
+      "stage_raw": "Platform licensed across partner programs; stage varies by partner program. Lead proprietary asset AT278 has positive Phase I data and FDA feedback on a Phase 2 design.",
+      "stage_bucket": "Varies by Program",
+      "type": "Other",
+      "concentration_text": "Not disclosed numerically for the antibody programs. Lead proprietary asset AT278 is a 500 U/mL insulin; two granted European patents cover high-concentration adalimumab formulations to 2038.",
+      "concentration_numeric": null,
+      "concentration_bucket": "Not disclosed",
+      "needle_size": "Not disclosed",
+      "mechanism": "Arestat is a proprietary excipient and formulation platform producing stable, high-concentration liquid formulations, applied across antibodies, complex biologics, peptides and vaccines. Licensed rather than developed alone: partners fund initial formulation work under a technology-access and milestone model and may acquire rights to the resulting formulation IP. Partnered in May 2025 with Skye Bioscience for a higher-concentration formulation of the CB1 inhibitor nimacimab -- the same company that signed an ENHANZE licence with Halozyme in January 2026.",
+      "date_added": "2026-09-22",
+      "last_reviewed": "2026-09-22",
+      "deals": [
+        {
+          "deal_id": "arecor_ligand_royalty-sale_2025-09-25",
+          "partner": "Ligand Pharmaceuticals",
+          "deal_type": "Funding/Investment",
+          "date": "2025-09-25",
+          "date_sort_key": 20250925,
+          "summary": "BACKFILL: Arecor sold global royalty rights to AT220 (an Arestat-enhanced biosimilar) and milestone and technology-access fees relating to AT292 to Ligand for up to $11.0 million, of which $1.0 million was expected during 2026. Announced alongside a co-development agreement with a US insulin pump device company for AT278. Evidence that the Arestat technology-access model generates realisable value. Logged 2026-09-22 on first verification of Arecor; not new news.",
+          "molecule": "AT220 (biosimilar), AT292, AT278",
+          "source_name": "GlobeNewswire (Arecor)",
+          "source_url": "https://www.globenewswire.com/news-release/2025/09/25/3155998/0/en/Arecor-announces-Co-development-Agreement-with-US-Insulin-Pump-Device-Company-for-AT278-Sale-of-Royalty-Rights-and-Technology-Access-Fees-for-AT220-and-AT292.html",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: Arecor는 AT220(Arestat 적용 바이오시밀러)의 글로벌 로열티 권리와 AT292 관련 마일스톤 및 기술 접근료를 Ligand에 최대 $11.0 million에 매각했으며, 이 중 $1.0 million은 2026년 중 수령이 예상됐다. 같은 날 미국 인슐린 펌프 기기 회사와의 AT278 공동개발 계약도 함께 발표됐다. Arestat의 기술 접근료 모델이 실현 가능한 가치를 창출한다는 근거다. Arecor 최초 검증 시점인 2026-09-22에 기록했으며, 신규 뉴스가 아니다."
+        },
+        {
+          "deal_id": "arecor_skye_nimacimab_2025-05",
+          "partner": "Skye Bioscience",
+          "deal_type": "Licensing/Collaboration",
+          "date": "2025-05",
+          "date_sort_key": 20250501,
+          "summary": "BACKFILL: Formulation development collaboration to produce a higher-concentration formulation of Skye Bioscience's CB1 inhibitor nimacimab using Arestat. Notable for the tracker because Skye subsequently signed a non-exclusive ENHANZE licence with Halozyme in January 2026 -- the same asset class evaluated against two different high-concentration platforms. Logged 2026-09-22 on first verification of Arecor; not new news.",
+          "molecule": "Nimacimab (CB1 inhibitor)",
+          "source_name": "BioIndustry Association (BIA)",
+          "source_url": "https://www.bioindustry.org/resource/arecor-establishes-partnership-with-skye-bioscience-to-develop-enhanced-formulation-of-obesity-candidate-nimacimab-.html",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: Arestat를 활용해 Skye Bioscience의 CB1 억제제 nimacimab의 고농도 제형을 개발하는 제형 공동연구 계약. Skye가 이후 2026년 1월 할로자임과 비독점 ENHANZE 라이선스를 체결했다는 점에서 본 트래커에 의미가 있다 -- 동일 자산군이 서로 다른 두 고농도 플랫폼을 놓고 검토된 사례다. Arecor 최초 검증 시점인 2026-09-22에 기록했으며, 신규 뉴스가 아니다."
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false,
+      "concentration_text_ko": "항체 프로그램에 대해서는 수치가 비공개다. 자사 주력 자산 AT278은 500 U/mL 인슐린이며, 고농도 아달리무맙 제형을 2038년까지 보호하는 유럽 등록특허 2건이 있다.",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "Arestat는 안정적인 고농도 액상 제형을 구현하는 자사 부형제·제형 플랫폼으로, 항체, 복합 바이오의약품, 펩타이드, 백신 전반에 적용된다. 단독 개발이 아니라 라이선스 모델이다: 파트너가 기술 접근료와 마일스톤 조건으로 초기 제형 연구를 지원하고, 그 결과물인 제형 지식재산권을 확보할 수 있다. 2025년 5월 Skye Bioscience와 CB1 억제제 nimacimab의 고농도 제형 개발을 위해 협력했는데, 이 회사는 2026년 1월 할로자임과 ENHANZE 라이선스를 체결한 곳이기도 하다."
+    },
+    {
+      "id": "gc_viscosity_excipient",
+      "name": "Viscosity-reducing excipient composition",
+      "company": "GC Biopharma / Green Cross Holdings",
+      "stage_raw": "Patent-stage platform asset; no disclosed clinical program, partnership or product",
+      "stage_bucket": "Platform / Feasibility",
+      "type": "Other",
+      "concentration_text": "Not disclosed numerically; the patent family claims low-viscosity, highly concentrated protein formulations without a public mg/mL figure.",
+      "concentration_numeric": null,
+      "concentration_bucket": "Not disclosed",
+      "needle_size": "Not disclosed",
+      "mechanism": "A viscosity-reducing excipient composition for low-viscosity, highly concentrated protein formulations, filed internationally as WO2023234611A1 (also EP4531807A1, US2025367296A1, KR20230167968A, CA3255075A1, CN119255788A) with earliest priority 2022-06-03 and classified under CPC as an antibody formulation. Found through the patent record rather than trade press: no corresponding clinical program, partnership or product announcement has been identified, so treat this as an early platform signal from a Korean plasma-protein incumbent, not an established offering.",
+      "date_added": "2026-09-22",
+      "last_reviewed": "2026-09-22",
+      "deals": [
+        {
+          "deal_id": "gc_viscosity-excipient_wo2023234611_2023-12-07",
+          "partner": "N/A (patent family; no disclosed partner)",
+          "deal_type": "Patent filing",
+          "date": "2023-12-07",
+          "date_sort_key": 20231207,
+          "summary": "BACKFILL: International publication of WO2023234611A1, \"Viscosity-reducing excipient composition and low-viscosity highly concentrated protein formulation containing same\" (Green Cross Holdings, earliest priority 2022-06-03), with national-phase members in EP, US, KR, CA and CN. Identified from the patent record during a competitive screen, not from trade press -- no clinical program or partner has been disclosed against it. Logged 2026-09-22; not new news.",
+          "molecule": "Not specified (protein/antibody formulations)",
+          "source_name": "Google Patents / WIPO",
+          "source_url": "https://patents.google.com/patent/EP4531807A1",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: WO2023234611A1 \"점도 저감 부형제 조성물 및 이를 포함하는 저점도 고농도 단백질 제형\"(Green Cross Holdings, 최우선일 2022-06-03)의 국제 공개이며, EP, US, KR, CA, CN에 국내단계 패밀리가 있다. 업계 기사가 아니라 경쟁 스크리닝 과정에서 특허 기록으로 확인했다 -- 이에 대응하는 임상 프로그램이나 파트너는 공개되지 않았다. 2026-09-22에 기록했으며, 신규 뉴스가 아니다."
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false,
+      "concentration_text_ko": "수치는 비공개이며, 해당 특허 패밀리는 저점도 고농도 단백질 제형을 청구하고 있으나 공개된 mg/mL 수치는 없다.",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "저점도 고농도 단백질 제형을 위한 점도 저감 부형제 조성물로, WO2023234611A1(및 EP4531807A1, US2025367296A1, KR20230167968A, CA3255075A1, CN119255788A)로 국제 출원됐으며 최우선일은 2022-06-03이고 CPC상 항체 제형으로 분류된다. 업계 기사가 아니라 특허 기록을 통해 발견됐다: 대응하는 임상 프로그램, 파트너십, 제품 발표는 확인되지 않았으므로, 확립된 상용 기술이 아니라 한국 혈장단백 기존 기업의 초기 플랫폼 신호로 취급해야 한다."
+    },
     {
       "id": "academic_ionic_liquid_chat",
       "name": "Thermostable Ionic Liquid Excipient (CHAT)",
