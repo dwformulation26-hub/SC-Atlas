@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T14:11:23+09:00",
+  "generated_at": "2026-09-22T00:09:37+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -59,7 +59,7 @@
     "tracked": 28,
     "comparable": 17,
     "commercial": 8,
-    "deals_tracked": 63,
+    "deals_tracked": 65,
     "flagged_deals": 6
   },
   "internal_targets": [
@@ -171,7 +171,7 @@
           "relevance": "Low",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": true,
+          "new_in_digest": false,
           "summary_ko": "백필: 이번 실행의 검색 기간보다 수개월 앞선 논문으로, 정규 Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다. 콜린-트립토판 이온성 액체(CHAT) 부형제가 점도를 낮추는 동시에 조직 흡수를 높여, 히알루로니다제 기반 기전 없이 90-230 mg/mL로 농축한 항체 제형의 피하 주사를 가능하게 함을 보인 동료심사 논문(Erdi, Ramesh, Chandran Suja, Zhang, Mitragotri, Singh - Harvard/Mitragotri Lab), Advanced Materials 게재. 이미 추적 중인 분무건조 현탁액(academic_spray_dried), 용매 탈수 하이드로젤(academic_solvent_dehydration_hydrogel) 접근법과 구별되는 새로운 학술 기술 항목이다."
         }
       ],
@@ -451,7 +451,7 @@
           "relevance": "High",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": true,
+          "new_in_digest": false,
           "summary_ko": "EU CHMP가 절제 가능한 근육침윤성 방광암(MIBC)의 수술 전후(선행 후 보조) 치료로 KEYTRUDA(펨브롤리주맙)와 Padcev(엔포투맙 베도틴-ejfv) 병용요법의 승인을 권고하는 긍정 의견을 채택했으며, 이 권고는 ALT-B4를 적용한 피하 펨브롤리주맙 제형(키트루다 SC, 미국의 키트루다 Qlex)을 명시적으로 포함한다. 이미 추적 중인 ALT-B4/Hybrozyme 피하 제형의 EU 내 새로운 적응증 확대이며 이전에는 기록되지 않았다. EC 최종 결정은 EU와 아이슬란드, 리히텐슈타인, 노르웨이를 대상으로 2026년 4분기에 예상된다."
         },
         {
@@ -467,7 +467,7 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": true,
+          "new_in_digest": false,
           "summary_ko": "백필: 이번 실행의 검색 기간(2026-09-18T09:02 KST 시작) 이전에 발생한 사안으로, 정규 Tier-1/Tier-4 스윕에서 확인되었고 이전에는 추적되지 않았다. 일본 후생노동성(MHLW)이 펨브롤리주맙(키트루다)을 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 '키젝트 배합 피하주사'(395 mg 및 790 mg)의 제조판매 승인을 부여했다. 일본에서 승인된 최초의 피하 면역관문억제제다. 3상 MK-3475A-D77 시험을 근거로 투여 시간을 정맥주사 약 30분에서 피하주사 약 1-2분으로 단축한다. 미국, EU/캐나다, 한국에 이어 ALT-B4 기반 키트루다 SC의 네 번째 주요 시장 승인이며(한국 승인은 alteogen_msd_keytruda-sc-korea-approval_2026-05-19로 별도 추적 중), 일본 건은 기록되지 않았었다. 같은 날 이루어진 LEQEMBI Pen 피하 제형의 일본 승인(물질과 기술이 무관한 별개 사안)은 별도로 추적 중이다(eisai_biogen_leqembiiqlik_japan-approval_2026-09-16 참조)."
         },
         {
@@ -597,6 +597,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "도스탈리맙 피하 제형에 대한 독점 라이선스. 선급금 $20M + 마일스톤 최대 $265M(총 $285M, 한국 언론 보도로 확인)."
+        },
+        {
+          "deal_id": "alteogen_msd_keytruda-sc-eu-approval_2025-11",
+          "partner": "Merck (MSD) / European Commission",
+          "deal_type": "Regulatory approval",
+          "date": "2025-11-19",
+          "date_sort_key": 20251119,
+          "summary": "BACKFILL: this event is well outside this run's ~24h search window and predates every other EU/Korea/Japan Keytruda SC row already tracked; surfaced during the Tier-5 direct regulatory-calendar sweep (EMA CHMP query) while checking the 2026-09-18 CHMP MIBC opinion already logged, and was not previously tracked -- a completeness gap of the same kind flagged for Opdivo Qvantig in the 2026-09-21 incident log. The European Commission approved subcutaneous administration of KEYTRUDA (pembrolizumab, coformulated with ALT-B4/berahyaluronidase alfa) for all 33 adult indications then approved in the EU, to be marketed as KEYTRUDA SC across all 27 EU member states plus Iceland, Liechtenstein and Norway -- the first subcutaneous checkpoint inhibitor approved in Europe, administered by a healthcare provider in as little as one minute. This followed a positive EU CHMP opinion adopted 2025-09-18 (the same meeting that separately recommended a new perioperative head-and-neck-cancer indication). This is the general/EU-wide ALT-B4-enabled Keytruda SC marketing authorization -- distinct from, and broader than, the already-tracked 2026-09-18 CHMP opinion covering only the MIBC indication extension.",
+          "molecule": "Pembrolizumab and berahyaluronidase alfa-pmph (KEYTRUDA SC) -- ALT-B4-enabled formulation",
+          "source_name": "Merck.com / BusinessWire (primary); corroborated by BioSpace, Morningstar, Yahoo Finance, Urology Times, Nasdaq, OncLive, CancerNetwork, Pearce IP (8 independent outlets)",
+          "source_url": "https://www.businesswire.com/news/home/20251119081276/en/European-Commission-Approves-Subcutaneous-Administration-of-KEYTRUDA-pembrolizumab-for-All-Adult-Indications-Approved-in-the-European-Union",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": true,
+          "summary_ko": "백필: 이번 실행의 약 24시간 검색 기간을 크게 벗어나며, 이미 추적 중인 EU/한국/일본의 다른 모든 키트루다 SC 항목보다 앞선 사안이다. Tier-5 규제 캘린더 직접 스윕(EMA CHMP 조회) 중 이미 기록된 2026-09-18 CHMP MIBC 의견을 확인하는 과정에서 발견되었으며 이전에는 추적되지 않았다 -- 2026-09-21 인시던트 로그에서 Opdivo Qvantig에 대해 지적된 것과 같은 종류의 완전성 공백이다. 유럽연합 집행위원회(EC)는 KEYTRUDA(펨브롤리주맙, ALT-B4/베라히알루로니다제 알파 복합 제형)의 피하투여를 당시 EU에서 승인된 33개 전체 성인 적응증에 대해 승인했으며, EU 27개 회원국 및 아이슬란드, 리히텐슈타인, 노르웨이 전역에서 KEYTRUDA SC로 판매된다 -- 유럽에서 승인된 최초의 피하 면역관문억제제이며, 의료진이 최단 1분 만에 투여할 수 있다. 이는 2025-09-18 채택된 EU CHMP 긍정 의견(같은 회의에서 두경부암 수술 전후 신규 적응증도 별도로 권고)에 따른 것이다. 이는 ALT-B4 기반 키트루다 SC의 일반/EU 전역 시판허가이며, 이미 추적 중인 2026-09-18 CHMP 의견(MIBC 적응증 확대만 다룸)과는 구별되고 그보다 범위가 넓다."
         },
         {
           "deal_id": "alteogen_astrazeneca_2026",
@@ -1677,6 +1693,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "FDA가 이사툭시맙-irfc(Sarclisa Escena)의 피하 주사 제형을 승인해, 다발골수종에서 현재 승인된 모든 정맥주사 이사툭시맙 적응증으로 확대되었다. 수동 또는 온바디 인젝터로 투여한다. 온바디 인젝터로 승인된 최초의 항암제다."
+        },
+        {
+          "deal_id": "sanofi_sarclisa-escena_eu-chmp_2026-03",
+          "partner": "Sanofi / EMA CHMP",
+          "deal_type": "Regulatory recommendation",
+          "date": "2026-03-27",
+          "date_sort_key": 20260327,
+          "summary": "BACKFILL: published nearly six months before this run's window; surfaced during the Tier-5 EMA CHMP sweep while checking for other tracked-molecule regulatory decisions and was not previously tracked -- only the 2026-07-09 FDA approval of Sarclisa Escena is currently logged. EU CHMP adopted a positive opinion recommending approval of Sarclisa (isatuximab) subcutaneous, administered via on-body injector or manual injection, in combination with standard-of-care regimens across all currently approved indications for IV Sarclisa in multiple myeloma. If approved, Sarclisa Escena would be the first anticancer treatment in the EU offering both on-body-injector and manual-injection administration. EC final decision was pending at the time of the opinion; this run did not confirm whether a final EC decision has since issued.",
+          "molecule": "Isatuximab SC (Sarclisa Escena) -- on-body injector formulation",
+          "source_name": "Sanofi.com (primary); corroborated by Endpoints News",
+          "source_url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-03-27-12-00-00-3263711",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": true,
+          "summary_ko": "백필: 이번 실행의 검색 기간보다 거의 6개월 앞서 발표된 사안으로, 다른 추적 대상 물질의 규제 결정을 확인하는 Tier-5 EMA CHMP 스윕 중 발견되었으며 이전에는 추적되지 않았다 -- 현재는 2026-07-09 FDA의 Sarclisa Escena 승인만 기록되어 있다. EU CHMP는 온바디 인젝터 또는 수동 주사로 투여하는 피하 Sarclisa(이사툭시맙)를, 다발골수종에서 승인된 정맥주사 Sarclisa의 모든 기존 적응증에 대해 표준 치료 병용요법으로 승인할 것을 권고하는 긍정 의견을 채택했다. 승인될 경우 Sarclisa Escena는 EU에서 온바디 인젝터와 수동 주사 투여를 모두 제공하는 최초의 항암 치료제가 된다. 의견 채택 당시 EC 최종 결정은 계류 중이었으며, 이번 실행에서는 그 이후 EC 최종 결정이 내려졌는지 확인하지 못했다."
         }
       ],
       "is_internal": false,
@@ -1738,7 +1770,7 @@
       "relevance": "High",
       "confidence": "Primary",
       "flagged": false,
-      "new_in_digest": true,
+      "new_in_digest": false,
       "summary_ko": "EU CHMP가 절제 가능한 근육침윤성 방광암(MIBC)의 수술 전후(선행 후 보조) 치료로 KEYTRUDA(펨브롤리주맙)와 Padcev(엔포투맙 베도틴-ejfv) 병용요법의 승인을 권고하는 긍정 의견을 채택했으며, 이 권고는 ALT-B4를 적용한 피하 펨브롤리주맙 제형(키트루다 SC, 미국의 키트루다 Qlex)을 명시적으로 포함한다. 이미 추적 중인 ALT-B4/Hybrozyme 피하 제형의 EU 내 새로운 적응증 확대이며 이전에는 기록되지 않았다. EC 최종 결정은 EU와 아이슬란드, 리히텐슈타인, 노르웨이를 대상으로 2026년 4분기에 예상된다.",
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
@@ -1774,7 +1806,7 @@
       "relevance": "High",
       "confidence": "Secondary",
       "flagged": false,
-      "new_in_digest": true,
+      "new_in_digest": false,
       "summary_ko": "백필: 이번 실행의 검색 기간(2026-09-18T09:02 KST 시작) 이전에 발생한 사안으로, 정규 Tier-1/Tier-4 스윕에서 확인되었고 이전에는 추적되지 않았다. 일본 후생노동성(MHLW)이 펨브롤리주맙(키트루다)을 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 '키젝트 배합 피하주사'(395 mg 및 790 mg)의 제조판매 승인을 부여했다. 일본에서 승인된 최초의 피하 면역관문억제제다. 3상 MK-3475A-D77 시험을 근거로 투여 시간을 정맥주사 약 30분에서 피하주사 약 1-2분으로 단축한다. 미국, EU/캐나다, 한국에 이어 ALT-B4 기반 키트루다 SC의 네 번째 주요 시장 승인이며(한국 승인은 alteogen_msd_keytruda-sc-korea-approval_2026-05-19로 별도 추적 중), 일본 건은 기록되지 않았었다. 같은 날 이루어진 LEQEMBI Pen 피하 제형의 일본 승인(물질과 기술이 무관한 별개 사안)은 별도로 추적 중이다(eisai_biogen_leqembiiqlik_japan-approval_2026-09-16 참조).",
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"

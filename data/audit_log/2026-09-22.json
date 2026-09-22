@@ -1,0 +1,474 @@
+{
+  "run_date": "2026-09-22",
+  "window": {
+    "from": "2026-09-21T09:05:00+09:00",
+    "to": "2026-09-22T09:35:00+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday cadence (Tuesday, previous run completed Monday 2026-09-21T09:05 KST per data/audit_log/2026-09-21.json) -- ~24h window, no Monday/gap extension needed."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Xeris XeriJect OR Lindy Microglassification OR Nanoform OR InventageLab OR Prestige IDC224 subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" technology deal September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 고농축 현탁 주사 기술 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration September 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "site:clinicaltrials.gov high concentration subcutaneous ALT-B4 OR ENHANZE OR Hypercon 2026"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 9월"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 2026년 9월 / 특허청 히알루로니다제 고농도 제형"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP meeting highlights September 2026"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "MHLW PMDA 新薬 一斉承認 2026年9月"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "FDA Novel Drug Approvals 2026 list September"
+    },
+    {
+      "tier": 5,
+      "lang": "ko",
+      "query": "식약처 의약품 허가 목록 2026년 9월"
+    },
+    {
+      "tier": 5,
+      "lang": "zh",
+      "query": "NMPA 药品批准 2026年9月 批件"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "note": "Supplementary targeted follow-ups beyond the fixed 22 (matrix is a floor, not a ceiling)"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "EMA CHMP September 2026 Keytruda subcutaneous pembrolizumab positive opinion"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "Keytruda SC European Commission approval 2025 pembrolizumab subcutaneous EU launch"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "PMDA 承認 2026年9月 キイトルーダ OR オプジーボ OR レケンビ OR ダラザレックス 皮下"
+    },
+    {
+      "tier": 5,
+      "lang": "ko",
+      "query": "키트루다 SC 다잘렉스 SC 허쥬마 SC 9월 허가 식약처 2026"
+    },
+    {
+      "tier": 5,
+      "lang": "zh",
+      "query": "NMPA 帕博利珠单抗 皮下 达雷妥尤单抗 皮下 2026年9月 批准"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "알테오젠 OR 셀트리온 OR 할로자임 OR 인벤티지랩 OR 프레스티지바이오파마 뉴스 2026-09-22"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "Halozyme OR Alteogen OR Xeris news September 22 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "휴온스랩 하이디퓨즈 OR 아미코젠 히알루로니다제 뉴스 9월"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "WuXi Biologics OR Nanoform OR Alphamab Oncology subcutaneous high concentration news this week"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "LEQEMBI IQLIK lecanemab subcutaneous news September 2026"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Alteogen Enters Option and License Agreement with Novartis for Hybrozyme-Enabled SC Products",
+      "published": "2026-09-02",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Directly answers who can license large-volume SC conversion; Novartis/ALT-B4 deal.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as alteogen_novartis_2026-09 (date 2026-09-02).",
+      "event_key": "alteogen_novartis_2026-09",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme Announces Global Collaboration and License Agreement with Incyte (ENHANZE)",
+      "published": "2026-07-20",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ENHANZE license deal, core tracked-entity sweep result.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as halozyme_incyte_2026-07.",
+      "event_key": "halozyme_incyte_2026-07",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "[SC 플랫폼 줌인] 삼성바이오에피스, 히알루로니다제 국제특허 2건 출원 -- 딜사이트",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "unverified",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Would show Samsung Bioepis hyaluronidase-purification IP if confirmed as a new dated filing.",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "dealsite.co.kr is EGRESS_BLOCKED; no publication date or patent-application number could be confirmed via URL (no date pattern) or a second source in the time available. Appears to reference the already-tracked 2026-07-13 Samsung Bioepis PH20 disclosure (samsungbioepis_ph20_disclosure_2026-07-13) rather than a new event, but this could not be confirmed either way.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "[SC 플랫폼 줌인] 셀트리온, 유력기술 2종 보유...할로자임과 특허 분쟁 변수 -- 딜사이트",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "N/A -- rejected at Gate B.",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Landscape/explainer piece ('플랫폼 줌인' series), not a discrete dated event; source EGRESS_BLOCKED so could not confirm otherwise.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "지투지바이오, 삼성바이오에피스·셀트리온과 협업...플랫폼 확장 '속도' -- Nate",
+      "published": "2026-08-03",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "conflict",
+      "gate_e": "Would extend the already-tracked G2G Bio/Celltrion collaboration if it is a distinct, broader event.",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Published 2026-08-03 (URL id 20260803n20203), well outside window; m.news.nate.com EGRESS_BLOCKED so full text could not be checked against the already-tracked g2gbio_celltrion_mou_2026-07-30 (2026-07-30) to confirm whether this is the same event restated with Samsung Bioepis added, or genuinely distinct. Not logged given inability to verify distinctness; not a fresh-window item either way.",
+      "event_key": "g2gbio_celltrion_mou_2026-07-30",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "G2Gbio CEO Sees Monthly Obesity Shots Becoming Industry Standard -- Seoul Economic Daily",
+      "published": "2026-09-21",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "N/A -- rejected at Gate B.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "CEO interview/strategy commentary published within window (URL /2026/09/22/, interview conducted 'on the 21st'), but contains no discrete dated deal, patent, or technical milestone beyond general statements that G2G Bio's InnoBioLAMP platform (already tracked) is 'expanding into' ultra-high-concentration antibody SC conversion -- no partner, patent number, or concentration figure given. Context only, not a loggable finding.",
+      "event_key": null,
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Pharmacokinetics and Tolerability of Subcutaneous Dupilumab Coformulated With Berahyaluronidase Alfa (NCT07646548)",
+      "published": "2026-06",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Direct Dupixent-benchmark SC/ALT-B4 trial, core to the tracker's question.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Same trial already tracked as alteogen_sanofi_dupixent-p1-dosing_2026-07-23 (started June 2026, primary completion expected 2026-09-30). Results not yet posted; no new information this run.",
+      "event_key": "alteogen_sanofi_dupixent-p1-dosing_2026-07-23",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "CHMP 14-17 September 2026 meeting highlights -- Keytruda + Padcev MIBC, cisplatin-ineligibility restriction dropped",
+      "published": "2026-09-18",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Tier-5 regulatory-calendar catch of a Keytruda SC (ALT-B4) indication extension, exactly the incident-log pattern.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Matches the already-tracked alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18 (logged in the 2026-09-21 deep-scan run). Same underlying CHMP opinion.",
+      "event_key": "alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Merck Receives Two Positive EU CHMP Opinions for KEYTRUDA (pembrolizumab), for Subcutaneous (SC) Administration and for New Indication for Earlier-Stage Head and Neck Cancer",
+      "published": "2025-09-18",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Underlying CHMP recommendation behind the EU-wide Keytruda SC marketing authorization -- foundational ALT-B4 commercial milestone not yet tracked.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "Initial WebSearch AI summary mis-dated this to 'September 2026' / conflated it with the unrelated Sept-2026 CHMP meeting -- red flag per Step 1.5.1 (a date landing suspiciously inside the window). Verified via businesswire.com URL id 20250918949874, confirming actual date 2025-09-18, over a year outside the window. Logged the downstream EC approval event instead (see findings) as the more decisive, better-dated milestone; this CHMP-opinion source is cited as corroborating context within that finding's summary rather than as its own row, to avoid two rows for one regulatory process.",
+      "event_key": "alteogen_msd_keytruda-sc-eu-approval_2025-11",
+      "canonical": false,
+      "corroborating_urls": [
+        "https://www.businesswire.com/news/home/20250918949874/en"
+      ]
+    },
+    {
+      "raw_title": "European Commission Approves Subcutaneous Administration of KEYTRUDA (pembrolizumab) for All Adult Indications Approved in the European Union",
+      "published": "2025-11-19",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "General EU-wide marketing authorization for the already-tracked ALT-B4/Hybrozyme Keytruda SC formulation -- a completeness gap of the same kind as the Opdivo Qvantig gap flagged in the 2026-09-21 incident log.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "alteogen_msd_keytruda-sc-eu-approval_2025-11",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.biospace.com/press-releases/european-commission-approves-subcutaneous-administration-of-keytruda-pembrolizumab-for-all-adult-indications-approved-in-the-european-union",
+        "https://www.morningstar.com/news/business-wire/20251119081276/european-commission-approves-subcutaneous-administration-of-keytruda-pembrolizumab-for-all-adult-indications-approved-in-the-european-union",
+        "https://www.pearceip.law/2025/11/19/msds-subcutaneous-keytruda-approved-in-europe/"
+      ]
+    },
+    {
+      "raw_title": "Sanofi's Sarclisa subcutaneous formulation administered via on-body injector recommended for EU approval by the CHMP to treat multiple myeloma",
+      "published": "2026-03-27",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "EU regulatory milestone for the already-tracked Sarclisa Escena SC platform, currently only tracked via its US FDA approval -- another completeness gap surfaced by the Tier-5 EMA sweep.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "sanofi_sarclisa-escena_eu-chmp_2026-03",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://endpoints.news/chmp-recommends-subcutaneous-form-of-sanofis-sarclisa-and-four-new-drugs/"
+      ]
+    },
+    {
+      "raw_title": "PMDA/MHLW batch approvals list, September 2026 (Kiject, LEQEMBI Pen)",
+      "published": "2026-09-16",
+      "lang": "ja",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "N/A -- both already tracked.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Both Kiject (alteogen_msd_keytruda-sc-japan-approval_2026-09-16) and LEQEMBI Pen Japan (eisai_biogen_leqembiiqlik_japan-approval_2026-09-16) already tracked from the 2026-09-21 backfill run.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "휴온스랩, '하이디퓨즈' 적용 항체의약품 11종 SC제형 특허 확보",
+      "published": "2026-08-31",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "N/A -- already tracked.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as huonslab_hydiffuze_11antibody-patent_2026-08-31.",
+      "event_key": "huonslab_hydiffuze_11antibody-patent_2026-08-31",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "NMPA approval of daratumumab SC ('兆珂速', Darzalex Faspro-class) in China",
+      "published": null,
+      "lang": "zh",
+      "gate_a": "pass",
+      "gate_b": "unverified",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Would be an ENHANZE-family completeness-gap backfill, same class as the standing Opdivo Qvantig gap in the incident log.",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Surfaced only via an NHSA medical-insurance-catalog PDF filename reference, no approval date or primary NMPA/J&J source pinned down within this run's budget. Noted here as a candidate completeness gap for a dedicated backfill pass (per the incident log's own guidance on the Opdivo Qvantig-class gap), not pursued further today.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA approval of LEQEMBI autoinjector for maintenance dosing (~August 2025)",
+      "published": "2025-08",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "unverified",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Would be an earlier LEQEMBI IQLIK SC milestone not yet tracked (initiation-dose approval and later China/Japan approvals are tracked; maintenance-dose approval is not).",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Surfaced only as a search-result title reference, not independently opened or date-verified within this run's budget. Flagged as a possible gap for a future backfill pass rather than logged on an unconfirmed date.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)",
+      "company": "Alteogen / MSD",
+      "event": "European Commission approves KEYTRUDA SC (pembrolizumab + ALT-B4) for all 33 adult indications in the EU",
+      "date": "2025-11-19",
+      "freshness": "backfill",
+      "source_name": "Merck.com / BusinessWire",
+      "source_url": "https://www.businesswire.com/news/home/20251119081276/en/European-Commission-Approves-Subcutaneous-Administration-of-KEYTRUDA-pembrolizumab-for-All-Adult-Indications-Approved-in-the-European-Union",
+      "confidence": "Primary",
+      "summary": "EC approved subcutaneous KEYTRUDA (ALT-B4-enabled) for all 33 adult indications across the EU, Iceland, Liechtenstein and Norway -- the first SC checkpoint inhibitor approved in Europe. A completeness gap: not previously tracked despite Korea, Japan and an EU indication-extension already being logged.",
+      "summary_ko": "EC가 EU, 아이슬란드, 리히텐슈타인, 노르웨이 전역에서 ALT-B4 기반 피하 키트루다를 33개 전체 성인 적응증에 대해 승인했다 -- 유럽에서 승인된 최초의 피하 면역관문억제제. 한국, 일본, EU 적응증 확대 건은 이미 추적 중이었음에도 이 건은 완전성 공백으로 남아 있었다.",
+      "conflicts_with": null
+    },
+    {
+      "technology": "Sarclisa Escena (SC isatuximab, on-body injector)",
+      "company": "Sanofi",
+      "event": "EU CHMP positive opinion recommends approval of Sarclisa Escena (SC isatuximab) across all IV Sarclisa indications",
+      "date": "2026-03-27",
+      "freshness": "backfill",
+      "source_name": "Sanofi.com",
+      "source_url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-03-27-12-00-00-3263711",
+      "confidence": "Primary",
+      "summary": "EU CHMP recommended approval of Sarclisa Escena (on-body-injector or manual SC isatuximab) across all currently approved multiple myeloma indications. EC final decision status not confirmed this run. Fills a gap alongside the already-tracked US FDA approval.",
+      "summary_ko": "EU CHMP는 다발골수종에서 승인된 모든 적응증에 대해 Sarclisa Escena(온바디 인젝터 또는 수동 피하 이사툭시맙)의 승인을 권고했다. EC 최종 결정 여부는 이번 실행에서 확인하지 못했다. 이미 추적 중인 미국 FDA 승인과 함께 공백을 메운다.",
+      "conflicts_with": null
+    }
+  ]
+}
