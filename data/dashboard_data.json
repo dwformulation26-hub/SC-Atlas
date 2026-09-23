@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-22T11:40:59+09:00",
+  "generated_at": "2026-09-23T09:06:32+09:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
   },
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-23",
   "stage_order": [
     "Research / Academic",
     "Preclinical",
@@ -27,6 +27,7 @@
     "Alphamab Oncology (Jiangsu/Suzhou Alphamab Biopharmaceuticals; 康宁杰瑞制药)",
     "Alteogen",
     "Althea Technologies (now part of Ajinomoto Bio-Pharma Services)",
+    "Altruist Biologics (wholly owned subsidiary of Innovent Biologics)",
     "Amicogen (아미코젠)",
     "Arecor Therapeutics",
     "Bhami's Research Laboratory (licensed to Ipca Laboratories)",
@@ -58,10 +59,10 @@
     "Not disclosed"
   ],
   "counts": {
-    "tracked": 30,
-    "comparable": 17,
-    "commercial": 8,
-    "deals_tracked": 78,
+    "tracked": 31,
+    "comparable": 18,
+    "commercial": 9,
+    "deals_tracked": 82,
     "flagged_deals": 6
   },
   "internal_targets": [
@@ -145,6 +146,44 @@
     }
   ],
   "technologies": [
+    {
+      "id": "altruist_altru_con",
+      "name": "Altru-CON",
+      "company": "Altruist Biologics (wholly owned subsidiary of Innovent Biologics)",
+      "stage_raw": "Approved / Commercially available (CDMO service)",
+      "stage_bucket": "Approved / Marketed",
+      "type": "Other",
+      "concentration_text": "Up to 200 mg/mL, with an over two-fold viscosity reduction, per the company launch announcement of 2026-03-04. Stable formulations stated across a 100-200 mg/mL range at a viscosity the company describes as suitable for subcutaneous administration; no cP figure and no injection volume disclosed.",
+      "concentration_numeric": 200.0,
+      "concentration_bucket": "< 300 mg/mL",
+      "needle_size": "Not disclosed",
+      "mechanism": "Proprietary excipient blends applied to high-concentration formulation development, offered as a platform service rather than as a licensed delivery enzyme or particle technology. The company states the platform can reduce IND submission timelines to under nine months, and that it already supports one approved high-concentration product, two late-stage clinical programs, six early-stage clinical programs and 10 preclinical projects. Positioned as a Chinese-origin competitor to the CDMO high-concentration formulation platforms already tracked here -- Samsung Biologics S-HiCon (200 mg/mL) and WuXi Biologics WuXiHigh 2.0 (230 mg/mL). At up to 200 mg/mL it sits well below the ultra-high-concentration tier (XeriJect >400 mg/mL, Microglassification 300-600 mg/mL, InnoBioLAMP 750 mg/mL or higher), so its competitive claim is development speed and viscosity control, not peak concentration.",
+      "date_added": "2026-09-23",
+      "last_reviewed": "2026-09-23",
+      "deals": [
+        {
+          "deal_id": "altruist_altru-con_launch_2026-03-04",
+          "partner": "Innovent Biologics (parent company)",
+          "deal_type": "Platform launch",
+          "date": "2026-03-04",
+          "date_sort_key": 20260304,
+          "summary": "BACKFILL: Altruist Biologics, a wholly owned subsidiary of Innovent Biologics, launched Altru-CON, a high-concentration formulation platform for biologics. The company states protein concentrations up to 200 mg/mL with an over two-fold viscosity reduction, stable formulations across a 100-200 mg/mL range suitable for subcutaneous administration, and IND submission timelines reduced to under nine months. It reports the platform already supports one approved high-concentration product, two late-stage clinical programs, six early-stage clinical programs and 10 preclinical projects. New to the tracker as a previously untracked competitor to the CDMO high-concentration formulation platforms S-HiCon and WuXiHigh 2.0; logged 2026-09-23 as competitive context, not as new news.",
+          "molecule": "Platform (not molecule-specific)",
+          "source_name": "Altruist Biologics / PR Newswire",
+          "source_url": "https://www.prnewswire.com/news-releases/altruist-biologics-launches-altru-con-high-concentration-formulation-platform-to-accelerate-biologics-development-302702651.html",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: Innovent Biologics의 완전 자회사인 Altruist Biologics가 바이오의약품용 고농도 제형 플랫폼 Altru-CON을 출시했다. 회사는 최대 200 mg/mL 단백질 농도와 2배 이상의 점도 감소, 피하주사 (SC) 투여에 적합한 100-200 mg/mL 구간의 안정한 제형, 그리고 9개월 미만으로 단축된 IND 제출 기간을 제시한다. 또한 이 플랫폼이 이미 승인된 고농도 제품 1건, 후기 임상 2건, 초기 임상 6건, 전임상 10건을 지원하고 있다고 밝혔다. CDMO 고농도 제형 플랫폼인 S-HiCon 및 WuXiHigh 2.0의 경쟁자로서 그동안 추적되지 않았던 신규 항목이며, 2026-09-23에 신규 뉴스가 아닌 경쟁 맥락으로 기록함."
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false,
+      "concentration_text_ko": "회사의 2026-03-04 출시 발표에 따르면 최대 200 mg/mL이며 점도는 2배 이상 감소한다. 100-200 mg/mL 구간에서 안정한 제형을 구현하며 피하주사 (SC) 투여에 적합한 저점도라고 회사는 설명한다. cP 수치와 주사 용량은 비공개다.",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "고농도 제형 개발에 적용되는 독자적 부형제 조합으로, 라이선스 대상인 전달 효소나 입자 기술이 아니라 플랫폼 서비스 형태로 제공된다. 회사는 이 플랫폼이 IND 제출 기간을 9개월 미만으로 단축할 수 있으며, 이미 승인된 고농도 제품 1건, 후기 임상 2건, 초기 임상 6건, 전임상 10건을 지원하고 있다고 밝혔다. 이미 추적 중인 CDMO 고농도 제형 플랫폼인 Samsung Biologics S-HiCon (200 mg/mL), WuXi Biologics WuXiHigh 2.0 (230 mg/mL)에 대한 중국계 경쟁자로 볼 수 있다. 최대 200 mg/mL는 초고농도 구간 (XeriJect >400 mg/mL, Microglassification 300-600 mg/mL, InnoBioLAMP 750 mg/mL 이상)에 크게 미치지 못하므로, 경쟁력의 핵심은 최고 농도가 아니라 개발 속도와 점도 제어다."
+    },
     {
       "id": "arecor_arestat",
       "name": "Arestat",
@@ -323,6 +362,22 @@
           "summary_ko": "2026년 5월 PTAB 결정 3건이 Halozyme의 PH20/MDASE 특허 장벽을 실질적으로 약화시켰으며, 모두 키트루다 Qlex(피하 펨브롤리주맙)를 둘러싸고 머크가 제기한 등록후재심사 청구에서 비롯되었다: (1) PGR2025-00003, 미국 특허 11,952,600 - 청구항 1-4 및 8-21이 기재요건과 실시가능요건 결여로 특허성 없음 판단, 2026-05-12 결정; (2) PGR2025-00087, 미국 특허 12,371,685 - 개시 거부, 2026-05-15; (3) PGR2025-00006, 미국 특허 12,152,262 - 청구항 1-4 및 8-13이 동일한 이유로 특허성 없음 판단, 2026-05-18 결정. PTAB은 Halozyme이 변형 변이체 1종에 대해서만 실험적으로 유효성을 입증하면서 여러 변형을 동시에 가진 변이체들까지 청구해 발명자가 실제로 보유한 범위를 넘어섰다고 판단했다. 이는 Halozyme이 뉴저지 연방지방법원에서 머크를 상대로 주장한 MDASE 계열 특허 가운데 처음 무효화된 사례이며, 키트루다 SC를 가능하게 하는 ALT-B4를 보유한 알테오젠에 간접적으로 유리하게 작용한다. 백필: 12개월 백필 스윕 과정에서 2026-09-16 추가했으며, 이전에는 추적되지 않았다."
         },
         {
+          "deal_id": "halozyme_roche_tecentriq-hybreza_mibc-ctdna_2026-05-15",
+          "partner": "Roche / Genentech",
+          "deal_type": "Regulatory approval (marketed ENHANZE product)",
+          "date": "2026-05-15",
+          "date_sort_key": 20260515,
+          "summary": "BACKFILL: FDA approved atezolizumab (Tecentriq) and atezolizumab and hyaluronidase-tqjs (Tecentriq Hybreza) as adjuvant treatment for adults with muscle invasive bladder cancer after cystectomy who have circulating tumour DNA molecular residual disease, together with Signatera CDx (Natera) as the companion diagnostic. It is the first ctDNA-guided therapy approval. In IMvigor011, ctDNA-guided adjuvant atezolizumab reduced the risk of recurrence or death by 36% and the risk of death by 41%. This is a label expansion on an existing ENHANZE marketed product. It is worth reading against alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18: the two rival SC platforms, ENHANZE and ALT-B4, are now both advancing in muscle invasive bladder cancer, so the same indication is becoming a head-to-head setting for SC checkpoint inhibitors. Logged 2026-09-23 as competitive context, not as new news.",
+          "molecule": "Atezolizumab",
+          "source_name": "FDA",
+          "source_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-atezolizumab-adjuvant-treatment-muscle-invasive-bladder-cancer-patients-molecular",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: FDA가 아테졸리주맙 (Tecentriq) 및 아테졸리주맙 + hyaluronidase-tqjs (Tecentriq Hybreza) 를 방광절제술 후 순환종양DNA 분자잔존질환이 확인된 근침윤성 방광암 성인 환자의 보조요법으로 승인했으며, 동반진단으로 Signatera CDx (Natera) 를 함께 승인했다. ctDNA 기반 치료 결정의 첫 승인 사례다. IMvigor011 시험에서 ctDNA 유도 보조 아테졸리주맙은 재발 또는 사망 위험을 36%, 사망 위험을 41% 낮췄다. 이는 기존 ENHANZE 시판 제품의 적응증 확대다. alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18과 함께 읽을 필요가 있다: 경쟁 관계인 두 SC 플랫폼 ENHANZE와 ALT-B4가 모두 근침윤성 방광암에서 전진하고 있어, 동일 적응증이 SC 면역관문억제제의 정면 대결 무대가 되고 있다. 2026-09-23에 신규 뉴스가 아닌 경쟁 맥락으로 기록함."
+        },
+        {
           "deal_id": "halozyme_gsk_2026-05",
           "partner": "GSK",
           "deal_type": "Licensing/Collaboration",
@@ -337,6 +392,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "항체-약물 접합체(ADC)를 포함한 다수 종양학 표적의 피하 전달에 대한 글로벌 공동연구 및 라이선스 계약. 첫 임상시험은 2026년으로 예상된다."
+        },
+        {
+          "deal_id": "halozyme_janssen_darzalex-faspro_ndmm-tie_2026-01-27",
+          "partner": "Johnson & Johnson (Janssen)",
+          "deal_type": "Regulatory approval (marketed ENHANZE product)",
+          "date": "2026-01-27",
+          "date_sort_key": 20260127,
+          "summary": "BACKFILL: FDA approved Darzalex Faspro (daratumumab and hyaluronidase-fihj) in combination with bortezomib, lenalidomide and dexamethasone (VRd) for adults with newly diagnosed multiple myeloma who are ineligible for autologous stem cell transplant. Efficacy came from the CEPHEUS trial (395 patients randomised 197/198), with MRD-negativity of 52.3% vs 34.8% (P=.0005) and a progression-free survival hazard ratio of 0.60 (95% CI 0.41-0.88, P=.0078). This is a label expansion on an existing ENHANZE marketed product rather than a new IV-to-SC conversion: it moves an rHuPH20-enabled SC product into frontline use in its largest indication, widening the treated population that Halozyme royalty revenue is drawn from. Logged 2026-09-23 as competitive context, not as new news.",
+          "molecule": "Daratumumab",
+          "source_name": "Johnson & Johnson (investor news release)",
+          "source_url": "https://www.investor.jnj.com/investor-news/news-details/2026/DARZALEX-FASPRO-based-quadruplet-regimen-approved-in-the-U-S--for-newly-diagnosed-patients-with-multiple-myeloma-who-are-transplant-ineligible/default.aspx",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: FDA가 Darzalex Faspro (다라투무맙 + hyaluronidase-fihj) 와 보르테조밉, 레날리도마이드, 덱사메타손 (VRd) 병용요법을 자가조혈모세포이식 비적격 신규 진단 다발골수종 성인 환자 치료제로 승인했다. 유효성은 CEPHEUS 시험 (395명, 197/198 무작위 배정) 에 근거하며, 미세잔존질환 음성률은 52.3% 대 34.8% (P=.0005), 무진행생존 위험비는 0.60 (95% CI 0.41-0.88, P=.0078) 이었다. 이는 새로운 정맥주사-피하주사 전환이 아니라 기존 ENHANZE 시판 제품의 적응증 확대로, rHuPH20 기반 SC 제품을 최대 적응증의 1차 치료로 끌어올려 Halozyme 로열티 수익의 기반이 되는 환자군을 넓힌다. 2026-09-23에 신규 뉴스가 아닌 경쟁 맥락으로 기록함."
         },
         {
           "deal_id": "halozyme_takeda_vedolizumab_2026-01-08",
@@ -762,15 +833,15 @@
           "deal_type": "Clinical trial milestone",
           "date": "2026-07-23",
           "date_sort_key": 20260723,
-          "summary": "Sanofi completed dosing of all 40 healthy-adult subjects in a Phase 1 trial evaluating subcutaneous dupilumab (Dupixent) coformulated with Alteogen's ALT-B4 (berahyaluronidase alfa) against dupilumab alone, assessing pharmacokinetics, safety and anti-drug antibodies. The trial began June 2026 with primary completion expected September 2026. This is the first concrete clinical-stage progress on the 2019 Sanofi-Alteogen non-exclusive ALT-B4 license for a high-dose SC Dupixent formulation, whose ongoing development was only reconfirmed as a public disclosure in June 2026 (see alteogen_sanofi_2026-06) -- directly relevant to the tracker's Dupixent benchmark, since a successful readout would be the first concentration-enabling reformulation of the reference product itself. Concentration/volume figures not yet disclosed pending trial results.",
+          "summary": "CORRECTED 2026-09-23: primary source located -- ClinicalTrials.gov NCT07646548 -- and confidence upgraded from Secondary accordingly. The registry record confirms a Phase 1, single-centre, open-label, randomised, parallel-group study sponsored by Sanofi with Regeneron Pharmaceuticals as collaborator, evaluating a single subcutaneous dose of dupilumab coformulated with berahyaluronidase alfa (ALT-B4) against dupilumab without it in 40 healthy participants. Registry dates: first submitted 2026-06-08, first posted 2026-06-12, study start 2026-06-11, primary completion and completion both estimated 2026-09-30; status ACTIVE_NOT_RECRUITING. Trade press had reported on 2026-07-23 that dosing of all 40 subjects was complete. This is the first concrete clinical-stage progress on the 2019 Sanofi-Alteogen non-exclusive ALT-B4 licence for a high-dose SC Dupixent formulation, whose ongoing development was only reconfirmed publicly in June 2026 (see alteogen_sanofi_2026-06) -- directly relevant to the tracker's Dupixent benchmark, since a successful readout would be the first concentration-enabling reformulation of the reference product itself. The registry lists no mg/mL concentration or injection volume for either arm, so concentration and volume figures remain not disclosed pending results.",
           "molecule": "Dupilumab (Dupixent) + berahyaluronidase alfa (ALT-B4)",
-          "source_name": "Asia Economy Daily (asiae.co.kr); corroborated by TheBioNews (KO/EN)",
-          "source_url": "https://www.asiae.co.kr/article/2026072315581796030",
+          "source_name": "ClinicalTrials.gov (NCT07646548); corroborated by Asia Economy Daily (asiae.co.kr) and TheBioNews (KO/EN)",
+          "source_url": "https://clinicaltrials.gov/study/NCT07646548",
           "relevance": "High",
-          "confidence": "Secondary",
+          "confidence": "Primary",
           "flagged": false,
           "new_in_digest": false,
-          "summary_ko": "사노피가 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 피하 두필루맙(Dupixent)을 두필루맙 단독과 비교해 약동학, 안전성, 항약물항체를 평가하는 1상 시험에서 건강한 성인 피험자 40명 전원에 대한 투약을 완료했다. 시험은 2026년 6월 시작되었고 1차 완료 시점은 2026년 9월로 예상된다. 고용량 피하 Dupixent 제형에 대한 2019년 사노피-알테오젠 비독점 ALT-B4 라이선스에서 나온 첫 구체적 임상 단계 진전으로, 해당 계약의 개발 진행 여부는 2026년 6월에야 공개적으로 재확인되었다(alteogen_sanofi_2026-06 참조). 성공적인 결과가 나오면 기준 제품 자체의 첫 농도 개선 재제형이 되므로 본 트래커의 Dupixent 벤치마크와 직접 관련이 있다. 농도와 용량 수치는 시험 결과 발표 전까지 아직 공개되지 않았다."
+          "summary_ko": "2026-09-23 정정: 1차 출처인 ClinicalTrials.gov NCT07646548을 확보했으며 이에 따라 신뢰도를 2차 출처에서 상향 조정했다. 등록 정보에 따르면 사노피가 의뢰하고 Regeneron Pharmaceuticals가 협력사로 참여한 1상, 단일기관, 공개, 무작위, 평행군 시험으로, 건강한 성인 40명을 대상으로 베라히알루로니다제 알파 (ALT-B4) 와 복합 제형화한 피하 두필루맙 단회 투여를 ALT-B4 비포함 두필루맙과 비교한다. 등록 일자는 최초 제출 2026-06-08, 최초 게시 2026-06-12, 시험 시작 2026-06-11, 1차 완료 및 종료 모두 2026-09-30 예정이며 상태는 ACTIVE_NOT_RECRUITING다. 업계 기사는 2026-07-23에 40명 전원 투약이 완료됐다고 보고했다. 고용량 피하 Dupixent 제형에 대한 2019년 사노피-알테오젠 비독점 ALT-B4 라이선스에서 나온 첫 구체적 임상 단계 진전으로, 해당 계약의 개발 진행 여부는 2026년 6월에야 공개적으로 재확인되었다 (alteogen_sanofi_2026-06 참조). 성공적인 결과가 나오면 기준 제품 자체의 첫 농도 개선 재제형이 되므로 본 트래커의 Dupixent 벤치마크와 직접 관련이 있다. 등록 정보에는 두 군 모두 mg/mL 농도나 주사 용량이 기재돼 있지 않아, 농도와 용량 수치는 시험 결과 발표 전까지 비공개다."
         },
         {
           "deal_id": "alteogen_sanofi_2026-06",
@@ -865,7 +936,7 @@
           "relevance": "High",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": true,
+          "new_in_digest": false,
           "summary_ko": "백필: 이번 실행의 약 24시간 검색 기간을 크게 벗어나며, 이미 추적 중인 EU/한국/일본의 다른 모든 키트루다 SC 항목보다 앞선 사안이다. Tier-5 규제 캘린더 직접 스윕(EMA CHMP 조회) 중 이미 기록된 2026-09-18 CHMP MIBC 의견을 확인하는 과정에서 발견되었으며 이전에는 추적되지 않았다 -- 2026-09-21 인시던트 로그에서 Opdivo Qvantig에 대해 지적된 것과 같은 종류의 완전성 공백이다. 유럽연합 집행위원회(EC)는 KEYTRUDA(펨브롤리주맙, ALT-B4/베라히알루로니다제 알파 복합 제형)의 피하투여를 당시 EU에서 승인된 33개 전체 성인 적응증에 대해 승인했으며, EU 27개 회원국 및 아이슬란드, 리히텐슈타인, 노르웨이 전역에서 KEYTRUDA SC로 판매된다 -- 유럽에서 승인된 최초의 피하 면역관문억제제이며, 의료진이 최단 1분 만에 투여할 수 있다. 이는 2025-09-18 채택된 EU CHMP 긍정 의견(같은 회의에서 두경부암 수술 전후 신규 적응증도 별도로 권고)에 따른 것이다. 이는 ALT-B4 기반 키트루다 SC의 일반/EU 전역 시판허가이며, 이미 추적 중인 2026-09-18 CHMP 의견(MIBC 적응증 확대만 다룸)과는 구별되고 그보다 범위가 넓다."
         },
         {
@@ -1163,6 +1234,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "휴온스랩이 자사 독자 HyDiffuse rHuPH20 플랫폼과 함께 제형화한 항체 의약품 11종(펨브롤리주맙, 베바시주맙, 오비누투주맙, 라무시루맙, 도나네맙, 이사툭시맙, 더발루맙, 도스탈리맙, 세툭시맙, 리산키주맙, 두필루맙)의 피하 제형을 포괄하는 국내(한국) 및 국제(PCT) 조성물 특허를 등록했다. 비임상 약동학 연구에서 HyDiffuse 복합 제형은 항체 단독 대비 Cmax가 약 113-170%, AUC가 약 117-162% 높게 보고되었다. 회사는 이어서 국가별 출원을 진행할 계획이다. 휴온스랩의 첫 트래커 등재 건으로, Halozyme ENHANZE, 알테오젠 ALT-B4/Hybrozyme, 삼성바이오에피스 PH20 기술에 대응하는 새로운 자체 히알루로니다제 플랫폼 경쟁자로 자리매김하며, 두필루맙 조성물 청구항을 통해 Dupixent 벤치마크에 직접 겹치는 경쟁 구도를 형성한다. 추가 검색에도 이 사안에 대한 기업 1차 보도자료는 확인되지 않았다(휴온스랩은 2026년 앞선 HyDiffuse 성과에 대해 BusinessWire·BioSpace 보도자료를 낸 바 있다). 같은 날 일관된 세부 내용을 보도한 한국 업계지 7곳의 독립적 교차 확인을 근거로 2차 출처로 기록한다."
+        },
+        {
+          "deal_id": "huonslab_hydiffuze_adc-patent_2026-07-27",
+          "partner": "None (internal)",
+          "deal_type": "Patent registration",
+          "date": "2026-07-27",
+          "date_sort_key": 20260727,
+          "summary": "BACKFILL: Huons Lab registered a Korean patent covering an ADC (antibody-drug conjugate) subcutaneous formulation composition using its HyDiffuse human-derived hyaluronidase platform. The company reported nonclinical results of an approximately 1.5x faster initial rise in blood concentration, Cmax improved up to 149% and AUC improved up to 126% versus an SC formulation without HyDiffuse, and said physical and chemical stability was maintained under high-concentration conditions. This event precedes the 11-antibody SC formulation patent already tracked at 2026-08-31 (huonslab_hydiffuze_11antibody-patent_2026-08-31) and extends the same platform from monoclonal antibodies into ADCs, where high potency makes low-volume SC delivery especially valuable. Logged 2026-09-23 as competitive context, not as new news.",
+          "molecule": "ADC (antibody-drug conjugate; specific molecules not disclosed)",
+          "source_name": "MoneyToday TheBio (머니투데이 더바이오)",
+          "source_url": "https://www.mt.co.kr/thebio/2026/07/27/2026072709072121485",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 휴온스랩이 자사의 인간 유래 히알루로니다제 플랫폼 HyDiffuse를 적용한 항체-약물 접합체 (ADC) 피하주사 (SC) 제형 조성물에 대한 국내 특허를 등록했다. 회사는 비임상에서 초기 혈중 농도 상승이 약 1.5배 빨라졌고, HyDiffuse를 적용하지 않은 SC 제형 대비 Cmax는 최대 149%, AUC는 최대 126%까지 개선됐으며, 고농도 조건에서 우수한 물리·화학적 안정성이 유지됨을 확인했다고 밝혔다. 이 건은 이미 2026-08-31로 기록된 항체 11종 SC 제형 특허 (huonslab_hydiffuze_11antibody-patent_2026-08-31) 보다 앞선 사건으로, 동일 플랫폼을 단클론항체에서 ADC로 확장한 것이다. ADC는 고역가 특성상 저용량 SC 전달의 가치가 특히 크다. 2026-09-23에 신규 뉴스가 아닌 경쟁 맥락으로 기록함."
         }
       ],
       "is_internal": false,
@@ -1961,7 +2048,7 @@
           "relevance": "Medium",
           "confidence": "Primary",
           "flagged": false,
-          "new_in_digest": true,
+          "new_in_digest": false,
           "summary_ko": "백필: 이번 실행의 검색 기간보다 거의 6개월 앞서 발표된 사안으로, 다른 추적 대상 물질의 규제 결정을 확인하는 Tier-5 EMA CHMP 스윕 중 발견되었으며 이전에는 추적되지 않았다 -- 현재는 2026-07-09 FDA의 Sarclisa Escena 승인만 기록되어 있다. EU CHMP는 온바디 인젝터 또는 수동 주사로 투여하는 피하 Sarclisa(이사툭시맙)를, 다발골수종에서 승인된 정맥주사 Sarclisa의 모든 기존 적응증에 대해 표준 치료 병용요법으로 승인할 것을 권고하는 긍정 의견을 채택했다. 승인될 경우 Sarclisa Escena는 EU에서 온바디 인젝터와 수동 주사 투여를 모두 제공하는 최초의 항암 치료제가 된다. 의견 채택 당시 EC 최종 결정은 계류 중이었으며, 이번 실행에서는 그 이후 EC 최종 결정이 내려졌는지 확인하지 못했다."
         }
       ],
@@ -2264,22 +2351,22 @@
       "technology_name": "InnoBioLAMP"
     },
     {
-      "deal_id": "alteogen_sanofi_dupixent-p1-dosing_2026-07-23",
-      "partner": "Sanofi",
-      "deal_type": "Clinical trial milestone",
-      "date": "2026-07-23",
-      "date_sort_key": 20260723,
-      "summary": "Sanofi completed dosing of all 40 healthy-adult subjects in a Phase 1 trial evaluating subcutaneous dupilumab (Dupixent) coformulated with Alteogen's ALT-B4 (berahyaluronidase alfa) against dupilumab alone, assessing pharmacokinetics, safety and anti-drug antibodies. The trial began June 2026 with primary completion expected September 2026. This is the first concrete clinical-stage progress on the 2019 Sanofi-Alteogen non-exclusive ALT-B4 license for a high-dose SC Dupixent formulation, whose ongoing development was only reconfirmed as a public disclosure in June 2026 (see alteogen_sanofi_2026-06) -- directly relevant to the tracker's Dupixent benchmark, since a successful readout would be the first concentration-enabling reformulation of the reference product itself. Concentration/volume figures not yet disclosed pending trial results.",
-      "molecule": "Dupilumab (Dupixent) + berahyaluronidase alfa (ALT-B4)",
-      "source_name": "Asia Economy Daily (asiae.co.kr); corroborated by TheBioNews (KO/EN)",
-      "source_url": "https://www.asiae.co.kr/article/2026072315581796030",
+      "deal_id": "huonslab_hydiffuze_adc-patent_2026-07-27",
+      "partner": "None (internal)",
+      "deal_type": "Patent registration",
+      "date": "2026-07-27",
+      "date_sort_key": 20260727,
+      "summary": "BACKFILL: Huons Lab registered a Korean patent covering an ADC (antibody-drug conjugate) subcutaneous formulation composition using its HyDiffuse human-derived hyaluronidase platform. The company reported nonclinical results of an approximately 1.5x faster initial rise in blood concentration, Cmax improved up to 149% and AUC improved up to 126% versus an SC formulation without HyDiffuse, and said physical and chemical stability was maintained under high-concentration conditions. This event precedes the 11-antibody SC formulation patent already tracked at 2026-08-31 (huonslab_hydiffuze_11antibody-patent_2026-08-31) and extends the same platform from monoclonal antibodies into ADCs, where high potency makes low-volume SC delivery especially valuable. Logged 2026-09-23 as competitive context, not as new news.",
+      "molecule": "ADC (antibody-drug conjugate; specific molecules not disclosed)",
+      "source_name": "MoneyToday TheBio (머니투데이 더바이오)",
+      "source_url": "https://www.mt.co.kr/thebio/2026/07/27/2026072709072121485",
       "relevance": "High",
       "confidence": "Secondary",
       "flagged": false,
       "new_in_digest": false,
-      "summary_ko": "사노피가 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 피하 두필루맙(Dupixent)을 두필루맙 단독과 비교해 약동학, 안전성, 항약물항체를 평가하는 1상 시험에서 건강한 성인 피험자 40명 전원에 대한 투약을 완료했다. 시험은 2026년 6월 시작되었고 1차 완료 시점은 2026년 9월로 예상된다. 고용량 피하 Dupixent 제형에 대한 2019년 사노피-알테오젠 비독점 ALT-B4 라이선스에서 나온 첫 구체적 임상 단계 진전으로, 해당 계약의 개발 진행 여부는 2026년 6월에야 공개적으로 재확인되었다(alteogen_sanofi_2026-06 참조). 성공적인 결과가 나오면 기준 제품 자체의 첫 농도 개선 재제형이 되므로 본 트래커의 Dupixent 벤치마크와 직접 관련이 있다. 농도와 용량 수치는 시험 결과 발표 전까지 아직 공개되지 않았다.",
-      "technology_id": "alt-b4_hybrozyme",
-      "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
+      "summary_ko": "백필: 휴온스랩이 자사의 인간 유래 히알루로니다제 플랫폼 HyDiffuse를 적용한 항체-약물 접합체 (ADC) 피하주사 (SC) 제형 조성물에 대한 국내 특허를 등록했다. 회사는 비임상에서 초기 혈중 농도 상승이 약 1.5배 빨라졌고, HyDiffuse를 적용하지 않은 SC 제형 대비 Cmax는 최대 149%, AUC는 최대 126%까지 개선됐으며, 고농도 조건에서 우수한 물리·화학적 안정성이 유지됨을 확인했다고 밝혔다. 이 건은 이미 2026-08-31로 기록된 항체 11종 SC 제형 특허 (huonslab_hydiffuze_11antibody-patent_2026-08-31) 보다 앞선 사건으로, 동일 플랫폼을 단클론항체에서 ADC로 확장한 것이다. ADC는 고역가 특성상 저용량 SC 전달의 가치가 특히 크다. 2026-09-23에 신규 뉴스가 아닌 경쟁 맥락으로 기록함.",
+      "technology_id": "huonslab_hydiffuze",
+      "technology_name": "HyDiffuse (rHuPH20-based SC delivery platform)"
     }
   ]
 }
