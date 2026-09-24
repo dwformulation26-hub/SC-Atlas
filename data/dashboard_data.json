@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T09:06:32+09:00",
+  "generated_at": "2026-09-24T00:19:35+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -62,8 +62,8 @@
     "tracked": 31,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 82,
-    "flagged_deals": 6
+    "deals_tracked": 85,
+    "flagged_deals": 8
   },
   "internal_targets": [
     {
@@ -458,6 +458,38 @@
           "summary_ko": "검토 필요 -- 날짜 미확인. 업계 매체(juve-patent.com, IAM, Pearce IP)는 헤이그 지방법원이 EP 2,797,622에 관한 네덜란드 본안 소송(당시 구두 심리는 2026년 7월 31일로 예정)이 진행되는 동안 MSD의 덴마크·스웨덴 키트루다 SC 판매를 막아 달라는 Halozyme의 가처분 신청을 기각했다고 보도했다. 법원은 Halozyme에 긴급한 이익이 있다고 보면서도 MSD가 변론에서 밝힌 출시 관련 진술은 구속력 있는 확약이 아니라고 판단했다. IAM은 같은 MDASE·키트루다 SC 분쟁에서 Halozyme이 영국 특허법원에서 겪은 별개의 패소(Merck Sharp & Dohme (UK) Ltd 대 Halozyme Inc)와 함께 이를 전했다. 이미 추적 중인 2026년 5월 미국 PTAB 무효 결정, 2025년 12월 독일 가처분(halozyme_merck_germany-injunction_2025-12-04 참조)과 더불어 ALT-B4 기반 키트루다 SC에 대한 Halozyme MDASE 특허 자산의 위험 구도를 직접 제한하는 내용이다. 동일한 보도에 대한 두 차례의 독립적 WebSearch 결과가 서로 다른 결정일(2026년 7월 3일 대 7월 14일)을 제시했고, juve-patent.com은 EGRESS_BLOCKED로 직접 페이지 조회가 불가능했다. 백필: 이전에는 추적되지 않았다."
         },
         {
+          "deal_id": "halozyme_roche_ocrevus-pediatric-sc-trial_2026",
+          "partner": "Roche / Genentech",
+          "deal_type": "Clinical trial (Phase 2, registration)",
+          "date": "2026 (exact date unconfirmed -- see CAVEAT)",
+          "date_sort_key": 20260101,
+          "summary": "ClinicalTrials.gov registration NCT07503340 (sponsor: Hoffmann-La Roche) is an open-label Phase 2 study of subcutaneous ocrelizumab (the ENHANZE-enabled Ocrevus Zunovo formulation) in children and adolescents aged 10 to <18 with relapsing-remitting multiple sclerosis, evaluating PK, safety, tolerability, immunogenicity and pharmacodynamics over a 48-week treatment period plus an optional extension. CAVEAT: search-engine snippets place the study start date at 2026-08-01, but ClinicalTrials.gov itself and a mirror (trial.medpath.com) were egress-blocked this run, so the registration/first-posted date could not be independently confirmed against the primary record or a second outlet -- logged as BACKFILL with the date unconfirmed rather than as fresh. This is a pediatric label-extension trial for an already-tracked ENHANZE marketed product (Ocrevus Zunovo); note this is distinct from the CHMP's 2026-09-18 pediatric Ocrevus opinion, which covers only the IV formulation, not this SC trial.",
+          "molecule": "Ocrelizumab (SC, ENHANZE-enabled)",
+          "source_name": "ClinicalTrials.gov (NCT07503340) -- accessed via search-engine snippet only; direct page fetch blocked",
+          "source_url": "https://clinicaltrials.gov/study/NCT07503340",
+          "relevance": "Medium",
+          "confidence": "Secondary",
+          "flagged": true,
+          "new_in_digest": false,
+          "summary_ko": "ClinicalTrials.gov 등록번호 NCT07503340(스폰서: Hoffmann-La Roche)은 10세 이상 18세 미만 재발성 다발경화증(RRMS) 소아·청소년을 대상으로 피하주사 오크렐리주맙(ENHANZE 기반 Ocrevus Zunovo 제형)의 약동학, 안전성, 내약성, 면역원성, 약력학을 평가하는 공개 라벨 2상 시험으로, 48주 투약 기간과 선택적 연장 기간으로 구성된다. 유의 사항: 검색엔진 스니펫은 시험 시작일을 2026-08-01로 표시하지만, 이번 조사에서는 ClinicalTrials.gov 원문과 미러 사이트(trial.medpath.com) 모두 접속이 차단되어(egress-blocked) 등록일/최초 게시일을 1차 기록이나 2차 출처로 독립 확인하지 못했다 -- 따라서 신규(fresh)가 아닌 백필(backfill)로, 날짜 미확인 상태로 기록한다. 이는 이미 추적 중인 ENHANZE 시판 제품(Ocrevus Zunovo)의 소아 적응증 확대 임상이며, 2026-09-18 CHMP의 소아 Ocrevus 의견(정맥주사 제형만 해당)과는 별개임에 유의해야 한다."
+        },
+        {
+          "deal_id": "halozyme_roche_ocrevus-new-sc-formulation-trial_2026",
+          "partner": "Roche / Genentech",
+          "deal_type": "Clinical trial (Phase 1b, registration)",
+          "date": "2026 (exact date unconfirmed -- see CAVEAT)",
+          "date_sort_key": 20260101,
+          "summary": "ClinicalTrials.gov registration NCT07667322, 'OCARINA 3' (sponsor: Hoffmann-La Roche), is a Phase 1b multicenter, non-randomized, open-label study of single ascending doses of a NEW subcutaneous formulation of ocrelizumab in multiple sclerosis patients -- i.e. a next-generation SC formulation distinct from the currently marketed ENHANZE-enabled Ocrevus Zunovo. CAVEAT: search results did not disclose whether this new formulation still uses ENHANZE/rHuPH20 or a different (e.g. higher-concentration, enzyme-free) approach, and this run could not confirm the enabling technology -- attached here to the enhanze row provisionally, flagged rather than assumed. ClinicalTrials.gov and its mirrors were egress-blocked this run, so neither the registration date nor further protocol detail (target concentration, enrollment) could be independently verified -- logged as BACKFILL with the date unconfirmed. If Roche's next-generation SC ocrelizumab formulation turns out not to rely on ENHANZE, that would be a material competitive signal for the ENHANZE franchise and should be re-verified and, if confirmed, corrected onto its own row in a future run.",
+          "molecule": "Ocrelizumab (new SC formulation; enabling technology not confirmed)",
+          "source_name": "ClinicalTrials.gov (NCT07667322) -- accessed via search-engine snippet only; direct page fetch blocked",
+          "source_url": "https://clinicaltrials.gov/study/NCT07667322",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": true,
+          "new_in_digest": false,
+          "summary_ko": "ClinicalTrials.gov 등록번호 NCT07667322, 'OCARINA 3'(스폰서: Hoffmann-La Roche)는 다발경화증 환자를 대상으로 오크렐리주맙의 새로운(new) 피하주사 제형에 대한 단회 용량 증량 시험으로, 다기관·비무작위·공개 라벨의 1b상 시험이다 -- 즉, 현재 시판 중인 ENHANZE 기반 Ocrevus Zunovo와는 구분되는 차세대 SC 제형이다. 유의 사항: 검색 결과만으로는 이 신규 제형이 여전히 ENHANZE/rHuPH20을 사용하는지, 아니면 다른(예: 고농도·무효소) 방식인지 확인되지 않았으며, 이번 조사에서 가능 기술을 확정하지 못했다 -- enhanze 행에 잠정적으로 연결하되 추정이 아닌 검토 필요 상태로 표시한다. ClinicalTrials.gov 원문과 미러 사이트가 모두 접속 차단되어(egress-blocked) 등록일과 세부 프로토콜(목표 농도, 등록 인원 등)을 독립적으로 확인하지 못했다 -- 따라서 날짜 미확인 상태의 백필로 기록한다. 만약 로슈의 차세대 SC 오크렐리주맙 제형이 ENHANZE에 의존하지 않는 것으로 확인될 경우, 이는 ENHANZE 프랜차이즈에 중대한 경쟁 신호가 될 것이므로 향후 재확인 후 별도 행으로 정정해야 한다."
+        },
+        {
           "deal_id": "halozyme_janssen_rybrevant-faspro_2025-12-17",
           "partner": "Janssen / Johnson & Johnson",
           "deal_type": "Regulatory approval (marketed ENHANZE product)",
@@ -763,6 +795,22 @@
       "date_added": "2026-07-12",
       "last_reviewed": "2026-09-16",
       "deals": [
+        {
+          "deal_id": "alteogen_keytrudasc_epo-composition-patent_2026-09-23",
+          "partner": "MSD / Merck (coformulation partner; patent held by Alteogen)",
+          "deal_type": "Patent (composition-of-matter, EU registration)",
+          "date": "2026-09-23",
+          "date_sort_key": 20260923,
+          "summary": "Alteogen announced that the composition patent covering its Hybrozyme-enabled ALT-B4 (berahyaluronidase alfa) coformulated with pembrolizumab (Keytruda SC) has been registered at the European Patent Office (EPO), extending to Europe the same composition-patent protection Alteogen already holds in the US. The patent term runs to 2040, with a possible Supplementary Protection Certificate (SPC) extension of up to 5 more years to account for marketing-authorization review time. This strengthens Alteogen's IP position behind Keytruda SC -- already approved in the US, EU, Canada, Korea and Japan -- just as ENHANZE and ALT-B4 are becoming direct rivals in overlapping oncology indications (see halozyme_roche_tecentriq-hybreza_mibc-ctdna_2026-05-15 on the same muscle-invasive bladder cancer front). Reported 2026-09-23 by multiple Korean outlets (Asia Business Daily, Financial News, Money Today) citing an Alteogen company statement; no specific EPO patent number was disclosed in the press coverage, and Alteogen's own IR page could not be fetched directly (egress-blocked) to corroborate further.",
+          "molecule": "Pembrolizumab + ALT-B4 (berahyaluronidase alfa)",
+          "source_name": "Asia Business Daily (아시아경제); corroborated by Financial News (파이낸셜뉴스) and Money Today (머니투데이 더바이오)",
+          "source_url": "https://view.asiae.co.kr/article/2026092314422785513",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": true,
+          "summary_ko": "알테오젠은 하이브로자임 기반 ALT-B4(베라히알루로니다제 알파)와 펨브롤리주맙(키트루다 SC)의 병용 제형에 대한 조성물 특허가 유럽특허청(EPO)에 등록되었다고 밝혔다. 이미 미국에서 보유한 것과 동일한 조성물 특허 보호를 유럽까지 확대한 것이다. 특허 존속기간은 2040년까지이며, 품목허가 심사 기간을 고려한 추가적 보호증명(SPC)을 통해 최대 5년 추가 연장이 가능하다. 이는 미국·유럽·캐나다·한국·일본에서 이미 허가받은 키트루다 SC를 둘러싼 알테오젠의 지식재산권 지위를 강화하며, 마침 ENHANZE와 ALT-B4가 겹치는 항암 적응증(근침윤성 방광암, halozyme_roche_tecentriq-hybreza_mibc-ctdna_2026-05-15 참조)에서 직접 경쟁 구도에 들어서는 시점과 맞물린다. 2026-09-23 국내 다수 매체(아시아경제, 파이낸셜뉴스, 머니투데이)가 알테오젠 측 발표를 인용해 보도했으며, 보도에는 구체적인 EPO 특허번호는 공개되지 않았다. 알테오젠 자체 IR 페이지는 접속이 차단되어(egress-blocked) 추가 대조는 하지 못했다."
+        },
         {
           "deal_id": "alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18",
           "partner": "Merck (MSD) / EMA CHMP",
@@ -2099,6 +2147,24 @@
   ],
   "recent_activity": [
     {
+      "deal_id": "alteogen_keytrudasc_epo-composition-patent_2026-09-23",
+      "partner": "MSD / Merck (coformulation partner; patent held by Alteogen)",
+      "deal_type": "Patent (composition-of-matter, EU registration)",
+      "date": "2026-09-23",
+      "date_sort_key": 20260923,
+      "summary": "Alteogen announced that the composition patent covering its Hybrozyme-enabled ALT-B4 (berahyaluronidase alfa) coformulated with pembrolizumab (Keytruda SC) has been registered at the European Patent Office (EPO), extending to Europe the same composition-patent protection Alteogen already holds in the US. The patent term runs to 2040, with a possible Supplementary Protection Certificate (SPC) extension of up to 5 more years to account for marketing-authorization review time. This strengthens Alteogen's IP position behind Keytruda SC -- already approved in the US, EU, Canada, Korea and Japan -- just as ENHANZE and ALT-B4 are becoming direct rivals in overlapping oncology indications (see halozyme_roche_tecentriq-hybreza_mibc-ctdna_2026-05-15 on the same muscle-invasive bladder cancer front). Reported 2026-09-23 by multiple Korean outlets (Asia Business Daily, Financial News, Money Today) citing an Alteogen company statement; no specific EPO patent number was disclosed in the press coverage, and Alteogen's own IR page could not be fetched directly (egress-blocked) to corroborate further.",
+      "molecule": "Pembrolizumab + ALT-B4 (berahyaluronidase alfa)",
+      "source_name": "Asia Business Daily (아시아경제); corroborated by Financial News (파이낸셜뉴스) and Money Today (머니투데이 더바이오)",
+      "source_url": "https://view.asiae.co.kr/article/2026092314422785513",
+      "relevance": "High",
+      "confidence": "Secondary",
+      "flagged": false,
+      "new_in_digest": true,
+      "summary_ko": "알테오젠은 하이브로자임 기반 ALT-B4(베라히알루로니다제 알파)와 펨브롤리주맙(키트루다 SC)의 병용 제형에 대한 조성물 특허가 유럽특허청(EPO)에 등록되었다고 밝혔다. 이미 미국에서 보유한 것과 동일한 조성물 특허 보호를 유럽까지 확대한 것이다. 특허 존속기간은 2040년까지이며, 품목허가 심사 기간을 고려한 추가적 보호증명(SPC)을 통해 최대 5년 추가 연장이 가능하다. 이는 미국·유럽·캐나다·한국·일본에서 이미 허가받은 키트루다 SC를 둘러싼 알테오젠의 지식재산권 지위를 강화하며, 마침 ENHANZE와 ALT-B4가 겹치는 항암 적응증(근침윤성 방광암, halozyme_roche_tecentriq-hybreza_mibc-ctdna_2026-05-15 참조)에서 직접 경쟁 구도에 들어서는 시점과 맞물린다. 2026-09-23 국내 다수 매체(아시아경제, 파이낸셜뉴스, 머니투데이)가 알테오젠 측 발표를 인용해 보도했으며, 보도에는 구체적인 EPO 특허번호는 공개되지 않았다. 알테오젠 자체 IR 페이지는 접속이 차단되어(egress-blocked) 추가 대조는 하지 못했다.",
+      "technology_id": "alt-b4_hybrozyme",
+      "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
+    },
+    {
       "deal_id": "alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18",
       "partner": "Merck (MSD) / EMA CHMP",
       "deal_type": "Regulatory recommendation",
@@ -2349,24 +2415,6 @@
       "summary_ko": "지투지바이오(G2G Bio)와 셀트리온이 '초고농도 항체 피하 제형 플랫폼 기술 협력'을 위한 물질이전계약(MTA)을 포함한 MOU를 체결했다. MTA에 따라 셀트리온이 항체 물질을 지투지바이오에 이전하고, 양사는 지투지바이오의 고농도 미립자 플랫폼 'InnoBioLAMP'(기존 서방형 마이크로스피어 약물전달 기술 InnoLAMP를 바이오의약품·항체로 확장한 것)에 대한 적용 가능성을 평가하며, 타당성이 확인되면 공동 연구개발과 사업화로 이어갈 계획이다. 지투지바이오가 InnoBioLAMP를 공개한 첫 사례이자 항체 바이오의약품 분야 공식 진출을 알리는 건이다. 구체적 대상 물질, 연구 일정, 비용 분담 조건은 비공개이며, 회사 발표에 따르면 실제 피하 제형 전환 가능성은 비임상·임상 시험으로 확인해야 한다.",
       "technology_id": "g2gbio_innobiolamp",
       "technology_name": "InnoBioLAMP"
-    },
-    {
-      "deal_id": "huonslab_hydiffuze_adc-patent_2026-07-27",
-      "partner": "None (internal)",
-      "deal_type": "Patent registration",
-      "date": "2026-07-27",
-      "date_sort_key": 20260727,
-      "summary": "BACKFILL: Huons Lab registered a Korean patent covering an ADC (antibody-drug conjugate) subcutaneous formulation composition using its HyDiffuse human-derived hyaluronidase platform. The company reported nonclinical results of an approximately 1.5x faster initial rise in blood concentration, Cmax improved up to 149% and AUC improved up to 126% versus an SC formulation without HyDiffuse, and said physical and chemical stability was maintained under high-concentration conditions. This event precedes the 11-antibody SC formulation patent already tracked at 2026-08-31 (huonslab_hydiffuze_11antibody-patent_2026-08-31) and extends the same platform from monoclonal antibodies into ADCs, where high potency makes low-volume SC delivery especially valuable. Logged 2026-09-23 as competitive context, not as new news.",
-      "molecule": "ADC (antibody-drug conjugate; specific molecules not disclosed)",
-      "source_name": "MoneyToday TheBio (머니투데이 더바이오)",
-      "source_url": "https://www.mt.co.kr/thebio/2026/07/27/2026072709072121485",
-      "relevance": "High",
-      "confidence": "Secondary",
-      "flagged": false,
-      "new_in_digest": false,
-      "summary_ko": "백필: 휴온스랩이 자사의 인간 유래 히알루로니다제 플랫폼 HyDiffuse를 적용한 항체-약물 접합체 (ADC) 피하주사 (SC) 제형 조성물에 대한 국내 특허를 등록했다. 회사는 비임상에서 초기 혈중 농도 상승이 약 1.5배 빨라졌고, HyDiffuse를 적용하지 않은 SC 제형 대비 Cmax는 최대 149%, AUC는 최대 126%까지 개선됐으며, 고농도 조건에서 우수한 물리·화학적 안정성이 유지됨을 확인했다고 밝혔다. 이 건은 이미 2026-08-31로 기록된 항체 11종 SC 제형 특허 (huonslab_hydiffuze_11antibody-patent_2026-08-31) 보다 앞선 사건으로, 동일 플랫폼을 단클론항체에서 ADC로 확장한 것이다. ADC는 고역가 특성상 저용량 SC 전달의 가치가 특히 크다. 2026-09-23에 신규 뉴스가 아닌 경쟁 맥락으로 기록함.",
-      "technology_id": "huonslab_hydiffuze",
-      "technology_name": "HyDiffuse (rHuPH20-based SC delivery platform)"
     }
   ]
 }
