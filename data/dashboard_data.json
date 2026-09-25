@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T00:19:35+00:00",
+  "generated_at": "2026-09-25T00:20:44+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -62,7 +62,7 @@
     "tracked": 31,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 85,
+    "deals_tracked": 87,
     "flagged_deals": 8
   },
   "internal_targets": [
@@ -808,7 +808,7 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": true,
+          "new_in_digest": false,
           "summary_ko": "알테오젠은 하이브로자임 기반 ALT-B4(베라히알루로니다제 알파)와 펨브롤리주맙(키트루다 SC)의 병용 제형에 대한 조성물 특허가 유럽특허청(EPO)에 등록되었다고 밝혔다. 이미 미국에서 보유한 것과 동일한 조성물 특허 보호를 유럽까지 확대한 것이다. 특허 존속기간은 2040년까지이며, 품목허가 심사 기간을 고려한 추가적 보호증명(SPC)을 통해 최대 5년 추가 연장이 가능하다. 이는 미국·유럽·캐나다·한국·일본에서 이미 허가받은 키트루다 SC를 둘러싼 알테오젠의 지식재산권 지위를 강화하며, 마침 ENHANZE와 ALT-B4가 겹치는 항암 적응증(근침윤성 방광암, halozyme_roche_tecentriq-hybreza_mibc-ctdna_2026-05-15 참조)에서 직접 경쟁 구도에 들어서는 시점과 맞물린다. 2026-09-23 국내 다수 매체(아시아경제, 파이낸셜뉴스, 머니투데이)가 알테오젠 측 발표를 인용해 보도했으며, 보도에는 구체적인 EPO 특허번호는 공개되지 않았다. 알테오젠 자체 IR 페이지는 접속이 차단되어(egress-blocked) 추가 대조는 하지 못했다."
         },
         {
@@ -890,6 +890,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "2026-09-23 정정: 1차 출처인 ClinicalTrials.gov NCT07646548을 확보했으며 이에 따라 신뢰도를 2차 출처에서 상향 조정했다. 등록 정보에 따르면 사노피가 의뢰하고 Regeneron Pharmaceuticals가 협력사로 참여한 1상, 단일기관, 공개, 무작위, 평행군 시험으로, 건강한 성인 40명을 대상으로 베라히알루로니다제 알파 (ALT-B4) 와 복합 제형화한 피하 두필루맙 단회 투여를 ALT-B4 비포함 두필루맙과 비교한다. 등록 일자는 최초 제출 2026-06-08, 최초 게시 2026-06-12, 시험 시작 2026-06-11, 1차 완료 및 종료 모두 2026-09-30 예정이며 상태는 ACTIVE_NOT_RECRUITING다. 업계 기사는 2026-07-23에 40명 전원 투약이 완료됐다고 보고했다. 고용량 피하 Dupixent 제형에 대한 2019년 사노피-알테오젠 비독점 ALT-B4 라이선스에서 나온 첫 구체적 임상 단계 진전으로, 해당 계약의 개발 진행 여부는 2026년 6월에야 공개적으로 재확인되었다 (alteogen_sanofi_2026-06 참조). 성공적인 결과가 나오면 기준 제품 자체의 첫 농도 개선 재제형이 되므로 본 트래커의 Dupixent 벤치마크와 직접 관련이 있다. 등록 정보에는 두 군 모두 mg/mL 농도나 주사 용량이 기재돼 있지 않아, 농도와 용량 수치는 시험 결과 발표 전까지 비공개다."
+        },
+        {
+          "deal_id": "alteogen_msd_keytruda-sc-us-mibc-label_2026-07-10",
+          "partner": "Merck & Co. / US FDA / Astellas-Pfizer (Padcev)",
+          "deal_type": "Regulatory approval (label expansion)",
+          "date": "2026-07-10",
+          "date_sort_key": 20260710,
+          "summary": "BACKFILL: found alongside the US approval backfill above while tracing KEYTRUDA QLEX's US regulatory history; predates this run's search window. The FDA approved KEYTRUDA (pembrolizumab) and KEYTRUDA QLEX (pembrolizumab and berahyaluronidase alfa-pmph, ALT-B4-enabled SC), each in combination with Padcev (enfortumab vedotin-ejfv), as neoadjuvant treatment before and adjuvant treatment after cystectomy for adults with muscle-invasive bladder cancer (MIBC) -- extending the prior cisplatin-ineligible-only approval to all MIBC patients regardless of cisplatin eligibility, based on the Phase 3 KEYNOTE-B15/EV-304 trial (808 patients). First and only PD-1 inhibitor + ADC regimen approved for MIBC regardless of cisplatin eligibility, available in both IV (Keytruda) and ALT-B4-enabled SC (Keytruda Qlex) form. Directly precedes and parallels the EU's CHMP positive opinion for the equivalent MIBC indication (already tracked, see alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18), which cited the same combination.",
+          "molecule": "Pembrolizumab / pembrolizumab and berahyaluronidase alfa-pmph (KEYTRUDA / KEYTRUDA QLEX) + enfortumab vedotin-ejfv (Padcev)",
+          "source_name": "FDA.gov drug-approval resource page (primary, not directly fetchable this run -- EGRESS_BLOCKED); Merck.com press release; corroborated by Astellas newsroom, CURE Today, Oncology Nursing Society (4 independent outlets)",
+          "source_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-enfortumab-vedotin",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 위 미국 승인 백필과 함께, KEYTRUDA QLEX의 미국 규제 이력을 추적하는 과정에서 발견되었으며 이번 실행의 조사 기간 이전 사안이다. FDA는 KEYTRUDA(pembrolizumab)와 KEYTRUDA QLEX(pembrolizumab and berahyaluronidase alfa-pmph, ALT-B4 기반 SC)를 각각 Padcev(enfortumab vedotin-ejfv)와 병용하여, 근육침윤성 방광암(MIBC) 성인 환자의 방광절제술 전 신보조요법 및 수술 후 보조요법으로 승인했다 -- 기존에는 시스플라틴 부적격 환자로 한정됐던 승인을 시스플라틴 적격 여부와 무관하게 전체 MIBC 환자로 확대한 것으로, 3상 KEYNOTE-B15/EV-304 시험(808명)에 근거했다. 시스플라틴 적격 여부와 무관하게 MIBC에 승인된 최초이자 유일한 PD-1 억제제+ADC 병용요법이며, 정맥주사(Keytruda)와 ALT-B4 기반 피하주사(Keytruda Qlex) 두 형태 모두로 이용 가능하다. 동일한 병용요법을 근거로 한 EU CHMP의 동등 MIBC 적응증 긍정 의견(이미 추적 중, alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18 참조)보다 시기적으로 앞서며 이와 궤를 같이한다."
         },
         {
           "deal_id": "alteogen_sanofi_2026-06",
@@ -986,6 +1002,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "백필: 이번 실행의 약 24시간 검색 기간을 크게 벗어나며, 이미 추적 중인 EU/한국/일본의 다른 모든 키트루다 SC 항목보다 앞선 사안이다. Tier-5 규제 캘린더 직접 스윕(EMA CHMP 조회) 중 이미 기록된 2026-09-18 CHMP MIBC 의견을 확인하는 과정에서 발견되었으며 이전에는 추적되지 않았다 -- 2026-09-21 인시던트 로그에서 Opdivo Qvantig에 대해 지적된 것과 같은 종류의 완전성 공백이다. 유럽연합 집행위원회(EC)는 KEYTRUDA(펨브롤리주맙, ALT-B4/베라히알루로니다제 알파 복합 제형)의 피하투여를 당시 EU에서 승인된 33개 전체 성인 적응증에 대해 승인했으며, EU 27개 회원국 및 아이슬란드, 리히텐슈타인, 노르웨이 전역에서 KEYTRUDA SC로 판매된다 -- 유럽에서 승인된 최초의 피하 면역관문억제제이며, 의료진이 최단 1분 만에 투여할 수 있다. 이는 2025-09-18 채택된 EU CHMP 긍정 의견(같은 회의에서 두경부암 수술 전후 신규 적응증도 별도로 권고)에 따른 것이다. 이는 ALT-B4 기반 키트루다 SC의 일반/EU 전역 시판허가이며, 이미 추적 중인 2026-09-18 CHMP 의견(MIBC 적응증 확대만 다룸)과는 구별되고 그보다 범위가 넓다."
+        },
+        {
+          "deal_id": "alteogen_msd_keytruda-sc-us-approval_2025-09-19",
+          "partner": "Merck & Co. / US FDA",
+          "deal_type": "Regulatory approval",
+          "date": "2025-09-19",
+          "date_sort_key": 20250919,
+          "summary": "BACKFILL: completeness-gap backfill, not this run's search window. Surfaced during this run's Tier-5 direct regulatory-calendar sweep while checking for a US-market analog of the already-tracked Korea, Japan and EU Keytruda SC approvals -- the flagship US approval was missing from this row despite the other three major markets already being itemised. The FDA approved KEYTRUDA QLEX (pembrolizumab and berahyaluronidase alfa-pmph), Merck's ALT-B4-enabled subcutaneous coformulation of Keytruda, for adult and pediatric patients 12 years and older across the solid-tumor indications already approved for IV pembrolizumab (38 indications across 16 cancer types at approval; hematologic malignancies, incl. classical Hodgkin lymphoma and PMBCL, excluded). Approval was based on the Phase 3 MK-3475A-D77 trial (NCT05722015, 377 metastatic NSCLC patients, SC Keytruda Qlex + platinum doublet vs IV pembrolizumab + chemotherapy), which showed similar efficacy (ORR 45% vs 42%, median PFS 8.1 vs 7.8 months) and non-inferior PK, and cuts administration from ~30 minutes IV to roughly 1-2 minutes SC. This is the direct head-to-head US-market counterpart to Halozyme's ENHANZE-enabled Opdivo Qvantig (see alt-b4_hybrozyme vs. enhanze rows).",
+          "molecule": "Pembrolizumab and berahyaluronidase alfa-pmph (KEYTRUDA QLEX) -- ALT-B4-enabled formulation",
+          "source_name": "Merck.com press release; FDA.gov drug-approval resource page (primary, not directly fetchable this run -- FDA.gov is EGRESS_BLOCKED in the cloud sandbox); corroborated by Pharmacy Times, OncLive, Drugs.com approval history (3 independent outlets)",
+          "source_url": "https://www.merck.com/news/fda-approves-mercks-keytruda-qlex-pembrolizumab-and-berahyaluronidase-alfa-pmph-injection-for-subcutaneous-use-in-adults-across-most-solid-tumor-indications-for-keytruda-pem/",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 조사 기간에 해당하지 않는 완전성 공백 백필이다. 이미 추적 중인 한국·일본·EU의 키트루다 SC 승인에 대응하는 미국 시장 사례를 확인하기 위한 이번 실행의 Tier-5 규제 캘린더 직접 스윕 중 발견되었다 -- 다른 3개 주요 시장은 이미 항목별로 기록되어 있었음에도 대표적인 미국 승인이 이 행에서 누락돼 있었다. 미국 FDA는 머크(MSD)의 ALT-B4 기반 키트루다 피하 복합 제형인 KEYTRUDA QLEX(pembrolizumab and berahyaluronidase alfa-pmph)를, IV 펨브롤리주맙에 이미 승인된 고형암 적응증 전반(승인 당시 16개 암종·38개 적응증)에 대해 12세 이상 성인 및 소아 환자를 대상으로 승인했다(전형적 호지킨 림프종 및 PMBCL 등 혈액암은 제외). 승인은 3상 MK-3475A-D77 시험(NCT05722015, 전이성 비소세포폐암 환자 377명, SC 키트루다 큐렉스+백금 이중요법 대 IV 펨브롤리주맙+화학요법 비교) 결과에 근거했으며, 유효성(ORR 45% 대 42%, 무진행생존기간 중앙값 8.1개월 대 7.8개월)이 유사했고 약동학적으로 비열등했으며, 투여 시간을 정맥주사 약 30분에서 피하주사 약 1-2분으로 단축했다. 이는 할로자임의 ENHANZE 기반 Opdivo Qvantig(enhanze 행 참조)와 미국 시장에서 직접 맞대결하는 대응 제품이다."
         },
         {
           "deal_id": "alteogen_astrazeneca_2026",
@@ -2159,7 +2191,7 @@
       "relevance": "High",
       "confidence": "Secondary",
       "flagged": false,
-      "new_in_digest": true,
+      "new_in_digest": false,
       "summary_ko": "알테오젠은 하이브로자임 기반 ALT-B4(베라히알루로니다제 알파)와 펨브롤리주맙(키트루다 SC)의 병용 제형에 대한 조성물 특허가 유럽특허청(EPO)에 등록되었다고 밝혔다. 이미 미국에서 보유한 것과 동일한 조성물 특허 보호를 유럽까지 확대한 것이다. 특허 존속기간은 2040년까지이며, 품목허가 심사 기간을 고려한 추가적 보호증명(SPC)을 통해 최대 5년 추가 연장이 가능하다. 이는 미국·유럽·캐나다·한국·일본에서 이미 허가받은 키트루다 SC를 둘러싼 알테오젠의 지식재산권 지위를 강화하며, 마침 ENHANZE와 ALT-B4가 겹치는 항암 적응증(근침윤성 방광암, halozyme_roche_tecentriq-hybreza_mibc-ctdna_2026-05-15 참조)에서 직접 경쟁 구도에 들어서는 시점과 맞물린다. 2026-09-23 국내 다수 매체(아시아경제, 파이낸셜뉴스, 머니투데이)가 알테오젠 측 발표를 인용해 보도했으며, 보도에는 구체적인 EPO 특허번호는 공개되지 않았다. 알테오젠 자체 IR 페이지는 접속이 차단되어(egress-blocked) 추가 대조는 하지 못했다.",
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"

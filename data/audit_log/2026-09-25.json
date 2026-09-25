@@ -1,0 +1,557 @@
+{
+  "run_date": "2026-09-25",
+  "window": {
+    "from": "2026-09-22T09:11:39+09:00",
+    "to": "2026-09-25T09:18:44+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Friday, normal weekday cadence -- previous run (data/audit_log/2026-09-24.json) completed 2026-09-24T09:17:51+09:00, ~24h1m before this run. Per SKILL.md 1.1's literal floor ('Never shrink below 72 hours') and the precedent set by every run since at least 2026-09-22/23/24 (each of which applied the 72h floor despite a ~21-24h actual gap), this run also applied the 72h floor rather than the smaller weekday gap. Window is therefore 2026-09-22T09:11:39+09:00 to now, not the smaller ~24h weekday gap. Not a Monday and not a post-gap run (Thursday's run completed on schedule)."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Xeris XeriJect Lindy Microglassification Nanoform InventageLab Prestige IDC224 subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" technology September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" biologics platform deal 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 고농축 현탁 주사 기술 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration September 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 9월"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 2026 / 특허청 히알루로니다제 고농도 제형"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP meeting highlights September 2026 (14-17 Sep 2026 meeting)"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "MHLW PMDA 新薬 一斉承認 2026年9月"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "FDA.gov 2026 Biological Approvals / Novel Drug Approvals list"
+    },
+    {
+      "tier": 5,
+      "lang": "ko",
+      "query": "식약처 의약품 허가 목록 2026년 9월"
+    },
+    {
+      "tier": 5,
+      "lang": "zh",
+      "query": "NMPA 药品批准 2026年9月 批件"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "targeted follow-up: CHMP Sept 2026 positive opinion Keytruda/Opdivo/Tecentriq/Ocrevus/Darzalex/Rybrevant/Vyvgart subcutaneous"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "targeted follow-up: PMDA Japan approval September 2026 Kiject/Opdivo/Tecentriq/Rybrevant/Ocrevus subcutaneous"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "targeted follow-up: FDA approves subcutaneous September 2026 hyaluronidase"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "targeted follow-up: KEYTRUDA QLEX FDA approval date press release berahyaluronidase"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "targeted follow-up: FDA Approves KEYTRUDA QLEX Padcev muscle-invasive bladder cancer MIBC approval date 2026"
+    },
+    {
+      "tier": "extra",
+      "lang": "en",
+      "query": "Alteogen news September 24 2026"
+    },
+    {
+      "tier": "extra",
+      "lang": "en",
+      "query": "Halozyme news September 24 2026"
+    },
+    {
+      "tier": "extra",
+      "lang": "ko",
+      "query": "할로자임 알테오젠 9월 23일 24일 2026"
+    },
+    {
+      "tier": "extra",
+      "lang": "ko",
+      "query": "알테오젠 공시 9월 24일 노바티스 수의계약"
+    },
+    {
+      "tier": "extra",
+      "lang": "ko",
+      "query": "셀트리온 삼성바이오에피스 휴온스랩 지투지바이오 9월 22 23 24 2026"
+    },
+    {
+      "tier": "extra",
+      "lang": "en",
+      "query": "Celltrion Samsung Bioepis Huons Lab news this week September 2026 subcutaneous"
+    },
+    {
+      "tier": "extra",
+      "lang": "ko",
+      "query": "지투지바이오 대표 비만치료제 월 1회 주사 고농도 인터뷰 9월"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme-Incyte ENHANZE global collaboration & license for INCA033989 SC formulation",
+      "published": "2026-07-20",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Serves the question directly: new ENHANZE licensing deal.",
+      "date_source": "url",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as halozyme_incyte_2026-07 (same source URL/event).",
+      "event_key": "halozyme_incyte_inca033989",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme-Vertex global exclusive Hypercon license (pharmaceutical-technology.com)",
+      "published": "2026-04-01",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Serves the question directly: new Hypercon licensing deal.",
+      "date_source": "url",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as halozyme_vertex_2026-04.",
+      "event_key": "halozyme_vertex_hypercon",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen-Novartis option & license agreement for Hybrozyme-enabled SC products, up to $3.22B",
+      "published": "2026-09-02",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Serves the question directly: major new ALT-B4 licensing deal.",
+      "date_source": "url",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as alteogen_novartis_2026-09.",
+      "event_key": "alteogen_novartis_hybrozyme_2026-09",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "딜사이트: 히알루로니다제 내재화 경쟁 -- 삼성바이오에피스 WO202614229/WO2026142300 특허 언급",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Attaches to tracked Samsung Bioepis PH20-based SC technology.",
+      "date_source": "unconfirmed",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Same underlying WIPO patent-publication event already tracked as samsungbioepis_ph20_disclosure_2026-07-13; recap article gives no new distinct fact or date.",
+      "event_key": "samsungbioepis_wipo_patents",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "CHMP 14-17 Sep 2026 meeting highlights (Frehemgo, Gevalka, Klygefa, Lifyorli, Pebrilzo, etc.)",
+      "published": "2026-09-18",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": "primary",
+      "gate_d": null,
+      "gate_e": null,
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: none of this meeting's other positive opinions (denecimig/Frehemgo for haemophilia A, ensartinib/Gevalka for NSCLC, gefurulimab/Klygefa for myasthenia gravis, relacorilant/Lifyorli for ovarian cancer, pertuzumab biosimilar Pebrilzo) involve a tracked SC delivery technology, ALT-B4/ENHANZE/HyDiffuse enablement, or a concentration/volume claim. Pebrilzo is a biosimilar of IV-only Perjeta (pertuzumab alone), not the ENHANZE-enabled Phesgo combination -- no delivery-technology angle.",
+      "event_key": "chmp_sep2026_meeting_other_items",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "EU CHMP positive opinion: Keytruda + Padcev perioperative treatment for MIBC (incl. Keytruda SC)",
+      "published": "2026-09-18",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Direct EU regulatory milestone for the tracked ALT-B4-enabled Keytruda SC product.",
+      "date_source": "url",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18.",
+      "event_key": "chmp_keytruda_mibc_2026-09-18",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Merck: Two Positive EU CHMP Opinions for KEYTRUDA SC + earlier-stage head and neck cancer indication",
+      "published": "search snippet initially suggested 2026; businesswire article id 20250918949874 confirms 2025-09-18",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "correction",
+      "gate_e": "Would attach to tracked Keytruda SC EU approval history.",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "RED FLAG CAUGHT (SKILL.md 1.5.1): businesswire URL id (20250918949874) dates this to 2025-09-18, one year before this run's window, not 2026 as an initial search summary implied. Event is the CHMP precursor to the already-tracked EU-wide Keytruda SC approval (alteogen_msd_keytruda-sc-eu-approval_2025-11), whose own summary already references this same September 2025 CHMP meeting's head-and-neck opinion as context. Not a new distinct finding.",
+      "event_key": "chmp_keytruda_hn_2025-09-18",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "BMS: Positive CHMP opinion for subcutaneous Opdivo (nivolumab) across multiple solid tumors",
+      "published": "2025-03-28 (per search; CHMP opinion, not FDA approval)",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Would close a completeness gap: Opdivo Qvantig's EU regulatory status is not yet tracked (only its 2024-12-27 US FDA approval is, per the ENHANZE installed-base backfill).",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "Real completeness gap identified (EU/JP approval status untracked for several ENHANZE installed-base products, not just Opdivo Qvantig) but out of scope for a single daily run to backfill in full -- flagged in Step 9 for a dedicated future completeness pass, same category as the 2026-09-22 ENHANZE backfill. Not logged this run to avoid an unreviewed partial patch (this run only chased the ALT-B4/Keytruda side, where per-country itemization was already the established pattern).",
+      "event_key": "opdivo_qvantig_eu_chmp",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA: KEYTRUDA QLEX (pembrolizumab and berahyaluronidase alfa-pmph) approved for SC use, most solid tumors",
+      "published": "2025-09-19",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Direct completeness-gap fix: the flagship US approval of Alteogen's ALT-B4-enabled Keytruda SC was missing while Korea/Japan/EU approvals were already itemised on the same row -- and it is the exact head-to-head US-market counterpart to ENHANZE's Opdivo Qvantig.",
+      "date_source": "second_source",
+      "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "keytruda_qlex_us_approval_2025-09-19",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.pharmacytimes.com/view/fda-approves-keytruda-qlex-subcutaneous-injection-for-adult-and-pediatric-patients-with-solid-tumors",
+        "https://www.onclive.com/view/fda-approves-subcutaneous-pembrolizumab-for-solid-tumors"
+      ]
+    },
+    {
+      "raw_title": "FDA: KEYTRUDA/KEYTRUDA QLEX + Padcev approved for MIBC regardless of cisplatin eligibility",
+      "published": "2026-07-10",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Label expansion of the same US KEYTRUDA QLEX approval; parallels the already-tracked EU CHMP MIBC opinion, completing the US side of that same event chain.",
+      "date_source": "second_source",
+      "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "keytruda_qlex_mibc_us_2026-07-10",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://newsroom.astellas.com/2026-07-13-us-fda-approves-padcev-plus-keytruda-as-neoadjuvant-and-adjuvant-treatment-for-muscle-invasive-bladder-cancer-regardless-of-cisplatin-eligibility",
+        "https://www.curetoday.com/view/fda-approves-keytruda-plus-padcev-for-muscle-invasive-bladder"
+      ]
+    },
+    {
+      "raw_title": "G2G Bio CEO interview (서울경제): monthly SC obesity-drug dosing goal, ADA preclinical recap",
+      "published": "2026-09-22 (interview conducted 2026-09-21)",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate B: forward-looking company guidance (\"aim to announce a global deal within the year\") and a recap of already-public ADA 2026 preclinical data (June 2026) and the already-tracked 750 mg/mL IgG concentration disclosure (g2gbio_innobiolamp_concentration-disclosure_2026-08-05); no new discrete dated event or figure.",
+      "event_key": "g2gbio_ceo_interview_2026-09",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "이데일리팜: 아미코젠 피하주사 제형용 인간 히알루로니다제 특허 출원",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Attaches to tracked Amicogen hyaluronidase technology.",
+      "date_source": "unconfirmed",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Same patent family as already-tracked amicogen_hyaluronidase_patent-grant_2026-07-14; no new distinct filing date or application number confirmed to establish a separate event.",
+      "event_key": "amicogen_patent_recap",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "네이트: 셀트리온, 유방암 치료제 '허쥬마' 피하주사 국내 허가 신청",
+      "published": "2026-05-28",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Attaches to tracked Celltrion Herzuma SC technology.",
+      "date_source": "url",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as celltrion_mfds-filing_2026-05.",
+      "event_key": "celltrion_herzuma_mfds_recap",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "이투데이: 삼성바이오로직스 '고농도 의약품' 기술 BMA서 발표",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate B: undated conference-mention recap of the already-tracked S-HiCon platform launch (samsungbio_launch_2024-10); no new discrete fact, deal, or figure identified.",
+      "event_key": "samsungbio_shicon_bma_recap",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "InventageLab IVL-BioFluidic home-dilution self-injection description (native KO sweep)",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate B: undated general platform explainer restating already-tracked IVL-BioFluidic capability (inventagelab_bio-usa_2026-06); not a discrete dated event.",
+      "event_key": "inventagelab_explainer",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "ClinicalTrials.gov NCT07646548: SC dupilumab coformulated with berahyaluronidase alfa vs. dupilumab alone, PK/tolerability",
+      "published": null,
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Directly connects benchmark Dupixent to tracked ALT-B4 platform.",
+      "date_source": "second_source",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as alteogen_sanofi_dupixent-p1-dosing_2026-07-23.",
+      "event_key": "nct07646548_dupixent_altb4",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen-AstraZeneca ~2조원 라이선스 계약 recap",
+      "published": "2025-03-17",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Attaches to tracked ALT-B4/Hybrozyme technology.",
+      "date_source": "url",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as alteogen_astrazeneca_2026.",
+      "event_key": "alteogen_astrazeneca_recap",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen-Biogen / Alteogen-GSK-Tesaro ALT-B4 license recaps",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Attaches to tracked ALT-B4/Hybrozyme technology.",
+      "date_source": "url",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as alteogen_biogen_2026-03 and alteogen_gsk-tesaro_2026-01 respectively.",
+      "event_key": "alteogen_biogen_gsk_recap",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme $1.3B convertible senior notes pricing (Sep 17); HALO stock +3.3% (Sep 23)",
+      "published": "2026-09-17 / 2026-09-23",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": "primary",
+      "gate_d": null,
+      "gate_e": null,
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A/B: corporate financing (convertible notes) and stock-price movement commentary, not a delivery-technology event, deal, filing, or approval -- explicit Gate B reject category (\"stock-movement commentary\").",
+      "event_key": "halozyme_notes_stock_move",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Bioepis/EpisNexLab(Huons Lab)-G2G Bio obesity-drug co-development (peptide long-acting depot)",
+      "published": "~2026-03-16",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate E: attaches to tracked G2G Bio InnoBioLAMP platform (Gate A pass), but the deal is about a peptide obesity-drug long-acting depot (dosing-frequency/release-timing angle) rather than concentration or injection-volume reduction for biologics -- cannot restate in one clause how it serves \"who can put more antibody into less SC volume.\" Also ~6 months outside window with no fresher corroboration found this run.",
+      "event_key": "sbepis_g2gbio_obesity_codev",
+      "canonical": true,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)",
+      "company": "Alteogen / Merck & Co.",
+      "event": "US FDA approval of KEYTRUDA QLEX (pembrolizumab + berahyaluronidase alfa-pmph), ALT-B4-enabled SC Keytruda, across most solid-tumor indications",
+      "date": "2025-09-19",
+      "freshness": "backfill",
+      "source_name": "Merck.com; FDA.gov (primary, EGRESS_BLOCKED this run); Pharmacy Times, OncLive (secondary corroboration)",
+      "source_url": "https://www.merck.com/news/fda-approves-mercks-keytruda-qlex-pembrolizumab-and-berahyaluronidase-alfa-pmph-injection-for-subcutaneous-use-in-adults-across-most-solid-tumor-indications-for-keytruda-pem/",
+      "confidence": "Primary",
+      "summary": "FDA approved KEYTRUDA QLEX, Merck's ALT-B4-enabled SC coformulation of Keytruda, closing a completeness gap where the US approval was the one major market missing from an otherwise itemised (Korea/Japan/EU) row.",
+      "summary_ko": "FDA가 알테오젠의 ALT-B4 기반 키트루다 SC 복합제형인 KEYTRUDA QLEX를 승인했다 -- 한국·일본·EU 승인은 이미 개별 기록돼 있었으나 주요 시장 중 미국만 누락돼 있던 완전성 공백을 메운다.",
+      "conflicts_with": null
+    },
+    {
+      "technology": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)",
+      "company": "Alteogen / Merck & Co.",
+      "event": "US FDA label expansion: KEYTRUDA/KEYTRUDA QLEX + Padcev approved for MIBC regardless of cisplatin eligibility",
+      "date": "2026-07-10",
+      "freshness": "backfill",
+      "source_name": "FDA.gov (primary, EGRESS_BLOCKED this run); Merck.com; Astellas newsroom; CURE Today (secondary corroboration)",
+      "source_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-enfortumab-vedotin",
+      "confidence": "Primary",
+      "summary": "FDA expanded the Keytruda/Keytruda Qlex + Padcev MIBC combination to all patients regardless of cisplatin eligibility, the US-side parallel to the already-tracked EU CHMP MIBC opinion for the same combination.",
+      "summary_ko": "FDA가 키트루다/키트루다 큐렉스와 Padcev 병용요법의 MIBC 적응증을 시스플라틴 적격 여부와 무관하게 전체 환자로 확대했다 -- 이미 추적 중인 동일 병용요법의 EU CHMP MIBC 의견에 대응하는 미국측 사안이다.",
+      "conflicts_with": null
+    }
+  ]
+}
