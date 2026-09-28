@@ -1,0 +1,721 @@
+{
+  "run_date": "2026-09-28",
+  "window": {
+    "from": "2026-09-25T09:21:18+09:00",
+    "to": "2026-09-28T09:21:38+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Monday run, after a weekend gap (no run Sat 2026-09-26 or Sun 2026-09-27). Previous run (data/audit_log/2026-09-25.json) completed 2026-09-25T09:21:18+09:00. Per SKILL.md 1.1, extended back to that last actual completion rather than a shrunk ~24h weekday window -- this yields ~71h53m, consistent with (and slightly under, so effectively floored at) the 72h floor."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" deal September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" biologics technology news September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration formulation September 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "ClinicalTrials.gov new trial high-concentration subcutaneous hyaluronidase 2026 XeriJect Hypercon ALT-B4"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 2026년 9월"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 2026"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "특허청 히알루로니다제 고농도 제형 특허"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP meeting highlights September 2026 EMA"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "MHLW PMDA 新薬 一斉承認 2026年9月"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "FDA Novel Drug Approvals 2026 list September"
+    },
+    {
+      "tier": 5,
+      "lang": "ko",
+      "query": "식약처 의약품 허가 목록 2026년 9월"
+    },
+    {
+      "tier": 5,
+      "lang": "zh",
+      "query": "NMPA 药品批准 2026年9月 approval list"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP September 2026 extension of indication Ocrevus OR Vyvgart OR Tecentriq OR Rybrevant OR Darzalex OR Phesgo"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP 14-17 September 2026 positive opinion full list new medicines extensions therapeutic indication"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP September 2026 pembrolizumab Keytruda opinion subcutaneous OR indication extension details"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP September 2026 Ocrevus Zunovo pediatric OR ocrelizumab subcutaneous label"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Keytruda SC OR Kiject OR Rybrevant SC OR Darzalex SC OR Tecentriq SC OR Opdivo Qvantig approval September 25 26 27 2026 (targeted freshness check, added beyond fixed matrix)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Halozyme OR Alteogen OR ENHANZE OR Hybrozyme news this week (targeted freshness check)"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "알테오젠 할로자임 news 지난 3일 (targeted freshness check)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Alteogen Halozyme Celltrion Samsung Bioepis subcutaneous formulation news September 26 27 2026 (targeted freshness check)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "G2G Bio InnoBioLAMP OR InventageLab IVL-BioFluidic OR Nanoform OR Amicogen news September 2026 (coverage completeness check)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Arecor Arestat OR GC Biopharma viscosity excipient OR Altru-CON Altruist news September 2026 (coverage completeness check)"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "할로자임 알테오젠 셀트리온 삼성 9월 25일 26일 27일 2026 공시 뉴스 (targeted freshness check)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "subcutaneous high concentration antibody delivery news \"September 27, 2026\" OR \"September 26, 2026\" OR \"September 25, 2026\" (targeted freshness check)"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Alteogen enters option and license agreement with Novartis (up to $3.22B), ALT-B4/Hybrozyme SC",
+      "published": "2026-09-02",
+      "lang": "en",
+      "source_url": "https://www.prnewswire.com/news-releases/alteogen-enters-option-and-license-agreement-with-novartis-for-development-and-commercialization-of-hybrozyme-enabled-subcutaneous-products-302867513.html",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Direct ALT-B4/Hybrozyme licensing deal, benchmarks Alteogen's platform reach vs ENHANZE/Dupixent.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as alteogen_novartis_2026-09 (2026-09-02).",
+      "event_key": "alteogen_novartis_2026-09",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme and Vertex sign deal for Hypercon technology",
+      "published": "2026-04-01",
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Hypercon licensing deal, part of ENHANZE-family competitive picture vs ALT-B4.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as halozyme_vertex_2026-04.",
+      "event_key": "halozyme_vertex_2026-04",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen-GSK/Tesaro dostarlimab ALT-B4 SC license",
+      "published": "2026-01",
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ALT-B4 platform licensing.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as alteogen_gsk-tesaro_2026-01.",
+      "event_key": "alteogen_gsk-tesaro_2026-01",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen-Biogen ALT-B4 license (2 undisclosed biologics)",
+      "published": "2026-03-01",
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ALT-B4 platform licensing.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as alteogen_biogen_2026-03.",
+      "event_key": "alteogen_biogen_2026-03",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme-Incyte ENHANZE global collaboration for INCA033989",
+      "published": "2026-07-20",
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ENHANZE platform licensing, first nucleic-acid-therapeutic license.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as halozyme_incyte_2026-07.",
+      "event_key": "halozyme_incyte_2026-07",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Prestige Biopharma IDC files patent for IDC224 next-gen SC delivery platform",
+      "published": "2026-04-22",
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "IDC224 in-situ thermogel SC platform IP.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as prestige_idc224_patent_2026-04 (dated 2026-04-21).",
+      "event_key": "prestige_idc224_patent_2026-04",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Bioepis files 2 WIPO international patents on PH20-based SC conversion",
+      "published": "2026-07-13",
+      "lang": "en/ko",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Own-hyaluronidase internalization vs Alteogen/Halozyme.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as samsungbioepis_ph20_disclosure_2026-07-13.",
+      "event_key": "samsungbioepis_ph20_disclosure_2026-07-13",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion internalizes hyaluronidase platform for Herzuma SC/CT-P6 SC",
+      "published": "2026-05-28",
+      "lang": "ko",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Celltrion in-house SC conversion capability.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as celltrion_mfds-filing_2026-05.",
+      "event_key": "celltrion_mfds-filing_2026-05",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "MIT solvent-dehydration hydrogel microparticle antibody paper (Zheng et al., Advanced Materials)",
+      "published": "2025-11",
+      "lang": "en",
+      "source_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202516429",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Academic high-concentration SC formulation route.",
+      "date_source": "url",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Source URL (adma.202516429) already tracked as mit_advmat_2025-11.",
+      "event_key": "mit_advmat_2025-11",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Ionic liquid (CHAT) antibody formulation paper (Erdi et al., Advanced Materials)",
+      "published": "2026-02-04",
+      "lang": "en",
+      "source_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202511918",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Academic non-hyaluronidase high-concentration SC route.",
+      "date_source": "url",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Source URL (adma.202511918) already tracked as harvard_mitragotri_advmat_2026-02.",
+      "event_key": "harvard_mitragotri_advmat_2026-02",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Enhancing Bioavailability of Ultra-High Concentration Antibody Formulations Using Ionic Liquids (Ramesh et al., Advanced Healthcare Materials, 15(34):e71550)",
+      "published": "2026-08-21",
+      "lang": "en",
+      "source_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adhm.71550",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Second, distinct peer-reviewed advance for the non-hyaluronidase ionic-liquid route to >200 mg/mL SC antibody delivery -- extends the academic competitive set benchmarked against H-Cure, Thermicra and Dupixent.",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "harvard_mitragotri_advhealthmat_2026-08",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Ultra-high concentration low-viscosity SC antibody formulations using ionic liquids (Ramesh et al., J. Controlled Release 388(Pt 1):114295)",
+      "published": "2025",
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Same author group's earlier ionic-liquid paper; appears to be the precursor study to the two already-tracked/now-logged Advanced Materials-family papers on the identical CHAT excipient.",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "Judged as context rather than a separate loggable event: same authors/technology/mechanism as the newly-logged adhm.71550 finding and the already-tracked adma.202511918 finding, and could not be independently dated or fetched (jconrel.2025.114295 -- Journal of Controlled Release site not attempted directly this run given repeated EGRESS_BLOCKED results on adjacent academic-publisher hosts); logging a third near-identical CHAT-excipient row without primary confirmation risked over-counting one research program as three distinct events.",
+      "event_key": "harvard_mitragotri_jconrel_2025",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen/Sanofi Phase 1 dupilumab + berahyaluronidase alfa coformulation trial (NCT07646548)",
+      "published": "2026-07-23",
+      "lang": "en",
+      "source_url": "https://clinicaltrials.gov/study/NCT07646548",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ALT-B4 applied to Dupixent, direct benchmark relevance.",
+      "date_source": "url",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as alteogen_sanofi_dupixent-p1-dosing_2026-07-23.",
+      "event_key": "alteogen_sanofi_dupixent-p1-dosing_2026-07-23",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "CHMP (14-17 Sep 2026): Ocrevus (ocrelizumab) IV extension to pediatric relapsing MS, age 10+",
+      "published": "2026-09-18",
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "reject",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Age-extension for the IV formulation only; no SC/concentration/device angle stated.",
+      "date_source": "second_source",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: confirmed via GlobeNewswire/BioSpace and a dedicated MS-news outlet that the recommendation applies specifically to the IV infusion formulation ('safety and effectiveness of Ocrevus Zunovo [SC] in pediatric patients have not been established'); no delivery-technology, concentration or volume claim attaches to this event, so it fails the device-only/no-angle exclusion in Gate A.",
+      "event_key": "chmp_ocrevus_pediatric_iv_2026-09-18",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "CHMP (14-17 Sep 2026): pembrolizumab positive opinions",
+      "published": "2026-09-18",
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "conflict-check-only",
+      "gate_e": "Direct Tier-5 regulatory-calendar hit for a tracked ALT-B4 molecule.",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Two distinct pembrolizumab CHMP items surfaced under this headline: (1) the SC-administration/KEYTRUDA SC opinion, whose only found source (businesswire URL encodes 20250918) dates to September 2025 -- the precursor to the already-tracked 2025-11-19 EU Commission approval, not a new 2026 event; (2) the perioperative pembrolizumab+Padcev MIBC opinion dated 2026-09-18, already tracked as alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18. Caught by 1.5.1 URL-date verification before either could be mis-logged as fresh.",
+      "event_key": "alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "CHMP (14-17 Sep 2026) other new medicines/extensions: Frehemgo, Gevalka, Klygefa, Lifyorli, Povofortay, VaxRabeo, Zeydovio, Adcomfo, Pebrilzo (pertuzumab biosimilar), Inijaq, Ruxolitinib Zentiva, Enhertu (trastuzumab deruxtecan) extension, Anzupgo pediatric extension",
+      "published": "2026-09-14/18",
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "reject",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "None of these molecules/products are on the Tier 5 list or otherwise implicate high-concentration/large-volume SC delivery.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: none of these are tracked SC-delivery-enabling technologies, tracked platforms, or Tier-5 molecules (Pebrilzo is a bare pertuzumab biosimilar, not the ENHANZE-enabled Phesgo combination); no concentration/volume/device angle stated for any.",
+      "event_key": "chmp_2026-09_other_medicines",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA Sept 2026 novel approvals: Bexlutry, Pixclara, plus Aug 2026 mFLUSIVA, Orzeyful, Tudriqev",
+      "published": "2026-08 to 2026-09-15",
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "reject",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "None are Tier-5 molecules or SC-concentration relevant.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: none of these approvals are on the Tier-5 molecule list or otherwise concern high-concentration/volume SC delivery.",
+      "event_key": "fda_2026-09_other_approvals",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "MHLW/PMDA batch approval sweep for September 2026",
+      "published": null,
+      "lang": "ja",
+      "source_url": null,
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "context",
+      "reject_reason": "No batch-approval release or Tier-5 molecule hit surfaced this run for the current window; PMDA's own approvals-list page was not directly fetchable via search snippet alone.",
+      "event_key": "pmda_2026-09_sweep_no_hit",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "NMPA September 2026 approvals (early-Sept biologics batch, Chinese-language names)",
+      "published": "2026-09-03 / 2026-08-31",
+      "lang": "zh",
+      "source_url": null,
+      "gate_a": "reject",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Transliterated product names do not match any Tier-5 molecule/brand.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: none of the approved products (莱康奇塔单抗, 纬利妥米单抗, 芮特韦拜单抗, 库莱韦拜单抗, etc.) match a Tier-5 tracked molecule or brand name.",
+      "event_key": "nmpa_2026-09_sweep_no_hit",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "MFDS Korea '9월 신약 3품목' approvals article (에토데이)",
+      "published": null,
+      "lang": "ko",
+      "source_url": null,
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "unverified",
+      "gate_d": "n/a",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Article uses the pre-2013 agency name '식약청' (renamed 식약처 in 2013) and lists unrelated small-molecule drugs (삼스카정, 트라젠타정) -- a stale/irrelevant search hit, not a 2026 event. Red-flag caught per 1.5.1 before any date could be assumed.",
+      "event_key": "mfds_stale_article_rejected",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme-Merck PTAB PGR patent invalidations / Alteogen IPR defense / Munich injunction / Hague-UK setbacks",
+      "published": "2025-12 to 2026-07",
+      "lang": "en/ko",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Patent-litigation state of play between the two lead SC-hyaluronidase platforms.",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already tracked (halozyme_merck_ptab-pgr-invalidations_2026-05, alteogen_ptab-ipr-defense_2026-05-15, halozyme_merck_germany-injunction_2025-12-04, halozyme_msd_hague-uk-setbacks_2026-07).",
+      "event_key": "halozyme_merck_ptab-pgr-invalidations_2026-05",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "G2G Bio-Celltrion MOU for ultra-high-concentration antibody SC platform (InnoBioLAMP)",
+      "published": "2026-07-30",
+      "lang": "en/ko",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "New-competitor tie-up on a tracked technology.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as g2gbio_celltrion_mou_2026-07-30.",
+      "event_key": "g2gbio_celltrion_mou_2026-07-30",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Amicogen Korean patent grants for neutral-pH hyaluronidase variant",
+      "published": "2026-07-14",
+      "lang": "ko",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "New-competitor hyaluronidase IP.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as amicogen_hyaluronidase_patent-grant_2026-07-14.",
+      "event_key": "amicogen_hyaluronidase_patent-grant_2026-07-14",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "InventageLab BIO USA 2026 remarks on IVL-BioFluidic partnership exploration",
+      "published": null,
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "n/a",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "context",
+      "reject_reason": "Forward-looking conference commentary ('will explore partnerships') with no discrete deal, filing or decision -- fails Gate B's discrete-dated-event requirement.",
+      "event_key": "inventagelab_bio2026_commentary",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Arecor Arestat / AT278 ultra-rapid insulin background",
+      "published": null,
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "context",
+      "reject_reason": "No new dated event this run; existing background/profile content on an already-tracked technology row.",
+      "event_key": "arecor_arestat_no_new_item",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Altruist Biologics Altru-CON platform launch background",
+      "published": null,
+      "lang": "en",
+      "source_url": null,
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "context",
+      "reject_reason": "No new dated event this run beyond the already-tracked launch.",
+      "event_key": "altru_con_no_new_item",
+      "canonical": true,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "Thermostable Ionic Liquid Excipient (CHAT)",
+      "company": "Academic (Harvard University - Mitragotri Lab)",
+      "event": "Peer-reviewed publication: choline-tryptophan ionic liquid (CHAT) excipient enables >200 mg/mL antibody formulations, viscosity <20 cP, improved SC bioavailability vs saline in mice",
+      "date": "2026-08-21",
+      "freshness": "backfill",
+      "source_name": "Advanced Healthcare Materials (Wiley) / Harvard -- via search-engine snippets only, direct fetch EGRESS_BLOCKED",
+      "source_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adhm.71550",
+      "confidence": "Secondary",
+      "summary": "BACKFILL: a second, distinct peer-reviewed paper from the Harvard/Mitragotri group, published in Advanced Healthcare Materials, extending the already-tracked ionic-liquid (CHAT) excipient work to a new study on antibody bioavailability. Date unconfirmed against any primary source this run (all 8 hosts tried were EGRESS_BLOCKED); flagged pending confirmation.",
+      "summary_ko": "백필: 하버드/Mitragotri 그룹의 두 번째 동료심사 논문으로, Advanced Healthcare Materials에 게재되었으며 이미 추적 중인 이온성 액체(CHAT) 부형제 연구를 항체 생체이용률에 관한 새로운 연구로 확장한다. 이번 실행에서는 어떤 1차 출처로도 날짜를 확인하지 못했으며(시도한 8개 호스트 모두 EGRESS_BLOCKED), 검토 필요로 표시한다.",
+      "conflicts_with": null
+    }
+  ],
+  "run_notes": {
+    "tier5_earning_its_cost": "Tier 5 surfaced two items a name-search alone would likely have missed or mis-dated: (1) the CHMP pembrolizumab 'SC administration' headline, which cross-referencing the businesswire source's embedded URL date (20250918) revealed to be a September 2025 opinion resurfacing in a 2026 search, not a new event -- caught by 1.5.1 date verification, preventing a false-fresh log; (2) confirmation that the CHMP Ocrevus pediatric extension applies to the IV formulation only, which required reading past the ocrelizumab-brand headline match to the formulation-specific detail before rejecting it on Gate A. Both were direct regulator/press lookups, not name-search hits on 'subcutaneous' keywords -- consistent with why Tier 5 exists.",
+    "egress_blocked_domains_this_run": [
+      "pubmed.ncbi.nlm.nih.gov",
+      "advanced.onlinelibrary.wiley.com",
+      "api.crossref.org",
+      "api.semanticscholar.org",
+      "www.ebi.ac.uk",
+      "cmi.hms.harvard.edu",
+      "www.researchgate.net",
+      "doi.org",
+      "www.ema.europa.eu",
+      "www.pearceip.law",
+      "www.pharmya.com"
+    ],
+    "dart_fallback_ladder": "Not invoked this run -- no candidate required a DART filing lookup (query 15's DART/KIND sweep returned only general investor-relations background already covered by other sources, no undiscovered filing).",
+    "tracked_technologies_with_no_in_window_items": [
+      "xeriject",
+      "microglassification",
+      "genentech_unbranded_sc",
+      "academic_spray_dried",
+      "inventagelab_ivl_biofluidic",
+      "samsungbio_s-hicon",
+      "wuxibio_wuxihigh2",
+      "chengdu_rongsheng_tiantan_weian",
+      "snapshot_surfbio",
+      "nanoform_nanoforming",
+      "crystalomics_althea",
+      "academic_solvent_dehydration_hydrogel",
+      "sanofi_sarclisa_escena_sc",
+      "brl_hc_sc_platform",
+      "g2gbio_innobiolamp",
+      "alphamab_sc_hc_platform",
+      "eisai_biogen_leqembi_iqlik_sc",
+      "huonslab_hydiffuze",
+      "amicogen_hyaluronidase",
+      "hypercon",
+      "celltrion_herzuma_sc",
+      "prestige_biopharma_idc224",
+      "arecor_arestat",
+      "gc_viscosity_excipient",
+      "altruist_altru_con"
+    ],
+    "new_untracked_competitors_identified": null
+  }
+}
