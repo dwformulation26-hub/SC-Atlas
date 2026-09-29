@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:23:48+00:00",
+  "generated_at": "2026-09-29T00:21:34+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -62,7 +62,7 @@
     "tracked": 31,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 88,
+    "deals_tracked": 90,
     "flagged_deals": 9
   },
   "internal_targets": [
@@ -812,6 +812,22 @@
       "last_reviewed": "2026-09-16",
       "deals": [
         {
+          "deal_id": "alteogen_msd_keytruda-sc-china-approval_2026-09-28",
+          "partner": "MSD (Merck & Co. China affiliate) / China National Medical Products Administration (NMPA)",
+          "deal_type": "Regulatory approval",
+          "date": "2026-09-28",
+          "date_sort_key": 20260928,
+          "summary": "China's National Medical Products Administration (NMPA) approved pembrolizumab subcutaneous injection (MK-3475A / Keytruda SC), coformulated with Alteogen's ALT-B4 (berahyaluronidase alfa), per NMPA's own approvals listing reported same-day by multiple Chinese financial outlets. Approved as first-line treatment, in combination with chemotherapy, for metastatic non-small-cell lung cancer (NSCLC); dosed every 3 weeks (under 1 minute) or every 6 weeks (under 2 minutes), versus roughly 30 minutes for IV Keytruda, based on the Phase 3 MK-3475A-D77 trial (equivalence in AUC and steady-state trough concentration vs. IV). This is the sixth major-market approval for ALT-B4-enabled Keytruda SC, after the US, EU, Canada, Korea and Japan (all already tracked), extending Alteogen's platform installed base into China. No mg/mL concentration figure disclosed in available coverage.",
+          "molecule": "Pembrolizumab SC (Keytruda SC / MK-3475A) -- ALT-B4-enabled formulation",
+          "source_name": "Investing.com (cn.investing.com); corroborated same-day by Sina Finance (sina.cn) and 163.com, all citing NMPA's official approvals listing",
+          "source_url": "https://cn.investing.com/news/stock-market-news/article-3585305",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": true,
+          "summary_ko": "중국 국가약품감독관리국(NMPA)이 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 펨브롤리주맙 피하주사(MK-3475A / 키트루다 SC)를 승인했다고, NMPA 자체 허가 목록을 인용한 복수의 중국 금융매체가 같은 날 보도했다. 전이성 비소세포폐암(NSCLC) 1차 치료로 화학요법과 병용 승인되었으며, 3주마다 1분 이내 또는 6주마다 2분 이내 투여되어 약 30분이 걸리는 정맥주사 키트루다 대비 투여 시간이 크게 줄었다. 이는 3상 MK-3475A-D77 시험(정맥주사 대비 AUC 및 정상상태 최저농도 동등성 입증)에 근거한다. 이는 미국·EU·캐나다·한국·일본(모두 이미 추적 중)에 이은 ALT-B4 기반 키트루다 SC의 여섯 번째 주요 시장 승인이며, 알테오젠 플랫폼의 설치 기반을 중국까지 확대한다. 확인 가능한 보도에는 mg/mL 농도 수치가 공개되지 않았다."
+        },
+        {
           "deal_id": "alteogen_keytrudasc_epo-composition-patent_2026-09-23",
           "partner": "MSD / Merck (coformulation partner; patent held by Alteogen)",
           "deal_type": "Patent (composition-of-matter, EU registration)",
@@ -1245,6 +1261,22 @@
       "date_added": "2026-07-12",
       "last_reviewed": "2026-09-03",
       "deals": [
+        {
+          "deal_id": "inventagelab_pct-patent_2026-09-29",
+          "partner": "N/A (company milestone)",
+          "deal_type": "Patent filing",
+          "date": "2026-09-29",
+          "date_sort_key": 20260929,
+          "summary": "InventageLab completed a PCT international patent application for its IVL-BioFluidic ultra-high-concentration antibody subcutaneous injection platform, per the company's own press release. The release also disclosed, for the first time, a running total of 6 Material Transfer Agreements (MTAs) signed with multiple global pharmaceutical and biotech partners since the platform's initial disclosure at PODD 2025 -- a more specific count than the undisclosed 'multiple domestic companies' figure logged 2026-09-02 (see inventagelab_domestic-mta_2026-09-02). InventageLab will give an oral presentation on the platform at PODD 2026 (Boston, Oct 29) titled 'IVL-BioFluidic: Realizing Ultra-High Concentration Biopharmaceutical Formulations Through Microfluidic Engineering.' No specific concentration figure, patent application number, or filing date beyond 'completed' was disclosed.",
+          "molecule": "N/A (platform-level filing; no specific molecule named)",
+          "source_name": "InventageLab (company press release); corroborated same-day by Hankyung, Edaily, TheBioNews, Newsprime, Pinpointnews",
+          "source_url": "https://www.inventagelab.com/ko/press-room/73?tab=press-releases",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": true,
+          "summary_ko": "인벤티지랩은 자사 발표를 통해 초고농도 항체 피하주사 플랫폼 'IVL-BioFluidic'에 대한 PCT 국제특허출원을 완료했다고 밝혔다. 이번 발표에서는 처음으로 PODD 2025 최초 공개 이후 복수의 글로벌 제약·바이오 파트너사와 체결한 물질이전계약(MTA)이 누적 6건에 이른다는 수치도 공개했다 -- 2026-09-02에 기록한 '복수의 국내 기업'이라는 비공개 수치(inventagelab_domestic-mta_2026-09-02 참조)보다 구체적인 수치다. 인벤티지랩은 오는 10월 29일 미국 보스턴에서 열리는 PODD 2026에서 'IVL-BioFluidic: Realizing Ultra-High Concentration Biopharmaceutical Formulations Through Microfluidic Engineering'라는 제목으로 구두 발표를 진행할 예정이다. 구체적인 농도 수치, 특허출원번호, '완료' 이상의 출원 일자는 공개되지 않았다."
+        },
         {
           "deal_id": "inventagelab_domestic-mta_2026-09-02",
           "partner": "Multiple undisclosed domestic (Korean) companies",
@@ -2195,6 +2227,42 @@
   ],
   "recent_activity": [
     {
+      "deal_id": "inventagelab_pct-patent_2026-09-29",
+      "partner": "N/A (company milestone)",
+      "deal_type": "Patent filing",
+      "date": "2026-09-29",
+      "date_sort_key": 20260929,
+      "summary": "InventageLab completed a PCT international patent application for its IVL-BioFluidic ultra-high-concentration antibody subcutaneous injection platform, per the company's own press release. The release also disclosed, for the first time, a running total of 6 Material Transfer Agreements (MTAs) signed with multiple global pharmaceutical and biotech partners since the platform's initial disclosure at PODD 2025 -- a more specific count than the undisclosed 'multiple domestic companies' figure logged 2026-09-02 (see inventagelab_domestic-mta_2026-09-02). InventageLab will give an oral presentation on the platform at PODD 2026 (Boston, Oct 29) titled 'IVL-BioFluidic: Realizing Ultra-High Concentration Biopharmaceutical Formulations Through Microfluidic Engineering.' No specific concentration figure, patent application number, or filing date beyond 'completed' was disclosed.",
+      "molecule": "N/A (platform-level filing; no specific molecule named)",
+      "source_name": "InventageLab (company press release); corroborated same-day by Hankyung, Edaily, TheBioNews, Newsprime, Pinpointnews",
+      "source_url": "https://www.inventagelab.com/ko/press-room/73?tab=press-releases",
+      "relevance": "Medium",
+      "confidence": "Primary",
+      "flagged": false,
+      "new_in_digest": true,
+      "summary_ko": "인벤티지랩은 자사 발표를 통해 초고농도 항체 피하주사 플랫폼 'IVL-BioFluidic'에 대한 PCT 국제특허출원을 완료했다고 밝혔다. 이번 발표에서는 처음으로 PODD 2025 최초 공개 이후 복수의 글로벌 제약·바이오 파트너사와 체결한 물질이전계약(MTA)이 누적 6건에 이른다는 수치도 공개했다 -- 2026-09-02에 기록한 '복수의 국내 기업'이라는 비공개 수치(inventagelab_domestic-mta_2026-09-02 참조)보다 구체적인 수치다. 인벤티지랩은 오는 10월 29일 미국 보스턴에서 열리는 PODD 2026에서 'IVL-BioFluidic: Realizing Ultra-High Concentration Biopharmaceutical Formulations Through Microfluidic Engineering'라는 제목으로 구두 발표를 진행할 예정이다. 구체적인 농도 수치, 특허출원번호, '완료' 이상의 출원 일자는 공개되지 않았다.",
+      "technology_id": "inventagelab_ivl_biofluidic",
+      "technology_name": "IVL-BioFluidic (microfluidic/microsphere-based SC platform)"
+    },
+    {
+      "deal_id": "alteogen_msd_keytruda-sc-china-approval_2026-09-28",
+      "partner": "MSD (Merck & Co. China affiliate) / China National Medical Products Administration (NMPA)",
+      "deal_type": "Regulatory approval",
+      "date": "2026-09-28",
+      "date_sort_key": 20260928,
+      "summary": "China's National Medical Products Administration (NMPA) approved pembrolizumab subcutaneous injection (MK-3475A / Keytruda SC), coformulated with Alteogen's ALT-B4 (berahyaluronidase alfa), per NMPA's own approvals listing reported same-day by multiple Chinese financial outlets. Approved as first-line treatment, in combination with chemotherapy, for metastatic non-small-cell lung cancer (NSCLC); dosed every 3 weeks (under 1 minute) or every 6 weeks (under 2 minutes), versus roughly 30 minutes for IV Keytruda, based on the Phase 3 MK-3475A-D77 trial (equivalence in AUC and steady-state trough concentration vs. IV). This is the sixth major-market approval for ALT-B4-enabled Keytruda SC, after the US, EU, Canada, Korea and Japan (all already tracked), extending Alteogen's platform installed base into China. No mg/mL concentration figure disclosed in available coverage.",
+      "molecule": "Pembrolizumab SC (Keytruda SC / MK-3475A) -- ALT-B4-enabled formulation",
+      "source_name": "Investing.com (cn.investing.com); corroborated same-day by Sina Finance (sina.cn) and 163.com, all citing NMPA's official approvals listing",
+      "source_url": "https://cn.investing.com/news/stock-market-news/article-3585305",
+      "relevance": "High",
+      "confidence": "Secondary",
+      "flagged": false,
+      "new_in_digest": true,
+      "summary_ko": "중국 국가약품감독관리국(NMPA)이 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 펨브롤리주맙 피하주사(MK-3475A / 키트루다 SC)를 승인했다고, NMPA 자체 허가 목록을 인용한 복수의 중국 금융매체가 같은 날 보도했다. 전이성 비소세포폐암(NSCLC) 1차 치료로 화학요법과 병용 승인되었으며, 3주마다 1분 이내 또는 6주마다 2분 이내 투여되어 약 30분이 걸리는 정맥주사 키트루다 대비 투여 시간이 크게 줄었다. 이는 3상 MK-3475A-D77 시험(정맥주사 대비 AUC 및 정상상태 최저농도 동등성 입증)에 근거한다. 이는 미국·EU·캐나다·한국·일본(모두 이미 추적 중)에 이은 ALT-B4 기반 키트루다 SC의 여섯 번째 주요 시장 승인이며, 알테오젠 플랫폼의 설치 기반을 중국까지 확대한다. 확인 가능한 보도에는 mg/mL 농도 수치가 공개되지 않았다.",
+      "technology_id": "alt-b4_hybrozyme",
+      "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
+    },
+    {
       "deal_id": "alteogen_keytrudasc_epo-composition-patent_2026-09-23",
       "partner": "MSD / Merck (coformulation partner; patent held by Alteogen)",
       "deal_type": "Patent (composition-of-matter, EU registration)",
@@ -2427,42 +2495,6 @@
       "summary_ko": "이번 실행에서 확인된 정정 사안: 지투지바이오(G2G Bio)는 공개 인터뷰에서 InnoBioLAMP가 IgG를 사용해 최대 750 mg/mL 항체 미립자 현탁 제형을 구현했으며 세마글루타이드, 소 혈청 알부민, 베바시주맙에 대해서도 미립자 구현 가능성을 확인했다고 밝혔다. 회사는 이를 Halozyme의 Hypercon(500 mg/mL)과 Lindy Biosciences의 Microglassification(400 mg/mL)을 상회하는 수준으로 제시한다. 2026-07-30 셀트리온 MOU(딜 'g2gbio_celltrion_mou_2026-07-30')와 함께 InnoBioLAMP가 처음 언급된 이후 수치가 제시된 첫 사례로, 당시에는 수치가 공개되지 않았다. 이번 실행의 조사 기간 밖이지만(인터뷰 2026-07-31 진행, 2026-08-05 게재) 트래커의 기간 밖 정정 원칙에 따라 해당 기술의 기존 '수치 비공개' 농도 항목에 대한 정정으로 지금 기록한다.",
       "technology_id": "g2gbio_innobiolamp",
       "technology_name": "InnoBioLAMP"
-    },
-    {
-      "deal_id": "alphamab_jskn033_cde-phase3_2026-08",
-      "partner": "China CDE / NMPA (regulatory)",
-      "deal_type": "Regulatory filing / Clinical trial milestone",
-      "date": "2026-08-03",
-      "date_sort_key": 20260803,
-      "summary": "China's Center for Drug Evaluation (CDE) approved initiation of a Phase III study (JSKN033-301) for JSKN033, described by Alphamab Oncology as a first-in-class high-concentration SC co-formulation of a HER2 bispecific ADC (JSKN003; DAR4; site-specific glycan conjugation of a topoisomerase I inhibitor) with envafolimab (PD-L1 inhibitor). Trial: open-label, randomized, controlled, multicenter study of JSKN033 monotherapy vs. physician's-choice chemotherapy in recurrent/metastatic cervical cancer after platinum-based chemo/immunotherapy, irrespective of HER2 expression status. Company states the co-formulation is administered 'in tens of seconds' and is independent of hyaluronidase. No numeric concentration (mg/mL) disclosed in available coverage.",
-      "molecule": "JSKN033 (JSKN003 HER2 bispecific ADC + Envafolimab/KN035 PD-L1 inhibitor)",
-      "source_name": "Alphamab Oncology (company press release)",
-      "source_url": "https://www.alphamabonc.com/en/html/news/2823.html",
-      "relevance": "High",
-      "confidence": "Primary",
-      "flagged": false,
-      "new_in_digest": false,
-      "summary_ko": "중국 국가약품감독관리국 약품심사평가센터(CDE)가 JSKN033의 3상 임상시험(JSKN033-301) 개시를 승인했다. Alphamab Oncology는 JSKN033을 HER2 이중특이 ADC(JSKN003, DAR4, 토포아이소머라제 I 억제제의 부위특이적 글리칸 접합)와 엔바폴리맙(PD-L1 억제제)을 결합한 계열 최초의 고농도 피하 복합 제형으로 설명한다. 시험 설계는 백금 기반 항암화학요법·면역치료 이후 재발성·전이성 자궁경부암 환자를 대상으로 HER2 발현 여부와 무관하게 JSKN033 단독요법과 의사 선택 항암화학요법을 비교하는 공개 라벨, 무작위 배정, 대조, 다기관 연구다. 회사는 이 복합 제형이 '수십 초 내' 투여되며 히알루로니다제에 의존하지 않는다고 밝혔다. 공개된 자료에는 mg/mL 수치가 제시되지 않았다.",
-      "technology_id": "alphamab_sc_hc_platform",
-      "technology_name": "Subcutaneous High-Concentration Co-formulation Platform"
-    },
-    {
-      "deal_id": "alphamab_pathosai_jskn016_2026-08",
-      "partner": "Pathos AI",
-      "deal_type": "Exclusive Global License",
-      "date": "2026-08-03",
-      "date_sort_key": 20260803,
-      "summary": "Pathos AI licensed JSKN016 (a first-in-class TROP2/HER3 bispecific ADC) from Alphamab Oncology, gaining exclusive development/commercialization rights outside Greater China (Alphamab retains Chinese-territory rights). Terms: $125M non-refundable upfront + up to $2,093M in development/commercialization milestones + tiered royalties (high-single to low-double-digit % of net sales). Both IV and SC formulations of JSKN016 are covered; an SC formulation of JSKN016 is already in Phase Ib (China) and Phase I (Australia) trials. CAVEAT (per soul-file 'never guess' rule): the primary source does not explicitly confirm whether Alphamab's proprietary SC high-concentration platform IP itself transfers under this deal, or only rights to the JSKN016 molecule/its existing SC-formulated clinical material -- logged with this ambiguity flagged rather than assumed.",
-      "molecule": "JSKN016 (TROP2/HER3 bispecific ADC)",
-      "source_name": "Pathos AI (press release, GlobeNewswire) / BioSpace",
-      "source_url": "https://www.pathos.com/pathos-ai-enters-global-licensing-agreement-with-alphamab-oncology-on-jskn016-a-first-in-class-trop2-her3-bispecific-adc",
-      "relevance": "Medium",
-      "confidence": "Primary",
-      "flagged": false,
-      "new_in_digest": false,
-      "summary_ko": "Pathos AI가 Alphamab Oncology로부터 계열 최초 TROP2/HER3 이중특이 ADC인 JSKN016을 도입해 중화권을 제외한 지역의 독점 개발·상업화 권리를 확보했다(중국 내 권리는 Alphamab이 보유). 조건은 반환 불가 선급금 $125M + 개발·상업화 마일스톤 최대 $2,093M + 순매출의 높은 한 자릿수에서 낮은 두 자릿수 구간별 로열티다. JSKN016의 정맥주사 제형과 피하 제형이 모두 포함되며, 피하 제형은 이미 1b상(중국)과 1상(호주)이 진행 중이다. 유의 사항(soul-file의 '추측 금지' 원칙에 따름): 1차 출처는 Alphamab의 독자 고농도 피하 플랫폼 지식재산 자체가 이 계약으로 이전되는지, 아니면 JSKN016 물질과 기존 피하 제형 임상 물질에 대한 권리만 이전되는지 명시하지 않으며, 추정하지 않고 이 모호성을 표시한 채 기록한다.",
-      "technology_id": "alphamab_sc_hc_platform",
-      "technology_name": "Subcutaneous High-Concentration Co-formulation Platform"
     }
   ]
 }
