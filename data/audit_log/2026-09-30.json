@@ -1,0 +1,522 @@
+{
+  "run_date": "2026-09-30",
+  "window": {
+    "from": "2026-09-29T09:14:48+09:00",
+    "to": "2026-09-30T09:20:00+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday run (Wednesday, following Tuesday's 2026-09-29 run; no gap). Previous run (data/audit_log/2026-09-29.json) completed 2026-09-29T09:14:48+09:00. Window is ~24h, the ordinary weekday window; not extended to the 72h floor since there was no Monday/gap condition this run."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous September 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" biologics technology September 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal September 2026 / hyaluronidase SC formulation deal 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 / 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration September 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Registry sweep (ClinicalTrials.gov NCT07646548 status check)"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 2026년 9월"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 2026년 9월"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "특허청 히알루로니다제 고농도 제형 2026"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP meeting highlights September 2026 / October 2026 (next meeting 12-15 Oct 2026, not yet held)"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "MHLW PMDA 新薬 一斉承認 2026年9月 / PMDA 2026年9月 承認 皮下注射 キイトルーダ OR オプジーボ OR ダラザレックス OR リツキサン"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "FDA Novel Drug Approvals 2026 list September / FDA approval September 2026 subcutaneous hyaluronidase Rybrevant OR Vyvgart OR Darzalex OR Tecentriq OR Ocrevus"
+    },
+    {
+      "tier": 5,
+      "lang": "ko",
+      "query": "식약처 의약품 허가 목록 2026년 9월 / 식약처 허가 키트루다 OR 옵디보 OR 다잘렉스 OR 리브레반트 피하주사 2026년 9월"
+    },
+    {
+      "tier": 5,
+      "lang": "zh",
+      "query": "NMPA 药品批准 2026年9月 / NMPA 批准 皮下注射 帕博利珠单抗 OR 达雷妥尤单抗 OR 阿托珠单抗 2026年9月"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Nanoform Crystalomics Althea WuXiHigh subcutaneous 2026 (targeted, tracked-tech coverage)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Arecor Arestat OR Alphamab OR Sanofi Sarclisa Escena subcutaneous concentration 2026 (targeted, tracked-tech coverage)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Halozyme ENHANZE partners.php re-check for an 11th marketed molecule (installed-base completeness check per platform-product-base.md)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Sarclisa Escena European Commission approval isatuximab subcutaneous (following up 2026-03 CHMP row's unconfirmed EC-decision note)"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "알테오젠 9월30일 / Halozyme Alteogen news September 29 2026 / 셀트리온 삼성바이오에피스 인벤티지랩 지투지바이오 9월29일 9월30일 (same-day sweep)"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "지투지바이오 9월29일 공동개발 협력 (follow-up on ambiguous same-day G2G Bio hit)"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme investor-conference circuit (Wells Fargo, Morgan Stanley, H.C. Wainwright, Sept 9-16 2026) reiterating ENHANZE/Hypercon strategy",
+      "published": "2026-09-16",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "gate_b: recurring investor-conference commentary, no discrete new dated event beyond already-tracked deals",
+      "event_key": "halozyme_ir_conference_circuit_2026-09",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen ALT-B4/Novartis deal coverage recap (Sept 2 announcement, still being covered/analyzed in late Sept)",
+      "published": "2026-09-02",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a (duplicate)",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "duplicate: already tracked as alteogen_novartis_2026-09",
+      "event_key": "alteogen_novartis_alt-b4_2026-09",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Xeris Biopharma XP-8121 once-weekly SC levothyroxine webinar (Sept 9, 2026)",
+      "published": "2026-09-09",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "fails: small-molecule (levothyroxine) once-weekly SC program, not a high-concentration/large-volume biologics delivery technology; unrelated to XeriJect platform",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "gate_a: unrelated small-molecule SC program from a tracked company, not the tracked platform technology itself",
+      "event_key": "xeris_xp8121_webinar_2026-09",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "할로자임, 일렉트로파이(Hypercon) 인수 배경/특허분쟁 회고 기사 (edaily, 재조명)",
+      "published": "2026-04-XX (re-surfaced)",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a (duplicate)",
+      "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "duplicate: already tracked (Elektrofi/Hypercon acquisition row); retrospective re-surfacing, no new fact",
+      "event_key": "halozyme_elektrofi_acquisition",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "알테오젠 ALT-B4 누적 기술수출 6조원 돌파 집계 기사 (ajunews, 요약/합산 보도)",
+      "published": "2026-09-03",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "gate_b: roll-up/aggregation article summing already-tracked individual deals (GSK, Sanofi, Biogen, undisclosed-365M, Novartis), not a new discrete event",
+      "event_key": "alteogen_2026_cumulative_deals_recap",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "셀트리온, SC 제형 개발 역량 내재화…신규 파이프라인 확장 (ebn.co.kr)",
+      "published": "2025-12-08",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a (superseded)",
+      "date_source": "page",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "superseded: this Dec-2025 in-house hyaluronidase-internalization announcement and its facts (proprietary platform, 90/30-min IV to <5-min SC, first-mover framing) are already fully captured in the celltrion_herzuma_sc technology row's mechanism field (date_added 2026-07-12), and its Herzuma SC clinical/regulatory milestones are separately tracked as celltrion_pivotal-trial_2026-02, celltrion_ema-filing_2026-04, celltrion_mfds-filing_2026-05. No new fact beyond a CDMO/external-licensing intent statement already implicit in the technology's business framing.",
+      "event_key": "celltrion_sc_internalization_announcement_2025-12",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://m.thebell.co.kr/m/newsview.asp?svccode=&newskey=202512081729516360105249"
+      ]
+    },
+    {
+      "raw_title": "지투지바이오, 유럽 제약사와 약효지속성 주사제(InnoLAMP) 연구협력 (2026-09-29)",
+      "published": "2026-09-29",
+      "lang": "ko",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "fails: this is G2G Bio's parent InnoLAMP long-acting microsphere platform for small-molecule/API reformulation (feasibility research with an undisclosed European pharma partner), not InnoBioLAMP -- the antibody high-concentration SC platform already tracked under g2gbio_innobiolamp. No SC/high-concentration antibody angle stated.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "gate_a: different platform (long-acting small-molecule/API microsphere technology), not high-concentration/volume SC biologics delivery",
+      "event_key": "g2gbio_innolamp_eu-pharma-research-collab_2026-09-29",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.hellodd.com/news/articleView.html?idxno=109394"
+      ]
+    },
+    {
+      "raw_title": "신한투자증권, 알테오젠 목표주가 하향 (노바티스 AOC 후보물질 임상 3상 1건 실패 반영)",
+      "published": "2026-09-29",
+      "lang": "ko",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "fails: analyst price-target commentary on an unrelated Novartis AOC oncology asset's Phase 3 readout; explicitly does not change the Alteogen-Novartis ALT-B4/Hybrozyme SC licensing deal terms",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "gate_b: analyst price-target/stock commentary, not a discrete SC-delivery-technology event; article itself confirms no change to the tracked licensing deal",
+      "event_key": "alteogen_analyst_target-price-cut_2026-09-29",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme $1.3B convertible senior notes pricing (Sept 17, 2026)",
+      "published": "2026-09-17",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "fails: corporate debt-financing transaction, no SC/high-concentration delivery-technology content",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "gate_a: general corporate finance (convertible notes), not a delivery-technology event",
+      "event_key": "halozyme_convertible_notes_2026-09-17",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion 1000억원 규모 자사주 취득 공시 (Sept 29, 2026)",
+      "published": "2026-09-29",
+      "lang": "ko",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "fails: share buyback disclosure, unrelated to SC delivery technology",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "gate_a: corporate-finance disclosure (treasury share buyback), no delivery-technology content",
+      "event_key": "celltrion_buyback_2026-09-29",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "CHMP 14-17 Sept 2026 meeting highlights re-check (Keytruda+Padcev MIBC, Ocrevus IV pediatric extension, 10 other new-medicine recommendations, Frehemgo/Gevalka/Klygefa/Lifyorli/Povofortay)",
+      "published": "2026-09-18",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a (duplicate)",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "duplicate: Keytruda+Padcev MIBC opinion already tracked as alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18; the other 10 recommendations and the Ocrevus IV pediatric extension are non-tracked molecules/IV-only, no next CHMP meeting (12-15 Oct 2026) has occurred yet to check",
+      "event_key": "chmp_sept2026_recheck",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "PMDA/MHLW batch approval list re-check, mid/late Sept 2026 (post-Kiject)",
+      "published": "2026-09-16 (prior batch, re-confirmed)",
+      "lang": "ja",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a (duplicate)",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "duplicate: Kiject (Keytruda SC Japan) already tracked as alteogen_msd_keytruda-sc-japan-approval_2026-09-16; no new PMDA batch list found covering a Tier-5 molecule since",
+      "event_key": "pmda_sept2026_recheck",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA Novel Drug Approvals, Sept 2026 batch (Hyrnuo, Etcamah, Zanvastro, iberdomide+daratumumab/hyaluronidase-fihj accelerated approval, lutetium Lu 177, Juvmo)",
+      "published": "2026-09-01 to 2026-09-29",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "fails: none are Tier-5 tracked SC molecules/platforms; the daratumumab+hyaluronidase item is a new combination-regimen indication for the already-tracked Darzalex Faspro (ENHANZE) product, not a new molecule/platform event",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "gate_a/gate_b: unrelated new-molecule approvals; the one hyaluronidase-adjacent item (Darzalex Faspro + iberdomide) is an indication expansion of an already-tracked installed-base product with no new SC-technology fact",
+      "event_key": "fda_sept2026_batch_recheck",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "식약처 9월 허가 88건 (싱그릭스, 에프에이씨비씨주사 등 신약 2건)",
+      "published": "2026-09-06 / 2026-09-17",
+      "lang": "ko",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "fails: shingles vaccine and a diagnostic radiopharmaceutical, neither a tracked SC/high-concentration molecule or platform",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "gate_a: unrelated approvals (vaccine, diagnostic imaging agent), no SC delivery-technology angle",
+      "event_key": "mfds_sept2026_batch_recheck",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "NMPA Sept 2026 approvals batch (醒脾解郁片, 芮特韦拜单抗, 库莱韦拜单抗, 艾曲帕米鼻喷雾剂, 利扎布替尼片, 莱康奇塔单抗, 纬利妥米单抗, 酒石酸凡瑞格拉替尼)",
+      "published": "2026-08-31 / 2026-09-03",
+      "lang": "zh",
+      "gate_a": "reject",
+      "gate_b": "n/a",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "fails: none are Tier-5 tracked molecules; Keytruda SC China approval (2026-09-28) already found and tracked separately",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "gate_a: unrelated approvals, no SC delivery-technology angle beyond the already-tracked Keytruda SC item",
+      "event_key": "nmpa_sept2026_batch_recheck",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Darzalex SC (daratumumab) China registration-certificate expiry date 2026-09-29 noted in a registry lookup",
+      "published": "n/a (registry metadata, not a new approval event)",
+      "lang": "zh",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "gate_b: a certificate's listed expiry/renewal date is not itself a dated event (approval, deal, filing); no renewal or status-change action confirmed this run",
+      "event_key": "darzalex_sc_china_cert_expiry_metadata",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Nanoform Q1 2026 report -- first exclusivity agreement for ultra-high-concentration SC biologics technology (May 2026)",
+      "published": "2026-05-XX",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a (duplicate)",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "duplicate: already tracked under nanoform_nanoforming technology row (first exclusivity agreement, $1M upfront, already logged in an earlier run)",
+      "event_key": "nanoform_exclusivity_2026-05",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Sarclisa Escena European Commission final marketing authorization, isatuximab SC (2026-06-08)",
+      "published": "2026-06-08",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "correction",
+      "gate_e": "Directly serves the tracker question: completes the regulatory-approval record for the Dupixent-benchmark-adjacent Sarclisa Escena on-body-injector platform, resolving a gap this tracker's own 2026-03 CHMP row explicitly flagged as unconfirmed ('EC final decision was pending... did not confirm whether a final EC decision has since issued').",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "sanofi_sarclisa-escena_ec-approval_2026-06-08",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.mpeurope.org/european-commission-approves-subcutaneous-isatuximab-for-the-treatment-of-multiple-myeloma/",
+        "https://www.biopharminternational.com/view/ec-approves-sanofi-subcutaneous-isatuximab-multiple-myeloma-across-existing-indications",
+        "https://www.myeloma.org/news-events/multiple-myeloma-news/eu-approves-subcutaneous-isatuximab-body-injector"
+      ]
+    },
+    {
+      "raw_title": "ClinicalTrials.gov NCT07646548 (Sanofi/Alteogen Phase 1 SC dupilumab + berahyaluronidase alfa) status re-check on its 2026-09-30 estimated primary-completion date",
+      "published": "2026-06-12 (registry, original posting)",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a (duplicate / no status change)",
+      "date_source": "page",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "duplicate: already tracked as alteogen_sanofi_dupixent-p1-dosing_2026-07-23 (CORRECTED with NCT07646548 primary source); WebFetch of the study page returned only navigation chrome, not the record itself (fetch limitation, not a data change) -- could not confirm a status change this run; treated as no-change rather than logging speculatively",
+      "event_key": "sanofi_dupixent_altb4_p1_nct07646548_recheck",
+      "canonical": true,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "Sarclisa Escena (SC isatuximab, on-body injector)",
+      "company": "Sanofi",
+      "event": "European Commission final marketing authorization for Sarclisa Escena SC across all approved IV isatuximab multiple-myeloma indications",
+      "date": "2026-06-08",
+      "freshness": "backfill",
+      "source_name": "Sanofi (company press release)",
+      "source_url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-06-08-05-00-00-3307781",
+      "confidence": "Primary",
+      "conflicts_with": null
+    }
+  ],
+  "notes": {
+    "tier5_comparison": "Tier 5 (queries 18-22) surfaced nothing new this run: the EMA CHMP sweep re-confirmed the already-tracked 2026-09-18 opinion (next CHMP meeting is 12-15 Oct 2026 and has not occurred yet); the Japan MHLW/PMDA, FDA, Korea MFDS and China NMPA batch-list sweeps each re-confirmed already-tracked items or surfaced only unrelated approvals. The one genuine addition this run (Sarclisa Escena EC approval) came instead from a targeted follow-up on a gap the tracker's own prior audit trail had explicitly flagged as unconfirmed (2026-03 CHMP row) -- a reminder that closing self-flagged open threads is as productive a search strategy as the fixed matrix itself.",
+    "installed_base_check": "Re-fetched Halozyme's ENHANZE partners.php page per platform-product-base.md's standing instruction to check for an 11th marketed molecule. The page lists per-region brand variants (e.g. Darzalex Faspro/SC/Darzquro; Rybrevant Faspro/SC/Rybrofaz) that an automated read miscounted as 21 distinct products; manually reconciling by molecule confirms all map to the same 10 molecule families already tracked. No new installed-base molecule found.",
+    "egress_blocked": [
+      "dart.fss.or.kr (known-blocked; not directly queried -- Tier-4 DART query was satisfied via KIND (kind.krx.co.kr, an Alteogen quarterly-report filing link) and general web search, rung 2/5 of the fallback ladder; no candidate this run required a DART-specific filing that those rungs could not reach)."
+    ],
+    "opendart_key": "not configured -- fallback ladder rung 1 skipped; not needed this run (no new DART-only item surfaced)",
+    "date_verification_summary": {
+      "url": 1,
+      "page": 0,
+      "second_source": 0,
+      "unconfirmed": 0,
+      "note": "1 logged finding (Sarclisa Escena EC approval), date confirmed via the sanofi.com press-release URL's own date-stamp path (2026-06-08-05-00-00-3307781), corroborated by mpeurope.org, biopharminternational.com and myeloma.org coverage. No unconfirmed-date findings this run."
+    }
+  }
+}
