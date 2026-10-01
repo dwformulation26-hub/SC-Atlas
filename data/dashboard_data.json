@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T00:18:45+00:00",
+  "generated_at": "2026-10-01T00:21:24+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -62,7 +62,7 @@
     "tracked": 31,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 91,
+    "deals_tracked": 94,
     "flagged_deals": 9
   },
   "internal_targets": [
@@ -230,6 +230,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "백필: Arestat를 활용해 Skye Bioscience의 CB1 억제제 nimacimab의 고농도 제형을 개발하는 제형 공동연구 계약. Skye가 이후 2026년 1월 할로자임과 비독점 ENHANZE 라이선스를 체결했다는 점에서 본 트래커에 의미가 있다 -- 동일 자산군이 서로 다른 두 고농도 플랫폼을 놓고 검토된 사례다. Arecor 최초 검증 시점인 2026-09-22에 기록했으며, 신규 뉴스가 아니다."
+        },
+        {
+          "deal_id": "arecor_eu-patents_humira-adalimumab_2022-08-09",
+          "partner": "N/A (patent grant; EPO)",
+          "deal_type": "Patent grant",
+          "date": "2022-08-09",
+          "date_sort_key": 20220809,
+          "summary": "BACKFILL: event predates this run's ~24h search window by over four years; surfaced during the routine Tier-2 sweep and not previously tracked. date_source: url -- initial search-engine summaries and aggregator reprints (lse.co.uk, Sharecast) dated this story 2026-06-03, but the article's own dateline (PharmaTimes) and Arecor's own press-release PDF filename on arecor.com both independently confirm the true event date as 2022-08-09; treated as a stale-republish date trap per the tracker's date-verification rule (comparable to the JPM 2026 mis-dating in the incident log) and logged under the confirmed original date rather than the misleading 2026 one. The European Patent Office granted Arecor two patents (EP3592383B1, EP3592385B1) protecting the company's proprietary Arestat-enabled formulations of high-concentration adalimumab (the Humira biosimilar class), with patent term to 2038. Using Arestat, Arecor developed a citrate-free high-concentration adalimumab formulation design that reduces injection-site pain and injection volume -- the same high-concentration-adalimumab design direction AbbVie's own commercial 100 mg/mL citrate-free Humira later shipped with. No specific mg/mL figure for Arecor's own formulation was disclosed in available coverage; high-concentration (100 mg/mL+) adalimumab is noted as ~80% of the US market by the time of reporting. New deal on the already-tracked Arestat row (first verified 2026-09-22 via the Skye and Ligand deals), adding patent-level IP evidence alongside the existing commercial-collaboration evidence.",
+          "molecule": "Adalimumab (Humira biosimilar class)",
+          "source_name": "PharmaTimes / Arecor (company press release PDF, arecor.com)",
+          "source_url": "https://arecor.com/wp-content/uploads/2022/08/2022-08-09-ARECOR-GRANTED-EUROPEAN-PATENTS-HIGH-CONC-HUMIRA-BIOSIMILAR.pdf",
+          "relevance": "Low",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 약 24시간 조사 기간보다 4년 이상 앞선 사건으로, 정규 Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다. date_source: url -- 최초 검색엔진 요약과 재배포 매체(lse.co.uk, Sharecast)는 이 기사를 2026-06-03로 표시했으나, 원 기사(PharmaTimes)의 날짜 표기와 arecor.com에 게재된 Arecor 자체 보도자료 PDF 파일명이 독립적으로 실제 사건일을 2022-08-09로 확인해 준다. 이는 트래커의 날짜 검증 원칙에 따른 오래된 재배포 날짜 함정 사례로 판단하여(인시던트 로그의 JPM 2026 오기재 사례와 유사), 혼동을 주는 2026년 날짜 대신 확인된 원래 날짜로 기록한다. 유럽특허청(EPO)은 Arecor에 Arestat 기반 고농도 아달리무맙(휴미라 바이오시밀러 계열) 제형을 보호하는 특허 2건(EP3592383B1, EP3592385B1)을 허여했으며, 특허 존속기간은 2038년까지다. Arestat를 활용해 Arecor는 구연산염(citrate)을 제거한 고농도 아달리무맙 제형 설계를 개발했으며, 이는 주사 부위 통증과 주사 용량을 줄인다 -- 이후 AbbVie가 출시한 자사의 100 mg/mL 구연산염 무첨가 상업용 휴미라와 같은 방향의 고농도 설계다. 공개된 보도에는 Arecor 자체 제형의 구체적 mg/mL 수치는 제시되지 않았으며, 보도 시점 기준 고농도(100 mg/mL 이상) 아달리무맙이 미국 시장의 약 80%를 차지한다고 언급된다. 이미 추적 중인 Arestat 행(2026-09-22에 Skye 및 Ligand 계약으로 최초 검증됨)에 추가되는 신규 거래로, 기존 상업적 협력 증거에 더해 특허 차원의 지식재산 증거를 보탠다."
         }
       ],
       "is_internal": false,
@@ -2048,6 +2064,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "2026-07-15 정정: Nanoform의 내부정보 공시 보도자료를 근거로 정확한 날짜가 2026년 5월 12일로 확인되었다(기존에는 연도 미확인으로 표시). Nanoform의 바이오의약품 나노입자 기술에 대한 사상 첫 독점 계약으로, 임상·상업적으로 검증된 표적 수용체 1건을 대상으로 한다. 1년 독점에 대해 반환 불가 수수료 $1M이며, 1년 추가 연장이 가능하다."
+        },
+        {
+          "deal_id": "nanoform_nanotrastuzumab_minipig_2026-02-12",
+          "partner": "N/A (company-sponsored preclinical study; conducted by Charles River Laboratories)",
+          "deal_type": "Preclinical study",
+          "date": "2026-02-12",
+          "date_sort_key": 20260212,
+          "summary": "BACKFILL: event predates this run's ~24h search window by over seven months; surfaced during the routine Tier-1/Tier-2 sweep and not previously tracked (the only prior nanoform_nanoforming row covers the May 2026 exclusivity deal). Nanoform announced results of a 21-day Gottingen minipig study (conducted by Charles River Laboratories) comparing subcutaneously administered Nanotrastuzumab -- a hyaluronidase-free, non-aqueous nanoparticle suspension of trastuzumab made with Nanoform's nanoforming platform -- against Herceptin HYLECTA (Roche/Genentech's ENHANZE/rHuPH20-enabled SC trastuzumab, already tracked as part of the ENHANZE marketed installed base). Nanotrastuzumab closely matched Herceptin HYLECTA on AUC, Cmax and Tmax, and was well tolerated on pathological, clinical and immunological readouts. Company states this is the first study to directly compare a nanoparticle suspension against a hyaluronidase-enabled SC formulation, and positions nanoforming as a potential hyaluronidase-free route to reference-like SC exposure -- a direct head-to-head against the tracker's ENHANZE benchmark technology. No specific mg/mL concentration for the Nanotrastuzumab test article disclosed in this release (platform's general concentration claims already captured on the technology's own row).",
+          "molecule": "Trastuzumab (Nanotrastuzumab vs. Herceptin HYLECTA)",
+          "source_name": "Nanoform Finland Oyj (company press release)",
+          "source_url": "https://www.nanoform.com/en/nanoform-subcutaneously-administered-nanotrastuzumab-matches-performance-of-herceptin-hylecta-in-minipig-study/",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 약 24시간 조사 기간보다 7개월 이상 앞선 사건으로, 정규 Tier-1/Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다(기존 nanoform_nanoforming 항목은 2026년 5월 독점 계약 건 하나뿐이었다). Nanoform은 Charles River Laboratories가 수행한 21일 괴팅겐 미니피그 시험 결과를 발표했다. 이 시험은 Nanoform의 nanoforming 플랫폼으로 제조한 히알루로니다제 미사용 비수계 나노입자 현탁 트라스투주맙 제형인 'Nanotrastuzumab'의 피하 투여와, Roche/Genentech의 ENHANZE-rHuPH20 기반 피하 트라스투주맙인 Herceptin HYLECTA(ENHANZE 시판 제품군으로 이미 추적 중)를 비교했다. Nanotrastuzumab은 AUC, Cmax, Tmax에서 Herceptin HYLECTA와 근접한 결과를 보였고, 병리·임상·면역학적 지표에서도 내약성이 양호했다. 회사는 나노입자 현탁액과 히알루로니다제 기반 피하 제형을 직접 비교한 첫 연구라고 밝혔으며, nanoforming을 히알루로니다제 없이도 기준 제품과 유사한 피하 노출을 구현할 수 있는 잠재적 경로로 제시한다 -- 트래커의 ENHANZE 벤치마크 기술과 직접 맞대결하는 사례다. 이번 보도자료에는 Nanotrastuzumab 시험물질의 구체적 mg/mL 농도는 공개되지 않았다(플랫폼의 일반적 농도 주장은 이미 해당 기술 항목에 기록되어 있다)."
         }
       ],
       "is_internal": false,
@@ -2232,6 +2264,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "종양학 및 염증질환 단클론항체 제품을 대상으로 Ipca에 BRL의 독자 고농도 피하 바이오의약품 전달 플랫폼 접근권을 부여하는 글로벌 라이선스 협력 계약이다."
+        },
+        {
+          "deal_id": "catalent_brl_license_2023-03-16",
+          "partner": "Catalent",
+          "deal_type": "Licensing",
+          "date": "2023-03-16",
+          "date_sort_key": 20230316,
+          "summary": "BACKFILL: event predates this run's ~24h search window by over three years; surfaced during the routine Tier-1/Tier-2 sweep and not previously tracked. Catalent entered a licensing agreement with Bhami's Research Laboratory (BRL) for BRL's patented, high-concentration, low-viscosity protein drug delivery platform, authorizing Catalent to collaborate with its own customers to evaluate the technology for reducing viscosity and enabling subcutaneous delivery of high-concentration biologics (monoclonal antibodies and fusion proteins). Financial terms not disclosed. This is a second, earlier and independent licensee of the BRL platform alongside the already-tracked 2026-06 Ipca Laboratories global license (ipca_brl_license_2026-06) -- evidence the platform had CDMO-channel traction (Catalent) well before the Ipca deal, which this tracker only picked up in July 2026.",
+          "molecule": "Not disclosed (platform license; applicable to monoclonal antibodies and fusion proteins generally)",
+          "source_name": "Catalent (company press release) / Biologics.Catalent.com",
+          "source_url": "https://biologics.catalent.com/catalent-news/catalent-and-bhami-research-laboratory-enter-into-licensing-agreement/",
+          "relevance": "Low",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 약 24시간 조사 기간보다 3년 이상 앞선 사건으로, 정규 Tier-1/Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다. Catalent가 Bhami's Research Laboratory(BRL)의 특허받은 고농도·저점도 단백질 약물 전달 플랫폼에 대한 라이선스 계약을 체결했으며, 이를 통해 Catalent는 자사 고객사와 협력해 고농도 바이오의약품(단클론항체 및 융합단백질)의 점도를 낮추고 피하 전달을 가능하게 하는 이 기술을 평가할 수 있게 되었다. 재무 조건은 비공개다. 이미 추적 중인 2026-06 Ipca Laboratories 글로벌 라이선스(ipca_brl_license_2026-06)와 별개로, 더 이르고 독립적인 두 번째 BRL 플랫폼 라이선시 사례다 -- 본 트래커가 2026년 7월에야 포착한 Ipca 계약보다 앞서 CDMO 채널에서 이미 플랫폼이 채택되었음을 보여준다."
         }
       ],
       "is_internal": false,

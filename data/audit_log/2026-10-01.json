@@ -1,0 +1,302 @@
+{
+  "run_date": "2026-10-01",
+  "window": {
+    "from": "2026-09-30T09:20:00+09:00",
+    "to": "2026-10-01T09:18:05+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday run (Thursday, following Wednesday's 2026-09-30 run; no gap). Previous run (data/audit_log/2026-09-30.json) completed 2026-09-30T09:20:00+09:00. Window is ~24h, the ordinary weekday window; not extended to the 72h floor since there was no Monday/gap condition this run."
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous September 2026"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license September 2026"},
+    {"tier": 1, "lang": "en", "query": "Xeris XeriJect OR Lindy Microglassification OR Nanoform OR InventageLab OR Prestige IDC224 subcutaneous September 2026"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" technology deal 2026"},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\" September 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\" technology platform October 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal September 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 고농축 현탁 주사 기술"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration September 2026"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도"},
+    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 / 특허청 히알루로니다제 고농도 제형"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출"},
+    {"tier": 5, "lang": "en", "query": "CHMP meeting highlights September 2026 (molecule-list scan)"},
+    {"tier": 5, "lang": "ja", "query": "MHLW PMDA 新薬 一斉承認 2026年9月 (molecule-list scan)"},
+    {"tier": 5, "lang": "en", "query": "FDA Novel Drug Approvals 2026 / 2026 Biological Approvals (molecule-list scan)"},
+    {"tier": 5, "lang": "ko", "query": "식약처 의약품 허가 목록 2026년 9월 (molecule-list scan)"},
+    {"tier": 5, "lang": "zh", "query": "NMPA 药品批准 2026年9月 (molecule-list scan)"},
+    {"tier": 0, "lang": "en", "query": "WuXiHigh WuXi Biologics subcutaneous high concentration platform 2026 (targeted coverage query, floor-not-ceiling)"},
+    {"tier": 0, "lang": "en", "query": "Nanoform nanoforming antibody subcutaneous 2026 (targeted coverage query)"},
+    {"tier": 0, "lang": "en", "query": "Samsung Biologics S-HiCon high concentration formulation 2026 (targeted coverage query)"},
+    {"tier": 0, "lang": "en", "query": "Alphamab Oncology subcutaneous co-formulation platform 2026 (targeted coverage query)"},
+    {"tier": 0, "lang": "en", "query": "Arecor Arestat high concentration formulation 2026 (targeted coverage query)"},
+    {"tier": 0, "lang": "en", "query": "Altruist AltruCon high concentration subcutaneous 2026 (targeted coverage query)"},
+    {"tier": 0, "lang": "en", "query": "Crystalomics Althea subcutaneous high concentration antibody platform (targeted coverage query)"},
+    {"tier": 0, "lang": "en", "query": "Chengdu Rongsheng Tiantan Weian subcutaneous high concentration 2026 (targeted coverage query)"},
+    {"tier": 0, "lang": "en", "query": "Genentech Roche unbranded subcutaneous reformulation hyaluronidase 2026 (targeted coverage query)"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "Alteogen Enters Option and License Agreement with Novartis for Hybrozyme-Enabled Subcutaneous Products",
+      "published": "2026-09-02", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Directly serves the tracker question -- new ALT-B4 licensee adding another antibody-volume-reduction program.",
+      "date_source": "url", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'alteogen_novartis_2026-09'.",
+      "event_key": "alteogen_novartis_option-license_2026-09-02", "canonical": true,
+      "corroborating_urls": ["https://www.manilatimes.net/2026/09/02/tmt-newswire/pr-newswire/alteogen-enters-option-and-license-agreement-with-novartis-for-development-and-commercialization-of-hybrozyme-enabled-subcutaneous-products/2416939"]
+    },
+    {
+      "raw_title": "Halozyme and Vertex sign deal for Hypercon technology",
+      "published": "2026-04", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Direct Hypercon licensing event relevant to the concentration/volume question.",
+      "date_source": "url", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'halozyme_vertex_2026-04'.",
+      "event_key": "halozyme_vertex_hypercon_2026-04", "canonical": true,
+      "corroborating_urls": ["https://www.pharmaceutical-technology.com/news/halozyme-vertex-deal-hypercon-technology/"]
+    },
+    {
+      "raw_title": "Prestige Biopharma IDC Files Patent for Next-Generation Antibody Delivery Platform 'IDC224'",
+      "published": "2026-04", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "IDC224 is a tracked SC delivery platform; patent filing is a discrete IP event.",
+      "date_source": "url", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'prestige_idc224_patent_2026-04'.",
+      "event_key": "prestige_idc224_patent_2026-04", "canonical": true,
+      "corroborating_urls": ["http://www.prnewswire.com/news-releases/prestige-biopharma-idc-files-patent-for-next-generation-antibody-delivery-platform-idc224-driving-innovation-in-subcutaneous-sc-formulations-302750533.html"]
+    },
+    {
+      "raw_title": "셀트리온, SC 제형 개발 역량 내재화…신규 파이프라인 확장 (EBN)",
+      "published": "2025-12-08", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": "Would relate to Celltrion's hyaluronidase SC platform if it added new facts.",
+      "date_source": "page", "dedupe": "dup_event", "verdict": "reject",
+      "reject_reason": "Same underlying event thread (Celltrion internalizing hyaluronidase SC tech, Herzuma SC dosing complete, plan to file H1 2026) already fully superseded and captured in more detail by the already-tracked 'celltrion_pivotal-trial_2026-02', 'celltrion_ema-filing_2026-04' and 'celltrion_mfds-filing_2026-05' rows; this Dec 2025 article adds no fact not already represented by those later, more complete entries.",
+      "event_key": "celltrion_herzuma-sc_internalization_2025-12", "canonical": true,
+      "corroborating_urls": ["https://m.thebell.co.kr/m/newsview.asp?svccode=&newskey=202512081729516360105249"]
+    },
+    {
+      "raw_title": "삼성바이오에피스 휴미라 바이오시밀러 저농도/고농도 제형",
+      "published": null, "lang": "ko",
+      "gate_a": "reject", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": "n/a -- no discrete dated event, general product-line background only.",
+      "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "Gate B: undated general background on existing marketed concentrations, not a discrete event.",
+      "event_key": null, "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "G2G Bio and Celltrion MOU for ultra-high-concentration antibody SC platform",
+      "published": "2026-07-30", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": "InnoBioLAMP platform progress directly relevant to the tracker.",
+      "date_source": "page", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'g2gbio_celltrion_mou_2026-07-30'.",
+      "event_key": "g2gbio_celltrion_mou_2026-07-30", "canonical": true,
+      "corroborating_urls": ["https://m.news.nate.com/view/20260803n20203"]
+    },
+    {
+      "raw_title": "Novo Nordisk signs up to EUR1.165B / $1.3B drug delivery deal with Nanexa (PharmaShell ALD platform)",
+      "published": "2026-09-25", "lang": "en",
+      "gate_a": "reject", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Does not serve the tracker's question -- PharmaShell is a long-acting/sustained-release depot coating technology (monthly/quarterly dosing-frequency focus) for GLP-1-class peptides, not a concentration- or volume-reduction SC delivery technology for antibodies.",
+      "date_source": "url", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "Gate A scope reject: long-acting release-duration technology, not high-concentration/large-volume SC delivery; also peptide not antibody.",
+      "event_key": "novonordisk_nanexa_pharmashell_2026-09-25", "canonical": true,
+      "corroborating_urls": ["https://www.pearceip.law/2026/09/24/novo-nordisk-enters-into-eur-1-165b-deal-with-nanexa-for-long-acting-diabetes-weight-loss-injectables/", "https://www.bloomberg.com/news/articles/2026-09-25/novo-signs-delivery-deal-with-nanexa-worth-up-to-1-3-billion"]
+    },
+    {
+      "raw_title": "Bhami Research Laboratory & Catalent Enter Licensing Agreement for Technology to Deliver High-Concentration Biologics Subcutaneously",
+      "published": "2023-03-16", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Second licensee of the already-tracked BRL high-concentration SC platform, directly relevant to the tracker's competitive-landscape question.",
+      "date_source": "url", "dedupe": "new", "verdict": "log",
+      "reject_reason": null,
+      "event_key": "catalent_brl_license_2023-03-16", "canonical": true,
+      "corroborating_urls": ["https://biologics.catalent.com/catalent-news/catalent-and-bhami-research-laboratory-enter-into-licensing-agreement/", "https://bhamilab.com/index.php/2023/03/19/catalent-and-bhami-research-laboratory-enter-into-licensing-agreement-for-technology-to-deliver-high-concentration-biologics-subcutaneously/", "https://www.pharmtech.com/view/catalent-licenses-bhami-research-laboratory-technology-for-biologics-formulation-development"],
+      "note": "Initial WebSearch summary gave no date; verified via the bhamilab.com reprint's URL date pattern (/2023/03/19/) and PharmaTimes/BioPharm Intl corroboration naming March 16, 2023 as the original Catalent announcement date."
+    },
+    {
+      "raw_title": "인벤티지랩, 초고농축 항체 피하주사 플랫폼 PCT 출원… 美 PODD서 연구성과 발표",
+      "published": "2026-09-29", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": "IVL-BioFluidic PCT filing and PODD 2026 presentation directly relevant.",
+      "date_source": "page", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'inventagelab_pct-patent_2026-09-29' (added in prior run, 2026-09-29).",
+      "event_key": "inventagelab_pct-patent_2026-09-29", "canonical": true,
+      "corroborating_urls": ["https://www.kpanews.co.kr/news/articleView.html?idxno=545072"]
+    },
+    {
+      "raw_title": "Pharmacokinetics and Tolerability of SC Dupilumab Coformulated With Berahyaluronidase Alfa (NCT07646548)",
+      "published": "2026-06-12", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Direct ALT-B4/Dupixent benchmark relevance.",
+      "date_source": "url", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'alteogen_sanofi_dupixent-p1-dosing_2026-07-23'; registry status unchanged this run (still ACTIVE_NOT_RECRUITING, no results readout found).",
+      "event_key": "sanofi_alteogen_dupixent-p1_nct07646548", "canonical": true,
+      "corroborating_urls": ["https://clinicaltrials.gov/study/NCT07646548"]
+    },
+    {
+      "raw_title": "아미코젠, 피하주사 제형용 인간 히알루로니다제 특허 출원",
+      "published": "2024-09-04", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": "Amicogen hyaluronidase IP relevant to the tracker's competitive landscape.",
+      "date_source": "page", "dedupe": "dup_event", "verdict": "reject",
+      "reject_reason": "Same patent family (title: '중성 pH에서 높은 활성을 보이는 재조합 인간 히알루로니다제의 변이체 및 이의 용도') as the application already captured as context in the already-tracked grant row 'amicogen_hyaluronidase_patent-grant_2026-07-14'; no new fact (no patent number, no new figures) beyond what that row already states about the original filing.",
+      "event_key": "amicogen_hyaluronidase_filing_2024-09", "canonical": true,
+      "corroborating_urls": ["https://pharm.edaily.co.kr/news/read?newsId=03056966639016840"]
+    },
+    {
+      "raw_title": "CHMP meeting highlights 14-17 September 2026",
+      "published": "2026-09-17", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Tier-5 regulator-channel sweep for Tier-5 molecule list (checked whether this catches something a name-search would miss).",
+      "date_source": "url", "dedupe": "new", "verdict": "context",
+      "reject_reason": "None of the 12 newly recommended medicines or 11 indication extensions at this meeting name a Tier-5 molecule-list brand (Keytruda SC/Kiject, Opdivo Qvantig, Tecentriq Hybreza/SC, Ocrevus Zunovo/SC, Darzalex Faspro/SC/Darzquro, Rybrevant Faspro/SC/Rybrofaz, Vyvgart Hytrulo/SC/Vyvdura, Phesgo, Herceptin Hylecta/SC/Herzuma SC, Rituxan Hycela/MabThera SC, HYQVIA, Dupixent, LEQEMBI, Sarclisa). Nothing to log this run from Tier 5 EU.",
+      "event_key": null, "canonical": true,
+      "corroborating_urls": ["https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026"]
+    },
+    {
+      "raw_title": "PMDA new-drug approval list, mid-September 2026",
+      "published": "2026-09-17", "lang": "ja",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Tier-5 molecule-list scan of Japan's own approvals channel.",
+      "date_source": "url", "dedupe": "new", "verdict": "context",
+      "reject_reason": "No omnibus/batch release matching the Tier-5 molecule list identified this run; no Kiject-style miss found.",
+      "event_key": null, "canonical": true, "corroborating_urls": ["https://www.pmda.go.jp/review-services/drug-reviews/review-information/p-drugs/0040.html"]
+    },
+    {
+      "raw_title": "FDA Novel Drug Approvals 2026 / Biological Approvals list",
+      "published": "2026", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Tier-5 molecule-list scan of FDA's own approvals channel.",
+      "date_source": "url", "dedupe": "new", "verdict": "context",
+      "reject_reason": "None of the listed 2026 novel-drug or BLA-supplement approvals (Zycubo, Adquey, Bysanti, Loargys, Yuviwel, Lynavoy, Icotyde, CAPVAXIVE, ASCENIV, Tregzi, etc.) are on the Tier-5 molecule list.",
+      "event_key": null, "canonical": true, "corroborating_urls": ["https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"]
+    },
+    {
+      "raw_title": "식약처 9월 의약품 허가 목록 (88건)",
+      "published": "2026-09", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Tier-5 molecule-list scan of Korea's own approvals channel.",
+      "date_source": "url", "dedupe": "new", "verdict": "context",
+      "reject_reason": "Named September approvals (Shingrix, FACBC radiopharmaceutical) are not on the Tier-5 molecule list.",
+      "event_key": null, "canonical": true, "corroborating_urls": ["https://www.etoday.co.kr/news/view/494816"]
+    },
+    {
+      "raw_title": "NMPA September 2026 approvals",
+      "published": "2026-09", "lang": "zh",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": "Tier-5 molecule-list scan of China's own approvals channel.",
+      "date_source": "url", "dedupe": "new", "verdict": "context",
+      "reject_reason": "Named approvals this run are not on the Tier-5 molecule list and are not SC high-concentration formulations.",
+      "event_key": null, "canonical": true, "corroborating_urls": ["https://www.nmpa.gov.cn/xxgk/ggtg/index.html"]
+    },
+    {
+      "raw_title": "Nanoform Signs First Exclusivity Agreement For Ultra-High Concentration Subcutaneous Delivery",
+      "published": "2026-05-12", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Nanoforming platform commercial traction relevant to tracker.",
+      "date_source": "url", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'nanoform_partner_2026'.",
+      "event_key": "nanoform_exclusivity_2026-05-12", "canonical": true,
+      "corroborating_urls": ["https://www.nanoform.com/en/inside-information-nanoform-signs-first-exclusivity-agreement-for-ultra-high-concentration-subcutaneous-delivery/"]
+    },
+    {
+      "raw_title": "Nanoform - Subcutaneously administered Nanotrastuzumab matches performance of Herceptin HYLECTA in minipig study",
+      "published": "2026-02-12", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Direct head-to-head preclinical comparison of a hyaluronidase-free nanoparticle SC approach against an ENHANZE-enabled marketed product (Herceptin HYLECTA) -- goes to the core of who can match or beat the hyaluronidase-enabled incumbents on SC performance.",
+      "date_source": "url", "dedupe": "new", "verdict": "log",
+      "reject_reason": null,
+      "event_key": "nanoform_nanotrastuzumab_minipig_2026-02-12", "canonical": true,
+      "corroborating_urls": ["https://www.nanoform.com/en/nanoform-subcutaneously-administered-nanotrastuzumab-matches-performance-of-herceptin-hylecta-in-minipig-study/", "https://www.biopharminternational.com/view/subcutaneous-nanotrastuzumab-comparable-herceptin-hylecta"]
+    },
+    {
+      "raw_title": "Alphamab JSKN033 Phase III CDE approval / JSKN016 Pathos AI license (prior coverage)",
+      "published": "2026-08", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Alphamab SC co-formulation platform progress.",
+      "date_source": "url", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked as deal_ids 'alphamab_jskn033_cde-phase3_2026-08' and 'alphamab_pathosai_jskn016_2026-08'; no new event found this run (JSKN016 Australia Bellberry Phase I context already captured in the Pathos AI deal row).",
+      "event_key": "alphamab_sc-platform_2026-08", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Arecor gets two EU patents for adalimumab formulations (EP3592383B1, EP3592385B1)",
+      "published": "2022-08-09", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "High-concentration adalimumab IP on the already-tracked Arestat platform -- directly relevant to the tracker's concentration/volume question.",
+      "date_source": "url", "dedupe": "new", "verdict": "log",
+      "reject_reason": null,
+      "event_key": "arecor_eu-patents_humira-adalimumab_2022-08-09", "canonical": true,
+      "corroborating_urls": ["https://pharmatimes.com/news/arecor_granted_european_patents_to_protect_humira_formulations_1453165/", "https://arecor.com/wp-content/uploads/2022/08/2022-08-09-ARECOR-GRANTED-EUROPEAN-PATENTS-HIGH-CONC-HUMIRA-BIOSIMILAR.pdf", "https://obn.org.uk/news/arecor-granted-european-patents-protecting-proprietary-formulations-high-concentration-humirar"],
+      "note": "RED FLAG CAUGHT: initial WebSearch and aggregator reprints (lse.co.uk, Sharecast) dated this story 2026-06-03 -- a suspiciously-convenient-looking recent date. Verified against the arecor.com press-release PDF filename ('2022-08-09-ARECOR-...') and the PharmaTimes article's own dateline, both confirming the true, original event date is 2022-08-09. Logged under the verified date, not the misleading 2026 one, per the tracker's date-verification gate (1.5.1) and the JPM-2026 incident-log precedent."
+    },
+    {
+      "raw_title": "WuXiHigh 2.0 general platform coverage",
+      "published": "2025-06-30 (platform launch, already tracked)", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "n/a -- no new dated event.",
+      "date_source": "url", "dedupe": "dup_event", "verdict": "reject",
+      "reject_reason": "No event beyond the already-tracked platform launch and hyaluronidase co-formulation capability ('wuxibio_coverage_2026').",
+      "event_key": "wuxibio_wuxihigh2_general", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Biologics S-HiCon general coverage",
+      "published": "2024-10 (platform launch, already tracked)", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "n/a -- no new dated event.",
+      "date_source": "url", "dedupe": "dup_event", "verdict": "reject",
+      "reject_reason": "No event beyond the already-tracked platform launch and AstraZeneca Saphnelo CDMO deal.",
+      "event_key": "samsungbio_s-hicon_general", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Crystalomics / Althea general platform coverage",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": "n/a -- no discrete dated event found.",
+      "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "Gate B: only general technology-capability descriptions found, no discrete dated event this run.",
+      "event_key": null, "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Chengdu Rongsheng Tiantan Weian general coverage",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": "n/a -- no discrete dated event found.",
+      "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "Gate B: only general SCIG/academic review coverage found, no discrete dated event this run.",
+      "event_key": null, "canonical": true, "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "BRL high-concentration SC biologics platform", "company": "Bhami's Research Laboratory",
+      "event": "Catalent licenses BRL's high-concentration, low-viscosity SC protein delivery platform",
+      "date": "2023-03-16", "freshness": "backfill",
+      "source_name": "Catalent (company press release)",
+      "source_url": "https://biologics.catalent.com/catalent-news/catalent-and-bhami-research-laboratory-enter-into-licensing-agreement/",
+      "confidence": "Primary", "conflicts_with": null
+    },
+    {
+      "technology": "Nanoforming (biologics nanoparticle platform)", "company": "Nanoform Finland Oyj",
+      "event": "Minipig study: hyaluronidase-free SC Nanotrastuzumab matches Herceptin HYLECTA (ENHANZE-enabled) on PK",
+      "date": "2026-02-12", "freshness": "backfill",
+      "source_name": "Nanoform Finland Oyj (company press release)",
+      "source_url": "https://www.nanoform.com/en/nanoform-subcutaneously-administered-nanotrastuzumab-matches-performance-of-herceptin-hylecta-in-minipig-study/",
+      "confidence": "Primary", "conflicts_with": null
+    },
+    {
+      "technology": "Arestat", "company": "Arecor Therapeutics",
+      "event": "EPO grants two patents (EP3592383B1, EP3592385B1) protecting Arestat-enabled high-concentration adalimumab formulations, to 2038",
+      "date": "2022-08-09", "freshness": "backfill",
+      "source_name": "PharmaTimes / Arecor (company press release)",
+      "source_url": "https://pharmatimes.com/news/arecor_granted_european_patents_to_protect_humira_formulations_1453165/",
+      "confidence": "Primary", "conflicts_with": null
+    }
+  ]
+}
