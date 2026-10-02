@@ -1,0 +1,530 @@
+{
+  "run_date": "2026-10-02",
+  "window": {
+    "from": "2026-10-01T09:18:05+09:00",
+    "to": "2026-10-02T09:15:27+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday run (Friday, following Thursday's 2026-10-01 run; no gap). Previous run (data/audit_log/2026-10-01.json) completed 2026-10-01T09:18:05+09:00. Window is ~24h, the ordinary weekday window; not extended to the 72h floor since there was no Monday/gap condition this run."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous October 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license October 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Xeris XeriJect OR Lindy Microglassification OR Nanoform OR InventageLab OR Prestige IDC224 subcutaneous October 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" biologics October 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" technology deal October 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal October 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도 October 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration formulation October 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "ClinicalTrials.gov registry check: XeriJect/Hypercon/Hybrozyme/Microglassification + NCT07646548 (dupilumab+ALT-B4) status via API"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 2026년 10월"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 2026년 10월 / 특허청 히알루로니다제 고농도 제형 특허"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP meeting highlights September/October 2026 (EMA) -- scanned for Tier 5 molecule list"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "MHLW PMDA 新薬 一斉承認 2026年9月 (+ PMDA 2026年度承認品目一覧 別表)"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "FDA.gov Novel Drug Approvals 2026 list October"
+    },
+    {
+      "tier": 5,
+      "lang": "ko",
+      "query": "식약처 의약품 허가 목록 2026년 9월"
+    },
+    {
+      "tier": 5,
+      "lang": "zh",
+      "query": "NMPA 药品批准 2026年9月 中国"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "Alteogen OR Halozyme OR Celltrion OR Samsung Bioepis OR Nanoform OR InventageLab subcutaneous news October 1 2026 (targeted freshness check)"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "할로자임 알테오젠 셀트리온 10월 2일 피하주사 (targeted freshness check)"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "Halozyme Hypercon Elektrofi clinical trial start 2026"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "지투지바이오 OR 휴온스랩 OR 아미코젠 고농도 피하주사 10월 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "Nanoform Finland exclusivity agreement news October 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "알테오젠 할로자임 특허 10월 신규"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "Halozyme Alteogen Celltrion Samsung Biologics press release October 1-2 2026"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Alteogen Enters Option and License Agreement with Novartis for ALT-B4 (up to $3.223B)",
+      "published": "2026-09-02",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Largest 2026 ALT-B4 licensing deal; directly addresses who can convert more partner biologics to SC via Hybrozyme.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'alteogen_novartis_2026-09' (prior run).",
+      "event_key": "alteogen_novartis_2026-09",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme-Incyte ENHANZE license for INCA033989",
+      "published": "2026-07",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ENHANZE licensing expands Halozyme installed base.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'halozyme_incyte_2026-07'.",
+      "event_key": "halozyme_incyte_2026-07",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme-Oruka Hypercon license for ORKA-001",
+      "published": "2026-05",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Hypercon licensing expands Halozyme installed base.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'halozyme_oruka_2026-05'.",
+      "event_key": "halozyme_oruka_2026-05",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme-Vertex Hypercon global license",
+      "published": "2026-04",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Hypercon licensing expands Halozyme installed base.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'halozyme_vertex_2026-04'.",
+      "event_key": "halozyme_vertex_2026-04",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen-Biogen ALT-B4 license",
+      "published": "2026-03",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ALT-B4 licensing expands Alteogen installed base.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'alteogen_biogen_2026-03'.",
+      "event_key": "alteogen_biogen_2026-03",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen-GSK/Tesaro ALT-B4 license for dostarlimab SC",
+      "published": "2026-01",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ALT-B4 licensing expands Alteogen installed base.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'alteogen_gsk-tesaro_2026-01'.",
+      "event_key": "alteogen_gsk-tesaro_2026-01",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen-AstraZeneca ALT-B4 licenses (2 agreements, ~$1.35B)",
+      "published": "2025-03-17",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ALT-B4 licensing expands Alteogen installed base.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'alteogen_astrazeneca_2026'.",
+      "event_key": "alteogen_astrazeneca_2026",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Lindy Biosciences-Novartis Microglassification license (~$954M)",
+      "published": "2024-08-27",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Microglassification licensing expands Lindy installed base.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'lindy_novartis_2024-08'.",
+      "event_key": "lindy_novartis_2024-08",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Xeris Biopharma exclusive worldwide license for XeriJect teprotumumab (Tepezza) SC",
+      "published": "2026",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "XeriJect licensing deal relevant to platform's commercial traction.",
+      "date_source": "url",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Source URL already present on an existing deal row (xerispharma.com teprotumumab license release).",
+      "event_key": "xeris_teprotumumab_license",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Ipca Laboratories global licensing deal with Bhami's Research Laboratory (BRL)",
+      "published": "2026-06-12",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "BRL platform licensing is a tracked-technology deal.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'ipca_brl_license_2026-06'.",
+      "event_key": "ipca_brl_license_2026-06",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "InventageLab IVL-BioFluidic PCT patent filing + PODD 2026 presentation",
+      "published": "2026-09",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "InventageLab platform IP filing is a tracked-technology event.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'inventagelab_pct-patent_2026-09-29' (prior run, 2026-09-29).",
+      "event_key": "inventagelab_pct-patent_2026-09-29",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "G2G Bio-Celltrion InnoBioLAMP MTA/collaboration (초고농축 SC)",
+      "published": "2026-07-30",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "G2G Bio platform collaboration is a tracked-technology deal.",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Same underlying event already reflected on the g2gbio_innobiolamp technology row (date_added 2026-07-31, referencing the 2026-07-30 Celltrion MOU).",
+      "event_key": "g2gbio_celltrion_mta_2026-07-30",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Huons Lab HyDiffuse 11-antibody composition patents (incl. dupilumab)",
+      "published": "2026-08-31",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "HyDiffuse patent directly overlaps the Dupixent benchmark.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked (huonslab_hydiffuze_adc-patent_2026-07-27 and the technology row date_added 2026-08-31).",
+      "event_key": "huonslab_hydiffuze_patent_2026-08-31",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Nanoform first biologics exclusivity agreement",
+      "published": "2026-05-12",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Nanoform platform licensing deal.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'nanoform_partner_2026'.",
+      "event_key": "nanoform_partner_2026",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "CHMP 14-17 Sep 2026: Ocrevus (ocrelizumab) IV extension to pediatric relapsing MS",
+      "published": "2026-09-18",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "N/A -- fails Gate A.",
+      "date_source": "page",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: indication extension is for the IV infusion formulation only (per Roche release and EMA highlights); no SC, concentration, or device angle. The SC counterpart (Ocrevus Zunovo) is not part of this opinion.",
+      "event_key": "chmp_ocrevus-iv-pediatric-ms_2026-09-18",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "CHMP 14-17 Sep 2026: Pebrilzo (Biocon pertuzumab biosimilar) positive opinion",
+      "published": "2026-09-18",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "N/A -- fails Gate A.",
+      "date_source": "page",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: standalone pertuzumab biosimilar as a 420 mg IV concentrate for infusion -- no SC formulation, no co-formulation with trastuzumab (not a Phesgo-type fixed-dose SC combo), no concentration/delivery-technology claim.",
+      "event_key": "chmp_pebrilzo-pertuzumab-biosimilar_2026-09-18",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "CHMP 14-17 Sep 2026: Keytruda + Padcev perioperative MIBC extension (covers Keytruda SC/ALT-B4)",
+      "published": "2026-09-18",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Direct Keytruda SC (ALT-B4) label expansion in the EU -- core to the alt-b4_hybrozyme row.",
+      "date_source": "page",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18' (Tier 5 catch from a prior run).",
+      "event_key": "alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Teva-Samsung Bioepis global biosimilar partnership (SB41/Fasenra, SB44/Ilaris, +4 options)",
+      "published": "2026-10-01",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "N/A -- fails Gate A.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: general biosimilar development/commercialization partnership (benralizumab, canakinumab biosimilars). No mention of Samsung Bioepis' PH20-based SC conversion platform, high-concentration formulation, or any delivery-technology angle -- falls outside the tracker's scope despite being same-day news.",
+      "event_key": "teva_samsungbioepis_biosimilar-partnership_2026-10-01",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "NCT07646548 -- Dupixent + ALT-B4 coformulation Phase 1 (status check)",
+      "published": "2026-07-21",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Direct concentration-enabling reformulation trial of the Dupixent benchmark.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'alteogen_sanofi_dupixent-p1-dosing_2026-07-23'; registry re-check via API confirms no change -- status still ACTIVE_NOT_RECRUITING, lastUpdatePostDate 2026-07-21, hasResults false, primary/overall completion still ESTIMATED 2026-09-30 (not yet reported as actually completed).",
+      "event_key": "alteogen_sanofi_dupixent-p1-dosing_2026-07-23",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Biologics ADC/next-gen CDMO conference circuit announcement (World ADC, BIOPLUS-INTERPHEX)",
+      "published": "2026-10-01",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "N/A -- fails Gate B.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate B: conference-attendance preview, not a discrete dated substantive event (deal, filing, approval, trial, publication).",
+      "event_key": "samsungbio_conference-circuit_2026-10",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Catalent-BRL licensing agreement (2023)",
+      "published": "2023-03-16",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Earlier BRL platform licensee, same technology row.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked as deal_id 'catalent_brl_license_2023-03-16' (prior run backfill).",
+      "event_key": "catalent_brl_license_2023-03-16",
+      "canonical": true,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [],
+  "summary": {
+    "candidates_surfaced": 21,
+    "passed_all_gates": 0,
+    "context_only": 0,
+    "rejected": 21,
+    "new_findings_logged": 0,
+    "tier5_caught_something_namesearch_missed": "No -- all Tier 5 regulatory-calendar items this run (CHMP Sep 14-17 meeting) were either already tracked from a prior run's Tier 5 catch (Keytruda SC MIBC extension) or failed Gate A (Ocrevus IV pediatric extension, Pebrilzo biosimilar). Confirms Tier 5 is still working as intended (the MIBC item was originally a Tier-5-only catch on 2026-09-21) but did not surface anything new today.",
+    "note": "Zero new findings this run. Every surfaced candidate either (a) traces to a deal_id or event already present in data/deals_db.py from this run or a prior run, or (b) fails Gate A/B. The tracker's own backfill work over 2026-09-28 through 2026-10-01 was unusually thorough, closing most of the gaps a routine sweep would otherwise surface."
+  }
+}
