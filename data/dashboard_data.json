@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-02T00:16:39+00:00",
+  "generated_at": "2026-10-05T00:28:16+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
   },
-  "last_updated": "2026-09-23",
+  "last_updated": "2026-10-05",
   "stage_order": [
     "Research / Academic",
     "Preclinical",
@@ -33,6 +33,7 @@
     "Bhami's Research Laboratory (licensed to Ipca Laboratories)",
     "Celltrion",
     "Chengdu Rongsheng Pharmaceutical (China National Pharmaceutical Group / Sinopharm)",
+    "Chong Kun Dang (종근당)",
     "Eisai / Biogen",
     "G2G Bio (지투지바이오)",
     "GC Biopharma / Green Cross Holdings",
@@ -47,6 +48,7 @@
     "Samsung Bioepis",
     "Samsung Biologics",
     "Sanofi",
+    "Shanghai Henlius Biotech (commercialization partner: Dr. Reddy's Laboratories, US/EU)",
     "Surf Bio (acquired by Halozyme Therapeutics, Dec 2025)",
     "WuXi Biologics",
     "Xeris Biopharma"
@@ -59,11 +61,11 @@
     "Not disclosed"
   ],
   "counts": {
-    "tracked": 31,
+    "tracked": 33,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 94,
-    "flagged_deals": 9
+    "deals_tracked": 100,
+    "flagged_deals": 11
   },
   "internal_targets": [
     {
@@ -146,6 +148,98 @@
     }
   ],
   "technologies": [
+    {
+      "id": "chongkundang_ph20_sc",
+      "name": "PH20-based SC formulation platform (variant hyaluronidase)",
+      "company": "Chong Kun Dang (종근당)",
+      "stage_raw": "Preclinical / Platform (domestic patent filed February 2026; PCT international phase pending with a preliminary novelty/inventive-step rejection on some claims as of September 2026)",
+      "stage_bucket": "Platform / Feasibility",
+      "type": "Enzyme-assisted",
+      "concentration_text": "Not disclosed numerically. Company states its PH20 variant has increased hyaluronic-acid-degrading activity and thermal stability versus conventional PH20, intended to enable SC conversion of antibodies, antibody-drug conjugates (ADCs), immuno-oncology biologics, nucleic-acid therapeutics and cell therapies.",
+      "concentration_numeric": null,
+      "concentration_bucket": "Not disclosed",
+      "needle_size": "Not disclosed",
+      "mechanism": "Recombinant human hyaluronidase PH20 variant engineered for higher hyaluronan-degrading activity and thermal stability than conventional PH20, offered as a platform enzyme for SC conversion of IV biologics rather than a molecule-specific formulation. Company states its approach differs from existing commercial options (e.g. Hylenex) by offering additional SC-conversion methods. Domestic (Korea) patent application filed 2026-02 (exact day not disclosed); first publicly reported 2026-08-21. On PCT international-phase examination, Korea's IP office (acting as International Searching Authority) issued a preliminary opinion, reported 2026-09-15, that some claims lack novelty/inventive step over Alteogen's prior ALT-B4 patents -- certain amino-acid sequences in Chong Kun Dang's PH20 variant were already disclosed in Alteogen's existing PH20-related patents. Company says the rejection is not final and it will pursue claim amendments and other responses. CAVEAT: not yet an approved or licensed platform; competing directly with Alteogen's ALT-B4/Hybrozyme and Halozyme's ENHANZE in the domestic IP landscape, alongside Celltrion's and Samsung Bioepis's own in-house SC-conversion efforts.",
+      "date_added": "2026-10-05",
+      "last_reviewed": "2026-10-05",
+      "deals": [
+        {
+          "deal_id": "chongkundang_ph20_pct-novelty-rejection_2026-09-15",
+          "partner": "N/A (patent office preliminary opinion)",
+          "deal_type": "Patent office preliminary rejection (PCT international phase)",
+          "date": "2026-09-15",
+          "date_sort_key": 20260915,
+          "summary": "BACKFILL: Korea's IP office, acting as International Searching Authority on Chong Kun Dang's PCT international application for its PH20-variant SC platform (domestically filed 2026-02), issued a preliminary opinion finding some claims lack novelty and inventive step versus Alteogen's prior ALT-B4 patents -- certain amino-acid sequences in Chong Kun Dang's PH20 variant were already disclosed in Alteogen's existing PH20-related patents. Chong Kun Dang states the rejection is not final and it will pursue claim amendments and other responses. Reported alongside broader coverage of intensifying domestic SC-conversion IP competition, including Celltrion's and Samsung Bioepis's own in-house efforts. FLAGGED: a contested, unresolved patent-office opinion, not a final determination.",
+          "molecule": "Platform enzyme (not molecule-specific)",
+          "source_name": "아시아경제 (Asia Economic Daily)",
+          "source_url": "https://view.asiae.co.kr/article/2026091507340241619",
+          "relevance": "Medium",
+          "confidence": "Secondary",
+          "flagged": true,
+          "new_in_digest": false,
+          "summary_ko": "백필: 종근당이 PH20 변이 SC 플랫폼(2026년 2월 국내 출원)에 대해 제출한 PCT 국제출원에서, 국제조사기관을 맡은 한국 특허청이 알테오젠의 기존 ALT-B4 특허에 비해 일부 청구항이 신규성·진보성을 인정받지 못한다는 예비 의견을 냈다 -- 종근당 PH20 변이체의 일부 아미노산 서열이 알테오젠의 기존 PH20 관련 특허에 이미 공개되어 있었다. 종근당은 이번 거절이 최종 결정이 아니며 청구항 보정 등 다양한 대응 방법을 추진하겠다고 밝혔다. 셀트리온과 삼성바이오에피스의 자체 SC 전환 노력을 포함해 국내 SC 전환 지식재산 경쟁이 심화되는 맥락에서 함께 보도되었다. 검토 필요(FLAGGED): 다투어지고 있는, 아직 확정되지 않은 특허청 의견이며 최종 결정이 아니다."
+        },
+        {
+          "deal_id": "chongkundang_ph20_patent-disclosed_2026-08-21",
+          "partner": "N/A (in-house patent filing)",
+          "deal_type": "Patent filing (disclosed)",
+          "date": "2026-08-21",
+          "date_sort_key": 20260821,
+          "summary": "BACKFILL: trade press first reported that Chong Kun Dang (종근당) has entered the PH20-based SC-formulation business, having filed a domestic Korean patent application (filed February 2026) covering a PH20 variant engineered for higher hyaluronan-degrading activity and thermal stability than conventional PH20, intended as a platform technology for converting IV biologics -- including antibodies and antibody-drug conjugates (ADCs) -- to SC formulations. Not previously tracked; this is Chong Kun Dang's first public disclosure of the platform and is logged as a new technology entry. No clinical program, partner or product named yet.",
+          "molecule": "Platform enzyme (not molecule-specific); company cites potential application including antibodies, ADCs, immuno-oncology biologics, nucleic-acid therapeutics, cell therapies",
+          "source_name": "네이트뉴스 (Nate News), relaying 더바이오(TheBioNews) exclusive report",
+          "source_url": "https://m.news.nate.com/view/20260821n23733",
+          "relevance": "Medium",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 업계지가 종근당이 PH20 기반 SC 제형 사업에 진출했다고 처음 보도했다. 종근당은 2026년 2월 국내 특허를 출원했으며, 이는 기존 PH20보다 히알루론산 분해 활성과 열 안정성이 높은 PH20 변이체에 관한 것으로, 항체 및 항체-약물 접합체(ADC)를 포함한 정맥주사 바이오의약품을 SC 제형으로 전환하는 플랫폼 기술을 목표로 한다. 이전에는 추적되지 않았으며, 종근당의 해당 플랫폼 첫 공개로 신규 기술 항목으로 기록한다. 아직 임상 프로그램, 파트너, 제품명은 공개되지 않았다."
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false,
+      "concentration_text_ko": "수치는 비공개. 회사는 자사의 PH20 변이체가 기존 PH20보다 히알루론산 분해 활성과 열 안정성이 높다고 밝혔으며, 항체, 항체-약물 접합체(ADC), 면역항암 바이오의약품, 핵산치료제, 세포치료제의 SC 전환에 적용하는 것을 목표로 한다.",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "기존 PH20보다 히알루론산 분해 활성과 열 안정성을 높이도록 설계된 재조합 인간 히알루로니다제 PH20 변이체로, 특정 물질에 한정된 제형이 아니라 정맥주사 바이오의약품의 SC 전환을 위한 플랫폼 효소로 제공된다. 회사는 이 방식이 기존 상용 옵션(예: Hylenex)과 달리 추가적인 SC 전환 방법을 제공한다고 밝혔다. 국내(한국) 특허출원은 2026년 2월에 이루어졌으며(정확한 날짜는 비공개), 2026-08-21에 처음 공개 보도되었다. PCT 국제조사기관으로서 한국 특허청이 국제단계 심사에서 2026-09-15에 보도된 예비 의견을 통해 일부 청구항이 알테오젠의 기존 ALT-B4 관련 특허에 비해 신규성·진보성을 인정받지 못했다고 밝혔다 -- 종근당 PH20 변이체의 일부 아미노산 서열이 알테오젠의 기존 PH20 관련 특허에 이미 공개되어 있었다. 회사는 이번 거절이 최종 결정이 아니며 청구항 보정 등 다양한 대응 방법을 추진하겠다고 밝혔다. 유의 사항: 아직 승인되거나 라이선스화된 플랫폼이 아니며, 국내 지식재산 지형에서 알테오젠의 ALT-B4/Hybrozyme, 할로자임의 ENHANZE와 직접 경쟁하고 있고, 셀트리온과 삼성바이오에피스의 자체 SC 전환 노력과도 경쟁 관계에 있다."
+    },
+    {
+      "id": "henlius_hlx15_sc",
+      "name": "HLX15-SC (daratumumab biosimilar subcutaneous formulation)",
+      "company": "Shanghai Henlius Biotech (commercialization partner: Dr. Reddy's Laboratories, US/EU)",
+      "stage_raw": "Preclinical / Phase 1 (FDA IND clearance 2026-02; first patient dosed in Phase 1 international multicenter trial 2026-05)",
+      "stage_bucket": "Preclinical",
+      "type": "Enzyme-assisted",
+      "concentration_text": "Not disclosed. No mg/mL figure or hyaluronidase/platform identity stated in available sourcing.",
+      "concentration_numeric": null,
+      "concentration_bucket": "Not disclosed",
+      "needle_size": "Not disclosed",
+      "mechanism": "HLX15-SC is a subcutaneous formulation of HLX15, Henlius's daratumumab biosimilar candidate referencing J&J's Darzalex / Darzalex Faspro (the latter an ENHANZE (rHuPH20) enabled SC formulation, already tracked on the enhanze row). Henlius's own FDA IND-clearance press release (2026-02-16) describes HLX15-SC only as 'the subcutaneous formulation of HLX15' and does not name an enabling hyaluronidase or platform. CAVEAT: do not attribute this to Halozyme's ENHANZE platform until the enabling enzyme is confirmed -- logged as its own technology entry rather than guessed, per standing practice for hyaluronidase-enabled SC items whose platform is not stated. Henlius licensed Dr. Reddy's exclusive US and 42-country Europe commercialization rights for HLX15 (both IV and SC) in Feb 2025.",
+      "date_added": "2026-10-05",
+      "last_reviewed": "2026-10-05",
+      "deals": [
+        {
+          "deal_id": "henlius_hlx15sc_fda-ind-clearance_2026-02-16",
+          "partner": "Dr. Reddy's Laboratories (licensed US/EU commercialization rights, Feb 2025)",
+          "deal_type": "Regulatory filing (FDA IND clearance)",
+          "date": "2026-02-16",
+          "date_sort_key": 20260216,
+          "summary": "BACKFILL: event predates this run's research window by nearly eight months; surfaced during the routine Tier-5 regulatory-calendar sweep and not previously tracked. FDA granted investigational new drug (IND) clearance to Shanghai Henlius Biotech for HLX15-SC, a subcutaneous formulation of its daratumumab biosimilar candidate HLX15 (referencing J&J's Darzalex/Darzalex Faspro), enabling a Phase 1 study in first-line multiple myeloma. First patient was dosed in the Phase 1 international multicenter trial 2026-05-26. CAVEAT: Henlius's own press release does not name the enabling hyaluronidase or SC platform for HLX15-SC -- FLAGGED rather than attributed to Halozyme's ENHANZE. Adds a biosimilar SC entrant to the Darzalex Faspro/ENHANZE competitive landscape; logged as a new technology entry (henlius_hlx15_sc).",
+          "molecule": "Daratumumab biosimilar (HLX15), subcutaneous formulation",
+          "source_name": "Shanghai Henlius Biotech (company press release)",
+          "source_url": "http://www.henlius.com/en/newsd/0/31181.html?title=U.S.-FDA-Clears-IND-for-Phase-1-Study-of-Henlius%C3%A2%C2%80%C2%99-Subcutaneous-Daratumumab-Biosimilar",
+          "relevance": "Low",
+          "confidence": "Primary",
+          "flagged": true,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 조사 기간보다 약 8개월 앞선 사건으로, 정규 Tier-5 규제 캘린더 스윕에서 확인되었고 이전에는 추적되지 않았다. FDA는 상하이 Henlius Biotech의 다라투무맙 바이오시밀러 후보 HLX15의 피하 제형인 HLX15-SC에 대해 임상시험용신약(IND) 승인을 내려, 1차 치료 다발골수종을 대상으로 한 1상 시험을 허가했다(참조제품: J&J의 Darzalex/Darzalex Faspro). 1상 국제 다기관 시험의 첫 환자 투약은 2026-05-26에 이루어졌다. 유의 사항: Henlius 자체 보도자료는 HLX15-SC를 가능하게 하는 히알루로니다제나 SC 플랫폼명을 밝히지 않는다 -- 할로자임의 ENHANZE로 귀속시키지 않고 검토 필요(FLAGGED)로 기록한다. Darzalex Faspro/ENHANZE 경쟁 구도에 바이오시밀러 SC 진입자를 추가하는 사례이며, 신규 기술 항목(henlius_hlx15_sc)으로 기록한다."
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false,
+      "concentration_text_ko": "비공개. 공개된 자료에는 mg/mL 수치나 히알루로니다제·플랫폼의 정체가 명시되지 않았다.",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "HLX15-SC는 Henlius(한리우스)의 다라투무맙 바이오시밀러 후보 HLX15의 피하 제형으로, J&J의 Darzalex/Darzalex Faspro(후자는 ENHANZE/rHuPH20 기반 피하 제형으로 enhanze 항목에 이미 추적 중)를 참조제품으로 한다. Henlius 자체의 FDA IND 승인 보도자료(2026-02-16)는 HLX15-SC를 'HLX15의 피하 제형'으로만 설명하며 전달을 가능하게 하는 히알루로니다제나 플랫폼명을 밝히지 않는다. 유의 사항: 전달 효소가 확인되기 전까지 할로자임의 ENHANZE 플랫폼으로 귀속시키지 않으며, 플랫폼이 명시되지 않은 히알루로니다제 기반 SC 사례에 대한 기존 원칙에 따라 별도 기술 항목으로 기록한다. Henlius는 2025년 2월 Dr. Reddy's에 HLX15(정맥·피하 제형 모두)의 미국과 유럽 42개국 독점 상업화 권리를 라이선스했다."
+    },
     {
       "id": "altruist_altru_con",
       "name": "Altru-CON",
@@ -361,6 +455,22 @@
       "date_added": "2026-07-12",
       "last_reviewed": "2026-09-17",
       "deals": [
+        {
+          "deal_id": "halozyme_janssen_rybrevant-faspro_hnscc-priority-review_2026-07-30",
+          "partner": "Janssen / Johnson & Johnson",
+          "deal_type": "Regulatory filing (FDA Priority Review)",
+          "date": "2026-07-30",
+          "date_sort_key": 20260730,
+          "summary": "BACKFILL: event predates this run's research window by over two months; surfaced during the routine Tier-1/Tier-2 sweep and not previously tracked. FDA granted Priority Review to a supplemental Biologics License Application (sBLA) for subcutaneous amivantamab + hyaluronidase-lpuj (Rybrevant Faspro, Halozyme ENHANZE-enabled) in adults with recurrent or metastatic head and neck squamous cell carcinoma (HNSCC) whose disease progressed after platinum-based chemotherapy and a PD-1/PD-L1 inhibitor -- a new indication beyond Rybrevant Faspro's original EGFR-mutated NSCLC approval (already tracked, dated 2025-12-17). If approved, this would be the first subcutaneous EGFR- and MET-targeted therapy for this indication; the OrigAMI-4 Phase 1b/2 cohort showed a 42% overall response rate, with over a third of responders achieving complete response. Priority Review shortens FDA's review period to roughly six months; no PDUFA date was stated in the release. Added to complete the ENHANZE/Rybrevant Faspro deal history; not new news.",
+          "molecule": "Amivantamab + hyaluronidase-lpuj (Rybrevant Faspro, ENHANZE-enabled)",
+          "source_name": "Johnson & Johnson (company press release)",
+          "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnsons-rybrevant-faspro-amivantamab-and-hyaluronidase-lpuj-receives-u-s-fda-priority-review-as-potential-first-in-class-egfr-and-met-targeted-subcutaneous-treatment-for-advanced-head-and-neck-cancer",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 조사 기간보다 2개월 이상 앞선 사건으로, 정규 Tier-1/Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다. FDA는 피하 아미반타맙 + 히알루로니다제-lpuj(Rybrevant Faspro, 할로자임 ENHANZE 기반)의 추가 생물의약품 허가신청(sBLA)에 대해, 백금 기반 화학요법과 PD-1/PD-L1 억제제 치료 후 진행된 재발성·전이성 두경부 편평세포암(HNSCC) 성인 환자를 대상으로 우선심사를 지정했다 -- 이미 추적 중인 Rybrevant Faspro의 기존 EGFR 변이 비소세포폐암 승인(2025-12-17)과는 다른 새로운 적응증이다. 승인될 경우 이 적응증에서 최초의 피하 EGFR·MET 표적 치료제가 되며, OrigAMI-4 1b/2상 코호트에서 전체 반응률 42%, 반응 환자의 3분의 1 이상이 완전 반응을 보였다. 우선심사로 FDA 심사 기간이 약 6개월로 단축되며, 보도자료에는 PDUFA 날짜가 제시되지 않았다. 기존 ENHANZE/Rybrevant Faspro 거래 이력을 보완하기 위해 추가되었으며, 새로운 소식은 아니다."
+        },
         {
           "deal_id": "halozyme_incyte_2026-07",
           "partner": "Incyte",
@@ -828,6 +938,22 @@
       "last_reviewed": "2026-09-16",
       "deals": [
         {
+          "deal_id": "alteogen_msd_keytruda-sc-korea-launch_2026-10-01",
+          "partner": "MSD Korea (한국MSD)",
+          "deal_type": "Commercial launch / Product availability announcement",
+          "date": "2026-10-01",
+          "date_sort_key": 20261001,
+          "summary": "BACKFILL: MSD Korea announced (2026-09-30) that domestic commercial supply of Keytruda SC (pembrolizumab + berahyaluronidase alfa, ALT-B4-enabled) begins 2026-10-01, following the MFDS approval already tracked (dated 2026-05-19). Covers 35 indications across 18 cancer types as of 2026-09-30. Company reports administration time falls from ~30 minutes (IV) to ~1 minute (3-week dosing) or ~2 minutes (6-week dosing), a roughly 96.7% annual reduction in dosing time; company-reported PK bioequivalence to IV (geometric mean ratios of 1.14 for cycle-1 exposure and 1.67 for steady-state trough concentration, both meeting pre-specified non-inferiority bounds). One day before this run's research window opened (2026-10-02 09:15 KST); logged as backfill, not fresh.",
+          "molecule": "Pembrolizumab + berahyaluronidase alfa (Keytruda SC, ALT-B4-enabled)",
+          "source_name": "약사공론 (KPAnews), 이비엔(EBN), 메디포뉴스, 팜뉴스 등 복수 국내 업계지",
+          "source_url": "https://www.kpanews.co.kr/news/articleView.html?idxno=545133",
+          "relevance": "Medium",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 한국MSD는 2026-09-30 발표를 통해, 이미 추적 중인 MFDS 승인(2026-05-19)에 이어 키트루다 피하주사(펨브롤리주맙 + 베라히알루로니다제 알파, ALT-B4 기반)의 국내 상업 공급이 2026-10-01부터 시작된다고 밝혔다. 2026-09-30 기준 18개 암종 35개 적응증을 포함한다. 회사에 따르면 투여 시간이 정맥주사 약 30분에서 3주 간격 투여 시 약 1분, 6주 간격 투여 시 약 2분으로 줄어 연간 투여 시간이 약 96.7% 감소하며, 정맥주사 대비 약동학적 생물학적 동등성(1주기 노출량 기하평균비 1.14, 안정 상태 최저 혈중농도 기하평균비 1.67, 둘 다 사전에 정한 비열등성 기준 충족)을 회사가 제시했다. 이번 실행의 조사 기간 시작(2026-10-02 09:15 KST) 하루 전이므로 신규가 아닌 백필로 기록한다."
+        },
+        {
           "deal_id": "alteogen_msd_keytruda-sc-china-approval_2026-09-28",
           "partner": "MSD (Merck & Co. China affiliate) / China National Medical Products Administration (NMPA)",
           "deal_type": "Regulatory approval",
@@ -1082,6 +1208,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "2026-07-22 정정: 1차 출처(AstraZeneca 보도자료, 2025년 3월 17일 게재)가 계약일을 2025-03-17로 확정했다. 기존에는 '2026'이라는 미확인 임시 날짜로 기록되어 있었다. FiercePharma의 당일 보도(2025-03-17, 아래 인용된 동일 URL)도 이를 뒷받침한다: 계약 2건, 합산 규모 약 $1.35B, 합산 선급금 $45M(알테오젠의 KRX 공시를 FiercePharma가 옮긴 내용 기준으로 한 건은 선급금 $25M·마일스톤 최대 $725M, 다른 한 건은 선급금 $20M·마일스톤 최대 $580M). AstraZeneca의 자체 보도자료는 '복수의 종양학 자산' 피하 제형의 개발·상업화 권리로만 기술하며, '3개 자산'이라는 수치나 재무 조건은 직접 확인해 주지 않는다. 해당 수치는 알테오젠의 KRX 공시를 전한 FiercePharma 보도에서 나온 것이다."
+        },
+        {
+          "deal_id": "alteogen_daiichisankyo_enhertu-sc_2024-11-10",
+          "partner": "Daiichi Sankyo (with AstraZeneca as ENHERTU co-developer/commercializer)",
+          "deal_type": "Exclusive License Agreement",
+          "date": "2024-11-10",
+          "date_sort_key": 20241110,
+          "summary": "BACKFILL: event predates this run's research window by nearly two years; surfaced during the routine Tier-1/Tier-2 sweep and not previously tracked. Alteogen entered an exclusive license agreement with Daiichi Sankyo (ENHERTU's co-developer and co-commercializer with AstraZeneca) to develop and commercialize a subcutaneous formulation of ENHERTU (fam-trastuzumab deruxtecan-nxki), a HER2-directed antibody-drug conjugate, using Alteogen's ALT-B4 (berahyaluronidase alfa) enabled by its Hybrozyme platform. Alteogen receives an upfront payment, development/regulatory/sales milestone payments, and tiered royalties on sales, and is responsible for clinical and commercial supply (specific dollar figures not disclosed in the primary release). Per Alteogen's CEO, this was the first-ever application of a hyaluronidase enzyme to a subcutaneous ADC. Added to complete the ALT-B4/Hybrozyme deal history; not new news.",
+          "molecule": "Trastuzumab deruxtecan (ENHERTU) -- first subcutaneous ADC application of a hyaluronidase enzyme",
+          "source_name": "Alteogen (company press release, PR Newswire)",
+          "source_url": "https://www.prnewswire.com/news-releases/alteogen-enters-into-an-exclusive-license-agreement-to-develop-and-commercialize-subcutaneous-enhertu-enabled-by-alteogens-hybrozyme-technology-302300671.html",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 조사 기간보다 거의 2년 앞선 사건으로, 정규 Tier-1/Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다. 알테오젠은 다이이찌산쿄(ENHERTU의 공동 개발·판매사이자 아스트라제네카의 공동 파트너)와 독점 라이선스 계약을 체결하여, 자사의 Hybrozyme 플랫폼 기반 ALT-B4(베라히알루로니다제 알파)를 활용해 HER2 표적 항체-약물 접합체(ADC)인 ENHERTU(fam-trastuzumab deruxtecan-nxki)의 피하 제형을 개발·상업화하기로 했다. 알테오젠은 선급금과 개발·허가·판매 마일스톤, 판매에 따른 단계별 로열티를 받으며, 임상·상업용 공급을 담당한다(구체적 금액은 원 보도자료에 공개되지 않음). 알테오젠 CEO에 따르면 이는 히알루로니다제 효소가 피하 ADC에 적용된 최초 사례였다. 기존 ALT-B4/Hybrozyme 거래 이력을 보완하기 위해 추가되었으며, 새로운 소식은 아니다."
         }
       ],
       "is_internal": false,
@@ -2291,6 +2433,24 @@
   ],
   "recent_activity": [
     {
+      "deal_id": "alteogen_msd_keytruda-sc-korea-launch_2026-10-01",
+      "partner": "MSD Korea (한국MSD)",
+      "deal_type": "Commercial launch / Product availability announcement",
+      "date": "2026-10-01",
+      "date_sort_key": 20261001,
+      "summary": "BACKFILL: MSD Korea announced (2026-09-30) that domestic commercial supply of Keytruda SC (pembrolizumab + berahyaluronidase alfa, ALT-B4-enabled) begins 2026-10-01, following the MFDS approval already tracked (dated 2026-05-19). Covers 35 indications across 18 cancer types as of 2026-09-30. Company reports administration time falls from ~30 minutes (IV) to ~1 minute (3-week dosing) or ~2 minutes (6-week dosing), a roughly 96.7% annual reduction in dosing time; company-reported PK bioequivalence to IV (geometric mean ratios of 1.14 for cycle-1 exposure and 1.67 for steady-state trough concentration, both meeting pre-specified non-inferiority bounds). One day before this run's research window opened (2026-10-02 09:15 KST); logged as backfill, not fresh.",
+      "molecule": "Pembrolizumab + berahyaluronidase alfa (Keytruda SC, ALT-B4-enabled)",
+      "source_name": "약사공론 (KPAnews), 이비엔(EBN), 메디포뉴스, 팜뉴스 등 복수 국내 업계지",
+      "source_url": "https://www.kpanews.co.kr/news/articleView.html?idxno=545133",
+      "relevance": "Medium",
+      "confidence": "Secondary",
+      "flagged": false,
+      "new_in_digest": false,
+      "summary_ko": "백필: 한국MSD는 2026-09-30 발표를 통해, 이미 추적 중인 MFDS 승인(2026-05-19)에 이어 키트루다 피하주사(펨브롤리주맙 + 베라히알루로니다제 알파, ALT-B4 기반)의 국내 상업 공급이 2026-10-01부터 시작된다고 밝혔다. 2026-09-30 기준 18개 암종 35개 적응증을 포함한다. 회사에 따르면 투여 시간이 정맥주사 약 30분에서 3주 간격 투여 시 약 1분, 6주 간격 투여 시 약 2분으로 줄어 연간 투여 시간이 약 96.7% 감소하며, 정맥주사 대비 약동학적 생물학적 동등성(1주기 노출량 기하평균비 1.14, 안정 상태 최저 혈중농도 기하평균비 1.67, 둘 다 사전에 정한 비열등성 기준 충족)을 회사가 제시했다. 이번 실행의 조사 기간 시작(2026-10-02 09:15 KST) 하루 전이므로 신규가 아닌 백필로 기록한다.",
+      "technology_id": "alt-b4_hybrozyme",
+      "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
+    },
+    {
       "deal_id": "inventagelab_pct-patent_2026-09-29",
       "partner": "N/A (company milestone)",
       "deal_type": "Patent filing",
@@ -2397,6 +2557,24 @@
       "summary_ko": "백필: 이번 실행의 검색 기간(2026-09-18T09:02 KST 시작) 이전에 발생한 사안으로, 정규 Tier-1/Tier-4 스윕에서 확인되었고 이전에는 추적되지 않았다. 일본 후생노동성(MHLW)이 펨브롤리주맙(키트루다)을 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 '키젝트 배합 피하주사'(395 mg 및 790 mg)의 제조판매 승인을 부여했다. 일본에서 승인된 최초의 피하 면역관문억제제다. 3상 MK-3475A-D77 시험을 근거로 투여 시간을 정맥주사 약 30분에서 피하주사 약 1-2분으로 단축한다. 미국, EU/캐나다, 한국에 이어 ALT-B4 기반 키트루다 SC의 네 번째 주요 시장 승인이며(한국 승인은 alteogen_msd_keytruda-sc-korea-approval_2026-05-19로 별도 추적 중), 일본 건은 기록되지 않았었다. 같은 날 이루어진 LEQEMBI Pen 피하 제형의 일본 승인(물질과 기술이 무관한 별개 사안)은 별도로 추적 중이다(eisai_biogen_leqembiiqlik_japan-approval_2026-09-16 참조).",
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
+    },
+    {
+      "deal_id": "chongkundang_ph20_pct-novelty-rejection_2026-09-15",
+      "partner": "N/A (patent office preliminary opinion)",
+      "deal_type": "Patent office preliminary rejection (PCT international phase)",
+      "date": "2026-09-15",
+      "date_sort_key": 20260915,
+      "summary": "BACKFILL: Korea's IP office, acting as International Searching Authority on Chong Kun Dang's PCT international application for its PH20-variant SC platform (domestically filed 2026-02), issued a preliminary opinion finding some claims lack novelty and inventive step versus Alteogen's prior ALT-B4 patents -- certain amino-acid sequences in Chong Kun Dang's PH20 variant were already disclosed in Alteogen's existing PH20-related patents. Chong Kun Dang states the rejection is not final and it will pursue claim amendments and other responses. Reported alongside broader coverage of intensifying domestic SC-conversion IP competition, including Celltrion's and Samsung Bioepis's own in-house efforts. FLAGGED: a contested, unresolved patent-office opinion, not a final determination.",
+      "molecule": "Platform enzyme (not molecule-specific)",
+      "source_name": "아시아경제 (Asia Economic Daily)",
+      "source_url": "https://view.asiae.co.kr/article/2026091507340241619",
+      "relevance": "Medium",
+      "confidence": "Secondary",
+      "flagged": true,
+      "new_in_digest": false,
+      "summary_ko": "백필: 종근당이 PH20 변이 SC 플랫폼(2026년 2월 국내 출원)에 대해 제출한 PCT 국제출원에서, 국제조사기관을 맡은 한국 특허청이 알테오젠의 기존 ALT-B4 특허에 비해 일부 청구항이 신규성·진보성을 인정받지 못한다는 예비 의견을 냈다 -- 종근당 PH20 변이체의 일부 아미노산 서열이 알테오젠의 기존 PH20 관련 특허에 이미 공개되어 있었다. 종근당은 이번 거절이 최종 결정이 아니며 청구항 보정 등 다양한 대응 방법을 추진하겠다고 밝혔다. 셀트리온과 삼성바이오에피스의 자체 SC 전환 노력을 포함해 국내 SC 전환 지식재산 경쟁이 심화되는 맥락에서 함께 보도되었다. 검토 필요(FLAGGED): 다투어지고 있는, 아직 확정되지 않은 특허청 의견이며 최종 결정이 아니다.",
+      "technology_id": "chongkundang_ph20_sc",
+      "technology_name": "PH20-based SC formulation platform (variant hyaluronidase)"
     },
     {
       "deal_id": "halozyme_wellsfargo-hypercon-timeline_2026-09-09",
@@ -2507,58 +2685,22 @@
       "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
     },
     {
-      "deal_id": "harvard_mitragotri_advhealthmat_2026-08",
-      "partner": "N/A (research)",
-      "deal_type": "Research publication",
+      "deal_id": "chongkundang_ph20_patent-disclosed_2026-08-21",
+      "partner": "N/A (in-house patent filing)",
+      "deal_type": "Patent filing (disclosed)",
       "date": "2026-08-21",
       "date_sort_key": 20260821,
-      "summary": "BACKFILL: a second, distinct peer-reviewed paper from the same Harvard/Mitragotri group (Ramesh, Erdi, Zhang, Chandran Suja, Mitragotri, Singh) as the already-tracked Advanced Materials paper (harvard_mitragotri_advmat_2026-02), published instead in Advanced Healthcare Materials (Vol. 15, No. 34: e71550). It reports the same choline-tryptophan ionic liquid (CHAT) excipient formulating antibodies above 200 mg/mL while keeping viscosity below the 20 cP injectable threshold, and shows improved subcutaneous bioavailability (up to 2-fold AUC increase) versus saline in mouse studies -- a non-hyaluronidase route to high-concentration SC delivery, distinct from this run's other checks of the group's 2025 Journal of Controlled Release paper (10.1016/j.jconrel.2025.114295, not separately logged as it appears superseded by the two Advanced Materials-family papers). date_source: unconfirmed -- the publication date and volume/issue/page citation rest on consistent WebSearch result summaries only; every host tried for primary confirmation (pubmed.ncbi.nlm.nih.gov, advanced.onlinelibrary.wiley.com, api.crossref.org, api.semanticscholar.org, www.ebi.ac.uk, cmi.hms.harvard.edu, www.researchgate.net, doi.org) returned EGRESS_BLOCKED this run. Confidence downgraded to Secondary and flagged pending confirmation, per the date-verification gate.",
-      "molecule": "N/A (excipient platform; multiple antibody models)",
-      "source_name": "Advanced Healthcare Materials (Wiley) / Harvard -- accessed via search-engine snippets only; every direct-fetch host tried was EGRESS_BLOCKED this run",
-      "source_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adhm.71550",
-      "relevance": "Low",
-      "confidence": "Secondary",
-      "flagged": true,
-      "new_in_digest": false,
-      "summary_ko": "백필: 이미 추적 중인 Advanced Materials 논문(harvard_mitragotri_advmat_2026-02)과 동일한 하버드/Mitragotri 그룹(Ramesh, Erdi, Zhang, Chandran Suja, Mitragotri, Singh) 저자진이 발표한 별개의 두 번째 동료심사 논문으로, 이번에는 Advanced Healthcare Materials(15권 34호: e71550)에 게재되었다. 동일한 콜린-트립토판 이온성 액체(CHAT) 부형제를 이용해 항체를 200 mg/mL 이상으로 제형화하면서도 점도를 주사 가능 기준인 20 cP 미만으로 유지했고, 마우스 실험에서 생리식염수 대비 피하 생체이용률이 개선됨(AUC 최대 2배 증가)을 보였다 -- 히알루로니다제를 사용하지 않는 고농도 SC 전달 경로다. 같은 연구진의 2025년 Journal of Controlled Release 논문(10.1016/j.jconrel.2025.114295, 두 건의 Advanced Materials 계열 논문에 의해 대체된 것으로 보여 별도 기록하지 않음)과는 구분된다. date_source: 미확인 -- 발표일과 권/호/페이지 인용은 WebSearch 결과 요약에만 근거하며, 이번 실행에서 1차 확인을 시도한 모든 호스트(pubmed.ncbi.nlm.nih.gov, advanced.onlinelibrary.wiley.com, api.crossref.org, api.semanticscholar.org, www.ebi.ac.uk, cmi.hms.harvard.edu, www.researchgate.net, doi.org)가 EGRESS_BLOCKED로 응답했다. 날짜 검증 게이트에 따라 신뢰도를 2차 출처로 하향 조정하고 검토 필요로 표시한다.",
-      "technology_id": "academic_ionic_liquid_chat",
-      "technology_name": "Thermostable Ionic Liquid Excipient (CHAT)"
-    },
-    {
-      "deal_id": "alteogen_undisclosed-pharma_2026-08",
-      "partner": "Undisclosed global pharmaceutical company",
-      "deal_type": "Exclusive License",
-      "date": "2026-08-05",
-      "date_sort_key": 20260805,
-      "summary": "Exclusive worldwide license for an undisclosed global pharmaceutical company to develop and commercialize a Hybrozyme(TM)-enabled subcutaneous formulation of a biologic product using ALT-B4 (berahyaluronidase alfa). Total deal value up to $365M (~KRW 521.9B): upfront payment (amount undisclosed) plus development, regulatory, and sales milestones, plus royalties on net sales post-commercialization; Korean press reports upfront due within 30 days of signing. This is Alteogen's third ALT-B4/Hybrozyme licensing deal disclosed in 2026 (after AstraZeneca and GSK/Tesaro, both already tracked); Korean press reports Alteogen's cumulative technology-export total now exceeds KRW 12 trillion.",
-      "molecule": "Undisclosed",
-      "source_name": "Alteogen (IR press release) / PR Newswire / Edaily",
-      "source_url": "http://www.alteogen.com/en/sub/ir/news.php?mode=view&bid=13&idx=340&page=1",
-      "relevance": "High",
-      "confidence": "Primary",
-      "flagged": false,
-      "new_in_digest": false,
-      "summary_ko": "미공개 글로벌 제약사가 ALT-B4(베라히알루로니다제 알파)를 이용해 Hybrozyme(TM) 기반 바이오의약품 피하 제형을 개발·상업화할 수 있는 전 세계 독점 라이선스다. 총 계약 규모는 최대 $365M(약 KRW 521.9B, 5,219억 원)로 선급금(금액 비공개)과 개발·허가·판매 마일스톤, 상업화 이후 순매출 로열티로 구성되며, 한국 언론은 선급금이 계약 후 30일 이내 지급된다고 보도했다. 2026년 공개된 알테오젠의 세 번째 ALT-B4/Hybrozyme 라이선스 계약이며(앞서 AstraZeneca와 GSK/Tesaro, 모두 추적 중), 한국 언론은 알테오젠의 누적 기술수출 규모가 KRW 12 trillion, 즉 12조 원을 넘어섰다고 전했다.",
-      "technology_id": "alt-b4_hybrozyme",
-      "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
-    },
-    {
-      "deal_id": "g2gbio_innobiolamp_concentration-disclosure_2026-08-05",
-      "partner": "N/A (company interview disclosure)",
-      "deal_type": "Company statement/guidance",
-      "date": "2026-08-05",
-      "date_sort_key": 20260805,
-      "summary": "CORRECTION surfaced this run: in a published interview, G2G Bio disclosed that InnoBioLAMP has achieved an antibody microparticle suspension formulation up to 750 mg/mL using IgG, and confirmed microparticle feasibility for semaglutide, bovine serum albumin, and bevacizumab. The company positions this as exceeding Halozyme's Hypercon (500 mg/mL) and Lindy Biosciences' Microglassification (400 mg/mL). This is the first numeric concentration disclosed for InnoBioLAMP since its first public mention alongside the Celltrion MOU on 2026-07-30 (deal 'g2gbio_celltrion_mou_2026-07-30'), where no figure was given. Outside this run's research window (interview conducted 2026-07-31, published 2026-08-05) but logged now as a correction to the technology's previously 'not disclosed numerically' concentration field, per the tracker's out-of-window correction rule.",
-      "molecule": "IgG (platform feasibility only; no antibody drug program named)",
-      "source_name": "더바이오 (TheBioNews) interview; corroborated by BigGo Finance summary coverage",
-      "source_url": "https://www.thebionews.net/news/articleView.html?idxno=26970",
-      "relevance": "High",
+      "summary": "BACKFILL: trade press first reported that Chong Kun Dang (종근당) has entered the PH20-based SC-formulation business, having filed a domestic Korean patent application (filed February 2026) covering a PH20 variant engineered for higher hyaluronan-degrading activity and thermal stability than conventional PH20, intended as a platform technology for converting IV biologics -- including antibodies and antibody-drug conjugates (ADCs) -- to SC formulations. Not previously tracked; this is Chong Kun Dang's first public disclosure of the platform and is logged as a new technology entry. No clinical program, partner or product named yet.",
+      "molecule": "Platform enzyme (not molecule-specific); company cites potential application including antibodies, ADCs, immuno-oncology biologics, nucleic-acid therapeutics, cell therapies",
+      "source_name": "네이트뉴스 (Nate News), relaying 더바이오(TheBioNews) exclusive report",
+      "source_url": "https://m.news.nate.com/view/20260821n23733",
+      "relevance": "Medium",
       "confidence": "Secondary",
       "flagged": false,
       "new_in_digest": false,
-      "summary_ko": "이번 실행에서 확인된 정정 사안: 지투지바이오(G2G Bio)는 공개 인터뷰에서 InnoBioLAMP가 IgG를 사용해 최대 750 mg/mL 항체 미립자 현탁 제형을 구현했으며 세마글루타이드, 소 혈청 알부민, 베바시주맙에 대해서도 미립자 구현 가능성을 확인했다고 밝혔다. 회사는 이를 Halozyme의 Hypercon(500 mg/mL)과 Lindy Biosciences의 Microglassification(400 mg/mL)을 상회하는 수준으로 제시한다. 2026-07-30 셀트리온 MOU(딜 'g2gbio_celltrion_mou_2026-07-30')와 함께 InnoBioLAMP가 처음 언급된 이후 수치가 제시된 첫 사례로, 당시에는 수치가 공개되지 않았다. 이번 실행의 조사 기간 밖이지만(인터뷰 2026-07-31 진행, 2026-08-05 게재) 트래커의 기간 밖 정정 원칙에 따라 해당 기술의 기존 '수치 비공개' 농도 항목에 대한 정정으로 지금 기록한다.",
-      "technology_id": "g2gbio_innobiolamp",
-      "technology_name": "InnoBioLAMP"
+      "summary_ko": "백필: 업계지가 종근당이 PH20 기반 SC 제형 사업에 진출했다고 처음 보도했다. 종근당은 2026년 2월 국내 특허를 출원했으며, 이는 기존 PH20보다 히알루론산 분해 활성과 열 안정성이 높은 PH20 변이체에 관한 것으로, 항체 및 항체-약물 접합체(ADC)를 포함한 정맥주사 바이오의약품을 SC 제형으로 전환하는 플랫폼 기술을 목표로 한다. 이전에는 추적되지 않았으며, 종근당의 해당 플랫폼 첫 공개로 신규 기술 항목으로 기록한다. 아직 임상 프로그램, 파트너, 제품명은 공개되지 않았다.",
+      "technology_id": "chongkundang_ph20_sc",
+      "technology_name": "PH20-based SC formulation platform (variant hyaluronidase)"
     }
   ]
 }
