@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-08T00:16:52+00:00",
+  "generated_at": "2026-10-09T00:18:33+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
   },
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-09",
   "stage_order": [
     "Research / Academic",
     "Preclinical",
@@ -66,8 +66,8 @@
     "tracked": 35,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 102,
-    "flagged_deals": 11
+    "deals_tracked": 103,
+    "flagged_deals": 12
   },
   "internal_targets": [
     {
@@ -150,6 +150,60 @@
     }
   ],
   "technologies": [
+    {
+      "id": "academic_solvent_dehydration_hydrogel",
+      "name": "Solvent-Dehydration Hydrogel Microparticles",
+      "company": "Academic (MIT - Doyle Lab, Dept. of Chemical Engineering; not a commercial platform)",
+      "stage_raw": "Research / Preclinical (academic)",
+      "stage_bucket": "Research / Academic",
+      "type": "Suspension/particle",
+      "concentration_text": "Up to 480 mg/mL antibody-laden hydrogel microparticle suspension (RSC Pharmaceutics, 2026, refined solvent-based dehydration + precipitation method); earlier version of the method reported 360 mg/mL (Advanced Materials, Nov 2025)",
+      "concentration_numeric": 480.0,
+      "concentration_bucket": "450–600 mg/mL",
+      "needle_size": "Not disclosed",
+      "mechanism": "Continuous microfluidic synthesis of hydrogel microparticles where antibody precipitation occurs simultaneously with solvent-driven dehydration, encapsulating antibody at high concentration for SC suspension delivery. Distinct academic approach (MIT, published Nov 2025; refined method published 2026) from commercial platforms like Hypercon or Microglassification, though mechanistically related. The 2026 refinement produced particles 7-32 micron diameter with glide force under 20N.",
+      "date_added": "2026-07-13",
+      "last_reviewed": "2026-10-09",
+      "deals": [
+        {
+          "deal_id": "mit_doyle_rscpharm_2026-08-25",
+          "partner": "N/A (research)",
+          "deal_type": "Research publication",
+          "date": "2026-08-25",
+          "date_sort_key": 20260825,
+          "summary": "BACKFILL: event (received 2026-05-27, accepted 2026-08-25) predates this run's ~24h search window; surfaced during the routine Tier-2 sweep and not previously tracked. Follow-on peer-reviewed paper from the same MIT group behind the already-tracked Nov 2025 Advanced Materials paper (deal 'mit_advmat_2025-11', 360 mg/mL): Zheng & Doyle, 'Formulation of an ultra-high concentration aqueous antibody particle suspension,' RSC Pharmaceutics, DOI 10.1039/d6pm00199h. Using a refined solvent-based dehydration and precipitation method, the authors raised the achievable antibody-laden hydrogel-microparticle suspension concentration from the earlier 360 mg/mL to up to 480 mg/mL, with particles 7-32 micron diameter, glide force under 20N (within clinical injectability norms), and the antibody retaining structure/function for 4 months at this concentration. This is a direct improvement on the same tracked academic approach, not a new platform; logged as a concentration update (flagged) rather than a separate technology row. Logged as backfill, not fresh.",
+          "molecule": "N/A",
+          "source_name": "RSC Pharmaceutics (Royal Society of Chemistry) / MIT (Doyle Lab)",
+          "source_url": "https://doi.org/10.1039/d6pm00199h",
+          "relevance": "Low",
+          "confidence": "Primary",
+          "flagged": true,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이 사건(접수 2026-05-27, 승인 2026-08-25)은 이번 실행의 약 24시간 조사 기간보다 앞서며, 정규 Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다. 기존에 추적 중인 2025년 11월 Advanced Materials 논문(거래 'mit_advmat_2025-11', 360 mg/mL)과 동일한 MIT 연구팀의 후속 동료심사 논문이다: Zheng & Doyle, 'Formulation of an ultra-high concentration aqueous antibody particle suspension,' RSC Pharmaceutics, DOI 10.1039/d6pm00199h. 개선된 용매 기반 탈수·석출 공정을 사용해, 기존 360 mg/mL이던 항체 담지 하이드로젤 미립자 현탁액의 농도를 최대 480 mg/mL까지 끌어올렸다. 입자 지름은 7-32 마이크론이며, 글라이드 포스(주사 저항력)는 임상적 주사 가능 기준인 20N 미만이고, 이 농도에서도 항체는 4개월간 구조와 기능을 유지했다. 이는 동일한 추적 대상 학술 접근법의 직접적인 개선 사례이며 새로운 플랫폼이 아니므로, 별도 기술 항목이 아니라 농도 수치 갱신(flagged)으로 기록한다. 신규가 아닌 백필로 기록한다."
+        },
+        {
+          "deal_id": "mit_advmat_2025-11",
+          "partner": "N/A (research)",
+          "deal_type": "Research publication",
+          "date": "2025-11-01",
+          "date_sort_key": 20251101,
+          "summary": "Peer-reviewed paper (Zheng, Attia, Teng, Doyle - MIT) in Advanced Materials demonstrating 360 mg/mL antibody-laden hydrogel microparticles via continuous solvent-based dehydration.",
+          "molecule": "N/A",
+          "source_name": "Advanced Materials (Wiley) / MIT",
+          "source_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202516429",
+          "relevance": "Low",
+          "confidence": "Not assessed",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "연속식 용매 탈수 공정으로 360 mg/mL 항체 담지 하이드로젤 미립자를 구현했음을 보인 동료심사 논문(Zheng, Attia, Teng, Doyle - MIT), Advanced Materials 게재."
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false,
+      "concentration_text_ko": "최대 480 mg/mL 항체 담지 하이드로젤 미립자 현탁액(RSC Pharmaceutics, 2026년, 개선된 용매 기반 탈수·석출 공정); 초기 버전의 공정은 360 mg/mL을 구현했다(Advanced Materials, 2025년 11월)",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "미세유체 연속 합성으로 하이드로젤 미립자를 만들면서 항체 석출과 용매 탈수를 동시에 일으켜, 항체를 고농도로 봉입한 피하 현탁 제형을 만든다. Hypercon이나 Microglassification 같은 상용 플랫폼과 기전상 관련은 있으나 구별되는 학술적 접근법이다(MIT, 2025년 11월 발표; 개선된 공정은 2026년 발표). 2026년 개선된 공정은 지름 7-32 마이크론 입자를 만들며 글라이드 포스는 20N 미만이다."
+    },
     {
       "id": "bambusa_bbt001",
       "name": "BBT001 (half-life-extended bispecific, high-concentration SC formulation)",
@@ -2345,44 +2399,6 @@
       "concentration_text_ko": "결정화 인플릭시맙으로 250 mg/mL 입증 (정맥주사 용액 10 mg/mL 대비), 부피 약 96% 감소. 관련 결정형 항체-하이드로젤 변형 제형은 최대 315 mg/mL, 봉입 효율 89-97%를 보고한다.",
       "needle_size_ko": "비공개",
       "mechanism_ko": "단클론항체를 결정화해 안정적인 결정형 현탁액으로 만든다(인플릭시맙/레미케이드에서 입증). 일부 제형 변형은 결정형 단백질의 안정성에 연질 하이드로젤 입자 봉입을 결합한다. 레거시 플랫폼으로, 최근(2025-2026년) 딜 활동은 확인되지 않았다."
-    },
-    {
-      "id": "academic_solvent_dehydration_hydrogel",
-      "name": "Solvent-Dehydration Hydrogel Microparticles",
-      "company": "Academic (MIT - Doyle Lab, Dept. of Chemical Engineering; not a commercial platform)",
-      "stage_raw": "Research / Preclinical (academic)",
-      "stage_bucket": "Research / Academic",
-      "type": "Suspension/particle",
-      "concentration_text": "360 mg/mL antibody-laden hydrogel microparticle suspension achieved via continuous solvent-based dehydration",
-      "concentration_numeric": 360.0,
-      "concentration_bucket": "300–450 mg/mL",
-      "needle_size": "Not disclosed",
-      "mechanism": "Continuous microfluidic synthesis of hydrogel microparticles where antibody precipitation occurs simultaneously with solvent-driven dehydration, encapsulating antibody at high concentration for SC suspension delivery. Distinct academic approach (MIT, published Nov 2025) from commercial platforms like Hypercon or Microglassification, though mechanistically related.",
-      "date_added": "2026-07-13",
-      "last_reviewed": "2026-07-14",
-      "deals": [
-        {
-          "deal_id": "mit_advmat_2025-11",
-          "partner": "N/A (research)",
-          "deal_type": "Research publication",
-          "date": "2025-11-01",
-          "date_sort_key": 20251101,
-          "summary": "Peer-reviewed paper (Zheng, Attia, Teng, Doyle - MIT) in Advanced Materials demonstrating 360 mg/mL antibody-laden hydrogel microparticles via continuous solvent-based dehydration.",
-          "molecule": "N/A",
-          "source_name": "Advanced Materials (Wiley) / MIT",
-          "source_url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202516429",
-          "relevance": "Low",
-          "confidence": "Not assessed",
-          "flagged": false,
-          "new_in_digest": false,
-          "summary_ko": "연속식 용매 탈수 공정으로 360 mg/mL 항체 담지 하이드로젤 미립자를 구현했음을 보인 동료심사 논문(Zheng, Attia, Teng, Doyle - MIT), Advanced Materials 게재."
-        }
-      ],
-      "is_internal": false,
-      "is_reference": false,
-      "concentration_text_ko": "연속식 용매 탈수 공정으로 360 mg/mL 항체 담지 하이드로젤 미립자 현탁액 구현",
-      "needle_size_ko": "비공개",
-      "mechanism_ko": "미세유체 연속 합성으로 하이드로젤 미립자를 만들면서 항체 석출과 용매 탈수를 동시에 일으켜, 항체를 고농도로 봉입한 피하 현탁 제형을 만든다. Hypercon이나 Microglassification 같은 상용 플랫폼과 기전상 관련은 있으나 구별되는 학술적 접근법이다(MIT, 2025년 11월 발표)."
     },
     {
       "id": "sanofi_sarclisa_escena_sc",

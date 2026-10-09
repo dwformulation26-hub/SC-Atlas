@@ -1,0 +1,520 @@
+{
+  "run_date": "2026-10-09",
+  "window": {
+    "from": "2026-10-08T09:15:19+09:00",
+    "to": "2026-10-09T09:12:39+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday run (Friday, following Thursday's 2026-10-08 run; no gap). Previous run (data/audit_log/2026-10-08.json) completed 2026-10-08T09:15:19+09:00. Window is ~24h, the ordinary weekday window; not extended to the Monday/post-gap 72h treatment since there was no missed-day condition this run."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous October 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license October 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous October 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" October 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" technology deal 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal October 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration October 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 / 특허청 히알루로니다제 고농도 제형"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP meeting highlights October 2026"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "MHLW PMDA 新薬 一斉承認 2026年10月"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "FDA Novel Drug Approvals 2026 list"
+    },
+    {
+      "tier": 5,
+      "lang": "ko",
+      "query": "식약처 의약품 허가 목록 2026년 10월"
+    },
+    {
+      "tier": 5,
+      "lang": "zh",
+      "query": "NMPA 药品批准 2026年10月 approval list"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "알테오젠 OR 할로자임 OR 셀트리온 OR 삼성바이오에피스 SC 피하주사 10월 8일 2026 (targeted window check, added beyond fixed matrix)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Alteogen Halozyme subcutaneous news \"October 8\" OR \"October 7\" 2026 (targeted window check, added beyond fixed matrix)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Keytruda SC Opdivo Qvantig Rybrevant SC approval news this week (targeted window check, added beyond fixed matrix)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Zheng Doyle MIT RSC Pharmaceutics 2026 antibody particle suspension 600 mg/mL subcutaneous (follow-up verification query on a surfaced candidate)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "\"d6pm00199h\" RSC Pharmaceutics online publication date 2026 (date-verification query)"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme-Incyte ENHANZE license for INCA033989",
+      "published": "2026-07-20",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Enables SC formulation of an Incyte oncology antibody via ENHANZE -- directly tracks the ENHANZE competitive row.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'halozyme_incyte_2026-07' (data/deals_db.py).",
+      "event_key": "halozyme_incyte_inca033989_2026-07",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme-GSK ENHANZE collaboration, multiple oncology targets",
+      "published": "2026-05-07",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ENHANZE licensing to a major partner -- direct ENHANZE row activity.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'halozyme_gsk_2026-05'.",
+      "event_key": "halozyme_gsk_2026-05",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme/Vertex Hypercon license, $15M upfront",
+      "published": "2026-04",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Hypercon licensing deal -- direct Halozyme high-concentration platform activity.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'halozyme_vertex_2026-04'.",
+      "event_key": "halozyme_vertex_hypercon_2026-04",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme acquisition of Surf Bio (hyperconcentration excipient platform, up to $400M)",
+      "published": "2025-12",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Adds a 500 mg/mL hyperconcentration platform to Halozyme's portfolio -- directly on-topic.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'surfbio_halozyme_2025-12' (technology_id snapshot_surfbio).",
+      "event_key": "halozyme_surfbio_acquisition_2025-12",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Novartis-Alteogen ALT-B4 option/license deal, up to $3.2bn",
+      "published": "2026-09-02",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Largest-value ALT-B4 licensing deal to date -- core ALT-B4/Hybrozyme row activity.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'alteogen_novartis_2026-09'.",
+      "event_key": "alteogen_novartis_2026-09",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen exclusive license, undisclosed global pharma, up to $365M",
+      "published": "2026-08-05",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ALT-B4/Hybrozyme SC licensing deal -- direct row activity.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked (deal row with summary matching $365M / KRW 521.9B figure).",
+      "event_key": "alteogen_undisclosed-pharma_2026-08-05",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Biogen-Alteogen ALT-B4 license, ~KRW 820-867B",
+      "published": "2026-03",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ALT-B4/Hybrozyme SC licensing deal -- direct row activity.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'alteogen_biogen_2026-03'.",
+      "event_key": "alteogen_biogen_2026-03",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "GSK/Tesaro-Alteogen dostarlimab SC license, up to $285M",
+      "published": "2026-01",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ALT-B4/Hybrozyme SC licensing deal -- direct row activity.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'alteogen_gsk-tesaro_2026-01'.",
+      "event_key": "alteogen_gsk-tesaro_2026-01",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion-G2G Bio MOU/MTA for ultra-high-concentration SC antibody platform",
+      "published": "2026-07-30",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "New-competitor SC concentration platform collaboration -- direct scope.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'g2gbio_celltrion_mou_2026-07-30'.",
+      "event_key": "g2gbio_celltrion_mou_2026-07-30",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "G2G Bio InnoBioLAMP concentration disclosure (750 mg/mL IgG)",
+      "published": "2026-08-05",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "First numeric concentration disclosure for a tracked platform -- direct scope.",
+      "date_source": "second_source",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'g2gbio_innobiolamp_concentration-disclosure_2026-08-05'.",
+      "event_key": "g2gbio_innobiolamp_concentration-disclosure_2026-08-05",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Ipca Laboratories-BRL global licensing collaboration",
+      "published": "2026-06",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "High-concentration SC biologics delivery platform licensing -- direct scope.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'ipca_brl_license_2026-06'.",
+      "event_key": "ipca_brl_license_2026-06",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "InventageLab PCT filing completion + PODD 2026 Boston oral presentation",
+      "published": "2026-09-29",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "IVL-BioFluidic platform milestone -- direct scope.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'inventagelab_pct-patent_2026-09-29' (same release already covers the PODD 2026 presentation).",
+      "event_key": "inventagelab_pct-patent_2026-09-29",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Huons Lab HyDiffuse 11-antibody SC composition patents (incl. dupilumab)",
+      "published": "2026-07-27",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "New hyaluronidase-platform competitor, direct Dupixent comparator angle via dupilumab claim.",
+      "date_source": "second_source",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id matching 'huonslab_hydiffuze_adc-patent_2026-07-27' content.",
+      "event_key": "huonslab_hydiffuze_adc-patent_2026-07-27",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "MHLW Japan Kiject (Keytruda SC/ALT-B4) approval, 2026-09-16 omnibus batch",
+      "published": "2026-09-16",
+      "lang": "ja",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ALT-B4-enabled Keytruda SC Japan approval -- direct Tier-5 molecule-list item.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'alteogen_msd_keytruda-sc-japan-approval_2026-09-16'.",
+      "event_key": "alteogen_msd_keytruda-sc-japan-approval_2026-09-16",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Eisai/Biogen LEQEMBI Pen Japan approval, same 2026-09-16 omnibus batch",
+      "published": "2026-09-16",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Tier-5 molecule-list item already in scope per Gate A exception for LEQEMBI IQLIK.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already tracked: deal_id 'eisai_biogen_leqembiiqlik_japan-approval_2026-09-16'.",
+      "event_key": "eisai_biogen_leqembiiqlik_japan-approval_2026-09-16",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Zheng & Doyle (MIT), 'Formulation of an ultra-high concentration aqueous antibody particle suspension,' RSC Pharmaceutics, DOI 10.1039/d6pm00199h -- up to 480 mg/mL, refined solvent-dehydration method",
+      "published": "2026-08-25",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "conflict",
+      "gate_e": "Directly raises the demonstrated concentration ceiling for a tracked academic SC-delivery approach -- core to 'who can put more antibody into less SC volume.'",
+      "date_source": "page",
+      "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "mit_doyle_rscpharm_2026-08-25",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA Novel Drug Approvals 2026 list items (icotrokinra, linerixibat, navepegritide, vepdegestrant, etc.)",
+      "published": null,
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": null,
+      "gate_d": null,
+      "gate_e": "N/A -- rejected at Gate A.",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: no SC delivery-technology, concentration, or volume angle for any of these molecules/approvals; none appear on the Tier 5 molecule list.",
+      "event_key": "fda_novel-approvals-2026_misc",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "NMPA approval: Transthera tinengotinib (Yochanra) for cholangiocarcinoma",
+      "published": "2026-08-11",
+      "lang": "zh",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": null,
+      "gate_d": null,
+      "gate_e": "N/A -- rejected at Gate A.",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: oral small-molecule approval, no SC/high-concentration delivery angle, not on Tier 5 molecule list.",
+      "event_key": "nmpa_transthera_tinengotinib_2026-08",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "EMA CHMP meeting 12-15 Oct 2026 (Amsterdam) -- highlights not yet published",
+      "published": null,
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": null,
+      "gate_d": null,
+      "gate_e": "N/A -- no content to evaluate yet.",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Not a rejectable candidate -- meeting has not concluded as of run time (today is 3 days before the meeting start); highlights normally publish the Friday the meeting closes (~2026-10-16). Re-check in a future run.",
+      "event_key": "ema_chmp_2026-10-meeting_pending",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "MFDS (식약처) October 2026 drug-approval list",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": null,
+      "gate_d": null,
+      "gate_e": "N/A -- no list available.",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "No October 2026 MFDS approval list indexed yet as of run time; most recent indexed list was May 2026. Nothing to screen.",
+      "event_key": "mfds_2026-10-approvals_unavailable",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "PMDA/MHLW October 2026 omnibus batch approval",
+      "published": null,
+      "lang": "ja",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": null,
+      "gate_d": null,
+      "gate_e": "N/A -- no batch available.",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "No October 2026 MHLW omnibus batch indexed yet; most recent confirmed batch was 2026-09-16 (already tracked). Approval-to-batch lag is ~3-4 weeks per 日経 reporting, so items from late-Sept committee passage would land in a batch after this run.",
+      "event_key": "mhlw_2026-10-batch_unavailable",
+      "canonical": false,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "Solvent-Dehydration Hydrogel Microparticles (academic_solvent_dehydration_hydrogel)",
+      "company": "Academic (MIT -- Doyle Lab)",
+      "event": "Follow-on peer-reviewed paper (Zheng & Doyle, RSC Pharmaceutics, DOI 10.1039/d6pm00199h) raises the demonstrated antibody-laden hydrogel-microparticle suspension concentration from 360 mg/mL (Nov 2025, Advanced Materials, already tracked) to up to 480 mg/mL via a refined solvent-based dehydration + precipitation method.",
+      "date": "2026-08-25",
+      "freshness": "backfill",
+      "source_name": "RSC Pharmaceutics (Royal Society of Chemistry) / MIT (Doyle Lab)",
+      "source_url": "https://doi.org/10.1039/d6pm00199h",
+      "confidence": "Primary",
+      "summary": "Zheng & Doyle (MIT) report a refined solvent-based dehydration/precipitation method achieving up to 480 mg/mL antibody-laden hydrogel-microparticle suspensions (7-32 micron particles, glide force <20N, 4-month stability), up from the 360 mg/mL demonstrated by the same group's Nov 2025 Advanced Materials paper (already tracked, deal 'mit_advmat_2025-11'). Logged as a concentration update on the existing technology row (flagged: True, both figures retained in concentration_text), not a new technology. Accepted 2026-08-25, well before this run's ~24h window -- logged as backfill.",
+      "summary_ko": "Zheng & Doyle(MIT)는 개선된 용매 기반 탈수·석출 공정으로 항체 담지 하이드로젤 미립자 현탁액을 최대 480 mg/mL까지 구현했다고 보고했다(입자 지름 7-32 마이크론, 글라이드 포스 20N 미만, 4개월 안정성). 이는 같은 연구팀의 2025년 11월 Advanced Materials 논문(이미 추적 중, 거래 'mit_advmat_2025-11')이 보고한 360 mg/mL에서 향상된 수치다. 기존 기술 항목의 농도 수치 갱신(flagged: True, concentration_text에 두 수치 모두 유지)으로 기록하며 신규 기술 항목은 아니다. 2026-08-25 승인으로, 이번 실행의 약 24시간 조사 기간보다 훨씬 이전이므로 백필로 기록한다.",
+      "conflicts_with": "mit_advmat_2025-11"
+    }
+  ]
+}
