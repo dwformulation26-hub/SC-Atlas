@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:16:48+00:00",
+  "generated_at": "2026-10-14T00:20:40+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -66,7 +66,7 @@
     "tracked": 35,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 103,
+    "deals_tracked": 106,
     "flagged_deals": 12
   },
   "internal_targets": [
@@ -650,6 +650,38 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "백필: FDA가 아테졸리주맙 (Tecentriq) 및 아테졸리주맙 + hyaluronidase-tqjs (Tecentriq Hybreza) 를 방광절제술 후 순환종양DNA 분자잔존질환이 확인된 근침윤성 방광암 성인 환자의 보조요법으로 승인했으며, 동반진단으로 Signatera CDx (Natera) 를 함께 승인했다. ctDNA 기반 치료 결정의 첫 승인 사례다. IMvigor011 시험에서 ctDNA 유도 보조 아테졸리주맙은 재발 또는 사망 위험을 36%, 사망 위험을 41% 낮췄다. 이는 기존 ENHANZE 시판 제품의 적응증 확대다. alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18과 함께 읽을 필요가 있다: 경쟁 관계인 두 SC 플랫폼 ENHANZE와 ALT-B4가 모두 근침윤성 방광암에서 전진하고 있어, 동일 적응증이 SC 면역관문억제제의 정면 대결 무대가 되고 있다. 2026-09-23에 신규 뉴스가 아닌 경쟁 맥락으로 기록함."
+        },
+        {
+          "deal_id": "halozyme_argenx_vyvgart-hytrulo_all-serotypes-label_2026-05-08",
+          "partner": "argenx",
+          "deal_type": "Regulatory approval (label expansion)",
+          "date": "2026-05-08",
+          "date_sort_key": 20260508,
+          "summary": "BACKFILL: completeness-gap backfill, not this run's ~24h search window. Surfaced while checking the ENHANZE installed base's Vyvgart Hytrulo row (which carries only the original 2023-06-20 base approval) for label updates. FDA approved a supplemental BLA on 2026-05-08 expanding VYVGART and VYVGART Hytrulo (efgartigimod alfa and hyaluronidase-qvfc, ENHANZE/rHuPH20-enabled) to all adult patients with generalized myasthenia gravis (gMG) regardless of antibody serotype -- anti-AChR-Ab positive, anti-MuSK-Ab positive, anti-LRP4-Ab positive, and triple seronegative -- making it the first and only approved treatment for all gMG serotypes per argenx. Based on the Phase 3 ADAPT SERON trial (119 adults with anti-AChR-antibody-negative gMG), which met its primary endpoint: MG-ADL total score improvement of 3.35 points vs. placebo at week 4 (p=0.0068). This widens the addressable population for an already-tracked ENHANZE product rather than introducing a new concentration/volume figure; logged for installed-base completeness alongside the already-tracked Tecentriq Hybreza MIBC label expansion (2026-05-15, same pattern).",
+          "molecule": "Efgartigimod alfa and hyaluronidase-qvfc (VYVGART Hytrulo) -- ENHANZE/rHuPH20-enabled",
+          "source_name": "argenx (SEC Form 6-K / company press release)",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/0001697862/000110465926058143/tm2614130d1_ex99-1.htm",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 완전성 공백 백필이며, 이번 실행의 약 24시간 조사 기간에 해당하지 않는다. ENHANZE 설치 기반의 Vyvgart Hytrulo 행(2023-06-20 최초 승인만 기록되어 있음)에 라벨 갱신이 있는지 확인하는 과정에서 발견했다. FDA는 2026-05-08 보충 생물학적제제 허가신청(sBLA)을 승인해, VYVGART와 VYVGART Hytrulo(에프가티지모드 알파 + hyaluronidase-qvfc, ENHANZE-rHuPH20 기반)의 적응증을 항체 혈청형과 무관하게 전신 중증근무력증(gMG) 성인 환자 전체로 확대했다 -- 항아세틸콜린수용체(AChR) 항체 양성, 항MuSK 항체 양성, anti-LRP4-Ab(항LRP4 항체) 양성, 삼중 음성 모두 포함한다. argenx에 따르면 이는 gMG의 모든 혈청형에 승인된 최초이자 유일한 치료제다. 3상 ADAPT SERON 시험(항AChR항체 음성 gMG 성인 119명)에 근거했으며, 1차 평가변수인 4주차 MG-ADL 총점 개선(위약 대비 3.35점 개선, p=0.0068)을 충족했다. 이는 새로운 농도/부피 수치를 제시하는 것이 아니라 이미 추적 중인 ENHANZE 제품의 대상 환자군을 넓히는 사안이며, 이미 추적 중인 Tecentriq Hybreza의 MIBC 적응증 확대(2026-05-15, 동일한 패턴)와 함께 설치 기반의 완전성을 위해 기록한다."
+        },
+        {
+          "deal_id": "halozyme_takeda_tak881-pid-topline_2026-05-04",
+          "partner": "Takeda",
+          "deal_type": "Clinical trial results (Phase 2/3 topline)",
+          "date": "2026-05-04",
+          "date_sort_key": 20260504,
+          "summary": "BACKFILL: completeness-gap backfill, not this run's ~24h search window. Surfaced during the routine Tier-5 ENHANZE-partners check (Halozyme's own Q1 2026 materials flag this as the company's potential 11th ENHANZE product launch). Takeda announced 2026-05-04 that its pivotal Phase 2/3 trial (TAK-881-3001) of TAK-881 -- a 20% facilitated subcutaneous immune globulin (SCIG 20%) co-packaged with Halozyme's rHuPH20, the enzyme underlying the ENHANZE platform -- met its primary pharmacokinetic endpoint versus Takeda's own already-marketed HYQVIA (10% Ig + rHuPH20, already tracked as part of the ENHANZE installed base): steady-state AUC geometric mean ratio 99.67% (90% CI 95.10%-104.46%) in adults and children aged 2+ with primary immunodeficiency disease (PID). Takeda states TAK-881 delivers the same immunoglobulin dose in half the volume of HYQVIA, shortening infusion time, with secondary endpoints (infection rates, IgG protection, safety/tolerability) comparable to HYQVIA and no new safety signals; an extension study (TAK-881-3002) is ongoing. This is positive pivotal trial data, not yet a regulatory approval -- directly doubling the concentration of an already-marketed ENHANZE product is a clean example of the tracker's core concentration/volume question playing out within a single company's own portfolio.",
+          "molecule": "Immune globulin 20% (TAK-881) + rHuPH20, vs. immune globulin 10% (HYQVIA) + rHuPH20",
+          "source_name": "Takeda (company press release, newsroom); corroborated by BusinessWire, BioSpace",
+          "source_url": "https://takeda.com/newsroom/press-releases/2026/tak-881-pid-topline-results/",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 완전성 공백 백필이며, 이번 실행의 약 24시간 조사 기간에 해당하지 않는다. 정규 Tier-5 ENHANZE 파트너 확인 과정에서 발견했다(할로자임 자체 2026년 1분기 자료는 이를 자사의 잠재적 11번째 ENHANZE 제품 출시로 표시한다). Takeda는 2026-05-04, TAK-881의 핵심 2/3상 시험(TAK-881-3001)이 1차 약동학 평가변수를 충족했다고 발표했다 -- TAK-881은 ENHANZE 플랫폼의 기반 효소인 할로자임의 rHuPH20과 함께 포장되는 20% 촉진 피하 면역글로불린(SCIG 20%) 제품이며, Takeda가 이미 시판 중인 HYQVIA(10% 면역글로불린 + rHuPH20, 이미 ENHANZE 설치 기반의 일부로 추적 중)와 비교했다: 원발성 면역결핍질환(PID)을 가진 2세 이상 성인 및 소아에서 안정 상태 AUC 기하평균비 99.67%(90% CI 95.10%-104.46%)를 기록했다. Takeda는 TAK-881이 HYQVIA 대비 절반의 부피로 동일한 면역글로불린 용량을 투여할 수 있어 주입 시간을 줄인다고 밝혔으며, 2차 평가변수(감염률, IgG 보호, 안전성/내약성)는 HYQVIA와 유사했고 새로운 안전성 신호는 없었다. 확장 연구(TAK-881-3002)가 진행 중이다. 이는 아직 규제 승인이 아닌 긍정적 핵심 임상시험 결과이며 -- 이미 시판 중인 ENHANZE 제품의 농도를 그대로 두 배로 높인 사례로, 한 회사의 자체 포트폴리오 내에서 본 트래커의 핵심 질문인 농도/부피 문제가 그대로 드러나는 깔끔한 예시다."
         },
         {
           "deal_id": "halozyme_gsk_2026-05",
@@ -1276,6 +1308,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "2026-07-12 갱신: ALT-B4를 활용한 미공개 바이오의약품 2종에 대한 라이선스 계약. 총 계약 규모 약 $579M: 선급금 $20M(두 번째 제품 선택 시 $10M 추가) + 임상·허가·상업화 마일스톤 최대 $549M(원화 약 KRW 800 billion, 8,000억 원 규모). 수치는 한국 경제지를 통해 확인했다."
+        },
+        {
+          "deal_id": "alteogen_msd_keytruda-sc-canada-approval_2026-02-17",
+          "partner": "Merck Canada / Health Canada",
+          "deal_type": "Regulatory approval",
+          "date": "2026-02-17",
+          "date_sort_key": 20260217,
+          "summary": "BACKFILL: completeness-gap backfill, not this run's ~24h search window. Surfaced while cross-checking Keytruda SC's per-country rows after noticing three existing tracked rows (Japan, EPO patent, China) each describe Canada as an already-approved market in passing, yet no dedicated Canada row existed -- the same completeness-gap pattern flagged for Opdivo Qvantig in the 2026-09-21 incident log. Health Canada approved KEYTRUDA SC (pembrolizumab coformulated with Alteogen's ALT-B4/berahyaluronidase alfa) on 2026-02-17, dosed 790 mg subcutaneously every 6 weeks with platinum-doublet chemotherapy (vs. 400 mg IV every 6 weeks for the comparator), based on evidence from IV KEYTRUDA across tumor types including the pivotal trial population of treatment-naive metastatic squamous/non-squamous NSCLC without EGFR/ALK/ROS1 aberrations. No mg/mL concentration or administration-time figure disclosed in the company release. This is the second major-market approval chronologically (after the US) and completes the Canada gap in the already-itemized US/EU/Korea/Japan/China installed base for ALT-B4-enabled Keytruda SC.",
+          "molecule": "Pembrolizumab and berahyaluronidase alfa (KEYTRUDA SC) -- ALT-B4-enabled formulation",
+          "source_name": "Merck Canada (company press release)",
+          "source_url": "https://www.merck.ca/en/?p=12044",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 완전성 공백 백필이며, 이번 실행의 약 24시간 조사 기간에 해당하지 않는다. 기존에 추적 중인 세 개 행(일본, EPO 특허, 중국)이 각각 캐나다를 지나가는 말로 '이미 승인된 시장'으로 언급하면서도 전용 캐나다 행이 없었다는 점을 키트루다 SC의 국가별 행을 교차 확인하는 과정에서 발견했다 -- 2026-09-21 인시던트 로그에서 Opdivo Qvantig에 대해 지적된 것과 동일한 완전성 공백 패턴이다. 캐나다 보건부(Health Canada)는 2026-02-17 KEYTRUDA SC(펨브롤리주맙 + 알테오젠의 ALT-B4/베라히알루로니다제 알파 복합 제형)를 승인했으며, 백금 이중요법과 병용해 6주마다 790 mg 피하주사로 투여한다(비교군은 6주마다 400 mg 정맥주사). 근거는 종양 유형 전반에 걸친 정맥주사 키트루다의 임상 자료이며, 핵심 임상시험 대상군은 EGFR/ALK/ROS1 변이가 없는 치료 경험이 없는 전이성 편평/비편평 비소세포폐암(NSCLC) 환자였다. 회사 보도자료에는 mg/mL 농도나 투여 시간 수치는 공개되지 않았다. 이는 시기순으로 (미국에 이은) 두 번째 주요 시장 승인이며, 이미 항목화된 미국·EU·한국·일본·중국의 ALT-B4 기반 키트루다 SC 설치 기반에서 캐나다 공백을 채운다."
         },
         {
           "deal_id": "alteogen_gsk-tesaro_2026-01",
