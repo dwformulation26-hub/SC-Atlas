@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T00:20:40+00:00",
+  "generated_at": "2026-10-15T00:18:07+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -66,7 +66,7 @@
     "tracked": 35,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 106,
+    "deals_tracked": 107,
     "flagged_deals": 12
   },
   "internal_targets": [
@@ -587,6 +587,22 @@
       "date_added": "2026-07-12",
       "last_reviewed": "2026-09-17",
       "deals": [
+        {
+          "deal_id": "halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06",
+          "partner": "argenx",
+          "deal_type": "Licensing/Collaboration (expansion)",
+          "date": "2026-10-06",
+          "date_sort_key": 20261006,
+          "summary": "BACKFILL: event falls outside this run's ~24h search window (published 2026-10-06 ET; found during this run's Tier-1 ENHANZE sweep, 2026-10-15). Halozyme announced an expansion of its global collaboration and license agreement with argenx, adding two additional exclusive targets and increasing argenx's exclusive access to ENHANZE (rHuPH20) from six to eight targets. Per the release, Halozyme is eligible for milestone payments and royalties on net sales of any resulting ENHANZE-enabled subcutaneous products; the identities of the two new targets and specific deal terms (upfront, milestone amounts) were not disclosed. Extends ENHANZE's 2026 licensee activity (already tracked: GSK, Incyte, Takeda/Entyvio, Vertex/Hypercon) with its largest existing SC-platform partner by exclusive-target count. No new concentration or volume figure disclosed -- a platform-licensing-breadth event, not a formulation-science one.",
+          "molecule": "Undisclosed (two additional exclusive targets)",
+          "source_name": "Halozyme (PR Newswire)",
+          "source_url": "https://www.prnewswire.com/news-releases/halozyme-announces-expansion-of-global-collaboration-and-license-agreement-with-argenx-to-support-the-development-of-subcutaneous-formulations-for-two-additional-exclusive-targets-using-its-enhanze-technology-302900270.html",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 약 24시간 조사 기간 밖의 사건이다(2026-10-06 미국 동부시간 발표; 이번 실행의 Tier-1 ENHANZE 스윕에서 2026-10-15 확인). Halozyme(할로자임)이 argenx와의 글로벌 공동연구 및 라이선스 계약을 확장해, 신규 독점 표적 2건을 추가하며 argenx의 ENHANZE(rHuPH20) 독점 접근 표적 수를 6개에서 8개로 늘렸다고 발표했다. 보도자료에 따르면 Halozyme은 마일스톤 지급과 ENHANZE 기반 피하(SC) 제품의 순매출에 대한 로열티를 받을 자격이 있으며, 신규 표적 2건의 구체적 정체와 계약 조건(선급금, 마일스톤 규모)은 공개되지 않았다. 이는 ENHANZE의 2026년 라이선스 활동(이미 추적 중인 GSK, Incyte, Takeda/Entyvio, Vertex/Hypercon)에 더해, 기존 표적 수 기준 최대 파트너사인 argenx와의 관계를 넓힌 것이다. 새로운 농도·용량 수치는 공개되지 않았다 -- 이는 제형 과학이 아니라 플랫폼 라이선싱 폭의 확장 사안이다."
+        },
         {
           "deal_id": "halozyme_janssen_rybrevant-faspro_hnscc-priority-review_2026-07-30",
           "partner": "Janssen / Johnson & Johnson",
@@ -2575,6 +2591,24 @@
   ],
   "recent_activity": [
     {
+      "deal_id": "halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06",
+      "partner": "argenx",
+      "deal_type": "Licensing/Collaboration (expansion)",
+      "date": "2026-10-06",
+      "date_sort_key": 20261006,
+      "summary": "BACKFILL: event falls outside this run's ~24h search window (published 2026-10-06 ET; found during this run's Tier-1 ENHANZE sweep, 2026-10-15). Halozyme announced an expansion of its global collaboration and license agreement with argenx, adding two additional exclusive targets and increasing argenx's exclusive access to ENHANZE (rHuPH20) from six to eight targets. Per the release, Halozyme is eligible for milestone payments and royalties on net sales of any resulting ENHANZE-enabled subcutaneous products; the identities of the two new targets and specific deal terms (upfront, milestone amounts) were not disclosed. Extends ENHANZE's 2026 licensee activity (already tracked: GSK, Incyte, Takeda/Entyvio, Vertex/Hypercon) with its largest existing SC-platform partner by exclusive-target count. No new concentration or volume figure disclosed -- a platform-licensing-breadth event, not a formulation-science one.",
+      "molecule": "Undisclosed (two additional exclusive targets)",
+      "source_name": "Halozyme (PR Newswire)",
+      "source_url": "https://www.prnewswire.com/news-releases/halozyme-announces-expansion-of-global-collaboration-and-license-agreement-with-argenx-to-support-the-development-of-subcutaneous-formulations-for-two-additional-exclusive-targets-using-its-enhanze-technology-302900270.html",
+      "relevance": "Medium",
+      "confidence": "Primary",
+      "flagged": false,
+      "new_in_digest": false,
+      "summary_ko": "백필: 이번 실행의 약 24시간 조사 기간 밖의 사건이다(2026-10-06 미국 동부시간 발표; 이번 실행의 Tier-1 ENHANZE 스윕에서 2026-10-15 확인). Halozyme(할로자임)이 argenx와의 글로벌 공동연구 및 라이선스 계약을 확장해, 신규 독점 표적 2건을 추가하며 argenx의 ENHANZE(rHuPH20) 독점 접근 표적 수를 6개에서 8개로 늘렸다고 발표했다. 보도자료에 따르면 Halozyme은 마일스톤 지급과 ENHANZE 기반 피하(SC) 제품의 순매출에 대한 로열티를 받을 자격이 있으며, 신규 표적 2건의 구체적 정체와 계약 조건(선급금, 마일스톤 규모)은 공개되지 않았다. 이는 ENHANZE의 2026년 라이선스 활동(이미 추적 중인 GSK, Incyte, Takeda/Entyvio, Vertex/Hypercon)에 더해, 기존 표적 수 기준 최대 파트너사인 argenx와의 관계를 넓힌 것이다. 새로운 농도·용량 수치는 공개되지 않았다 -- 이는 제형 과학이 아니라 플랫폼 라이선싱 폭의 확장 사안이다.",
+      "technology_id": "enhanze",
+      "technology_name": "ENHANZE (rHuPH20)"
+    },
+    {
       "deal_id": "bambusa_bbt001_sc-dosing-initiated_2026-10-01",
       "partner": "N/A (company's own clinical program)",
       "deal_type": "Clinical trial dosing initiation",
@@ -2825,24 +2859,6 @@
       "summary_ko": "인벤티지랩 김주희 대표는 공개 인터뷰에서 자사 IVL-BioFluidic 피하 전환 플랫폼에 대해 복수의 국내 기업과 물질이전계약을 체결했으며, 해당 파트너들로부터 받은 실제 개발 단계 물질로 항체 검증 작업에 착수했다고 밝혔다. 이로써 플랫폼이 공개 단계(2026년 1월 JP모건 헬스케어 콘퍼런스, 2026년 6월 BIO USA)를 넘어 실제 후보 물질을 대상으로 한 기술 검증 단계로 진입했다. 이번 검증의 파트너 신원과 목표 농도는 공개되지 않았다.",
       "technology_id": "inventagelab_ivl_biofluidic",
       "technology_name": "IVL-BioFluidic (microfluidic/microsphere-based SC platform)"
-    },
-    {
-      "deal_id": "huonslab_hydiffuze_11antibody-patent_2026-08-31",
-      "partner": "N/A (patent registration; Korean IP office + international/PCT)",
-      "deal_type": "Patent registration",
-      "date": "2026-08-31",
-      "date_sort_key": 20260831,
-      "summary": "Huons Lab registered domestic (Korea) and international (PCT) composition patents covering SC formulations of 11 antibody drugs (pembrolizumab, bevacizumab, obinutuzumab, ramucirumab, donanemab, isatuximab, durvalumab, dostarlimab, cetuximab, risankizumab, dupilumab) co-formulated with its proprietary HyDiffuse rHuPH20 platform. Nonclinical PK studies reported ~113-170% higher Cmax and ~117-162% higher AUC for the HyDiffuse-coformulated antibodies vs. the antibody alone. Company plans to pursue country-specific filings next. First tracker entry for Huons Lab; positions it as a new in-house hyaluronidase-platform competitor to Halozyme ENHANZE, Alteogen ALT-B4/Hybrozyme, and Samsung Bioepis' PH20 technology, and -- via the dupilumab composition claim -- a potential direct competitor angle on the Dupixent benchmark. No primary company press release found for this specific event despite an extra search (Huons Lab has issued BusinessWire/BioSpace releases for earlier HyDiffuse milestones in 2026); logged as Secondary on the strength of seven independent corroborating Korean trade-press outlets reporting consistent detail same-day.",
-      "molecule": "Pembrolizumab, bevacizumab, obinutuzumab, ramucirumab, donanemab, isatuximab, durvalumab, dostarlimab, cetuximab, risankizumab, dupilumab (11 antibodies, composition patent)",
-      "source_name": "머니투데이 더바이오 (Money Today TheBio); corroborated by 한국경제 (Hankyung), 더페어, 아시아경제, 아주경제, 더바이오뉴스 (thebionews.net), 인사이트코리아",
-      "source_url": "https://www.mt.co.kr/thebio/2026/08/31/2026083108564041969",
-      "relevance": "High",
-      "confidence": "Secondary",
-      "flagged": false,
-      "new_in_digest": false,
-      "summary_ko": "휴온스랩이 자사 독자 HyDiffuse rHuPH20 플랫폼과 함께 제형화한 항체 의약품 11종(펨브롤리주맙, 베바시주맙, 오비누투주맙, 라무시루맙, 도나네맙, 이사툭시맙, 더발루맙, 도스탈리맙, 세툭시맙, 리산키주맙, 두필루맙)의 피하 제형을 포괄하는 국내(한국) 및 국제(PCT) 조성물 특허를 등록했다. 비임상 약동학 연구에서 HyDiffuse 복합 제형은 항체 단독 대비 Cmax가 약 113-170%, AUC가 약 117-162% 높게 보고되었다. 회사는 이어서 국가별 출원을 진행할 계획이다. 휴온스랩의 첫 트래커 등재 건으로, Halozyme ENHANZE, 알테오젠 ALT-B4/Hybrozyme, 삼성바이오에피스 PH20 기술에 대응하는 새로운 자체 히알루로니다제 플랫폼 경쟁자로 자리매김하며, 두필루맙 조성물 청구항을 통해 Dupixent 벤치마크에 직접 겹치는 경쟁 구도를 형성한다. 추가 검색에도 이 사안에 대한 기업 1차 보도자료는 확인되지 않았다(휴온스랩은 2026년 앞선 HyDiffuse 성과에 대해 BusinessWire·BioSpace 보도자료를 낸 바 있다). 같은 날 일관된 세부 내용을 보도한 한국 업계지 7곳의 독립적 교차 확인을 근거로 2차 출처로 기록한다.",
-      "technology_id": "huonslab_hydiffuze",
-      "technology_name": "HyDiffuse (rHuPH20-based SC delivery platform)"
     }
   ]
 }
