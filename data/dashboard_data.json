@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T00:18:07+00:00",
+  "generated_at": "2026-10-16T00:20:50+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
   },
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-10-16",
   "stage_order": [
     "Research / Academic",
     "Preclinical",
@@ -18,7 +18,8 @@
     "Suspension/particle",
     "Enzyme-assisted",
     "Co-formulation",
-    "Crystalline"
+    "Crystalline",
+    "Enzyme-assisted (hyaluronidase identity unconfirmed)"
   ],
   "company_order": [
     "Academic (Harvard University - Mitragotri Lab)",
@@ -50,7 +51,9 @@
     "Samsung Bioepis",
     "Samsung Biologics",
     "Sanofi",
+    "Shanghai Henlius Biotech (EU marketing authorisation holder: Accord Healthcare S.L.U.)",
     "Shanghai Henlius Biotech (commercialization partner: Dr. Reddy's Laboratories, US/EU)",
+    "Shanghai Henlius Biotech (subsidiary of Fosun Pharma, 2696.HK)",
     "Surf Bio (acquired by Halozyme Therapeutics, Dec 2025)",
     "WuXi Biologics",
     "Xeris Biopharma"
@@ -63,11 +66,11 @@
     "Not disclosed"
   ],
   "counts": {
-    "tracked": 35,
+    "tracked": 37,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 107,
-    "flagged_deals": 12
+    "deals_tracked": 109,
+    "flagged_deals": 13
   },
   "internal_targets": [
     {
@@ -150,6 +153,82 @@
     }
   ],
   "technologies": [
+    {
+      "id": "henlius_hlx02_sc",
+      "name": "HLX02-SC / Zercepac SC (trastuzumab biosimilar subcutaneous formulation)",
+      "company": "Shanghai Henlius Biotech (EU marketing authorisation holder: Accord Healthcare S.L.U.)",
+      "stage_raw": "Pre-registration (CHMP Day 180 extension application, procedure EMA/X/0000321364, pending for the subcutaneous route/strength/pharmaceutical form; scheduled 'for adoption' on the draft agenda for the 12-15 Oct 2026 CHMP plenary; confirmed outcome not yet published as of this scan (2026-10-16); the underlying IV product has been marketed in the EU since 2020)",
+      "stage_bucket": "Pre-registration / Late-stage",
+      "type": "Enzyme-assisted (hyaluronidase identity unconfirmed)",
+      "concentration_text": "No mg/mL figure disclosed. The CHMP extension application is to add a new pharmaceutical form (solution for injection), a new strength (600 mg), and a new route of administration (subcutaneous use) to Zercepac's existing IV marketing authorisation. For comparison, the ENHANZE-enabled originator Herceptin SC/Herceptin Hylecta (already tracked on the enhanze row) is a 600 mg/5 mL (120 mg/mL) fixed-dose SC formulation -- the 600 mg strength matches, but no source confirms the volume or concentration for Zercepac SC.",
+      "concentration_numeric": null,
+      "concentration_bucket": "Not disclosed",
+      "needle_size": "Not disclosed",
+      "mechanism": "Zercepac (HLX02, Shanghai Henlius Biotech's trastuzumab biosimilar, marketed in the EU by Accord Healthcare since 2020 as an IV-only product referencing Herceptin) has a Day 180 \"List of outstanding issues\" extension application before the EMA CHMP to add a new pharmaceutical form (solution for injection), a new strength (600 mg) and a new route of administration (subcutaneous use). Source: the CHMP's own draft agenda for its 12-15 Oct 2026 meeting (document EMA/CHMP/211366/2026, procedure EMA/X/0000321364), listing the item under Action: For adoption. This would make Zercepac SC the first biosimilar competitor to the already-tracked ENHANZE-enabled originator Herceptin SC/Herceptin Hylecta (enhanze row). CAVEAT 1 (outcome): the agenda records what was scheduled for the meeting, not a confirmed decision -- CHMP's adopted opinion and meeting highlights for the 12-15 Oct 2026 plenary had not been published as of this scan (2026-10-16), so whether the extension was granted is unconfirmed; logged as a pending/flagged item, not a confirmed approval. CAVEAT 2 (enabling enzyme): no source states which hyaluronidase enables the SC route. Henlius describes a \"proprietary recombinant human hyaluronidase (rHuPH20)\" for its related HLX319 (Phesgo-biosimilar) combination product (see henlius_hlx319_phesgo_sc), but no source confirms the same enzyme is used in Zercepac SC -- NOT attributed to Halozyme's ENHANZE platform, per standing practice for hyaluronidase-enabled SC items whose enabling platform is not stated.",
+      "date_added": "2026-10-16",
+      "last_reviewed": "2026-10-16",
+      "deals": [
+        {
+          "deal_id": "accord_henlius_zercepac-sc_chmp-day180-agenda_2026-10-15",
+          "partner": "Accord Healthcare S.L.U. (EU marketing authorisation holder) / Shanghai Henlius Biotech (developer)",
+          "deal_type": "Regulatory filing (pending CHMP extension application)",
+          "date": "2026-10-15",
+          "date_sort_key": 20261015,
+          "summary": "FLAGGED -- pending, outcome unconfirmed. Found via this run's Tier-5 direct regulatory-calendar sweep of the EMA's own draft CHMP agenda for its 12-15 Oct 2026 meeting (EMA/CHMP/211366/2026), not via name-search or trade press -- no trade-press coverage of this item was found as of this scan. The agenda lists a Day 180 \"List of outstanding issues\" extension application (procedure EMA/X/0000321364) for Zercepac (Accord Healthcare's EU-marketed trastuzumab biosimilar, developed by Shanghai Henlius Biotech as HLX02) to add a new pharmaceutical form (solution for injection), a new strength (600 mg) and a new route of administration (subcutaneous use), with Action listed as 'For adoption.' This would make Zercepac SC the first biosimilar SC competitor to the ENHANZE-enabled originator Herceptin SC/Herceptin Hylecta (already tracked on the enhanze row). Logged as a new technology entry (henlius_hlx02_sc) rather than attached to the enhanze row, because no source confirms which hyaluronidase enables the SC route. CAVEAT: the agenda records what was scheduled for the meeting, not a confirmed CHMP opinion -- the meeting's adopted outcome and published highlights were not available as of this scan (2026-10-16), so whether the extension was granted, and the exact day within the 12-15 Oct window it was decided, are both unconfirmed. Logged as backfill (not fresh) and flagged because the decision date/outcome cannot be verified per the date-verification gate, not because the underlying document is anything other than a Primary EMA source.",
+          "molecule": "Trastuzumab biosimilar (HLX02/Zercepac), proposed subcutaneous formulation",
+          "source_name": "European Medicines Agency (CHMP draft meeting agenda, EMA/CHMP/211366/2026)",
+          "source_url": "https://www.ema.europa.eu/en/documents/agenda/agenda-chmp-meeting-12-15-october-2026_en.pdf",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": true,
+          "new_in_digest": false,
+          "summary_ko": "백필/확인 필요(FLAGGED) -- 보류 중이며 결과 미확인. 이번 실행의 Tier-5 직접 규제 캘린더 스윕에서 EMA 자체의 2026년 10월 12-15일 회의 초안 의제(EMA/CHMP/211366/2026)를 통해 발견했으며, 명칭 검색이나 업계지 보도를 통한 것이 아니다 -- 이번 조사 시점까지 이 항목에 대한 업계지 보도는 확인되지 않았다. 이 의제에는 Zercepac(Accord Healthcare가 EU에서 판매하는 트라스투주맙 바이오시밀러로, Henlius가 HLX02로 개발)에 대한 'Day 180 미해결 사항 목록' 확대 신청(절차번호 EMA/X/0000321364)이 기재되어 있으며, 새로운 제형(주사제), 새로운 함량(600 mg), 새로운 투여 경로(피하주사)를 추가하는 내용이고, Action(조치)은 'For adoption(채택 대상)'으로 기재되어 있다. 이것이 성립되면 Zercepac SC는 이미 enhanze 항목에서 추적 중인 ENHANZE 기반 오리지널 의약품 Herceptin SC/Herceptin Hylecta에 대한 최초의 바이오시밀러 SC 경쟁 제품이 된다. enhanze 행에 포함시키지 않고 신규 기술 항목(henlius_hlx02_sc)으로 기록한 이유는, 피하 경로를 가능하게 하는 히알루로니다제가 무엇인지 확인해주는 자료가 없기 때문이다. 유의 사항: 이 의제는 회의에서 다루기로 예정된 내용을 기록한 것일 뿐 확정된 CHMP 의견이 아니다 -- 회의의 채택된 결과와 공개된 요약은 이번 조사 시점(2026-10-16)까지 확인되지 않았으므로, 확대 신청이 승인되었는지, 그리고 10월 12-15일 중 정확히 어느 날 결정되었는지 모두 확인되지 않았다. 결정 날짜/결과를 날짜 확인 게이트에 따라 검증할 수 없기 때문에 신규(fresh)가 아닌 백필로 기록하고 확인 필요로 표시했으며, 근거 문서 자체가 EMA의 1차 자료라는 점과는 별개의 이유다."
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false,
+      "concentration_text_ko": "mg/mL 수치는 공개되지 않았다. 이번 CHMP 확대 신청은 Zercepac의 기존 정맥주사 품목허가에 새로운 제형(주사제), 새로운 함량(600 mg), 새로운 투여 경로(피하주사)를 추가하는 것이다. 참고로 이미 enhanze 항목에서 추적 중인 ENHANZE 기반 오리지널 의약품 Herceptin SC/Herceptin Hylecta는 600 mg/5 mL(120 mg/mL) 고정용량 피하 제형이다 -- 600 mg 함량은 일치하지만, Zercepac SC의 용량·농도를 확인해주는 자료는 없다.",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "Zercepac(HLX02)는 상하이 Henlius Biotech의 트라스투주맙 바이오시밀러로, EU에서는 2020년부터 Accord Healthcare가 Herceptin을 참조제품으로 하는 정맥주사 전용 제품으로 판매해왔다. 현재 EMA CHMP에 'Day 180 미해결 사항 목록' 확대 신청이 제출되어 있으며, 새로운 제형(주사제), 새로운 함량(600 mg), 새로운 투여 경로(피하주사)를 추가하는 내용이다. 출처: CHMP가 2026년 10월 12-15일 회의를 위해 자체 공개한 초안 의제(문서번호 EMA/CHMP/211366/2026, 절차번호 EMA/X/0000321364)이며, 해당 항목은 'Action: For adoption(채택 대상)'으로 기재되어 있다. 이것이 성립되면 Zercepac SC는 이미 enhanze 항목에서 추적 중인 ENHANZE 기반 오리지널 의약품 Herceptin SC/Herceptin Hylecta에 대한 최초의 바이오시밀러 경쟁 제품이 된다. 유의 사항 1(결과): 이 의제는 회의에서 다루기로 예정된 내용을 기록한 것일 뿐 확정된 결정이 아니다 -- 2026년 10월 12-15일 전원회의에 대한 CHMP의 채택된 의견과 회의 결과 요약은 이번 조사 시점(2026-10-16)까지 공개되지 않았으므로, 확대 신청이 승인되었는지는 확인되지 않았다 -- 확정된 승인이 아니라 보류/확인 필요(flagged) 사안으로 기록한다. 유의 사항 2(효소): 피하 투여를 가능하게 하는 히알루로니다제가 무엇인지 밝힌 자료는 없다. Henlius는 관련 제품인 HLX319(Phesgo 바이오시밀러 복합제, henlius_hlx319_phesgo_sc 참조)에 대해 '자체 재조합 인간 히알루로니다제(rHuPH20)'라고 설명하지만, Zercepac SC에도 동일한 효소가 쓰이는지 확인해주는 자료는 없다 -- 전달 플랫폼이 명시되지 않은 히알루로니다제 기반 SC 사례에 대한 기존 원칙에 따라 할로자임의 ENHANZE로 귀속시키지 않는다."
+    },
+    {
+      "id": "henlius_hlx319_phesgo_sc",
+      "name": "HLX319 (fixed-dose pertuzumab + trastuzumab subcutaneous biosimilar combination, referencing Phesgo)",
+      "company": "Shanghai Henlius Biotech (subsidiary of Fosun Pharma, 2696.HK)",
+      "stage_raw": "Preclinical / Phase 1 (NMPA IND cleared 2026-04-01; first patient dosed in China-based Phase 1 trial HLX319-001, 2026-04-10)",
+      "stage_bucket": "Preclinical",
+      "type": "Enzyme-assisted",
+      "concentration_text": "No mg/mL figure disclosed. HLX319 is described as a fixed-dose SC combination of Henlius's HLX11 (pertuzumab biosimilar, Poherdy) and HLX02 (trastuzumab biosimilar, Hanquyou/Zercepac) with a hyaluronidase excipient, referencing Genentech/Roche's Phesgo (already tracked on the enhanze row as part of the ENHANZE installed base). Press coverage describes administration taking approximately 5-8 minutes, in line with Phesgo's own SC profile, but states no concentration or volume figure.",
+      "concentration_numeric": null,
+      "concentration_bucket": "Not disclosed",
+      "needle_size": "Not disclosed",
+      "mechanism": "HLX319 is a biosimilar combination of Henlius's own pertuzumab (HLX11/Poherdy) and trastuzumab (HLX02/Hanquyou, marketed in the EU as Zercepac -- see henlius_hlx02_sc) antibodies, co-formulated as a fixed-dose subcutaneous injection referencing Genentech/Roche's Phesgo. Henlius's own announcements (NMPA IND clearance, 2026-04-01; first-patient-dosed update, 2026-04-10) state the SC delivery is enabled by a \"proprietary recombinant human hyaluronidase (rHuPH20)\" -- i.e. Henlius's own enzyme, not a Halozyme ENHANZE license, though no source gives further detail on how it differs from Halozyme's rHuPH20 or clears Halozyme's method patents. Target indications: neoadjuvant/adjuvant and metastatic HER2-positive breast cancer. Phase 1 trial HLX319-001 is a randomized, double-blind, single-dose, parallel-controlled PK/safety/immunogenicity study in healthy Chinese male subjects versus EU-sourced Phesgo. This is the second Henlius SC biosimilar entrant against an ENHANZE-enabled originator found this run, alongside HLX15-SC (vs. Darzalex Faspro) and HLX02-SC/Zercepac SC (vs. Herceptin SC) -- logged as its own technology entry since it combines two different antibodies rather than extending either single-molecule row.",
+      "date_added": "2026-10-16",
+      "last_reviewed": "2026-10-16",
+      "deals": [
+        {
+          "deal_id": "henlius_hlx319_nmpa-ind-clearance_2026-04-01",
+          "partner": "N/A (company's own clinical program)",
+          "deal_type": "Regulatory filing (NMPA IND clearance) + clinical trial dosing initiation",
+          "date": "2026-04-01",
+          "date_sort_key": 20260401,
+          "summary": "BACKFILL: event predates this run's ~24h research window by over six months; surfaced during this run's Tier-2 new-competitor sweep and not previously tracked. China's NMPA cleared Shanghai Henlius Biotech's IND application for HLX319 on 2026-04-01 -- a fixed-dose subcutaneous combination of Henlius's own pertuzumab (HLX11/Poherdy) and trastuzumab (HLX02/Hanquyou, marketed in the EU as Zercepac) biosimilars, referencing Genentech/Roche's Phesgo (already tracked on the enhanze row). Henlius's 2026-04-10 follow-up release reported the first patient dosed in Phase 1 trial HLX319-001 (randomized, double-blind, single-dose PK/safety/immunogenicity study in healthy Chinese male subjects vs. EU-sourced Phesgo). Henlius states the SC delivery uses a 'proprietary recombinant human hyaluronidase (rHuPH20)' -- its own enzyme, not a stated Halozyme license. No mg/mL concentration disclosed. This is a new biosimilar entrant against an ENHANZE-enabled originator (Phesgo), alongside this run's other two Henlius SC biosimilar findings (HLX15-SC vs. Darzalex Faspro, already tracked; HLX02-SC/Zercepac SC vs. Herceptin SC, logged this run). Logged as a new technology entry (henlius_hlx319_phesgo_sc) since it combines two antibodies rather than extending a single-molecule row. Secondary-sourced (trade press -- Pearce IP, PharmaShots -- relaying Henlius's own press releases; no henlius.com URL for either release was reachable during this run).",
+          "molecule": "Pertuzumab biosimilar (HLX11) + trastuzumab biosimilar (HLX02), fixed-dose subcutaneous combination",
+          "source_name": "Pearce IP (legal/industry trade press, relaying Henlius company announcements); corroborated by PharmaShots",
+          "source_url": "https://www.pearceip.law/2026/04/10/henlius-secures-clinical-trial-approval-for-biosimilar-pertuzumab-trastuzumab-combo-in-china-doses-first-patient/",
+          "relevance": "Low",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 약 24시간 조사 기간보다 6개월 이상 앞선 사건으로, 이번 실행의 Tier-2 신규 경쟁자 스윕에서 확인되었고 이전에는 추적되지 않았다. 중국 NMPA는 2026-04-01 상하이 Henlius Biotech의 HLX319 임상시험계획(IND)을 승인했다 -- HLX319는 Henlius 자체의 퍼투주맙(HLX11/Poherdy)과 트라스투주맙(HLX02/Hanquyou, EU에서는 Zercepac으로 판매) 바이오시밀러를 결합한 고정용량 피하주사 복합제이며, Genentech/Roche의 Phesgo(이미 enhanze 항목에서 추적 중)를 참조제품으로 한다. Henlius의 2026-04-10 후속 발표에 따르면 1상 시험 HLX319-001(건강한 중국인 남성 대상, EU산 Phesgo와 비교한 무작위, 이중맹검, 단회투여 약동학/안전성/면역원성 시험)에서 첫 환자 투약이 이루어졌다. Henlius는 피하 전달이 '자체 재조합 인간 히알루로니다제(rHuPH20)'로 가능해진다고 밝혔다 -- 할로자임 라이선스가 아닌 자체 효소다. mg/mL 농도는 공개되지 않았다. 이는 ENHANZE 기반 오리지널 의약품(Phesgo)에 대응하는 신규 바이오시밀러 진입자이며, 이번 실행에서 발견된 Henlius의 다른 두 건의 피하 바이오시밀러 사례(이미 추적 중인 HLX15-SC vs. Darzalex Faspro, 이번 실행에서 기록한 HLX02-SC/Zercepac SC vs. Herceptin SC)와 함께 나란히 놓인다. 두 항체를 결합한 제품이므로 단일 분자 행을 확장하지 않고 신규 기술 항목(henlius_hlx319_phesgo_sc)으로 기록한다. 2차 출처다(업계지 Pearce IP, PharmaShots가 Henlius 자체 보도자료를 인용; 이번 실행 중에는 henlius.com의 해당 보도자료 URL에 접근할 수 없었다)."
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false,
+      "concentration_text_ko": "mg/mL 수치는 공개되지 않았다. HLX319는 Henlius의 HLX11(퍼투주맙 바이오시밀러, Poherdy)과 HLX02(트라스투주맙 바이오시밀러, Hanquyou/Zercepac)를 히알루로니다제 부형제와 결합한 고정용량 피하(SC) 복합제이며, Genentech/Roche의 Phesgo(이미 enhanze 항목에서 ENHANZE 설치 기반으로 추적 중)를 참조제품으로 한다. 보도에 따르면 투여 시간은 약 5-8분으로 Phesgo 자체의 SC 프로필과 유사하다고 설명되지만, 농도나 용량 수치는 밝히지 않았다.",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "HLX319는 Henlius 자체의 퍼투주맙(HLX11/Poherdy)과 트라스투주맙(HLX02/Hanquyou, EU에서는 Zercepac으로 판매 -- henlius_hlx02_sc 참조) 항체를 결합한 바이오시밀러 복합제이며, 고정용량 피하주사 제형으로 공동 제형화되어 Genentech/Roche의 Phesgo를 참조제품으로 한다. Henlius 자체 발표(NMPA IND 승인, 2026-04-01; 첫 환자 투약 소식, 2026-04-10)에 따르면 피하 전달은 '자체 재조합 인간 히알루로니다제(rHuPH20)'로 가능해진다고 밝혔다 -- 즉 할로자임의 ENHANZE 라이선스가 아닌 Henlius 자체 효소이지만, 할로자임의 rHuPH20과 어떻게 다른지 또는 할로자임의 제조방법 특허를 회피하는지에 대한 추가 설명은 없다. 목표 적응증은 보조/신보조 및 전이성 HER2 양성 유방암이다. 1상 시험 HLX319-001은 건강한 중국인 남성을 대상으로 EU산 Phesgo와 비교한 무작위, 이중맹검, 단회투여, 병행대조 약동학/안전성/면역원성 시험이다. 이는 이번 실행에서 확인된, ENHANZE 기반 오리지널 의약품에 대응하는 Henlius의 두 번째 피하 바이오시밀러 진입 사례다(HLX15-SC는 Darzalex Faspro 대응, HLX02-SC/Zercepac SC는 Herceptin SC 대응). 단일 분자가 아니라 두 항체를 결합한 제품이므로 기존 행을 확장하지 않고 별도 기술 항목으로 기록한다."
+    },
     {
       "id": "academic_solvent_dehydration_hydrogel",
       "name": "Solvent-Dehydration Hydrogel Microparticles",
@@ -2591,6 +2670,24 @@
   ],
   "recent_activity": [
     {
+      "deal_id": "accord_henlius_zercepac-sc_chmp-day180-agenda_2026-10-15",
+      "partner": "Accord Healthcare S.L.U. (EU marketing authorisation holder) / Shanghai Henlius Biotech (developer)",
+      "deal_type": "Regulatory filing (pending CHMP extension application)",
+      "date": "2026-10-15",
+      "date_sort_key": 20261015,
+      "summary": "FLAGGED -- pending, outcome unconfirmed. Found via this run's Tier-5 direct regulatory-calendar sweep of the EMA's own draft CHMP agenda for its 12-15 Oct 2026 meeting (EMA/CHMP/211366/2026), not via name-search or trade press -- no trade-press coverage of this item was found as of this scan. The agenda lists a Day 180 \"List of outstanding issues\" extension application (procedure EMA/X/0000321364) for Zercepac (Accord Healthcare's EU-marketed trastuzumab biosimilar, developed by Shanghai Henlius Biotech as HLX02) to add a new pharmaceutical form (solution for injection), a new strength (600 mg) and a new route of administration (subcutaneous use), with Action listed as 'For adoption.' This would make Zercepac SC the first biosimilar SC competitor to the ENHANZE-enabled originator Herceptin SC/Herceptin Hylecta (already tracked on the enhanze row). Logged as a new technology entry (henlius_hlx02_sc) rather than attached to the enhanze row, because no source confirms which hyaluronidase enables the SC route. CAVEAT: the agenda records what was scheduled for the meeting, not a confirmed CHMP opinion -- the meeting's adopted outcome and published highlights were not available as of this scan (2026-10-16), so whether the extension was granted, and the exact day within the 12-15 Oct window it was decided, are both unconfirmed. Logged as backfill (not fresh) and flagged because the decision date/outcome cannot be verified per the date-verification gate, not because the underlying document is anything other than a Primary EMA source.",
+      "molecule": "Trastuzumab biosimilar (HLX02/Zercepac), proposed subcutaneous formulation",
+      "source_name": "European Medicines Agency (CHMP draft meeting agenda, EMA/CHMP/211366/2026)",
+      "source_url": "https://www.ema.europa.eu/en/documents/agenda/agenda-chmp-meeting-12-15-october-2026_en.pdf",
+      "relevance": "Medium",
+      "confidence": "Primary",
+      "flagged": true,
+      "new_in_digest": false,
+      "summary_ko": "백필/확인 필요(FLAGGED) -- 보류 중이며 결과 미확인. 이번 실행의 Tier-5 직접 규제 캘린더 스윕에서 EMA 자체의 2026년 10월 12-15일 회의 초안 의제(EMA/CHMP/211366/2026)를 통해 발견했으며, 명칭 검색이나 업계지 보도를 통한 것이 아니다 -- 이번 조사 시점까지 이 항목에 대한 업계지 보도는 확인되지 않았다. 이 의제에는 Zercepac(Accord Healthcare가 EU에서 판매하는 트라스투주맙 바이오시밀러로, Henlius가 HLX02로 개발)에 대한 'Day 180 미해결 사항 목록' 확대 신청(절차번호 EMA/X/0000321364)이 기재되어 있으며, 새로운 제형(주사제), 새로운 함량(600 mg), 새로운 투여 경로(피하주사)를 추가하는 내용이고, Action(조치)은 'For adoption(채택 대상)'으로 기재되어 있다. 이것이 성립되면 Zercepac SC는 이미 enhanze 항목에서 추적 중인 ENHANZE 기반 오리지널 의약품 Herceptin SC/Herceptin Hylecta에 대한 최초의 바이오시밀러 SC 경쟁 제품이 된다. enhanze 행에 포함시키지 않고 신규 기술 항목(henlius_hlx02_sc)으로 기록한 이유는, 피하 경로를 가능하게 하는 히알루로니다제가 무엇인지 확인해주는 자료가 없기 때문이다. 유의 사항: 이 의제는 회의에서 다루기로 예정된 내용을 기록한 것일 뿐 확정된 CHMP 의견이 아니다 -- 회의의 채택된 결과와 공개된 요약은 이번 조사 시점(2026-10-16)까지 확인되지 않았으므로, 확대 신청이 승인되었는지, 그리고 10월 12-15일 중 정확히 어느 날 결정되었는지 모두 확인되지 않았다. 결정 날짜/결과를 날짜 확인 게이트에 따라 검증할 수 없기 때문에 신규(fresh)가 아닌 백필로 기록하고 확인 필요로 표시했으며, 근거 문서 자체가 EMA의 1차 자료라는 점과는 별개의 이유다.",
+      "technology_id": "henlius_hlx02_sc",
+      "technology_name": "HLX02-SC / Zercepac SC (trastuzumab biosimilar subcutaneous formulation)"
+    },
+    {
       "deal_id": "halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06",
       "partner": "argenx",
       "deal_type": "Licensing/Collaboration (expansion)",
@@ -2841,24 +2938,6 @@
       "summary_ko": "알테오젠이 노바티스에 Hybrozyme(TM) 플랫폼 기반 ALT-B4(베라히알루로니다제 알파)를 이용해 노바티스의 복수 바이오의약품 피하 제형을 개발·상업화할 독점 권리를 확보할 수 있는 다수의 옵션을 부여하는 옵션·라이선스 계약을 체결했다. 옵션 행사료와 개발·허가·상업화 마일스톤, 순매출 로열티를 합쳐 총 규모는 최대 $3.223B(약 KRW 4.4165 trillion, 4조 4,165억 원)이며, 규제 승인과 임상·상업적 성공을 전제로 한 조건부 계약이다. 2026년 공개된 알테오젠의 네 번째 라이선스 계약(앞서 GSK/Tesaro, 바이오젠, 8월의 미공개 제약사)이자 Hybrozyme 플랫폼 기준 통산 10번째 계약으로, 공개된 최대 규모 기준으로는 AstraZeneca 계약에 이은 창사 이래 두 번째로 큰 건이다. 같은 날 DART(금융감독원 전자공시시스템)를 통해 공시되었다.",
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
-    },
-    {
-      "deal_id": "inventagelab_domestic-mta_2026-09-02",
-      "partner": "Multiple undisclosed domestic (Korean) companies",
-      "deal_type": "Material Transfer Agreement (MTA) / platform validation",
-      "date": "2026-09-02",
-      "date_sort_key": 20260902,
-      "summary": "In an on-the-record interview, InventageLab CEO Kim Ju-hee said the company has signed Material Transfer Agreements with multiple domestic companies for its IVL-BioFluidic subcutaneous-conversion platform and has begun actual antibody verification work using real development-stage material received from those partners. Moves the platform from disclosed concept (JPMorgan Healthcare Conference January 2026, BIO USA June 2026) toward active technical validation against real candidate molecules; partner identities and target concentrations for this specific verification round were not disclosed.",
-      "molecule": "Undisclosed (multiple partner antibody candidates)",
-      "source_name": "이데일리 (Edaily)",
-      "source_url": "https://www.edaily.co.kr/News/Read?newsId=03647366645576184",
-      "relevance": "Medium",
-      "confidence": "Secondary",
-      "flagged": false,
-      "new_in_digest": false,
-      "summary_ko": "인벤티지랩 김주희 대표는 공개 인터뷰에서 자사 IVL-BioFluidic 피하 전환 플랫폼에 대해 복수의 국내 기업과 물질이전계약을 체결했으며, 해당 파트너들로부터 받은 실제 개발 단계 물질로 항체 검증 작업에 착수했다고 밝혔다. 이로써 플랫폼이 공개 단계(2026년 1월 JP모건 헬스케어 콘퍼런스, 2026년 6월 BIO USA)를 넘어 실제 후보 물질을 대상으로 한 기술 검증 단계로 진입했다. 이번 검증의 파트너 신원과 목표 농도는 공개되지 않았다.",
-      "technology_id": "inventagelab_ivl_biofluidic",
-      "technology_name": "IVL-BioFluidic (microfluidic/microsphere-based SC platform)"
     }
   ]
 }
