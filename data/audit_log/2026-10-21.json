@@ -1,0 +1,435 @@
+{
+  "run_date": "2026-10-21",
+  "window": {
+    "from": "2026-10-20T09:13:28+09:00",
+    "to": "2026-10-21T09:13:30+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday window (~24h). Previous run (2026-10-20) completed cleanly; Wednesday following Tuesday, no gap, so no Monday/post-gap extension applied."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous October 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license October 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous October 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" October 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" biologics platform deal 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal October 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration October 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 2026년 10월"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 2026 / 특허청 히알루로니다제 고농도 제형 특허"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP meeting highlights October 2026 (plus direct WebFetch attempt on EMA highlights page -- 404; EMA has not yet published October 2026 CHMP highlights as of this run)"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "MHLW PMDA 新薬 一斉承認 2026年10月"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "FDA Novel Drug Approvals 2026 list"
+    },
+    {
+      "tier": 5,
+      "lang": "ko",
+      "query": "식약처 의약품 허가 목록 2026년 10월"
+    },
+    {
+      "tier": 5,
+      "lang": "zh",
+      "query": "NMPA 药品批准 2026年10月 新药批准"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme Announces Expansion of Global Collaboration and License Agreement with argenx (6->8 ENHANZE targets)",
+      "published": "2026-10-06",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a (rejected at dedupe, not reached)",
+      "date_source": "url",
+      "dedupe": "dup_url",
+      "verdict": "reject",
+      "reject_reason": "Already logged as deal_id halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06 (same prnewswire.com source_url), found in the 2026-10-15 run.",
+      "event_key": "halozyme_argenx_enhanze_expansion_2026-10-06",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://finviz.com/news/399490/..."
+      ]
+    },
+    {
+      "raw_title": "Halozyme press release: Surf Bio's hyperconcentration technology 'recently renamed as Aerocon(TM)'",
+      "published": "2026-10-06",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "correction",
+      "gate_e": "Directly updates the identity of a tracked SC delivery platform (Surf Bio/SnapShot), which is needed to correctly compare who can deliver more antibody in less SC volume.",
+      "date_source": "page",
+      "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "surfbio_aerocon_rename_2026-10-06",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.prnewswire.com/news-releases/halozyme-announces-expansion-of-global-collaboration-and-license-agreement-with-argenx-to-support-the-development-of-subcutaneous-formulations-for-two-additional-exclusive-targets-using-its-enhanze-technology-302900270.html",
+        "https://finviz.com/news/399490/halozyme-announces-expansion-of-global-collaboration-and-license-agreement-with-argenx-to-support-the-development-of-subcutaneous-formulations-for-two-additional-exclusive-targets-using-its-enhanze-technology"
+      ],
+      "note": "Logged as a CORRECTED edit to the existing 'snapshot_surfbio' row in technologies_db.py (name + mechanism + mechanism_ko), not as a new deals_db row -- this is a rename/identity correction to an already-tracked platform, not a discrete new deal. Per Step 1.1/Step 3, routed to the correction path; new_in_digest does not apply to a technology-row correction, so it does not appear in the email's fresh-findings block. The same underlying press release (dated 2026-10-06, outside this run's ~24h window) was already used to log the argenx-expansion deal on 2026-10-15; this is a second, distinct fact extracted from that same document that had not previously been captured."
+    },
+    {
+      "raw_title": "biopharmawatch.com aggregator snippet: 'Hypercon licensed to Janssen, Eli Lilly, argenx, Vertex and Oruka Therapeutics'",
+      "published": null,
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Janssen-as-Hypercon-licensee claim traces to an aggregator summary, not a primary Halozyme source; a targeted follow-up search found no primary confirmation (only an unrelated Janssen-ENHANZE program). This matches the already-flagged, already-logged candidate rows elektrofi_partners_flagged_2026-07 and elektrofi_partners_detail_2026-07-15, which record the same Janssen/Lilly/argenx attribution as unconfirmed. No new information to add.",
+      "event_key": "hypercon_partner_list_unconfirmed",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Novartis-Alteogen ALT-B4 option/license deal (up to $3.223bn)",
+      "published": "2026-09-02",
+      "lang": "ko/en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a (rejected at dedupe)",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already logged as deal_id alteogen_novartis_2026-09 (date 2026-09-02).",
+      "event_key": "alteogen_novartis_2026-09-02",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen undisclosed-pharma ALT-B4 license (up to $365M)",
+      "published": "2026-08-05",
+      "lang": "ko/en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a (rejected at dedupe)",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already logged as deal_id alteogen_undisclosed-pharma_2026-08.",
+      "event_key": "alteogen_undisclosed_2026-08-05",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme-Oruka Hypercon global exclusive license (ORKA-001, IL-23p19)",
+      "published": "2026-05-06",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a (rejected at dedupe)",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already logged as deal_id halozyme_oruka_2026-05.",
+      "event_key": "halozyme_oruka_2026-05-06",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme-Incyte ENHANZE expansion (INCA033989)",
+      "published": "2026-07-20",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a (rejected at dedupe)",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already logged as deal_id halozyme_incyte_2026-07.",
+      "event_key": "halozyme_incyte_2026-07-20",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Ipca Labs - Bhami's Research Laboratory (BRL) global license, high-concentration SC platform",
+      "published": "2026-06-13",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a (rejected at dedupe)",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already logged against technology_id brl_hc_sc_platform.",
+      "event_key": "ipca_brl_2026-06-13",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion-G2G Bio MOU/MTA on ultra-high-concentration antibody SC platform",
+      "published": "2026-07-30",
+      "lang": "ko/en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a (rejected at dedupe)",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already logged against technology_id g2gbio_innobiolamp (inventagelab/g2gbio MTA row).",
+      "event_key": "celltrion_g2gbio_2026-07-30",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Altruist Biologics (Innovent CDMO subsidiary) launches Altru-CON high-concentration platform",
+      "published": "2026-03-04",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "n/a (rejected at dedupe)",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already logged as technology_id altruist_altru_con.",
+      "event_key": "altruist_altrucon_2026-03-04",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "InventageLab IVL-BioFluidic PCT filing + PODD 2026 presentation",
+      "published": "2026-09-29 (PCT); PODD presentation October 2026",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a (rejected at dedupe)",
+      "date_source": "second_source",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "PCT filing already logged as deal_id inventagelab_pct-patent_2026-09-29. The PODD 2026 conference-presentation detail is a restatement of already-tracked platform claims (750 mg/mL IgG, PCT filing), not a new discrete event -- no new numeric claim or deal term found beyond what inventagelab_pct-patent_2026-09-29 and the technology row already carry.",
+      "event_key": "inventagelab_pct_2026-09-29",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "EMA CHMP 12-15 Oct 2026 meeting -- official highlights page",
+      "published": null,
+      "lang": "en",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "EMA's official CHMP meeting-highlights page for the 12-15 Oct 2026 meeting returned HTTP 404 as of this run (not yet published, or published under a URL slug this run could not locate). A single AI-assisted secondary aggregator (pharmanow.live) claimed six positive opinions (orforglipron/Foundayo, daraxonrasib/Rasonque, temozolomide/Kizfizo among them) but named no Tier-5 molecule-list drug and is not a Gate-C-passing source on its own. No update found for the already-flagged Zercepac SC (henlius_hlx02_sc) Day-180 outstanding-issues item scheduled on this same meeting's draft agenda -- its outcome remains unconfirmed per the existing flagged row, carried forward unchanged.",
+      "event_key": "chmp_oct2026_highlights_unavailable",
+      "canonical": false,
+      "corroborating_urls": [
+        "https://www.pharmanow.live/latest-news/ema-chmp-october-2026-meeting-highlights-orforglipron-biosimilars"
+      ]
+    },
+    {
+      "raw_title": "MHLW/PMDA October 2026 batch approval release",
+      "published": null,
+      "lang": "ja",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "No October 2026 MHLW batch-approval release located; search results returned only historical/undated items and PMDA guidance documents through March 2026. No Tier-5 molecule-list name found.",
+      "event_key": "mhlw_oct2026_batch_not_found",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA 2026 Novel Drug Approvals running list",
+      "published": null,
+      "lang": "en",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "Retrieved list snippets (through July 2026 per IntuitionLabs tracker) show no Tier-5 molecule-list brand/generic name among 2026 novel approvals; none of the named approvals (Zycubo, Adquey, Bysanti, etc.) are SC high-concentration delivery technologies in scope.",
+      "event_key": "fda_2026_novel_approvals_no_match",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "MFDS (식약처) October 2026 approval list",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "No October 2026 MFDS monthly approval list located via search; results were historical (2020-2024) items only.",
+      "event_key": "mfds_oct2026_list_not_found",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "NMPA October 2026 approval announcements",
+      "published": null,
+      "lang": "zh",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "No October 2026 NMPA approval announcements located; most recent trade-press item found was August 2026 (Transthera/Yochanra, unrelated indication/technology).",
+      "event_key": "nmpa_oct2026_not_found",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Dupixent (dupilumab) high-concentration/SC formulation news",
+      "published": null,
+      "lang": "en/ko",
+      "gate_a": "n/a",
+      "gate_b": "reject",
+      "gate_c": "n/a",
+      "gate_d": "new",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "No high-concentration or delivery-technology news found for Dupixent this window; only standard-strength (175 mg/mL) label/retailer listings surfaced. Fails Gate B (no discrete dated event).",
+      "event_key": "dupixent_no_event_found",
+      "canonical": false,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "SnapShot / Aerocon (glassy surfactant / MoNi)",
+      "company": "Halozyme Therapeutics (Surf Bio)",
+      "event": "Surf Bio's hyperconcentration technology renamed Aerocon(TM), per Halozyme's 2026-10-06 ENHANZE-argenx expansion press release.",
+      "date": "2026-10-06",
+      "freshness": "backfill",
+      "source_name": "Halozyme (PR Newswire, via Finviz republication)",
+      "source_url": "https://www.prnewswire.com/news-releases/halozyme-announces-expansion-of-global-collaboration-and-license-agreement-with-argenx-to-support-the-development-of-subcutaneous-formulations-for-two-additional-exclusive-targets-using-its-enhanze-technology-302900270.html",
+      "confidence": "Primary",
+      "summary": "CORRECTED 2026-10-21: Halozyme's own Oct 6, 2026 press release states Surf Bio's hyperconcentration technology was 'recently renamed as Aerocon(TM)', a polymer-based platform Halozyme positions alongside Hypercon as complementary to ENHANZE. Applied as a correction to the existing 'snapshot_surfbio' technology row's name and mechanism fields (not logged as a new deal row, since no Aerocon-specific partner deal was found and the same source document's argenx-expansion fact is already logged as a separate deal).",
+      "summary_ko": "2026-10-21 정정: Halozyme의 2026년 10월 6일 보도자료는 Surf Bio의 고농축 기술이 '최근 Aerocon(TM)으로 명칭이 변경되었다'고 밝혔으며, ENHANZE를 보완하는 Hypercon과 함께 폴리머 기반 플랫폼으로 포지셔닝했다. 기존 'snapshot_surfbio' 기술 행의 명칭과 기전 필드에 대한 정정으로 반영했다(Aerocon 명칭의 개별 파트너링 계약은 확인되지 않았고, 같은 출처 문서의 argenx 확장 사실은 이미 별도 딜로 기록되어 있어 신규 딜 행으로는 추가하지 않았다).",
+      "conflicts_with": null
+    }
+  ]
+}

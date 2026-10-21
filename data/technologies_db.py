@@ -244,7 +244,7 @@ TECHNOLOGIES = [
     },
     {
         'id': 'snapshot_surfbio',
-        'name': 'SnapShot (glassy surfactant / MoNi)',
+        'name': 'SnapShot / Aerocon (glassy surfactant / MoNi)',
         'company': 'Surf Bio (acquired by Halozyme Therapeutics, Dec 2025)',
         'stage_raw': 'Preclinical / Platform (feasibility demonstrated; Halozyme integration ongoing)',
         'type': 'Suspension/particle',
@@ -253,10 +253,10 @@ TECHNOLOGIES = [
         'concentration_numeric': 600.0,
         'needle_size': 'Standard 27-gauge (per Stanford STM study); compatible with commercial autoinjectors',
         'needle_size_ko': '표준 27 게이지 (Stanford STM 연구 기준); 상용 오토인젝터와 호환',
-        'mechanism': "Commercial surfactants (e.g. Tween) depress the glass-transition temperature of spray-dried protein microparticles, leaving soft, tacky surfaces that stick together and clog injection. Surf Bio's MoNi surfactant enriches at the particle surface during drying and keeps it glassy above room temperature, yielding free-flowing, injectable ultra-high-concentration suspensions. Same underlying science published by the Stanford Appel lab (bioRxiv 2024, peer-reviewed in Science Translational Medicine, Aug 2025) - SnapShot is that platform's commercial form.",
-        'mechanism_ko': 'Tween 같은 상용 계면활성제는 분무건조된 단백질 미립자의 유리전이온도를 낮춰 표면을 무르고 끈적하게 만들며, 그 결과 입자가 서로 달라붙어 주사가 막힌다. Surf Bio의 MoNi 계면활성제는 건조 과정에서 입자 표면에 농축되어 실온 이상에서도 표면을 유리질 상태로 유지시키고, 그 결과 흐름성이 좋고 주사 가능한 초고농도 현탁액이 만들어진다. 동일한 기반 과학이 Stanford Appel 연구실에서 발표되었으며(bioRxiv 2024, Science Translational Medicine 동료심사 2025년 8월), SnapShot은 그 플랫폼의 상용화 형태다.',
+        'mechanism': "CORRECTED 2026-10-21: Halozyme's Oct 6, 2026 press release announcing its ENHANZE collaboration expansion with argenx states Surf Bio's hyperconcentration technology was 'recently renamed as Aerocon(TM)', described as a polymer-based hyperconcentration technology that complements Hypercon and ENHANZE. No rename date was given beyond 'recently'; no partner deals specific to the Aerocon name have been found yet, so licensing status under the new name is unconfirmed. ORIGINAL SUMMARY RETAINED: Commercial surfactants (e.g. Tween) depress the glass-transition temperature of spray-dried protein microparticles, leaving soft, tacky surfaces that stick together and clog injection. Surf Bio's MoNi surfactant enriches at the particle surface during drying and keeps it glassy above room temperature, yielding free-flowing, injectable ultra-high-concentration suspensions. Same underlying science published by the Stanford Appel lab (bioRxiv 2024, peer-reviewed in Science Translational Medicine, Aug 2025) - SnapShot is that platform's commercial form.",
+        'mechanism_ko': '2026-10-21 정정: Halozyme의 2026년 10월 6일 보도자료(argenx와의 ENHANZE 협력 확장 발표)는 Surf Bio의 고농축(hyperconcentration) 기술이 "최근 Aerocon(TM)으로 명칭이 변경되었다(recently renamed as Aerocon(TM))"고 밝혔으며, Hypercon 및 ENHANZE를 보완하는 폴리머 기반 고농축 기술로 설명했다. 명칭 변경 시점은 "최근(recently)" 외에 구체적으로 공개되지 않았고, Aerocon 명칭으로 체결된 파트너링 계약은 아직 확인되지 않아 새 명칭 하의 라이선스 현황은 비공개다. 기존 내용 유지: Tween 같은 상용 계면활성제는 분무건조된 단백질 미립자의 유리전이온도를 낮춰 표면을 무르고 끈적하게 만들며, 그 결과 입자가 서로 달라붙어 주사가 막힌다. Surf Bio의 MoNi 계면활성제는 건조 과정에서 입자 표면에 농축되어 실온 이상에서도 표면을 유리질 상태로 유지시키고, 그 결과 흐름성이 좋고 주사 가능한 초고농도 현탁액이 만들어진다. 동일한 기반 과학이 Stanford Appel 연구실에서 발표되었으며(bioRxiv 2024, Science Translational Medicine 동료심사 2025년 8월), SnapShot은 그 플랫폼의 상용화 형태다.',
         'date_added': '2026-07-13',
-        'last_reviewed': '2026-07-14',
+        'last_reviewed': '2026-10-21',
     },
     {
         'id': 'nanoform_nanoforming',

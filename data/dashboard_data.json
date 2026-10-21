@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-20T00:14:46+00:00",
+  "generated_at": "2026-10-21T00:13:59+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
   },
-  "last_updated": "2026-10-16",
+  "last_updated": "2026-10-21",
   "stage_order": [
     "Research / Academic",
     "Preclinical",
@@ -153,6 +153,60 @@
     }
   ],
   "technologies": [
+    {
+      "id": "snapshot_surfbio",
+      "name": "SnapShot / Aerocon (glassy surfactant / MoNi)",
+      "company": "Surf Bio (acquired by Halozyme Therapeutics, Dec 2025)",
+      "stage_raw": "Preclinical / Platform (feasibility demonstrated; Halozyme integration ongoing)",
+      "stage_bucket": "Platform / Feasibility",
+      "type": "Suspension/particle",
+      "concentration_text": "600+ mg/mL - doses over 1,000 mg in a single standard autoinjector shot (Surf Bio's own claim). CONFLICTING: Halozyme's official post-acquisition statement (Jan 2026) and the independent peer-reviewed Sci. Transl. Med. data both cite up to/surpassing 500 mg/mL instead.",
+      "concentration_numeric": 600.0,
+      "concentration_bucket": "600+ mg/mL",
+      "needle_size": "Standard 27-gauge (per Stanford STM study); compatible with commercial autoinjectors",
+      "mechanism": "CORRECTED 2026-10-21: Halozyme's Oct 6, 2026 press release announcing its ENHANZE collaboration expansion with argenx states Surf Bio's hyperconcentration technology was 'recently renamed as Aerocon(TM)', described as a polymer-based hyperconcentration technology that complements Hypercon and ENHANZE. No rename date was given beyond 'recently'; no partner deals specific to the Aerocon name have been found yet, so licensing status under the new name is unconfirmed. ORIGINAL SUMMARY RETAINED: Commercial surfactants (e.g. Tween) depress the glass-transition temperature of spray-dried protein microparticles, leaving soft, tacky surfaces that stick together and clog injection. Surf Bio's MoNi surfactant enriches at the particle surface during drying and keeps it glassy above room temperature, yielding free-flowing, injectable ultra-high-concentration suspensions. Same underlying science published by the Stanford Appel lab (bioRxiv 2024, peer-reviewed in Science Translational Medicine, Aug 2025) - SnapShot is that platform's commercial form.",
+      "date_added": "2026-07-13",
+      "last_reviewed": "2026-10-21",
+      "deals": [
+        {
+          "deal_id": "surfbio_halozyme_2025-12",
+          "partner": "Halozyme Therapeutics",
+          "deal_type": "Acquisition",
+          "date": "2026-01-01",
+          "date_sort_key": 20260101,
+          "summary": "Acquired by Halozyme, up to ~$400M ($300M upfront + up to $100M milestones). Halozyme's own official post-acquisition statement (Jan 28 2026, via pharmaphorum) describes the platform as enabling concentrations 'up to 500 mg/mL' - lower than Surf Bio's own pre-acquisition marketing claim of 600+ mg/mL.",
+          "molecule": "N/A (platform acquisition)",
+          "source_name": "pharmaphorum / FiercePharma / Contract Pharma",
+          "source_url": "https://pharmaphorum.com/news/halozyme-diversifies-drug-delivery-surf-bio-buy",
+          "relevance": "High",
+          "confidence": "Not assessed",
+          "flagged": true,
+          "new_in_digest": false,
+          "summary_ko": "Halozyme에 인수되었으며 규모는 최대 약 $400M(선급금 $300M + 마일스톤 최대 $100M)이다. Halozyme의 인수 후 공식 발표(2026년 1월 28일, pharmaphorum 보도)는 이 플랫폼을 '최대 500 mg/mL'을 구현하는 기술로 설명하는데, 이는 Surf Bio가 인수 전 자체 마케팅에서 주장한 600+ mg/mL보다 낮은 수치다."
+        },
+        {
+          "deal_id": "surfbio_stm-publication_2025-08",
+          "partner": "N/A (research)",
+          "deal_type": "Research publication",
+          "date": "2025-08-01",
+          "date_sort_key": 20250801,
+          "summary": "Peer-reviewed Stanford-led study in Science Translational Medicine demonstrating spray-dried microparticle mAb suspensions surpassing 500 mg/mL, deliverable through a standard 27-gauge needle at clinically relevant force. This independent peer-reviewed figure (500+) is notably lower than Surf Bio's own marketing claim of 600+ mg/mL, and matches Halozyme's official post-acquisition statement.",
+          "molecule": "N/A (platform feasibility study)",
+          "source_name": "PR Newswire (Surf Bio) / Science Translational Medicine",
+          "source_url": "https://www.prnewswire.com/news-releases/surf-bio-announces-peer-reviewed-publication-demonstrating-feasibility-of-subcutaneous-delivery-of-ultra-concentrated-biologics-302534089.html",
+          "relevance": "Medium",
+          "confidence": "Not assessed",
+          "flagged": true,
+          "new_in_digest": false,
+          "summary_ko": "Stanford 주도의 동료심사 연구가 Science Translational Medicine에 게재되어, 분무건조 미립자 단클론항체 현탁액이 500 mg/mL을 넘어서면서도 임상적으로 의미 있는 힘으로 표준 27 게이지 니들을 통해 전달 가능함을 입증했다. 이 독립적인 동료심사 수치(500+)는 Surf Bio 자체 마케팅 주장인 600+ mg/mL보다 뚜렷하게 낮으며, Halozyme의 인수 후 공식 발표와 일치한다."
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false,
+      "concentration_text_ko": "600+ mg/mL - 표준 오토인젝터 1회 주사로 1,000 mg 이상 투여 (Surf Bio 자체 주장). 상충: Halozyme의 인수 후 공식 발표(2026년 1월)와 독립적인 동료심사 논문 Sci. Transl. Med. 데이터는 모두 최대 500 mg/mL 수준으로 제시한다.",
+      "needle_size_ko": "표준 27 게이지 (Stanford STM 연구 기준); 상용 오토인젝터와 호환",
+      "mechanism_ko": "2026-10-21 정정: Halozyme의 2026년 10월 6일 보도자료(argenx와의 ENHANZE 협력 확장 발표)는 Surf Bio의 고농축(hyperconcentration) 기술이 \"최근 Aerocon(TM)으로 명칭이 변경되었다(recently renamed as Aerocon(TM))\"고 밝혔으며, Hypercon 및 ENHANZE를 보완하는 폴리머 기반 고농축 기술로 설명했다. 명칭 변경 시점은 \"최근(recently)\" 외에 구체적으로 공개되지 않았고, Aerocon 명칭으로 체결된 파트너링 계약은 아직 확인되지 않아 새 명칭 하의 라이선스 현황은 비공개다. 기존 내용 유지: Tween 같은 상용 계면활성제는 분무건조된 단백질 미립자의 유리전이온도를 낮춰 표면을 무르고 끈적하게 만들며, 그 결과 입자가 서로 달라붙어 주사가 막힌다. Surf Bio의 MoNi 계면활성제는 건조 과정에서 입자 표면에 농축되어 실온 이상에서도 표면을 유리질 상태로 유지시키고, 그 결과 흐름성이 좋고 주사 가능한 초고농도 현탁액이 만들어진다. 동일한 기반 과학이 Stanford Appel 연구실에서 발표되었으며(bioRxiv 2024, Science Translational Medicine 동료심사 2025년 8월), SnapShot은 그 플랫폼의 상용화 형태다."
+    },
     {
       "id": "henlius_hlx02_sc",
       "name": "HLX02-SC / Zercepac SC (trastuzumab biosimilar subcutaneous formulation)",
@@ -2396,60 +2450,6 @@
       "concentration_text_ko": "20% 농도 (200 mg/mL) - 해당 범주에서 중국 최초 승인 제품",
       "needle_size_ko": "비공개",
       "mechanism_ko": "단클론항체가 아닌 혈장 유래 다클론 면역글로불린을 20% 농도로 제형화해 가정 내 피하 투여가 가능하도록 한 제품이다. 인접 제품군으로서 경쟁·시장 맥락 파악 목적으로만 포함했으며, 단클론항체 원료의약품은 아니다."
-    },
-    {
-      "id": "snapshot_surfbio",
-      "name": "SnapShot (glassy surfactant / MoNi)",
-      "company": "Surf Bio (acquired by Halozyme Therapeutics, Dec 2025)",
-      "stage_raw": "Preclinical / Platform (feasibility demonstrated; Halozyme integration ongoing)",
-      "stage_bucket": "Platform / Feasibility",
-      "type": "Suspension/particle",
-      "concentration_text": "600+ mg/mL - doses over 1,000 mg in a single standard autoinjector shot (Surf Bio's own claim). CONFLICTING: Halozyme's official post-acquisition statement (Jan 2026) and the independent peer-reviewed Sci. Transl. Med. data both cite up to/surpassing 500 mg/mL instead.",
-      "concentration_numeric": 600.0,
-      "concentration_bucket": "600+ mg/mL",
-      "needle_size": "Standard 27-gauge (per Stanford STM study); compatible with commercial autoinjectors",
-      "mechanism": "Commercial surfactants (e.g. Tween) depress the glass-transition temperature of spray-dried protein microparticles, leaving soft, tacky surfaces that stick together and clog injection. Surf Bio's MoNi surfactant enriches at the particle surface during drying and keeps it glassy above room temperature, yielding free-flowing, injectable ultra-high-concentration suspensions. Same underlying science published by the Stanford Appel lab (bioRxiv 2024, peer-reviewed in Science Translational Medicine, Aug 2025) - SnapShot is that platform's commercial form.",
-      "date_added": "2026-07-13",
-      "last_reviewed": "2026-07-14",
-      "deals": [
-        {
-          "deal_id": "surfbio_halozyme_2025-12",
-          "partner": "Halozyme Therapeutics",
-          "deal_type": "Acquisition",
-          "date": "2026-01-01",
-          "date_sort_key": 20260101,
-          "summary": "Acquired by Halozyme, up to ~$400M ($300M upfront + up to $100M milestones). Halozyme's own official post-acquisition statement (Jan 28 2026, via pharmaphorum) describes the platform as enabling concentrations 'up to 500 mg/mL' - lower than Surf Bio's own pre-acquisition marketing claim of 600+ mg/mL.",
-          "molecule": "N/A (platform acquisition)",
-          "source_name": "pharmaphorum / FiercePharma / Contract Pharma",
-          "source_url": "https://pharmaphorum.com/news/halozyme-diversifies-drug-delivery-surf-bio-buy",
-          "relevance": "High",
-          "confidence": "Not assessed",
-          "flagged": true,
-          "new_in_digest": false,
-          "summary_ko": "Halozyme에 인수되었으며 규모는 최대 약 $400M(선급금 $300M + 마일스톤 최대 $100M)이다. Halozyme의 인수 후 공식 발표(2026년 1월 28일, pharmaphorum 보도)는 이 플랫폼을 '최대 500 mg/mL'을 구현하는 기술로 설명하는데, 이는 Surf Bio가 인수 전 자체 마케팅에서 주장한 600+ mg/mL보다 낮은 수치다."
-        },
-        {
-          "deal_id": "surfbio_stm-publication_2025-08",
-          "partner": "N/A (research)",
-          "deal_type": "Research publication",
-          "date": "2025-08-01",
-          "date_sort_key": 20250801,
-          "summary": "Peer-reviewed Stanford-led study in Science Translational Medicine demonstrating spray-dried microparticle mAb suspensions surpassing 500 mg/mL, deliverable through a standard 27-gauge needle at clinically relevant force. This independent peer-reviewed figure (500+) is notably lower than Surf Bio's own marketing claim of 600+ mg/mL, and matches Halozyme's official post-acquisition statement.",
-          "molecule": "N/A (platform feasibility study)",
-          "source_name": "PR Newswire (Surf Bio) / Science Translational Medicine",
-          "source_url": "https://www.prnewswire.com/news-releases/surf-bio-announces-peer-reviewed-publication-demonstrating-feasibility-of-subcutaneous-delivery-of-ultra-concentrated-biologics-302534089.html",
-          "relevance": "Medium",
-          "confidence": "Not assessed",
-          "flagged": true,
-          "new_in_digest": false,
-          "summary_ko": "Stanford 주도의 동료심사 연구가 Science Translational Medicine에 게재되어, 분무건조 미립자 단클론항체 현탁액이 500 mg/mL을 넘어서면서도 임상적으로 의미 있는 힘으로 표준 27 게이지 니들을 통해 전달 가능함을 입증했다. 이 독립적인 동료심사 수치(500+)는 Surf Bio 자체 마케팅 주장인 600+ mg/mL보다 뚜렷하게 낮으며, Halozyme의 인수 후 공식 발표와 일치한다."
-        }
-      ],
-      "is_internal": false,
-      "is_reference": false,
-      "concentration_text_ko": "600+ mg/mL - 표준 오토인젝터 1회 주사로 1,000 mg 이상 투여 (Surf Bio 자체 주장). 상충: Halozyme의 인수 후 공식 발표(2026년 1월)와 독립적인 동료심사 논문 Sci. Transl. Med. 데이터는 모두 최대 500 mg/mL 수준으로 제시한다.",
-      "needle_size_ko": "표준 27 게이지 (Stanford STM 연구 기준); 상용 오토인젝터와 호환",
-      "mechanism_ko": "Tween 같은 상용 계면활성제는 분무건조된 단백질 미립자의 유리전이온도를 낮춰 표면을 무르고 끈적하게 만들며, 그 결과 입자가 서로 달라붙어 주사가 막힌다. Surf Bio의 MoNi 계면활성제는 건조 과정에서 입자 표면에 농축되어 실온 이상에서도 표면을 유리질 상태로 유지시키고, 그 결과 흐름성이 좋고 주사 가능한 초고농도 현탁액이 만들어진다. 동일한 기반 과학이 Stanford Appel 연구실에서 발표되었으며(bioRxiv 2024, Science Translational Medicine 동료심사 2025년 8월), SnapShot은 그 플랫폼의 상용화 형태다."
     },
     {
       "id": "nanoform_nanoforming",
