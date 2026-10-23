@@ -1,0 +1,445 @@
+{
+  "run_date": "2026-10-23",
+  "window": {
+    "from": "2026-10-22T09:14:28+09:00",
+    "to": "2026-10-23T09:09:31+09:00",
+    "tz": "Asia/Seoul"
+  },
+  "window_note": "Normal weekday window (~24h). Thursday 2026-10-22 run completed cleanly; Friday following with no gap, so no Monday/post-gap extension applied.",
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous October 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license October 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous October 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" news October 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" biologics deal October 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal October 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 2026년 10월"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration October 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도 2026"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 2026년 10월"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 2026"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "특허청 히알루로니다제 고농도 제형"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP meeting highlights October 2026 (direct fetch of EMA highlights page for 12-15 Oct 2026 meeting)"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "MHLW PMDA 新薬 一斉承認 2026年10月"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "FDA.gov 2026 Biological Approvals / FDA Novel Drug Approvals 2026 (direct fetch attempted, 401; fell back to search)"
+    },
+    {
+      "tier": 5,
+      "lang": "ko",
+      "query": "식약처 의약품 허가 목록 2026년 10월"
+    },
+    {
+      "tier": 5,
+      "lang": "zh",
+      "query": "NMPA 药品批准 2026年10月"
+    },
+    {
+      "tier": "extra",
+      "lang": "en",
+      "query": "FDA approves October 22 2026 subcutaneous OR hyaluronidase"
+    },
+    {
+      "tier": "extra",
+      "lang": "en",
+      "query": "Halozyme OR Alteogen OR Celltrion news October 22 2026"
+    },
+    {
+      "tier": "extra",
+      "lang": "ko",
+      "query": "알테오젠 할로자임 셀트리온 10월 22일 2026"
+    },
+    {
+      "tier": "extra",
+      "lang": "en",
+      "query": "PODD 2026 Boston subcutaneous high concentration platform presentation"
+    },
+    {
+      "tier": "extra",
+      "lang": "en",
+      "query": "Celltrion Herzuma SC CT-P6 approval October 2026"
+    },
+    {
+      "tier": "extra",
+      "lang": "en",
+      "query": "Halozyme press release October 2026 ENHANZE"
+    },
+    {
+      "tier": "extra",
+      "lang": "en",
+      "query": "Prestige Biopharma IDC224 October 2026"
+    },
+    {
+      "tier": "extra",
+      "lang": "ko",
+      "query": "Alteogen 알테오젠 공시 2026-10-2 OR 2026-10-23"
+    },
+    {
+      "tier": "extra",
+      "lang": "ko/en",
+      "query": "WebFetch of EMA CHMP highlights page 12-15 Oct 2026; scanned against full Tier 5 molecule/brand list"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme announces expansion of global collaboration and license agreement with argenx to support development of SC formulations for two additional exclusive targets using ENHANZE",
+      "published": "2026-10-06",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "ENHANZE installed-base/licensing expansion; directly on-topic",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already logged as halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06; surfaced again by Tier 1 EN query, confirms no new argenx development since.",
+      "event_key": "halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme renames Surf Bio hyperconcentration platform to Aerocon",
+      "published": "2026-10-01",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Platform naming is part of the tracked technology record",
+      "date_source": "unconfirmed",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already corrected into the tracker 2026-10-21 (commit 'Correct Surf Bio platform name to SnapShot/Aerocon'); technology row snapshot_surfbio already carries the Aerocon name.",
+      "event_key": "snapshot_surfbio_aerocon-rename",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion and G2GBio collaborate on high-concentration SC antibody drug development (pearceip.law)",
+      "published": "2026-07-30",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "InnoBioLAMP licensing-adjacent collaboration",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Same underlying event as existing g2gbio_celltrion_mou_2026-07-30 (same parties, same MOU/MTA).",
+      "event_key": "g2gbio_celltrion_mou_2026-07-30",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "지투지바이오, PODD서 초고농축 항체 SC 플랫폼 첫선 (G2G Bio to officially unveil InnoBioLAMP to global pharma at PODD 2026, Oct 29-30; reaffirms 750 mg/mL+ feasibility; BioJapan partnering with 10+ pharma; plans BIO-Europe; scope extension to bispecifics/ADC/Fc-fusion)",
+      "published": "2026-10-14",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Direct bearing on who can put more antibody into less SC volume: G2G Bio formally entering global partnering/outreach around a platform claiming to beat Halozyme Hypercon (500 mg/mL) and Lindy Microglassification (400 mg/mL) on concentration, and widening scope beyond mAbs.",
+      "date_source": "page",
+      "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "g2gbio_innobiolamp_podd2026-announcement_2026-10-14",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.medigatenews.com/news/1267755242"
+      ]
+    },
+    {
+      "raw_title": "글로벌제약, 생물의약품 SC 전환 확산…기술 확보전 가열 (dailypharm trend/explainer piece on IV-to-SC shift)",
+      "published": "2026-10",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a (rejected at Gate B)",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "Undated trend/explainer piece restating the general IV-to-SC shift and existing platform landscape; no new discrete dated event.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Bioepis SB5 high-concentration Humira biosimilar Phase 1 (40mg/0.8mL, double prior concentration)",
+      "published": "undated (older coverage resurfaced)",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": "n/a (rejected at Gate B/C)",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "No confirmable event date found via URL, page fetch, or second source; search-summary date not trusted per 1.5.1. No named enabling platform technology either (adalimumab concentration doubling via conventional reformulation, not a tracked platform).",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "EMA CHMP meeting highlights, 12-15 October 2026 (direct regulatory-channel scan, Tier 5 query 18)",
+      "published": "2026-10-16",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Tier 5 direct scan for any Tier-5-list molecule/brand in the regulator's own outcomes",
+      "date_source": "page",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Fetched EMA's own highlights page directly and scanned line-by-line against the full Tier 5 molecule/brand list (Keytruda, Opdivo Qvantig, Tecentriq, Ocrevus, Darzalex, Rybrevant, Vyvgart, Phesgo, Herceptin/Zercepac, Rituxan, HYQVIA, Dupixent, Leqembi, Sarclisa) -- zero matches. Six new medicines (Rasonque/daraxonrasib, Foundayo/orforglipron, Yuviwel/navepegritide, Fovlussea/ranibizumab biosimilar, Neuzafy/filgrastim biosimilar, Kizfizo/temozolomide) and five label extensions, none SC-high-concentration relevant. Recorded as a clean negative scan, not a rejected finding.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion Herzuma SC (CT-P6 SC) EMA/MFDS filing status check (Tier 1/extra query)",
+      "published": "2026-04-30 / 2026-05-28 (prior filings, already tracked)",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a -- no new event, status-check only",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "No CHMP opinion or MFDS decision found this window (confirmed via direct CHMP Oct 12-15 highlights fetch above, which has no Zercepac/Herceptin-biosimilar line item) -- EMA filing (celltrion_ema-filing_2026-04) and MFDS filing (celltrion_mfds-filing_2026-05) remain the latest tracked status, and the CHMP day-180 agenda row (accord_henlius_zercepac-sc_chmp-day180-agenda_2026-10-15) is for a different molecule (trastuzumab biosimilar Zercepac/Henlius, not Celltrion's CT-P6 SC).",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA.gov Novel Drug Approvals 2026 live page (Tier 5 query 20, direct fetch)",
+      "published": "n/a",
+      "lang": "en",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "WebFetch to fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026 returned HTTP 401 Unauthorized (not a standard EGRESS_BLOCKED message, but functionally inaccessible from the sandbox this run). Fell back to WebSearch-based scan for tracked-molecule approvals dated in/near the window; no hits. Noted as a blocked/inaccessible primary source rather than retried repeatedly.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "MHLW/PMDA batch approval sweep, Japan, October 2026 (Tier 5 query 19)",
+      "published": "n/a",
+      "lang": "ja",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "No October 2026 MHLW/PMDA omnibus approval batch surfaced via search; PMDA's own English news index returned results only through March 2026. No indication of a missed batch approval for any Tier 5 molecule this window.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "MFDS (식약처) recent-approvals list sweep, Korea, October 2026 (Tier 5 query 21)",
+      "published": "n/a",
+      "lang": "ko",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "No October 2026 MFDS approvals list surfaced via search (nedrug.mfds.go.kr itself not directly fetchable from search results); no indication of a missed Tier 5 molecule approval this window.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "NMPA approval list sweep, China, October 2026 (Tier 5 query 22)",
+      "published": "n/a",
+      "lang": "zh",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "No October 2026 NMPA approval list surfaced via search; most recent item found was August 2026 (unrelated indication). No Tier 5 molecule hit.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "InventageLab IVL-BioFluidic PCT/PODD status re-check (Tier 1/4 EN+KO queries)",
+      "published": "2026-10-15 (bizwatch.co.kr article, mis-targeted search hit)",
+      "lang": "ko",
+      "gate_a": "reject",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "n/a (rejected at Gate A/B)",
+      "date_source": "page",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Article is a general Korean bio-pharmaceutical export statistics piece (Q1-Q3 2026 export figures); does not mention InventageLab or IVL-BioFluidic despite surfacing on a targeted query. No SC-delivery-technology content. Existing PCT filing (inventagelab_pct-patent_2026-09-29) remains the latest status; no new InventageLab event found.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Dupixent (dupilumab) SC high-concentration formulation check (Tier 3 EN+KO)",
+      "published": "n/a",
+      "lang": "en/ko",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "No new Dupixent SC/high-concentration/device news found. Korean-language results concerned pediatric reimbursement expansion (Aug 1, 2026) and CSU indication expansion -- neither is a delivery-technology or concentration event, out of scope per Gate A standing ruling.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Prestige Biopharma IDC224 status re-check (Tier 1 EN)",
+      "published": "n/a",
+      "lang": "en",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": "n/a",
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "No news beyond already-tracked April 2026 patent filing and June 2026 BIO USA presentation plan; no outcome report found for the BIO USA presentation and no October update.",
+      "event_key": null,
+      "canonical": false,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "InnoBioLAMP",
+      "company": "G2G Bio (지투지바이오)",
+      "event": "G2G Bio announces it will formally unveil InnoBioLAMP to global pharma at PODD 2026 (Boston, Oct 29-30), reaffirming 750 mg/mL+ antibody concentration feasibility, reporting BioJapan partnering meetings with 10+ global pharma companies, plans to attend BIO-Europe, and stating intent to extend the platform beyond monoclonal antibodies to bispecifics, ADCs, and Fc-fusion proteins.",
+      "date": "2026-10-14",
+      "freshness": "backfill",
+      "source_name": "데일리팜 (Dailypharm); corroborated by 메디게이트뉴스 (Medigate News, 2026-10-16)",
+      "source_url": "https://m.dailypharm.com/user/news/343410",
+      "confidence": "Secondary",
+      "summary": "BACKFILL: G2G Bio (지투지바이오) said it will officially present its InnoBioLAMP ultra-high-concentration antibody SC platform to global pharmaceutical companies at PODD 2026 (Sheraton Boston, Oct 29-30, 2026). The company reaffirmed its previously disclosed claim (first logged 2026-08-05) of having confirmed feasibility of antibody concentrations of 750 mg/mL or higher, and positioned this against Halozyme's Hypercon (500 mg/mL) and Lindy Biosciences' Microglassification (400 mg/mL). New since the prior disclosure: following BioJapan, the company held partnering meetings with more than 10 global pharmaceutical companies and plans further partnering talks at BIO-Europe; it also stated intent to extend InnoBioLAMP beyond monoclonal antibodies to bispecific antibodies, antibody-drug conjugates (ADCs), and Fc-fusion proteins. Dailypharm (published 2026-10-14, byline reporter, page timestamp confirmed via direct fetch) is the earliest and canonical source; Medigate News (2026-10-16) corroborates but attributes the company statement to 'the 15th,' a one-day discrepancy not resolved by a third source -- noted here as a caveat rather than treated as a conflict, since both sources agree on all facts and figures. Company claims only; no independent verification of the 750 mg/mL figure or the partnering-meeting count.",
+      "summary_ko": "백필: 지투지바이오(G2G Bio)는 초고농도 항체 피하주사(SC) 플랫폼 'InnoBioLAMP'를 2026년 10월 29~30일 미국 보스턴 쉐라톤 호텔에서 열리는 PODD 2026에서 글로벌 제약사들에 정식으로 공개할 예정이라고 밝혔다. 회사는 앞서 2026-08-05에 처음 공개한 '항체 농도 750 mg/mL 이상 구현 가능성 확인' 주장을 재확인했으며, 이를 Halozyme의 Hypercon(500 mg/mL) 및 Lindy Biosciences의 Microglassification(400 mg/mL)과 비교해 제시했다. 기존 공개 이후 새로 확인된 내용으로는, BioJapan 참가 이후 10개 이상의 글로벌 제약사와 파트너링 미팅을 진행했고 BIO-Europe에서도 추가 파트너링을 계획하고 있다는 점, 그리고 InnoBioLAMP를 단일클론항체(mAb)를 넘어 이중특이항체(bispecific), 항체-약물접합체(ADC), Fc 융합 단백질까지 확장할 계획이라는 점이 있다. 데일리팜(2026-10-14 게재, 기자 바이라인 및 직접 조회로 페이지 타임스탬프 확인됨)을 최초/대표 출처(canonical)로 삼았으며, 메디게이트뉴스(2026-10-16)가 이를 뒷받침하지만 회사 발표 시점을 '15일'로 표기해 하루 차이가 있다 -- 제3의 출처로는 해소되지 않았으나 모든 사실·수치가 일치하므로 상충이 아닌 유의 사항으로 기록한다. 750 mg/mL 수치 및 파트너링 미팅 건수는 회사 주장이며 독립적으로 검증되지 않았다.",
+      "conflicts_with": null
+    }
+  ]
+}

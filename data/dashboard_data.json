@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T00:13:48+00:00",
+  "generated_at": "2026-10-23T00:17:46+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -69,7 +69,7 @@
     "tracked": 37,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 109,
+    "deals_tracked": 110,
     "flagged_deals": 13
   },
   "internal_targets": [
@@ -1695,6 +1695,22 @@
       "last_reviewed": "2026-09-10",
       "deals": [
         {
+          "deal_id": "g2gbio_innobiolamp_podd2026-announcement_2026-10-14",
+          "partner": "N/A (company announcement)",
+          "deal_type": "Company statement/guidance (conference presentation plan)",
+          "date": "2026-10-14",
+          "date_sort_key": 20261014,
+          "summary": "BACKFILL: G2G Bio (지투지바이오) said it will officially present its InnoBioLAMP ultra-high-concentration antibody SC platform to global pharmaceutical companies at PODD 2026 (Sheraton Boston, Oct 29-30, 2026). The company reaffirmed its previously disclosed claim (first logged 2026-08-05, deal 'g2gbio_innobiolamp_concentration-disclosure_2026-08-05') of having confirmed feasibility of antibody concentrations of 750 mg/mL or higher, and positioned this against Halozyme's Hypercon (500 mg/mL) and Lindy Biosciences' Microglassification (400 mg/mL). New since the prior disclosure: following BioJapan, the company held partnering meetings with more than 10 global pharmaceutical companies and plans further partnering talks at BIO-Europe; it also stated intent to extend InnoBioLAMP beyond monoclonal antibodies to bispecific antibodies, antibody-drug conjugates (ADCs), and Fc-fusion proteins. Dailypharm (published 2026-10-14, byline reporter, page timestamp confirmed via direct fetch) is the earliest and canonical source; Medigate News (2026-10-16) corroborates but attributes the company statement to 'the 15th,' a one-day discrepancy not resolved by a third source -- noted here as a caveat rather than treated as a conflict, since both sources agree on all facts and figures. Published 2026-10-14, before this run's research window (2026-10-22 09:14 KST to 2026-10-23 09:09 KST) opened, so logged as backfill, not fresh. Company claims only; no independent verification of the 750 mg/mL figure or the partnering-meeting count.",
+          "molecule": "IgG (platform feasibility only; no antibody drug program named)",
+          "source_name": "데일리팜 (Dailypharm); corroborated by 메디게이트뉴스 (Medigate News, 2026-10-16)",
+          "source_url": "https://m.dailypharm.com/user/news/343410",
+          "relevance": "Medium",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 지투지바이오(G2G Bio)는 초고농도 항체 피하주사(SC) 플랫폼 'InnoBioLAMP'를 2026년 10월 29~30일 미국 보스턴 쉐라톤 호텔에서 열리는 PODD 2026에서 글로벌 제약사들에 정식으로 공개할 예정이라고 밝혔다. 회사는 앞서 2026-08-05에 처음 공개한(딜 'g2gbio_innobiolamp_concentration-disclosure_2026-08-05') '항체 농도 750 mg/mL 이상 구현 가능성 확인' 주장을 재확인했으며, 이를 Halozyme의 Hypercon(500 mg/mL) 및 Lindy Biosciences의 Microglassification(400 mg/mL)과 비교해 제시했다. 기존 공개 이후 새로 확인된 내용으로는, BioJapan 참가 이후 10개 이상의 글로벌 제약사와 파트너링 미팅을 진행했고 BIO-Europe에서도 추가 파트너링을 계획하고 있다는 점, 그리고 InnoBioLAMP를 단일클론항체(mAb)를 넘어 이중특이항체(bispecific), 항체-약물접합체(ADC), Fc 융합 단백질까지 확장할 계획이라는 점이 있다. 데일리팜(2026-10-14 게재, 기자 바이라인 및 직접 조회로 페이지 타임스탬프 확인됨)을 최초/대표 출처(canonical)로 삼았으며, 메디게이트뉴스(2026-10-16)가 이를 뒷받침하지만 회사 발표 시점을 '15일'로 표기해 하루 차이가 있다 -- 제3의 출처로는 해소되지 않았으나 모든 사실·수치가 일치하므로 상충이 아닌 유의 사항으로 기록한다. 2026-10-14에 게재되어 이번 실행의 조사 기간(한국시간 2026-10-22 09:14 ~ 2026-10-23 09:09)이 시작되기 전이므로, 신규(fresh)가 아닌 백필로 기록한다. 750 mg/mL 수치 및 파트너링 미팅 건수는 회사 주장이며 독립적으로 검증되지 않았다."
+        },
+        {
           "deal_id": "g2gbio_innobiolamp_concentration-disclosure_2026-08-05",
           "partner": "N/A (company interview disclosure)",
           "deal_type": "Company statement/guidance",
@@ -2688,6 +2704,24 @@
       "technology_name": "HLX02-SC / Zercepac SC (trastuzumab biosimilar subcutaneous formulation)"
     },
     {
+      "deal_id": "g2gbio_innobiolamp_podd2026-announcement_2026-10-14",
+      "partner": "N/A (company announcement)",
+      "deal_type": "Company statement/guidance (conference presentation plan)",
+      "date": "2026-10-14",
+      "date_sort_key": 20261014,
+      "summary": "BACKFILL: G2G Bio (지투지바이오) said it will officially present its InnoBioLAMP ultra-high-concentration antibody SC platform to global pharmaceutical companies at PODD 2026 (Sheraton Boston, Oct 29-30, 2026). The company reaffirmed its previously disclosed claim (first logged 2026-08-05, deal 'g2gbio_innobiolamp_concentration-disclosure_2026-08-05') of having confirmed feasibility of antibody concentrations of 750 mg/mL or higher, and positioned this against Halozyme's Hypercon (500 mg/mL) and Lindy Biosciences' Microglassification (400 mg/mL). New since the prior disclosure: following BioJapan, the company held partnering meetings with more than 10 global pharmaceutical companies and plans further partnering talks at BIO-Europe; it also stated intent to extend InnoBioLAMP beyond monoclonal antibodies to bispecific antibodies, antibody-drug conjugates (ADCs), and Fc-fusion proteins. Dailypharm (published 2026-10-14, byline reporter, page timestamp confirmed via direct fetch) is the earliest and canonical source; Medigate News (2026-10-16) corroborates but attributes the company statement to 'the 15th,' a one-day discrepancy not resolved by a third source -- noted here as a caveat rather than treated as a conflict, since both sources agree on all facts and figures. Published 2026-10-14, before this run's research window (2026-10-22 09:14 KST to 2026-10-23 09:09 KST) opened, so logged as backfill, not fresh. Company claims only; no independent verification of the 750 mg/mL figure or the partnering-meeting count.",
+      "molecule": "IgG (platform feasibility only; no antibody drug program named)",
+      "source_name": "데일리팜 (Dailypharm); corroborated by 메디게이트뉴스 (Medigate News, 2026-10-16)",
+      "source_url": "https://m.dailypharm.com/user/news/343410",
+      "relevance": "Medium",
+      "confidence": "Secondary",
+      "flagged": false,
+      "new_in_digest": false,
+      "summary_ko": "백필: 지투지바이오(G2G Bio)는 초고농도 항체 피하주사(SC) 플랫폼 'InnoBioLAMP'를 2026년 10월 29~30일 미국 보스턴 쉐라톤 호텔에서 열리는 PODD 2026에서 글로벌 제약사들에 정식으로 공개할 예정이라고 밝혔다. 회사는 앞서 2026-08-05에 처음 공개한(딜 'g2gbio_innobiolamp_concentration-disclosure_2026-08-05') '항체 농도 750 mg/mL 이상 구현 가능성 확인' 주장을 재확인했으며, 이를 Halozyme의 Hypercon(500 mg/mL) 및 Lindy Biosciences의 Microglassification(400 mg/mL)과 비교해 제시했다. 기존 공개 이후 새로 확인된 내용으로는, BioJapan 참가 이후 10개 이상의 글로벌 제약사와 파트너링 미팅을 진행했고 BIO-Europe에서도 추가 파트너링을 계획하고 있다는 점, 그리고 InnoBioLAMP를 단일클론항체(mAb)를 넘어 이중특이항체(bispecific), 항체-약물접합체(ADC), Fc 융합 단백질까지 확장할 계획이라는 점이 있다. 데일리팜(2026-10-14 게재, 기자 바이라인 및 직접 조회로 페이지 타임스탬프 확인됨)을 최초/대표 출처(canonical)로 삼았으며, 메디게이트뉴스(2026-10-16)가 이를 뒷받침하지만 회사 발표 시점을 '15일'로 표기해 하루 차이가 있다 -- 제3의 출처로는 해소되지 않았으나 모든 사실·수치가 일치하므로 상충이 아닌 유의 사항으로 기록한다. 2026-10-14에 게재되어 이번 실행의 조사 기간(한국시간 2026-10-22 09:14 ~ 2026-10-23 09:09)이 시작되기 전이므로, 신규(fresh)가 아닌 백필로 기록한다. 750 mg/mL 수치 및 파트너링 미팅 건수는 회사 주장이며 독립적으로 검증되지 않았다.",
+      "technology_id": "g2gbio_innobiolamp",
+      "technology_name": "InnoBioLAMP"
+    },
+    {
       "deal_id": "halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06",
       "partner": "argenx",
       "deal_type": "Licensing/Collaboration (expansion)",
@@ -2920,24 +2954,6 @@
       "summary_ko": "중국 국가약품감독관리국(NMPA)이 알츠하이머병으로 인한 경도인지장애 또는 경도 치매의 도입 치료제로 LEQEMBI(레카네맙) 피하 제형을 승인했으며, 2026-08-24 기록한 미국 SC-AI/IQLIK 출시와 동일하게 주 1회 500 mg(250 mg 주사 2회 연속) 요법을 적용한다. 중국 BLA는 2026년 1월 접수되어 우선심사를 받았고, 주 1회 피하 투여가 2주 1회 정맥 투여와 동등한 노출을 보이며 임상·바이오마커 측면에서도 유사한 이익을 입증했다. 출시는 에자이의 2026 회계연도(2027년 3월 31일 종료) 내로 계획되어 있다. 이미 추적 중인 기술의 지역 확대 사안이며 새로운 농도·제형 주장이 아니다. 기록된 피하 200 mg/mL 대 정맥 100 mg/mL 수치는 변동이 없다.",
       "technology_id": "eisai_biogen_leqembi_iqlik_sc",
       "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
-    },
-    {
-      "deal_id": "alteogen_novartis_2026-09",
-      "partner": "Novartis",
-      "deal_type": "Option and Exclusive License Agreement",
-      "date": "2026-09-02",
-      "date_sort_key": 20260902,
-      "summary": "Alteogen entered an option and license agreement granting Novartis multiple options to obtain exclusive rights to develop and commercialize subcutaneous formulations of several Novartis biologics using ALT-B4 (berahyaluronidase alfa), powered by Alteogen's Hybrozyme(TM) platform. Total potential value up to $3.223B (~KRW 4.4165 trillion) across option-exercise fees, development/regulatory/commercial milestones, and net-sales royalties; a conditional contract subject to regulatory approvals and clinical/commercial success. This is Alteogen's fourth licensing deal disclosed in 2026 (after GSK/Tesaro, Biogen, and an undisclosed pharma company in August) and the 10th deal overall under the Hybrozyme platform -- the second-largest in company history by disclosed maximum value, behind only the AstraZeneca deal. Filed via DART (Korea Financial Supervisory Service disclosure system) same-day.",
-      "molecule": "Undisclosed (multiple Novartis biologics)",
-      "source_name": "Alteogen (PR Newswire release) / DART filing; corroborated by Korea Times, Contract Pharma, Businesskorea, Seoul Economic Daily, Edaily, RTTNews, Kormedi",
-      "source_url": "https://www.prnewswire.com/news-releases/alteogen-enters-option-and-license-agreement-with-novartis-for-development-and-commercialization-of-hybrozyme-enabled-subcutaneous-products-302867513.html",
-      "relevance": "High",
-      "confidence": "Primary",
-      "flagged": false,
-      "new_in_digest": false,
-      "summary_ko": "알테오젠이 노바티스에 Hybrozyme(TM) 플랫폼 기반 ALT-B4(베라히알루로니다제 알파)를 이용해 노바티스의 복수 바이오의약품 피하 제형을 개발·상업화할 독점 권리를 확보할 수 있는 다수의 옵션을 부여하는 옵션·라이선스 계약을 체결했다. 옵션 행사료와 개발·허가·상업화 마일스톤, 순매출 로열티를 합쳐 총 규모는 최대 $3.223B(약 KRW 4.4165 trillion, 4조 4,165억 원)이며, 규제 승인과 임상·상업적 성공을 전제로 한 조건부 계약이다. 2026년 공개된 알테오젠의 네 번째 라이선스 계약(앞서 GSK/Tesaro, 바이오젠, 8월의 미공개 제약사)이자 Hybrozyme 플랫폼 기준 통산 10번째 계약으로, 공개된 최대 규모 기준으로는 AstraZeneca 계약에 이은 창사 이래 두 번째로 큰 건이다. 같은 날 DART(금융감독원 전자공시시스템)를 통해 공시되었다.",
-      "technology_id": "alt-b4_hybrozyme",
-      "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
     }
   ]
 }
