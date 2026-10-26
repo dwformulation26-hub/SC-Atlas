@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T00:17:46+00:00",
+  "generated_at": "2026-10-26T00:26:55+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -69,8 +69,8 @@
     "tracked": 37,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 110,
-    "flagged_deals": 13
+    "deals_tracked": 115,
+    "flagged_deals": 14
   },
   "internal_targets": [
     {
@@ -720,6 +720,22 @@
       "date_added": "2026-07-12",
       "last_reviewed": "2026-09-17",
       "deals": [
+        {
+          "deal_id": "halozyme_msd_hague-injunction-8countries_2026-10-07",
+          "partner": "MSD / Merck",
+          "deal_type": "Patent litigation (final injunction)",
+          "date": "2026-10-07",
+          "date_sort_key": 20261007,
+          "summary": "BACKFILL: On 2026-10-07 the District Court of The Hague issued a final injunction finding Halozyme's EP 2,797,622 (MDASE) patent valid and infringed by MSD's Keytruda SC, barring MSD BV from making, marketing, importing or stocking Keytruda SC in Belgium, Denmark, France, Ireland, Italy, Sweden, Switzerland and the Netherlands -- reversing the outcome of Halozyme's July 2026 preliminary-injunction bid for Denmark/Sweden, which that same court had rejected (see halozyme_msd_hague-uk-setbacks_2026-07). Together with the German preliminary injunction (2025-12-04, already tracked), Keytruda SC -- which uses Alteogen's ALT-B4 enzyme -- is now blocked from commercial sale in 9 European countries; Keytruda's IV formulation is unaffected. MSD disputes the ruling and is considering its response; a parallel US suit (New Jersey) and German appeal (hearing set 2026-11-19) remain pending. Alteogen estimates the affected countries represent only 6-8% of total Keytruda sales and says the earnings impact is limited.",
+          "molecule": "Pembrolizumab SC (Keytruda SC) -- ALT-B4-enabled formulation",
+          "source_name": "Halozyme press release (mirrored by PR wire services, 2026-10-07); corroborated by FiercePharma, RTTNews, MLex, and Asiae.co.kr (Korean angle, 2026-10-08)",
+          "source_url": "https://www.fiercepharma.com/pharma/halozyme-stymies-subq-keytruda-launch-select-european-countries-merck-vows-fight-patent",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 2026-10-07 헤이그 지방법원(특허전담부)은 Halozyme의 EP 2,797,622(MDASE) 특허가 유효하며 MSD의 키트루다 SC(Keytruda SC)가 이를 침해한다고 판결하고, MSD BV에 벨기에·덴마크·프랑스·아일랜드·이탈리아·스웨덴·스위스·네덜란드에서 키트루다 SC의 제조·판매·수입·비축을 금지했다 -- 이는 Halozyme이 2026년 7월 덴마크·스웨덴을 대상으로 신청했던 가처분이 같은 법원에서 기각됐던 결과를 뒤집은 것이다(halozyme_msd_hague-uk-setbacks_2026-07 참조). 이미 기록된 독일 가처분(2025-12-04)과 합쳐, 알테오젠(Alteogen)의 ALT-B4 효소를 사용하는 키트루다 SC는 이제 유럽 9개국에서 상업적 판매가 금지됐다; 키트루다의 정맥주사(IV) 제형은 영향을 받지 않는다. MSD는 이 판결에 반대하며 대응을 검토 중이고, 미국(뉴저지) 소송과 독일 항소심(2026-11-19 심리 예정)이 병행 진행 중이다. 알테오젠은 영향받는 국가가 키트루다 전체 매출의 6~8% 수준에 불과하다며 실적 영향은 제한적이라고 밝혔다."
+        },
         {
           "deal_id": "halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06",
           "partner": "argenx",
@@ -1507,6 +1523,22 @@
           "summary_ko": "백필: 이번 실행의 약 24시간 검색 기간을 크게 벗어나며, 이미 추적 중인 EU/한국/일본의 다른 모든 키트루다 SC 항목보다 앞선 사안이다. Tier-5 규제 캘린더 직접 스윕(EMA CHMP 조회) 중 이미 기록된 2026-09-18 CHMP MIBC 의견을 확인하는 과정에서 발견되었으며 이전에는 추적되지 않았다 -- 2026-09-21 인시던트 로그에서 Opdivo Qvantig에 대해 지적된 것과 같은 종류의 완전성 공백이다. 유럽연합 집행위원회(EC)는 KEYTRUDA(펨브롤리주맙, ALT-B4/베라히알루로니다제 알파 복합 제형)의 피하투여를 당시 EU에서 승인된 33개 전체 성인 적응증에 대해 승인했으며, EU 27개 회원국 및 아이슬란드, 리히텐슈타인, 노르웨이 전역에서 KEYTRUDA SC로 판매된다 -- 유럽에서 승인된 최초의 피하 면역관문억제제이며, 의료진이 최단 1분 만에 투여할 수 있다. 이는 2025-09-18 채택된 EU CHMP 긍정 의견(같은 회의에서 두경부암 수술 전후 신규 적응증도 별도로 권고)에 따른 것이다. 이는 ALT-B4 기반 키트루다 SC의 일반/EU 전역 시판허가이며, 이미 추적 중인 2026-09-18 CHMP 의견(MIBC 적응증 확대만 다룸)과는 구별되고 그보다 범위가 넓다."
         },
         {
+          "deal_id": "alteogen_adc-sc-pct-patent_2025-09-26",
+          "partner": "N/A (patent filing)",
+          "deal_type": "Patent filing",
+          "date": "2025-09-26",
+          "date_sort_key": 20250926,
+          "summary": "BACKFILL: On 2025-09-26 Alteogen announced it had completed a PCT international patent application covering use of its ALT-B4 hyaluronidase to enable subcutaneous delivery of antibody-drug conjugates (ADCs), on the premise that gradual absorption via SC dosing (vs. IV) may reduce toxicity from the ADC's conjugated payload. This extends the ALT-B4/Hybrozyme platform's addressable scope beyond mAbs, building on the already-tracked 2024-11-10 Daiichi Sankyo deal for an Enhertu (trastuzumab deruxtecan) SC formulation. No PCT publication number or primary filing document was located to corroborate beyond this trade-press report (Gate C: Secondary, not upgraded).",
+          "molecule": "Antibody-drug conjugate (ADC), platform-level filing -- no specific molecule named",
+          "source_name": "Hankyung (Korea Economic Daily)",
+          "source_url": "https://www.hankyung.com/article/202509269664i",
+          "relevance": "Medium",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 2025-09-26 알테오젠은 자사의 히알루로니다제 ALT-B4를 이용해 항체-약물 접합체(ADC)의 피하주사(SC) 전달을 가능하게 하는 기술에 대한 국제특허(PCT) 출원을 완료했다고 밝혔다. 피하주사는 정맥주사(IV)와 달리 체내 약물 농도가 점진적으로 상승해, ADC에 결합된 독성 약물로 인한 부작용을 줄일 수 있다는 전제다. 이는 ALT-B4/Hybrozyme(하이브로자임) 플랫폼의 적용 범위를 단클론항체 이외로 확장하는 것으로, 이미 기록된 2024-11-10 다이이찌산쿄(Daiichi Sankyo)의 엔허투(Enhertu, 트라스투주맙 데룩스테칸) SC 제형 계약을 토대로 한다. 이번 보도 외에 PCT 공개번호나 1차 출원 문서는 확인되지 않았다(Gate C: 2차 출처, 상향되지 않음)."
+        },
+        {
           "deal_id": "alteogen_msd_keytruda-sc-us-approval_2025-09-19",
           "partner": "Merck & Co. / US FDA",
           "deal_type": "Regulatory approval",
@@ -1553,6 +1585,54 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "백필: 이번 실행의 조사 기간보다 거의 2년 앞선 사건으로, 정규 Tier-1/Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다. 알테오젠은 다이이찌산쿄(ENHERTU의 공동 개발·판매사이자 아스트라제네카의 공동 파트너)와 독점 라이선스 계약을 체결하여, 자사의 Hybrozyme 플랫폼 기반 ALT-B4(베라히알루로니다제 알파)를 활용해 HER2 표적 항체-약물 접합체(ADC)인 ENHERTU(fam-trastuzumab deruxtecan-nxki)의 피하 제형을 개발·상업화하기로 했다. 알테오젠은 선급금과 개발·허가·판매 마일스톤, 판매에 따른 단계별 로열티를 받으며, 임상·상업용 공급을 담당한다(구체적 금액은 원 보도자료에 공개되지 않음). 알테오젠 CEO에 따르면 이는 히알루로니다제 효소가 피하 ADC에 적용된 최초 사례였다. 기존 ALT-B4/Hybrozyme 거래 이력을 보완하기 위해 추가되었으며, 새로운 소식은 아니다."
+        },
+        {
+          "deal_id": "alteogen_sandoz_2023-01-02",
+          "partner": "Sandoz",
+          "deal_type": "Exclusive license agreement",
+          "date": "2023-01-02",
+          "date_sort_key": 20230102,
+          "summary": "BACKFILL: On 2023-01-02 Alteogen announced an exclusive license agreement granting Sandoz worldwide rights to use ALT-B4/Hybrozyme to develop a subcutaneous version of one (unnamed) Sandoz biosimilar, with an option for Sandoz to add two further products on separately negotiated terms. Alteogen receives an upfront payment, development/regulatory/sales milestones, and tiered royalties, and supplies ALT-B4. Not previously in the tracker; the same licensing-history gap-fill as the Intas finding above, but documents the platform's reach into the biosimilar-SC-conversion lane specifically, distinct from the originator deals (Novartis, Biogen, AstraZeneca, MSD) already tracked on this row.",
+          "molecule": "Not disclosed (one unnamed biosimilar, option on two more)",
+          "source_name": "Business Wire (via Pearce IP); corroborated by BioSpectrum Asia and Big Molecule Watch",
+          "source_url": "https://www.pearceip.law/2023/01/02/alteogen-and-sandoz-sign-exclusive-licence-agreement/",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 2023-01-02 알테오젠은 ALT-B4/Hybrozyme(하이브로자임) 기술을 이용해 산도스(Sandoz)의 바이오시밀러 1개 제품(제품명 비공개)의 피하주사(SC) 제형을 개발할 수 있는 전 세계 독점 라이선스 계약을 체결했다고 밝혔다. 산도스는 별도 협상 조건으로 2개 제품을 추가할 수 있는 옵션도 보유한다. 알테오젠은 계약금과 개발·허가·매출 마일스톤, 단계별 로열티를 수취하며 ALT-B4를 공급한다. 기존 트래커에 기록되어 있지 않았으며, 위 Intas 건과 같은 라이선스 이력 공백을 채우는 사례이지만, 이 행에서 이미 추적 중인 오리지네이터 계약들(Novartis, Biogen, AstraZeneca, MSD)과 구분되는 바이오시밀러 SC 전환 영역으로의 확장을 보여준다."
+        },
+        {
+          "deal_id": "alteogen_intas_2021-01-07",
+          "partner": "Intas Pharmaceuticals",
+          "deal_type": "Exclusive license agreement",
+          "date": "2021-01-07",
+          "date_sort_key": 20210107,
+          "summary": "BACKFILL: On 2021-01-07 Alteogen announced an exclusive license agreement with Intas Pharmaceuticals covering ALT-B4/Hybrozyme technology to enable subcutaneous conversion of two products, for most of the world excluding a few Asian countries. Terms: $6M upfront plus up to $109M in development/regulatory/sales milestones, and tiered royalties; Alteogen supplies ALT-B4 for clinical and commercial use. This deal predates the tracker's 2026-07-12 inception and was not previously logged -- the same kind of licensing-history gap the 2026-09-22 ENHANZE installed-base backfill was built to catch, applied here to the ALT-B4 side of the ledger.",
+          "molecule": "Not disclosed (two unnamed products)",
+          "source_name": "Business Wire (via BioSpace); corroborated by BioSpectrum India",
+          "source_url": "https://www.biospace.com/alteogen-enters-into-an-exclusive-license-agreement-with-intas-to-develop-and-commercialize-two-products-enabled-by-its-hybrozyme-technology",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 2021-01-07 알테오젠은 자사의 ALT-B4/Hybrozyme(하이브로자임) 기술로 피하주사(SC) 전환이 가능한 제품 2건에 대해 Intas Pharmaceuticals와 독점 라이선스 계약을 체결했다고 밝혔다. 지역은 일부 아시아 국가를 제외한 전 세계이며, 조건은 계약금 $6M과 개발·허가·매출 마일스톤 최대 $109M, 그리고 단계별 로열티이고, 알테오젠이 임상·상업용 ALT-B4를 공급한다. 이 계약은 트래커 시작일(2026-07-12)보다 앞선 사례로 기존에 기록되어 있지 않았다 -- 2026-09-22 ENHANZE 설치 기반(installed-base) 백필이 포착하려 했던 것과 같은 종류의 라이선스 이력 공백을, ALT-B4 쪽에 적용한 사례다."
+        },
+        {
+          "deal_id": "alteogen_top10pharma_nonexclusive_2019-12",
+          "partner": "Undisclosed top-10 global pharmaceutical company",
+          "deal_type": "Non-exclusive license agreement",
+          "date": "2019-12-03",
+          "date_sort_key": 20191203,
+          "summary": "BACKFILL: Alteogen granted a non-exclusive global license for ALT-B4/Hybrozyme to an undisclosed top-10 pharmaceutical company, for $13M upfront plus up to $1.37B in development/regulatory/sales milestones and tiered royalties, with Alteogen supplying ALT-B4 for clinical/commercial use. FLAGGED: sources disagree on the exact announcement date (one Korean outlet cites 2019-11-29; BioWorld cites 2019-12-03) -- the month is well corroborated, the exact day is not, so this is logged with an unconfirmed day rather than silently picking one, and is not promotable to fresh on that basis regardless. The partner's identity remains undisclosed in all located coverage. Pre-dates the tracker's 2026-07-12 inception; genuine licensing-history gap.",
+          "molecule": "Not disclosed",
+          "source_name": "BioWorld; corroborated by eToday (Korean)",
+          "source_url": "https://bioworld.com/articles/431493-alteogen-licenses-alt-b4-to-a-top-10-global-pharma-in-potential-1b-deal",
+          "relevance": "Medium",
+          "confidence": "Secondary",
+          "flagged": true,
+          "new_in_digest": false,
+          "summary_ko": "백필: 알테오젠은 비공개 글로벌 10대 제약사에 ALT-B4/Hybrozyme(하이브로자임) 비독점 글로벌 라이선스를 제공했으며, 계약금 $13M과 개발·허가·매출 마일스톤 최대 $1.37B, 단계별 로열티를 받는 조건이고 알테오젠이 임상·상업용 ALT-B4를 공급한다. 검토 필요: 발표 정확한 날짜에 대해 출처 간 불일치가 있다(한 국내 매체는 2019-11-29로, BioWorld는 2019-12-03으로 보도) -- 월(月)은 충분히 교차 확인되었으나 정확한 일(日)은 미확인이므로, 임의로 하나를 선택하지 않고 날짜 미확인 상태로 기록했으며, 이 때문에 '신규(fresh)'로 분류하지 않는다. 파트너사의 신원은 확인된 모든 보도에서 비공개 상태다. 트래커 시작일(2026-07-12)보다 앞선 사례로, 실제 라이선스 이력 공백에 해당한다."
         }
       ],
       "is_internal": false,
@@ -2722,6 +2802,24 @@
       "technology_name": "InnoBioLAMP"
     },
     {
+      "deal_id": "halozyme_msd_hague-injunction-8countries_2026-10-07",
+      "partner": "MSD / Merck",
+      "deal_type": "Patent litigation (final injunction)",
+      "date": "2026-10-07",
+      "date_sort_key": 20261007,
+      "summary": "BACKFILL: On 2026-10-07 the District Court of The Hague issued a final injunction finding Halozyme's EP 2,797,622 (MDASE) patent valid and infringed by MSD's Keytruda SC, barring MSD BV from making, marketing, importing or stocking Keytruda SC in Belgium, Denmark, France, Ireland, Italy, Sweden, Switzerland and the Netherlands -- reversing the outcome of Halozyme's July 2026 preliminary-injunction bid for Denmark/Sweden, which that same court had rejected (see halozyme_msd_hague-uk-setbacks_2026-07). Together with the German preliminary injunction (2025-12-04, already tracked), Keytruda SC -- which uses Alteogen's ALT-B4 enzyme -- is now blocked from commercial sale in 9 European countries; Keytruda's IV formulation is unaffected. MSD disputes the ruling and is considering its response; a parallel US suit (New Jersey) and German appeal (hearing set 2026-11-19) remain pending. Alteogen estimates the affected countries represent only 6-8% of total Keytruda sales and says the earnings impact is limited.",
+      "molecule": "Pembrolizumab SC (Keytruda SC) -- ALT-B4-enabled formulation",
+      "source_name": "Halozyme press release (mirrored by PR wire services, 2026-10-07); corroborated by FiercePharma, RTTNews, MLex, and Asiae.co.kr (Korean angle, 2026-10-08)",
+      "source_url": "https://www.fiercepharma.com/pharma/halozyme-stymies-subq-keytruda-launch-select-european-countries-merck-vows-fight-patent",
+      "relevance": "High",
+      "confidence": "Primary",
+      "flagged": false,
+      "new_in_digest": false,
+      "summary_ko": "백필: 2026-10-07 헤이그 지방법원(특허전담부)은 Halozyme의 EP 2,797,622(MDASE) 특허가 유효하며 MSD의 키트루다 SC(Keytruda SC)가 이를 침해한다고 판결하고, MSD BV에 벨기에·덴마크·프랑스·아일랜드·이탈리아·스웨덴·스위스·네덜란드에서 키트루다 SC의 제조·판매·수입·비축을 금지했다 -- 이는 Halozyme이 2026년 7월 덴마크·스웨덴을 대상으로 신청했던 가처분이 같은 법원에서 기각됐던 결과를 뒤집은 것이다(halozyme_msd_hague-uk-setbacks_2026-07 참조). 이미 기록된 독일 가처분(2025-12-04)과 합쳐, 알테오젠(Alteogen)의 ALT-B4 효소를 사용하는 키트루다 SC는 이제 유럽 9개국에서 상업적 판매가 금지됐다; 키트루다의 정맥주사(IV) 제형은 영향을 받지 않는다. MSD는 이 판결에 반대하며 대응을 검토 중이고, 미국(뉴저지) 소송과 독일 항소심(2026-11-19 심리 예정)이 병행 진행 중이다. 알테오젠은 영향받는 국가가 키트루다 전체 매출의 6~8% 수준에 불과하다며 실적 영향은 제한적이라고 밝혔다.",
+      "technology_id": "enhanze",
+      "technology_name": "ENHANZE (rHuPH20)"
+    },
+    {
       "deal_id": "halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06",
       "partner": "argenx",
       "deal_type": "Licensing/Collaboration (expansion)",
@@ -2936,24 +3034,6 @@
       "summary_ko": "Wells Fargo 제21회 연례 헬스케어 콘퍼런스에서 Halozyme의 Helen Torley 대표와 Darren Snellgrove 최고재무책임자는 Hypercon 기반 첫 임상 프로그램 2건이 2027년 상반기(H1 2027)에 투약을 시작할 것으로 예상하며, 첫 상업 출시는 2030-2031년 시점이 될 수 있다고 밝혔다. 회사는 현재 포트폴리오에 피하 전달 플랫폼 4종(ENHANZE, 오토인젝터 플랫폼, Hypercon, Surf Bio)을 보유하고 있다고도 설명했다. Elektrofi 인수 종결 이후 Hypercon에 대해 처음으로 구체적인 임상 일정이 공개된 것이다.",
       "technology_id": "hypercon",
       "technology_name": "Hypercon (ex-Elektrofi)"
-    },
-    {
-      "deal_id": "eisai_biogen_leqembiiqlik_china-approval_2026-09-03",
-      "partner": "N/A (regulatory approval; Eisai/Biogen own product)",
-      "deal_type": "Regulatory approval (geographic expansion)",
-      "date": "2026-09-03",
-      "date_sort_key": 20260903,
-      "summary": "China's National Medical Products Administration (NMPA) approved the subcutaneous formulation of LEQEMBI (lecanemab) as an initiation treatment for mild cognitive impairment or mild dementia due to Alzheimer's disease, using the same 500 mg once-weekly regimen (two consecutive 250 mg injections) as the U.S. SC-AI/IQLIK launch logged 2026-08-24. The China BLA was accepted January 2026 and granted Priority Review; once-weekly SC administration demonstrated exposure equivalent to once-every-two-weeks IV dosing with similar clinical/biomarker benefits. Launch is planned within Eisai's FY2026 (ending March 31, 2027). This is a geographic-expansion event for the already-tracked technology, not a new concentration/formulation claim -- the 200 mg/mL SC vs. 100 mg/mL IV figure already on file is unchanged.",
-      "molecule": "Lecanemab-irmb (Leqembi)",
-      "source_name": "Eisai Co., Ltd. / Biogen Inc. (GlobeNewswire)",
-      "source_url": "https://www.globenewswire.com/news-release/2026/09/03/3355628/0/en/leqembi-lecanemab-subcutaneous-formulation-as-an-initiation-treatment-for-early-alzheimer-s-disease-approved-in-china.html",
-      "relevance": "Medium",
-      "confidence": "Primary",
-      "flagged": false,
-      "new_in_digest": false,
-      "summary_ko": "중국 국가약품감독관리국(NMPA)이 알츠하이머병으로 인한 경도인지장애 또는 경도 치매의 도입 치료제로 LEQEMBI(레카네맙) 피하 제형을 승인했으며, 2026-08-24 기록한 미국 SC-AI/IQLIK 출시와 동일하게 주 1회 500 mg(250 mg 주사 2회 연속) 요법을 적용한다. 중국 BLA는 2026년 1월 접수되어 우선심사를 받았고, 주 1회 피하 투여가 2주 1회 정맥 투여와 동등한 노출을 보이며 임상·바이오마커 측면에서도 유사한 이익을 입증했다. 출시는 에자이의 2026 회계연도(2027년 3월 31일 종료) 내로 계획되어 있다. 이미 추적 중인 기술의 지역 확대 사안이며 새로운 농도·제형 주장이 아니다. 기록된 피하 200 mg/mL 대 정맥 100 mg/mL 수치는 변동이 없다.",
-      "technology_id": "eisai_biogen_leqembi_iqlik_sc",
-      "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
     }
   ]
 }
