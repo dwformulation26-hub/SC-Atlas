@@ -1,0 +1,141 @@
+{
+  "run_date": "2026-10-27",
+  "window": {
+    "from": "2026-10-26T09:18:36+09:00",
+    "to": "2026-10-27T09:15:14+09:00",
+    "tz": "Asia/Seoul",
+    "extended": false,
+    "note": "Normal weekday window (~24h). Previous run (2026-10-26) completed cleanly; Tuesday following Monday, no gap, so no Monday/post-gap extension applied."
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous October 2026"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license October 2026"},
+    {"tier": 1, "lang": "en", "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous October 2026"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" October 2026"},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\""},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\" biologics deal 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal October 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 고농축 현탁 주사 기술"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration October 2026"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도"},
+    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 / 특허청 히알루로니다제 고농도 제형"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출"},
+    {"tier": 5, "lang": "en", "query": "EMA CHMP meeting highlights October 2026 (12-15 Oct 2026 meeting)"},
+    {"tier": 5, "lang": "ja", "query": "MHLW PMDA 新薬 一斉承認 2026年10月"},
+    {"tier": 5, "lang": "en", "query": "FDA Novel Drug Approvals 2026 list"},
+    {"tier": 5, "lang": "ko", "query": "식약처 의약품 허가 목록 2026년 10월"},
+    {"tier": 5, "lang": "zh", "query": "NMPA 药品批准 2026年10月"},
+    {"tier": 1, "lang": "en", "query": "Keytruda subcutaneous pembrolizumab approval news October 2026 (follow-up)"},
+    {"tier": 1, "lang": "en", "query": "Alteogen Halozyme news this week (follow-up)"},
+    {"tier": 5, "lang": "en", "query": "EMA CHMP meeting highlights 12-15 October 2026 press release (follow-up)"},
+    {"tier": 5, "lang": "en", "query": "Halozyme Keytruda SC Hague injunction appeal October 26 2026 (follow-up)"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 10월 27일 (follow-up, same-day disclosure check)"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme expands ENHANZE collaboration with argenx to eight exclusive targets",
+      "published": "2026-10-06",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "ENHANZE licensing expansion directly bears on Halozyme's partner footprint vs. ALT-B4/Dupixent.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Already logged as halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06; published before this run's window.",
+      "event_key": "halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme Hypercon partner roster (Janssen, Eli Lilly, argenx, Vertex, Oruka Therapeutics)",
+      "published": "2026-09-09 (Wells Fargo conference disclosure, recapped in an Oct search hit)",
+      "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "Hypercon partner count vs. ENHANZE/ALT-B4 partner count is a direct competitive-footprint comparison.",
+      "date_source": "second_source",
+      "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "All five named partners (Vertex, Oruka, argenx, Eli Lilly, J&J) already carried on hypercon_elektrofi rows (halozyme_vertex_2026-04, halozyme_oruka_2026-05, elektrofi_partners_flagged_2026-07, elektrofi_partners_detail_2026-07-15, halozyme_wellsfargo-hypercon-timeline_2026-09-09). No new partner or date.",
+      "event_key": "hypercon_partner_roster_recap", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "InventageLab IVL-BioFluidic PCT filing + PODD 2026 (Boston, Oct 29) oral presentation",
+      "published": "2026-10-14 (news.bizwatch.co.kr/article/healthcare/2026/10/14/0039)",
+      "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "A new PCT filing and a named PODD 2026 presentation on an ultra-high-concentration SC platform is directly on-topic.",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "Same underlying PCT filing + PODD 2026 (Oct 29, Boston) presentation plan already logged under inventagelab_pct-patent_2026-09-29, which names the PODD 2026 talk by title. No new fact; PODD 2026 itself has not yet occurred (Oct 29, still ahead of this run).",
+      "event_key": "inventagelab_pct-patent_2026-09-29", "canonical": false, "corroborating_urls": ["https://news.bizwatch.co.kr/article/healthcare/2026/10/14/0039"]
+    },
+    {
+      "raw_title": "EMA CHMP meeting (12-15 Oct 2026) outcomes -- orforglipron (Foundayo), daraxonrasib (Rasonque), temozolomide (Kizfizo) positive opinions",
+      "published": "~2026-10-15 (third-party AI-assisted recap; official EMA highlights page not locatable at the expected URL, returned 404)",
+      "lang": "en",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "unverified",
+      "gate_d": "new", "gate_e": "n/a -- none of the named medicines (orforglipron, daraxonrasib, temozolomide) are on the Tier 5 tracked-molecule list, and none have a disclosed SC concentration/volume angle.",
+      "date_source": "second_source",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Gate A: none of the molecules named in the only locatable report of this meeting's outcomes are tracked SC-delivery molecules or platforms; the source itself is an AI-assisted aggregator (pharmanow.live), downgraded toward Unverified per Gate C. The official EMA CHMP highlights page for this meeting could not be located (404 at the expected slug) -- could not independently confirm the full outcomes list, but no tracked-molecule angle surfaced either way.",
+      "event_key": "chmp_oct2026_meeting_outcomes", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA 2026 novel drug approvals list (Icotyde, Lynavoy, Yuviwel, relacorilant/Lifyorli, vepdegestrant, sonrotoclax, pivekimab sunirine, etc.)",
+      "published": "various 2026 dates, through ~2026-07",
+      "lang": "en",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "n/a -- none of these are SC-delivery-technology molecules on the tracked list.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Gate A: none of the listed novel approvals are on the Tier 5 molecule list or otherwise relate to high-concentration/large-volume SC delivery technology.",
+      "event_key": "fda_2026_novel_approvals_list", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "China NMPA approval of Keytruda SC (pembrolizumab + berahyaluronidase alfa), 19 solid-tumor indications",
+      "published": "2026-09-29/30",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "Direct ALT-B4 marketed-product approval, core to the Keytruda SC vs. Opdivo Qvantig comparison.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Already logged as alteogen_msd_keytruda-sc-china-approval_2026-09-28 (date within 1 day of the recapped source; no new fact).",
+      "event_key": "alteogen_msd_keytruda-sc-china-approval_2026-09-28", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme Hague court bars Keytruda SC in 8 EU countries (MDASE patent EP 2,797,622)",
+      "published": "2026-10-07",
+      "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Direct patent-litigation outcome shaping ALT-B4/Keytruda SC commercial availability in Europe.",
+      "date_source": "url",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Already logged as halozyme_msd_hague-injunction-8countries_2026-10-07. Follow-up query for an Oct 26 appeal/next-step found no reporting of any appeal filed; Merck's 'evaluating next steps' statement from Oct 7-8 remains the latest public status.",
+      "event_key": "halozyme_msd_hague-injunction-8countries_2026-10-07", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion/Samsung Bioepis high-concentration Humira biosimilar formulations (historical background)",
+      "published": "2021-2023 (recapped in an undated-looking dailypharm piece)",
+      "lang": "ko",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a -- standard-concentration biosimilar reformulation with no novel delivery-technology platform attached; this is the well-known, already-superseded Humira-biosimilar high-concentration wave, not a new platform event.",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Gate B/D: no discrete new dated event -- this is 2021-2023 background recapped without a new fact, and it does not attach to any tracked platform row (plain reformulation, not a licensable delivery technology).",
+      "event_key": "celltrion_sbe_humira_hc_background", "canonical": true, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Lonza expands strategic collaboration with US biopharma (multi-billion CHF deal, July 2026)",
+      "published": "2026-07",
+      "lang": "en",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a -- general biologics manufacturing-capacity deal with no stated concentration/viscosity-reduction angle.",
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Gate A: search snippet describes added commercial manufacturing capacity for two biologics programs with no mention of the viscosity-reduction/spray-drying platform already tracked at lonza_aseptic_spray_drying; cannot confirm it's the same technology, so not logged rather than guessed.",
+      "event_key": "lonza_us-biopharma_2026-07", "canonical": true, "corroborating_urls": []
+    }
+  ],
+  "findings": []
+}
