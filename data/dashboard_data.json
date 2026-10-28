@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T00:16:15+00:00",
+  "generated_at": "2026-10-28T00:17:30+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -69,7 +69,7 @@
     "tracked": 37,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 115,
+    "deals_tracked": 116,
     "flagged_deals": 14
   },
   "internal_targets": [
@@ -1425,6 +1425,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "두필루맙(Dupixent) 고용량 피하 제형에 대한 비독점 라이선스(최초 체결 2019년)로, 개발이 계속 진행 중임이 재확인되었다."
+        },
+        {
+          "deal_id": "alteogen_bd_libertas-10ml-device-study_2026-05-21",
+          "partner": "Becton, Dickinson and Company (BD)",
+          "deal_type": "Preclinical device-combination study (conference disclosure, no licensing terms)",
+          "date": "2026-05-21",
+          "date_sort_key": 20260521,
+          "summary": "BACKFILL: At PDA Miniverse 2026 (Dublin, Ireland, May 21-22), Alteogen CEO Tae-Yon Chun presented pig-model preclinical data from a joint study with BD titled 'Assessment of 10mL In Vivo Injections With and Without Hyaluronidase -- A BD and Alteogen Collaboration.' The study combined ALT-B4 (berahyaluronidase alfa) with BD's 10 mL wearable large-volume injector, the BD Libertas(TM), to test a 10 mL subcutaneous injection -- the large-volume half of the tracker's core question, distinct from ALT-B4's concentration-side licensing deals. Versus a formulation without ALT-B4, the ALT-B4-containing formulation showed improved injection time and injection speed at the flank site, faster subcutaneous diffusion on ultrasound/CT, and faster resolution of injection-site edema; no numeric values for these improvements were disclosed in either source. This is a preclinical animal-model device-combination demonstration, not a licensing deal -- no partner commercialization agreement, target molecule, or commercial timeline was announced. Not previously in the tracker. Canonical source published 2026-05-26 (date confirmed via direct page fetch), reporting on a 2026-05-21/22 conference event -- both well outside this run's ~24h window (2026-10-27 09:15 KST to 2026-10-28 09:16 KST); logged as backfill, not fresh.",
+          "molecule": "Not disclosed (platform/device demonstration, no named target molecule)",
+          "source_name": "BioSpectator (news/view/28853, 2026-05-26); corroborated by BioSpectator (news/view/28250, 2026-03-30, pre-event announcement), Medical Times, Hankyung",
+          "source_url": "https://www.biospectator.com/news/view/28853",
+          "relevance": "Medium",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 알테오젠 전태연 대표는 2026년 5월 21~22일 아일랜드 더블린에서 열린 'PDA 미니버스 2026'에서 BD와의 공동연구인 돼지 모델 전임상 데이터를 발표했다. 발표 제목은 'Assessment of 10mL In Vivo Injections With and Without Hyaluronidase -- A BD and Alteogen Collaboration'이다. 이 연구는 ALT-B4(베라히알루로니다제 알파)를 BD의 10mL 웨어러블 대용량 주사기 'BD Libertas(TM)'와 결합해 10mL 피하주사를 시험했다 -- 이는 ALT-B4의 농도 중심 라이선스 계약과는 구분되는, 트래커의 핵심 질문 중 '대용량' 축에 해당한다. ALT-B4를 포함하지 않은 제형과 비교해, ALT-B4 포함 제형은 복부(flank) 부위 기준 주입시간과 주사속도가 개선됐고, 초음파·CT 상으로 피하조직 내 확산 속도가 빨라졌으며, 주사부위 부종도 더 빨리 해소됐다. 두 출처 모두 이러한 개선의 구체적 수치는 공개하지 않았다. 이는 전임상 동물모델 디바이스 결합 시연이며, 라이선스 계약이 아니다 -- 파트너사와의 상업화 계약, 대상 물질, 상업화 일정은 발표되지 않았다. 기존 트래커에 기록되어 있지 않았다. 대표 출처는 2026-05-26 게재(페이지 직접 조회로 날짜 확인됨)이며, 2026-05-21~22 학회 행사를 보도한 것이다 -- 둘 다 이번 실행의 ~24시간 조사 기간(한국시간 2026-10-27 09:15 ~ 2026-10-28 09:16)보다 훨씬 이전이므로, 신규(fresh)가 아닌 백필로 기록한다."
         },
         {
           "deal_id": "alteogen_msd_keytruda-sc-korea-approval_2026-05-19",
