@@ -2148,4 +2148,43 @@ DEALS = [
         'flagged': False,
         'new_in_digest': False,
     },
+    {'deal_id': 'huonslab_hydiffuze_hydizyme-mfds-filing_2025-12-22',
+     'technology_id': 'huonslab_hydiffuze',
+     'technology_name': 'HyDiffuse (rHuPH20-based SC delivery platform)',
+     'partner': 'N/A (standalone Huons Lab product; drug substance by Pangen, drug product by Humedix, '
+                'both Huons affiliates)',
+     'deal_type': 'Regulatory filing (MFDS marketing-approval application)',
+     'date': '2025-12-22',
+     'summary': "BACKFILL: Huons Lab filed with Korea's Ministry of Food and Drug Safety (MFDS) for "
+                'marketing approval of HYDIZYME (하이디자임주, development code HLB3-002), a standalone '
+                'recombinant human hyaluronidase built on the HyDiffuse platform and described as '
+                "sharing the same amino acid sequence as Halozyme's Hylenex. The filing was based on a "
+                'Phase 1 pivotal study in 243 healthy adults across 4 sites; no serious adverse drug '
+                'reactions were reported and the primary safety/tolerability endpoint was met. Target '
+                'approval is H2 2026; as of a 2026-02 company update, MFDS review was reported '
+                'proceeding without a supplemental-information request. Drug substance was '
+                'manufactured by Huons affiliate Pangen, drug product by Humedix. This fact was '
+                "already referenced in this row's mechanism text, but had never been logged as its own "
+                'dated deal/event row -- not a duplicate by deal_id, source URL, or event_key. Filing '
+                "announced 2025-12-22 (confirmed via the article's own page timestamp, not a "
+                "search-summary date) -- well outside this run's ~24h window (2026-10-29 09:11 KST to "
+                '2026-10-30 09:15 KST); logged as backfill, not fresh.',
+     'summary_ko': "백필: 휴온스랩은 하이디퓨즈(HyDiffuse) 플랫폼 기반의 단독 재조합 인간 히알루로니다제 제품인 '하이디자임주'(개발코드 HLB3-002)에 "
+                   '대해 식품의약품안전처(식약처)에 품목허가를 신청했다. 이 제품은 할로자임의 Hylenex와 동일한 아미노산 서열을 가진 것으로 설명된다. 신청은 '
+                   '4개 기관에서 건강한 성인 243명을 대상으로 진행한 1상 핵심임상(Pivotal Study) 결과를 근거로 했으며, 중대한 약물이상반응(SAE)은 '
+                   '보고되지 않았고 안전성·내약성 주요 평가지표를 충족했다. 목표 허가 시점은 2026년 하반기이며, 2026-02 업데이트 기준 회사는 식약처로부터 '
+                   '별도의 보완 요청 없이 심사가 진행 중이라고 밝혔다. 원료의약품은 휴온스 계열사 팬젠이, 완제의약품은 휴메딕스가 담당했다. 이 사실은 이 기술 행의 '
+                   '메커니즘 설명에 이미 언급되어 있었으나, 날짜가 있는 개별 거래(deal) 항목으로는 기록된 적이 없었다 -- deal_id, 출처 URL, '
+                   'event_key 기준으로 중복된 것이 아니다. 신청 발표일은 2025-12-22(검색 요약이 아닌 기사 자체의 페이지 타임스탬프로 확인됨)로, '
+                   '이번 실행의 ~24시간 조사 기간(한국시간 2026-10-29 09:11 ~ 2026-10-30 09:15)보다 훨씬 전이므로, 신규(fresh)가 '
+                   '아닌 백필로 기록한다.',
+     'molecule': 'Not disclosed (standalone enzyme product, not molecule-specific)',
+     'source_name': 'Dailypharm (user/news/334172, 2025-12-22); corroborated by Medigatenews, '
+                    'Sateconomy',
+     'source_url': 'https://dailypharm.com/user/news/334172',
+     'date_found': '2026-10-30',
+     'relevance': 'Medium',
+     'confidence': 'Secondary',
+     'flagged': False,
+     'new_in_digest': False},
 ]
