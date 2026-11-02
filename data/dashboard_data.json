@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T00:21:12+00:00",
+  "generated_at": "2026-11-02T00:21:24+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
   },
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-11-02",
   "stage_order": [
     "Research / Academic",
     "Preclinical",
@@ -69,7 +69,7 @@
     "tracked": 37,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 117,
+    "deals_tracked": 118,
     "flagged_deals": 14
   },
   "internal_targets": [
@@ -153,6 +153,76 @@
     }
   ],
   "technologies": [
+    {
+      "id": "nanoform_nanoforming",
+      "name": "Nanoforming (biologics nanoparticle platform)",
+      "company": "Nanoform Finland Oyj",
+      "stage_raw": "Preclinical / Platform (first commercial exclusivity agreement signed)",
+      "stage_bucket": "Platform / Feasibility",
+      "type": "Suspension/particle",
+      "concentration_text": "Suspensions >500 mg/mL reported; enables IV-to-SC switch at >400 mg/mL; particle sizes down to 50 nm",
+      "concentration_numeric": 500.0,
+      "concentration_bucket": "450–600 mg/mL",
+      "needle_size": "Not disclosed",
+      "mechanism": "Controlled nanoparticle/microparticle formation ('nanoforming') of biologics (mAbs, peptides, other large molecules) into highly stable particles with tunable size, enabling ultra-high-concentration suspensions for SC or inhaled delivery.",
+      "date_added": "2026-07-13",
+      "last_reviewed": "2026-11-02",
+      "deals": [
+        {
+          "deal_id": "nanoform_aaps-pharmsci360_18month-stability_2026-10-30",
+          "partner": "N/A (conference disclosure / trade-press interview)",
+          "deal_type": "Data disclosure (stability/formulation)",
+          "date": "2026-10-30",
+          "date_sort_key": 20261030,
+          "summary": "At AAPS PharmSci 360 2026 (New Orleans, Oct 24-28) and in a BioPharm International interview published 2026-10-30, Nanoform VP Chris Worrall disclosed 18-month room-temperature stability data for the company's hyaluronidase-free, non-aqueous 414 mg/mL trastuzumab suspension (roughly 4x the concentration of the marketed IV product) -- up from the 12-month data shown at the conference. The suspension showed less than a 1% increase in high-molecular-weight species and no significant sedimentation after 18 months at room temperature, with a stable injection force below 15 N through a 27-gauge needle at 1 mL/min. Worrall said the formulation is able to match the drug exposure of solution formulations without hyaluronidase, building on the already-tracked February 2026 minipig PK study (deal 'nanoform_nanotrastuzumab_minipig_2026-02-12') that found the suspension's PK closely matched Herceptin Hylecta (Roche/Genentech's ENHANZE/rHuPH20-enabled SC trastuzumab, part of the tracked ENHANZE installed base). In early delivery-device work with Midas Pharma and Gerresheimer using the Gx Inbeneo autoinjector, Nanoform said it delivered about 2.5x the current Herceptin dose in under one-tenth of the injection time. Nanoform said it anticipates producing clinical material in 2027 and has run its process on more than 20 antibodies to date. Company-disclosed figures via a trade-press interview, not an independent primary document (no Nanoform press release located); stability study design and sample size not disclosed.",
+          "molecule": "Trastuzumab (Nanotrastuzumab, hyaluronidase-free suspension vs. Herceptin Hylecta)",
+          "source_name": "BioPharm International (Emily Schoenthaler interview with Nanoform's Chris Worrall), part 2 of 2; part 1 (2026-10-29) corroborates platform-level concentration claims",
+          "source_url": "https://www.biopharminternational.com/view/18-month-room-temperature-data-support-hyaluronidase-free-antibody-suspensions-says-nanoform-s-chris-worrall",
+          "relevance": "High",
+          "confidence": "Secondary",
+          "flagged": false,
+          "new_in_digest": true,
+          "summary_ko": "나노폼(Nanoform)의 미국사업개발 부사장 Chris Worrall은 AAPS PharmSci 360 2026(뉴올리언스, 10월 24~28일) 및 2026-10-30 게재된 BioPharm International 인터뷰를 통해, 히알루로니다제를 사용하지 않는 비수계(non-aqueous) 414 mg/mL 트라스투주맙 현탁 제형(시판 정맥주사 제품 대비 약 4배 농도)의 18개월 실온 안정성 데이터를 공개했다 -- 학회에서 공개했던 12개월 데이터에서 갱신된 수치다. 이 현탁액은 실온 18개월 보관 후 고분자량(HMW) 종 증가율이 1% 미만이었고 유의한 침강(sedimentation)도 관찰되지 않았으며, 27게이지 니들을 통해 분당 1 mL 속도로 주입할 때 15N 미만의 안정적인 주사력을 보였다. Worrall은 이 제형이 히알루로니다제 없이도 용액 제형과 동등한 약물 노출(exposure)을 구현할 수 있다고 밝혔으며, 이는 이미 추적 중인 2026년 2월 미니피그 약동학(PK) 연구(딜 'nanoform_nanotrastuzumab_minipig_2026-02-12') -- 해당 현탁액의 PK가 Roche/Genentech의 ENHANZE/rHuPH20(ENHANZE-rHuPH20) 기반 피하주사 트라스투주맙인 Herceptin Hylecta(트래커가 추적하는 ENHANZE 시판 제품군의 일부)와 근접했다는 결과 -- 를 기반으로 한다. Midas Pharma 및 Gerresheimer와 Gx Inbeneo 자동주입기(autoinjector)를 활용한 초기 전달 디바이스 공동 작업에서는, 현재 Herceptin 투여량의 약 2.5배를 10분의 1 미만의 주입 시간 내에 전달했다고 밝혔다. 나노폼은 2027년 임상시험용 물질(clinical material) 생산을 목표로 하고 있으며, 현재까지 20종 이상의 항체에 해당 공정을 적용했다고 밝혔다. 이번 수치는 무역 전문지 인터뷰를 통한 회사 발표 수치로, 독립적인 1차 문서(나노폼 자체 보도자료는 확인되지 않음)는 아니며, 안정성 시험 설계와 표본 크기는 공개되지 않았다."
+        },
+        {
+          "deal_id": "nanoform_partner_2026",
+          "partner": "Undisclosed Nasdaq-listed US biopharma (market cap >$1B)",
+          "deal_type": "Exclusivity Agreement",
+          "date": "2026-05-12",
+          "date_sort_key": 20260512,
+          "summary": "CORRECTED 2026-07-15: exact date now confirmed as May 12, 2026, per Nanoform's own inside-information press release (previously flagged as year unconfirmed). First-ever exclusivity agreement for Nanoform's biologics nanoparticle technology, covering one clinically/commercially validated target receptor. $1M non-refundable fee for 1-year exclusivity, extendable one additional year.",
+          "molecule": "Undisclosed (single target receptor)",
+          "source_name": "Nanoform press release / 24/7 BIOPHARMA",
+          "source_url": "https://www.nanoform.com/en/inside-information-nanoform-signs-first-exclusivity-agreement-for-ultra-high-concentration-subcutaneous-delivery/",
+          "relevance": "Medium",
+          "confidence": "Not assessed",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "2026-07-15 정정: Nanoform의 내부정보 공시 보도자료를 근거로 정확한 날짜가 2026년 5월 12일로 확인되었다(기존에는 연도 미확인으로 표시). Nanoform의 바이오의약품 나노입자 기술에 대한 사상 첫 독점 계약으로, 임상·상업적으로 검증된 표적 수용체 1건을 대상으로 한다. 1년 독점에 대해 반환 불가 수수료 $1M이며, 1년 추가 연장이 가능하다."
+        },
+        {
+          "deal_id": "nanoform_nanotrastuzumab_minipig_2026-02-12",
+          "partner": "N/A (company-sponsored preclinical study; conducted by Charles River Laboratories)",
+          "deal_type": "Preclinical study",
+          "date": "2026-02-12",
+          "date_sort_key": 20260212,
+          "summary": "BACKFILL: event predates this run's ~24h search window by over seven months; surfaced during the routine Tier-1/Tier-2 sweep and not previously tracked (the only prior nanoform_nanoforming row covers the May 2026 exclusivity deal). Nanoform announced results of a 21-day Gottingen minipig study (conducted by Charles River Laboratories) comparing subcutaneously administered Nanotrastuzumab -- a hyaluronidase-free, non-aqueous nanoparticle suspension of trastuzumab made with Nanoform's nanoforming platform -- against Herceptin HYLECTA (Roche/Genentech's ENHANZE/rHuPH20-enabled SC trastuzumab, already tracked as part of the ENHANZE marketed installed base). Nanotrastuzumab closely matched Herceptin HYLECTA on AUC, Cmax and Tmax, and was well tolerated on pathological, clinical and immunological readouts. Company states this is the first study to directly compare a nanoparticle suspension against a hyaluronidase-enabled SC formulation, and positions nanoforming as a potential hyaluronidase-free route to reference-like SC exposure -- a direct head-to-head against the tracker's ENHANZE benchmark technology. No specific mg/mL concentration for the Nanotrastuzumab test article disclosed in this release (platform's general concentration claims already captured on the technology's own row).",
+          "molecule": "Trastuzumab (Nanotrastuzumab vs. Herceptin HYLECTA)",
+          "source_name": "Nanoform Finland Oyj (company press release)",
+          "source_url": "https://www.nanoform.com/en/nanoform-subcutaneously-administered-nanotrastuzumab-matches-performance-of-herceptin-hylecta-in-minipig-study/",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 약 24시간 조사 기간보다 7개월 이상 앞선 사건으로, 정규 Tier-1/Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다(기존 nanoform_nanoforming 항목은 2026년 5월 독점 계약 건 하나뿐이었다). Nanoform은 Charles River Laboratories가 수행한 21일 괴팅겐 미니피그 시험 결과를 발표했다. 이 시험은 Nanoform의 nanoforming 플랫폼으로 제조한 히알루로니다제 미사용 비수계 나노입자 현탁 트라스투주맙 제형인 'Nanotrastuzumab'의 피하 투여와, Roche/Genentech의 ENHANZE-rHuPH20 기반 피하 트라스투주맙인 Herceptin HYLECTA(ENHANZE 시판 제품군으로 이미 추적 중)를 비교했다. Nanotrastuzumab은 AUC, Cmax, Tmax에서 Herceptin HYLECTA와 근접한 결과를 보였고, 병리·임상·면역학적 지표에서도 내약성이 양호했다. 회사는 나노입자 현탁액과 히알루로니다제 기반 피하 제형을 직접 비교한 첫 연구라고 밝혔으며, nanoforming을 히알루로니다제 없이도 기준 제품과 유사한 피하 노출을 구현할 수 있는 잠재적 경로로 제시한다 -- 트래커의 ENHANZE 벤치마크 기술과 직접 맞대결하는 사례다. 이번 보도자료에는 Nanotrastuzumab 시험물질의 구체적 mg/mL 농도는 공개되지 않았다(플랫폼의 일반적 농도 주장은 이미 해당 기술 항목에 기록되어 있다)."
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false,
+      "concentration_text_ko": "500 mg/mL을 넘는 현탁액 보고; 400 mg/mL 초과에서 정맥주사-피하주사 전환 가능; 입자 크기는 50 nm까지 구현",
+      "needle_size_ko": "비공개",
+      "mechanism_ko": "바이오의약품(단클론항체, 펩타이드, 기타 거대분자)을 크기 조절이 가능한 고안정성 입자로 제어 형성('nanoforming')하여, 피하 또는 흡입 전달용 초고농도 현탁액을 가능하게 한다."
+    },
     {
       "id": "snapshot_surfbio",
       "name": "SnapShot / Aerocon (glassy surfactant / MoNi)",
@@ -2580,60 +2650,6 @@
       "mechanism_ko": "단클론항체가 아닌 혈장 유래 다클론 면역글로불린을 20% 농도로 제형화해 가정 내 피하 투여가 가능하도록 한 제품이다. 인접 제품군으로서 경쟁·시장 맥락 파악 목적으로만 포함했으며, 단클론항체 원료의약품은 아니다."
     },
     {
-      "id": "nanoform_nanoforming",
-      "name": "Nanoforming (biologics nanoparticle platform)",
-      "company": "Nanoform Finland Oyj",
-      "stage_raw": "Preclinical / Platform (first commercial exclusivity agreement signed)",
-      "stage_bucket": "Platform / Feasibility",
-      "type": "Suspension/particle",
-      "concentration_text": "Suspensions >500 mg/mL reported; enables IV-to-SC switch at >400 mg/mL; particle sizes down to 50 nm",
-      "concentration_numeric": 500.0,
-      "concentration_bucket": "450–600 mg/mL",
-      "needle_size": "Not disclosed",
-      "mechanism": "Controlled nanoparticle/microparticle formation ('nanoforming') of biologics (mAbs, peptides, other large molecules) into highly stable particles with tunable size, enabling ultra-high-concentration suspensions for SC or inhaled delivery.",
-      "date_added": "2026-07-13",
-      "last_reviewed": "2026-07-14",
-      "deals": [
-        {
-          "deal_id": "nanoform_partner_2026",
-          "partner": "Undisclosed Nasdaq-listed US biopharma (market cap >$1B)",
-          "deal_type": "Exclusivity Agreement",
-          "date": "2026-05-12",
-          "date_sort_key": 20260512,
-          "summary": "CORRECTED 2026-07-15: exact date now confirmed as May 12, 2026, per Nanoform's own inside-information press release (previously flagged as year unconfirmed). First-ever exclusivity agreement for Nanoform's biologics nanoparticle technology, covering one clinically/commercially validated target receptor. $1M non-refundable fee for 1-year exclusivity, extendable one additional year.",
-          "molecule": "Undisclosed (single target receptor)",
-          "source_name": "Nanoform press release / 24/7 BIOPHARMA",
-          "source_url": "https://www.nanoform.com/en/inside-information-nanoform-signs-first-exclusivity-agreement-for-ultra-high-concentration-subcutaneous-delivery/",
-          "relevance": "Medium",
-          "confidence": "Not assessed",
-          "flagged": false,
-          "new_in_digest": false,
-          "summary_ko": "2026-07-15 정정: Nanoform의 내부정보 공시 보도자료를 근거로 정확한 날짜가 2026년 5월 12일로 확인되었다(기존에는 연도 미확인으로 표시). Nanoform의 바이오의약품 나노입자 기술에 대한 사상 첫 독점 계약으로, 임상·상업적으로 검증된 표적 수용체 1건을 대상으로 한다. 1년 독점에 대해 반환 불가 수수료 $1M이며, 1년 추가 연장이 가능하다."
-        },
-        {
-          "deal_id": "nanoform_nanotrastuzumab_minipig_2026-02-12",
-          "partner": "N/A (company-sponsored preclinical study; conducted by Charles River Laboratories)",
-          "deal_type": "Preclinical study",
-          "date": "2026-02-12",
-          "date_sort_key": 20260212,
-          "summary": "BACKFILL: event predates this run's ~24h search window by over seven months; surfaced during the routine Tier-1/Tier-2 sweep and not previously tracked (the only prior nanoform_nanoforming row covers the May 2026 exclusivity deal). Nanoform announced results of a 21-day Gottingen minipig study (conducted by Charles River Laboratories) comparing subcutaneously administered Nanotrastuzumab -- a hyaluronidase-free, non-aqueous nanoparticle suspension of trastuzumab made with Nanoform's nanoforming platform -- against Herceptin HYLECTA (Roche/Genentech's ENHANZE/rHuPH20-enabled SC trastuzumab, already tracked as part of the ENHANZE marketed installed base). Nanotrastuzumab closely matched Herceptin HYLECTA on AUC, Cmax and Tmax, and was well tolerated on pathological, clinical and immunological readouts. Company states this is the first study to directly compare a nanoparticle suspension against a hyaluronidase-enabled SC formulation, and positions nanoforming as a potential hyaluronidase-free route to reference-like SC exposure -- a direct head-to-head against the tracker's ENHANZE benchmark technology. No specific mg/mL concentration for the Nanotrastuzumab test article disclosed in this release (platform's general concentration claims already captured on the technology's own row).",
-          "molecule": "Trastuzumab (Nanotrastuzumab vs. Herceptin HYLECTA)",
-          "source_name": "Nanoform Finland Oyj (company press release)",
-          "source_url": "https://www.nanoform.com/en/nanoform-subcutaneously-administered-nanotrastuzumab-matches-performance-of-herceptin-hylecta-in-minipig-study/",
-          "relevance": "Medium",
-          "confidence": "Primary",
-          "flagged": false,
-          "new_in_digest": false,
-          "summary_ko": "백필: 이번 실행의 약 24시간 조사 기간보다 7개월 이상 앞선 사건으로, 정규 Tier-1/Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다(기존 nanoform_nanoforming 항목은 2026년 5월 독점 계약 건 하나뿐이었다). Nanoform은 Charles River Laboratories가 수행한 21일 괴팅겐 미니피그 시험 결과를 발표했다. 이 시험은 Nanoform의 nanoforming 플랫폼으로 제조한 히알루로니다제 미사용 비수계 나노입자 현탁 트라스투주맙 제형인 'Nanotrastuzumab'의 피하 투여와, Roche/Genentech의 ENHANZE-rHuPH20 기반 피하 트라스투주맙인 Herceptin HYLECTA(ENHANZE 시판 제품군으로 이미 추적 중)를 비교했다. Nanotrastuzumab은 AUC, Cmax, Tmax에서 Herceptin HYLECTA와 근접한 결과를 보였고, 병리·임상·면역학적 지표에서도 내약성이 양호했다. 회사는 나노입자 현탁액과 히알루로니다제 기반 피하 제형을 직접 비교한 첫 연구라고 밝혔으며, nanoforming을 히알루로니다제 없이도 기준 제품과 유사한 피하 노출을 구현할 수 있는 잠재적 경로로 제시한다 -- 트래커의 ENHANZE 벤치마크 기술과 직접 맞대결하는 사례다. 이번 보도자료에는 Nanotrastuzumab 시험물질의 구체적 mg/mL 농도는 공개되지 않았다(플랫폼의 일반적 농도 주장은 이미 해당 기술 항목에 기록되어 있다)."
-        }
-      ],
-      "is_internal": false,
-      "is_reference": false,
-      "concentration_text_ko": "500 mg/mL을 넘는 현탁액 보고; 400 mg/mL 초과에서 정맥주사-피하주사 전환 가능; 입자 크기는 50 nm까지 구현",
-      "needle_size_ko": "비공개",
-      "mechanism_ko": "바이오의약품(단클론항체, 펩타이드, 기타 거대분자)을 크기 조절이 가능한 고안정성 입자로 제어 형성('nanoforming')하여, 피하 또는 흡입 전달용 초고농도 현탁액을 가능하게 한다."
-    },
-    {
       "id": "crystalomics_althea",
       "name": "Crystalomics",
       "company": "Althea Technologies (now part of Ajinomoto Bio-Pharma Services)",
@@ -2797,6 +2813,24 @@
     }
   ],
   "recent_activity": [
+    {
+      "deal_id": "nanoform_aaps-pharmsci360_18month-stability_2026-10-30",
+      "partner": "N/A (conference disclosure / trade-press interview)",
+      "deal_type": "Data disclosure (stability/formulation)",
+      "date": "2026-10-30",
+      "date_sort_key": 20261030,
+      "summary": "At AAPS PharmSci 360 2026 (New Orleans, Oct 24-28) and in a BioPharm International interview published 2026-10-30, Nanoform VP Chris Worrall disclosed 18-month room-temperature stability data for the company's hyaluronidase-free, non-aqueous 414 mg/mL trastuzumab suspension (roughly 4x the concentration of the marketed IV product) -- up from the 12-month data shown at the conference. The suspension showed less than a 1% increase in high-molecular-weight species and no significant sedimentation after 18 months at room temperature, with a stable injection force below 15 N through a 27-gauge needle at 1 mL/min. Worrall said the formulation is able to match the drug exposure of solution formulations without hyaluronidase, building on the already-tracked February 2026 minipig PK study (deal 'nanoform_nanotrastuzumab_minipig_2026-02-12') that found the suspension's PK closely matched Herceptin Hylecta (Roche/Genentech's ENHANZE/rHuPH20-enabled SC trastuzumab, part of the tracked ENHANZE installed base). In early delivery-device work with Midas Pharma and Gerresheimer using the Gx Inbeneo autoinjector, Nanoform said it delivered about 2.5x the current Herceptin dose in under one-tenth of the injection time. Nanoform said it anticipates producing clinical material in 2027 and has run its process on more than 20 antibodies to date. Company-disclosed figures via a trade-press interview, not an independent primary document (no Nanoform press release located); stability study design and sample size not disclosed.",
+      "molecule": "Trastuzumab (Nanotrastuzumab, hyaluronidase-free suspension vs. Herceptin Hylecta)",
+      "source_name": "BioPharm International (Emily Schoenthaler interview with Nanoform's Chris Worrall), part 2 of 2; part 1 (2026-10-29) corroborates platform-level concentration claims",
+      "source_url": "https://www.biopharminternational.com/view/18-month-room-temperature-data-support-hyaluronidase-free-antibody-suspensions-says-nanoform-s-chris-worrall",
+      "relevance": "High",
+      "confidence": "Secondary",
+      "flagged": false,
+      "new_in_digest": true,
+      "summary_ko": "나노폼(Nanoform)의 미국사업개발 부사장 Chris Worrall은 AAPS PharmSci 360 2026(뉴올리언스, 10월 24~28일) 및 2026-10-30 게재된 BioPharm International 인터뷰를 통해, 히알루로니다제를 사용하지 않는 비수계(non-aqueous) 414 mg/mL 트라스투주맙 현탁 제형(시판 정맥주사 제품 대비 약 4배 농도)의 18개월 실온 안정성 데이터를 공개했다 -- 학회에서 공개했던 12개월 데이터에서 갱신된 수치다. 이 현탁액은 실온 18개월 보관 후 고분자량(HMW) 종 증가율이 1% 미만이었고 유의한 침강(sedimentation)도 관찰되지 않았으며, 27게이지 니들을 통해 분당 1 mL 속도로 주입할 때 15N 미만의 안정적인 주사력을 보였다. Worrall은 이 제형이 히알루로니다제 없이도 용액 제형과 동등한 약물 노출(exposure)을 구현할 수 있다고 밝혔으며, 이는 이미 추적 중인 2026년 2월 미니피그 약동학(PK) 연구(딜 'nanoform_nanotrastuzumab_minipig_2026-02-12') -- 해당 현탁액의 PK가 Roche/Genentech의 ENHANZE/rHuPH20(ENHANZE-rHuPH20) 기반 피하주사 트라스투주맙인 Herceptin Hylecta(트래커가 추적하는 ENHANZE 시판 제품군의 일부)와 근접했다는 결과 -- 를 기반으로 한다. Midas Pharma 및 Gerresheimer와 Gx Inbeneo 자동주입기(autoinjector)를 활용한 초기 전달 디바이스 공동 작업에서는, 현재 Herceptin 투여량의 약 2.5배를 10분의 1 미만의 주입 시간 내에 전달했다고 밝혔다. 나노폼은 2027년 임상시험용 물질(clinical material) 생산을 목표로 하고 있으며, 현재까지 20종 이상의 항체에 해당 공정을 적용했다고 밝혔다. 이번 수치는 무역 전문지 인터뷰를 통한 회사 발표 수치로, 독립적인 1차 문서(나노폼 자체 보도자료는 확인되지 않음)는 아니며, 안정성 시험 설계와 표본 크기는 공개되지 않았다.",
+      "technology_id": "nanoform_nanoforming",
+      "technology_name": "Nanoforming (biologics nanoparticle platform)"
+    },
     {
       "deal_id": "accord_henlius_zercepac-sc_chmp-day180-agenda_2026-10-15",
       "partner": "Accord Healthcare S.L.U. (EU marketing authorisation holder) / Shanghai Henlius Biotech (developer)",
@@ -3048,24 +3082,6 @@
       "summary_ko": "백필: 이번 실행의 검색 기간(2026-09-18T09:02 KST 시작) 이전에 발생한 사안으로, 정규 Tier-1/Tier-4 스윕에서 확인되었고 이전에는 추적되지 않았다. 일본 후생노동성(MHLW)이 펨브롤리주맙(키트루다)을 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 '키젝트 배합 피하주사'(395 mg 및 790 mg)의 제조판매 승인을 부여했다. 일본에서 승인된 최초의 피하 면역관문억제제다. 3상 MK-3475A-D77 시험을 근거로 투여 시간을 정맥주사 약 30분에서 피하주사 약 1-2분으로 단축한다. 미국, EU/캐나다, 한국에 이어 ALT-B4 기반 키트루다 SC의 네 번째 주요 시장 승인이며(한국 승인은 alteogen_msd_keytruda-sc-korea-approval_2026-05-19로 별도 추적 중), 일본 건은 기록되지 않았었다. 같은 날 이루어진 LEQEMBI Pen 피하 제형의 일본 승인(물질과 기술이 무관한 별개 사안)은 별도로 추적 중이다(eisai_biogen_leqembiiqlik_japan-approval_2026-09-16 참조).",
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
-    },
-    {
-      "deal_id": "chongkundang_ph20_pct-novelty-rejection_2026-09-15",
-      "partner": "N/A (patent office preliminary opinion)",
-      "deal_type": "Patent office preliminary rejection (PCT international phase)",
-      "date": "2026-09-15",
-      "date_sort_key": 20260915,
-      "summary": "BACKFILL: Korea's IP office, acting as International Searching Authority on Chong Kun Dang's PCT international application for its PH20-variant SC platform (domestically filed 2026-02), issued a preliminary opinion finding some claims lack novelty and inventive step versus Alteogen's prior ALT-B4 patents -- certain amino-acid sequences in Chong Kun Dang's PH20 variant were already disclosed in Alteogen's existing PH20-related patents. Chong Kun Dang states the rejection is not final and it will pursue claim amendments and other responses. Reported alongside broader coverage of intensifying domestic SC-conversion IP competition, including Celltrion's and Samsung Bioepis's own in-house efforts. FLAGGED: a contested, unresolved patent-office opinion, not a final determination.",
-      "molecule": "Platform enzyme (not molecule-specific)",
-      "source_name": "아시아경제 (Asia Economic Daily)",
-      "source_url": "https://view.asiae.co.kr/article/2026091507340241619",
-      "relevance": "Medium",
-      "confidence": "Secondary",
-      "flagged": true,
-      "new_in_digest": false,
-      "summary_ko": "백필: 종근당이 PH20 변이 SC 플랫폼(2026년 2월 국내 출원)에 대해 제출한 PCT 국제출원에서, 국제조사기관을 맡은 한국 특허청이 알테오젠의 기존 ALT-B4 특허에 비해 일부 청구항이 신규성·진보성을 인정받지 못한다는 예비 의견을 냈다 -- 종근당 PH20 변이체의 일부 아미노산 서열이 알테오젠의 기존 PH20 관련 특허에 이미 공개되어 있었다. 종근당은 이번 거절이 최종 결정이 아니며 청구항 보정 등 다양한 대응 방법을 추진하겠다고 밝혔다. 셀트리온과 삼성바이오에피스의 자체 SC 전환 노력을 포함해 국내 SC 전환 지식재산 경쟁이 심화되는 맥락에서 함께 보도되었다. 검토 필요(FLAGGED): 다투어지고 있는, 아직 확정되지 않은 특허청 의견이며 최종 결정이 아니다.",
-      "technology_id": "chongkundang_ph20_sc",
-      "technology_name": "PH20-based SC formulation platform (variant hyaluronidase)"
     }
   ]
 }

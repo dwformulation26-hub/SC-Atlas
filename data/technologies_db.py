@@ -272,7 +272,7 @@ TECHNOLOGIES = [
         'mechanism': "Controlled nanoparticle/microparticle formation ('nanoforming') of biologics (mAbs, peptides, other large molecules) into highly stable particles with tunable size, enabling ultra-high-concentration suspensions for SC or inhaled delivery.",
         'mechanism_ko': "바이오의약품(단클론항체, 펩타이드, 기타 거대분자)을 크기 조절이 가능한 고안정성 입자로 제어 형성('nanoforming')하여, 피하 또는 흡입 전달용 초고농도 현탁액을 가능하게 한다.",
         'date_added': '2026-07-13',
-        'last_reviewed': '2026-07-14',
+        'last_reviewed': '2026-11-02',
     },
     {
         'id': 'crystalomics_althea',
