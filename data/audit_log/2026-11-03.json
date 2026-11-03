@@ -1,0 +1,140 @@
+{
+  "run_date": "2026-11-03",
+  "window": {
+    "from": "2026-11-02T09:18:57+09:00",
+    "to": "2026-11-03T09:09:53+09:00",
+    "tz": "Asia/Seoul",
+    "extended": false,
+    "note": "Normal weekday window (~24h). Previous run (2026-11-02) completed cleanly (1 fresh finding: Nanoform 18-month stability update); Tuesday following Monday, no gap, so no Monday/post-gap extension applied."
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous October 2026"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license November 2026"},
+    {"tier": 1, "lang": "en", "query": "Xeris XeriJect OR Lindy Microglassification OR Nanoform OR Crystalomics OR InventageLab OR Prestige IDC224 subcutaneous November 2026"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" news November 2026"},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\" 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\" biologics deal November 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform license deal November 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 고농축 현탁 주사 기술 2026"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration formulation November 2026"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도"},
+    {"tier": 3, "lang": "en", "query": "FDA.gov ClinicalTrials.gov XeriJect Hypercon Alteogen Prestige IDC224 trial filing November 2026"},
+    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 2026년 11월"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 2026"},
+    {"tier": 4, "lang": "ko", "query": "특허청 히알루로니다제 고농도 제형 2026"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출"},
+    {"tier": 5, "lang": "en", "query": "CHMP meeting highlights November 2026 EMA"},
+    {"tier": 5, "lang": "ja", "query": "MHLW PMDA 新薬 一斉承認 2026年11月"},
+    {"tier": 5, "lang": "en", "query": "FDA Novel Drug Approvals 2026 list biological"},
+    {"tier": 5, "lang": "ko", "query": "식약처 의약품 허가 목록 2026년 11월"},
+    {"tier": 5, "lang": "zh", "query": "NMPA 药品批准 2026年11月"},
+    {"tier": 5, "lang": "en", "query": "CHMP meeting highlights October 2026 recommended approval (follow-up on Oct batch)"},
+    {"tier": 5, "lang": "en", "query": "CHMP 12-15 October 2026 meeting highlights six medicines recommended list"},
+    {"tier": 5, "lang": "en", "query": "CHMP October 2026 Zercepac SC trastuzumab opinion positive (follow-up)"},
+    {"tier": 1, "lang": "en", "query": "FDA approves Rybrevant OR Tecentriq OR Opdivo Qvantig OR Vyvgart OR Darzalex October November 2026 (targeted molecule follow-up)"},
+    {"tier": 1, "lang": "ko", "query": "키트루다 큐렉스 옵디보 다잘렉스 허가 2026년 10월 11월 (targeted follow-up)"},
+    {"tier": 1, "lang": "en", "query": "Daewoong PODD Boston 2026 drug delivery subcutaneous (lead follow-up)"},
+    {"tier": 1, "lang": "ko", "query": "인벤티지랩 PODD 2026 발표 바이오플루이딕 10월 29일 (lead follow-up)"},
+    {"tier": 1, "lang": "ko", "query": "지투지바이오 PODD 2026 이노바이오램프 발표 결과 (lead follow-up)"},
+    {"tier": 1, "lang": "en", "query": "Halozyme Merck Keytruda SC patent litigation injunction November 2026 (status follow-up)"},
+    {"tier": 1, "lang": "ko", "query": "셀트리온 허쥬마SC 유럽 허가 11월 (status follow-up)"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 히알루로니다제 특허 11월 2026 (status follow-up)"},
+    {"tier": 1, "lang": "en", "query": "Alphamab Oncology subcutaneous co-formulation November 2026 (status follow-up)"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "지투지, PODD서 '초고농축 항체SC' 플랫폼 '첫 공개'",
+      "published": "2026-10-14T14:27:00+09:00", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "Directly answers who can put more antibody into less SC volume -- G2G Bio claims >750mg/mL with InnoBioLAMP.",
+      "date_source": "page", "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "Same underlying event (G2G Bio InnoBioLAMP PODD 2026 teaser, same date) already logged as g2gbio_innobiolamp_podd2026-announcement_2026-10-14 (canonical source dailypharm.com/user/news/343410). This is a corroborating URL, not a new event.",
+      "event_key": "g2gbio_innobiolamp_podd2026-announcement_2026-10-14", "canonical": false,
+      "corroborating_urls": ["https://www.biospectator.com/news/view/30088"]
+    },
+    {
+      "raw_title": "프레스티지바이오파마IDC, 차세대 항체 전달 플랫폼 'IDC224' 특허 출원",
+      "published": "2026-04-21T00:00:00+09:00", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "IP filing on a tracked SC delivery platform (IDC224).",
+      "date_source": "url", "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "Same patent-filing event already logged as prestige_idc224_patent_2026-04-21 (canonical source thebionews.net idxno=23849).",
+      "event_key": "prestige_idc224_patent_2026-04-21", "canonical": false,
+      "corroborating_urls": ["https://www.hankyung.com/article/202604215621P"]
+    },
+    {
+      "raw_title": "지투지바이오, UBT와 이노램프 평가…장기지속형 전환 검토",
+      "published": "2026-10-19T16:56:03+09:00", "lang": "ko",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "primary",
+      "gate_d": "n/a", "gate_e": "Fails to connect: InnoLAMP is a long-acting depot technology for small-molecule/peptide release timing, not a high-concentration or large-volume SC antibody delivery technology -- no concentration or volume claim anywhere in the piece (confirmed via WebFetch of full text).",
+      "date_source": "page", "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Gate A: device/platform is InnoLAMP (long-acting release), not InnoBioLAMP (high-concentration SC antibody platform). No concentration/volume angle.",
+      "event_key": "g2gbio_ubt_innolamp-evaluation_2026-10-19", "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Daewoong Pharmaceutical at PODD Boston 2026 -- Shaping the Future of More Convenient Treatments (LinkedIn post re: CURE(R) platform)",
+      "published": "2026-10-29T00:00:00-04:00", "lang": "en",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "secondary",
+      "gate_d": "n/a", "gate_e": "Out of scope: Daewoong is the tracker owner's own company -- this is internal news, not a competitor finding.",
+      "date_source": "unconfirmed", "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Gate A standing ruling: never log the tracker owner's own internal platform/company as an external tracked technology or deal, regardless of public branding.",
+      "event_key": null, "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "CHMP meeting highlights, 12-15 October 2026 (6 new medicines: Rasonque, Foundayo, Yuviwel, Fovlussea, Neuzafy, +1; 5 extensions)",
+      "published": "2026-10-16T00:00:00+02:00", "lang": "en",
+      "gate_a": "reject", "gate_b": "n/a", "gate_c": "primary",
+      "gate_d": "n/a", "gate_e": "No connection: none of the 6 new medicines or 5 label extensions are on the Tier 5 tracked-molecule list (checked against platform-product-base.md).",
+      "date_source": "page", "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Gate A: no tracked molecule (pembrolizumab, nivolumab, atezolizumab, ocrelizumab, daratumumab, amivantamab, efgartigimod, pertuzumab+trastuzumab, trastuzumab, rituximab, immune globulin 10%, dupilumab, lecanemab, isatuximab) or tracked platform appears in this batch.",
+      "event_key": null, "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "글로벌제약, 생물의약품 SC 전환 확산...기술 확보전 가열 (trend explainer)",
+      "published": "2026-04-11T06:00:44+09:00", "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary",
+      "gate_d": "n/a", "gate_e": "n/a -- fails Gate B before alignment is assessed.",
+      "date_source": "page", "dedupe": "new",
+      "verdict": "context", "reject_reason": "Gate B: undated trend/explainer piece aggregating already-tracked deals (Vertex/Hypercon, Biogen/ALT-B4, GSK/ALT-B4), not a new discrete event.",
+      "event_key": null, "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "약물전달 기술 각축전 'PODD'...K-바이오 출격 (PODD 2026 preview roundup)",
+      "published": "2026-10-16T14:44:00+09:00", "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary",
+      "gate_d": "n/a", "gate_e": "n/a -- fails Gate B before alignment is assessed.",
+      "date_source": "url", "dedupe": "new",
+      "verdict": "context", "reject_reason": "Gate B: pre-event roundup/preview piece, not a discrete dated event; underlying InventageLab/G2G Bio items already covered by existing rows.",
+      "event_key": null, "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "InventageLab IVL-BioFluidic concentration reported at ~500mg/mL (dealsite.co.kr roundup)",
+      "published": "2026-10-16T00:00:00+09:00", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "Directly answers who can put more antibody into less SC volume.",
+      "date_source": "page", "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "The platform's disclosed achievable/target concentration (750 mg/mL) is already on record via inventagelab_bio-usa_2026-06; this secondary-source 500mg/mL mention does not add a new dated event or supersede the existing figure with a primary source.",
+      "event_key": "inventagelab_bio-usa_2026-06", "canonical": false,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [],
+  "notes": {
+    "tier5_comparison": "Tier 5 regulatory-calendar sweep (queries 18-26, including CHMP 12-15 Oct 2026 highlights, MHLW/PMDA, FDA, MFDS, NMPA) came back clean this run -- no Tier-5 tracked molecule or platform appeared in any regulator's current list/highlights. It did not surface anything a name-search query missed this run (unlike the 2026-09-16/21 incidents that motivated Tier 5).",
+    "egress_blocked": ["dart.fss.or.kr (no OpenDART key configured; rung 1 skipped and noted rather than attempted; rungs 2-5 not needed this run since no Korean disclosure-filing candidate required DART sourcing)"],
+    "gate_d_conflicts": [],
+    "zero_hit_technologies": "All 33 tracked technologies produced no new in-window loggable event this run; several (G2G Bio InnoBioLAMP, Prestige IDC224, InventageLab IVL-BioFluidic) surfaced only duplicate/corroborating coverage of already-logged events.",
+    "new_competitors_identified": "None.",
+    "date_verification": "0 findings logged, so no date_source distribution to report for findings. Among rejected/context candidates, date sources used: page (4), url (2), unconfirmed (1, the Daewoong/internal LinkedIn item, rejected on Gate A regardless of date).",
+    "research_agent": "Step 1 executed by a forked subagent under the parent session; full query/candidate detail cross-checked by parent before writing this audit log."
+  }
+}
