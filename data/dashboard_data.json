@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-03T00:16:58+00:00",
+  "generated_at": "2026-11-04T00:15:51+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
   },
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-04",
   "stage_order": [
     "Research / Academic",
     "Preclinical",
@@ -31,6 +31,7 @@
     "Altruist Biologics (wholly owned subsidiary of Innovent Biologics)",
     "Amicogen (아미코젠)",
     "Arecor Therapeutics",
+    "BD (Becton, Dickinson and Company) / Ypsomed",
     "Bambusa Therapeutics",
     "Bhami's Research Laboratory (licensed to Ipca Laboratories)",
     "Celltrion",
@@ -66,10 +67,10 @@
     "Not disclosed"
   ],
   "counts": {
-    "tracked": 37,
+    "tracked": 38,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 118,
+    "deals_tracked": 119,
     "flagged_deals": 14
   },
   "internal_targets": [
@@ -154,6 +155,44 @@
   ],
   "technologies": [
     {
+      "id": "bd_ypsomed_xtraflow_5-5ml",
+      "name": "Neopak XtraFlow 5.5 mL Prefillable Syringe / YpsoMate 5.5 Autoinjector",
+      "company": "BD (Becton, Dickinson and Company) / Ypsomed",
+      "stage_raw": "Preclinical / Platform (feasibility-study syringe samples expected mid-2026; no named drug partner or product)",
+      "stage_bucket": "Platform / Feasibility",
+      "type": "Other",
+      "concentration_text": "Not disclosed; device-engineering expansion of injectable volume capacity (2.25 mL -> 5.5 mL), not a concentration-enabling formulation technology",
+      "concentration_numeric": null,
+      "concentration_bucket": "Not disclosed",
+      "needle_size": "8 mm needle with thinner-wall cannula; shorter than the prior-generation Neopak XtraFlow 2.25 mL syringe",
+      "mechanism": "BD's Neopak XtraFlow glass prefillable syringe platform, scaled from 2.25 mL to 5.5 mL and engineered with a shorter 8 mm needle and thinner-wall cannula, designed for full compatibility with Ypsomed's YpsoMate 5.5 autoinjector. The partnership (an expansion of BD and Ypsomed's existing Neopak XtraFlow 2.25 mL / YpsoMate 2.25 collaboration) targets self-administered subcutaneous delivery of higher-volume and higher-viscosity biologics than standard 1-2.25 mL autoinjector cartridges allow. No hyaluronidase, particle, or crystalline concentration technology is involved -- this is a device-side large-volume enablement (the volume half of the tracker's core question), distinct from formulation-science concentration platforms tracked elsewhere, and comparable in kind (not mechanism) to the already-tracked BD Libertas 10 mL wearable injector used in Alteogen's ALT-B4 large-volume study. Syringe samples for feasibility studies were expected mid-2026; no concentration, viscosity, or molecule-specific data disclosed.",
+      "date_added": "2026-11-04",
+      "last_reviewed": "2026-11-04",
+      "deals": [
+        {
+          "deal_id": "bd_ypsomed_xtraflow-5-5ml_2026-01-21",
+          "partner": "Ypsomed",
+          "deal_type": "Partnership expansion / device co-development",
+          "date": "2026-01-21",
+          "date_sort_key": 20260121,
+          "summary": "BACKFILL: event predates this run's ~24h search window by over nine months; surfaced during the routine Tier-2 generic-query sweep and not previously tracked. BD (Becton, Dickinson and Company) and Ypsomed announced an expanded partnership to develop a 5.5 mL version of BD's Neopak XtraFlow glass prefillable syringe, up from the existing 2.25 mL version, engineered with a shorter 8 mm needle and thinner-wall cannula for full compatibility with Ypsomed's YpsoMate 5.5 autoinjector platform. The stated purpose is to support self-administered subcutaneous delivery of higher-volume and higher-viscosity biologics than standard 1-2.25 mL autoinjector cartridges allow -- the large-volume half of the tracker's core question, via device engineering rather than formulation/concentration science. Syringe samples for feasibility studies were expected mid-2026; no concentration, viscosity, or molecule-specific figures were disclosed, and no drug-company partner or product was named. Comparable in purpose (not mechanism) to the already-tracked BD Libertas 10 mL wearable injector (used in Alteogen's ALT-B4 large-volume preclinical study).",
+          "molecule": "N/A (device platform; no named drug or molecule)",
+          "source_name": "BD Newsroom (press release)",
+          "source_url": "https://news.bd.com/2026-01-21-BD-and-Ypsomed-Expand-Partnership-to-Address-Rapidly-Growing-Biologics-Market",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 약 24시간 조사 기간보다 9개월 이상 앞선 사건으로, 정기 Tier-2 범용 검색에서 발견됐으며 이전에는 추적되지 않았다. BD(Becton, Dickinson and Company)와 입소메드(Ypsomed)가 기존 2.25mL 제품에서 용량을 늘린 5.5mL 버전의 BD Neopak XtraFlow 유리 프리필드 시린지를 공동 개발하는 파트너십 확장을 발표했다. 이 시린지는 더 짧은 8mm 니들과 더 얇은 벽의 캐뉼라를 적용해 입소메드의 YpsoMate 5.5 자가주사기 플랫폼과 완전히 호환되도록 설계됐다. 발표된 목적은 표준 1~2.25mL 자가주사기 카트리지보다 더 큰 용량과 더 높은 점도의 바이오의약품을 자가투여 피하주사로 전달할 수 있도록 지원하는 것이며 -- 이는 제형/농도 과학이 아니라 디바이스 공학을 통한, 추적기 핵심 질문 중 대용량(large-volume) 측면에 해당한다. 타당성 평가용 시린지 샘플은 2026년 중반 공급될 것으로 예상됐으며, 농도·점도·특정 분자 관련 수치는 공개되지 않았고, 제약사 파트너나 제품명도 명시되지 않았다. 이미 추적 중인 BD Libertas 10mL 웨어러블 인젝터(알테오젠의 ALT-B4 대용량 전임상 연구에 사용됨)와 목적은 유사하나 메커니즘은 다르다."
+        }
+      ],
+      "is_internal": false,
+      "is_reference": false,
+      "concentration_text_ko": "비공개; 농도를 높이는 제형 기술이 아니라 주사 가능 용량을 2.25mL에서 5.5mL로 늘리는 디바이스 공학 확장",
+      "needle_size_ko": "8mm 니들과 더 얇은 벽의 캐뉼라; 이전 세대 Neopak XtraFlow 2.25mL 시린지보다 짧음",
+      "mechanism_ko": "BD의 Neopak XtraFlow 유리 프리필드 시린지 플랫폼을 2.25mL에서 5.5mL로 확장하고, 더 짧은 8mm 니들과 더 얇은 벽의 캐뉼라를 적용해 입소메드(Ypsomed)의 YpsoMate 5.5 자가주사기와 완전히 호환되도록 설계했다. 이 파트너십은 BD와 입소메드가 기존에 진행해온 Neopak XtraFlow 2.25mL / YpsoMate 2.25 협력의 확장이며, 표준 1~2.25mL 자가주사기 카트리지보다 더 큰 용량과 더 높은 점도의 바이오의약품을 자가투여 피하주사로 전달하는 것을 목표로 한다. 히알루로니다제, 입자, 결정형 등 농도 기술은 관여하지 않는다 -- 이는 제형 기술이 아니라 디바이스 측에서 대용량(large-volume)을 구현한 사례로(추적기 핵심 질문 중 대용량 측면에 해당), 이미 추적 중인 BD Libertas 10mL 웨어러블 인젝터(알테오젠의 ALT-B4 대용량 연구에 사용됨)와 메커니즘은 다르지만 성격은 유사하다. 타당성 평가용 시린지 샘플은 2026년 중반 공급될 것으로 예상됐으며, 농도·점도·특정 분자 관련 수치는 공개되지 않았다."
+    },
+    {
       "id": "nanoform_nanoforming",
       "name": "Nanoforming (biologics nanoparticle platform)",
       "company": "Nanoform Finland Oyj",
@@ -181,7 +220,7 @@
           "relevance": "High",
           "confidence": "Secondary",
           "flagged": false,
-          "new_in_digest": true,
+          "new_in_digest": false,
           "summary_ko": "나노폼(Nanoform)의 미국사업개발 부사장 Chris Worrall은 AAPS PharmSci 360 2026(뉴올리언스, 10월 24~28일) 및 2026-10-30 게재된 BioPharm International 인터뷰를 통해, 히알루로니다제를 사용하지 않는 비수계(non-aqueous) 414 mg/mL 트라스투주맙 현탁 제형(시판 정맥주사 제품 대비 약 4배 농도)의 18개월 실온 안정성 데이터를 공개했다 -- 학회에서 공개했던 12개월 데이터에서 갱신된 수치다. 이 현탁액은 실온 18개월 보관 후 고분자량(HMW) 종 증가율이 1% 미만이었고 유의한 침강(sedimentation)도 관찰되지 않았으며, 27게이지 니들을 통해 분당 1 mL 속도로 주입할 때 15N 미만의 안정적인 주사력을 보였다. Worrall은 이 제형이 히알루로니다제 없이도 용액 제형과 동등한 약물 노출(exposure)을 구현할 수 있다고 밝혔으며, 이는 이미 추적 중인 2026년 2월 미니피그 약동학(PK) 연구(딜 'nanoform_nanotrastuzumab_minipig_2026-02-12') -- 해당 현탁액의 PK가 Roche/Genentech의 ENHANZE/rHuPH20(ENHANZE-rHuPH20) 기반 피하주사 트라스투주맙인 Herceptin Hylecta(트래커가 추적하는 ENHANZE 시판 제품군의 일부)와 근접했다는 결과 -- 를 기반으로 한다. Midas Pharma 및 Gerresheimer와 Gx Inbeneo 자동주입기(autoinjector)를 활용한 초기 전달 디바이스 공동 작업에서는, 현재 Herceptin 투여량의 약 2.5배를 10분의 1 미만의 주입 시간 내에 전달했다고 밝혔다. 나노폼은 2027년 임상시험용 물질(clinical material) 생산을 목표로 하고 있으며, 현재까지 20종 이상의 항체에 해당 공정을 적용했다고 밝혔다. 이번 수치는 무역 전문지 인터뷰를 통한 회사 발표 수치로, 독립적인 1차 문서(나노폼 자체 보도자료는 확인되지 않음)는 아니며, 안정성 시험 설계와 표본 크기는 공개되지 않았다."
         },
         {
@@ -2826,7 +2865,7 @@
       "relevance": "High",
       "confidence": "Secondary",
       "flagged": false,
-      "new_in_digest": true,
+      "new_in_digest": false,
       "summary_ko": "나노폼(Nanoform)의 미국사업개발 부사장 Chris Worrall은 AAPS PharmSci 360 2026(뉴올리언스, 10월 24~28일) 및 2026-10-30 게재된 BioPharm International 인터뷰를 통해, 히알루로니다제를 사용하지 않는 비수계(non-aqueous) 414 mg/mL 트라스투주맙 현탁 제형(시판 정맥주사 제품 대비 약 4배 농도)의 18개월 실온 안정성 데이터를 공개했다 -- 학회에서 공개했던 12개월 데이터에서 갱신된 수치다. 이 현탁액은 실온 18개월 보관 후 고분자량(HMW) 종 증가율이 1% 미만이었고 유의한 침강(sedimentation)도 관찰되지 않았으며, 27게이지 니들을 통해 분당 1 mL 속도로 주입할 때 15N 미만의 안정적인 주사력을 보였다. Worrall은 이 제형이 히알루로니다제 없이도 용액 제형과 동등한 약물 노출(exposure)을 구현할 수 있다고 밝혔으며, 이는 이미 추적 중인 2026년 2월 미니피그 약동학(PK) 연구(딜 'nanoform_nanotrastuzumab_minipig_2026-02-12') -- 해당 현탁액의 PK가 Roche/Genentech의 ENHANZE/rHuPH20(ENHANZE-rHuPH20) 기반 피하주사 트라스투주맙인 Herceptin Hylecta(트래커가 추적하는 ENHANZE 시판 제품군의 일부)와 근접했다는 결과 -- 를 기반으로 한다. Midas Pharma 및 Gerresheimer와 Gx Inbeneo 자동주입기(autoinjector)를 활용한 초기 전달 디바이스 공동 작업에서는, 현재 Herceptin 투여량의 약 2.5배를 10분의 1 미만의 주입 시간 내에 전달했다고 밝혔다. 나노폼은 2027년 임상시험용 물질(clinical material) 생산을 목표로 하고 있으며, 현재까지 20종 이상의 항체에 해당 공정을 적용했다고 밝혔다. 이번 수치는 무역 전문지 인터뷰를 통한 회사 발표 수치로, 독립적인 1차 문서(나노폼 자체 보도자료는 확인되지 않음)는 아니며, 안정성 시험 설계와 표본 크기는 공개되지 않았다.",
       "technology_id": "nanoform_nanoforming",
       "technology_name": "Nanoforming (biologics nanoparticle platform)"
