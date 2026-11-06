@@ -1,0 +1,234 @@
+{
+  "run_date": "2026-11-06",
+  "window": {
+    "from": "2026-11-05T09:09:00+09:00",
+    "to": "2026-11-06T09:13:57+09:00",
+    "tz": "Asia/Seoul",
+    "extended": false,
+    "note": "Normal weekday window (~24h). Previous run (2026-11-05) completed cleanly (0 findings). Friday following Thursday, no gap, so no Monday/post-gap extension applied."
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous November 2026"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license November 2026"},
+    {"tier": 1, "lang": "en", "query": "Xeris XeriJect OR Lindy Microglassification OR Nanoform OR Crystalomics OR InventageLab OR Prestige IDC224 subcutaneous November 2026"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도 11월 2026"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출 11월 2026"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도 11월 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" news November 2026"},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\""},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\" biologics platform deal 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal November 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 고농축 현탁 주사 기술 11월 2026"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration November 2026"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도 11월 2026"},
+    {"tier": 3, "lang": "en", "query": "FDA.gov ClinicalTrials.gov XeriJect Hypercon Microglassification trial filing 2026"},
+    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 11월 2026"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 특허청 히알루로니다제 고농도 제형"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출"},
+    {"tier": 5, "lang": "en", "query": "CHMP meeting highlights November 2026"},
+    {"tier": 5, "lang": "ja", "query": "MHLW PMDA 新薬 承認 2026年11月"},
+    {"tier": 5, "lang": "en", "query": "FDA Novel Drug Approvals 2026 list November Biological Approvals"},
+    {"tier": 5, "lang": "ko", "query": "식약처 의약품 허가 목록 2026년 11월"},
+    {"tier": 5, "lang": "zh", "query": "NMPA 药品批准 2026年11月 批准清单"},
+    {"tier": 1, "lang": "ko", "query": "인벤티지랩 PODD 2026 IVL-BioFluidic 발표 피하투여 동물실험 (post-event recap follow-up)"},
+    {"tier": 1, "lang": "ko", "query": "지투지바이오 이노바이오램프 PODD 2026 750mg/mL 공개 (post-event recap follow-up)"},
+    {"tier": 1, "lang": "ko", "query": "인벤티지랩 PODD 2026 보스턴 발표 다녀와서 OR 참가 후기 (recap sweep)"},
+    {"tier": 1, "lang": "ko", "query": "지투지바이오 PODD 2026 보스턴 현장 발표 OR 전시 10월 29일 10월 30일 (recap sweep)"},
+    {"tier": 1, "lang": "ko", "query": "키트루다 큐렉스 식약처 허가 국내 출시 11월 2026 (Q4 Korea-launch status follow-up)"},
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE partnered products page eleventh product new approval 2026 (installed-base recheck)"},
+    {"tier": 5, "lang": "en", "query": "Opdivo Qvantig label expansion approval November 2026 (Tier-5 head-to-head follow-up)"},
+    {"tier": 2, "lang": "en", "query": "Arecor Arestat subcutaneous high concentration November 2026"},
+    {"tier": 2, "lang": "en", "query": "Bambusa Therapeutics BBT001 subcutaneous formulation 2026"},
+    {"tier": 2, "lang": "en", "query": "Henlius HLX15 HLX02 HLX319 subcutaneous biosimilar approval November 2026"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme ENHANZE/Hypercon licensee recap (Vertex Apr 2026, GSK May 2026, Incyte Jul 2026, Oruka May 2026)",
+      "published": "various, 2026-04 to 2026-07",
+      "lang": "en", "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "n/a (deduped before Gate E)", "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "All already logged (halozyme_vertex_2026-04, halozyme_gsk_2026-05, halozyme_incyte_2026-07, halozyme_oruka row); no new in-window fact; well outside the ~24h window",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen ALT-B4 licensee recap (Novartis Sep 2026, undisclosed pharma Aug 2026, AstraZeneca Mar 2025, Biogen Mar 2026, Sandoz)",
+      "published": "various, 2025-03 to 2026-09",
+      "lang": "ko", "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "n/a (deduped before Gate E)", "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "All already logged (alteogen_novartis_2026-09, alteogen_undisclosed-pharma_2026-08, alteogen_astrazeneca_2026, alteogen_biogen_2026-03, alteogen_sandoz_2023-01-07); no new in-window fact",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "XeriJect platform background / Q3 2026 earnings-date notice (no partner product news)",
+      "published": "2026-11-05", "lang": "en", "gate_a": "pass", "gate_b": "reject", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "n/a", "date_source": "url", "dedupe": "new", "verdict": "context",
+      "reject_reason": "Gate B: Xeris Q3 2026 earnings-date announcement only, no discrete XeriJect delivery-technology event",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Bioepis SB5-HC high-concentration adalimumab Humira-biosimilar competition background",
+      "published": null, "lang": "ko", "gate_a": "reject", "gate_b": "reject", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "Gate A reject: adalimumab/Humira-biosimilar high-concentration matching is a bioequivalence exercise, not tied to any tracked platform row; no discrete dated event isolable from search summaries",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Ipca Laboratories / Bhami's Research Laboratory (BRL) high-concentration SC platform license (Jun/Jul 2026)",
+      "published": "2026-07-01", "lang": "en", "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "n/a (deduped before Gate E)", "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already logged against brl_hc_sc_platform row; out of window",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion / G2G Bio InnoBioLAMP evaluation-and-exploration MOU (Jul 2026)",
+      "published": "2026-07-30", "lang": "en", "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "n/a (deduped before Gate E)", "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already logged against g2gbio_innobiolamp row; out of window",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "BD / Ypsomed Neopak XtraFlow 5.5mL device partnership recap",
+      "published": "2026-01-21", "lang": "en", "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "n/a (deduped before Gate E)", "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already logged yesterday (bd_ypsomed_xtraflow-5-5ml_2026-01-21); surfaced again via generic Tier-2 sweep",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "InventageLab IVL-BioFluidic PODD 2026 pre-announcement (PCT patent, MTA recap) and PODD 2025 unveiling article (date-confusion risk)",
+      "published": "2026-09-29 (pre-announcement); 2025-10-28 (unrelated prior-year PODD 2025 article)",
+      "lang": "ko", "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "n/a (deduped before Gate E)", "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already logged as inventagelab_pct-patent_2026-09-29. A hankyung.com/article/202510286579i result describing '500mg/mL (2025) / 750mg/mL target' and MTA details was verified by WebFetch to be a PODD 2025 (Oct 2025) article, not PODD 2026 -- correctly excluded per 1.5.1 red-flag check (conference-tagged article, cross-year risk)",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "G2G Bio InnoBioLAMP PODD 2026 pre-announcement (Dailypharm/Medigate, 2026-10-14/16, 750mg/mL feasibility claim)",
+      "published": "2026-10-14", "lang": "ko", "gate_a": "pass", "gate_b": "pass", "gate_c": "primary",
+      "gate_d": "new", "gate_e": "n/a (deduped before Gate E)", "date_source": "url", "dedupe": "dup_deal_id",
+      "verdict": "reject",
+      "reject_reason": "Already logged as g2gbio_innobiolamp_podd2026-announcement_2026-10-14. WebFetch of medigatenews.com/news/1267755242 confirmed this is the pre-event announcement (feasibility claim, company statement ahead of the Oct 29-30 conference), not a post-event result",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "PODD 2026 (Boston, Oct 29-30) post-event recap search, repeated -- no post-event trade-press coverage found for InventageLab or G2G Bio as of 2026-11-06",
+      "published": null, "lang": "ko", "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified",
+      "gate_d": "new", "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "No discrete dated post-event fact found (no partnering outcomes, deal terms, or new data disclosed) in four separate recap-phrased queries; only the same pre-event previews already logged yesterday and today",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion Herzuma SC (CT-P6 SC) EU/KR filing status check",
+      "published": null, "lang": "en", "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary",
+      "gate_d": "new", "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "No new dated approval/CHMP opinion found this window; existing tracker row (celltrion_herzuma_sc) unchanged",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Keytruda SC (키트루다 피하주사) Korea MFDS approval / Q4 2026 domestic-launch status check",
+      "published": "2026-05-19 (approval); 2026-09-30 (launch announcement)", "lang": "ko", "gate_a": "pass",
+      "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a (deduped before Gate E)",
+      "date_source": "url", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Both the approval and the Q4 domestic commercial-launch announcement are already logged (alteogen_msd_keytruda-sc-korea-approval_2026-05-19, alteogen_msd_keytruda-sc-korea-launch_2026-10-01); no new fact this window",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme ENHANZE partnered-products count recheck -- eleventh marketed molecule?",
+      "published": null, "lang": "en", "gate_a": "n/a", "gate_b": "n/a", "gate_c": "n/a", "gate_d": "new",
+      "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "No evidence of an 11th ENHANZE-approved marketed product; Q3 2026 earnings release (2026-11-05) describes expanded target nominations and Phase 1 starts, not a new approval. Installed base remains the 10 products in platform-product-base.md",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Opdivo Qvantig (nivolumab/hyaluronidase-nvhy) label-expansion status check -- Tier-5 head-to-head with Keytruda SC",
+      "published": null, "lang": "en", "gate_a": "n/a", "gate_b": "n/a", "gate_c": "n/a", "gate_d": "new",
+      "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "A pediatric-melanoma sBLA (761381/005) and EU CHMP label-expansion items surfaced with no confirmable November 2026 date; no new dated event found this window",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Dupixent (dupilumab) high-concentration SC reformulation sweep (EN+KO)",
+      "published": null, "lang": "en", "gate_a": "n/a", "gate_b": "n/a", "gate_c": "n/a", "gate_d": "new",
+      "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "No new high-concentration formulation, approval, or launch news surfaced; only existing product-label background and unrelated pediatric-indication/reimbursement items",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Arecor Arestat subcutaneous high-concentration platform sweep",
+      "published": null, "lang": "en", "gate_a": "n/a", "gate_b": "n/a", "gate_c": "n/a", "gate_d": "new",
+      "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "No November 2026 news; results limited to 2021-2023 patent/collaboration background already predating the tracker's existing arecor_arestat row",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Bambusa Therapeutics BBT001 SC-cohort dosing recap",
+      "published": "2026-10-01 (per existing tracker row)", "lang": "en", "gate_a": "pass", "gate_b": "pass",
+      "gate_c": "primary", "gate_d": "new", "gate_e": "n/a (deduped before Gate E)", "date_source": "url",
+      "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already logged as bambusa_bbt001_sc-dosing-initiated_2026-10-01; no new fact this window",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Henlius HLX15-SC / HLX02-SC / HLX319 status sweep",
+      "published": "2026-02 to 2026-04 (IND clearances)", "lang": "en", "gate_a": "n/a", "gate_b": "n/a",
+      "gate_c": "n/a", "gate_d": "new", "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "No November 2026 news; all results predate this and prior runs' windows and are assumed already reflected in the existing henlius_hlx15_sc / henlius_hlx02_sc / henlius_hlx319_phesgo_sc rows",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "EMA CHMP meeting (Nov 9-12, 2026) -- Tier 5 molecule scan",
+      "published": null, "lang": "en", "gate_a": "n/a", "gate_b": "n/a", "gate_c": "n/a", "gate_d": "new",
+      "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "Meeting has not yet occurred as of run time (scheduled 2026-11-09 to 2026-11-12); no highlights published yet. Next run should re-check once the meeting concludes",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "MHLW/PMDA batch approval release -- Tier 5 molecule scan, November 2026",
+      "published": null, "lang": "ja", "gate_a": "n/a", "gate_b": "n/a", "gate_c": "n/a", "gate_d": "new",
+      "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "No November 2026 PMDA approval-list release indexed yet; most recent material found concerned Nov/Dec 2025 deliberations; no Tier-5 molecule name surfaced for Nov 2026",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA Novel Drug Approvals 2026 list -- Tier 5 molecule scan",
+      "published": null, "lang": "en", "gate_a": "n/a", "gate_b": "n/a", "gate_c": "n/a", "gate_d": "new",
+      "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "Search snippet returned only table headers / mid-year (H1 2026) trackers; no November 2026 entries or Tier-5 molecule names surfaced",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "MFDS (식약처) recent-approvals list -- Tier 5 molecule scan, November 2026",
+      "published": null, "lang": "ko", "gate_a": "n/a", "gate_b": "n/a", "gate_c": "n/a", "gate_d": "new",
+      "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "No November 2026 MFDS monthly list indexed yet this early in the month (most recent indexed was May 2026); no Tier-5 molecule name surfaced",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "NMPA approval list -- Tier 5 molecule scan, November 2026",
+      "published": null, "lang": "zh", "gate_a": "n/a", "gate_b": "n/a", "gate_c": "n/a", "gate_d": "new",
+      "gate_e": "n/a", "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "No November 2026 NMPA list indexed yet; one unverified Reuters-flash mention of an NMPA approval dated 'Nov 11' with year unconfirmed (garsorasib, unrelated molecule/indication, not on Tier-5 list)",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    }
+  ],
+  "findings": [],
+  "notes": {
+    "egress_blocked": [
+      "dart.fss.or.kr (confirmed blocked per 1.3.1; not fetched directly this run -- no DART-specific lead arose that required the fallback ladder)"
+    ],
+    "no_new_findings": true,
+    "tier5_summary": "All 5 Tier-5 regulatory-calendar queries run; none surfaced a Tier-5 molecule event in-window. CHMP's Nov meeting (9-12) has not yet occurred -- same as yesterday's run. MHLW/FDA/MFDS/NMPA have no November 2026 release indexed yet this early in the month. Tier 5 did not catch anything a name-search query missed this run.",
+    "technologies_with_no_in_window_activity": "All 34 tracked technology rows had no in-window item. The only candidates surfaced were duplicates of already-logged events (ENHANZE/Hypercon and ALT-B4 licensee recaps, BRL/Ipca, Celltrion/G2G Bio MOU, BD/Ypsomed, InventageLab and G2G Bio PODD pre-announcements, Keytruda SC Korea approval/launch, Bambusa BBT001 SC dosing) or out-of-scope/context-only items (Xeris earnings date, Samsung Bioepis adalimumab bioequivalence background, Arecor/Henlius older background).",
+    "new_untracked_competitor_identified": false,
+    "gate_d_conflicts": [],
+    "date_verification_catch": "A WebSearch summary for the InventageLab Tier-1 follow-up query blended a 2025 PODD article (hankyung.com/article/202510286579i, published 2025-10-28, headlined for 'PODD 2025') with 2026 context, citing a '500mg/mL (2025) / 750mg/mL target' figure. Per SKILL.md 1.5.1's conference-tag red flag, this was verified directly via WebFetch before use and confirmed to be the PODD 2025 (not 2026) unveiling -- correctly excluded from this run's candidates as not an in-window or new event.",
+    "korean_sourcing_note": "Korean-language sources (mt.co.kr, dailypharm, medigatenews, hankyung) surfaced the same InventageLab and G2G Bio PODD items EN sources also referenced, all already logged from prior runs; no new material divergence between EN and KO coverage this run."
+  }
+}
