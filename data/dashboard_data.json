@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T00:15:46+00:00",
+  "generated_at": "2026-11-09T00:20:28+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -70,7 +70,7 @@
     "tracked": 38,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 119,
+    "deals_tracked": 121,
     "flagged_deals": 14
   },
   "internal_targets": [
@@ -830,6 +830,22 @@
       "last_reviewed": "2026-09-17",
       "deals": [
         {
+          "deal_id": "halozyme_janssen_rybrevant-faspro_hnscc-approval_2026-11-05",
+          "partner": "Janssen / Johnson & Johnson",
+          "deal_type": "Regulatory approval (label expansion)",
+          "date": "2026-11-05",
+          "date_sort_key": 20261105,
+          "summary": "BACKFILL: event occurred roughly 12 hours before this run's research window opened (2026-11-06 09:13 KST); surfaced during the routine Tier-1/Tier-2 sweep and not previously tracked under this deal_id. FDA granted accelerated approval for subcutaneous amivantamab and hyaluronidase-lpuj (Rybrevant Faspro, Halozyme ENHANZE-enabled) in adults with recurrent or metastatic head and neck squamous cell carcinoma (HNSCC) whose disease progressed after platinum-based chemotherapy and a PD-1/PD-L1 inhibitor (excludes HPV-positive oropharyngeal squamous cell carcinoma) -- converting the Priority Review already tracked (see halozyme_janssen_rybrevant-faspro_hnscc-priority-review_2026-07-30) into an approval, and the first Rybrevant Faspro indication outside EGFR-mutant non-small-cell lung cancer. Based on the OrigAMI-4 Phase 1b/2 Cohort 1 (n=102): confirmed overall response rate 42% (95% CI 32-52%) by blinded independent central review; the Phase 3 OrigAMI-5 trial is the confirmatory study required under the accelerated-approval pathway.",
+          "molecule": "Amivantamab + hyaluronidase-lpuj (Rybrevant Faspro, ENHANZE-enabled)",
+          "source_name": "Johnson & Johnson (company press release)",
+          "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-u-s-fda-approval-of-rybrevant-faspro-amivantamab-and-hyaluronidase-lpuj-as-first-and-only-dual-targeted-therapy-for-advanced-head-and-neck-cancer",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 조사 기간이 시작되기(2026-11-06 09:13 KST) 약 12시간 전에 발생한 사건으로, 정규 Tier-1/Tier-2 스윕에서 확인되었고 이 deal_id로는 이전에 추적되지 않았다. FDA는 피하 아미반타맙 및 히알루로니다제-lpuj(Rybrevant Faspro, 할로자임 ENHANZE 기반)에 대해, 백금 기반 화학요법과 PD-1/PD-L1 억제제 치료 후 진행된 재발성·전이성 두경부 편평세포암(HNSCC) 성인 환자(HPV 양성 구인두 편평세포암 제외)를 대상으로 신속승인(accelerated approval)을 허가했다 -- 이는 이미 추적 중인 우선심사(halozyme_janssen_rybrevant-faspro_hnscc-priority-review_2026-07-30)가 승인으로 전환된 것이며, EGFR 변이 비소세포폐암 이외 적응증으로는 Rybrevant Faspro의 첫 승인이다. OrigAMI-4 1b/2상 코호트 1(n=102) 기반: 맹검 독립 중앙판독(BICR)으로 확인된 전체 반응률 42%(95% CI 32-52%); 3상 OrigAMI-5 임상이 신속승인 경로에서 요구되는 확증 임상이다."
+        },
+        {
           "deal_id": "halozyme_msd_hague-injunction-8countries_2026-10-07",
           "partner": "MSD / Merck",
           "deal_type": "Patent litigation (final injunction)",
@@ -1100,6 +1116,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "뮌헨 지방법원(제7민사부)이 Halozyme의 유럽 MDASE 특허 EP 2,797,622의 침해가 임박했다고 보아, 머크/MSD가 독일에서 키트루다 SC(펨브롤리주맙 + ALT-B4)를 유통하거나 공급하는 것을 금지하는 가처분을 인용했다. 키트루다 SC를 둘러싼 Halozyme과 머크의 광범위한 MDASE/PH20 특허 분쟁의 일부이며, 이 분쟁에서 이미 여기에 추적 중인 2026년 5월 미국 PTAB 결정도 나왔다(halozyme_merck_ptab-pgr-invalidations_2026-05 참조). 머크는 별도로 2025년 8월 독일 연방특허법원에 EP 622에 대한 무효심판을 제기했다. 백필: 이전에는 추적되지 않았다."
+        },
+        {
+          "deal_id": "halozyme_merus_petosemtamab_2025-11-17",
+          "partner": "Merus N.V.",
+          "deal_type": "Licensing/Collaboration",
+          "date": "2025-11-17",
+          "date_sort_key": 20251117,
+          "summary": "BACKFILL: event predates this run's research window by about a year; surfaced during the routine Tier-1/Tier-2 sweep and not previously tracked. Merus N.V. and Halozyme entered a global, non-exclusive collaboration and license agreement under which Merus licenses ENHANZE (rHuPH20) to develop a subcutaneous formulation of petosemtamab, Merus's EGFR x LGR5 bispecific antibody. Halozyme receives an undisclosed upfront payment plus commercial and sales-based milestone payments and low-to-mid single-digit royalties on net sales; no concentration figure or development timeline was disclosed. Closes a gap in the ENHANZE licensee list -- the same category of completeness gap the 2026-09-22 installed-base backfill addressed.",
+          "molecule": "Petosemtamab (EGFR x LGR5 bispecific antibody)",
+          "source_name": "PR Newswire (Merus N.V. / Halozyme joint release)",
+          "source_url": "https://www.prnewswire.com/news-releases/merus-and-halozyme-enter-global-collaboration-and-license-agreement-to-develop-subcutaneous-formulation-of-petosemtamab-302616859.html",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 조사 기간보다 약 1년 앞선 사건으로, 정규 Tier-1/Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다. Merus N.V.와 할로자임은 글로벌 비독점 공동개발 및 라이선스 계약을 체결했으며, 이에 따라 Merus는 ENHANZE(rHuPH20)를 라이선스하여 자사의 EGFR x LGR5 이중특이항체인 petosemtamab의 피하(SC) 제형을 개발한다. 할로자임은 비공개 선급금과 상업화·판매 마일스톤 지급금, 순매출에 대한 저~중간 단일 숫자(low-to-mid single-digit) 로열티를 받는다; 농도 수치나 개발 일정은 공개되지 않았다. ENHANZE 라이선시 목록의 공백을 메우는 사례로, 2026-09-22 시판 기반(installed base) 백필이 다룬 것과 같은 종류의 완전성 공백이다."
         },
         {
           "deal_id": "halozyme_bms_opdivo-qvantig_2024-12-27",
@@ -2853,6 +2885,24 @@
   ],
   "recent_activity": [
     {
+      "deal_id": "halozyme_janssen_rybrevant-faspro_hnscc-approval_2026-11-05",
+      "partner": "Janssen / Johnson & Johnson",
+      "deal_type": "Regulatory approval (label expansion)",
+      "date": "2026-11-05",
+      "date_sort_key": 20261105,
+      "summary": "BACKFILL: event occurred roughly 12 hours before this run's research window opened (2026-11-06 09:13 KST); surfaced during the routine Tier-1/Tier-2 sweep and not previously tracked under this deal_id. FDA granted accelerated approval for subcutaneous amivantamab and hyaluronidase-lpuj (Rybrevant Faspro, Halozyme ENHANZE-enabled) in adults with recurrent or metastatic head and neck squamous cell carcinoma (HNSCC) whose disease progressed after platinum-based chemotherapy and a PD-1/PD-L1 inhibitor (excludes HPV-positive oropharyngeal squamous cell carcinoma) -- converting the Priority Review already tracked (see halozyme_janssen_rybrevant-faspro_hnscc-priority-review_2026-07-30) into an approval, and the first Rybrevant Faspro indication outside EGFR-mutant non-small-cell lung cancer. Based on the OrigAMI-4 Phase 1b/2 Cohort 1 (n=102): confirmed overall response rate 42% (95% CI 32-52%) by blinded independent central review; the Phase 3 OrigAMI-5 trial is the confirmatory study required under the accelerated-approval pathway.",
+      "molecule": "Amivantamab + hyaluronidase-lpuj (Rybrevant Faspro, ENHANZE-enabled)",
+      "source_name": "Johnson & Johnson (company press release)",
+      "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-u-s-fda-approval-of-rybrevant-faspro-amivantamab-and-hyaluronidase-lpuj-as-first-and-only-dual-targeted-therapy-for-advanced-head-and-neck-cancer",
+      "relevance": "High",
+      "confidence": "Primary",
+      "flagged": false,
+      "new_in_digest": false,
+      "summary_ko": "백필: 이번 실행의 조사 기간이 시작되기(2026-11-06 09:13 KST) 약 12시간 전에 발생한 사건으로, 정규 Tier-1/Tier-2 스윕에서 확인되었고 이 deal_id로는 이전에 추적되지 않았다. FDA는 피하 아미반타맙 및 히알루로니다제-lpuj(Rybrevant Faspro, 할로자임 ENHANZE 기반)에 대해, 백금 기반 화학요법과 PD-1/PD-L1 억제제 치료 후 진행된 재발성·전이성 두경부 편평세포암(HNSCC) 성인 환자(HPV 양성 구인두 편평세포암 제외)를 대상으로 신속승인(accelerated approval)을 허가했다 -- 이는 이미 추적 중인 우선심사(halozyme_janssen_rybrevant-faspro_hnscc-priority-review_2026-07-30)가 승인으로 전환된 것이며, EGFR 변이 비소세포폐암 이외 적응증으로는 Rybrevant Faspro의 첫 승인이다. OrigAMI-4 1b/2상 코호트 1(n=102) 기반: 맹검 독립 중앙판독(BICR)으로 확인된 전체 반응률 42%(95% CI 32-52%); 3상 OrigAMI-5 임상이 신속승인 경로에서 요구되는 확증 임상이다.",
+      "technology_id": "enhanze",
+      "technology_name": "ENHANZE (rHuPH20)"
+    },
+    {
       "deal_id": "nanoform_aaps-pharmsci360_18month-stability_2026-10-30",
       "partner": "N/A (conference disclosure / trade-press interview)",
       "deal_type": "Data disclosure (stability/formulation)",
@@ -3103,24 +3153,6 @@
       "summary_ko": "레카네맙의 피하 오토인젝터 제형인 LEQEMBI Pen이 초기 알츠하이머병을 적응증으로 일본에서 승인되었다. 주 1회 환자 본인 또는 돌봄 제공자가 250 mg 펜 2개(총 500 mg)를 투여하며 주사당 약 15초가 걸린다. 일본은 미국과 중국(둘 다 이미 여기에 추적 중)에 이어 동일한 주 1회 500 mg 요법으로 피하 제형을 승인한 세 번째 시장이다.",
       "technology_id": "eisai_biogen_leqembi_iqlik_sc",
       "technology_name": "LEQEMBI IQLIK (lecanemab-irmb SC autoinjector formulation)"
-    },
-    {
-      "deal_id": "alteogen_msd_keytruda-sc-japan-approval_2026-09-16",
-      "partner": "MSD K.K. (Merck & Co. Japan affiliate) / Japan Ministry of Health, Labour and Welfare (MHLW)",
-      "deal_type": "Regulatory approval",
-      "date": "2026-09-16",
-      "date_sort_key": 20260916,
-      "summary": "BACKFILL: event predates this run's search window (opened 2026-09-18T09:02 KST); surfaced during the routine Tier-1/Tier-4 sweep and not previously tracked. Japan's MHLW granted manufacturing and marketing approval for 'Kiject Combination Subcutaneous Injection' (395 mg and 790 mg) -- pembrolizumab (Keytruda) coformulated with Alteogen's ALT-B4 (berahyaluronidase alfa) -- the first subcutaneous immune checkpoint inhibitor approved in Japan. Cuts administration time from roughly 30 minutes (IV) to about 1-2 minutes (SC), based on the Phase 3 MK-3475A-D77 trial. This is the fourth major-market approval for ALT-B4-enabled Keytruda SC after the US, EU/Canada and Korea (Korea approval already tracked separately, see alteogen_msd_keytruda-sc-korea-approval_2026-05-19); not previously logged for Japan. Same-day Japan approval of LEQEMBI Pen SC (unrelated molecule/technology) is already tracked separately (see eisai_biogen_leqembiiqlik_japan-approval_2026-09-16).",
-      "molecule": "Pembrolizumab SC (Kiject / Keytruda SC) -- ALT-B4-enabled formulation",
-      "source_name": "Iyaku Tsushinsha (Japanese pharma trade press); corroborated by Korea Biomedical Review, IBTimes Japan, EBN, WOWTV, Businesspost, Asiae, Financial Post Korea, Alpha Biz (8 independent outlets)",
-      "source_url": "https://iyakutsushinsha.com/2026/09/17/%E6%8A%97pd-1%E6%8A%97%E4%BD%93%E3%80%8C%E3%82%AD%E3%82%A4%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%80%8D%E3%80%80%E8%A3%BD%E9%80%A0%E8%B2%A9%E5%A3%B2%E6%89%BF%E8%AA%8D%E5%8F%96%E5%BE%97%E3%80%80msd/",
-      "relevance": "High",
-      "confidence": "Secondary",
-      "flagged": false,
-      "new_in_digest": false,
-      "summary_ko": "백필: 이번 실행의 검색 기간(2026-09-18T09:02 KST 시작) 이전에 발생한 사안으로, 정규 Tier-1/Tier-4 스윕에서 확인되었고 이전에는 추적되지 않았다. 일본 후생노동성(MHLW)이 펨브롤리주맙(키트루다)을 알테오젠의 ALT-B4(베라히알루로니다제 알파)와 복합 제형화한 '키젝트 배합 피하주사'(395 mg 및 790 mg)의 제조판매 승인을 부여했다. 일본에서 승인된 최초의 피하 면역관문억제제다. 3상 MK-3475A-D77 시험을 근거로 투여 시간을 정맥주사 약 30분에서 피하주사 약 1-2분으로 단축한다. 미국, EU/캐나다, 한국에 이어 ALT-B4 기반 키트루다 SC의 네 번째 주요 시장 승인이며(한국 승인은 alteogen_msd_keytruda-sc-korea-approval_2026-05-19로 별도 추적 중), 일본 건은 기록되지 않았었다. 같은 날 이루어진 LEQEMBI Pen 피하 제형의 일본 승인(물질과 기술이 무관한 별개 사안)은 별도로 추적 중이다(eisai_biogen_leqembiiqlik_japan-approval_2026-09-16 참조).",
-      "technology_id": "alt-b4_hybrozyme",
-      "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
     }
   ]
 }
