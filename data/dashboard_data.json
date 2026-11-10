@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T00:20:28+00:00",
+  "generated_at": "2026-11-10T00:18:49+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -70,7 +70,7 @@
     "tracked": 38,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 121,
+    "deals_tracked": 123,
     "flagged_deals": 14
   },
   "internal_targets": [
@@ -591,6 +591,22 @@
       "date_added": "2026-10-05",
       "last_reviewed": "2026-10-05",
       "deals": [
+        {
+          "deal_id": "henlius_hlx15sc_us-first-patient-dosed_2026-07-13",
+          "partner": "Dr. Reddy's Laboratories (licensed US/EU commercialization rights, Feb 2025)",
+          "deal_type": "Clinical trial milestone (first patient dosed)",
+          "date": "2026-07-13",
+          "date_sort_key": 20260713,
+          "summary": "BACKFILL: event predates this run's research window by about four months; surfaced during the routine Tier-1 sweep and not previously tracked (the already-tracked row for this technology covers only the 2026-02-16 FDA IND clearance and the 2026-05-26 first-patient-dosed-in-China milestone). Shanghai Henlius Biotech announced that the first US patient was dosed in its international multicenter Phase 1 trial (HLX15-SC-NDMM-001) of HLX15-SC, a subcutaneous daratumumab biosimilar, in first-line newly diagnosed multiple myeloma. The trial directly compares HLX15-SC (in combination with lenalidomide and dexamethasone) against the US-licensed reference product Darzalex Faspro (daratumumab and hyaluronidase-fihj, part of the tracked ENHANZE installed base), with the primary objective of evaluating PK similarity after single and multiple SC injections. Further sites are planned in Australia, Serbia and Georgia. CAVEAT: as with the already-tracked entries for this technology, Henlius's press release does not name the enabling hyaluronidase or SC platform for HLX15-SC -- not attributed to ENHANZE. No daratumumab biosimilar has yet been approved in the US, EU or Japan. Adds a clinical-stage milestone to the Darzalex Faspro/ENHANZE biosimilar-competition landscape.",
+          "molecule": "Daratumumab biosimilar (HLX15), subcutaneous formulation",
+          "source_name": "Shanghai Henlius Biotech / Fosun Pharma (company press release)",
+          "source_url": "https://www.fosunpharma.com/content/details38_16611.html",
+          "relevance": "Low",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 조사 기간보다 약 4개월 앞선 사건으로, 정규 Tier-1 스윕에서 확인되었고 이전에는 추적되지 않았다(이 기술에 대해 이미 추적 중인 항목은 2026-02-16 FDA IND 승인과 2026-05-26 중국 내 첫 환자 투약 마일스톤만을 다룬다). 상하이 Henlius Biotech(复宏汉霖)는 피하주사(SC) 다라투무맙 바이오시밀러인 HLX15-SC의 국제 다기관 1상 시험(HLX15-SC-NDMM-001)에서 미국 내 첫 환자 투약을 완료했다고 발표했다. 이 시험은 1차 치료 신규진단 다발골수종을 대상으로 HLX15-SC(레날리도마이드·덱사메타손 병용)를 미국 라이선스 기준제품인 Darzalex Faspro(다라투무맙과 hyaluronidase-fihj의 복합제, 추적 중인 ENHANZE 시판 제품군의 일부)와 직접 비교하며, 1차 평가지표는 단회 및 반복 SC 투여 후 약동학(PK) 유사성이다. 호주, 세르비아, 조지아에서 추가 임상시험 사이트가 계획되어 있다. 유의 사항: 이 기술에 대해 이미 추적 중인 항목들과 마찬가지로, Henlius의 보도자료는 HLX15-SC를 가능하게 하는 히알루로니다제나 SC 플랫폼명을 밝히지 않는다 -- ENHANZE로 귀속시키지 않는다. 다라투무맙 바이오시밀러는 아직 미국, EU, 일본 어디에서도 승인되지 않았다. Darzalex Faspro/ENHANZE 바이오시밀러 경쟁 구도에 임상 단계 마일스톤을 추가하는 사례이다."
+        },
         {
           "deal_id": "henlius_hlx15sc_fda-ind-clearance_2026-02-16",
           "partner": "Dr. Reddy's Laboratories (licensed US/EU commercialization rights, Feb 2025)",
@@ -1132,6 +1148,22 @@
           "flagged": false,
           "new_in_digest": false,
           "summary_ko": "백필: 이번 실행의 조사 기간보다 약 1년 앞선 사건으로, 정규 Tier-1/Tier-2 스윕에서 확인되었고 이전에는 추적되지 않았다. Merus N.V.와 할로자임은 글로벌 비독점 공동개발 및 라이선스 계약을 체결했으며, 이에 따라 Merus는 ENHANZE(rHuPH20)를 라이선스하여 자사의 EGFR x LGR5 이중특이항체인 petosemtamab의 피하(SC) 제형을 개발한다. 할로자임은 비공개 선급금과 상업화·판매 마일스톤 지급금, 순매출에 대한 저~중간 단일 숫자(low-to-mid single-digit) 로열티를 받는다; 농도 수치나 개발 일정은 공개되지 않았다. ENHANZE 라이선시 목록의 공백을 메우는 사례로, 2026-09-22 시판 기반(installed base) 백필이 다룬 것과 같은 종류의 완전성 공백이다."
+        },
+        {
+          "deal_id": "halozyme_bms_opdivo-sc-eu-approval_2025-05-28",
+          "partner": "Bristol Myers Squibb",
+          "deal_type": "Regulatory approval (installed-base backfill)",
+          "date": "2025-05-28",
+          "date_sort_key": 20250528,
+          "summary": "BACKFILL: event predates this run's research window by about 18 months; surfaced during the routine Tier-5 regulatory-calendar sweep (EMA CHMP agenda check) and was missing from the tracker's ENHANZE installed base. The European Commission approved Opdivo SC (nivolumab co-formulated with recombinant human hyaluronidase, rHuPH20/ENHANZE), a 600 mg/vial solution for subcutaneous injection, across multiple previously-approved adult solid-tumor indications -- as monotherapy, as monotherapy maintenance after IV nivolumab plus ipilimumab, and in combination with chemotherapy or cabozantinib. The approval is valid across the EU-27 plus Iceland, Liechtenstein and Norway. It is the EU counterpart to the already-tracked US approval (Opdivo Qvantig, FDA 2024-12-27, deal 'halozyme_bms_opdivo-qvantig_2024-12-27') and completes Opdivo's presence in the ENHANZE installed base alongside the platform's other marketed molecule families (see references/platform-product-base.md). The decision was based on the Phase 3 CheckMate-67T trial (1,200 mg nivolumab SC with 20,000 U rHuPH20 every 4 weeks), which met its pharmacokinetic noninferiority endpoint vs. IV nivolumab, with an objective response rate of 24% (SC) vs. 18% (IV) in advanced clear-cell renal cell carcinoma and a matching safety profile. No mg/mL concentration figure was disclosed in the press release. Logged as competitive context, not new news.",
+          "molecule": "Nivolumab (Opdivo SC, EU) + rHuPH20/ENHANZE",
+          "source_name": "Bristol Myers Squibb (company press release)",
+          "source_url": "https://news.bms.com/news/details/2025/Bristol-Myers-Squibb-Receives-European-Commission-Approval-for-the-Subcutaneous-Formulation-of-Opdivo-nivolumab-Across-Multiple-Solid-Tumor-Indications/default.aspx",
+          "relevance": "Medium",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": false,
+          "summary_ko": "백필: 이번 실행의 조사 기간보다 약 18개월 앞선 사건으로, 정규 Tier-5 규제 캘린더 스윕(EMA CHMP 아젠다 확인) 중 발견되었으며 트래커의 ENHANZE 시판 제품군(installed base)에서 빠져 있었다. 유럽위원회(European Commission)는 Opdivo SC(니볼루맙과 재조합 인간 히알루로니다제(rHuPH20/ENHANZE)의 복합 제형, 피하주사용 600 mg/바이알 주사액)를 기존에 승인된 여러 성인 고형암 적응증(단독요법, IV 니볼루맙+이필리무맙 투여 후 단독요법 유지, 화학요법 또는 카보잔티닙과의 병용)에 대해 승인했다. 이 승인은 EU-27개국과 아이슬란드, 리히텐슈타인, 노르웨이에 적용된다. 이는 이미 추적 중인 미국 승인(Opdivo Qvantig, FDA 2024-12-27, 딜 'halozyme_bms_opdivo-qvantig_2024-12-27')의 EU 버전이며, ENHANZE 시판 제품군의 다른 분자군들(references/platform-product-base.md 참고)과 함께 Opdivo의 ENHANZE 설치 기반 내 입지를 완성시킨다. 이 결정은 3상 CheckMate-67T 시험(4주마다 니볼루맙 1,200 mg SC + rHuPH20 20,000 U) 결과에 근거했으며, IV 니볼루맙 대비 약동학적 비열등성 평가 지표를 충족했고, 진행성 투명세포 신세포암에서 객관적반응률(ORR)은 SC 24% 대 IV 18%였으며 안전성 프로파일은 동등했다. 보도자료에는 mg/mL 농도 수치가 공개되지 않았다. 경쟁 환경에 대한 맥락 정보로 기록하며, 새로운 소식으로 다루지 않는다."
         },
         {
           "deal_id": "halozyme_bms_opdivo-qvantig_2024-12-27",
