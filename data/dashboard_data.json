@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T00:13:22+00:00",
+  "generated_at": "2026-11-12T00:15:20+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -101,14 +101,14 @@
       "stage_raw": "Preclinical / Internal",
       "stage_bucket": "Preclinical",
       "type": "Suspension/particle",
-      "concentration_text": "~380 mg/mL — internal program target concentration (approximate).",
-      "concentration_text_ko": "약 380 mg/mL — 내부 프로그램 목표 농도(근사치).",
-      "concentration_numeric": 380,
+      "concentration_text": "UPDATED 2026-11-09: 400+ mg/mL — publicly disclosed concentration achieved without hyaluronidase, per the co-development agreement among Daewoong Pharmaceutical, Daewoong Therapeutics and Daewoong Bio announced 2026-11-09 (supersedes the prior ~380 mg/mL internal estimate).",
+      "concentration_text_ko": "2026-11-09 갱신: 400+ mg/mL — 히알루로니다제 없이 달성한 공개 농도이며, 2026-11-09 발표된 대웅제약·대웅테라퓨틱스·대웅바이오의 공동개발 계약에 근거한다(기존 내부 추정치 약 380 mg/mL를 대체함).",
+      "concentration_numeric": 400,
       "concentration_bucket": "300–450 mg/mL",
       "needle_size": "Not disclosed",
       "needle_size_ko": "비공개",
-      "mechanism": "Second internal high-concentration reformulation target, tracked alongside H-Cure as a benchmark against external platforms.",
-      "mechanism_ko": "두 번째 내부 고농도 재제형 목표로, 외부 플랫폼 대비 벤치마크로서 H-Cure와 함께 추적한다.",
+      "mechanism": "UPDATED 2026-11-09: Suspension-based high-concentration reformulation platform that avoids hyaluronidase, high-temperature processing and organic solvents while suppressing viscosity increase at high concentration. Tracked alongside H-Cure as a benchmark against external platforms. A dedicated manufacturing facility in Seongnam, Gyeonggi-do is targeted for completion by December 2027.",
+      "mechanism_ko": "2026-11-09 갱신: 히알루로니다제, 고온 공정, 유기용매를 배제하면서 고농도에서 점도 상승을 억제하는 현탁액 기반 고농도 재제형 플랫폼이다. 외부 플랫폼 대비 벤치마크로서 H-Cure와 함께 추적한다. 경기도 성남시에 전용 제조소를 건설 중이며 2027년 12월 완공을 목표로 한다.",
       "source_label": "Internal",
       "notes": [
         {

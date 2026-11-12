@@ -1,0 +1,274 @@
+{
+  "run_date": "2026-11-12",
+  "window": {
+    "from": "2026-11-11T09:09:39+09:00",
+    "to": "2026-11-12T09:14:58+09:00",
+    "tz": "Asia/Seoul",
+    "extended": false,
+    "note": "Normal weekday run. Previous run (2026-11-11) completed at 2026-11-11T09:09:39+09:00 KST; no gap since then (today is Thursday, not a Monday and not post-gap), so the window is the ordinary ~24h previous-completion-to-now, per SKILL.md 1.1."
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous November 2026"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license November 2026"},
+    {"tier": 1, "lang": "en", "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous November 2026"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" news November 2026"},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\" 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\" biologics deal November 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal November 2026 / hyaluronidase SC formulation deal 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 / 고농축 현탁 주사 기술 2026년 11월"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration formulation November 2026"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도 2026년 11월"},
+    {"tier": 3, "lang": "registry", "query": "FDA.gov / ClinicalTrials.gov registry sweep for tracked technologies expecting filings"},
+    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 2026년 11월"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 / 특허청 히알루로니다제 고농도 제형 2026년 11월"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출 2026년 11월"},
+    {"tier": 5, "lang": "en", "query": "EMA CHMP meeting highlights November 2026 (Tier 5 molecule scan)"},
+    {"tier": 5, "lang": "ja", "query": "MHLW PMDA 新薬 一斉承認 2026年11月"},
+    {"tier": 5, "lang": "en", "query": "FDA.gov 2026 Biological Approvals / FDA Novel Drug Approvals November 2026"},
+    {"tier": 5, "lang": "ko", "query": "식약처 의약품 허가 목록 2026년 11월"},
+    {"tier": 5, "lang": "zh", "query": "NMPA 药品批准 2026年11月 approval list"},
+    {"tier": 0, "lang": "ko", "query": "supplementary verification: 인벤티지랩 IVL-BioFluidic 국제특허출원 PCT (dedupe check)"},
+    {"tier": 0, "lang": "ko", "query": "supplementary verification: 삼성바이오에피스 SB27 키트루다 바이오시밀러 SITC 2026 피하주사 angle check"},
+    {"tier": 0, "lang": "ko", "query": "supplementary verification: 대웅제약 써미크라 Thermicra 400mg 공동개발 corroboration"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "Daewoong Pharmaceutical / Daewoong Therapeutics / Daewoong Bio co-development agreement for Thermicra (써미크라) high-concentration SC platform; 400+ mg/mL without hyaluronidase",
+      "published": "2026-11-09", "lang": "ko",
+      "gate_a": "reject", "gate_b": "pass", "gate_c": "secondary", "gate_d": "correction",
+      "gate_e": "Fails Gate A by the standing rule -- Thermicra is our own internal benchmark platform and is never logged as an external Technology or Deal row, regardless of how it is disclosed.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A standing rule (see 2026-11-10 precedent, Daewoong CURE/PODD item): H-Cure/Thermicra, under any name, are internal platforms never logged as Technologies or Deals. HOWEVER: this is a legitimate internal-benchmark number change -- the company's own newly-disclosed public figure (400+ mg/mL, hyaluronidase-free) supersedes the previously recorded ~380 mg/mL internal estimate in data/internal_targets.json, so per the run's standing instruction that file was updated directly (concentration_text/_ko, concentration_numeric, mechanism/_ko on the 'thermicra' record), outside the candidates->findings pipeline. Not included in the digest email -- Thermicra/H-Cure are never presented as external news, and this is an internal-benchmark update, not a competitor finding.",
+      "event_key": null, "canonical": false, "corroborating_urls": ["news.bizwatch.co.kr/article/healthcare/2026/11/09/0012", "dailypharm.com/user/news/344048", "medigatenews.com/news/2118550904", "dealsite.co.kr/articles/166308"]
+    },
+    {
+      "raw_title": "Halozyme ENHANZE/Hypercon Tier-1 EN sweep (Vertex Hypercon license, Surf Bio acquisition background)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Vertex/Hypercon license and Surf Bio acquisition already logged in deals_db.py; no new dated event this window.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen ALT-B4/Hybrozyme Tier-1 EN sweep (Novartis $3.223-4.4T deal, Intas, Biogen, Sandoz recap)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "All licensee deals surfaced (Novartis, Intas, Biogen, Sandoz, undisclosed Aug partner) already tracked; no new dated event this window.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "XeriJect/Nanoform/Lindy/Crystalomics/InventageLab/Prestige combined Tier-1 EN sweep",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "context", "reject_reason": "Vendor/promotional capability claims (XeriJect >400 mg/mL, Nanoform 500 mg/mL) already tracked; no discrete new dated event for Lindy, Crystalomics, InventageLab or Prestige IDC224 this window.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "할로자임 인핸즈/하이퍼콘 KO sweep (Vertex Hypercon license, Surf Bio acquisition recap)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Already tracked (Vertex Hypercon license ~April 2026, Surf Bio acquisition).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "알테오젠 ALT-B4 기술수출 KO sweep (Novartis, Intas, Biogen, Sandoz recap)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "All already logged.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "삼성바이오에피스/셀트리온 SC 제형 고농도 KO sweep (Hadlima/Yuflyma high-concentration Humira biosimilars, Remsima SC)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "2019-2023-era approvals, already old background; no new dated event this window (Gate B).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "\"High concentration subcutaneous injection\" generic Tier-2 sweep (Ypsomed YpsoDose, Contract Pharma viscosity survey)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Undated explainer/survey content, no discrete new event (Gate B).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "\"Ultra-concentrated antibody formulation\" sweep (Harvard/Mitragotri ionic-liquid CHAT papers, Celltrion/G2GBio MOU, WuXiHigh 2.0)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "academic_ionic_liquid_chat, Celltrion/G2GBio MOU (2026-07-30) and WuXiHigh 2.0 rows already tracked; no new dated event.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "\"High concentration injection\" biologics-deal sweep (Halozyme/Surf Bio, Nanoform exclusivity, Fresenius/WuXi biosimilar deal, BI/Sino Biopharma oncology option)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Halozyme/Surf Bio and Nanoform exclusivity already tracked; Fresenius/WuXi biosimilar partnership and BI/Sino Biopharma oncology option have no SC-concentration/delivery-technology angle (Gate A/B).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "\"High concentration suspension injection technology\" patent/literature sweep",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Older USPTO grants and general literature on non-aqueous suspension vehicles; no discrete new dated event (Gate B).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Dupixent high-concentration SC reformulation sweep (EN+KO)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Only indication-expansion (pediatric CSU/bullous pemphigoid), reimbursement and patent-expiry background; no new formulation/concentration/device news (Gate B).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "DART/기술이전 공시 sweep (Alteogen/Celltrion/Samsung Bioepis/Samsung Biologics)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Only Samsung Bioepis SB27 Phase 3 readout (SITC 2026, IV formulation, no SC angle confirmed), Samsung Biologics ESG rating, and stock-movement commentary found; no new licensing disclosure.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "식약처/특허청 고농도 SC sweep (Huons Lab Hydizyme BLA status, Alteogen Tergase, Keytruda SC Korea approval recap)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Huons Lab Hydizyme BLA, Alteogen Tergase MFDS approval and Keytruda SC Korea approval already tracked; no new figure or filing this window.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "국산 고농도 항체 제형 기술수출 sweep (InventageLab PCT recap, G2GBio InnoBioLAMP 750mg/mL recap)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "InventageLab PCT filing already logged as inventagelab_pct-patent_2026-09-29 (confirmed same event via Hankyung 2026-09-29 article id); G2GBio InnoBioLAMP 750 mg/mL PODD 2026 disclosure already tracked.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Bioepis SB27 (Keytruda biosimilar) global Phase 3 equivalence readout at SITC 2026",
+      "published": "2026-11-04/08", "lang": "ko",
+      "gate_a": "reject", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "No SC-formulation angle confirmed for SB27 in this readout (IV biosimilar equivalence data only); fails Gate A per standing ruling against device/IV-biosimilar news with no concentration/delivery-technology claim.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "'국산 키트루다 시밀러, 피하주사 벽 만났다' (Celltrion/Samsung Bioepis Keytruda-SC-barrier analysis, dailian.co.kr)",
+      "published": "2026-08-17", "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject", "reject_reason": "Out-of-window recap of already-tracked events (Samsung Bioepis MFDS filing/WIPO patent, Celltrion EU Herzuma SC filing); mainly strategy/market analysis around the ALT-B4 patent barrier, not a new discrete event (Gate B).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "EMA CHMP meeting highlights (Tier 5 molecule scan)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Only the November 2025 CHMP meeting indexed by search; no November 2026 CHMP highlights published yet at check time. No Tier 5 molecule-list name found in available results.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "MHLW/PMDA batch approval release (Tier 5)",
+      "published": null, "lang": "ja",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "No November 2026 batch-approval release indexed; only 2025 historical approval-count data and general 'drug loss' policy background surfaced.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA Novel Drug Approvals 2026 list (Tier 5)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Only expected-decision dates surfaced (ivonescimab Nov 14, deramiocel Nov 22, venglustat Nov 25, povetacicept Nov 30 -- none yet decided as of run time, 2026-11-12); no Tier 5 molecule-list approval found for November 2026.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "MFDS 의약품 허가 목록 (Tier 5)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "November 2026 monthly approval list not yet indexed this early in the month (only Sep/Aug/May/Jan 2026 monthly recaps found).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "NMPA 药品批准 (Tier 5)",
+      "published": null, "lang": "zh",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Only late-October 2026 approvals indexed (batoclimab, asundexian), neither on the Tier 5 molecule list and neither SC-related; no November 2026 list available yet.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    }
+  ],
+  "findings": [],
+  "gate_d_conflicts": [],
+  "zero_hit_technologies": [
+    "xeriject", "microglassification", "enhanze", "hypercon", "alt-b4_hybrozyme", "genentech_unbranded_sc",
+    "academic_spray_dried", "celltrion_herzuma_sc", "prestige_biopharma_idc224",
+    "inventagelab_ivl_biofluidic", "samsungbio_s-hicon", "wuxibio_wuxihigh2",
+    "chengdu_rongsheng_tiantan_weian", "snapshot_surfbio", "nanoform_nanoforming",
+    "crystalomics_althea", "academic_solvent_dehydration_hydrogel", "sanofi_sarclisa_escena_sc",
+    "brl_hc_sc_platform", "samsungbioepis_ph20_sc", "g2gbio_innobiolamp",
+    "alphamab_sc_hc_platform", "eisai_biogen_leqembi_iqlik_sc", "huonslab_hydiffuze",
+    "amicogen_hyaluronidase", "academic_ionic_liquid_chat", "arecor_arestat",
+    "gc_viscosity_excipient", "altruist_altru_con", "chongkundang_ph20_sc",
+    "henlius_hlx15_sc", "bambusa_bbt001", "lonza_aseptic_spray_drying",
+    "henlius_hlx02_sc", "henlius_hlx319_phesgo_sc", "bd_ypsomed_xtraflow_5-5ml"
+  ],
+  "new_untracked_competitors_identified": [],
+  "tier5_assessment": "Tier 5 (queries 18-22) surfaced nothing this run -- all five regulator list/calendar checks came back unconfirmed/not-yet-indexed for November 2026, and none of the items that did surface (2025 CHMP meeting, 2025 Japan approval-count data, expected-not-yet-decided FDA dates, pre-November MFDS recaps, late-October NMPA approvals) named a Tier 5 molecule. No name-search query (Tier 1/2) caught anything Tier 5 would have missed, or vice versa, this run -- a quiet run for both approaches.",
+  "egress_blocked": [
+    "dart.fss.or.kr (standing block, not retried)"
+  ],
+  "fetch_failures_non_block": [
+    "dailypharm.com/user/news/344048 returned HTTP 503 on WebFetch -- worked around via WebSearch summary and a second source (news.bizwatch.co.kr) for the Thermicra item",
+    "dealsite.co.kr/articles/166308 returned HTTP 403 on WebFetch (likely bot-protection, not on the known block list) -- worked around via WebSearch summary citing medigatenews.com and bizwatch.co.kr for the same event"
+  ],
+  "dart_fallback_ladder_used": "Not invoked this run -- no Korean disclosure item required it (no DART-specific filing surfaced).",
+  "date_source_tally": {"url": 3, "page": 0, "second_source": 0, "unconfirmed": 20},
+  "internal_targets_update": {
+    "file": "data/internal_targets.json",
+    "record": "thermicra",
+    "change": "concentration_text/_ko updated from '~380 mg/mL (approximate)' to 'UPDATED 2026-11-09: 400+ mg/mL' (hyaluronidase-free); concentration_numeric 380 -> 400; mechanism/_ko updated to describe the hyaluronidase-free/high-temperature-free/organic-solvent-free process and the Seongnam manufacturing facility (targeted completion Dec 2027)",
+    "reason": "Daewoong Pharmaceutical's own 2026-11-09 announcement of a co-development agreement among Daewoong Pharmaceutical, Daewoong Therapeutics and Daewoong Bio publicly disclosed Thermicra's concentration figure for the first time (400+ mg/mL), superseding the prior internal estimate. Per the run's standing instruction, data/internal_targets.json may be updated when an internal benchmark's own numbers change -- this is that case. Thermicra itself is still never logged as an external Technology or Deal row (Gate A standing rule) and is not presented in the digest email.",
+    "corroboration": ["news.bizwatch.co.kr/article/healthcare/2026/11/09/0012 (fetched directly)", "dailypharm.com/user/news/344048 (via search, fetch 503)", "medigatenews.com/news/2118550904 (via search)", "dealsite.co.kr/articles/166308 (via search, fetch 403)"]
+  },
+  "notes": "No new findings this run -- every candidate either duplicated an already-tracked event, lacked a discrete dated event (Gate B), lacked an SC-concentration/delivery-technology angle (Gate A), or (Tier 5) found no indexed regulator list/meeting for November 2026 yet. The one actionable item, Daewoong's own Thermicra disclosure, is handled as an internal_targets.json benchmark update rather than a tracker finding, per the Gate A standing rule that H-Cure/Thermicra are never logged as external Technologies or Deals. 25 total queries run (22-query fixed matrix + 3 supplementary verification/dedupe-check queries)."
+}
