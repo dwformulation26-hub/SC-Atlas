@@ -1,0 +1,242 @@
+{
+  "run_date": "2026-11-13",
+  "window": {
+    "from": "2026-11-12T09:14:58+09:00",
+    "to": "2026-11-13T09:11:40+09:00",
+    "tz": "Asia/Seoul",
+    "extended": false,
+    "note": "Normal weekday run. Previous run (2026-11-12) completed at 2026-11-12T09:14:58+09:00 KST; today is Friday, not a Monday and not post-gap (runs completed on 2026-11-09, -10, -11, -12 with no missed day), so the window is the ordinary ~24h previous-completion-to-now, per SKILL.md 1.1."
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous November 2026"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license November 2026"},
+    {"tier": 1, "lang": "en", "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous November 2026"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도 2026년 11월"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출 2026년 11월"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도 2026년 11월"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" news November 2026"},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\" 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration injection\" biologics deal November 2026"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal November 2026 / hyaluronidase SC formulation deal 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 / 고농축 현탁 주사 기술 2026년 11월"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration formulation November 2026"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도 2026년 11월"},
+    {"tier": 3, "lang": "registry", "query": "ClinicalTrials.gov / FDA.gov registry sweep for tracked technologies expecting filings (Xeris XeriJect, Nanoform, Hypercon)"},
+    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 2026년 11월"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 / 특허청 히알루로니다제 고농도 제형 2026년 11월"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출 2026년 11월"},
+    {"tier": 5, "lang": "en", "query": "EMA CHMP meeting highlights November 2026 (Tier 5 molecule scan)"},
+    {"tier": 5, "lang": "ja", "query": "MHLW PMDA 新薬 一斉承認 2026年11月"},
+    {"tier": 5, "lang": "en", "query": "FDA Novel Drug Approvals 2026 November Biological Approvals"},
+    {"tier": 5, "lang": "ko", "query": "식약처 의약품 허가 목록 2026년 11월"},
+    {"tier": 5, "lang": "zh", "query": "NMPA 药品批准 2026年11月 approval list"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme ENHANZE/Hypercon Tier-1 EN sweep (Vertex Hypercon, GSK/Incyte ENHANZE, Surf Bio recap)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "All deals surfaced (Vertex Hypercon, GSK ENHANZE, Incyte ENHANZE, Surf Bio acquisition) already logged in deals_db.py; no new dated event this window.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen ALT-B4/Hybrozyme Tier-1 EN sweep (Novartis $3.2bn, undisclosed-partner $365M, Biogen, 3Q earnings recap)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "All licensee deals surfaced already tracked; Alteogen's 2026-11-03 Q3 earnings report has no new SC-platform deal content, pure financial recap (Gate B).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "XeriJect/Nanoform/Lindy/Crystalomics/InventageLab/Prestige combined Tier-1 EN sweep",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "context", "reject_reason": "Xeris Q3 2026 earnings date (Nov 5) surfaced but results content not found; XeriJect >400 mg/mL capability claim already tracked. No discrete new dated event for the other five names this window.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "할로자임 인핸즈/하이퍼콘 KO sweep (Vertex, GSK, Huonslab HyDIFFUZE/HYDIZYME recap)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Already tracked (Vertex Hypercon license, GSK ENHANZE, Huonslab HyDIZYME BLA filing).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "알테오젠 ALT-B4 기술수출 KO sweep (Novartis 4.4조, 3Q 실적 발표 789억 영업익 recap)",
+      "published": "2026-11-03", "lang": "ko",
+      "gate_a": "reject", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Pure quarterly-earnings/financial-performance report (operating profit, revenue) with no new SC-platform licensing or technology event named; fails Gate A/B as market-size/financial commentary, not a discrete technology event.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "삼성바이오에피스/셀트리온 SC 제형 고농도 KO sweep (Samsung Epis Holdings spin-off, SB27 SITC readout recap)",
+      "published": "2026-11-09", "lang": "ko",
+      "gate_a": "reject", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Samsung Biologics corporate spin-off creating Samsung Epis Holdings (biosimilar business separation) is a corporate-structure event with no SC-formulation/concentration/device angle; fails Gate A (standing rule against corporate-structure/stock-movement news with no delivery-technology content). SB27 SITC 2026 readout already rejected on 2026-11-12 run (IV biosimilar equivalence data only, no SC angle) -- same item, no new angle surfaced.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "\"High concentration subcutaneous injection\" generic Tier-2 sweep (Rybrevant Faspro HNSCC approval recap, Satralizumab TED/MOGAD FDA decision dates, WuXi webinar)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Rybrevant Faspro HNSCC accelerated approval (2026-11-05) already logged 2026-11-06 (deal 'halozyme_janssen_rybrevant-faspro_hnscc-approval_2026-11-05'). Satralizumab TED/MOGAD items are not on a tracked SC-delivery-technology (Roche in-house formulation, no concentration/device claim found) -- Gate A reject. WuXi webinar already past (Oct 29), no new content.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "\"Ultra-concentrated antibody formulation\" sweep (Harvard/Mitragotri ionic-liquid + CHAT papers, Celltrion/G2GBio MOU, WuXiHigh 2.0 recap)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "academic_ionic_liquid_chat, Celltrion/G2GBio MOU (2026-07-30) and WuXiHigh 2.0 rows already tracked; no new dated event this window.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "\"High concentration injection\" biologics-deal sweep (Fresenius/WuXi biosimilar deal, BI/Sino Biopharma oncology option, Halozyme/Surf Bio, Nanoform exclusivity)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Fresenius/WuXi biosimilar partnership (Nov 2) and BI/Sino Biopharma $7B oncology option (Nov 4) have no SC-concentration/delivery-technology angle (ADC/T-cell-engager licensing and biosimilar manufacturing access, not formulation technology) -- Gate A/B reject. Halozyme/Surf Bio and Nanoform exclusivity already tracked.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "\"High concentration suspension injection technology\" patent/literature sweep",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Older USPTO grants (XeriJect-family patents already known) and general literature on non-aqueous suspension vehicles; no discrete new dated event (Gate B).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Dupixent high-concentration SC reformulation sweep (EN+KO) -- no new formulation event",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Only existing-presentation label data (150/175 mg/mL), pediatric/CSU/bullous-pemphigoid indication and reimbursement background, and patent-expiry timeline background; no new formulation/concentration/device news (Gate B).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "ClinicalTrials.gov/FDA.gov registry sweep for XeriJect, Nanoform, Hypercon",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "No new trial registration or FDA filing surfaced beyond already-tracked XeriJect/Horizon teprotumumab and Regeneron collaborations; no discrete new dated event (Gate B).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "DART/기술이전 공시 sweep (Alteogen/Celltrion/Samsung Bioepis/Samsung Biologics) -- Samsung Epis Holdings spin-off, SB27 SITC recap",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "No new licensing disclosure found; Samsung corporate-split and stock-movement commentary already rejected above (Gate A); SB27 SITC readout already rejected on prior run.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "식약처/특허청 고농도 SC sweep (Huonslab HyDIFFUZE 11-antibody patent recap, HYDIZYME BLA status, Samsung Bioepis patent recap, Tergase/Keytruda SC recap)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "Huonslab HyDIFFUZE 11-antibody-composition patent registration/PCT filing (reported 2026-07-27), HYDIZYME BLA status, Samsung Bioepis patent, Alteogen Tergase MFDS approval and Keytruda SC Korea approval all already tracked; no new figure or filing dated inside this window.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "국산 고농도 항체 제형 기술수출 sweep (G2GBio InnoBioLAMP PODD recap, InventageLab PCT recap, Samsung Bioepis/Proteina AI-antibody deal, Celltrion/Kaigene $736M deal)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "dup_deal_id",
+      "verdict": "reject", "reject_reason": "G2GBio InnoBioLAMP (PODD backfill already logged 2026-10-23) and InventageLab PCT filing already tracked. Samsung Bioepis/Proteina AI-antibody-discovery deal and Celltrion/Kaigene autoimmune antibody deal have no SC-concentration/delivery-technology angle (Gate A reject -- discovery/target licensing, not formulation technology).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "EMA CHMP meeting highlights (Tier 5 molecule scan)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Only the November 2025 CHMP meeting indexed by search; November 2026 CHMP highlights not yet published at check time (CHMP typically publishes Friday of its meeting week -- today is Friday 2026-11-13, so this week's highlights may post later today, after this run). No Tier 5 molecule-list name found in available results.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "MHLW/PMDA batch approval release (Tier 5)",
+      "published": null, "lang": "ja",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "No November 2026 batch-approval release indexed; only 2025 full-year approval-count data (44 new active ingredients) and general drug-loss policy background surfaced.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA Novel Drug Approvals 2026 list (Tier 5)",
+      "published": null, "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Most recent third-party tracker snapshot dated 2026-10-17 (46 novel drugs, 13 biologics); no November entries confirmed and no Tier 5 molecule-list name surfaced for November 2026.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "MFDS 의약품 허가 목록 (Tier 5)",
+      "published": null, "lang": "ko",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "November 2026 monthly approval list not yet published this early in the month (only Sep/Aug 2026 monthly recaps found; search explicitly notes the November tally is not out yet as of 2026-11-13).",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "NMPA 药品批准 (Tier 5)",
+      "published": null, "lang": "zh",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new",
+      "gate_e": null, "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject", "reject_reason": "Only late-October 2026 approvals indexed (asundexian/batoclimab), neither on the Tier 5 molecule list and neither SC-related; no November 2026 list available yet.",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    }
+  ],
+  "findings": [],
+  "gate_d_conflicts": [],
+  "zero_hit_technologies": [
+    "xeriject", "microglassification", "enhanze", "hypercon", "alt-b4_hybrozyme", "genentech_unbranded_sc",
+    "academic_spray_dried", "celltrion_herzuma_sc", "prestige_biopharma_idc224",
+    "inventagelab_ivl_biofluidic", "samsungbio_s-hicon", "wuxibio_wuxihigh2",
+    "chengdu_rongsheng_tiantan_weian", "snapshot_surfbio", "nanoform_nanoforming",
+    "crystalomics_althea", "academic_solvent_dehydration_hydrogel", "sanofi_sarclisa_escena_sc",
+    "brl_hc_sc_platform", "samsungbioepis_ph20_sc", "g2gbio_innobiolamp",
+    "alphamab_sc_hc_platform", "eisai_biogen_leqembi_iqlik_sc", "huonslab_hydiffuze",
+    "amicogen_hyaluronidase", "academic_ionic_liquid_chat", "arecor_arestat",
+    "gc_viscosity_excipient", "altruist_altru_con", "chongkundang_ph20_sc",
+    "henlius_hlx15_sc", "bambusa_bbt001", "lonza_aseptic_spray_drying",
+    "henlius_hlx02_sc", "henlius_hlx319_phesgo_sc", "bd_ypsomed_xtraflow_5-5ml"
+  ],
+  "new_untracked_competitors_identified": [],
+  "tier5_assessment": "Tier 5 (queries 19-23) surfaced nothing this run -- all five regulator list/calendar checks came back unconfirmed/not-yet-indexed for November 2026 (EMA's November CHMP meeting highlights likely post later today, Friday 2026-11-13, after this run's check; MHLW, FDA tracker, MFDS and NMPA monthly/running lists have not yet published a November 2026 cut as of check time). No name-search query (Tier 1/2) caught anything Tier 5 would have missed, or vice versa, this run -- a quiet run for both approaches, consistent with 2026-11-12.",
+  "egress_blocked": [
+    "dart.fss.or.kr (standing block, not retried)"
+  ],
+  "fetch_failures_non_block": [],
+  "dart_fallback_ladder_used": "Not invoked this run -- no Korean disclosure item required it (no DART-specific filing surfaced; relied on WebSearch summaries of trade press/aggregators for all Korean-source candidates).",
+  "date_source_tally": {"url": 2, "page": 0, "second_source": 0, "unconfirmed": 21},
+  "internal_targets_update": null,
+  "notes": "No new findings this run -- every candidate either duplicated an already-tracked event (Vertex/Hypercon, GSK/Incyte ENHANZE, Novartis/Alteogen, Huonslab HyDIFFUZE/HYDIZYME, Rybrevant Faspro HNSCC approval, G2GBio InnoBioLAMP, InventageLab PCT, Keytruda SC/Tergase approvals, academic ionic-liquid/CHAT papers, Celltrion/G2GBio MOU, WuXiHigh 2.0, Nanoform exclusivity, Halozyme/Surf Bio), lacked a discrete dated event (Gate B -- Alteogen Q3 earnings recap, Dupixent indication/reimbursement background, XeriJect/Nanoform/Lindy/Crystalomics/Prestige general sweep, non-aqueous-suspension patent/literature background), lacked an SC-concentration/delivery-technology angle (Gate A -- Samsung Epis Holdings corporate spin-off, SB27 SITC IV-biosimilar readout, satralizumab TED/MOGAD, Fresenius/WuXi biosimilar-manufacturing deal, BI/Sino Biopharma ADC/T-cell-engager oncology option, Samsung Bioepis/Proteina AI-antibody-discovery deal, Celltrion/Kaigene autoimmune-antibody deal), or (Tier 5) found no indexed regulator list/meeting for November 2026 yet. 23 total queries run (22-query fixed matrix, with Tier 3's query 13 run as separate EN and KO searches per established practice, plus the Tier 3 registry sweep as query 15). No internal_targets.json update needed this run -- Thermicra's 2026-11-09 figure update (made on 2026-11-12) stands unchanged; no new internal-benchmark disclosure found."
+}
