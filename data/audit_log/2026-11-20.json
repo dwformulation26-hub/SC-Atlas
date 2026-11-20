@@ -1,0 +1,623 @@
+{
+  "run_date": "2026-11-20",
+  "window": {
+    "from": "2026-11-19T09:13:23+09:00",
+    "to": "2026-11-20T09:09:00+09:00",
+    "tz": "Asia/Seoul"
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous November 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license November 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous November 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" news November 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" biologic deal license 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal November 2026 / hyaluronidase SC formulation deal 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 2026 / 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration November 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "FDA ClinicalTrials.gov XeriJect Hypercon ENHANZE trial filing November 2026 (registry sweep)"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 11월"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 2026년 11월 / 특허청 히알루로니다제 고농도 제형"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP meeting highlights November 2026"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "MHLW PMDA 新薬 一斉承認 2026年11月"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "FDA.gov Novel Drug Approvals 2026 list November"
+    },
+    {
+      "tier": 5,
+      "lang": "ko",
+      "query": "식약처 의약품 허가 목록 2026년 11월"
+    },
+    {
+      "tier": 5,
+      "lang": "zh",
+      "query": "NMPA 药品批准 2026年11月"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Halozyme Alteogen news November 19 2026 (targeted follow-up)"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "알테오젠 할로자임 11월 19일 (targeted follow-up)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Daewoong Thermicra subcutaneous November 2026 (targeted follow-up)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Dutch court MSD Keytruda SC injunction Halozyme patent 2026 (targeted deep-dive, extended mode)"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "medigatenews 11월14일 알테오젠 할로자임 (targeted follow-up)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Halozyme Merck Germany appeal hearing Keytruda SC November 19 2026 outcome ruling (targeted deep-dive, extended mode)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "WebFetch ir.halozyme.com German PI hearing press release (primary-source verification)"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme Provides Update on German Preliminary Injunction Hearing (Munich Higher Regional Court overturns Dec-2025 Keytruda SC injunction)",
+      "published": "2026-11-19",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Directly serves the ENHANZE-vs-ALT-B4 SC-delivery competition question: changes whether MSD/Alteogen's ALT-B4-enabled Keytruda SC can be marketed in Germany while the broader 8-country EU injunction stands.",
+      "date_source": "page",
+      "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "halozyme_msd_germany-injunction-reversed_2026-11-19",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.streetinsider.com/Corporate+News/German+court+overturns+injunction+blocking+Mercks+Keytruda+SC+launch/27374248.html",
+        "https://www.rttnews.com/3716462/halozyme-to-pursue-permanent-patent-case-against-merck-after-german-court-reverses-injunction.aspx",
+        "https://stockhouse.com/news/press-releases/2026/11/19/halozyme-provides-update-on-german-preliminary-injunction-hearing"
+      ]
+    },
+    {
+      "raw_title": "Halozyme/argenx ENHANZE expansion to 8 targets",
+      "published": "2026-10-06",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme/GSK ENHANZE license for oncology ADC targets",
+      "published": "2026-05-07",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: halozyme_gsk_2026-05. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme/Vertex Hypercon license",
+      "published": "2026-04",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: halozyme_vertex_2026-04. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme/Takeda vedolizumab ENHANZE continuation",
+      "published": "2026-01-08",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: halozyme_takeda_vedolizumab_2026-01-08. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme acquisition of Surf Bio",
+      "published": "2025-12",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: surfbio_halozyme_2025-12. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen/Novartis ALT-B4 option+license (~$3.2-4.4B)",
+      "published": "2026-09-02",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: alteogen_novartis_2026-09. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen/undisclosed global pharma ALT-B4 license ($365M)",
+      "published": "2026-08-04/05",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: alteogen_undisclosed-pharma_2026-08. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen/Biogen ALT-B4 license (~$579M)",
+      "published": "2026-03-25",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: alteogen_gsk-tesaro_2026-01 / separate Biogen row (verified tracked under 2026 Alteogen deal set). No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen/GSK-Tesaro dostarlimab ALT-B4 license",
+      "published": "2026-01",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: alteogen_gsk-tesaro_2026-01. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme/Incyte INCA033989 ENHANZE license",
+      "published": "2026-07",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: halozyme_incyte_2026-07. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "WuXi Biologics WuXiHigh 2.0 platform launch",
+      "published": "2026",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: wuxibio_coverage_2026. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion/G2G Bio InnoBioLAMP MOU+MTA",
+      "published": "2026-07-30",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: g2gbio_celltrion_mou_2026-07-30. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "G2G Bio InnoBioLAMP PODD 2026 presentation",
+      "published": "2026-10-14 / 2026-10-29",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: g2gbio_innobiolamp_podd2026-announcement_2026-10-14. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "InventageLab IVL-BioFluidic PODD 2026 25G needle-gauge data",
+      "published": "2026-10-29",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: inventagelab_podd2026-presentation_2026-10-29. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Nanoform 18-month room-temp stability data, AAPS PharmSci 360",
+      "published": "2026-10-29",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: already added prior run (2026-11-02 commit). No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion Herzuma SC Korea/EU filings",
+      "published": "2026-04/05",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: already tracked (Celltrion Herzuma SC filing rows). No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Prestige Biopharma IDC224 patent filing",
+      "published": "2026-04-23",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: already tracked (Prestige IDC224 patent row). No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Bio/Samsung Biologics-Celltrion CDMO DS supply contract (Nov 3 2026, KRW434.3B)",
+      "published": "2026-11-03",
+      "lang": "en/ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Serves the tracker's platform-comparison question in general, but is not a new event this run.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already present in data/deals_db.py (or data/audit_log of a prior run) under: None. No new in-window detail surfaced beyond the existing row.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "EMA CHMP meeting highlights, 9-12 Nov 2026 (published 13 Nov 2026) -- 7 new medicines (Aumseqa, Baxfendy, Zybrivo, 2 biosimilar insulin, 2 generics), 11 indication extensions incl. Gazyvaro (obinutuzumab) for SLE, Isturisa pediatric extension",
+      "published": "2026-11-13",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: none of the molecules in this CHMP cycle (Aumseqa/aumolertinib, Baxfendy/baxdrostat, Zybrivo/sintilimab, Gazyvaro/obinutuzumab, Isturisa/osilodrostat) appear on the Tier-5 tracked-molecule list (references/platform-product-base.md); no SC-concentration angle. Also outside the ~24h window (published 2026-11-13).",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "MHLW Japan batch approval, 16 Nov 2026 -- 12 ingredients / 21 products; only new active ingredient is AbbVie's Type-E botulinum toxin (\"Bowie\" injection 1400U)",
+      "published": "2026-11-16",
+      "lang": "ja",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: the sole new-active-ingredient item (botulinum toxin) is not on the Tier-5 molecule list and has no SC-concentration/delivery-technology angle. Outside window.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "China NMPA, early/mid-Nov 2026 -- Dupixent (dupilumab) indication expansion to chronic rhinosinusitis with nasal polyps (adults/adolescents); Pfizer marstacimab new indication, same period",
+      "published": "2026-11",
+      "lang": "zh",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "unconfirmed",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: an indication expansion with no concentration/device/formulation angle is explicitly out of scope per the standing ruling (device/indication-only SC items are rejected unless concentration or volume is the subject). Source also could not confirm the year (zh-language aggregator did not state it explicitly), so date is unconfirmed regardless.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "China NMPA, Nov 12 2026 -- 3 Class-1 innovative drugs approved same day (Sinnovent imipenem-relebactam-class antibiotic, Lilly orforglipron-class, Hengrui's HER inhibitor) + Nov 5-6 CAR-T and herbal-medicine approvals",
+      "published": "2026-11-05/12",
+      "lang": "zh",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "reject",
+      "reject_reason": "Gate A: none of these are SC high-concentration delivery technology or tracked-molecule installed-base events; unrelated therapeutic classes/formulations.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen debuts at Jefferies Global Healthcare Conference, London (16-19 Nov 2026); company says it will pursue partnership talks to expand Hybrozyme application areas",
+      "published": "2026-11-14",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Would serve the tracker's question if it became a dated deal, but as reported it is forward-looking conference framing with no signed agreement or new figure.",
+      "date_source": "url",
+      "dedupe": "new",
+      "verdict": "context",
+      "reject_reason": "Gate B: no discrete dated event (deal, filing, trial, publication) -- only a statement of intent to hold partnership discussions at a conference.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "General trade-press explainers on the SC-conversion trend / high-concentration formulation challenges (ContractPharma, ONdrugDelivery, CPHI)",
+      "published": null,
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "context",
+      "reject_reason": "Gate B: undated/recurring review-article content ('the SC trend is growing'), explicitly excluded by the gate.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "2021-2023 Samsung Bioepis / Celltrion high-concentration Humira-biosimilar (adalimumab) coverage resurfaced by the Tier-1 Korean query",
+      "published": "2021-2023",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "url",
+      "dedupe": "n/a",
+      "verdict": "context",
+      "reject_reason": "Gate B/dedupe: years-old, already-public biosimilar launch history with no new event; not a tracked SC-concentration platform finding and predates the tracker's baseline.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "ENHANZE (rHuPH20)",
+      "company": "Halozyme Therapeutics",
+      "event": "Munich Higher Regional Court overturns Dec-2025 German preliminary injunction against Merck's Keytruda SC (ALT-B4-enabled); 8-country Dutch injunction unaffected and remains in force",
+      "date": "2026-11-19",
+      "freshness": "fresh",
+      "source_name": "Halozyme press release (ir.halozyme.com)",
+      "source_url": "https://ir.halozyme.com/news/news-details/2026/Halozyme-Provides-Update-on-German-Preliminary-Injunction-Hearing/default.aspx",
+      "confidence": "Primary",
+      "summary": "See deal halozyme_msd_germany-injunction-reversed_2026-11-19 in data/deals_db.py for the full summary.",
+      "summary_ko": "data/deals_db.py의 halozyme_msd_germany-injunction-reversed_2026-11-19 항목의 summary_ko 참조.",
+      "conflicts_with": null
+    }
+  ]
+}

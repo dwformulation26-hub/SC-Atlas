@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T00:16:17+00:00",
+  "generated_at": "2026-11-20T00:15:36+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -70,7 +70,7 @@
     "tracked": 38,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 125,
+    "deals_tracked": 126,
     "flagged_deals": 14
   },
   "internal_targets": [
@@ -947,6 +947,22 @@
       "date_added": "2026-07-12",
       "last_reviewed": "2026-09-17",
       "deals": [
+        {
+          "deal_id": "halozyme_msd_germany-injunction-reversed_2026-11-19",
+          "partner": "Merck (MSD) -- adversarial (litigation)",
+          "deal_type": "IP/Patent litigation (preliminary injunction reversed on appeal)",
+          "date": "2026-11-19",
+          "date_sort_key": 20261119,
+          "summary": "On 2026-11-19 the Munich Higher Regional Court overturned the Munich Regional Court's December 2025 preliminary injunction (see halozyme_merck_germany-injunction_2025-12-04) that had barred Merck/MSD from distributing or offering Keytruda SC (pembrolizumab + ALT-B4) in Germany -- so Keytruda SC can, for now, again be marketed there pending further proceedings. Halozyme said it was disappointed, disagrees with the ruling, and will immediately file a separate German infringement suit seeking permanent relief, which it states this decision does not preclude. The reversal does not touch the October 2026 Dutch injunction barring Keytruda SC in eight other European countries (Belgium, Denmark, France, Ireland, Italy, Sweden, Switzerland, Netherlands; see halozyme_msd_hague-injunction-8countries_2026-10-07), which remains in force. Halozyme also stated the MDASE patents at issue in this German case are not part of its ENHANZE licensing program and that the outcome will not affect ENHANZE or the royalty revenue it receives from ENHANZE licensees. Net effect for the ENHANZE (rHuPH20) vs. ALT-B4 SC-delivery competition: Germany is -- for now -- no longer blocked for Keytruda SC, while the larger 8-country EU injunction stands, so MSD/Alteogen's ALT-B4-enabled Keytruda SC regains one market but remains excluded from the rest pending Halozyme's new permanent-relief suit.",
+          "molecule": "Pembrolizumab SC (Keytruda SC) -- ALT-B4-enabled formulation",
+          "source_name": "Halozyme press release (ir.halozyme.com, 2026-11-19); corroborated by StreetInsider, RTTNews, Stockhouse, Investing.com/Yahoo Finance",
+          "source_url": "https://ir.halozyme.com/news/news-details/2026/Halozyme-Provides-Update-on-German-Preliminary-Injunction-Hearing/default.aspx",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": true,
+          "summary_ko": "2026-11-19 뮌헨 고등법원(Munich Higher Regional Court)은 뮌헨 지방법원이 2025년 12월 내린, 머크/MSD의 독일 내 키트루다 SC(펨브롤리주맙 + ALT-B4) 유통·공급을 금지한 가처분(halozyme_merck_germany-injunction_2025-12-04 참조)을 뒤집었다 -- 이에 따라 추가 절차가 진행되는 동안 독일에서 키트루다 SC 판매가 당분간 다시 가능해졌다. Halozyme은 이 결정에 실망했으며 동의하지 않는다고 밝혔고, 영구적 구제(permanent relief)를 구하는 별도의 침해 소송을 독일에서 즉시 제기할 것이라고 밝혔다 -- 이번 결정이 그 소송을 막지는 않는다고 설명했다. 이번 뒤집기는 2026년 10월 헤이그 가처분으로 키트루다 SC 판매가 금지된 유럽 8개국(벨기에·덴마크·프랑스·아일랜드·이탈리아·스웨덴·스위스·네덜란드; halozyme_msd_hague-injunction-8countries_2026-10-07 참조)에는 영향을 주지 않으며, 해당 금지는 그대로 유지된다. Halozyme은 이번 독일 소송의 대상인 MDASE 특허가 자사의 ENHANZE 라이선스 프로그램에는 포함되지 않으며, 이번 결과가 ENHANZE 또는 ENHANZE 라이선시로부터 받는 로열티 수익에는 영향을 주지 않는다고 밝혔다. ENHANZE(rHuPH20) 대 ALT-B4의 SC 전달 경쟁 구도에서 보면, 독일은 당분간 키트루다 SC 판매 금지가 해제됐지만 유럽 8개국에 대한 더 큰 규모의 금지는 유지되어, MSD·알테오젠의 ALT-B4 기반 키트루다 SC는 한 시장을 되찾았지만 Halozyme의 새 영구적 구제 소송이 진행되는 동안 나머지 국가에서는 여전히 배제된 상태다."
+        },
         {
           "deal_id": "halozyme_janssen_rybrevant-faspro_hnscc-approval_2026-11-05",
           "partner": "Janssen / Johnson & Johnson",
@@ -2949,6 +2965,24 @@
   ],
   "recent_activity": [
     {
+      "deal_id": "halozyme_msd_germany-injunction-reversed_2026-11-19",
+      "partner": "Merck (MSD) -- adversarial (litigation)",
+      "deal_type": "IP/Patent litigation (preliminary injunction reversed on appeal)",
+      "date": "2026-11-19",
+      "date_sort_key": 20261119,
+      "summary": "On 2026-11-19 the Munich Higher Regional Court overturned the Munich Regional Court's December 2025 preliminary injunction (see halozyme_merck_germany-injunction_2025-12-04) that had barred Merck/MSD from distributing or offering Keytruda SC (pembrolizumab + ALT-B4) in Germany -- so Keytruda SC can, for now, again be marketed there pending further proceedings. Halozyme said it was disappointed, disagrees with the ruling, and will immediately file a separate German infringement suit seeking permanent relief, which it states this decision does not preclude. The reversal does not touch the October 2026 Dutch injunction barring Keytruda SC in eight other European countries (Belgium, Denmark, France, Ireland, Italy, Sweden, Switzerland, Netherlands; see halozyme_msd_hague-injunction-8countries_2026-10-07), which remains in force. Halozyme also stated the MDASE patents at issue in this German case are not part of its ENHANZE licensing program and that the outcome will not affect ENHANZE or the royalty revenue it receives from ENHANZE licensees. Net effect for the ENHANZE (rHuPH20) vs. ALT-B4 SC-delivery competition: Germany is -- for now -- no longer blocked for Keytruda SC, while the larger 8-country EU injunction stands, so MSD/Alteogen's ALT-B4-enabled Keytruda SC regains one market but remains excluded from the rest pending Halozyme's new permanent-relief suit.",
+      "molecule": "Pembrolizumab SC (Keytruda SC) -- ALT-B4-enabled formulation",
+      "source_name": "Halozyme press release (ir.halozyme.com, 2026-11-19); corroborated by StreetInsider, RTTNews, Stockhouse, Investing.com/Yahoo Finance",
+      "source_url": "https://ir.halozyme.com/news/news-details/2026/Halozyme-Provides-Update-on-German-Preliminary-Injunction-Hearing/default.aspx",
+      "relevance": "High",
+      "confidence": "Primary",
+      "flagged": false,
+      "new_in_digest": true,
+      "summary_ko": "2026-11-19 뮌헨 고등법원(Munich Higher Regional Court)은 뮌헨 지방법원이 2025년 12월 내린, 머크/MSD의 독일 내 키트루다 SC(펨브롤리주맙 + ALT-B4) 유통·공급을 금지한 가처분(halozyme_merck_germany-injunction_2025-12-04 참조)을 뒤집었다 -- 이에 따라 추가 절차가 진행되는 동안 독일에서 키트루다 SC 판매가 당분간 다시 가능해졌다. Halozyme은 이 결정에 실망했으며 동의하지 않는다고 밝혔고, 영구적 구제(permanent relief)를 구하는 별도의 침해 소송을 독일에서 즉시 제기할 것이라고 밝혔다 -- 이번 결정이 그 소송을 막지는 않는다고 설명했다. 이번 뒤집기는 2026년 10월 헤이그 가처분으로 키트루다 SC 판매가 금지된 유럽 8개국(벨기에·덴마크·프랑스·아일랜드·이탈리아·스웨덴·스위스·네덜란드; halozyme_msd_hague-injunction-8countries_2026-10-07 참조)에는 영향을 주지 않으며, 해당 금지는 그대로 유지된다. Halozyme은 이번 독일 소송의 대상인 MDASE 특허가 자사의 ENHANZE 라이선스 프로그램에는 포함되지 않으며, 이번 결과가 ENHANZE 또는 ENHANZE 라이선시로부터 받는 로열티 수익에는 영향을 주지 않는다고 밝혔다. ENHANZE(rHuPH20) 대 ALT-B4의 SC 전달 경쟁 구도에서 보면, 독일은 당분간 키트루다 SC 판매 금지가 해제됐지만 유럽 8개국에 대한 더 큰 규모의 금지는 유지되어, MSD·알테오젠의 ALT-B4 기반 키트루다 SC는 한 시장을 되찾았지만 Halozyme의 새 영구적 구제 소송이 진행되는 동안 나머지 국가에서는 여전히 배제된 상태다.",
+      "technology_id": "enhanze",
+      "technology_name": "ENHANZE (rHuPH20)"
+    },
+    {
       "deal_id": "halozyme_janssen_rybrevant-faspro_hnscc-approval_2026-11-05",
       "partner": "Janssen / Johnson & Johnson",
       "deal_type": "Regulatory approval (label expansion)",
@@ -3197,24 +3231,6 @@
       "flagged": false,
       "new_in_digest": false,
       "summary_ko": "알테오젠은 하이브로자임 기반 ALT-B4(베라히알루로니다제 알파)와 펨브롤리주맙(키트루다 SC)의 병용 제형에 대한 조성물 특허가 유럽특허청(EPO)에 등록되었다고 밝혔다. 이미 미국에서 보유한 것과 동일한 조성물 특허 보호를 유럽까지 확대한 것이다. 특허 존속기간은 2040년까지이며, 품목허가 심사 기간을 고려한 추가적 보호증명(SPC)을 통해 최대 5년 추가 연장이 가능하다. 이는 미국·유럽·캐나다·한국·일본에서 이미 허가받은 키트루다 SC를 둘러싼 알테오젠의 지식재산권 지위를 강화하며, 마침 ENHANZE와 ALT-B4가 겹치는 항암 적응증(근침윤성 방광암, halozyme_roche_tecentriq-hybreza_mibc-ctdna_2026-05-15 참조)에서 직접 경쟁 구도에 들어서는 시점과 맞물린다. 2026-09-23 국내 다수 매체(아시아경제, 파이낸셜뉴스, 머니투데이)가 알테오젠 측 발표를 인용해 보도했으며, 보도에는 구체적인 EPO 특허번호는 공개되지 않았다. 알테오젠 자체 IR 페이지는 접속이 차단되어(egress-blocked) 추가 대조는 하지 못했다.",
-      "technology_id": "alt-b4_hybrozyme",
-      "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
-    },
-    {
-      "deal_id": "alteogen_msd_keytruda-sc-eu-chmp-mibc_2026-09-18",
-      "partner": "Merck (MSD) / EMA CHMP",
-      "deal_type": "Regulatory recommendation",
-      "date": "2026-09-18",
-      "date_sort_key": 20260918,
-      "summary": "EU CHMP adopted a positive opinion recommending approval of KEYTRUDA (pembrolizumab) plus Padcev (enfortumab vedotin-ejfv) as perioperative (neoadjuvant then adjuvant) treatment for resectable muscle-invasive bladder cancer (MIBC) -- and the recommendation explicitly covers the subcutaneous formulation, pembrolizumab SC (Keytruda SC / Keytruda Qlex in the US), ALT-B4-enabled. This is a new indication extension for the already-tracked ALT-B4/Hybrozyme SC formulation in the EU, not previously logged. EC final decision expected Q4 2026 for the EU, Iceland, Liechtenstein and Norway.",
-      "molecule": "Pembrolizumab SC (Keytruda SC/Qlex) + enfortumab vedotin-ejfv (Padcev) -- ALT-B4-enabled formulation",
-      "source_name": "Merck.com (primary); corroborated by BioSpace, CancerNetwork, OncLive, Urology Times, RTTNews, StockTitan, InvestingNews, Stockhouse (9 independent outlets, same-day)",
-      "source_url": "https://www.merck.com/news/merck-receives-positive-eu-chmp-opinion-for-keytruda-pembrolizumab-plus-padcev-enfortumab-vedotin-ejfv-as-perioperative-treatment-for-adults-with-cisplatin-ineligible-resectable-muscle/",
-      "relevance": "High",
-      "confidence": "Primary",
-      "flagged": false,
-      "new_in_digest": false,
-      "summary_ko": "EU CHMP가 절제 가능한 근육침윤성 방광암(MIBC)의 수술 전후(선행 후 보조) 치료로 KEYTRUDA(펨브롤리주맙)와 Padcev(엔포투맙 베도틴-ejfv) 병용요법의 승인을 권고하는 긍정 의견을 채택했으며, 이 권고는 ALT-B4를 적용한 피하 펨브롤리주맙 제형(키트루다 SC, 미국의 키트루다 Qlex)을 명시적으로 포함한다. 이미 추적 중인 ALT-B4/Hybrozyme 피하 제형의 EU 내 새로운 적응증 확대이며 이전에는 기록되지 않았다. EC 최종 결정은 EU와 아이슬란드, 리히텐슈타인, 노르웨이를 대상으로 2026년 4분기에 예상된다.",
       "technology_id": "alt-b4_hybrozyme",
       "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
     }
