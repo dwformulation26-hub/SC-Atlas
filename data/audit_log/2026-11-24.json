@@ -1,0 +1,492 @@
+{
+  "run_date": "2026-11-24",
+  "window": {
+    "from": "2026-11-23T09:09:00+09:00",
+    "to": "2026-11-24T09:09:28+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday run (~24h). Previous run completed 2026-11-23T09:09:00+09:00 (Monday); no gap since, so no extension beyond the ordinary window."
+  },
+  "queries_run": [
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous November 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license November 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "(Xeris XeriJect | Lindy Microglassification | Nanoform | Crystalomics | InventageLab | Prestige IDC224) subcutaneous November 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도 11월 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출 11월 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도 11월 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" news November 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection\" biologic deal license 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal November 2026 (+ hyaluronidase SC formulation deal 2026)"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 2026 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration November 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도 11월 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "ClinicalTrials.gov new trial November 2026 subcutaneous high concentration hyaluronidase ENHANZE ALT-B4 (registry sweep)"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 11월 2026"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 2026년 11월"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "특허청 히알루로니다제 고농도 제형 특허"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출 2026"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP meeting highlights December 2026"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "MHLW PMDA 新薬 一斉承認 2026年11月"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "FDA Novel Drug Approvals 2026 list November biological approvals CDER"
+    },
+    {
+      "tier": 5,
+      "lang": "ko",
+      "query": "식약처 의약품 허가 목록 2026년 11월"
+    },
+    {
+      "tier": 5,
+      "lang": "zh",
+      "query": "NMPA 药品批准 2026年11月"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Halozyme news November 23 24 2026 (targeted follow-up, no window-specific hits found)"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "알테오젠 할로자임 셀트리온 삼성바이오에피스 11월 23일 24일 2026 (targeted follow-up)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Halozyme Aerocon Surf Bio renamed hyperconcentration technology (verification -- already tracked)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Pfizer tilrekimig ENHANZE subcutaneous Phase 1 Halozyme 2026 (targeted follow-up on earnings-release partner roster)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "Halozyme Janssen ENHANZE collaboration expanded additional oncology target October 2026 (verification, unconfirmed)"
+    },
+    {
+      "tier": 0,
+      "lang": "ko",
+      "query": "셀트리온 허쥬마 SC 유럽 허가 신청 2026 (verification -- already tracked)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "ClinicalTrials.gov API query.term=dupilumab+berahyaluronidase (registry direct lookup, found NCT07919899 EXTENSA Phase 3)"
+    },
+    {
+      "tier": 0,
+      "lang": "en",
+      "query": "ClinicalTrials.gov NCT07792941 direct lookup (Pfizer tilrekimig + rHuPH20 Phase 1 record)"
+    }
+  ],
+  "candidates": [
+    {
+      "raw_title": "ClinicalTrials.gov NCT07919899 'EXTENSA' -- Sanofi/Regeneron Phase 3 study of SC dupilumab coformulated with berahyaluronidase alfa (ALT-B4) vs. approved SC Dupixent",
+      "published": "2026-11-05",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Direct reformulation of the tracker's Dupixent benchmark using Alteogen's ALT-B4, now at Phase 3 -- a successful Q4W readout would be the first concentration/dosing-frequency upgrade to the reference product itself.",
+      "date_source": "page",
+      "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "alteogen_sanofi_dupixent-sc-phase3-extensa_2026-11-05",
+      "canonical": true,
+      "corroborating_urls": [
+        "https://www.biospectator.com/news/view/30331"
+      ]
+    },
+    {
+      "raw_title": "ClinicalTrials.gov NCT07792941 -- Pfizer Phase 1 PK study of tilrekimig (PF-07275315) co-mixed with rHuPH20 (ENHANZE), SC injection",
+      "published": "2026-08-28",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "New named molecule on ENHANZE's SC pipeline roster; tilrekimig is a late-stage Dupixent-adjacent (IL-13 axis) competitor, so an ENHANZE-enabled SC formulation bears on the Dupixent benchmark comparison.",
+      "date_source": "page",
+      "dedupe": "new",
+      "verdict": "log",
+      "reject_reason": null,
+      "event_key": "halozyme_pfizer_tilrekimig-enhanze-p1_2026-08-27",
+      "canonical": true,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "InventageLab IVL-BioFluidic '500 mg/mL' figure resurfaced in an aggregated Korean search summary",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "unconfirmed",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "No new discrete event -- the 500 mg/mL and 750 mg/mL figures for this platform are already logged (inventagelab_bio-usa_2026-06, g2gbio_innobiolamp_concentration-disclosure_2026-08-05 context). Same recurring aggregator figure already investigated and explained in the 2026-11-23 audit log as a likely search-aggregation artifact; no new primary source or date found this run.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "G2G Bio InnoBioLAMP PODD 2026 presentation + Celltrion MOU reaffirmation (dailypharm 343410, asiae 2026073014453141023)",
+      "published": "2026-10-30",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": "Already serves the tracker's question; no new facts beyond what is logged.",
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already tracked under g2gbio_innobiolamp_podd2026-announcement_2026-10-14 (PODD presentation, 750 mg/mL claim) and g2gbio_celltrion_mou_2026-07-30 (Celltrion MOU). No new figures, partners, or dates beyond those rows.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme Q3 2026 earnings materials: Aerocon rename confirmation, Hypercon partner roster (Janssen, Eli Lilly, argenx, Vertex, Oruka), Rybrevant Faspro HNSCC approval",
+      "published": "2026-11-05",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Already serves the tracker's question; no new facts beyond what is logged.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Aerocon rename already tracked (snapshot_surfbio, corrected 2026-10-21); Vertex/Oruka/Elektrofi-partner roster already tracked (halozyme_vertex_2026-04, halozyme_oruka_2026-05, elektrofi_partners_detail_2026-07-15); Rybrevant Faspro HNSCC approval already tracked (halozyme_janssen_rybrevant-faspro_hnscc-approval_2026-11-05). Surfaced only for dedupe verification.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Bioepis SB27 (pembrolizumab biosimilar) global Phase 3 result presented at SITC 2026",
+      "published": "2026-11-09",
+      "lang": "ko",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "url",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate A: IV biosimilar clinical-equivalence readout with no SC/concentration/delivery-technology angle disclosed in this report.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion presents preclinical data for obesity candidate CT-G32/SCO-940 at TIDES Europe",
+      "published": "2026-11-04",
+      "lang": "ko",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "url",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate A: general pipeline/preclinical news with no SC high-concentration delivery-technology angle.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "EMA CHMP meeting highlights, 9-12 Nov 2026 cycle (re-checked; next cycle is December, not yet held)",
+      "published": "2026-11-13",
+      "lang": "en",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Same CHMP cycle already assessed and rejected in the 2026-11-23 run's audit log (no Tier-5 molecule-list match, no SC-concentration angle). No new CHMP meeting has occurred since; next cycle is December 2026.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "MHLW/PMDA November 2026 batch approval release -- no confirmed omnibus batch located",
+      "published": null,
+      "lang": "ja",
+      "gate_a": "n/a",
+      "gate_b": null,
+      "gate_c": "unverified",
+      "gate_d": "n/a",
+      "gate_e": null,
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "No MHLW/PMDA November 2026 omnibus batch-approval release could be located this run either; search returned only administrative/policy documents (drug-loss countermeasures, pediatric drug development rules), no approval list. Tier-5 molecule list not matched against anything concrete.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA.gov Novel Drug Approvals 2026 (CDER) list -- stale snapshot; secondary trackers show no new Tier-5 molecule beyond already-tracked Rybrevant Faspro HNSCC",
+      "published": null,
+      "lang": "en",
+      "gate_a": "n/a",
+      "gate_b": null,
+      "gate_c": "unverified",
+      "gate_d": "n/a",
+      "gate_e": null,
+      "date_source": "unconfirmed",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "FDA's own CDER Novel Drug Approvals 2026 page is stale in search results (last entry March 2026, same as prior runs); independent trackers report ~48 novel approvals by Nov 9 but name only small molecules (e.g. Bayer's Sunharbo/asundexian) against the Tier-5 molecule list, and CBER's own novel-approvals count (2 orphan products H1 2026) names nothing on the Tier-5 list either. No new biologic SC approval found beyond the already-tracked Rybrevant Faspro HNSCC accelerated approval.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "MFDS (식약처) November 2026 approvals roundup -- not yet published (month not over; MFDS notice found announcing the publication schedule but not the list itself)",
+      "published": null,
+      "lang": "ko",
+      "gate_a": "n/a",
+      "gate_b": null,
+      "gate_c": "unverified",
+      "gate_d": "n/a",
+      "gate_e": null,
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "MFDS's monthly approvals roundup is compiled and published after month-end (October's list -- 69 prescription + 35 OTC -- was the latest available); no November 2026 item-level list exists yet to scan against the Tier-5 molecule list.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "NMPA November 2026 approvals (Hengrui recfurvimab/ANGPTL3 mAb SC, Yimiao CAR-T, Leo Pharma delgocitinib cream, UpaDeli label expansion, Dupixent CRSwNP, Beijing Yiling TCM combination) -- re-checked against Tier-5 list",
+      "published": "2026-11-12",
+      "lang": "zh",
+      "gate_a": "reject",
+      "gate_b": null,
+      "gate_c": "secondary",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "url",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Gate A: none of this batch names a Tier-5 molecule or carries a concentration/delivery-technology claim. Hengrui recfurvimab and the CAR-T/topical-JAK items are novel SC/other-route products with no enabling-platform angle (same standing ruling already applied to this item in the 2026-11-23 audit log); the Dupixent CRSwNP indication expansion was already rejected on 2026-11-23 (indication-only, no formulation angle).",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Xeris Biopharma -- no November 2026 news beyond standing XeriJect/XP-8121 background (last concrete item: Dec 2025 USPTO notice of allowance)",
+      "published": null,
+      "lang": "en",
+      "gate_a": "n/a",
+      "gate_b": "reject",
+      "gate_c": "unverified",
+      "gate_d": "n/a",
+      "gate_e": null,
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate B: no discrete dated event found this run for XeriJect/Xeris; results were platform background and a Sept 2026 webinar notice already stale.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Lindy Biosciences/Microglassification, Crystalomics/Althea, Prestige Biopharma IDC224 -- zero search hits this run",
+      "published": null,
+      "lang": "en",
+      "gate_a": "n/a",
+      "gate_b": "n/a",
+      "gate_c": "n/a",
+      "gate_d": "n/a",
+      "gate_e": null,
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "No results returned for these three tracked technologies in Tier 1 query 3 or follow-up searches; no in-window items, nothing to log.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme-Janssen ENHANZE collaboration 'expanded to an additional oncology target' (October 2026) -- claim from an earnings-call paraphrase, no primary source located",
+      "published": null,
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "reject",
+      "gate_c": "unverified",
+      "gate_d": "new",
+      "gate_e": null,
+      "date_source": "unconfirmed",
+      "dedupe": "n/a",
+      "verdict": "reject",
+      "reject_reason": "Gate C/B: could not trace this specific claim (distinct from the already-tracked 2026-10-06 argenx eight-target expansion) to any Halozyme press release, SEC filing, or Janssen statement despite a dedicated search; treated as either a paraphrase of the argenx deal or an unconfirmed secondary summary. Not logged absent a primary or dateable source.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Celltrion Herzuma SC (CT-P6 SC) EU/Korea regulatory filings -- resurfaced in Tier-1 KO sweep",
+      "published": "2026-04-30",
+      "lang": "ko",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Already serves the tracker's question; no new facts beyond what is logged.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already tracked under celltrion_ema-filing_2026-04 and celltrion_mfds-filing_2026-05. No EMA/MFDS decision yet found on either filing; no new fact this run.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme-MSD Dutch 8-country Keytruda SC injunction (2026-10-07) -- resurfaced via general news search",
+      "published": "2026-10-07",
+      "lang": "en",
+      "gate_a": "pass",
+      "gate_b": "pass",
+      "gate_c": "primary",
+      "gate_d": "new",
+      "gate_e": "Already serves the tracker's question; no new facts beyond what is logged.",
+      "date_source": "page",
+      "dedupe": "dup_event",
+      "verdict": "reject",
+      "reject_reason": "Already tracked under halozyme_msd_hague-injunction-8countries_2026-10-07, and its relationship to the German reversal already cross-referenced under halozyme_msd_germany-injunction-reversed_2026-11-19. No new fact this run.",
+      "event_key": "n/a",
+      "canonical": false,
+      "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)",
+      "company": "Alteogen / Sanofi / Regeneron",
+      "event": "ClinicalTrials.gov first posts NCT07919899 ('EXTENSA'), a Phase 3 study of SC dupilumab coformulated with berahyaluronidase alfa (ALT-B4) vs. approved SC Dupixent, aimed at Q4W dosing",
+      "date": "2026-11-05",
+      "freshness": "backfill",
+      "source_name": "ClinicalTrials.gov (NCT07919899); corroborated by Biospectator",
+      "source_url": "https://clinicaltrials.gov/study/NCT07919899",
+      "confidence": "Primary",
+      "summary": "See deal alteogen_sanofi_dupixent-sc-phase3-extensa_2026-11-05 in data/deals_db.py for the full summary.",
+      "summary_ko": "data/deals_db.py의 alteogen_sanofi_dupixent-sc-phase3-extensa_2026-11-05 항목의 summary_ko 참조.",
+      "conflicts_with": null
+    },
+    {
+      "technology": "ENHANZE (rHuPH20)",
+      "company": "Halozyme Therapeutics / Pfizer",
+      "event": "Pfizer Phase 1 PK study (NCT07792941) of tilrekimig (PF-07275315) co-mixed with rHuPH20 (ENHANZE), given subcutaneously",
+      "date": "2026-08-27",
+      "freshness": "backfill",
+      "source_name": "ClinicalTrials.gov (NCT07792941)",
+      "source_url": "https://clinicaltrials.gov/study/NCT07792941",
+      "confidence": "Primary",
+      "summary": "See deal halozyme_pfizer_tilrekimig-enhanze-p1_2026-08-27 in data/deals_db.py for the full summary.",
+      "summary_ko": "data/deals_db.py의 halozyme_pfizer_tilrekimig-enhanze-p1_2026-08-27 항목의 summary_ko 참조.",
+      "conflicts_with": null
+    }
+  ]
+}
