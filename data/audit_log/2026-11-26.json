@@ -1,0 +1,219 @@
+{
+  "run_date": "2026-11-26",
+  "window": {
+    "from": "2026-11-25T09:09:00+09:00",
+    "to": "2026-11-26T09:13:56+09:00",
+    "tz": "Asia/Seoul",
+    "note": "Normal weekday run (~24h). Previous run completed 2026-11-25T09:09:00+09:00 (Wednesday); today is Thursday with no missed day since, so no extension beyond the ordinary window."
+  },
+  "queries_run": [
+    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous November 2026"},
+    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license November 2026"},
+    {"tier": 1, "lang": "en", "query": "Xeris XeriJect OR Lindy Microglassification OR Nanoform OR InventageLab OR Prestige IDC224 subcutaneous November 2026"},
+    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도 11월"},
+    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출 11월 2026"},
+    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"},
+    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" November 25 2026"},
+    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\" 2026"},
+    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal November 2026"},
+    {"tier": 2, "lang": "en", "query": "hyaluronidase SC formulation deal 2026"},
+    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 고농축 현탁 주사 기술 11월 2026"},
+    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration November 2026"},
+    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도"},
+    {"tier": 3, "lang": "en", "query": "ClinicalTrials.gov registry sweep: rHuPH20/ENHANZE/Hybrozyme/ALT-B4/berahyaluronidase recent postings, November 2026"},
+    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 11월 2026"},
+    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 특허청 히알루로니다제 고농도 제형"},
+    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출 11월"},
+    {"tier": 5, "lang": "en", "query": "EMA CHMP meeting highlights November 2026 (9-12 Nov 2026 meeting; scanned 7 recommended medicines + 11 indication extensions against Tier 5 molecule list)"},
+    {"tier": 5, "lang": "ja", "query": "MHLW PMDA 新薬 承認 2026年11月"},
+    {"tier": 5, "lang": "en", "query": "FDA Novel Drug Approvals 2026 list November (scanned Oct/Nov entries against Tier 5 molecule list)"},
+    {"tier": 5, "lang": "ko", "query": "식약처 의약품 허가 목록 2026년 11월"},
+    {"tier": 5, "lang": "zh", "query": "NMPA 药品批准 2026年11月 (scanned Nov 4-13 batch approvals against Tier 5 molecule list)"},
+    {"tier": "extra", "lang": "en", "query": "Halozyme Merck Keytruda SC injunction appeal November 2026"},
+    {"tier": "extra", "lang": "en", "query": "Celltrion Herzuma SC OR Yuflyma SC news November 2026"},
+    {"tier": "extra", "lang": "en", "query": "Samsung Biologics S-HiCon news November 2026"},
+    {"tier": "extra", "lang": "ko", "query": "휴온스랩 하이디자임 하이디퓨즈 11월 2026"},
+    {"tier": "extra", "lang": "en", "query": "Henlius subcutaneous biosimilar November 2026"},
+    {"tier": "extra", "lang": "en", "query": "InventageLab 인벤티지랩 news November 2026"},
+    {"tier": "extra", "lang": "en", "query": "Nanoform news November 2026 announcement"},
+    {"tier": "extra", "lang": "en", "query": "Henlius Sandoz expand biosimilars collaboration hyaluronidase HLXTE-HAase1001 press release (primary-source follow-up)"}
+  ],
+  "candidates": [
+    {
+      "raw_title": "Halozyme expansion of global collaboration and license agreement with argenx (two additional exclusive targets, ENHANZE)",
+      "published": "2026-10-06", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "ENHANZE licensee-breadth event",
+      "date_source": "unconfirmed", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked: halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06",
+      "event_key": "halozyme_argenx_enhanze-expansion-eight-targets_2026-10-06", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Halozyme wins / loses German Keytruda SC injunction appeal (Higher Regional Court, Nov 19 2026)",
+      "published": "2026-11-19", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "Halozyme/Merck ENHANZE-vs-ALT-B4 litigation, directly relevant",
+      "date_source": "url", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked: halozyme_msd_germany-injunction-reversed_2026-11-19 (committed 2026-11-20 run)",
+      "event_key": "halozyme_msd_germany-injunction-reversed_2026-11-19", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen / Novartis ALT-B4 option-license deal, up to $3.2-4.4B (various figures reported)",
+      "published": "2026-09-02", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "ALT-B4 licensee-breadth event",
+      "date_source": "unconfirmed", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked: alteogen_novartis_2026-09", "event_key": "alteogen_novartis_2026-09",
+      "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen / undisclosed global pharma, ALT-B4 license up to $365M",
+      "published": "2026-08-05", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "ALT-B4 licensee-breadth event",
+      "date_source": "unconfirmed", "dedupe": "dup_event", "verdict": "reject",
+      "reject_reason": "Same underlying event as an already-tracked Alteogen ALT-B4 2026 licensing row (undisclosed-partner deal); no new partner identity surfaced to distinguish it",
+      "event_key": "alteogen_undisclosed-pharma_365m_2026-08", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen / Biogen ALT-B4 exclusive license, up to $549-820M",
+      "published": "2026-03-25", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "ALT-B4 licensee-breadth event",
+      "date_source": "unconfirmed", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked: alteogen_biogen_2026-03", "event_key": "alteogen_biogen_2026-03",
+      "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen / GSK-Tesaro ALT-B4 license for SC dostarlimab, up to $285M",
+      "published": "2026-01", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "ALT-B4 licensee-breadth event",
+      "date_source": "unconfirmed", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked: alteogen_gsk-tesaro_2026-01", "event_key": "alteogen_gsk-tesaro_2026-01",
+      "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Nanoform CDMO partnership for GMP manufacturing of ultra-high-concentration biologics",
+      "published": "2026-11-17", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "Nanoform platform manufacturing-readiness milestone",
+      "date_source": "url", "dedupe": "dup_deal_id", "verdict": "reject",
+      "reject_reason": "Already tracked: nanoform_cdmo-ultra-high-concentration-biologics_2026-11-17",
+      "event_key": "nanoform_cdmo-ultra-high-concentration-biologics_2026-11-17", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Nanoform Q3 2026 earnings report (Nov 19 2026)",
+      "published": "2026-11-19", "lang": "en",
+      "gate_a": "reject", "gate_b": "reject", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "n/a -- rejected at Gate A/B",
+      "date_source": "page", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "Gate B: routine quarterly financial results (revenue, cash position), not a discrete delivery-technology event; no new SC/concentration claim beyond the already-tracked Nov 17 CDMO item",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Henlius and Sandoz strategic collaboration: up to 10 mAb/ADC biosimilars, $322M, incl. option on hyaluronidase HLXTE-HAase1001 for IV-to-SC conversion",
+      "published": "2026-08-17", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new",
+      "gate_e": "Names and licenses a sixth independent hyaluronidase-based SC-conversion enzyme (after ENHANZE/ALT-B4/Samsung Bioepis PH20/HyDiffuse/Amicogen), directly expanding the competitive field this tracker exists to map",
+      "date_source": "page", "dedupe": "new", "verdict": "log",
+      "reject_reason": null,
+      "event_key": "henlius_sandoz_hlxte-haase1001-option_2026-08-17", "canonical": true,
+      "corroborating_urls": [
+        "https://www.pharmexec.com/view/henlius-322-million-strategic-collaboration-sandoz",
+        "https://manufacturingchemist.com/henlius-sandoz-expand-global-biosimilars-partnership-ten-assets",
+        "https://www.rttnews.com/3680967/henlius-sandoz-broaden-biosimilar-tie-up-deal-for-up-to-10-products.aspx",
+        "https://www.contractpharma.com/?p=92161"
+      ]
+    },
+    {
+      "raw_title": "Celltrion Herzuma SC (CT-P6 SC) EU/Korea filing progress",
+      "published": "2026-05-28", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "Biosimilar SC competitor to Herceptin SC/ENHANZE",
+      "date_source": "unconfirmed", "dedupe": "dup_event", "verdict": "reject",
+      "reject_reason": "Same underlying event already covered by the existing celltrion_herzuma_sc technology row's tracked regulatory-filing history; no new milestone found in-window",
+      "event_key": "celltrion_herzuma_sc_filing-progress", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Samsung Biologics S-HiCon whitepaper on high-concentration formulation development",
+      "published": "2026-05-28", "lang": "en",
+      "gate_a": "pass", "gate_b": "reject", "gate_c": "secondary", "gate_d": "new", "gate_e": "n/a -- rejected at Gate B",
+      "date_source": "unconfirmed", "dedupe": "new", "verdict": "context",
+      "reject_reason": "Gate B: promotional/explainer whitepaper, not a discrete dated event (deal, filing, trial, publication)",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Huons Lab HyDiffuse 11-antibody composition patent registration",
+      "published": "2026-08-31", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "HyDiffuse platform patent milestone",
+      "date_source": "unconfirmed", "dedupe": "dup_event", "verdict": "reject",
+      "reject_reason": "Same underlying event already tracked under the huonslab_hydiffuze technology row (patent registration, already logged in an earlier run)",
+      "event_key": "huonslab_hydiffuze_patent-11-antibodies", "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "EMA CHMP 9-12 Nov 2026 meeting highlights: 7 new medicines (Aumseqa/aumolertinib, Baxfendy/baxdrostat, Zybrivo/sintilimab, Garzulys, Donrafylix, fondaparinux Evumed, Ruxolitinib Krka) + 11 indication extensions (incl. Gazyvaro/obinutuzumab for SLE, Isturisa pediatric)",
+      "published": "2026-11-12", "lang": "en",
+      "gate_a": "reject", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a -- rejected at Gate A",
+      "date_source": "page", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "Gate A: none of the 7 new-medicine recommendations or 11 indication extensions name a Tier 5 molecule (Keytruda SC, Opdivo Qvantig, Tecentriq Hybreza/SC, Ocrevus Zunovo/SC, Darzalex Faspro/SC/Darzquro, Rybrevant Faspro/SC/Rybrofaz, Vyvgart Hytrulo/SC/Vyvdura, Phesgo, Herceptin Hylecta/SC/Herzuma SC, Rituxan Hycela/MabThera SC, HYQVIA, Dupixent, LEQEMBI, Sarclisa) or any other tracked platform/product; no SC/concentration angle present",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "NMPA batch approvals, Nov 4-13 2026 (incl. dupilumab new indication -- chronic rhinosinusitis with nasal polyps, ages 12+)",
+      "published": "2026-11-04", "lang": "zh",
+      "gate_a": "reject", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a -- rejected at Gate A",
+      "date_source": "page", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "Gate A: Dupixent indication expansion (chronic rhinosinusitis with nasal polyps) carries no SC-delivery, concentration, device, or formulation angle -- standing ruling, 'Drug X approved as an SC injection/new indication' with no delivery-technology angle is out of scope. Other Nov 4-13 NMPA approvals scanned (sintilimab, matinib, imsidolimab, orforglipron, ribersaciclumab, Qinqin Tongbi Pian) are unrelated molecules/indications, no Tier 5 or tracked-platform match",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "FDA Novel Drug Approvals 2026 running list (CDER 48 approvals as of Nov 9; Hovilpri/pritelivir, Hibsago/bepirovirsen, Sunharbo/asundexian)",
+      "published": "2026-11-09", "lang": "en",
+      "gate_a": "reject", "gate_b": "pass", "gate_c": "primary", "gate_d": "new", "gate_e": "n/a -- rejected at Gate A",
+      "date_source": "page", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "Gate A: none of the named October/November 2026 novel approvals (pritelivir, bepirovirsen, asundexian) are Tier 5 molecules or tracked SC platforms",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "MFDS/식약처 monthly approvals list, November 2026",
+      "published": null, "lang": "ko",
+      "gate_a": "reject", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new", "gate_e": "n/a -- rejected, list not yet published",
+      "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "MFDS's November monthly approvals summary was not yet published as of this run (2026-11-26); only October's summary (69 prescription + 35 OTC approvals, incl. HM Pharma's epeglenatide injector as the month's lead new drug -- unrelated molecule) was available. Weekly MFDS approval notices for November checked via the Tier 4/5 queries surfaced no Tier 5 molecule or tracked-platform item",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "MHLW/PMDA November 2026 batch approval release",
+      "published": null, "lang": "ja",
+      "gate_a": "reject", "gate_b": "reject", "gate_c": "unverified", "gate_d": "new", "gate_e": "n/a -- rejected, no specific batch release located",
+      "date_source": "unconfirmed", "dedupe": "new", "verdict": "reject",
+      "reject_reason": "Search surfaced only administrative/generic-review scheduling documents and a Yakuji Nippo administrative-info index with no accessible item-level content; no PMDA approvals list for November 2026 with named products was located this run. No Tier 5 molecule name surfaced via this query",
+      "event_key": null, "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Alteogen ALT-B4 PODD2026 / G2G Bio InnoBioLAMP / InventageLab IVL-BioFluidic competing-concentration figures (750mg/mL, 500mg/mL)",
+      "published": "2026-10-29", "lang": "ko",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new", "gate_e": "High-concentration SC platform competitive benchmark data",
+      "date_source": "unconfirmed", "dedupe": "dup_event", "verdict": "reject",
+      "reject_reason": "Same underlying PODD 2026 (Oct 29-30) presentations already tracked under g2gbio_innobiolamp_podd2026-announcement_2026-10-14 and inventagelab_podd2026-presentation_2026-10-29; no new figures beyond what is already logged",
+      "event_key": "g2gbio_innobiolamp_podd2026-announcement_2026-10-14 / inventagelab_podd2026-presentation_2026-10-29",
+      "canonical": false, "corroborating_urls": []
+    },
+    {
+      "raw_title": "Academic ionic-liquid ultra-high-concentration antibody formulation research (Advanced Materials / Advanced Healthcare Materials 2026, choline-tryptophan CHAT >200 mg/mL)",
+      "published": "2026", "lang": "en",
+      "gate_a": "pass", "gate_b": "pass", "gate_c": "secondary", "gate_d": "new", "gate_e": "Academic high-concentration excipient research directly on this tracker's core question",
+      "date_source": "unconfirmed", "dedupe": "dup_event", "verdict": "reject",
+      "reject_reason": "Same underlying CHAT research program already tracked under the academic_ionic_liquid_chat technology row; no new publication date or figure distinct from what is already logged, and the specific publication date could not be pinned to this run's window",
+      "event_key": "academic_ionic_liquid_chat_existing-coverage", "canonical": false, "corroborating_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "technology": "HLXTE-HAase1001 (recombinant human hyaluronidase)",
+      "company": "Shanghai Henlius Biotech",
+      "event": "Sandoz obtains option on HLXTE-HAase1001 as part of up to-$322M, 10-asset mAb/ADC biosimilar collaboration",
+      "date": "2026-08-17",
+      "freshness": "backfill",
+      "source_name": "Shanghai Henlius Biotech press release (PR Newswire/Kyodo syndication)",
+      "source_url": "https://en.prnasia.com/releases/apac/henlius-and-sandoz-enter-strategic-collaboration-to-unlock-global-value-of-biosimilars-platform-544208.shtml",
+      "confidence": "Primary",
+      "summary": "Henlius named and licensed an option on its own hyaluronidase enzyme (HLXTE-HAase1001) to Sandoz for the first time, explicitly for IV-to-SC conversion -- a sixth independent hyaluronidase-based SC-conversion platform alongside ENHANZE, ALT-B4/Hybrozyme, Samsung Bioepis' PH20 technology, HyDiffuse, and Amicogen's variant.",
+      "summary_ko": "Henlius가 처음으로 자사의 히알루로니다제 효소(HLXTE-HAase1001)를 명명하고 이에 대한 옵션을 산도스에 라이선스했다 -- 명시적으로 IV-SC 전환 목적이며, ENHANZE, ALT-B4/Hybrozyme, 삼성바이오에피스 PH20 기술, HyDiffuse, 아미코젠 변이체에 이은 여섯 번째의 독립적인 히알루로니다제 기반 SC 전환 플랫폼이다.",
+      "conflicts_with": null
+    }
+  ]
+}
