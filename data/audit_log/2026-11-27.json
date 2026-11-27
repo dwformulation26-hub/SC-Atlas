@@ -7,34 +7,146 @@
     "note": "Normal weekday run (~24h). Previous run completed 2026-11-26T09:13:56+09:00 (Thursday); today is Friday with no missed day since, so no extension beyond the ordinary window."
   },
   "queries_run": [
-    {"tier": 1, "lang": "en", "query": "Halozyme ENHANZE Hypercon subcutaneous November 2026"},
-    {"tier": 1, "lang": "en", "query": "Alteogen ALT-B4 Hybrozyme license November 2026"},
-    {"tier": 1, "lang": "en", "query": "Xeris XeriJect OR Lindy Microglassification OR Nanoform OR Crystalomics OR InventageLab OR Prestige IDC224 subcutaneous November 2026"},
-    {"tier": 1, "lang": "ko", "query": "할로자임 인핸즈 하이퍼콘 고농도"},
-    {"tier": 1, "lang": "ko", "query": "알테오젠 ALT-B4 기술수출"},
-    {"tier": 1, "lang": "ko", "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"},
-    {"tier": 1, "lang": "en", "query": "Xeris Biopharma XeriJect news November 2026 (targeted follow-up)"},
-    {"tier": 1, "lang": "en", "query": "Prestige Biopharma IDC224 news 2026 (targeted follow-up)"},
-    {"tier": 1, "lang": "ko", "query": "인벤티지랩 바이오플루이딕 11월 2026 (targeted follow-up)"},
-    {"tier": 1, "lang": "en", "query": "Nanoform Finland news November 2026 (targeted follow-up)"},
-    {"tier": 2, "lang": "en", "query": "\"high concentration subcutaneous injection\" news November 2026"},
-    {"tier": 2, "lang": "en", "query": "\"ultra-concentrated antibody formulation\" 2026"},
-    {"tier": 2, "lang": "en", "query": "\"high concentration injection technology\" deal November 2026"},
-    {"tier": 2, "lang": "en", "query": "\"high concentration suspension injection technology\""},
-    {"tier": 2, "lang": "en", "query": "subcutaneous biologics delivery platform deal November 2026 / hyaluronidase SC formulation deal 2026"},
-    {"tier": 2, "lang": "ko", "query": "고농도 주사 기술 11월 2026 / 고농축 현탁 주사 기술"},
-    {"tier": 3, "lang": "en", "query": "Dupixent dupilumab subcutaneous high concentration November 2026"},
-    {"tier": 3, "lang": "ko", "query": "듀피젠트 피하주사 고농도"},
-    {"tier": 4, "lang": "ko", "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 2026년 11월"},
-    {"tier": 4, "lang": "ko", "query": "식약처 고농도 피하주사 허가 2026"},
-    {"tier": 4, "lang": "ko", "query": "특허청 히알루로니다제 고농도 제형 특허"},
-    {"tier": 4, "lang": "ko", "query": "국산 고농도 항체 제형 기술수출"},
-    {"tier": 5, "lang": "en", "query": "CHMP meeting highlights November 2026 (9-12 Nov 2026 meeting; fetched full page, checked against Tier-5 molecule list)"},
-    {"tier": 5, "lang": "ja", "query": "MHLW PMDA 新薬 承認 2026年11月"},
-    {"tier": 5, "lang": "ja", "query": "キイトルーダ皮下注 オプジーボ皮下注 2026年11月 承認 (targeted follow-up)"},
-    {"tier": 5, "lang": "en", "query": "FDA Novel Drug Approvals 2026 list November / FDA label updates for tracked molecules November 2026"},
-    {"tier": 5, "lang": "ko", "query": "식약처 의약품 허가 목록 2026년 11월"},
-    {"tier": 5, "lang": "zh", "query": "NMPA 药品批准 2026年11月"}
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Halozyme ENHANZE Hypercon subcutaneous November 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Alteogen ALT-B4 Hybrozyme license November 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Xeris XeriJect OR Lindy Microglassification OR Nanoform OR Crystalomics OR InventageLab OR Prestige IDC224 subcutaneous November 2026"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "할로자임 인핸즈 하이퍼콘 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "알테오젠 ALT-B4 기술수출"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "삼성바이오에피스 셀트리온 SC 제형 고농도"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Xeris Biopharma XeriJect news November 2026 (targeted follow-up)"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Prestige Biopharma IDC224 news 2026 (targeted follow-up)"
+    },
+    {
+      "tier": 1,
+      "lang": "ko",
+      "query": "인벤티지랩 바이오플루이딕 11월 2026 (targeted follow-up)"
+    },
+    {
+      "tier": 1,
+      "lang": "en",
+      "query": "Nanoform Finland news November 2026 (targeted follow-up)"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration subcutaneous injection\" news November 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"ultra-concentrated antibody formulation\" 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration injection technology\" deal November 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "\"high concentration suspension injection technology\""
+    },
+    {
+      "tier": 2,
+      "lang": "en",
+      "query": "subcutaneous biologics delivery platform deal November 2026 / hyaluronidase SC formulation deal 2026"
+    },
+    {
+      "tier": 2,
+      "lang": "ko",
+      "query": "고농도 주사 기술 11월 2026 / 고농축 현탁 주사 기술"
+    },
+    {
+      "tier": 3,
+      "lang": "en",
+      "query": "Dupixent dupilumab subcutaneous high concentration November 2026"
+    },
+    {
+      "tier": 3,
+      "lang": "ko",
+      "query": "듀피젠트 피하주사 고농도"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "알테오젠 셀트리온 삼성바이오에피스 삼성바이오로직스 기술이전 공시 2026년 11월"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "식약처 고농도 피하주사 허가 2026"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "특허청 히알루로니다제 고농도 제형 특허"
+    },
+    {
+      "tier": 4,
+      "lang": "ko",
+      "query": "국산 고농도 항체 제형 기술수출"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "CHMP meeting highlights November 2026 (9-12 Nov 2026 meeting; fetched full page, checked against Tier-5 molecule list)"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "MHLW PMDA 新薬 承認 2026年11月"
+    },
+    {
+      "tier": 5,
+      "lang": "ja",
+      "query": "キイトルーダ皮下注 オプジーボ皮下注 2026年11月 承認 (targeted follow-up)"
+    },
+    {
+      "tier": 5,
+      "lang": "en",
+      "query": "FDA Novel Drug Approvals 2026 list November / FDA label updates for tracked molecules November 2026"
+    },
+    {
+      "tier": 5,
+      "lang": "ko",
+      "query": "식약처 의약품 허가 목록 2026년 11월"
+    },
+    {
+      "tier": 5,
+      "lang": "zh",
+      "query": "NMPA 药品批准 2026年11月"
+    }
   ],
   "candidates": [
     {
@@ -69,7 +181,9 @@
       "reject_reason": "Already tracked under deal_id halozyme_janssen_rybrevant-faspro_hnscc-approval_2026-11-05 (logged 2026-11-06 run).",
       "event_key": "jnj_rybrevant-faspro_hnscc-approval_2026-11-05",
       "canonical": true,
-      "corroborating_urls": ["https://www.morningstar.com/news/pr-newswire/20261106la91263/us-fda-approves-rybrevant-faspro-amivantamab-and-hyaluronic"]
+      "corroborating_urls": [
+        "https://www.morningstar.com/news/pr-newswire/20261106la91263/us-fda-approves-rybrevant-faspro-amivantamab-and-hyaluronic"
+      ]
     },
     {
       "raw_title": "G2G Bio InnoBioLAMP PODD 2026 presentation (dailypharm 343410)",
@@ -86,7 +200,9 @@
       "reject_reason": "Same article/event already tracked as deal_id g2gbio_innobiolamp_podd2026-announcement_2026-10-14 (confirmed via direct WebFetch: identical 750 mg/mL figure, identical BIO Japan partnering detail, same 2026-10-14 15:38 byline).",
       "event_key": "g2gbio_innobiolamp_podd2026_2026-10-14",
       "canonical": false,
-      "corroborating_urls": ["https://dailypharm.com/user/news/343410"]
+      "corroborating_urls": [
+        "https://dailypharm.com/user/news/343410"
+      ]
     },
     {
       "raw_title": "MIT solvent-dehydration antibody formulation, PMC12862716",
@@ -154,7 +270,9 @@
       "reject_reason": "Already tracked as nanoform_cdmo-ultra-high-concentration-biologics_2026-11-17 (logged in the 2026-11-18 run).",
       "event_key": "nanoform_cdmo-partner_2026-11-17",
       "canonical": true,
-      "corroborating_urls": ["https://www.bioprocessonline.com/doc/inside-information-nanoform-selects-global-cdmo-partner-for-gmp-manufacturing-of-ultra-high-concentration-biologics-0001"]
+      "corroborating_urls": [
+        "https://www.bioprocessonline.com/doc/inside-information-nanoform-selects-global-cdmo-partner-for-gmp-manufacturing-of-ultra-high-concentration-biologics-0001"
+      ]
     },
     {
       "raw_title": "Nanoform Q3 2026 financial report",
@@ -250,7 +368,7 @@
       "gate_c": "primary",
       "gate_d": "new",
       "gate_e": "First quantitative commercial-adoption/revenue data point for the ALT-B4-enabled SC Keytruda franchise, directly answering the tracker's core adoption question.",
-      "date_source": "url",
+      "date_source": "second_source",
       "dedupe": "new",
       "verdict": "log",
       "reject_reason": null,
@@ -276,7 +394,9 @@
       "reject_reason": "None of the 7 new-medicine recommendations or 11 indication extensions name any molecule on the Tier-5 list (pembrolizumab, nivolumab, atezolizumab, ocrelizumab, daratumumab, amivantamab, efgartigimod alfa, pertuzumab+trastuzumab, trastuzumab, rituximab, immune globulin 10%, dupilumab, lecanemab, isatuximab) -- confirmed by full-page fetch, not just a search snippet.",
       "event_key": null,
       "canonical": false,
-      "corroborating_urls": ["https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-9-12-november-2026"]
+      "corroborating_urls": [
+        "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-9-12-november-2026"
+      ]
     },
     {
       "raw_title": "MHLW/PMDA November 2026 batch approvals",
