@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T00:13:42+00:00",
+  "generated_at": "2026-11-27T00:15:58+00:00",
   "generated_from": {
     "technologies": "technologies_db.py",
     "deals": "deals_db.py"
@@ -71,7 +71,7 @@
     "tracked": 39,
     "comparable": 18,
     "commercial": 9,
-    "deals_tracked": 132,
+    "deals_tracked": 133,
     "flagged_deals": 15
   },
   "internal_targets": [
@@ -1693,6 +1693,22 @@
           "summary_ko": "백필: 사건(한국 특허심판원 심결, 2026-10-30; 데일리팜 2026-11-02 보도)은 이번 조사 기간 개시(2026-11-20) 이전에 발생했으며 이전에는 추적되지 않았다. 한국 특허심판원은 알테오젠바이오로직스(옛 알토스바이오로직스)가 제기한 '오크렐리주맙을 포함하는 약학적 조성물과 그의 용도' 특허출원 거절결정에 대한 불복심판 청구를 기각했다. 이 특허는 로슈의 오크레부스(오크렐리주맙)를 ALT-B4 기반으로 정맥주사에서 피하주사로 전환하는 기술로, 투여 간격을 1개월부터 6개월까지로 청구했다. 2023년 4월 출원된 이 출원은 두 차례의 거절이유통지와 2025년 3월의 최종 거절결정을 받았고, 약 15개월간의 심판을 거쳐 2026-10-30 특허심판원이 거절을 유지했다. 알테오젠은 특허법원에 추가로 항소할지 아직 밝히지 않았다. PCT를 통한 유럽·일본 출원은 계속 심사 중이다(일본은 2025년 12월 거절이유통지를 받았으나 아직 최종 결정은 없음). 농도 수치(mg/mL)는 보도되지 않았다. 회사 측은 이번 결과가 이 투여요법/조성물 청구항에 한정되며 알테오젠의 핵심 ALT-B4 원천 특허에는 영향이 없다고 설명한다. 인핸즈 대 ALT-B4 경쟁 구도(ENHANZE-vs-ALT-B4)와 직접 관련된다: 할로자임/로슈의 인핸즈 기반 오크레부스 주노보(Ocrevus Zunovo)는 이미 시판 중이며(enhanze 행, halozyme_roche_ocrevus-zunovo_2024-09-13 항목에서 추적), 이번 심결은 알테오젠이 경쟁 ALT-B4 기반 SC 오크레부스 제형에 대한 한국 특허를 확보하려는 시도를 막는다. 유의 사항: 단일 출처(데일리팜)이며, 추가 검색 1회에도 두 번째 독립 매체는 확인되지 않았다."
         },
         {
+          "deal_id": "alteogen_msd_keytruda-qlex-q3-2026-earnings_2026-10-29",
+          "partner": "Merck & Co. (MSD)",
+          "deal_type": "Commercial / earnings disclosure",
+          "date": "2026-10-29",
+          "date_sort_key": 20261029,
+          "summary": "BACKFILL: event (Merck's Q3 2026 earnings release and call) predates this run's ~24h research window (2026-11-26 09:13 KST to 2026-11-27 09:08 KST) by about four weeks; surfaced during the routine Tier-2 new-competitor/benchmark sweep while checking for commercial-adoption data on the already-tracked KEYTRUDA QLEX (ALT-B4-enabled SC pembrolizumab) and not previously logged under its own deal_id. Merck reported KEYTRUDA QLEX (SC) sales of $830 million for Q3 2026, up from $463 million in Q2 2026, within combined KEYTRUDA/KEYTRUDA QLEX sales of $8.6 billion (+6% YoY). On the earnings call, Merck's oncology president reiterated the company's target of 30-40% adoption of the SC formulation among US Keytruda patients by end-2027 (Q2 2026 commentary had put SC at a 'double-digit' share of the US business). Management also stated that a European injunction affecting Keytruda Qlex supply (the German Halozyme/Merck dispute, already tracked as 'halozyme_msd_germany-injunction-reversed_2026-11-19') was not expected to materially affect overall SC volumes. This is the first quantitative commercial-adoption/revenue data point logged for Keytruda Qlex -- prior rows cover its regulatory and patent-litigation history, not actual uptake -- and it directly answers the tracker's core question by quantifying how much of Keytruda's US volume has actually shifted to the high-concentration ALT-B4-enabled SC formulation.",
+          "molecule": "Pembrolizumab and berahyaluronidase alfa-pmph (KEYTRUDA QLEX) -- ALT-B4-enabled formulation",
+          "source_name": "Merck & Co. Q3 2026 earnings release (primary); Q3 2026 earnings call commentary relayed by Zacks and Fierce Pharma/Fierce Biotech (secondary corroboration for the 30-40% adoption target and injunction remarks)",
+          "source_url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-third-quarter-2026-financial-results-highlights-multiple-milestones-advancing-broad-diverse-pipeline",
+          "relevance": "High",
+          "confidence": "Primary",
+          "flagged": false,
+          "new_in_digest": true,
+          "summary_ko": "백필: 이 사건(머크의 2026년 3분기 실적 발표 및 컨퍼런스 콜)은 이번 실행의 약 24시간 조사 기간(한국시간 2026-11-26 09:13 ~ 2026-11-27 09:08)보다 약 4주 앞서며, 이미 추적 중인 KEYTRUDA QLEX(ALT-B4 기반 피하 펨브롤리주맙)의 상업적 채택(adoption) 데이터를 확인하기 위한 정규 Tier-2 신규 경쟁자·벤치마크 스윕에서 확인되었고 별도 deal_id로는 이전에 기록되지 않았다. 머크는 2026년 3분기 KEYTRUDA QLEX(SC) 매출이 $830M(8억3000만달러)(전분기 2분기 $463M(4억6300만달러)에서 증가)였으며, 키트루다·키트루다 큐렉스 합산 매출은 $8.6B(86억달러)(전년 대비 +6%)였다고 밝혔다. 실적 발표 콜에서 머크의 종양학 부문 사장은 2027년 말까지 미국 키트루다 환자 중 피하(SC) 제형 채택률을 30~40%까지 끌어올리겠다는 목표를 재확인했다(2026년 2분기 발언에서는 SC 비중이 미국 사업의 '두 자릿수(double-digit)' 수준이라고 언급했다). 경영진은 또한 키트루다 큐렉스 공급에 영향을 준 유럽(독일) 가처분(이미 추적 중인 'halozyme_msd_germany-injunction-reversed_2026-11-19' 건)이 전체 SC 물량에 실질적 영향을 주지는 않을 것으로 예상한다고 밝혔다. 이는 키트루다 큐렉스에 대해 처음으로 기록되는 정량적 상업적 채택·매출 데이터이며 -- 기존 행들은 규제·특허 소송 이력만을 다루었다 -- 키트루다의 실제 미국 물량 중 ALT-B4 기반 고농도 SC 제형으로 전환된 비율을 수치로 제시함으로써 이 트래커의 핵심 질문에 직접 답한다."
+        },
+        {
           "deal_id": "alteogen_msd_keytruda-sc-korea-launch_2026-10-01",
           "partner": "MSD Korea (한국MSD)",
           "deal_type": "Commercial launch / Product availability announcement",
@@ -3228,6 +3244,24 @@
       "technology_name": "IVL-BioFluidic (microfluidic/microsphere-based SC platform)"
     },
     {
+      "deal_id": "alteogen_msd_keytruda-qlex-q3-2026-earnings_2026-10-29",
+      "partner": "Merck & Co. (MSD)",
+      "deal_type": "Commercial / earnings disclosure",
+      "date": "2026-10-29",
+      "date_sort_key": 20261029,
+      "summary": "BACKFILL: event (Merck's Q3 2026 earnings release and call) predates this run's ~24h research window (2026-11-26 09:13 KST to 2026-11-27 09:08 KST) by about four weeks; surfaced during the routine Tier-2 new-competitor/benchmark sweep while checking for commercial-adoption data on the already-tracked KEYTRUDA QLEX (ALT-B4-enabled SC pembrolizumab) and not previously logged under its own deal_id. Merck reported KEYTRUDA QLEX (SC) sales of $830 million for Q3 2026, up from $463 million in Q2 2026, within combined KEYTRUDA/KEYTRUDA QLEX sales of $8.6 billion (+6% YoY). On the earnings call, Merck's oncology president reiterated the company's target of 30-40% adoption of the SC formulation among US Keytruda patients by end-2027 (Q2 2026 commentary had put SC at a 'double-digit' share of the US business). Management also stated that a European injunction affecting Keytruda Qlex supply (the German Halozyme/Merck dispute, already tracked as 'halozyme_msd_germany-injunction-reversed_2026-11-19') was not expected to materially affect overall SC volumes. This is the first quantitative commercial-adoption/revenue data point logged for Keytruda Qlex -- prior rows cover its regulatory and patent-litigation history, not actual uptake -- and it directly answers the tracker's core question by quantifying how much of Keytruda's US volume has actually shifted to the high-concentration ALT-B4-enabled SC formulation.",
+      "molecule": "Pembrolizumab and berahyaluronidase alfa-pmph (KEYTRUDA QLEX) -- ALT-B4-enabled formulation",
+      "source_name": "Merck & Co. Q3 2026 earnings release (primary); Q3 2026 earnings call commentary relayed by Zacks and Fierce Pharma/Fierce Biotech (secondary corroboration for the 30-40% adoption target and injunction remarks)",
+      "source_url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-third-quarter-2026-financial-results-highlights-multiple-milestones-advancing-broad-diverse-pipeline",
+      "relevance": "High",
+      "confidence": "Primary",
+      "flagged": false,
+      "new_in_digest": true,
+      "summary_ko": "백필: 이 사건(머크의 2026년 3분기 실적 발표 및 컨퍼런스 콜)은 이번 실행의 약 24시간 조사 기간(한국시간 2026-11-26 09:13 ~ 2026-11-27 09:08)보다 약 4주 앞서며, 이미 추적 중인 KEYTRUDA QLEX(ALT-B4 기반 피하 펨브롤리주맙)의 상업적 채택(adoption) 데이터를 확인하기 위한 정규 Tier-2 신규 경쟁자·벤치마크 스윕에서 확인되었고 별도 deal_id로는 이전에 기록되지 않았다. 머크는 2026년 3분기 KEYTRUDA QLEX(SC) 매출이 $830M(8억3000만달러)(전분기 2분기 $463M(4억6300만달러)에서 증가)였으며, 키트루다·키트루다 큐렉스 합산 매출은 $8.6B(86억달러)(전년 대비 +6%)였다고 밝혔다. 실적 발표 콜에서 머크의 종양학 부문 사장은 2027년 말까지 미국 키트루다 환자 중 피하(SC) 제형 채택률을 30~40%까지 끌어올리겠다는 목표를 재확인했다(2026년 2분기 발언에서는 SC 비중이 미국 사업의 '두 자릿수(double-digit)' 수준이라고 언급했다). 경영진은 또한 키트루다 큐렉스 공급에 영향을 준 유럽(독일) 가처분(이미 추적 중인 'halozyme_msd_germany-injunction-reversed_2026-11-19' 건)이 전체 SC 물량에 실질적 영향을 주지는 않을 것으로 예상한다고 밝혔다. 이는 키트루다 큐렉스에 대해 처음으로 기록되는 정량적 상업적 채택·매출 데이터이며 -- 기존 행들은 규제·특허 소송 이력만을 다루었다 -- 키트루다의 실제 미국 물량 중 ALT-B4 기반 고농도 SC 제형으로 전환된 비율을 수치로 제시함으로써 이 트래커의 핵심 질문에 직접 답한다.",
+      "technology_id": "alt-b4_hybrozyme",
+      "technology_name": "ALT-B4 / Hybrozyme (berahyaluronidase alfa)"
+    },
+    {
       "deal_id": "accord_henlius_zercepac-sc_chmp-day180-agenda_2026-10-15",
       "partner": "Accord Healthcare S.L.U. (EU marketing authorisation holder) / Shanghai Henlius Biotech (developer)",
       "deal_type": "Regulatory filing (pending CHMP extension application)",
@@ -3334,24 +3368,6 @@
       "summary_ko": "백필: Bambusa Therapeutics는 2026-10-01 발표를 통해, 진행 중인 아토피 피부염 대상 글로벌 1b/2a상에서 피하(SC) 코호트의 첫 환자 투약을 완료했다고 밝혔다. 이는 앞서 보고된 건강한 지원자 대상 SC 데이터 및 긍정적인 정맥주사 개념증명 결과에 이어진 것이다. BBT001은 IL-4Rα와 IL-31을 모두 차단하는 반감기 연장 이중특이항체로, IL-4Rα는 듀필루맙(Dupixent)의 주요 표적과 동일하여 본 트래커의 기준 제품과 직접적인 기전 경쟁 관계에 있으며, 이제 Dupixent의 통상적인 액상 제형이 아닌 자체 고농도 SC 제형으로 임상에 진입했다. 농도 수치(mg/mL)나 전달 기술(입자, 효소, 복합 제형) 세부사항은 공개되지 않았다. 이전에 추적되지 않았으며, 신규 기술 항목(bambusa_bbt001)으로 기록한다. 이번 실행의 조사 기간 시작(2026-10-05 09:11 KST) 하루 전이므로 신규가 아닌 백필로 기록한다.",
       "technology_id": "bambusa_bbt001",
       "technology_name": "BBT001 (half-life-extended bispecific, high-concentration SC formulation)"
-    },
-    {
-      "deal_id": "lonza_aseptic-spray-drying_platform-announcement_2026-10-01",
-      "partner": "N/A (CDMO platform disclosure, no named partner)",
-      "deal_type": "Platform/technology disclosure",
-      "date": "2026-10-01",
-      "date_sort_key": 20261001,
-      "summary": "BACKFILL: Lonza announced (2026-10-01) it is advancing its preclinical aseptic spray-drying program for high-dose biologics from proof-of-concept into a dedicated development phase at its Bend, Oregon site, targeting monoclonal antibodies, antibody-drug conjugates and peptides. The program aims to produce spray-dried microparticle suspensions that reduce the viscosity of highly concentrated formulations for subcutaneous delivery -- the same particle/suspension category as XeriJect, Hypercon and Microglassification -- offered as a CDMO service rather than a licensed platform. No partner, product, or concentration figure (mg/mL) disclosed. Not previously tracked; logged as a new technology entry (lonza_aseptic_spray_drying), a new CDMO entrant alongside Samsung Biologics' S-HiCon and WuXi Biologics' WuXiHigh 2.0. Secondary-sourced (trade press relaying Lonza statements; no Lonza.com press release located). One day before this run's research window opened (2026-10-05 09:11 KST); logged as backfill, not fresh.",
-      "molecule": "Platform (not molecule-specific); modalities cited: monoclonal antibodies, antibody-drug conjugates, peptides",
-      "source_name": "Contract Pharma (trade press, relaying Lonza statements)",
-      "source_url": "https://www.contractpharma.com/breaking-news/lonza-advances-aseptic-spray-drying-platform-for-high-dose-biologics/",
-      "relevance": "Medium",
-      "confidence": "Secondary",
-      "flagged": false,
-      "new_in_digest": false,
-      "summary_ko": "백필: Lonza는 2026-10-01 발표를 통해, 미국 오리건주 Bend 사업장에서 진행 중인 고용량 바이오의약품용 전임상 무균 분무건조 프로그램을 개념증명 단계에서 전담 개발 단계로 전환한다고 밝혔으며, 단클론항체, 항체-약물 접합체, 펩타이드를 대상으로 한다. 이 프로그램은 분무건조 미립자 현탁액을 만들어 피하 투여용 고농도 제형의 점도를 낮추는 것을 목표로 하며 -- XeriJect, Hypercon, Microglassification과 같은 입자·현탁 범주다 -- 라이선스형 플랫폼이 아니라 CDMO 서비스로 제공된다. 파트너, 제품, 농도 수치(mg/mL)는 공개되지 않았다. 이전에 추적되지 않았으며, 신규 기술 항목(lonza_aseptic_spray_drying)으로 기록한다. 삼성바이오로직스의 S-HiCon, WuXi Biologics의 WuXiHigh 2.0에 이은 신규 CDMO 진입자다. 2차 출처(Lonza 발언을 인용한 업계지 보도이며, Lonza.com 보도자료는 확인되지 않음). 이번 실행의 조사 기간 시작(2026-10-05 09:11 KST) 하루 전이므로 신규가 아닌 백필로 기록한다.",
-      "technology_id": "lonza_aseptic_spray_drying",
-      "technology_name": "Aseptic spray-dried microparticle suspension platform"
     }
   ]
 }
